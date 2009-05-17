@@ -1,0 +1,73 @@
+
+// Duke3D HRP Projectiles Definitions
+
+
+// Octabrain Mindblast (1360)
+texture 1360 { pal 0 { file "highres/sprites/projectiles/1360.png" } }
+texture 1361 { pal 0 { file "highres/sprites/projectiles/1361.png" } }
+texture 1362 { pal 0 { file "highres/sprites/projectiles/1362.png" } }
+texture 1363 { pal 0 { file "highres/sprites/projectiles/1363.png" } }
+texture 1364 { pal 0 { file "highres/sprites/projectiles/1364.png" } }
+texture 1365 { pal 0 { file "highres/sprites/projectiles/1365.png" } }
+texture 1366 { pal 0 { file "highres/sprites/projectiles/1366.png" } }
+texture 1367 { pal 0 { file "highres/sprites/projectiles/1367.png" } }
+texture 1368 { pal 0 { file "highres/sprites/projectiles/1368.png" } }
+texture 1369 { pal 0 { file "highres/sprites/projectiles/1369.png" } }
+texture 1370 { pal 0 { file "highres/sprites/projectiles/1370.png" } }
+texture 1371 { pal 0 { file "highres/sprites/projectiles/1371.png" } }
+texture 1372 { pal 0 { file "highres/sprites/projectiles/1372.png" } }
+texture 1373 { pal 0 { file "highres/sprites/projectiles/1373.png" } }
+texture 1374 { pal 0 { file "highres/sprites/projectiles/1374.png" } }
+texture 1375 { pal 0 { file "highres/sprites/projectiles/1375.png" } }
+texture 1376 { pal 0 { file "highres/sprites/projectiles/1376.png" } }
+texture 1377 { pal 0 { file "highres/sprites/projectiles/1377.png" } }
+texture 1378 { pal 0 { file "highres/sprites/projectiles/1378.png" } }
+texture 1379 { pal 0 { file "highres/sprites/projectiles/1379.png" } }
+
+// Trooper Laser (1625)
+texture 1625 { pal 0 { file "highres/sprites/projectiles/1625.png" } }
+
+// Freezer Crystals (1641)
+texture 1641 { pal 0 { file "highres/sprites/projectiles/1641.png" } }
+texture 1642 { pal 0 { file "highres/sprites/projectiles/1642.png" } }
+texture 1643 { pal 0 { file "highres/sprites/projectiles/1643.png" } }
+
+// Shrinker Ray (1646)
+texture 1646 { pal 0 { file "highres/sprites/projectiles/1646.png" } }
+texture 1647 { pal 0 { file "highres/sprites/projectiles/1647.png" } }
+texture 1648 { pal 0 { file "highres/sprites/projectiles/1648.png" } }
+texture 1649 { pal 0 { file "highres/sprites/projectiles/1649.png" } }
+
+// Battlelord Grenade (1650)
+model "highres/sprites/projectiles/1650_morter.md3" {
+   scale 2 shade 6
+   skin { pal 0 file "highres/sprites/projectiles/1650_blgrenade.png" }
+   glow { pal 0 file "highres/sprites/projectiles/1650_blgrenade_glow.png" }
+   anim { frame0 "Frame0" frame1 "Frame0" fps 1 flags 0 }
+   frame { name "Frame0" tile0 1650 tile1 1653 }
+}
+
+// Shrinker Blast (1656)
+texture 1656 { pal 0 { file "highres/sprites/projectiles/1656.png" } }
+texture 1657 { pal 0 { file "highres/sprites/projectiles/1657.png" } }
+texture 1658 { pal 0 { file "highres/sprites/projectiles/1658.png" } }
+texture 1659 { pal 0 { file "highres/sprites/projectiles/1659.png" } }
+
+// Expander Blast (2448)
+texture 2448 { pal 0 { file "highres/sprites/projectiles/2448.png" } }
+texture 2449 { pal 0 { file "highres/sprites/projectiles/2449.png" } }
+texture 2450 { pal 0 { file "highres/sprites/projectiles/2450.png" } }
+texture 2451 { pal 0 { file "highres/sprites/projectiles/2451.png" } }
+
+// Rocket (2605)
+model "highres/sprites/projectiles/2605_rocket.md2" {
+   scale 0.5 shade 0
+   skin { pal 0 file "highres/sprites/projectiles/2605_rocket.png" }
+   anim { frame0 "idle1" frame1 "idle2" fps 22 flags 0 }
+   frame { name "idle1" tile0 2605 tile1 2611 }
+}
+
+// Shell Casings (2533-2535)
+texture 2533 { pal 0 { file "highres/sprites/projectiles/2533.png" } }
+texture 2534 { pal 0 { file "highres/sprites/projectiles/2534.png" } }
+texture 2535 { pal 0 { file "highres/sprites/projectiles/2535.png" } }

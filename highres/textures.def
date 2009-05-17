@@ -1,0 +1,3564 @@
+
+// Textures for Duke3D HRP
+
+// Tiles000
+
+texture 0 { pal 0 { file "highres/textures/0000.png" } }
+
+texture 62 { pal 0 { file "highres/textures/0062.png" } }
+texture 63 { pal 0 { file "highres/textures/0063.png" } }
+texture 64 { pal 0 { file "highres/textures/0064.png" } }
+
+texture 70 { 
+   pal 0 { file "highres/textures/0070.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 } 
+}
+
+texture 81 { pal 0 { file "highres/textures/0081.jpg" } }
+texture 85 { pal 0 { file "highres/textures/0085.png" } }
+texture 86 { pal 0 { file "highres/textures/0086.png" } }
+texture 87 { pal 0 { file "highres/textures/0087.png" } }
+texture 88 { pal 0 { file "highres/textures/0088.jpg" } }
+
+texture 90 { pal 0 { file "highres/textures/0090.jpg" } }
+texture 98 { pal 0 { file "highres/textures/0098.png" } }
+
+
+texture 120 {
+   pal 0 { file "highres/textures/0120.png" specpower 25 specfactor 1 }
+   normal { file "highres/textures/0120_n.png" parallaxbias 0 parallaxscale 0.1 }
+   specular { file "highres/textures/0120_s.png" }
+   glow { file "highres/textures/0120_g.png" }
+}
+texture 121 {
+   pal 0 { file "highres/textures/0121.png" specpower 25 specfactor 1 }
+   normal { file "highres/textures/0121_n.png" parallaxbias 0 parallaxscale 0.1 }
+   specular { file "highres/textures/0121_s.png" }
+}
+texture 122 { pal 0 { file "highres/textures/0122.png" } }
+texture 123 { pal 0 { file "highres/textures/0123.png" } }
+texture 124 { pal 0 { file "highres/textures/0124.png" } }
+texture 125 { pal 0 { file "highres/textures/0125.png" } }
+texture 126 { pal 0 { file "highres/textures/0126.png" } }
+texture 127 { pal 0 { file "highres/textures/0127.png" } }
+texture 128 { pal 0 { file "highres/textures/0128.png" } }
+
+texture 150 { 
+   pal 0 { file "highres/textures/0150.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 151 { 
+   pal 0 { file "highres/textures/0151.png" specularpower 10 specularfactor 0.6 }
+   normal { file "highres/textures/0151_n.png" parallaxbias 0.05 parallaxscale 0.06 }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 152 { 
+   pal 0 { file "highres/textures/0152.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 153 { 
+   pal 0 { file "highres/textures/0153.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 154 { 
+   pal 0 { file "highres/textures/0154.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
+}
+texture 155 { 
+   pal 0 { file "highres/textures/0155.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
+}
+texture 156 { 
+   pal 0 { file "highres/textures/0156.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+}
+texture 157 { 
+   pal 0 { file "highres/textures/0157.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+}
+texture 158 { 
+   pal 0 { file "highres/textures/0158.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 159 {
+   pal 0 { file "highres/textures/0159.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+}
+
+texture 161 {
+   pal 0 { file "highres/textures/0161.png" }
+   detail { file "highres/detail/metal.png" xscale 1.6 yscale 0.8 }
+}
+
+texture 181 {
+   pal 0 { file "highres/textures/0181.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 182 {
+   pal 0 { file "highres/textures/0182.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 183 {
+   pal 0 { file "highres/textures/0183.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 184 {
+   pal 0 { file "highres/textures/0184.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 186 {
+   pal 0 { file "highres/textures/0186.png" specpower 20 specfactor 1 }
+   normal { file "highres/textures/0186_n.png" parallaxbias 0.002 parallaxscale 0.04 }
+   specular { file "highres/textures/0186_s.png" }
+   detail { file "highres/detail/paint.png" xscale 0.4 yscale 0.4 }
+}
+texture 187 {
+   pal 0 { file "highres/textures/0187.jpg" }
+   detail { file "highres/detail/paint.png" xscale 0.4 yscale 0.4 }
+}
+texture 188 {
+   pal 0 { file "highres/textures/0188.jpg" }
+   detail { file "highres/detail/paint.png" xscale 0.4 yscale 0.4 }
+}
+texture 189 {
+   pal 0 { file "highres/textures/0189.jpg" }
+   detail { file "highres/detail/paint.png" xscale 0.4 yscale 0.4 }
+}
+
+texture 190 {
+   pal 0 { file "highres/textures/0190.jpg" }
+   normal { file "highres/detail/paint.png" xscale 0.4 yscale 0.4 }
+}
+texture 191 {
+   pal 0 { file "highres/textures/0191.png" xscale 2.0 yscale 2.0 specpower 25 specfactor 1.5 }
+   normal { file "highres/textures/0191_n.png" parallaxbias 0.005 parallaxscale 0.01 }
+   detail { file "highres/detail/paint.png" xscale 0.9 yscale 0.9 }
+}
+texture 192 {
+   pal 0 { file "highres/textures/0192.jpg" }
+   detail { file "highres/detail/paint.png" xscale 0.4 yscale 0.4 }
+}
+texture 193 {
+   pal 0 { file "highres/textures/0193.png" }
+   detail { file "highres/detail/marble.png" xscale 0.7 yscale 0.3 }
+}
+texture 194 {
+   pal 0 { file "highres/textures/0194.jpg" }
+   detail { file "highres/detail/marble.png" xscale 0.7 yscale 0.3 }
+}
+texture 195 {
+   pal 0 { file "highres/textures/0195.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 196 {
+   pal 0 { file "highres/textures/0196.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 197 {
+   pal 0 { file "highres/textures/0197.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 198 { pal 0 { file "highres/textures/0504.png" } } // same as 504
+texture 199 { pal 0 { file "highres/textures/0199.png" } }
+
+texture 200 { 
+   pal 0 { file "highres/textures/0200.jpg" }
+   normal { file "highres/textures/0200_n.png" parallaxbias 0.02 parallaxscale 0.06 }
+}
+texture 201 { 
+   pal 0 { file "highres/textures/0201.jpg" }
+   normal { file "highres/textures/0201_n.png" parallaxbias 0.02 parallaxscale 0.06 }
+}
+texture 202 {
+   pal 0 { file "highres/textures/0202.jpg" }
+   normal { file "highres/textures/0202_n.png" parallaxbias 0.02 parallaxscale 0.06 }
+}
+texture 203 {
+   pal 0 { file "highres/textures/0203.jpg" }
+   normal { file "highres/textures/0203_n.png" }
+}
+texture 204 {
+   pal 0 { file "highres/textures/0204.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }  //x
+}
+texture 205 {
+   pal 0 { file "highres/textures/0205.png" xscale 2.0 }
+   detail { file "highres/detail/metal.png" xscale 1.2 yscale 0.3 }
+}
+texture 206 {
+   pal 0 { file "highres/textures/0206.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 1.36 yscale 0.17 }
+}
+texture 207 {
+   pal 0 { file "highres/textures/0207.png" xscale 2.0 }
+   pal 10 { file "highres/textures/0207_10.png" xscale 2.0 }
+   detail { file "highres/detail/metal_fine.png" xscale 0.68 yscale 0.17 }
+}
+texture 208 {
+   pal 0 { file "highres/textures/0208.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 1.36 yscale 0.17 }
+}
+texture 209 {
+   pal 0 { file "highres/textures/0209.png" xscale 2.0 }
+   detail { file "highres/detail/metal_fine.png" xscale 0.68 yscale 0.17 }
+}
+
+texture 210 {
+   pal 0 { file "highres/textures/0210.png" }
+}
+texture 211 {
+   pal 0 { file "highres/textures/0211.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 212 {
+   pal 0 { file "highres/textures/0212.png" xscale 2.0 }
+   detail { file "highres/detail/metal_fine.png" xscale 0.68 yscale 0.17 }
+}
+texture 213 {
+   pal 0 { file "highres/textures/0213.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 1.36 yscale 0.17 }
+}
+texture 214 {
+   pal 0 { file "highres/textures/0214.png" xscale 2.0 }
+   detail { file "highres/detail/metal_fine.png" xscale 0.68 yscale 0.17 }
+}
+texture 215 {
+   pal 0 { file "highres/textures/0215.png" xscale 2.0 }
+   detail { file "highres/detail/metal_fine.png" xscale 0.68 yscale 0.17 }
+}
+texture 216 {
+   pal 0 { file "highres/textures/0216.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 217 {
+   pal 0 { file "highres/textures/0217.png" }
+   detail { file "highres/detail/paint.png" xscale 6.4 yscale 0.4 }
+}
+texture 218 {
+   pal 0 { file "highres/textures/0218.png" xscale 2.0 }
+   detail { file "highres/detail/metal.png" xscale 1.2 yscale 0.3 }
+}
+
+texture 220 {
+   pal 0 { file "highres/textures/0220.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 221 {
+   pal 0 { file "highres/textures/0221.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 222 {
+   pal 0 { file "highres/textures/0222.png" }
+   normal { file "highres/textures/0222_n.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 223 {
+   pal 0 { file "highres/textures/0223.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 224 {
+   pal 0 { file "highres/textures/0224.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 225 {
+   pal 0 { file "highres/textures/0225.png" }
+}
+texture 226 {
+   pal 0 { file "highres/textures/0226.png" }
+   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.15 }
+}
+texture 227 {
+   pal 0 { file "highres/textures/0227.png" }
+   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.15 }
+}
+texture 228 {
+   pal 0 { file "highres/textures/0228.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 229 {
+   pal 0 { file "highres/textures/0229.png" }
+}
+
+texture 231 {
+   pal 0 { file "highres/textures/0231.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 232 {
+   pal 0 { file "highres/textures/0232.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 233 {
+   pal 0 { file "highres/textures/0233.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
+}
+texture 234 {
+   pal 0 { file "highres/textures/0234.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
+}
+texture 235 {
+   pal 0 { file "highres/textures/0235.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
+}
+texture 236 {
+   pal 0 { file "highres/textures/0236.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
+}
+texture 237 {
+   pal 0 { file "highres/textures/0237.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
+}
+texture 238 {
+   pal 0 { file "highres/textures/0238.jpg" specpower 5 specfactor 0.5 }
+   normal { file "highres/textures/0238_n.png" parallaxbias 0.02 parallaxscale 0.06 }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.15 }
+}
+texture 239 {
+   pal 0 { file "highres/textures/0239.jpg" parallaxbias 0.02 parallaxscale 0.06 }
+   normal { file "highres/textures/0239_n.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 240 {
+   pal 0 { file "highres/textures/0240.png" xscale 1.5 yscale 1.5 }
+   normal { file "highres/textures/0240_n.png" parallaxbias 0.04 parallaxscale 0.02  }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.15 }
+}
+texture 241 {
+   pal 0 { file "highres/textures/0241.png" }
+   normal { file "highres/textures/0241_n.png" }
+   detail { file "highres/detail/sand.png" xscale 0.3 yscale 0.3 }
+}
+texture 242 {
+   pal 0 { file "highres/textures/0242.png" }
+   detail { file "highres/detail/metal.png" xscale 0.2 yscale 0.2 }
+}
+texture 243 {
+   pal 0 { file "highres/textures/0243.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
+}
+texture 245 {
+   pal 0 { file "highres/textures/0245.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 246 {
+   pal 0 { file "highres/textures/0246.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 247 { pal 0 { file "highres/textures/0247.png" } }
+texture 248 {
+   pal 0 { file "highres/textures/0248.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
+}
+texture 249 {
+   pal 0 { file "highres/textures/0249.png" }
+   detail { file "highres/detail/alien_paint_1.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 250 {
+   pal 0 { file "highres/textures/0250.png" }
+   detail { file "highres/detail/alien_paint_0.png" xscale 0.3 yscale 0.15 }
+}
+texture 251 {
+   pal 0 { file "highres/textures/0251.png" }
+   pal 10 { file "highres/textures/0251_10.png" }
+   pal 11 { file "highres/textures/0251_11.png" }
+   pal 22 { file "highres/textures/0251_11.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 252 {
+   pal 0 { file "highres/textures/0252.png" }
+   pal 10 { file "highres/textures/0252_10.png" }
+   pal 11 { file "highres/textures/0252_11.png" }
+   pal 22 { file "highres/textures/0252_11.png" }
+   detail { file "highres/detail/metal.png" xscale 1.2 yscale 0.15 }
+}
+texture 253 {
+   pal 0 { file "highres/textures/0253.png" }
+   detail { file "highres/detail/metal.png" xscale 1.2 yscale 0.15 }
+}
+texture 254 { pal 0 { file "highres/textures/0254.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+
+// Tiles001
+
+texture 257 {
+   pal 0 { file "highres/textures/0257.png" }
+   detail { file "highres/detail/metal.png" xscale 1.2 yscale 0.15 }
+}
+texture 258 {
+   pal 0 { file "highres/textures/0258.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 1.2 yscale 0.15 }
+   glow { file "highres/textures/0258_g.png" }
+}
+texture 259 {
+   pal 0 { file "highres/textures/0259.png" }
+   detail { file "highres/detail/concrete8.png" xscale 0.6 yscale 0.15 }
+}
+
+texture 260 {
+   pal 0 { file "highres/textures/0260.jpg" }
+   pal 21 { file "highres/textures/0260_21.jpg" }
+}
+texture 261 {
+   pal 0 { file "highres/textures/0261.jpg" }
+   pal 21 { file "highres/textures/0261_21.jpg" }
+}
+texture 262 {
+   pal 0 { file "highres/textures/0262.jpg" }
+   pal 21 { file "highres/textures/0262_21.jpg" }
+}
+texture 263 { pal 0 { file "highres/textures/0263.jpg" } }
+texture 264 { pal 0 { file "highres/textures/0264.jpg" } }
+texture 265 { pal 0 { file "highres/textures/0265.jpg" } }
+texture 266 { pal 0 { file "highres/textures/0266.jpg" } }
+texture 267 { pal 0 { file "highres/textures/0267.jpg" } }
+texture 268 { pal 0 { file "highres/textures/0268.jpg" } }
+texture 269 { pal 0 { file "highres/textures/0269.jpg" } }
+texture 270 { pal 0 { file "highres/textures/0270.jpg" } }
+
+texture 271 { pal 0 { file "highres/textures/0271.jpg" } }
+texture 272 { pal 0 { file "highres/textures/0272.jpg" } }
+texture 273 { pal 0 { file "highres/textures/0273.jpg" } }
+texture 274 { pal 0 { file "highres/textures/0274.jpg" } }
+texture 275 { pal 0 { file "highres/textures/0275.jpg" } }
+texture 276 {
+   pal 0 { file "highres/textures/0276.png" }
+   pal 2 { file "highres/textures/0276_2.png" }
+}
+texture 278 { 
+   pal 0 { file "highres/textures/0278.png" } 
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.3 }
+}
+
+texture 283 {
+   pal 0 { file "highres/textures/0283.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 284 {
+   pal 0 { file "highres/textures/0284.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 285 {
+   pal 0 { file "highres/textures/0285.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 286 {
+   pal 0 { file "highres/textures/0286.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 287 { pal 0 { file "highres/textures/0287.png" } }
+texture 288 {
+   pal 0 { file "highres/textures/0288.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 289 {
+   pal 0 { file "highres/textures/0289.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+
+texture 290 {
+   pal 0 { file "highres/textures/0290.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 291 {
+   pal 0 { file "highres/textures/0291.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 292 {
+   pal 0 { file "highres/textures/0292.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 293 { pal 0 { file "highres/textures/0293.png" } }
+texture 294 {
+   pal 0 { file "highres/textures/0294.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+   glow { file "highres/textures/0294_g.png" }
+}
+texture 295 {
+   pal 0 { file "highres/textures/0295.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+   glow { file "highres/textures/0295_g.png" }
+}
+texture 296 {
+   pal 0 { file "highres/textures/0296.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+   glow { file "highres/textures/0296_g.png" }
+}
+texture 297 { pal 0 { file "highres/textures/0297.png" } }
+texture 298 { pal 0 { file "highres/textures/0298.png" } }
+texture 299 { pal 0 { file "highres/textures/0299.png" } }
+
+
+texture 300 { pal 0 { file "highres/textures/0300.png" } }
+texture 301 { pal 0 { file "highres/textures/0301.png" } }
+texture 302 { pal 0 { file "highres/textures/0302.png" } }
+texture 303 { pal 0 { file "highres/textures/0303.png" } }
+texture 304 { 
+   pal 0 { file "highres/textures/0304.png" } 
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
+}
+texture 305 { pal 0 { file "highres/textures/0305.png" } }
+texture 306 { pal 0 { file "highres/textures/0306.png" } }
+texture 307 { pal 0 { file "highres/textures/0307.png" } }
+texture 309 {
+   pal 0 { file "highres/textures/0309.png" }
+   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.4 }
+   glow { file "highres/textures/0309_g.png" }
+}
+
+texture 310 { pal 0 { file "highres/textures/0310.png" } }
+texture 311 {
+   pal 0 { file "highres/textures/0311.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+}
+texture 312 {
+   pal 0 { file "highres/textures/0312.png" }
+   normal { file "highres/textures/0312_n.png" parallaxbias 0.01 parallaxscale 0.02 }
+   detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
+}
+texture 313 {
+   pal 0 { file "highres/textures/0313.png" }
+   normal { file "highres/textures/0313_n.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
+}
+texture 314 {
+   pal 0 { file "highres/textures/0314.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
+}
+texture 315 {
+   pal 0 { file "highres/textures/0315.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.075 yscale 0.075 }
+}
+texture 317 {
+   pal 0 { file "highres/textures/0317.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+}
+texture 318 {
+   pal 0 { file "highres/textures/0318.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+}
+
+texture 322 {
+   pal 0 { file "highres/textures/0322.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+}
+texture 325 {
+   pal 0 { file "highres/textures/0325.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.3 }
+}
+texture 326 {
+   pal 0 { file "highres/textures/0326.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.3 }
+}
+texture 327 {
+   pal 0 { file "highres/textures/0327.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 329 {
+   pal 0 { file "highres/textures/0329.png" }
+   glow { file "highres/textures/0329_g.png" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 330 {
+   pal 0 { file "highres/textures/0330.png" }
+   glow { file "highres/textures/0330_g.png" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 331 { pal 0 { file "highres/textures/0331.png" } }
+texture 332 {
+   pal 0 { file "highres/textures/0332.jpg" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 333 {
+   pal 0 { file "highres/textures/0333.png" }
+   detail { file "highres/detail/alien_metal_1.png" xscale 0.3 yscale 0.15 }
+}
+texture 334 {
+   pal 0 { file "highres/textures/0334.png" }
+   detail { file "highres/detail/alien_metal_0.png" xscale 0.3 yscale 0.15 }
+}
+texture 335 {
+   pal 0 { file "highres/textures/0335.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 336 {
+   pal 0 { file "highres/textures/0336.jpg" specpower 20 specfactor 2.5 }
+   pal 2 { file "highres/textures/0336_2.jpg" }
+   pal 21 { file "highres/textures/0336_2.jpg" }
+   normal { file "highres/textures/0336_n.png" parallaxbias 0.3 parallaxscale 0.6 }
+}
+texture 337 {
+   pal 0 { file "highres/textures/0337.jpg" specpower 20 specfactor 2.5 }
+   pal 2 { file "highres/textures/0337_2.jpg" }
+   pal 21 { file "highres/textures/0337_2.jpg" }
+   normal { file "highres/textures/0337_n.png" parallaxbias 0.3 parallaxscale 0.6 }
+}
+texture 338 {
+   pal 0 { file "highres/textures/0338.jpg"  specpower 20 specfactor 2.5 }
+   pal 2 { file "highres/textures/0338_2.jpg" }
+   pal 21 { file "highres/textures/0338_2.jpg" }
+   normal { file "highres/textures/0338_n.png" parallaxbias 0.3 parallaxscale 0.6 }
+}
+
+texture 340 {
+   pal 0 { file "highres/textures/0340.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 341 {
+   pal 0 { file "highres/textures/0341.png" }
+   normal { file "highres/textures/0341_n.png"  parallaxbias 0 parallaxscale 0.1 }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 342 {
+   pal 0 { file "highres/textures/0342.png" }
+   normal { file "highres/textures/0342_n.png"  parallaxbias 0 parallaxscale 0.1 }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 343 {
+   pal 0 { file "highres/textures/0343.png" }
+   normal { file "highres/textures/0343_n.png"  parallaxbias 0 parallaxscale 0.1 }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 344 {
+   pal 0 { file "highres/textures/0344.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 345 {
+   pal 0 { file "highres/textures/0345.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 346 {
+   pal 0 { file "highres/textures/0346.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 347 {
+   pal 0 { file "highres/textures/0347.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 348 {
+   pal 0 { file "highres/textures/0348.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 349 {
+   pal 0 { file "highres/textures/0349.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 350 {
+   pal 0 { file "highres/textures/0350.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 352 {
+   pal 0 { file "highres/textures/0352.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
+}
+texture 353 {
+   pal 0 { file "highres/textures/0353.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 354 {
+   pal 0 { file "highres/textures/0354.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
+}
+texture 355 {
+   pal 0 { file "highres/textures/0355.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 357 { pal 0 { file "highres/textures/0357.jpg" } }
+texture 358 { pal 0 { file "highres/textures/0358.jpg" } }
+texture 359 { pal 0 { file "highres/textures/0359.jpg" } }
+
+texture 360 { pal 0 { file "highres/textures/0360.png" } }
+texture 361 { pal 0 { file "highres/textures/0361.png" } }
+texture 362 { pal 0 { file "highres/textures/0362.png" } }
+texture 363 { pal 0 { file "highres/textures/0363.png" } }
+texture 365 {
+   pal 0 { file "highres/textures/0365.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 366 {
+   pal 0 { file "highres/textures/0366.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 367 {
+   pal 0 { file "highres/textures/0367.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 368 {
+   pal 0 { file "highres/textures/0368.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 369 {
+   pal 0 { file "highres/textures/0369.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 370 {
+   pal 0 { file "highres/textures/0370.jpg" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 }
+}
+texture 371 {
+   pal 0 { file "highres/textures/0371.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 372 {
+   pal 0 { file "highres/textures/0372.png" }
+   normal { file "highres/textures/0372_n.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.3 }
+}
+texture 373 {
+   pal 0 { file "highres/textures/0373.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 374 {
+   pal 0 { file "highres/textures/0374.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 375 {
+   pal 0 { file "highres/textures/0375.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 376 {
+   pal 0 { file "highres/textures/0376.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.3 }
+}
+texture 377 {
+   pal 0 { file "highres/textures/0377.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.3 }
+}
+texture 378 {
+   pal 0 { file "highres/textures/0378.png" }
+}
+texture 379 {
+   pal 0 { file "highres/textures/0379.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 380 {
+   pal 0 { file "highres/textures/0380.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 381 {
+   pal 0 { file "highres/textures/0381.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 382 {
+   pal 0 { file "highres/textures/0382.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 383 {
+   pal 0 { file "highres/textures/0383.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+}
+texture 384 {
+   pal 0 { file "highres/textures/0384.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 385 {
+   pal 0 { file "highres/textures/0385.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 387 {
+   pal 0 { file "highres/textures/0387.png" }
+   pal 15 { file "highres/textures/0387_15.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+}
+texture 388 {
+   pal 0 { file "highres/textures/0388.png" }
+   pal 15 { file "highres/textures/0388_15.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 1.2 }
+}
+texture 389 {
+   pal 0 { file "highres/textures/0389.png" }
+   pal 15 { file "highres/textures/0389_15.png" }
+   pal 21 { file "highres/textures/0389_21.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+}
+
+texture 390 {
+   pal 0 { file "highres/textures/0390.png" }
+   pal 15 { file "highres/textures/0390_15.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 392 {
+   pal 0 { file "highres/textures/0392.png" }
+   detail { file "highres/detail/rust.png" xscale 0.15 yscale 0.15 }
+}
+texture 393 {
+   pal 0 { file "highres/textures/0393.png" }
+   detail { file "highres/detail/rust.png" xscale 1.2 yscale 0.15 }
+}
+texture 394 {
+   pal 0 { file "highres/textures/0394.png" }
+   detail { file "highres/detail/rust.png" xscale 0.15 yscale 0.15 }
+}
+texture 395 {
+   pal 0 { file "highres/textures/0395.png" }
+   detail { file "highres/detail/rust.png" xscale 0.15 yscale 0.15 }
+}
+texture 396 {
+   pal 0 { file "highres/textures/0396.png" }
+   detail { file "highres/detail/rust.png" xscale 0.15 yscale 0.15 }
+}
+texture 397 {
+   pal 0 { file "highres/textures/0397.jpg" }
+   detail { file "highres/detail/rust.png" xscale 0.15 yscale 0.15 }
+}
+texture 398 {
+   pal 0 { file "highres/textures/0352.png" } // same texture as 352
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
+} 
+texture 399 {
+   pal 0 { file "highres/textures/0399.jpg" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 401 { pal 0 { file "highres/textures/0401.png" } }
+texture 402 {
+   pal 0 { file "highres/textures/0402.png" }
+   detail { file "highres/detail/alien_rust_0.png" xscale 0.3 yscale 0.15 }
+}
+texture 403 {
+   pal 0 { file "highres/textures/0403.png" }
+   detail { file "highres/detail/alien_rust_0.png" xscale 0.15 yscale 0.15 }
+}
+texture 405 {
+   pal 0 { file "highres/textures/0405.png" }
+   detail { file "highres/detail/alien_rust_0.png" xscale 0.3 yscale 0.15 }
+}
+texture 406 {
+   pal 0 { file "highres/textures/0406.png" }
+   detail { file "highres/detail/alien_rust_0.png" xscale 0.15 yscale 0.15 }
+}
+texture 407 {
+   pal 0 { file "highres/textures/0407.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 408 {
+   pal 0 { file "highres/textures/0408.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 409 {
+   pal 0 { file "highres/textures/0409.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 410 {
+   pal 0 { file "highres/textures/0410.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 411 {
+   pal 0 { file "highres/textures/0411.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 412 {
+   pal 0 { file "highres/textures/0412.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 413 {
+   pal 0 { file "highres/textures/0413.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 414 {
+   pal 0 { file "highres/textures/0414.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 417 {
+   pal 0 { file "highres/textures/0417.png" }
+   detail { file "highres/detail/concrete_smooth2.png" xscale 0.3 yscale 0.3 }
+}
+texture 419 {
+   pal 0 { file "highres/textures/0419.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 420 {
+   pal 0 { file "highres/textures/0420.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
+}
+texture 421 {
+   pal 0 { file "highres/textures/0421.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.225 }
+}
+texture 422 {
+   pal 0 { file "highres/textures/0422.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.225 }
+}
+texture 423 {
+   pal 0 { file "highres/textures/0423.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.225 }
+}
+texture 424 {
+   pal 0 { file "highres/textures/0424.png" }
+   detail { file "highres/detail/paint.png" xscale 0.15 yscale 0.15 }
+}
+texture 425 {
+   pal 0 { file "highres/textures/0425.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.15 }
+}
+texture 426 { pal 0 { file "highres/textures/0426.png" } }
+texture 427 { pal 0 { file "highres/textures/0427.png" nocompress } }
+texture 428 { pal 0 { file "highres/textures/0428.png" nocompress } }
+texture 429 {
+   pal 0 { file "highres/textures/0429.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 430 {
+   pal 0 { file "highres/textures/0430.png" }
+   detail { file "highres/detail/paint.png" xscale 0.15 yscale 0.15 }
+}
+texture 431 {
+   pal 0 { file "highres/textures/0431.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.6 }
+}
+texture 432 {
+   pal 0 { file "highres/textures/0432.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.45 }
+}
+texture 433 {
+   pal 0 { file "highres/textures/0433.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.6 }
+}
+texture 434 {
+   pal 0 { file "highres/textures/0434.png" }
+   detail { file "highres/detail/paint.png" xscale 0.15 yscale 0.6 }
+}
+texture 435 {
+   pal 0 { file "highres/textures/0435.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.6 yscale 0.15 }
+}
+texture 436 { pal 0 { file "highres/textures/0436.jpg" } }
+texture 437 {
+   pal 0 { file "highres/textures/0437.png" }
+   normal { file "highres/textures/0437_n.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 438 {
+   pal 0 { file "highres/textures/0438.png" }
+   detail { file "highres/detail/rust.png" xscale 0.6 yscale 0.15 }
+}
+texture 439 {
+   pal 0 { file "highres/textures/0439.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 441 {
+   pal 0 { file "highres/textures/0441.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+}
+texture 442 {
+   pal 0 { file "highres/textures/0442.png" }
+   pal 8 { file "highres/textures/0442_8.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
+}
+texture 444 {
+   pal 0 { file "highres/textures/0444.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
+}
+texture 446 {
+   pal 0 { file "highres/textures/0446.jpg" }
+   pal 18 { file "highres/textures/0446_18.jpg" }
+   pal 21 { file "highres/textures/0446_21.jpg" }
+   pal 22 { file "highres/textures/0446_22.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+}
+texture 447 {
+   pal 0 { file "highres/textures/0447.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 448 {
+   pal 0 { file "highres/textures/0448.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 449 {
+   pal 0 { file "highres/textures/0449.png" }
+   detail { file "highres/detail/metal.png" xscale 0.075 yscale 0.15 }
+}
+
+texture 450 {
+   pal 0 { file "highres/textures/0450.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 451 {
+   pal 0 { file "highres/textures/0451.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+   glow { file "highres/textures/0451_g.png" }
+}
+texture 452 {
+   pal 0 { file "highres/textures/0452.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 453 {
+   pal 0 { file "highres/textures/0453.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 454 {
+   pal 0 { file "highres/textures/0454.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 455 {
+   pal 0 { file "highres/textures/0455.png" }
+   detail { file "highres/detail/metal.png" xscale 0.075 yscale 0.15 }
+}
+texture 457 {
+   pal 0 { file "highres/textures/0457.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 458 {
+   pal 0 { file "highres/textures/0458.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 459 {
+   pal 0 { file "highres/textures/0459.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 460 {
+   pal 0 { file "highres/textures/0460.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 461 {
+   pal 0 { file "highres/textures/0461.png" }
+   detail { file "highres/detail/concrete_smooth2.png" xscale 0.15 yscale 0.15 }
+}
+texture 462 {
+   pal 0 { file "highres/textures/0462.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 463 {
+   pal 0 { file "highres/textures/0463.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 464 {
+   pal 0 { file "highres/textures/0464.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 465 {
+   pal 0 { file "highres/textures/0465.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 466 {
+   pal 0 { file "highres/textures/0466.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 467 {
+   pal 0 { file "highres/textures/0467.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 468 {
+   pal 0 { file "highres/textures/0468.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 469 {
+   pal 0 { file "highres/textures/0469.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 470 {
+   pal 0 { file "highres/textures/0470.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 471 {
+   pal 0 { file "highres/textures/0471.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 472 {
+   pal 0 { file "highres/textures/0472.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 474 {
+   pal 0 { file "highres/textures/0474.png" }
+   normal { file "highres/textures/0474_n.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 475 {
+   pal 0 { file "highres/textures/0475.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 476 {
+   pal 0 { file "highres/textures/0476.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 477 { 
+   pal 0 { file "highres/textures/0477.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 } 
+}
+texture 478 {
+   pal 0 { file "highres/textures/0478.png" }
+   normal { file "highres/textures/0478_n.png" }
+   detail { file "highres/detail/sand.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 481 {
+   pal 0 { file "highres/textures/0481.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 482 {
+   pal 0 { file "highres/textures/0482.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 483 {
+   pal 0 { file "highres/textures/0483.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 484 {
+   pal 0 { file "highres/textures/0484.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 485 {
+   pal 0 { file "highres/textures/0485.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 486 {
+   pal 0 { file "highres/textures/0486.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 488 {
+   pal 0 { file "highres/textures/0488.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+
+texture 499 { pal 0 { file "highres/textures/0499.jpg" nocompress } }
+
+texture 501 { pal 0 { file "highres/textures/0501.png" } }
+texture 502 { pal 0 { file "highres/textures/0502.png" nocompress } }
+texture 503 {
+   pal 0 { file "highres/textures/0503.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 504 {
+   pal 0 { file "highres/textures/0504.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+// Tiles002
+
+texture 513 {
+   pal 0 { file "highres/textures/0513.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 514 {
+   pal 0 { file "highres/textures/0514.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
+}
+texture 515 {
+   pal 0 { file "highres/textures/0515.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 527 { pal 0 { file "highres/textures/0527.png" } }
+texture 528 { pal 0 { file "highres/textures/0528.png" } }
+texture 529 { pal 0 { file "highres/textures/0529.png" } }
+
+texture 530 { pal 0 { file "highres/textures/0530.png" } }
+texture 531 { pal 0 { file "highres/textures/0531.png" } }
+texture 532 { pal 0 { file "highres/textures/0532.png" } }
+texture 533 { pal 0 { file "highres/textures/0533.png" } }
+texture 534 { pal 0 { file "highres/textures/0534.png" } }
+texture 535 { pal 0 { file "highres/textures/0535.png" } }
+texture 538 {
+   pal 0 { file "highres/textures/0538.jpg" }
+   pal 1 { file "highres/textures/0538.jpg" }
+}
+texture 539 {
+   pal 0 { file "highres/textures/0539.jpg" }
+   pal 1 { file "highres/textures/0539.jpg" }
+}
+
+texture 540 {
+   pal 0 { file "highres/textures/0540.jpg" }
+   pal 1 { file "highres/textures/0540.jpg" }
+}
+texture 541 {
+   pal 0 { file "highres/textures/0541.jpg" }
+   pal 1 { file "highres/textures/0541.jpg" }
+}
+texture 545 {
+   pal 0 { file "highres/textures/0545.jpg" }
+   normal { file "highres/textures/0545_n.png" }
+   detail { file "highres/detail/fabric.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 575 {
+   pal 0 { file "highres/textures/0575.png" }
+   normal { file "highres/textures/0575_n.png" parallaxbias 0.1 parallaxscale 0.15 nocompress }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 576 {
+   pal 0 { file "highres/textures/0576.png" }
+   normal { file "highres/textures/0576_n.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.3 }
+}
+
+
+texture 609 {
+   pal 0 { file "highres/textures/0609.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 626 {
+   pal 0 { file "highres/textures/0626.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 627 {
+   pal 0 { file "highres/textures/0627.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 628 {
+   pal 0 { file "highres/textures/0628.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 629 {
+   pal 0 { file "highres/textures/0629.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 630 {
+   pal 0 { file "highres/textures/0630.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 1.2 }
+}
+texture 638 { pal 0 { file "highres/textures/0638.png" nocompress } }
+
+texture 701 { 
+   pal 0 { file "highres/textures/0701.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.3 }
+}
+texture 702 {
+   pal 0 { file "highres/textures/0702.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.3 }
+}
+texture 703 {
+   pal 0 { file "highres/textures/0703.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.6 }
+}
+texture 704 {
+   pal 0 { file "highres/textures/0704.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.6 }
+}
+texture 705 {
+   pal 0 { file "highres/textures/0705.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+}
+texture 706 {
+   pal 0 { file "highres/textures/0706.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+}
+texture 707 {
+   pal 0 { file "highres/textures/0707.jpg" }
+   pal 7 { file "highres/textures/0707_7.jpg" }
+   pal 8 { file "highres/textures/0707_8.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+}
+texture 708 {
+   pal 0 { file "highres/textures/0708.jpg" }
+   pal 7 { file "highres/textures/0708_7.jpg" }
+   pal 8 { file "highres/textures/0708_8.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+}
+texture 709 {
+   pal 0 { file "highres/textures/0709.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 711 {
+   pal 0 { file "highres/textures/0711.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 715 {
+   pal 0 { file "highres/textures/0715.png" }
+   detail { file "highres/detail/rust.png" xscale 0.15 yscale 0.15 }
+}
+texture 717 {
+   pal 0 { file "highres/textures/0717.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 718 {
+   pal 0 { file "highres/textures/0718.png" }
+   normal { file "highres/textures/0718_n.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+texture 719 {
+   pal 0 { file "highres/textures/0719.png" specpower 9 specfactor 1.75 }
+   normal { file "highres/textures/0719_n.png" parallaxbias 0.04 parallaxscale 0.1 }
+   specular { file "highres/textures/0719_s.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 720 {
+   pal 0 { file "highres/textures/0720.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 723 {
+   pal 0 { file "highres/textures/0723.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.075 }
+}
+texture 724 {
+   pal 0 { file "highres/textures/0724.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.075 }
+}
+texture 725 {
+   pal 0 { file "highres/textures/0725.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.075 yscale 0.075 }
+}
+texture 726 {
+   pal 0 { file "highres/textures/0726.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 727 {
+   pal 0 { file "highres/textures/0727.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.6 yscale 0.15 }
+}
+texture 729 {
+   pal 0 { file "highres/textures/0729.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 734 {
+   pal 0 { file "highres/textures/0734.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.15 }
+}
+texture 735 {
+   pal 0 { file "highres/textures/0735.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 736 {
+   pal 0 { file "highres/textures/0736.png" }
+}
+texture 739 {
+   pal 0 { file "highres/textures/0739.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 740 {
+   pal 0 { file "highres/textures/0740.png" }
+   normal { file "highres/textures/0740_n.png" }
+   detail { file "highres/detail/concrete_smooth2.png" xscale 0.3 yscale 0.3 }
+}
+texture 742 {
+   pal 0 { file "highres/textures/0742.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+texture 743 {
+   pal 0 { file "highres/textures/0743.png" specpower 1.5 specfactor 1.5 }
+   normal { file "highres/textures/0743_n.png" parallaxbias 0.09 parallaxscale 0.1 }
+   specular { file "highres/textures/0743_s.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.075 }
+}
+texture 744 {
+   pal 0 { file "highres/textures/0744.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 745 {
+   pal 0 { file "highres/textures/0745.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 746 {
+   pal 0 { file "highres/textures/0746.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
+}
+texture 747 {
+   pal 0 { file "highres/textures/0747.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 1.2 }
+}
+texture 748 {
+   pal 0 { file "highres/textures/0748.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 749 {
+   pal 0 { file "highres/textures/0749.jpg" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 750 {
+   pal 0 { file "highres/textures/0750.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 751 {
+   pal 0 { file "highres/textures/0751.png" }
+   detail { file "highres/detail/alien_paint_1.png" xscale 0.3 yscale 0.3 }
+}
+texture 752 {
+   pal 0 { file "highres/textures/0752.png" }
+   detail { file "highres/detail/alien_paint_1.png" xscale 0.3 yscale 0.3 }
+}
+texture 754 {
+   pal 0 { file "highres/textures/0754.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 755 {
+   pal 0 { file "highres/textures/0755.png" xscale 2.0 yscale 2.0 }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 756 {
+   pal 0 { file "highres/textures/0756.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.6 }
+}
+texture 757 {
+   pal 0 { file "highres/textures/0757.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+texture 758 {
+   pal 0 { file "highres/textures/0758.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 759 {
+   pal 0 { file "highres/textures/0759.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.6 yscale 0.15 }
+}
+
+texture 760 {
+   pal 0 { file "highres/textures/0760.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.15 }
+}
+texture 761 {
+   pal 0 { file "highres/textures/0761.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.15 }
+}
+texture 763 { 
+   pal 0 { file "highres/textures/0763.png" }
+   detail { file "highres/detail/concrete_smooth2.png" xscale 0.15 yscale 0.15 }
+}
+texture 764 {
+   pal 0 { file "highres/textures/0764.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+texture 767 {
+   pal 0 { file "highres/textures/0767.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
+}
+
+// Tiles003
+
+texture 770 {
+   pal 0 { file "highres/textures/0770.png" }
+   detail { file "highres/detail/dirt2.png" xscale 0.3 yscale 0.15 }
+}
+texture 771 {
+   pal 0 { file "highres/textures/0771.png" }
+   detail { file "highres/detail/sand.png" xscale 0.3 yscale 0.3 }
+}
+texture 772 {
+   pal 0 { file "highres/textures/0772.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 773 { pal 0 { file "highres/textures/0773.png" } }
+texture 775 { pal 0 { file "highres/textures/0775.png" } }
+
+texture 780 {
+   pal 0 { file "highres/textures/0780.png" }
+   detail { file "highres/detail/dirt2.png" xscale 0.3 yscale 0.3 }
+}
+texture 781 {
+   pal 0 { file "highres/textures/0781.png" }
+   detail { file "highres/detail/sand.png" xscale 0.3 yscale 0.15 }
+}
+texture 782 {
+   pal 0 { file "highres/textures/0782.png" specpower 3 specfactor 0.2 }
+   normal { file "highres/textures/0782_n.png" parallaxbias 0.015 parallaxscale 0.02 }
+   detail { file "highres/detail/dirt2.png" xscale 0.3 yscale 0.3 }
+}
+texture 783 {
+   pal 0 { file "highres/textures/0783.png" }
+   normal { file "highres/textures/0783_n.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 786 {
+   pal 0 { file "highres/textures/0786.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 787 {
+   pal 0 { file "highres/textures/0787.png" }
+   detail { file "highres/detail/fabric.png" xscale 0.3 yscale 0.3 }
+}
+texture 788 {
+   pal 0 { file "highres/textures/0788.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 789 { pal 0 { file "highres/textures/0789.png" } }
+
+texture 790 {
+   pal 0 { file "highres/textures/0790.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 791 {
+   pal 0 { file "highres/textures/0791.png" }
+   pal 8 { file "highres/textures/0791_8.jpg" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.3 }
+}
+texture 793 {
+   pal 0 { file "highres/textures/0793.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 01.2 yscale 0.3 }
+}
+texture 794 {
+   pal 0 { file "highres/textures/0794.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.15 }
+}
+texture 795 {
+   pal 0 { file "highres/textures/0795.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 796 {
+   pal 0 { file "highres/textures/0796.jpg" }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.15 }
+}
+texture 797 {
+   pal 0 { file "highres/textures/0797.png" }
+   pal 8 { file "highres/textures/0797_8.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 799 {
+   pal 0 { file "highres/textures/0799.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 1.2 }
+}
+
+
+texture 800 {
+   pal 0 { file "highres/textures/0800.png" }
+   detail { file "highres/detail/sand.png" xscale 0.3 yscale 0.3 }
+}
+texture 801 {
+   pal 0 { file "highres/textures/0801.png" specpower 2.5 specfactor 0.2 }
+   normal { file "highres/textures/0801_n.png" parallaxbias 0.02 parallaxscale 0.03 }
+   detail { file "highres/detail/dirt2.png" xscale 0.3 yscale 0.3 }
+}
+texture 802 {
+   pal 0 { file "highres/textures/0802.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 803 {
+   pal 0 { file "highres/textures/0803.png" }
+   detail { file "highres/detail/grass.png" xscale 0.3 yscale 0.3 }
+}
+texture 804 {
+   pal 0 { file "highres/textures/0804.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 1.2 }
+}
+texture 805 {
+   pal 0 { file "highres/textures/0805.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 806 {
+   pal 0 { file "highres/textures/0806.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 807 {
+   pal 0 { file "highres/textures/0807.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 808 {
+   pal 0 { file "highres/textures/0808.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 810 {
+   pal 0 { file "highres/textures/0810.png" }
+   pal 10 { file "highres/textures/0810_10.png" }
+   pal 11 { file "highres/textures/0810_11.png" }
+   pal 12 { file "highres/textures/0810_12.png" }
+   pal 13 { file "highres/textures/0810_13.png" }
+   pal 14 { file "highres/textures/0810_14.png" }
+   pal 15 { file "highres/textures/0810_15.png" }
+   pal 16 { file "highres/textures/0810_16.png" }
+   pal 17 { file "highres/textures/0810_17.png" }
+   pal 18 { file "highres/textures/0810_12.png" }
+   pal 19 { file "highres/textures/0810_12.png" }
+   pal 20 { file "highres/textures/0810_12.png" }
+   pal 21 { file "highres/textures/0810_21.png" }
+   pal 22 { file "highres/textures/0810_11.png" }
+   pal 23 { file "highres/textures/0810_23.png" }
+   detail { file "highres/detail/fabric.png" xscale 0.3 yscale 0.6 }
+}
+texture 811 {
+   pal 0 { file "highres/textures/0811.png" }
+   pal 10 { file "highres/textures/0811_10.png" }
+   pal 11 { file "highres/textures/0811_11.png" }
+   pal 12 { file "highres/textures/0811_12.png" }
+   pal 13 { file "highres/textures/0811_13.png" }
+   pal 14 { file "highres/textures/0811_14.png" }
+   pal 15 { file "highres/textures/0811_15.png" }
+   pal 16 { file "highres/textures/0811_16.png" }
+   pal 17 { file "highres/textures/0811_17.png" }
+   pal 18 { file "highres/textures/0811_12.png" }
+   pal 19 { file "highres/textures/0811_12.png" }
+   pal 20 { file "highres/textures/0811_12.png" }
+   pal 21 { file "highres/textures/0811_21.png" }
+   pal 22 { file "highres/textures/0811_11.png" }
+   pal 23 { file "highres/textures/0811_23.png" }
+   detail { file "highres/detail/fabric.png" xscale 0.3 yscale 0.3 }
+}
+texture 812 {
+   pal 0 { file "highres/textures/0812.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 813 {
+   pal 0 { file "highres/textures/0813.png" }
+  detail { file "highres/detail/asphalt2.png" xscale 0.3 yscale 2.4 }
+}
+texture 814 {
+   pal 0 { file "highres/textures/0814.png" specpower 6 specfactor 0.25 }
+   normal { file "highres/textures/0814_n.png" parallaxbias 0 parallaxscale 0.03 }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 815 { 
+   pal 0 { file "highres/textures/0815.png" xscale 2.0 yscale 2.0 specpower 6 specfactor 0.25 }
+   normal { file "highres/textures/0815_n.png" }
+   detail { file "highres/detail/asphalt2.png" xscale 0.3 yscale 0.3 }
+}
+texture 816 {
+   pal 0 { file "highres/textures/0816.png"  specpower 6 specfactor 0.25  }
+   normal { file "highres/textures/0815_n.png" }
+   detail { file "highres/detail/asphalt2.png" xscale 0.6 yscale 0.6 }
+}
+texture 817 {
+   pal 0 { file "highres/textures/0817.png"  specpower 6 specfactor 0.25  }
+   normal { file "highres/textures/0815_n.png" }
+   detail { file "highres/detail/asphalt2.png" xscale 0.6 yscale 0.6 }
+}
+texture 818 {
+   pal 0 { file "highres/textures/0818.png" specpower 6 specfactor 0.25 }
+   normal { file "highres/textures/0815_n.png" }
+   detail { file "highres/detail/asphalt2.png" xscale 0.6 yscale 0.6 }
+}
+texture 819 {
+   pal 0 { file "highres/textures/0819.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 820 {
+   pal 0 { file "highres/textures/0820.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 821 {
+   pal 0 { file "highres/textures/0821.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 822 {
+   pal 0 { file "highres/textures/0822.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 823 {
+   pal 0 { file "highres/textures/0823.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 824 {
+   pal 0 { file "highres/textures/0824.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.6 yscale 0.6 }
+}
+texture 825 {
+   pal 0 { file "highres/textures/0825.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.6 yscale 0.15 }
+}
+texture 827 {
+   pal 0 { file "highres/textures/0827.png" xscale 2 yscale 1 specpower 5 specfactor 0.3 }
+   normal { file "highres/textures/0827_n.png" parallaxbias 0.02 parallaxscale 0.04 }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.15 }
+}
+texture 828 {
+   pal 0 { file "highres/textures/0828.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.6 yscale 0.15 }
+}
+texture 829 {
+   pal 0 { file "highres/textures/0829.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 830 { pal 0 { file "highres/textures/0830.png" } }
+texture 832 {
+   pal 0 { file "highres/textures/0832.png" }
+   pal 10 { file "highres/textures/0832_10.png" }
+   pal 11 { file "highres/textures/0832_11.png" }
+   pal 12 { file "highres/textures/0832_12.png" }
+   pal 13 { file "highres/textures/0832_13.png" }
+   pal 14 { file "highres/textures/0832_14.png" }
+   pal 15 { file "highres/textures/0832_15.png" }
+   pal 17 { file "highres/textures/0832_11.png" }
+   pal 18 { file "highres/textures/0832_12.png" }
+   pal 19 { file "highres/textures/0832_12.png" }
+   pal 20 { file "highres/textures/0832_12.png" }
+   pal 21 { file "highres/textures/0832_10.png" }
+   pal 22 { file "highres/textures/0832_11.png" }
+   pal 23 { file "highres/textures/0832_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 834 {
+   pal 0 { file "highres/textures/0834.png" }
+   detail { file "highres/detail/concrete.png" xscale 1.2 yscale 1.8 }
+}
+
+texture 843 {
+   pal 0 { file "highres/textures/0843.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 850 { pal 0 { file "highres/textures/0850.jpg" } }
+texture 852 {
+   pal 0 { file "highres/textures/0852.jpg" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+texture 853 {
+   pal 0 { file "highres/textures/0853.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.15 }
+}
+texture 854 {
+   pal 0 { file "highres/textures/0854.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.15 }
+}
+texture 855 {
+   pal 0 { file "highres/textures/0855.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.15 }
+}
+texture 857 {
+   pal 0 { file "highres/textures/0857.jpg" }
+   pal 10 { file "highres/textures/0857_10.jpg" }
+   pal 11 { file "highres/textures/0857_11.jpg" }
+   pal 12 { file "highres/textures/0857_12.jpg" }
+   pal 13 { file "highres/textures/0857_13.jpg" }
+   pal 14 { file "highres/textures/0857_14.jpg" }
+   pal 15 { file "highres/textures/0857_15.jpg" }
+   pal 16 { file "highres/textures/0857_16.jpg" }
+   pal 17 { file "highres/textures/0857_11.jpg" }
+   pal 18 { file "highres/textures/0857_12.jpg" }
+   pal 19 { file "highres/textures/0857_12.jpg" }
+   pal 20 { file "highres/textures/0857_12.jpg" }
+   pal 21 { file "highres/textures/0857_21.jpg" }
+   pal 22 { file "highres/textures/0857_22.jpg" }
+   pal 23 { file "highres/textures/0857_23.jpg" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 858 {
+   pal 0 { file "highres/textures/0858.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 859 {
+   pal 0 { file "highres/textures/0859.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 866 { pal 0 { file "highres/textures/0866.jpg" nocompress } }
+texture 867 {
+   pal 0 { file "highres/textures/0867.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 868 {
+   pal 0 { file "highres/textures/0868.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 871 {
+   pal 0 { file "highres/textures/0871.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.075 }
+}
+texture 872 {
+   pal 0 { file "highres/textures/0872.png" nocompress }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 873 {
+   pal 0 { file "highres/textures/0873.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 874 {
+   pal 0 { file "highres/textures/0874.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 875 {
+   pal 0 { file "highres/textures/0875.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 876 {
+   pal 0 { file "highres/textures/0876.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 877 {
+   pal 0 { file "highres/textures/0877.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 878 {
+   pal 0 { file "highres/textures/0878.png" }
+   detail { file "highres/detail/alien_concrete_0.png" xscale 0.3 yscale 1.2 }
+}
+texture 879 {
+   pal 0 { file "highres/textures/0879.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 880 {
+   pal 0 { file "highres/textures/0880.png" xscale 2 yscale 2 specpower 5 specfactor 0.5 }
+   normal { file "highres/textures/0880_n.png" parallaxbias 0.01 parallaxscale 0.02 }
+   detail { file "highres/detail/wood_v3.png" xscale 0.17 yscale 0.07 }
+}
+texture 881 {
+   pal 0 { file "highres/textures/0881.png" }
+   pal 21 { file "highres/textures/0881_21.jpg" }
+   detail { file "highres/detail/fabric.png" xscale 1.2 yscale 0.15 }
+}
+texture 883 {
+   pal 0 { file "highres/textures/0883.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.225 }
+}
+texture 884 {
+   pal 0 { file "highres/textures/0884.jpg" }
+   normal { file "highres/textures/0884_n.png" parallaxbias 0.011 parallaxscale 0.03 }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 }
+}
+texture 885 {
+   pal 0 { file "highres/textures/0885.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 886 {
+   pal 0 { file "highres/textures/0886.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 887 {
+   pal 0 { file "highres/textures/0887.png" }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.075 }
+}
+texture 888 {
+   pal 0 { file "highres/textures/0888.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 889 {
+   pal 0 { file "highres/textures/0889.jpg" }
+   pal 2 { file "highres/textures/0889_2.jpg" }
+   pal 8 { file "highres/textures/0889_8.jpg" }
+}
+
+texture 890 {
+   pal 0 { file "highres/textures/0890.jpg" }
+   pal 2 { file "highres/textures/0890_2.jpg" }
+   pal 8 { file "highres/textures/0890_8.jpg" }
+}
+texture 891 {
+   pal 0 { file "highres/textures/0891.jpg" }
+   pal 2 { file "highres/textures/0891_2.jpg" }
+   pal 8 { file "highres/textures/0891_8.jpg" }
+}
+texture 892 {
+   pal 0 { file "highres/textures/0892.jpg" }
+   pal 2 { file "highres/textures/0892_2.jpg" }
+   pal 8 { file "highres/textures/0892_8.jpg" }
+}
+texture 893 {
+   pal 0 { file "highres/textures/0893.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 894 {
+   pal 0 { file "highres/textures/0894.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 895 {
+   pal 0 { file "highres/textures/0895.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 897 { pal 0 { file "highres/textures/0897.png" } }
+texture 898 {
+   pal 0 { file "highres/textures/0898.png" specpower 3 specfactor 0.1 }
+   normal { file "highres/textures/0898_n.png" parallaxbias 0 parallaxscale 0.04  }
+   detail { file "highres/detail/fabric.png" xscale 0.6 yscale 0.6 }
+}
+texture 899 {
+   pal 0 { file "highres/textures/0899.png" specpower 3 specfactor 0.1 }
+   normal { file "highres/textures/0898_n.png" parallaxbias 0 parallaxscale 0.04 }
+   detail { file "highres/detail/fabric.png" xscale 0.6 yscale 0.6 }
+}
+
+
+texture 900 {
+   pal 0 { file "highres/textures/0900.png" }
+   detail { file "highres/detail/fabric.png" xscale 0.6 yscale 0.6 }
+}
+
+texture 913 {
+   pal 0 { file "highres/textures/0913.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 915 {
+   pal 0 { file "highres/textures/0915.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 946 {
+   pal 0 { file "highres/textures/0946.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 947 {
+   pal 0 { file "highres/textures/0947.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 948 {
+   pal 0 { file "highres/textures/0948.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 962 {
+   pal 0 { file "highres/textures/0962.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 966 {
+   pal 0 { file "highres/textures/0966.png" nocompress }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 967 {
+   pal 0 { file "highres/textures/0967.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.15 }
+}
+texture 968 {
+   pal 0 { file "highres/textures/0968.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 988 {
+   pal 0 { file "highres/textures/0988.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+}
+
+
+texture 1020 { pal 0 { file "highres/textures/1020.png" } }
+
+// Tiles004
+
+texture 1024 { pal 0 { file "highres/textures/1024.png" } }
+
+texture 1059 { pal 0 { file "highres/textures/1059.png" } }
+
+texture 1068 { pal 0 { file "highres/textures/1068.png" } }
+
+texture 1074 {
+   pal 0 { file "highres/textures/1074.png" }
+   pal 21 { file "highres/textures/1074_21.png" }
+}
+
+texture 1082 {
+   pal 0 { file "highres/textures/1082.jpg" }
+   pal 2 { file "highres/textures/1082.jpg" }
+}
+texture 1083 {
+   pal 0 { file "highres/textures/1083.jpg" }
+   pal 2 { file "highres/textures/1083.jpg" }
+}
+texture 1084 {
+   pal 0 { file "highres/textures/1084.jpg" }
+   pal 2 { file "highres/textures/1084.jpg" }
+}
+texture 1085 {
+   pal 0 { file "highres/textures/1085.jpg" }
+   pal 2 { file "highres/textures/1085.jpg" }
+}
+texture 1086 {
+   pal 0 { file "highres/textures/1086.jpg" }
+   pal 2 { file "highres/textures/1086.jpg" }
+}
+texture 1087 {
+   pal 0 { file "highres/textures/1087.jpg" }
+   pal 2 { file "highres/textures/1087.jpg" }
+}
+
+texture 1097 { 
+   pal 0 { file "highres/textures/1097.png" } 
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1098 { pal 0 { file "highres/textures/1098.jpg" } }
+texture 1099 { pal 0 { file "highres/textures/1099.jpg" } }
+
+
+texture 1100 {
+   pal 0 { file "highres/textures/1100.jpg" }
+   pal 8 { file "highres/textures/1100.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 1101 {
+   pal 0 { file "highres/textures/1101.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1102 { pal 0 { file "highres/textures/1102.jpg" } }
+texture 1104 { pal 0 { file "highres/textures/1104.jpg" } }
+texture 1105 { 
+   pal 0 { file "highres/textures/1105.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 1106 { 
+   pal 0 { file "highres/textures/1106.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 1107 {
+   pal 0 { file "highres/textures/1107.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 1108 { 
+   pal 0 { file "highres/textures/1108.png" }
+   pal 8 { file "highres/textures/1108_8.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 } 
+}
+texture 1109 { pal 0 { file "highres/textures/1109.png" } }
+
+texture 1110 { pal 0 { file "highres/textures/1110.jpg" } }
+texture 1116 {
+   pal 0 { file "highres/textures/1116.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 1117 { pal 0 { file "highres/textures/1117.jpg" } }
+texture 1118 { pal 0 { file "highres/textures/1118.png" } }
+
+texture 1120 { 
+   pal 0 { file "highres/textures/1120.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 } 
+}
+texture 1121 { pal 0 { file "highres/textures/1121.jpg" } }
+texture 1124 { pal 0 { file "highres/textures/1124.png" } }
+texture 1127 { 
+   pal 0 { file "highres/textures/1127.png" }
+   detail { file "highres/detail/alien.png" xscale 0.6 yscale 0.15 } 
+}
+texture 1129 { pal 0 { file "highres/textures/1129.jpg" } }
+
+texture 1130 {
+   pal 0 { file "highres/textures/1130.png" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 1131 {
+   pal 0 { file "highres/textures/1131.png" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 1132 {
+   pal 0 { file "highres/textures/1132.jpg" }
+   pal 8 { file "highres/textures/1132_8.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1133 {
+   pal 0 { file "highres/textures/1133.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1134 {
+   pal 0 { file "highres/textures/1134.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1135 {
+   pal 0 { file "highres/textures/1135.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1136 {
+   pal 0 { file "highres/textures/1136.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1137 {
+   pal 0 { file "highres/textures/1137.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1138 {
+   pal 0 { file "highres/textures/1138.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1139 {
+   pal 0 { file "highres/textures/1139.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 1140 {
+   pal 0 { file "highres/textures/1140.png" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 1141 {
+   pal 0 { file "highres/textures/1141.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 1144 {
+   pal 0 { file "highres/textures/1144.png" }
+   pal 13 { file "highres/textures/1144_13.png" }
+   pal 14 { file "highres/textures/1144_14.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 1145 { pal 0 { file "highres/textures/1145.png" } }
+texture 1146 { pal 0 { file "highres/textures/1146.png" } }
+texture 1147 { pal 0 { file "highres/textures/1147.png" } }
+texture 1148 { pal 0 { file "highres/textures/1148.png" } }
+texture 1149 { pal 0 { file "highres/textures/1149.png" } }
+
+texture 1150 { pal 0 { file "highres/textures/1150.png" } }
+texture 1151 { 
+   pal 0 { file "highres/textures/1151.jpg" } 
+   detail { file "highres/detail/alien.png" xscale 0.6 yscale 0.15 }
+}
+texture 1152 { 
+   pal 0 { file "highres/textures/1152.jpg" }
+   pal 14 { file "highres/textures/1152_14.jpg" } 
+   pal 15 { file "highres/textures/1152_15.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.6 yscale 0.15 } 
+}
+texture 1156 { pal 0 { file "highres/textures/1156.png" } }
+
+texture 1169 { 
+   pal 0 { file "highres/textures/1169.jpg" specpower 2 specfactor 0.25 } 
+   normal { file "highres/textures/1169_n.png" parallaxbias 0.04 parallaxscale 0.075 }
+}
+
+texture 1170 {
+   pal 0 { file "highres/textures/1170.jpg" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.15 }
+}
+texture 1171 {
+   pal 0 { file "highres/textures/1171.jpg" }
+   detail { file "highres/detail/concrete.png" xscale 0.6 yscale 0.6 }
+}
+texture 1173 { 
+   pal 0 { file "highres/textures/1173.png" }
+   detail { file "highres/detail/metal.png" scale 0.25 }
+}
+texture 1174 {
+   pal 0 { file "highres/textures/1174.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 1175 {
+   pal 0 { file "highres/textures/1175.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 1178 {
+   pal 0 { file "highres/textures/1178.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
+}
+texture 1179 {
+   pal 0 { file "highres/textures/1179.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 1182 {
+   pal 0 { file "highres/textures/1182.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.15 }
+}
+texture 1183 {
+   pal 0 { file "highres/textures/1183.png" }
+   detail { file "highres/detail/rock.png" xscale 0.6 yscale 0.15 }
+}
+texture 1184 {
+   pal 0 { file "highres/textures/1184.png" }
+   detail { file "highres/detail/rock.png" xscale 1.2 yscale 0.15 }
+}
+texture 1185 {
+   pal 0 { file "highres/textures/1185.png" }
+   detail { file "highres/detail/dirt2.png" xscale 0.15 yscale 0.15 }
+}
+texture 1186 {
+   pal 0 { file "highres/textures/1186.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 1.2 yscale 0.15 }
+}
+texture 1187 {
+   pal 0 { file "highres/textures/1187.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 1188 {
+   pal 0 { file "highres/textures/1188.png" }
+   detail { file "highres/detail/wood_h3.png" xscale 0.3 yscale 0.15 }
+}
+texture 1189 {
+   pal 0 { file "highres/textures/1189.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 1190 {
+   pal 0 { file "highres/textures/1190.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 1191 {
+   pal 0 { file "highres/textures/1191.png" }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.15 }
+}
+texture 1192 {
+   pal 0 { file "highres/textures/1192.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.3 }
+}
+texture 1193 {
+   pal 0 { file "highres/textures/1193.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 2.4 }
+}
+texture 1194 {
+   pal 0 { file "highres/textures/1194.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 2.4 }
+}
+texture 1195 {
+   pal 0 { file "highres/textures/1195.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 2.4 }
+}
+texture 1196 {
+   pal 0 { file "highres/textures/1196.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 2.4 }
+}
+texture 1197 {
+   pal 0 { file "highres/textures/1197.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 2.4 }
+}
+texture 1199 {
+   pal 0 { file "highres/textures/1199.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 2.4 }
+}
+
+
+texture 1200 {
+   pal 0 { file "highres/textures/1200.png" }
+   detail { file "highres/detail/wood_h3.png" xscale 0.6 yscale 2.4 }
+}
+texture 1203 {
+   pal 0 { file "highres/textures/1203.png" nocompress }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.62 }
+}
+texture 1204 {
+   pal 0 { file "highres/textures/1204.png" specpower 2 specfactor 0.5 }
+   normal { file "highres/textures/1204_n.png" parallaxbias 0.025 parallaxscale 0.02 }
+   specular { file "highres/textures/1204_s.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 1205 {
+   pal 0 { file "highres/textures/1205.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 1206 {
+   pal 0 { file "highres/textures/1206.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 1.2 }
+}
+
+texture 1212 {
+   pal 0 { file "highres/textures/1212.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.075 }
+}
+texture 1213 {
+   pal 0 { file "highres/textures/1213.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.15 }
+}
+texture 1214 {
+   pal 0 { file "highres/textures/1214.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.075 }
+}
+texture 1215 {
+   pal 0 { file "highres/textures/1215.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.075 }
+   glow { file "highres/textures/1215_g.png" }
+}
+texture 1216 {
+   pal 0 { file "highres/textures/1216.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.075 }
+}
+texture 1217 {
+   pal 0 { file "highres/textures/1217.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.075 }
+}
+texture 1218 {
+   pal 0 { file "highres/textures/0900.png" }
+   detail { file "highres/detail/fabric.png" xscale 0.6 yscale 0.6 }
+}
+texture 1219 {
+   pal 0 { file "highres/textures/1219.png" }
+   detail { file "highres/detail/fabric.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 1279 {
+   pal 0 { file "highres/textures/1279.png" }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 1280 { pal 0 { file "highres/textures/1280.jpg" } }
+texture 1281 { pal 0 { file "highres/textures/1281.jpg" } }
+texture 1282 { pal 0 { file "highres/textures/1282.jpg" } }
+texture 1283 { pal 0 { file "highres/textures/1283.jpg" } }
+texture 1284 { pal 0 { file "highres/textures/1284.jpg" } }
+texture 1285 { pal 0 { file "highres/textures/1285.jpg" } }
+texture 1286 { pal 0 { file "highres/textures/1286.jpg" } }
+texture 1287 { pal 0 { file "highres/textures/1287.jpg" } }
+texture 1288 { pal 0 { file "highres/textures/1288.jpg" } }
+
+
+// Tiles005
+
+texture 1289 { pal 0 { file "highres/textures/1289.jpg" } }
+
+texture 1290 { pal 0 { file "highres/textures/1290.jpg" } }
+texture 1291 { pal 0 { file "highres/textures/1291.jpg" } }
+texture 1292 { pal 0 { file "highres/textures/1292.jpg" } }
+texture 1298 { pal 0 { file "highres/textures/1298.png" } }
+texture 1299 { pal 0 { file "highres/textures/1299.png" } }
+
+texture 1300 { pal 0 { file "highres/textures/1300.png" } }
+texture 1301 { pal 0 { file "highres/textures/1301.png" } }
+texture 1302 { pal 0 { file "highres/textures/1302.png" } }
+texture 1303 { pal 0 { file "highres/textures/1303.png" } }
+texture 1304 { pal 0 { file "highres/textures/1304.png" } }
+texture 1305 { pal 0 { file "highres/textures/1305.png" } }
+texture 1306 { pal 0 { file "highres/textures/1306.png" } }
+texture 1307 { pal 0 { file "highres/textures/1307.png" } }
+texture 1308 { pal 0 { file "highres/textures/1308.png" } }
+texture 1309 { pal 0 { file "highres/textures/1309.png" } }
+
+texture 1310 { pal 0 { file "highres/textures/1310.png" } }
+texture 1311 { pal 0 { file "highres/textures/1311.png" } }
+
+
+// Tiles006
+// Tiles007
+// Tiles008
+// Tiles009
+
+texture 2455 { pal 0 { file "highres/textures/2455.png" } }
+
+
+// Tiles010
+// Tiles011
+
+texture 2920 {
+   pal 0 { file "highres/textures/2920.png" specpower 5 specfactor 0.5 }
+   normal { file "highres/textures/2920_n.png" }
+   detail { file "highres/detail/wood_h3.png" xscale 0.3 yscale 0.1 }
+}
+texture 2921 {
+   pal 0 { file "highres/textures/2921.png" }
+   detail { file "highres/detail/wood_h3.png" xscale 0.15 yscale 0.15 }
+}
+texture 2922 {
+   pal 0 { file "highres/textures/2922.jpg" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+
+
+// Tiles012
+// Tiles013
+
+texture 3370 { pal 0 { file "highres/textures/3370.png" } }
+texture 3371 { pal 0 { file "highres/textures/3371.png" } }
+texture 3372 { pal 0 { file "highres/textures/3372.png" } }
+texture 3375 { pal 0 { file "highres/textures/3375.png" } }
+texture 3376 { pal 0 { file "highres/textures/3376.png" } }
+texture 3377 { pal 0 { file "highres/textures/3377.png" } }
+texture 3378 { pal 0 { file "highres/textures/3378.png" } }
+
+texture 3381 { pal 0 { file "highres/textures/3381.jpg" } }
+texture 3384 { 
+   pal 0 { file "highres/textures/3384.png" }
+   detail { file "highres/detail/marble.png" xscale 0.3 yscale 0.15 } 
+}
+texture 3385 { 
+   pal 0 { file "highres/textures/3385.png" }
+   detail { file "highres/detail/marble.png" xscale 0.6 yscale 0.15 } 
+}
+texture 3386 { 
+   pal 0 { file "highres/textures/3386.png" }
+   detail { file "highres/detail/marble.png" xscale 0.15 yscale 0.15 } 
+}
+texture 3387 { 
+   pal 0 { file "highres/textures/3387.png" }
+   detail { file "highres/detail/marble.png" xscale 0.15 yscale 0.15 } 
+}
+
+texture 3392 {
+   pal 0 { file "highres/textures/3392.png" }
+   detail { file "highres/detail/grass.png" xscale 0.3 yscale 0.3 }
+}
+texture 3394 { pal 0 { file "highres/textures/3394.png" } }
+texture 3395 { pal 0 { file "highres/textures/3395.png" } }
+texture 3396 { pal 0 { file "highres/textures/3396.png" } }
+texture 3397 {
+   pal 0 { file "highres/textures/3397.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 3398 {
+   pal 0 { file "highres/textures/3398.png" }
+   detail { file "highres/detail/alien_rock.png" xscale 0.15 yscale 0.15 }
+}
+
+
+texture 3401 {
+   pal 0 { file "highres/textures/3401.png" }
+   detail { file "highres/detail/grass.png" xscale 0.15 yscale 0.15 }
+}
+texture 3402 {
+   pal 0 { file "highres/textures/3402.png" }
+   detail { file "highres/detail/grass.png" xscale 0.15 yscale 0.15 }
+}
+texture 3403 {
+   pal 0 { file "highres/textures/3403.png" }
+   detail { file "highres/detail/grass.png" xscale 0.15 yscale 0.15 }
+}
+texture 3405 {
+   pal 0 { file "highres/textures/3405.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.075 }
+}
+texture 3406 {
+   pal 0 { file "highres/textures/3406.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 3407 {
+   pal 0 { file "highres/textures/3407.png" }
+   pal 5 { file "highres/textures/3407_5.png" }
+   pal 13 { file "highres/textures/3407_13.png" }
+   pal 14 { file "highres/textures/3407_14.png" }
+   pal 24 { file "highres/textures/3407_24.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 3413 {
+   pal 0 { file "highres/textures/3413.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 3414 {
+   pal 0 { file "highres/textures/3414.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.11 yscale 0.15 }
+}
+texture 3415 {
+   pal 0 { file "highres/textures/3415.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.11 yscale 0.15 }
+}
+texture 3416 {
+   pal 0 { file "highres/textures/3416.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 3417 {
+   pal 0 { file "highres/textures/3417.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+
+
+// Tiles014
+// Tiles015
+// Tiles016
+
+texture 4096 {
+   pal 0 { file "highres/textures/4096.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 4097 {
+   pal 0 { file "highres/textures/4097.png" }
+   pal 12 { file "highres/textures/4097_12.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4098 {
+   pal 0 { file "highres/textures/4098.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 4100 {
+   pal 0 { file "highres/textures/4100.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4101 {
+   pal 0 { file "highres/textures/4101.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4102 {
+   pal 0 { file "highres/textures/4102.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4103 {
+   pal 0 { file "highres/textures/4103.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4104 {
+   pal 0 { file "highres/textures/4104.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4105 {
+   pal 0 { file "highres/textures/4105.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4106 {
+   pal 0 { file "highres/textures/4106.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 4108 {
+   pal 0 { file "highres/textures/4108.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 4110 {
+   pal 0 { file "highres/textures/4110.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 }
+}
+texture 4111 {
+   pal 0 { file "highres/textures/4111.jpg" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 }
+}
+texture 4112 {
+   pal 0 { file "highres/textures/4112.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+texture 4113 {
+   pal 0 { file "highres/textures/4113.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 4114 {
+   pal 0 { file "highres/textures/4114.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 4115 {
+   pal 0 { file "highres/textures/4115.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 4116 {
+   pal 0 { file "highres/textures/4116.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 4120 {
+   pal 0 { file "highres/textures/4120.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4121 {
+   pal 0 { file "highres/textures/4121.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4122 {
+   pal 0 { file "highres/textures/4122.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4123 {
+   pal 0 { file "highres/textures/4123.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4124 {
+   pal 0 { file "highres/textures/4124.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4125 {
+   pal 0 { file "highres/textures/4125.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 4126 {
+   pal 0 { file "highres/textures/4126.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 4127 {
+   pal 0 { file "highres/textures/4127.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4128 {
+   pal 0 { file "highres/textures/4128.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4129 {
+   pal 0 { file "highres/textures/4129.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4130 {
+   pal 0 { file "highres/textures/4130.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4131 {
+   pal 0 { file "highres/textures/4131.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4132 {
+   pal 0 { file "highres/textures/4132.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4133 {
+   pal 0 { file "highres/textures/4133.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4134 {
+   pal 0 { file "highres/textures/4134.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4135 {
+   pal 0 { file "highres/textures/4135.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4136 {
+   pal 0 { file "highres/textures/4136.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4137 {
+   pal 0 { file "highres/textures/4137.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4138 {
+   pal 0 { file "highres/textures/4138.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4139 {
+   pal 0 { file "highres/textures/4139.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4140 {
+   pal 0 { file "highres/textures/4140.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4141 {
+   pal 0 { file "highres/textures/4141.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4142 {
+   pal 0 { file "highres/textures/4142.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4143 {
+   pal 0 { file "highres/textures/4143.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4144 {
+   pal 0 { file "highres/textures/4144.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4145 {
+   pal 0 { file "highres/textures/4145.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4146 {
+   pal 0 { file "highres/textures/4146.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4147 {
+   pal 0 { file "highres/textures/4147.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4148 {
+   pal 0 { file "highres/textures/4148.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4149 {
+   pal 0 { file "highres/textures/4149.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4151 {
+   pal 0 { file "highres/textures/4151.jpg" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 4152 {
+   pal 0 { file "highres/textures/4152.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4154 { detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 } }
+texture 4155 { detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 } }
+
+texture 4160 {
+   pal 0 { file "highres/textures/4160.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4161 {
+   pal 0 { file "highres/textures/4161.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.3 }
+}
+texture 4162 { pal 0 { file "highres/textures/4162.png" } }
+texture 4163 { pal 0 { file "highres/textures/4163.png" } }
+texture 4164 { pal 0 { file "highres/textures/4164.png" } }
+texture 4165 {
+   pal 0 { file "highres/textures/4165.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 4166 {
+   pal 0 { file "highres/textures/4166.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4168 {
+   pal 0 { file "highres/textures/4168.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 4169 {
+   pal 0 { file "highres/textures/4169.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 4170 {
+   pal 0 { file "highres/textures/4170.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4171 {
+   pal 0 { file "highres/textures/4171.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
+}
+texture 4172 {
+   pal 0 { file "highres/textures/4172.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4173 {
+   pal 0 { file "highres/textures/4173.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4174 {
+   pal 0 { file "highres/textures/4174.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4175 {
+   pal 0 { file "highres/textures/4175.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4176 { 
+   pal 0 { file "highres/textures/4176.jpg" } 
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4178 { pal 0 { file "highres/textures/0207_10.png" } }
+
+texture 4180 { pal 0 { file "highres/textures/4180.jpg" nocompress } }
+texture 4182 { pal 0 { file "highres/textures/4182.jpg" nocompress } }
+texture 4183 { pal 0 { file "highres/textures/4183.png" } }
+texture 4184 { pal 0 { file "highres/textures/4184.png" } }
+texture 4185 { pal 0 { file "highres/textures/4185.png" } }
+texture 4186 { pal 0 { file "highres/textures/4186.png" } }
+texture 4187 { pal 0 { file "highres/textures/4187.png" } }
+texture 4188 { pal 0 { file "highres/textures/4188.png" } }
+texture 4189 { pal 0 { file "highres/textures/4189.png" } }
+
+texture 4190 {
+   pal 0 { file "highres/textures/4190.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4191 { pal 0 { file "highres/textures/4191.png" } }
+texture 4192 {
+   pal 0 { file "highres/textures/4192.jpg" }
+   pal 14 { file "highres/textures/4192_14.jpg" }
+}
+texture 4193 { pal 0 { file "highres/textures/4193.jpg" } }
+texture 4194 {
+   pal 0 { file "highres/textures/4194.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 4195 {
+   pal 0 { file "highres/textures/4195.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4200 {
+   pal 0 { file "highres/textures/4200.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
+}
+texture 4201 {
+   pal 0 { file "highres/textures/4201.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 4206 {
+   pal 0 { file "highres/textures/4206.jpg" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
+}
+texture 4208 {
+   pal 0 { file "highres/textures/4208.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4210 {
+   pal 0 { file "highres/textures/4210.png" }
+   pal 10 { file "highres/textures/4210_10.png" }
+   pal 11 { file "highres/textures/4210_11.png" }
+   pal 12 { file "highres/textures/4210_12.png" }
+   pal 13 { file "highres/textures/4210_13.png" }
+   pal 14 { file "highres/textures/4210_14.png" }
+   pal 15 { file "highres/textures/4210_15.png" }
+   pal 16 { file "highres/textures/4210_16.png" }
+   pal 18 { file "highres/textures/4210_12.png" }
+   pal 21 { file "highres/textures/4210_21.png" }
+   pal 22 { file "highres/textures/4210_11.png" }
+   pal 23 { file "highres/textures/4210_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4211 {
+   pal 0 { file "highres/textures/4211.png" }
+   pal 10 { file "highres/textures/4211_10.png" }
+   pal 11 { file "highres/textures/4211_11.png" }
+   pal 12 { file "highres/textures/4211_12.png" }
+   pal 13 { file "highres/textures/4211_13.png" }
+   pal 14 { file "highres/textures/4211_14.png" }
+   pal 15 { file "highres/textures/4211_15.png" }
+   pal 16 { file "highres/textures/4211_16.png" }
+   pal 18 { file "highres/textures/4211_12.png" }
+   pal 21 { file "highres/textures/4211_21.png" }
+   pal 22 { file "highres/textures/4211_11.png" }
+   pal 23 { file "highres/textures/4211_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4212 {
+   pal 0 { file "highres/textures/4212.png" }
+   pal 10 { file "highres/textures/4212_10.png" }
+   pal 11 { file "highres/textures/4212_11.png" }
+   pal 12 { file "highres/textures/4212_12.png" }
+   pal 13 { file "highres/textures/4212_13.png" }
+   pal 14 { file "highres/textures/4212_14.png" }
+   pal 15 { file "highres/textures/4212_15.png" }
+   pal 16 { file "highres/textures/4212_16.png" }
+   pal 18 { file "highres/textures/4212_12.png" }
+   pal 21 { file "highres/textures/4212_21.png" }
+   pal 22 { file "highres/textures/4212_11.png" }
+   pal 23 { file "highres/textures/4212_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4213 {
+   pal 0 { file "highres/textures/4213.png" }
+   pal 10 { file "highres/textures/4213_10.png" }
+   pal 11 { file "highres/textures/4213_11.png" }
+   pal 12 { file "highres/textures/4213_12.png" }
+   pal 13 { file "highres/textures/4213_13.png" }
+   pal 14 { file "highres/textures/4213_14.png" }
+   pal 15 { file "highres/textures/4213_15.png" }
+   pal 16 { file "highres/textures/4213_16.png" }
+   pal 18 { file "highres/textures/4213_12.png" }
+   pal 21 { file "highres/textures/4213_21.png" }
+   pal 22 { file "highres/textures/4213_11.png" }
+   pal 23 { file "highres/textures/4213_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4214 {
+   pal 0 { file "highres/textures/4214.png" }
+   pal 10 { file "highres/textures/4214_10.png" }
+   pal 11 { file "highres/textures/4214_11.png" }
+   pal 12 { file "highres/textures/4214_12.png" }
+   pal 13 { file "highres/textures/4214_13.png" }
+   pal 14 { file "highres/textures/4214_14.png" }
+   pal 15 { file "highres/textures/4214_15.png" }
+   pal 16 { file "highres/textures/4214_16.png" }
+   pal 18 { file "highres/textures/4214_12.png" }
+   pal 21 { file "highres/textures/4214_21.png" }
+   pal 22 { file "highres/textures/4214_11.png" }
+   pal 23 { file "highres/textures/4214_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4215 {
+   pal 0 { file "highres/textures/4215.png" }
+   pal 10 { file "highres/textures/4215_10.png" }
+   pal 11 { file "highres/textures/4215_11.png" }
+   pal 12 { file "highres/textures/4215_12.png" }
+   pal 13 { file "highres/textures/4215_13.png" }
+   pal 14 { file "highres/textures/4215_14.png" }
+   pal 15 { file "highres/textures/4215_15.png" }
+   pal 16 { file "highres/textures/4215_16.png" }
+   pal 18 { file "highres/textures/4215_12.png" }
+   pal 21 { file "highres/textures/4215_21.png" }
+   pal 22 { file "highres/textures/4215_11.png" }
+   pal 23 { file "highres/textures/4215_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4216 {
+   pal 0 { file "highres/textures/4216.png" }
+   pal 10 { file "highres/textures/4216_10.png" }
+   pal 11 { file "highres/textures/4216_11.png" }
+   pal 12 { file "highres/textures/4216_12.png" }
+   pal 13 { file "highres/textures/4216_13.png" }
+   pal 14 { file "highres/textures/4216_14.png" }
+   pal 15 { file "highres/textures/4216_15.png" }
+   pal 16 { file "highres/textures/4216_16.png" }
+   pal 18 { file "highres/textures/4216_12.png" }
+   pal 21 { file "highres/textures/4216_21.png" }
+   pal 22 { file "highres/textures/4216_11.png" }
+   pal 23 { file "highres/textures/4216_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4217 {
+   pal 0 { file "highres/textures/4217.png" }
+   pal 10 { file "highres/textures/4217_10.png" }
+   pal 11 { file "highres/textures/4217_11.png" }
+   pal 12 { file "highres/textures/4217_12.png" }
+   pal 13 { file "highres/textures/4217_13.png" }
+   pal 14 { file "highres/textures/4217_14.png" }
+   pal 15 { file "highres/textures/4217_15.png" }
+   pal 16 { file "highres/textures/4217_16.png" }
+   pal 18 { file "highres/textures/4217_12.png" }
+   pal 21 { file "highres/textures/4217_21.png" }
+   pal 22 { file "highres/textures/4217_11.png" }
+   pal 23 { file "highres/textures/4217_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4218 {
+   pal 0 { file "highres/textures/4218.png" }
+   pal 10 { file "highres/textures/4218_10.png" }
+   pal 11 { file "highres/textures/4218_11.png" }
+   pal 12 { file "highres/textures/4218_12.png" }
+   pal 13 { file "highres/textures/4218_13.png" }
+   pal 14 { file "highres/textures/4218_14.png" }
+   pal 15 { file "highres/textures/4218_15.png" }
+   pal 16 { file "highres/textures/4218_16.png" }
+   pal 18 { file "highres/textures/4218_12.png" }
+   pal 21 { file "highres/textures/4218_21.png" }
+   pal 22 { file "highres/textures/4218_11.png" }
+   pal 23 { file "highres/textures/4218_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4219 {
+   pal 0 { file "highres/textures/4219.png" }
+   pal 10 { file "highres/textures/4219_10.png" }
+   pal 11 { file "highres/textures/4219_11.png" }
+   pal 12 { file "highres/textures/4219_12.png" }
+   pal 13 { file "highres/textures/4219_13.png" }
+   pal 14 { file "highres/textures/4219_14.png" }
+   pal 15 { file "highres/textures/4219_15.png" }
+   pal 16 { file "highres/textures/4219_16.png" }
+   pal 18 { file "highres/textures/4219_12.png" }
+   pal 21 { file "highres/textures/4219_21.png" }
+   pal 22 { file "highres/textures/4219_11.png" }
+   pal 23 { file "highres/textures/4219_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 4220 {
+   pal 0 { file "highres/textures/4220.png" }
+   pal 10 { file "highres/textures/4220_10.png" }
+   pal 11 { file "highres/textures/4220_11.png" }
+   pal 12 { file "highres/textures/4220_12.png" }
+   pal 13 { file "highres/textures/4220_13.png" }
+   pal 14 { file "highres/textures/4220_14.png" }
+   pal 15 { file "highres/textures/4220_15.png" }
+   pal 16 { file "highres/textures/4220_16.png" }
+   pal 18 { file "highres/textures/4220_12.png" }
+   pal 21 { file "highres/textures/4220_21.png" }
+   pal 22 { file "highres/textures/4220_11.png" }
+   pal 23 { file "highres/textures/4220_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4221 {
+   pal 0 { file "highres/textures/4221.png" }
+   pal 10 { file "highres/textures/4221_10.png" }
+   pal 11 { file "highres/textures/4221_11.png" }
+   pal 12 { file "highres/textures/4221_12.png" }
+   pal 13 { file "highres/textures/4221_13.png" }
+   pal 14 { file "highres/textures/4221_14.png" }
+   pal 15 { file "highres/textures/4221_15.png" }
+   pal 16 { file "highres/textures/4221_16.png" }
+   pal 18 { file "highres/textures/4221_12.png" }
+   pal 21 { file "highres/textures/4221_21.png" }
+   pal 22 { file "highres/textures/4221_11.png" }
+   pal 23 { file "highres/textures/4221_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4222 {
+   pal 0 { file "highres/textures/4222.png" }
+   pal 10 { file "highres/textures/4222_10.png" }
+   pal 11 { file "highres/textures/4222_11.png" }
+   pal 12 { file "highres/textures/4222_12.png" }
+   pal 13 { file "highres/textures/4222_13.png" }
+   pal 14 { file "highres/textures/4222_14.png" }
+   pal 15 { file "highres/textures/4222_15.png" }
+   pal 16 { file "highres/textures/4222_16.png" }
+   pal 18 { file "highres/textures/4222_12.png" }
+   pal 21 { file "highres/textures/4222_21.png" }
+   pal 22 { file "highres/textures/4220_11.png" }
+   pal 23 { file "highres/textures/4222_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4223 {
+   pal 0 { file "highres/textures/4223.png" }
+   pal 10 { file "highres/textures/4223_10.png" }
+   pal 11 { file "highres/textures/4223_11.png" }
+   pal 12 { file "highres/textures/4223_12.png" }
+   pal 13 { file "highres/textures/4223_13.png" }
+   pal 14 { file "highres/textures/4223_14.png" }
+   pal 15 { file "highres/textures/4223_15.png" }
+   pal 16 { file "highres/textures/4223_16.png" }
+   pal 18 { file "highres/textures/4223_12.png" }
+   pal 21 { file "highres/textures/4223_21.png" }
+   pal 22 { file "highres/textures/4223_11.png" }
+   pal 23 { file "highres/textures/4223_23.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4224 {
+   pal 0 { file "highres/textures/4224.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.075 }
+}
+texture 4225 {
+   pal 0 { file "highres/textures/4225.png" }
+   detail { file "highres/detail/paint.png" xscale 0.15 yscale 0.075 }
+}
+texture 4226 {
+   pal 0 { file "highres/textures/4226.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.075 }
+}
+texture 4227 {
+   pal 0 { file "highres/textures/4227.png" }
+   detail { file "highres/detail/paint.png" xscale 0.15 yscale 0.075 }
+}
+
+texture 4230 {
+   pal 0 { file "highres/textures/4230.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 4231 {
+   pal 0 { file "highres/textures/4231.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 4232 {
+   pal 0 { file "highres/textures/4232.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.25 }
+}
+texture 4233 {
+   pal 0 { file "highres/textures/4233.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.25 }
+}
+texture 4234 {
+   pal 0 { file "highres/textures/4234.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
+}
+texture 4235 {
+   pal 0 { file "highres/textures/4235.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
+}
+texture 4236 {
+   pal 0 { file "highres/textures/4236.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.6 }
+}
+texture 4237 {
+   pal 0 { file "highres/textures/4237.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4240 { pal 0 { file "highres/textures/4240.png" } }
+texture 4241 { pal 0 { file "highres/textures/4241.png" } }
+texture 4242 { pal 0 { file "highres/textures/4242.png" } }
+texture 4243 { pal 0 { file "highres/textures/4243.png" } }
+texture 4244 { pal 0 { file "highres/textures/4244.png" } }
+texture 4245 { pal 0 { file "highres/textures/4245.png" } }
+texture 4249 {
+   pal 0 { file "highres/textures/4249.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 4250 { pal 0 { file "highres/textures/4250.jpg" } }
+texture 4251 { pal 0 { file "highres/textures/4251.jpg" } }
+texture 4252 { pal 0 { file "highres/textures/4252.jpg" } }
+texture 4253 { pal 0 { file "highres/textures/4253.jpg" } }
+texture 4255 {
+   pal 0 { file "highres/textures/4255.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4259 {
+   pal 0 { file "highres/textures/4259.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4260 {
+   pal 0 { file "highres/textures/4260.png" }
+   detail { file "highres/detail/paint.png" xscale 1.2 yscale 0.15 }
+}
+texture 4261 {
+   pal 0 { file "highres/textures/4261.png" }
+   detail { file "highres/detail/paint.png" xscale 1.2 yscale 0.15 }
+}
+texture 4262 {
+   pal 0 { file "highres/textures/4262.png" }
+   detail { file "highres/detail/paint.png" xscale 1.2 yscale 0.15 }
+}
+texture 4263 {
+   pal 0 { file "highres/textures/4263.png" }
+   detail { file "highres/detail/paint.png" xscale 1.2 yscale 0.15 }
+}
+texture 4268 {
+   pal 0 { file "highres/textures/4268.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4271 {
+   pal 0 { file "highres/textures/4271.png" }
+   pal 11 { file "highres/textures/4271_11.png" }
+   detail { file "highres/detail/paint.png" xscale 0.21 yscale 0.21 }
+}
+texture 4272 {
+   pal 0 { file "highres/textures/4272.png" }
+   pal 11 { file "highres/textures/4272_11.png" }
+   detail { file "highres/detail/paint.png" xscale 0.21 yscale 0.21 }
+}
+texture 4273 {
+   pal 0 { file "highres/textures/4273.png" }
+   pal 11 { file "highres/textures/4273_11.png" }
+   detail { file "highres/detail/paint.png" xscale 0.075 yscale 0.21 }
+}
+texture 4275 {
+   pal 0 { file "highres/textures/4275.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+texture 4276 {
+   pal 0 { file "highres/textures/4276.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4277 {
+   pal 0 { file "highres/textures/4277.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4278 {
+   pal 0 { file "highres/textures/4278.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4279 {
+   pal 0 { file "highres/textures/4279.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4280 {
+   pal 0 { file "highres/textures/4280.png" }
+   detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.15 }
+}
+texture 4281 {
+   pal 0 { file "highres/textures/4281.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.15 }
+}
+texture 4282 {
+   pal 0 { file "highres/textures/4282.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4283 {
+   pal 0 { file "highres/textures/4283.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 4284 {
+   pal 0 { file "highres/textures/4284.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+}
+texture 4285 {
+   pal 0 { file "highres/textures/4285.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4286 {
+   pal 0 { file "highres/textures/4286.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+texture 4287 {
+   pal 0 { file "highres/textures/4287.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4290 { pal 0 { file "highres/textures/4290.png" } }
+texture 4291 { pal 0 { file "highres/textures/4291.png" } }
+texture 4292 { pal 0 { file "highres/textures/4292.png" } }
+texture 4293 { pal 0 { file "highres/textures/4293.png" } }
+texture 4296 { pal 0 { file "highres/textures/4296.png" } }
+
+texture 4300 {
+   pal 0 { file "highres/textures/4300.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.075 yscale 0.15 }
+}
+texture 4302 {
+   pal 0 { file "highres/textures/4302.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4303 {
+   pal 0 { file "highres/textures/4303.png" }
+   detail { file "highres/detail/wood_v3.png" xscale 0.15 yscale 0.15 }
+}
+texture 4304 {
+   pal 0 { file "highres/textures/4304.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4305 {
+   pal 0 { file "highres/textures/4305.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4306 {
+   pal 0 { file "highres/textures/4306.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4307 {
+   pal 0 { file "highres/textures/4307.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4308 {
+   pal 0 { file "highres/textures/4308.png" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 4310 {
+   pal 0 { file "highres/textures/4310.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4317 { pal 0 { file "highres/textures/4317.png" } }
+texture 4318 { pal 0 { file "highres/textures/4318.png" } }
+texture 4319 {
+   pal 0 { file "highres/textures/4319.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+
+texture 4320 {
+   pal 0 { file "highres/textures/4320.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+texture 4321 {
+   pal 0 { file "highres/textures/4321.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+texture 4322 {
+   pal 0 { file "highres/textures/4322.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+texture 4323 {
+   pal 0 { file "highres/textures/4323.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+texture 4324 { pal 0 { file "highres/textures/4324.png" } }
+texture 4325 {
+   pal 0 { file "highres/textures/4325.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4326 {
+   pal 0 { file "highres/textures/4326.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4327 {
+   pal 0 { file "highres/textures/4327.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4328 {
+   pal 0 { file "highres/textures/4328.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4330 {
+   pal 0 { file "highres/textures/4330.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 4331 {
+   pal 0 { file "highres/textures/4331.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 4332 {
+   pal 0 { file "highres/textures/4332.png" }
+   detail { file "highres/detail/asphalt2.png" xscale 0.3 yscale 0.3 }
+}
+texture 4333 {
+   pal 0 { file "highres/textures/4333.png" }
+   detail { file "highres/detail/asphalt2.png" xscale 0.3 yscale 0.3 }
+}
+texture 4334 {
+   pal 0 { file "highres/textures/4334.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 1.2 }
+}
+texture 4335 {
+   pal 0 { file "highres/textures/4335.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 1.2 }
+}
+texture 4336 {
+   pal 0 { file "highres/textures/4322.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
+}
+texture 4337 {
+   pal 0 { file "highres/textures/4321.png" }
+   detail { file "highres/detail/concrete.png" xscale 0.15 yscale 0.15 }
+}
+
+// Tiles017
+
+texture 4364 {
+   pal 0 { file "highres/textures/4364.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 4365 {
+   pal 0 { file "highres/textures/4365.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
+}
+texture 4366 {
+   pal 0 { file "highres/textures/4366.png" }
+   detail { file "highres/detail/metal.png" xscale 0.3 yscale 1.2 }
+}
+
+texture 4390 {
+   pal 0 { file "highres/textures/4390.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.6 }
+}
+texture 4391 {
+   pal 0 { file "highres/textures/4391.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 4392 {
+   pal 0 { file "highres/textures/4392.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 4393 {
+   pal 0 { file "highres/textures/4393.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+texture 4394 {
+   pal 0 { file "highres/textures/4394.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.3 }
+}
+
+
+texture 4418 { pal 0 { file "highres/textures/4418.png" } }
+
+texture 4428 {
+   pal 0 { file "highres/textures/4428.png" }
+   detail { file "highres/detail/wood_h3.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4437 { pal 0 { file "highres/textures/4437.png" } }
+
+texture 4499 {
+   pal 0 { file "highres/textures/4499.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.15 }
+}
+
+texture 4500 {
+   pal 0 { file "highres/textures/4500.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.4 }
+}
+texture 4501 {
+   pal 0 { file "highres/textures/4501.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.4 }
+}
+
+texture 4531 {
+   pal 0 { file "highres/textures/4531.png" }
+   detail { file "highres/detail/fabric.png" xscale 1.2 yscale 1.2 }
+}
+texture 4532 {
+   pal 0 { file "highres/textures/4532.png" }
+   detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.6 }
+}
+
+texture 4567 { pal 0 { file "highres/textures/4567.png" } }
+
+texture 4594 { pal 0 { file "highres/textures/4594.png" } }
+texture 4595 { pal 0 { file "highres/textures/4595.png" } }
+texture 4596 { pal 0 { file "highres/textures/4596.png" } }
+texture 4597 { pal 0 { file "highres/textures/4597.png" } }
+texture 4598 { pal 0 { file "highres/textures/4598.png" } }
+texture 4599 { pal 0 { file "highres/textures/4599.png" } }
+
+
+// Tiles018
+// Tiles019
+
+texture 4888 {
+   pal 0 { file "highres/textures/4888.png" }
+   pal 10 { file "highres/textures/4888_10.png" }
+   pal 11 { file "highres/textures/4888_11.png" }
+   pal 12 { file "highres/textures/4888_12.png" }
+   pal 13 { file "highres/textures/4888_13.png" }
+   pal 14 { file "highres/textures/4888_14.png" }
+   pal 15 { file "highres/textures/4888_15.png" }
+   pal 16 { file "highres/textures/4888_16.png" }
+   pal 18 { file "highres/textures/4888_12.png" }
+   pal 21 { file "highres/textures/4888_21.png" }
+   pal 22 { file "highres/textures/4888_11.png" }
+   pal 23 { file "highres/textures/4888_23.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+
+texture 4924 {
+   pal 0 { file "highres/textures/4924.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4925 {
+   pal 0 { file "highres/textures/4925.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4926 {
+   pal 0 { file "highres/textures/4926.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4927 {
+   pal 0 { file "highres/textures/4927.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4928 {
+   pal 0 { file "highres/textures/4928.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4929 {
+   pal 0 { file "highres/textures/4929.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 4931 {
+   pal 0 { file "highres/textures/4931.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4932 {
+   pal 0 { file "highres/textures/4932.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4933 {
+   pal 0 { file "highres/textures/4933.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+texture 4934 {
+   pal 0 { file "highres/textures/4934.png" }
+   detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
+}
+
+
+texture 5063 {
+   pal 0 { file "highres/textures/5063.jpg" }
+   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 5064 { pal 0 { file "highres/textures/5064.png" } }
+texture 5065 {
+   pal 0 { file "highres/textures/5065.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 5066 {
+   pal 0 { file "highres/textures/5066.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 5067 {
+   pal 0 { file "highres/textures/5067.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 5068 {
+   pal 0 { file "highres/textures/5068.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 5069 {
+   pal 0 { file "highres/textures/5069.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 5070 {
+   pal 0 { file "highres/textures/5070.png" }
+   detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
+}
+texture 5071 {
+   pal 0 { file "highres/textures/5071.png" }
+   detail { file "highres/detail/alien_concrete_1.png" xscale 0.3 yscale 0.3 }
+}
+texture 5072 {
+   pal 0 { file "highres/textures/5072.png" }
+   detail { file "highres/detail/alien_concrete_0.png" xscale 0.3 yscale 0.3 }
+}
+texture 5073 {
+   pal 0 { file "highres/textures/5073.png" }
+   detail { file "highres/detail/alien_concrete_1.png" xscale 0.3 yscale 0.3 }
+}
+texture 5074 {
+   pal 0 { file "highres/textures/5074.png" }
+   detail { file "highres/detail/alien_concrete_0.png" xscale 0.3 yscale 0.3 }
+}
+texture 5075 {
+   pal 0 { file "highres/textures/5075.png" }
+   detail { file "highres/detail/alien_concrete_1.png" xscale 0.3 yscale 0.3 }
+}
+texture 5076 {
+   pal 0 { file "highres/textures/5076.png" }
+   detail { file "highres/detail/alien_concrete_0.png" xscale 0.3 yscale 0.3 }
+}
+texture 5077 {
+   pal 0 { file "highres/textures/5077.png" }
+   detail { file "highres/detail/alien_concrete_1.png" xscale 0.3 yscale 0.3 }
+}
+texture 5078 {
+   pal 0 { file "highres/textures/5078.png" }
+   detail { file "highres/detail/alien_concrete_0.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 5081 {
+   pal 0 { file "highres/textures/5081.png" }
+   detail { file "highres/detail/alien_rust_1.png" xscale 0.3 yscale 0.15 }
+}
+texture 5082 {
+   pal 0 { file "highres/textures/5082.png" }
+   detail { file "highres/detail/alien_rust_0.png" xscale 0.3 yscale 0.15 }
+}
+texture 5083 { 
+   pal 0 { file "highres/textures/5083.jpg" } 
+   pal 15 { file "highres/textures/5083_15.jpg" } 
+   detail { file "highres/detail/alien_paint_1.png" xscale 0.3 yscale 0.15 }
+}
+texture 5084 { 
+   pal 0 { file "highres/textures/5084.jpg" } 
+   pal 15 { file "highres/textures/5084_15.jpg" } 
+   detail { file "highres/detail/alien_paint_0.png" xscale 0.3 yscale 0.15 }
+}
+texture 5085 {
+   pal 0 { file "highres/textures/5085.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 5086 {
+   pal 0 { file "highres/textures/5086.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 5087 {
+   pal 0 { file "highres/textures/5087.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 5088 {
+   pal 0 { file "highres/textures/5088.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 5089 {
+   pal 0 { file "highres/textures/5089.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 5090 {
+   pal 0 { file "highres/textures/5090.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+texture 5091 {
+   pal 0 { file "highres/textures/5091.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.3 }
+}
+texture 5092 {
+   pal 0 { file "highres/textures/5092.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.3 }
+}
+texture 5093 {
+   pal 0 { file "highres/textures/5093.jpg" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 5094 {
+   pal 0 { file "highres/textures/5094.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 5095 {
+   pal 0 { file "highres/textures/5095.jpg" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
+}
+texture 5096 {
+   pal 0 { file "highres/textures/5096.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.3 }
+}
+texture 5097 {
+   pal 0 { file "highres/textures/5097.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.3 }
+}
+texture 5098 {
+   pal 0 { file "highres/textures/5098.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 5105 {
+   pal 0 { file "highres/textures/5105.png" }
+   detail { file "highres/detail/sand.png" xscale 0.3 yscale 0.3 }
+}
+texture 5107 {
+   pal 0 { file "highres/textures/5107.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 5108 {
+   pal 0 { file "highres/textures/5108.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 5109 {
+   pal 0 { file "highres/textures/5109.png" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}
+
+texture 5110 {
+   pal 0 { file "highres/textures/5110.png" }
+   detail { file "highres/detail/sand.png" xscale 0.15 yscale 0.15 }
+}
+texture 5111 {
+   pal 0 { file "highres/textures/5111.png" }
+   detail { file "highres/detail/sand.png" xscale 0.15 yscale 0.15 }
+}
+texture 5112 {
+   pal 0 { file "highres/textures/5112.png" }
+   detail { file "highres/detail/sand.png" xscale 0.15 yscale 0.15 }
+}
+texture 5113 {
+   pal 0 { file "highres/textures/5113.png" }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.15 }
+}
+texture 5114 {
+   pal 0 { file "highres/textures/5114.png" }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.15 }
+}
+texture 5115 {
+   pal 0 { file "highres/textures/5115.png" }
+   detail { file "highres/detail/rock.png" xscale 0.15 yscale 0.15 }
+}
+texture 5116 {
+   pal 0 { file "highres/textures/5116.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 5117 {
+   pal 0 { file "highres/textures/5117.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 5118 {
+   pal 0 { file "highres/textures/5118.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
+}
+texture 5119 {
+   pal 0 { file "highres/textures/5119.jpg" }
+   detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
+}

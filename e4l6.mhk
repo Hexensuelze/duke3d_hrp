@@ -1,0 +1,232 @@
+// Maphacks for Duke3D HRP
+// Level: E4L6.MAP - "Going Postal" (Original Atomic Edition version)
+// Reviewed by NightFright (March 2009)
+
+
+
+// PROPS
+
+// Box
+sprite 328 angoff -384
+sprite 329 angoff 64
+sprite 676 angoff 128
+sprite 677 angoff -256
+
+// Car mirror
+sprite 14 angoff 1024
+
+// Chair
+sprite 143 angoff 256
+sprite 332 angoff -640
+
+// Desklamp
+sprite 333 angoff -512
+
+// Fire extinguisher
+sprite 637 angoff -256
+sprite 638 angoff -768
+sprite 640 angoff -256
+
+// Fire hydrant
+sprite 42 angoff 512
+
+// Mail bags
+sprite 17 angoff 128
+sprite 110 angoff 256
+sprite 111 angoff -128
+sprite 112 angoff -128
+sprite 113 angoff 192
+sprite 114 angoff -128
+sprite 115 angoff 256
+sprite 116 angoff -640
+sprite 117 angoff 256
+sprite 314 angoff 128
+
+// Nuke barrel
+sprite 231 angoff 512
+sprite 232 angoff 640
+sprite 233 angoff -896
+sprite 235 angoff 1024
+sprite 684 angoff -512
+sprite 685 angoff -512
+sprite 686 angoff 768
+sprite 688 angoff 256
+sprite 689 angoff 512
+sprite 690 angoff 768
+sprite 691 angoff 512
+sprite 693 angoff 512
+sprite 694 angoff 1024
+sprite 696 angoff -384
+sprite 697 angoff 896
+
+// Radar Dish
+sprite 221 angoff 512
+
+// Spotlights
+sprite 96 angoff 1024
+sprite 98 angoff 1024
+
+// Toilet
+sprite 238 angoff 512
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 209 angoff -256
+sprite 286 angoff -512
+
+// Boots
+sprite 25 angoff 1024
+
+// Health +10
+sprite 269 angoff -128
+sprite 270 angoff 256
+sprite 272 angoff -256
+sprite 274 angoff -256
+sprite 275 angoff 256
+sprite 276 angoff 512
+
+// Health +30
+sprite 271 angoff -768
+sprite 285 angoff -512
+sprite 292 angoff -256
+sprite 578 angoff -512
+sprite 579 angoff -512
+
+// HoloDuke
+sprite 277 angoff 256
+
+// Jetpack
+sprite 295 angoff -512 // Dukematch only
+
+// Keycards (R/B/Y)
+sprite 145 angoff 1024
+sprite 534 angoff 1024
+sprite 724 angoff 1024
+
+// MedKit
+sprite 210 angoff 512
+
+// Steroids
+sprite 284 angoff -768
+sprite 293 angoff -512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 212 angoff -256
+sprite 213 angoff -256
+sprite 214 angoff -256
+sprite 299 angoff 256
+sprite 300 angoff 128
+sprite 302 angoff 1024
+sprite 304 angoff -512
+sprite 529 angoff 512
+sprite 669 angoff 512
+sprite 752 angoff 256
+
+// Shotgun & ammo
+sprite 211 angoff 512
+sprite 223 angoff -128
+sprite 298 angoff -512
+sprite 635 angoff -256
+
+// Chaingun & ammo
+sprite 206 angoff -512
+sprite 216 angoff -512
+sprite 218 angoff -512
+sprite 305 angoff 1024
+sprite 641 angoff 512
+
+// RPG & ammo
+sprite 207 angoff -384
+sprite 282 angoff -512
+sprite 306 angoff -512
+sprite 351 angoff 512
+sprite 352 angoff 512
+
+// Pipebombs
+sprite 81 angoff -512
+sprite 288 angoff -768
+sprite 750 angoff 512
+
+// Shrinker/Expander & ammo
+sprite 84 angoff -256 // Dukematch only
+sprite 280 angoff -256
+
+// Devastator & ammo
+sprite 26 angoff 64
+sprite 278 angoff 768
+sprite 290 angoff -512
+sprite 577 angoff -512
+sprite 590 angoff 1024
+
+// Laser Tripbomb
+sprite 266 angoff 1024
+sprite 267 angoff 896
+
+// Freezethrower & ammo
+sprite 281 angoff -512
+sprite 283 angoff 512
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 246 notmd
+sprite 254 notmd
+sprite 255 notmd
+sprite 256 notmd
+sprite 257 notmd
+sprite 258 notmd
+sprite 259 notmd
+sprite 260 notmd
+sprite 334 notmd
+sprite 335 notmd
+sprite 336 notmd
+sprite 337 notmd
+sprite 338 notmd
+sprite 339 notmd
+sprite 340 notmd
+sprite 341 notmd
+sprite 342 notmd
+sprite 343 notmd
+sprite 344 notmd
+sprite 345 notmd
+sprite 346 notmd
+sprite 347 notmd
+sprite 348 notmd
+sprite 399 notmd
+sprite 400 notmd
+sprite 403 notmd
+sprite 404 notmd
+sprite 429 notmd
+sprite 430 notmd
+sprite 433 notmd
+sprite 434 notmd
+sprite 437 notmd
+sprite 438 notmd
+sprite 441 notmd
+sprite 442 notmd
+sprite 472 notmd
+sprite 473 notmd
+sprite 505 notmd
+sprite 507 notmd
+sprite 508 notmd
+sprite 710 notmd
+sprite 711 notmd
+sprite 741 notmd
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 513 mdyoff -26700 // newspaper
+sprite 513 roll 5
+sprite 635 mdzoff 375000 // shotgun
+sprite 635 pitch 1
+
+// Switches to be hidden
+sprite 41 notmd // Side of fire engine
+sprite 147 notmd // Stamps machine
+sprite 633 notmd // Paw-print by PO boxes

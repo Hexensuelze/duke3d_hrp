@@ -1,0 +1,169 @@
+// Maphacks for Duke3D HRP
+// Level: E1L5.MAP - "The Abyss" (Original Atomic Edition version)
+// Reviewed by NightFright (January 2009)
+
+
+
+// CHARACTERS
+
+// Slime babes
+sprite 85 angoff -512
+sprite 88 angoff -512
+sprite 1031 angoff -512
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 80 angoff 768
+sprite 294 angoff 128 // Dukematch only
+sprite 1042 angoff -512 // Dukematch only
+
+// Boots
+sprite 604 angoff 1024
+sprite 682 angoff 512
+sprite 741 angoff -512
+
+// Health +10
+sprite 735 angoff 128
+sprite 736 angoff 256
+sprite 873 angoff 256
+sprite 936 angoff -256
+sprite 1057 angoff -64
+
+// Health +30
+sprite 117 angoff -768
+sprite 217 angoff -512
+sprite 447 angoff -896
+sprite 540 angoff -512
+sprite 609 angoff 768
+sprite 719 angoff -256
+sprite 722 angoff 256
+sprite 723 angoff 768
+sprite 728 angoff -256
+sprite 731 angoff 512
+sprite 732 angoff 512
+sprite 856 angoff 256
+sprite 860 angoff -256
+sprite 861 angoff -256
+sprite 862 angoff -256
+sprite 872 angoff 256
+sprite 937 angoff -256
+sprite 941 angoff -256
+sprite 1043 angoff 64
+sprite 1058 angoff -512
+
+// HoloDuke
+sprite 733 angoff -256
+
+// Jetpack 
+sprite 79 angoff 768
+sprite 1032 angoff 512 // Dukematch only
+
+// Keycards (B)
+sprite 375 angoff -128
+
+// MedKit
+sprite 689 angoff 128
+sprite 727 angoff 128
+sprite 734 angoff 256
+sprite 742 angoff 256
+
+// Nightvision
+sprite 262 angoff 256
+sprite 817 angoff 512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 720 angoff -512
+sprite 880 angoff -512
+sprite 933 angoff 512
+
+// Shotgun & ammo
+sprite 316 angoff 1024
+sprite 400 angoff 1024
+sprite 537 angoff -384
+sprite 541 angoff 768
+sprite 724 angoff -256
+sprite 725 angoff -256
+sprite 737 angoff 768
+sprite 865 angoff 512
+sprite 931 angoff 512
+sprite 1044 angoff 512 // Dukematch only
+
+// Chaingun & ammo
+sprite 6 angoff 1024
+sprite 24 angoff -128
+sprite 29 angoff 512
+sprite 152 angoff -512
+sprite 153 angoff -512
+sprite 218 angoff 512
+sprite 291 angoff 384
+sprite 538 angoff -768
+sprite 721 angoff -256
+sprite 743 angoff 256
+sprite 863 angoff 768
+sprite 874 angoff 256 // Dukematch only
+sprite 875 angoff 256 // Dukematch only
+sprite 919 angoff -512
+sprite 930 angoff 256
+sprite 934 angoff -512
+sprite 938 angoff -256
+sprite 940 angoff 256
+sprite 1040 angoff -512 // Dukematch only
+sprite 1059 angoff 1024 // Dukematch only
+
+// RPG & ammo
+sprite 7 angoff -512
+sprite 8 angoff -512
+sprite 9 angoff -512
+sprite 10 angoff -512
+sprite 81 angoff 768
+sprite 111 angoff 512
+sprite 221 angoff 512
+sprite 439 angoff 512
+sprite 718 angoff 1024
+sprite 884 angoff -512
+sprite 920 angoff 1024
+sprite 921 angoff 1024
+sprite 1039 angoff 512
+sprite 1045 angoff -512 // Dukematch only
+sprite 1052 angoff 1024
+sprite 1055 angoff -768 // Dukematch only
+sprite 1056 angoff -768 // Dukematch only
+
+// Pipebombs
+sprite 131 angoff 256
+sprite 311 angoff -512
+sprite 524 angoff -256
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 727 pitch 1 // Medkit outside of fire teleporter room
+sprite 727 mdxoff 13000
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 426 notmd
+sprite 427 notmd
+sprite 428 notmd
+sprite 429 notmd
+sprite 430 notmd
+sprite 431 notmd
+sprite 432 notmd
+sprite 433 notmd
+sprite 434 notmd
+sprite 435 notmd
+sprite 436 notmd
+sprite 437 notmd
+sprite 438 notmd
+
+// Switches to be hidden
+sprite 83 notmd
+sprite 382 notmd

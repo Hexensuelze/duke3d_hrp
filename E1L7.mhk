@@ -1,0 +1,104 @@
+// Maphacks for Duke3D HRP
+// Level: E1L7.MAP - "Faces of Death" (Original Atomic Edition version)
+// Reviewed by NightFright (January 2008)
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 22 angoff 512
+sprite 107 angoff -768
+sprite 110 angoff 768
+
+// Boots
+sprite 111 angoff -512
+
+// Health +10
+sprite 99 angoff 512
+sprite 101 angoff 512
+sprite 103 angoff -256
+sprite 104 angoff 256
+sprite 105 angoff -256
+sprite 106 angoff 256
+sprite 227 angoff 512
+sprite 229 angoff 512
+
+// HoloDuke
+sprite 108 angoff 256
+
+// Jetpack
+sprite 235 angoff 256
+
+
+
+// WEAPONS/AMMO
+
+// Shotgun & ammo
+sprite 128 angoff 1024
+sprite 179 angoff 768
+sprite 247 angoff -512
+
+// Chaingun & ammo
+sprite 91 angoff 768
+sprite 92 angoff 768
+sprite 123 angoff 768
+sprite 129 angoff 1024
+sprite 233 angoff -256
+sprite 254 angoff 1024
+
+// RPG & ammo
+sprite 1 angoff 512 // Dukematch only
+sprite 93 angoff 768
+sprite 94 angoff 768
+sprite 126 angoff 768
+sprite 130 angoff 1024
+sprite 234 angoff 768
+sprite 253 angoff -768
+
+// Pipebombs
+sprite 127 angoff -512
+
+// Shrinker & ammo
+sprite 89 angoff 256
+sprite 90 angoff 256
+sprite 124 angoff 256
+sprite 133 angoff 512
+sprite 134 angoff 512
+sprite 238 angoff -256
+sprite 249 angoff -256
+sprite 250 angoff 256
+
+// Devastator & ammo
+sprite 0 angoff 1024 // Dukematch only
+sprite 95 angoff 768
+sprite 96 angoff 768
+sprite 125 angoff 768
+sprite 132 angoff 512
+sprite 231 angoff -256 // Dukematch only
+sprite 252 angoff 768
+
+// Laser Tripbomb
+sprite 121 angoff -512
+sprite 236 angoff -256
+sprite 237 angoff -256
+
+// Freezethrower & ammo
+sprite 232 angoff 256
+sprite 251 angoff 256
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 127 mdzoff 360000 // Pipebombs
+sprite 127 pitch 1
+sprite 128 mdzoff 60000 // shotgun ammo
+sprite 128 pitch 1
+sprite 129 mdzoff 360000 // chaingun ammo
+sprite 129 pitch 1
+sprite 130 mdzoff 360000 // RPG ammo
+sprite 130 pitch 1
+sprite 132 mdzoff 360000 // Devastator ammo
+sprite 132 pitch 1

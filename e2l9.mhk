@@ -1,0 +1,126 @@
+// Maphacks for Duke3D HRP
+// Level: E2L9.MAP - "Overlord" (Original Atomic Edition version)
+// Reviewed by NightFright (January 2008)
+
+
+
+// CHARACTERS
+
+// Slime babes
+sprite 314 angoff 256
+sprite 321 angoff -768
+sprite 367 angoff 640
+sprite 368 angoff 128
+sprite 369 angoff 384
+
+
+
+// PROPS
+
+// Satellite
+sprite 285 angoff 128
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 8 angoff -256
+sprite 9 angoff 768
+
+// Health +10
+sprite 82 angoff 256
+sprite 98 angoff 25
+
+// Health +30
+sprite 34 angoff 512
+sprite 89 angoff -768
+sprite 95 angoff 768
+sprite 103 angoff 192
+
+// HoloDuke
+sprite 395 angoff -768
+
+// Jetpack
+sprite 396 angoff 1024
+
+// MedKit
+sprite 12 angoff -512
+sprite 13 angoff 128
+sprite 413 angoff 128
+
+// Nightvision
+sprite 14 angoff 512
+sprite 81 angoff 1024
+
+// Scuba gear
+sprite 15 angoff -512
+sprite 78 angoff 768
+
+
+
+// WEAPONS/AMMO
+
+// Pistol
+sprite 11 angoff -64
+
+// Shotgun & ammo
+sprite 88 angoff -256
+sprite 99 angoff 768
+sprite 102 angoff 768
+
+// Chaingun & ammo
+sprite 79 angoff 256
+sprite 80 angoff 256
+sprite 83 angoff 1024
+
+// RPG & ammo
+sprite 7 angoff -512
+sprite 76 angoff -832
+sprite 77 angoff 832
+sprite 92 angoff 1024
+sprite 96 angoff 384
+sprite 467 angoff 672
+sprite 468 angoff -672
+sprite 469 angoff 256
+sprite 470 angoff -256
+
+// Pipebombs
+sprite 424 angoff -128
+sprite 425 angoff -512
+
+// Shrinker & ammo
+sprite 90 angoff 512
+sprite 93 angoff -512
+
+// Devastator & ammo
+sprite 74 angoff 256
+sprite 75 angoff -256
+sprite 97 angoff -512
+sprite 414 angoff 384
+
+// Laser Tripbomb
+sprite 69 angoff -256
+sprite 70 angoff -512
+sprite 71 angoff 512
+
+// Freezethrower & ammo
+sprite 37 angoff -512
+sprite 38 angoff -512
+sprite 100 angoff 512
+sprite 397 angoff 256
+sprite 398 angoff -384
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 7 mdzoff 360000 // RPG
+sprite 7 roll 1
+sprite 93 mdzoff 360000 // Shrinker
+sprite 93 roll 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 194 notmd
+sprite 195 notmd

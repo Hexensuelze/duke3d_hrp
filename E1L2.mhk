@@ -1,0 +1,140 @@
+// Maphacks for Duke3D HRP
+// Level: E1L2.MAP - "Red Light District" (Original Atomic Edition version)
+// Reviewed by NightFright (June 2008)
+
+
+
+// CHARACTERS
+
+// Hooker
+sprite 544 angoff -768 // flipped sprite
+
+// Slime babes
+sprite 1 angoff -896
+
+// Stripper
+sprite 309 angoff 512
+
+
+
+// PROPS
+
+// Bottles
+sprite 525 angoff -64
+sprite 526 angoff 128
+sprite 527 angoff 384
+sprite 528 angoff 960
+sprite 465 angoff 256
+sprite 466 angoff -512
+sprite 467 angoff 128
+sprite 468 angoff 512
+sprite 469 angoff -768
+sprite 470 angoff -192
+sprite 471 angoff 256
+sprite 472 angoff -384
+sprite 473 angoff -192
+sprite 474 angoff 512
+sprite 475 angoff 128
+sprite 476 angoff -256
+
+// Fire Hydrant 
+sprite 797 angoff -512 
+
+// Toilet
+sprite 478 angoff -512
+
+// Trashcan
+sprite 160 angoff -256
+sprite 228 angoff 512
+sprite 402 angoff -256
+sprite 407 angoff -256
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 189 angoff -512
+sprite 367 angoff 256
+
+// Health +30
+sprite 44 angoff 256 
+sprite 153 angoff 256 
+sprite 154 angoff 256
+sprite 155 angoff -256 
+sprite 156 angoff 256 
+sprite 158 angoff 512
+sprite 180 angoff -256 
+
+// HoloDuke
+sprite 208 angoff 256
+
+// Keycards (Y/R)
+sprite 179 angoff -768
+sprite 249 angoff 512
+
+// Medkit
+sprite 823 angoff -128
+
+// Nightvision
+sprite 186 angoff 1024
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 432 angoff 1024
+sprite 755 angoff 512
+sprite 757 angoff 512
+
+// Shotgun & ammo
+sprite 331 angoff -512
+sprite 332 angoff -512 // Dukematch only
+sprite 390 angoff 512 // Dukematch only
+sprite 391 angoff 512
+sprite 515 angoff 1024
+sprite 694 angoff 1024
+sprite 818 angoff -768
+
+// Chaingun & ammo
+sprite 173 angoff 512
+sprite 693 angoff 512
+sprite 754 angoff -512
+
+// RPG & ammo
+sprite 163 angoff -512
+sprite 192 angoff -512 
+sprite 751 angoff 256 // Dukematch only
+
+// Pipebombs
+sprite 63 angoff 512
+sprite 188 angoff -512
+sprite 265 angoff -768
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 208 mdzoff 600000 // secret HoloDuke in video store
+sprite 208 pitch 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 177 notmd
+sprite 287 notmd
+sprite 288 notmd
+sprite 289 notmd
+sprite 290 notmd
+sprite 291 notmd
+sprite 292 notmd
+sprite 426 notmd
+sprite 461 notmd
+sprite 462 notmd
+sprite 463 notmd
+sprite 540 notmd
+
+// Switches to be hidden
+sprite 191 notmd // Hand dryer
+sprite 254 notmd // Telephone
+sprite 517 notmd // Telephone

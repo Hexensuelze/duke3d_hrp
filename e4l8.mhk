@@ -1,0 +1,152 @@
+// Maphacks for Duke3D HRP
+// Level: E4L8.MAP - "Critical Mass" (Original Atomic Edition version)
+// Reviewed by NightFright (January 2008)
+
+
+
+// PROPS
+
+// Bottle
+sprite 326 angoff 256
+sprite 327 angoff 512
+
+// Chair
+sprite 336 angoff -512
+sprite 361 angoff 786
+sprite 457 angoff -896
+sprite 894 angoff 256
+
+// Chopper wheel (trash compactor)
+sprite 684 angoff 128
+
+// Donuts
+sprite 458 angoff -64
+sprite 706 angoff -384
+sprite 707 angoff 192
+
+// Nuke barrel
+sprite 365 angoff -128
+sprite 366 angoff -512
+sprite 367 angoff 512
+sprite 368 angoff -256
+sprite 369 angoff -128
+sprite 600 angoff 896
+sprite 601 angoff -512
+sprite 603 angoff 256
+
+// Trashcan
+sprite 837 angoff -768
+sprite 838 angoff 512
+
+// US flag
+sprite 335 angoff 256
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 351 angoff 256
+
+// Health +10
+sprite 655 angoff 256
+sprite 656 angoff -256
+sprite 851 angoff 256
+sprite 859 angoff 512
+
+// Health +30
+sprite 610 angoff -128
+sprite 654 angoff -768
+sprite 657 angoff -256
+sprite 732 angoff 512
+sprite 1019 angoff -512
+
+// HoloDuke
+sprite 724 angoff 1024
+
+// Jetpack
+sprite 323 angoff 1024 // Dukematch only
+
+// Keycards (B/Y/R)
+sprite 386 angoff 512
+sprite 762 angoff 256
+sprite 854 angoff 512
+
+// Medkit
+sprite 479 angoff 512
+sprite 733 angoff -256
+
+// Scuba gear
+sprite 863 angoff 768
+
+// Steroids
+sprite 55 angoff -256
+sprite 734 angoff 256
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 607 angoff 256
+sprite 608 angoff 256
+sprite 609 angoff 256
+sprite 829 angoff 512
+sprite 865 angoff 512
+
+// Shotgun & ammo
+sprite 352 angoff 64
+sprite 714 angoff -256
+sprite 715 angoff 1024
+
+// Chaingun & ammo
+sprite 561 angoff -512
+sprite 611 angoff -512
+sprite 615 angoff 512
+
+// RPG & ammo
+sprite 228 angoff -512
+sprite 834 angoff -512
+sprite 864 angoff 1024 // Dukematch only
+
+// Pipebombs
+sprite 140 angoff 1024
+sprite 538 angoff -512
+sprite 713 angoff -256
+sprite 723 angoff 128
+sprite 850 angoff 128
+
+// Shrinker/Expander & ammo
+sprite 319 angoff -768
+sprite 324 angoff 512
+sprite 827 angoff -128
+
+// Devastator & ammo
+sprite 828 angoff -256
+
+// Freezethrower & ammo
+sprite 344 angoff 512
+sprite 831 angoff -384
+sprite 868 angoff -256 // Dukematch only
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 335 mdzoff 530000 // US flag
+sprite 335 roll 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 330 notmd
+sprite 360 notmd
+sprite 364 notmd
+sprite 893 notmd
+
+// Switches to be hidden
+sprite 537 notmd // Pressure maintenance computer
+
+// Symbols to be rendered as sprites
+sprite 35 notmd // Atomic symbol on desk
+sprite 332 notmd // Atomic symbol on desk
+sprite 1033 notmd // Picture outside building used to hold player flat

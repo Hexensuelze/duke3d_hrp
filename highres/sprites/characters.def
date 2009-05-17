@@ -1,0 +1,393 @@
+
+// Duke3D HRP Characters Definitions
+
+
+
+// BABES
+
+   // Hanging Babe/NAKED1 (603)
+   model "highres/sprites/characters/0603_hangbabe.md3" {
+      scale 9.3 shade 2 zadd -14
+      skin { pal 0 surface 0 file "highres/sprites/characters/0603_skin.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
+      skin { pal 0 surface 2 file "highres/sprites/characters/0603_hair.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME7" fps 2 flags 0 }
+      frame { name "FRAME1" tile 603 }
+   }
+
+   // Geisha/STATUE (753) 
+   model "highres/sprites/characters/0753_geisha.md3" {
+      scale 2.1 shade 2
+      skin { pal 0 surface 0 file "highres/sprites/characters/0753_geisha.png" }
+      skin { pal 21 surface 0 file "highres/sprites/characters/0753_geisha_21.png" }
+      anim { frame0 "FRAME2" frame1 "FRAME25" fps 20 flags 0 }
+      frame { name "FRAME1" tile 753 }
+      frame { name "FRAME2" tile 869 }
+   }
+
+   // Pod Babe/PODFEM1 (1294)
+   model "highres/sprites/characters/1294_podbabe.md3" {
+      scale 9.3 shade 2
+      skin { pal 0 surface 0 file "highres/sprites/characters/1294_skin.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
+      skin { pal 0 surface 2 file "highres/sprites/characters/1294_hair.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME31" fps 4 flags 0 }
+      frame { name "FRAME1" tile0 1294 tile1 1296 }
+   }
+
+   // Stripper/FEM1 (1312)
+   model "highres/sprites/characters/1312_stripper.md3" {
+      scale 1.9 shade 0
+      skin { pal 0 file "highres/sprites/characters/1312_stripper.png" }
+      skin { pal 10 file "highres/sprites/characters/1312_stripper_10.png" }
+      skin { pal 11 file "highres/sprites/characters/1312_stripper_11.png" }
+      skin { pal 12 file "highres/sprites/characters/1312_stripper_12.png" }
+      skin { pal 13 file "highres/sprites/characters/1312_stripper_13.png" }
+      skin { pal 14 file "highres/sprites/characters/1312_stripper_14.png" }
+      skin { pal 15 file "highres/sprites/characters/1312_stripper_15.png" }
+      skin { pal 16 file "highres/sprites/characters/1312_stripper_16.png" }
+      skin { pal 21 file "highres/sprites/characters/1312_stripper_21.png" }
+      skin { pal 23 file "highres/sprites/characters/1312_stripper_23.png" }
+      anim { frame0 "dance_b" frame1 "dance_e" fps 40 flags 0 }
+      frame { name "dance_b" tile0 1312 tile1 1316 smoothduration 0.5 }
+      anim { frame0 "shake_b" frame1 "shake_e" fps 31 flags 0 }
+      frame { name "shake_b" tile0 1331 tile1 1333 smoothduration 0.5 }
+   }
+
+   // Pole Stripper/FEM2 (1317)
+   model "highres/sprites/characters/1317_stripper.md3" {
+      scale 3 shade 3
+      skin { pal 0 file "highres/sprites/characters/1317_stripper.png" }
+      skin { pal 10 file "highres/sprites/characters/1317_stripper_10.png" }
+      skin { pal 11 file "highres/sprites/characters/1317_stripper_11.png" }
+      skin { pal 12 file "highres/sprites/characters/1317_stripper_12.png" }
+      skin { pal 13 file "highres/sprites/characters/1317_stripper_13.png" }
+      skin { pal 14 file "highres/sprites/characters/1317_stripper_14.png" }
+      skin { pal 15 file "highres/sprites/characters/1317_stripper_15.png" }
+      skin { pal 16 file "highres/sprites/characters/1317_stripper_16.png" }
+      skin { pal 21 file "highres/sprites/characters/1317_stripper_21.png" }
+      skin { pal 23 file "highres/sprites/characters/1317_stripper_23.png" }
+      anim { frame0 "frame1" frame1 "frame4" fps 4 flags 0 }
+      frame { frame "frame1" tile0 1317 tile1 1320 }
+   }
+
+   // Babe Hooker/FEM3 (1321)
+   model "highres/sprites/characters/1321_hooker.md3" {
+      scale 1.1 shade 1
+      skin { pal 0 file "highres/sprites/characters/1321_hooker.png" }
+      anim { frame0 "1" frame1 "6" fps 5 flags 0 }
+      frame { frame "1" tile0 1321 tile1 1322 }
+   }
+
+   // Impaled Babe/FEM5 (1323)
+   model "highres/sprites/characters/1323_paledbabe.md3" {
+      scale 9.3 shade 2
+      skin { pal 0 surface 0 file "highres/sprites/characters/1323_skin.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/1323_hair.png" }
+      skin { pal 0 surface 2 file "highres/sprites/characters/1323_slime.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME15" fps 2 flags 0 }
+      frame { name "FRAME1" tile 1323 }
+   }
+
+   // Impaled Babe/FEM5 Bloody Pale (1324)
+   model "highres/sprites/characters/1324_pale.md3" {
+      scale 9.3 shade 2
+      skin { pal 0 file "highres/sprites/characters/slime_blood.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      frame { name "FRAME1" tile 1324 }
+   }
+
+   // Cavedancer/FEM4 (1325)
+   model "highres/sprites/characters/1325_cavedancer.md3" {
+      scale 2 shade 2
+      skin { pal 0 file "highres/sprites/characters/1325_cavedancer.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME20" fps 15 flags 0 }
+      frame { name "FRAME1" tile0 1325 tile1 1330 }
+   }
+
+   // Crouching Babe/FEM6 (1334)
+   model "highres/sprites/characters/1334_crouchbabe.md3" {
+      scale 10.8 shade 2 zadd 5
+      skin { pal 0 surface 0 file "highres/sprites/characters/1334_skin.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
+      skin { pal 0 surface 2 file "highres/sprites/characters/1334_hair.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME25" fps 4 flags 0 }
+      frame { name "FRAME1" tile 1334 }
+   }
+
+   // Crouching Babe/FEM6 Podest (1335)
+   model "highres/sprites/characters/1335_podest.md3" {
+      scale 9.3 shade 2 zadd -2
+      skin { pal 0 file "highres/sprites/characters/slime_blood.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      frame { name "FRAME1" tile 1335 }
+   }
+
+   // Asian Babe/FEM7 (1395)
+   model "highres/sprites/characters/1395_fem7.md3" {
+      scale 2.57 shade 3
+      skin { pal 0 file "highres/sprites/characters/1395_fem7.png" }
+      skin { pal 10 file "highres/sprites/characters/1395_fem7_10.png" }
+      skin { pal 11 file "highres/sprites/characters/1395_fem7_11.png" }
+      skin { pal 12 file "highres/sprites/characters/1395_fem7_12.png" }
+      skin { pal 13 file "highres/sprites/characters/1395_fem7_13.png" }
+      skin { pal 14 file "highres/sprites/characters/1395_fem7_14.png" }
+      skin { pal 15 file "highres/sprites/characters/1395_fem7_15.png" }
+      skin { pal 16 file "highres/sprites/characters/1395_fem7_16.png" }
+      skin { pal 21 file "highres/sprites/characters/1395_fem7_21.png" }
+      skin { pal 23 file "highres/sprites/characters/1395_fem7_23.png" }
+      anim { frame0 "frame1" frame1 "frame4" fps 4 flags 0 }
+      frame { frame "frame1" tile0 1395 tile1 1398 }
+   }
+
+   // Cheerleader/FEM9 (3450)
+   model "highres/sprites/characters/3450_cheerleader.md3" {
+      scale 2 shade 2
+      skin { pal 0 surface 0 file "highres/sprites/characters/3450_cheerleader_14.png" }   // pom-poms
+      skin { pal 0 surface 1 file "highres/sprites/characters/3450_cheerleader.png" }      // hair
+      skin { pal 0 surface 2 file "highres/sprites/characters/3450_cheerleader.png" }      // body 
+      skin { pal 10 surface 0 file "highres/sprites/characters/3450_cheerleader_10.png" }
+      skin { pal 10 surface 1 file "highres/sprites/characters/3450_cheerleader_10.png" }
+      skin { pal 10 surface 2 file "highres/sprites/characters/3450_cheerleader_10.png" }
+      skin { pal 11 surface 0 file "highres/sprites/characters/3450_cheerleader_14.png" }      
+      skin { pal 11 surface 1 file "highres/sprites/characters/3450_cheerleader_11.png" }
+      skin { pal 11 surface 2 file "highres/sprites/characters/3450_cheerleader_11.png" }
+      skin { pal 12 surface 0 file "highres/sprites/characters/3450_cheerleader_12.png" }
+      skin { pal 12 surface 1 file "highres/sprites/characters/3450_cheerleader_12.png" }
+      skin { pal 12 surface 2 file "highres/sprites/characters/3450_cheerleader_12.png" }
+      skin { pal 13 surface 0 file "highres/sprites/characters/3450_cheerleader_10.png" }
+      skin { pal 13 surface 1 file "highres/sprites/characters/3450_cheerleader_13.png" }
+      skin { pal 13 surface 2 file "highres/sprites/characters/3450_cheerleader_13.png" }
+      skin { pal 14 surface 0 file "highres/sprites/characters/3450_cheerleader.png" }
+      skin { pal 14 surface 1 file "highres/sprites/characters/3450_cheerleader_14.png" }
+      skin { pal 14 surface 2 file "highres/sprites/characters/3450_cheerleader_14.png" }
+      skin { pal 15 surface 0 file "highres/sprites/characters/3450_cheerleader_15.png" }
+      skin { pal 15 surface 1 file "highres/sprites/characters/3450_cheerleader_15.png" }
+      skin { pal 15 surface 2 file "highres/sprites/characters/3450_cheerleader_15.png" }
+      skin { pal 16 surface 0 file "highres/sprites/characters/3450_cheerleader_12.png" }
+      skin { pal 16 surface 1 file "highres/sprites/characters/3450_cheerleader_16.png" }
+      skin { pal 16 surface 2 file "highres/sprites/characters/3450_cheerleader_16.png" }
+      skin { pal 21 surface 0 file "highres/sprites/characters/3450_cheerleader_10.png" }
+      skin { pal 21 surface 1 file "highres/sprites/characters/3450_cheerleader_21.png" }
+      skin { pal 21 surface 2 file "highres/sprites/characters/3450_cheerleader_21.png" }
+      skin { pal 23 surface 0 file "highres/sprites/characters/3450_cheerleader_10.png" }
+      skin { pal 23 surface 1 file "highres/sprites/characters/3450_cheerleader_23.png" }
+      skin { pal 23 surface 2 file "highres/sprites/characters/3450_cheerleader_23.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME20" fps 15 flags 0 }
+      frame { name "FRAME1" tile0 3450 tile1 3455 }
+   }
+
+   // E4L7 Sister Act Babes/FEM10 (4864)
+   model "highres/sprites/characters/4864_fem10.md3" {
+      scale 2.76 shade 0
+      skin { pal 0 surface 0 file "highres/sprites/characters/4864_fem10a.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/4864_fem10b.png" }
+      anim { frame0 "frame1" frame1 "frame4" fps 0.5 flags 0 }
+      frame { frame "frame1" tile0 4864 tile1 4865 }
+   }
+
+   // E4L7 Domina/TOUGHGAL (4866)
+   model "highres/sprites/characters/4866_toughgal.md3" {
+      scale 1.75 shade 2
+      skin { pal 0 file "highres/sprites/characters/4866_toughgal.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME30" fps 15 flags 0 }
+      frame { name "FRAME1" tile0 4866 tile1 4870 }
+   }
+
+   // E4L1 Weather Girl/WOMAN (4874)
+   model "highres/sprites/characters/4874_woman.md3" {
+      scale 2.55 shade 0
+      skin { pal 0 file "highres/sprites/characters/4874_woman.png" }
+      skin { pal 12 file "highres/sprites/characters/4874_woman_12.png" }
+      anim { frame0 "frame1" frame1 "frame2" fps 0.75 flags 0 }
+      frame { frame "frame1" tile0 4874 tile1 4876 }
+   }
+
+
+
+// PIRATES/ROBOTS (E4L4)  
+
+   // ROBOTDOG (4402)
+
+   // ROBOTPIRATE (4404)
+
+   // PIRATE1A/4A (4510)
+   model "highres/sprites/characters/4510_pirate1a.md3" {
+      scale 1.7 shade 0
+      skin { pal 0 file "highres/sprites/characters/4510_pirate1a.png" }
+      skin { pal 10 file "highres/sprites/characters/4510_pirate1a_10.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME15" fps 10 flags 0 }
+      frame { name "FRAME1" tile0 4510 tile1 4511 }
+   }
+
+   // PIRATE2A/5A (4512)
+
+   // PIRATE3A/6A (4514)
+
+   // PIRATEHALF (4516)
+   model "highres/sprites/characters/4516_piratehalf.md3" {
+      scale 0.45 shade 1
+      skin { pal 0 file "highres/sprites/characters/4516_piratehalf.png" }
+      anim { frame0 "FRAME1" frame1 "FRAME15" fps 4 flags 0 }
+      frame { frame "FRAME1" tile0 4516 tile1 4517 }
+   } 
+
+   // MAN/MAN2 (4871)
+
+
+
+// DUKE
+
+   // Automap Duke (1400)
+   texture 1400 { pal 0 { file "highres/sprites/characters/1400_mapduke.png" } }
+   texture 1401 { pal 0 { file "highres/sprites/characters/1401_mapduke.png" } }
+   texture 1402 { pal 0 { file "highres/sprites/characters/1402_mapduke.png" } }
+   texture 1403 { pal 0 { file "highres/sprites/characters/1403_mapduke.png" } }
+
+   // Duke standing/moving (1405/1420/1425/1445/1455)
+   model "highres/sprites/characters/1405_duke.md3" {
+      scale 1.45 shade 0 zadd 3
+      skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
+      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
+      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
+      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
+      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
+      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
+      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
+      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
+      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
+      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
+      skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
+
+      // Idle (1405-1409)
+         anim { frame0 "idle0" frame1 "idle1" fps 6 flags 0 }
+         frame { name "idle0" tile0 1405 tile1 1409 smoothduration 0.4 }
+      // Jetpack (1420-1424)
+         anim { frame0 "jetpack0" frame1 "jetpack1" fps 8 flags 0 }
+         frame { name "jetpack0" tile0 1420 tile1 1424 smoothduration 0.5 }
+      // Run (1425-1444)
+         anim { frame0 "run0" frame1 "run1" fps 36 flags 0 }
+         frame { name "run0" tile0 1425 tile1 1444 smoothduration 0.2 }
+      // Kick (1445-1454)
+         anim { frame0 "kick0" frame1 "kick1" fps 8 flags 1 }
+         frame { name "kick0" tile0 1445 tile1 1454 smoothduration 0.1 }
+      // Jump (1455-1469)
+         anim { frame0 "jump0" frame1 "land" fps 7 flags 1 }
+         frame { name "jump0" tile0 1455 tile1 1464 smoothduration 0.2 }
+         frame { name "land" tile0 1465 tile1 1469 smoothduration 0.2 }
+
+      hud { tile0 1425 tile1 1444 xadd 0.2 yadd 0.4 zadd 1 angadd -640 }
+   }
+
+   // Duke swimming (1780)
+   model "highres/sprites/characters/1405_duke.md3" {
+      scale 1.45 shade 0 zadd 50
+      skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
+      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
+      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
+      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
+      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
+      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
+      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
+      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
+      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
+      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
+      skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
+      anim { frame0 "swim0" frame1 "swim1" fps 20 flags 0 }
+      frame { name "swim0" tile0 1780 tile1 1799 smoothduration 0.3 }
+   }
+
+   // Duke crouching/dying (1491/1511)
+   model "highres/sprites/characters/1405_duke.md3" {
+      scale 1.45 shade 0 zadd 41
+      skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
+      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
+      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
+      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
+      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
+      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
+      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
+      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
+      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
+      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
+      skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
+
+      // Crouch (1491-1505)
+         frame { name "crouch1" tile0 1491 tile1 1495 smoothduration 0.2 }
+         frame { name "crouch2" tile0 1496 tile1 1500 smoothduration 0.2 }
+         frame { name "crouch3" tile0 1501 tile1 1505 smoothduration 0.2 }
+      // Death (1511-1518)
+         anim { frame0 "die0" frame1 "die1" fps 25 flags 1 }
+         frame { name "die0" tile0 1511 tile1 1515 smoothduration 0.2 }
+         frame { name "dead" tile 1518 smoothduration 0.3 }
+   }
+
+
+
+// OTHER
+
+   // Rat (1267)
+   model "highres/sprites/characters/1267_rat.md3" {
+      scale 0.4 shade 0
+      skin { pal 0 file "highres/sprites/characters/1267_rat.jpg" }
+      anim { frame0 "run1" frame1 "run2" fps 8 flags 0 }
+      frame { name "run1" tile0 1267 tile1 1271 }
+   }
+
+   // Monk (1352)
+   model "highres/sprites/characters/1352_monk.md3" {
+      scale 30 shade 3
+      skin { pal 0 file "highres/sprites/characters/1352_monk.png" }
+      frame { name "FRAME1" tile 1352 }
+   }
+
+   // Space Marine (1353)
+   model "highres/sprites/characters/1353_spacemarine.md2" {
+      scale 2.5 shade 0
+      skin { pal 0 file "highres/sprites/characters/1353_spacemarine.png" }
+      frame { name "idle1" tile 1353 }
+   }
+
+   // Skywalker (1354)
+
+   // Indy (1355)
+
+   // Terminator (1356)
+   model "highres/sprites/characters/1356_terminator.md3" { 
+      scale 1 shade 0
+      skin { pal 0 surface 0 file "highres/sprites/characters/1356_terminator.png" }
+      anim { frame0 "frame1" frame1 "frame4" fps 0.5 flags 0 }
+      frame { name "frame1" tile 1356 }
+   }
+
+   // Terminator arm (1357)
+   model "highres/sprites/characters/1357_terminarm.md3" { 
+      scale 1.5 shade 0
+      skin { pal 0 surface 0 file "highres/sprites/characters/1356_terminator.png" }
+      frame { name "frame1" tile 1357 }
+   }
+
+   // Robot mouse (4407)
+   model "highres/sprites/characters/4407_robotmouse.md3" {
+      scale 1 shade 10
+      detail { file "highres/detail/metal.png" detailscale 0.3 }
+      skin { pal 0 file "highres/sprites/characters/4407_robotmouse.png" }
+      anim { frame0 "Frame0" frame1 "Frame1" fps 4 flags 0 }
+      frame { name "Frame0" tile 4407 }
+   }
+
+   // Snake Plisken (4590)
+   model "highres/sprites/characters/4590_snakep.md3" {
+      scale 1 shade 0
+      skin { pal 0 file "highres/sprites/characters/4590_snakep.png" }
+      frame { name "Frame0" tile 4590 }
+   }
+
+   // JURYGUY (4943)

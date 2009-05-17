@@ -1,0 +1,205 @@
+// Maphack for Duke3D HRP
+// Level: E2L7.MAP - "Lunar Reactor" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2009)
+
+
+
+// PROPS
+
+// Barrels
+sprite 343 angoff 512
+sprite 344 angoff -256
+sprite 345 angoff -768
+
+// Bottles
+sprite 299 angoff -288
+sprite 770 angoff -960
+
+// Reactor core
+sprite 423 angoff 256
+sprite 425 angoff 256
+
+// Space suits
+sprite 415 angoff 1024
+sprite 416 angoff -768
+
+// Water fountains
+sprite 2 angoff 1024
+sprite 4 angoff 1024
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 109 angoff -384
+sprite 149 angoff 1024
+
+// Boots
+sprite 1040 angoff 1024
+
+// Health +10
+sprite 137 angoff 256
+sprite 138 angoff -256
+sprite 150 angoff 512
+sprite 151 angoff 512
+sprite 152 angoff 512
+
+// Health +30
+sprite 87 angoff 512
+sprite 124 angoff 512
+sprite 136 angoff 1024
+sprite 143 angoff 768
+sprite 155 angoff 512
+sprite 161 angoff 640
+sprite 169 angoff -768
+sprite 991 angoff 512
+sprite 1027 angoff 1024
+
+// HoloDuke
+sprite 132 angoff -512
+
+// Jetpack
+sprite 128 angoff 768
+
+// Keycards (R)
+sprite 882 angoff 512
+
+// Nightvision
+sprite 992 angoff 1024
+sprite 1028 angoff -256
+
+// Steroids
+sprite 5 angoff -512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 163 angoff 512
+
+// Shotgun & ammo
+sprite 78 angoff -256
+sprite 123 angoff 1024
+sprite 135 angoff 512
+sprite 141 angoff 768
+sprite 157 angoff -512
+sprite 168 angoff -256
+
+// Chaingun & ammo
+sprite 144 angoff 1024
+sprite 156 angoff -512
+sprite 160 angoff 512
+sprite 981 angoff 512
+
+// RPG & ammo
+sprite 77 angoff -512
+sprite 110 angoff 512
+sprite 145 angoff 512
+sprite 159 angoff 384
+sprite 213 angoff 1024
+sprite 979 angoff 128
+
+// Pipebombs
+sprite 129 angoff 1024
+sprite 154 angoff 768
+
+// Shrinker & ammo
+sprite 130 angoff 256
+sprite 146 angoff -256
+sprite 147 angoff 384
+
+// Devastator & ammo
+sprite 79 angoff -512
+sprite 121 angoff 256
+sprite 122 angoff 512
+sprite 131 angoff 512
+sprite 162 angoff 256
+sprite 167 angoff -256
+sprite 175 angoff -512
+sprite 980 angoff -256
+
+// Laser Tripbomb
+sprite 120 angoff 512
+sprite 994 angoff -256
+sprite 1029 angoff -384
+sprite 1030 angoff -640
+
+// Freezethrower & ammo
+sprite 153 angoff -256
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 2 mdzoff -130000 // drinking fountain
+sprite 2 pitch 1
+sprite 4 mdzoff -1500 // drinking fountain
+sprite 4 pitch 2
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 214 notmd
+sprite 215 notmd
+sprite 216 notmd
+sprite 217 notmd
+sprite 218 notmd
+sprite 219 notmd
+sprite 304 notmd
+sprite 305 notmd
+sprite 306 notmd
+sprite 307 notmd
+sprite 308 notmd
+sprite 309 notmd
+sprite 310 notmd
+sprite 311 notmd
+sprite 312 notmd
+sprite 313 notmd
+sprite 314 notmd
+sprite 451 notmd
+sprite 461 notmd
+sprite 462 notmd
+sprite 473 notmd
+sprite 474 notmd
+sprite 475 notmd
+sprite 476 notmd
+sprite 477 notmd
+sprite 478 notmd
+sprite 485 notmd
+sprite 489 notmd
+sprite 490 notmd
+sprite 535 notmd
+sprite 542 notmd
+sprite 543 notmd
+sprite 544 notmd
+sprite 545 notmd
+sprite 546 notmd
+sprite 547 notmd
+sprite 567 notmd
+sprite 568 notmd
+sprite 569 notmd
+sprite 571 notmd
+sprite 572 notmd
+sprite 574 notmd
+sprite 575 notmd
+sprite 577 notmd
+sprite 578 notmd
+sprite 580 notmd
+sprite 581 notmd
+sprite 592 notmd
+sprite 593 notmd
+sprite 594 notmd
+sprite 595 notmd
+sprite 596 notmd
+sprite 597 notmd
+sprite 598 notmd
+sprite 599 notmd
+sprite 600 notmd
+sprite 601 notmd
+sprite 602 notmd
+sprite 603 notmd
+sprite 604 notmd
+sprite 605 notmd
+sprite 606 notmd
+sprite 607 notmd
