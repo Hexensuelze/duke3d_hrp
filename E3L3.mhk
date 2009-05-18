@@ -1,0 +1,138 @@
+// Maphacks for Duke3D HRP
+// Level: E3L3.MAP - "Flood Zone" (Original Atomic Edition version)
+// Reviewed by NightFright (December 2008)
+
+
+
+// CHARACTERS
+
+// Slime babes
+sprite 105 angoff 768
+sprite 447 angoff 256
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 174 angoff -512
+sprite 449 angoff 256 // Dukematch only
+
+// Health +10
+sprite 108 angoff 196
+
+// Health +30
+sprite 2 angoff 256
+sprite 64 angoff -768
+sprite 167 angoff 256
+sprite 188 angoff 768
+sprite 203 angoff -768
+sprite 483 angoff -512
+sprite 484 angoff -512
+
+// HoloDuke
+sprite 95 angoff 1024
+
+// Jetpack
+sprite 42 angoff 512 // Dukematch only
+sprite 50 angoff 384
+sprite 63 angoff -512 // Dukematch only
+
+// Keycards (B/Y/R)
+sprite 171 angoff 512
+sprite 392 angoff 384
+sprite 407 angoff 512
+
+// Nightvision
+sprite 24 angoff 640
+
+// Scuba gear
+sprite 178 angoff -256
+sprite 448 angoff 1024 // Dukematch only
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 65 angoff 1024
+sprite 66 angoff 512
+sprite 74 angoff 192
+
+// Shotgun & ammo
+sprite 121 angoff 256
+sprite 126 angoff 1024
+sprite 373 angoff 1024
+
+// Chaingun & ammo
+sprite 96 angoff -512 // Dukematch only
+sprite 111 angoff 512
+sprite 166 angoff 768
+sprite 168 angoff 256
+sprite 371 angoff -384
+sprite 432 angoff 512
+sprite 462 angoff 512
+sprite 465 angoff -512
+
+// RPG & ammo
+sprite 112 angoff 768
+sprite 169 angoff -512
+sprite 173 angoff 256
+sprite 202 angoff 256
+sprite 204 angoff 1024
+sprite 374 angoff 768
+sprite 450 angoff 512 // Dukematch only
+
+// Pipebombs
+sprite 256 angoff 1024
+
+// Shrinker & ammo
+sprite 67 angoff -128
+sprite 73 angoff 512
+
+// Devastator & ammo
+sprite 97 angoff 512 // Dukematch only
+sprite 109 angoff -512
+sprite 110 angoff -768
+sprite 127 angoff -256
+sprite 191 angoff -64
+sprite 192 angoff 256
+sprite 193 angoff 768 
+sprite 375 angoff 1024
+sprite 426 angoff 1024
+sprite 427 angoff 768
+sprite 431 angoff -512
+sprite 433 angoff -512
+
+// Laser Tripbomb
+sprite 71 angoff 1024
+sprite 72 angoff 1024
+
+// Freezethrower & ammo
+sprite 68 angoff 512
+sprite 70 angoff -512
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 68 pitch -5 // Freezer ammo
+sprite 68 roll -100
+sprite 75 mdzoff -600000 // shotgun ammo
+sprite 75 pitch 1
+sprite 96 mdzoff 1260000 // chaingun (Dukematch only)
+sprite 96 pitch 1
+sprite 105 pitch 40 // slime babe
+sprite 105 roll 40
+sprite 447 mdzoff -500 // slime babe
+sprite 447 roll -50
+sprite 462 mdzoff 360000 // chaingun ammo (found by Hunter_rus)
+sprite 462 roll 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 253 notmd
+sprite 277 notmd
+
+// Switches to be hidden
+sprite 4 notmd // Hard Hat Area

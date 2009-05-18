@@ -1,0 +1,194 @@
+// Maphacks for Duke3D HRP
+// Level: E4L7.MAP - "XXX-Stacy" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2009)
+
+
+
+// PROPS
+
+// C-9 cannisters
+sprite 38 angoff -256
+sprite 43 angoff 512
+sprite 65 angoff -128
+sprite 66 angoff -384
+sprite 67 angoff 128
+sprite 68 angoff -256
+sprite 183 angoff 384
+sprite 346 angoff 512
+sprite 347 angoff 128
+sprite 348 angoff -256
+sprite 349 angoff 384
+sprite 351 angoff 128
+sprite 352 angoff -128
+sprite 363 angoff -128
+sprite 364 angoff -384
+sprite 409 angoff -128
+sprite 492 angoff -640
+sprite 493 angoff 128
+sprite 494 angoff -384
+sprite 495 angoff 256
+
+// Chair
+sprite 231 angoff 896
+sprite 268 angoff 768
+sprite 396 angoff 896
+
+// Coffee machine
+sprite 153 angoff -512
+
+// Coffee mug
+sprite 157 angoff 128
+
+// Donuts
+sprite 232 angoff 64
+
+// Drinking fountain
+sprite 279 angoff 1024
+
+// Nuke barrels
+sprite 283 angoff 512
+sprite 284 angoff -640
+sprite 285 angoff 128
+sprite 286 angoff 256
+sprite 287 angoff -384
+sprite 288 angoff -768
+sprite 289 angoff 256
+sprite 290 angoff 512
+sprite 292 angoff -384
+sprite 294 angoff 1024
+sprite 295 angoff 512
+
+// Soap (secret room)
+sprite 467 angoff 128
+
+// Spotlight
+sprite 209 angoff 1024
+
+// Teddy Bear
+sprite 156 angoff 448
+
+// Trashcan
+sprite 39 angoff -256
+sprite 204 angoff -768
+sprite 253 angoff 896
+sprite 254 angoff -256
+sprite 443 angoff -384
+sprite 496 angoff -384
+sprite 497 angoff -512
+sprite 498 angoff -128
+
+// Tripod camera
+sprite 164 angoff 512
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 83 angoff 512
+
+// Boots
+sprite 186 angoff 512
+
+// Health +10
+sprite 133 angoff 512
+sprite 411 angoff -256
+sprite 414 angoff 256
+
+// Health +30
+sprite 187 angoff 512
+sprite 370 angoff 512
+sprite 371 angoff 512
+sprite 419 angoff 1024
+sprite 538 angoff 512
+
+// HoloDuke
+sprite 29 angoff 1024
+
+// Jetpack
+sprite 365 angoff -512 // Dukematch only
+
+// Keycards (B/R)
+sprite 165 angoff -768
+sprite 372 angoff 256
+
+// MedKit
+sprite 112 angoff 256
+sprite 322 angoff 512
+
+// Nightvision
+sprite 245 angoff 768
+
+// Steroids
+sprite 331 angoff 512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 406 angoff -512
+sprite 412 angoff 512
+sprite 413 angoff 512
+
+// Shotgun & ammo
+sprite 132 angoff 512
+sprite 211 angoff 1024
+sprite 366 angoff -512
+sprite 395 angoff 1024
+sprite 408 angoff 768
+sprite 420 angoff 256
+
+// Chaingun & ammo
+sprite 177 angoff 512
+sprite 418 angoff 512
+
+// RPG & ammo
+sprite 110 angoff -256
+sprite 212 angoff 512
+
+// Pipebombs
+sprite 37 angoff -512
+sprite 386 angoff -256
+sprite 402 angoff -256
+
+// Shrinker/Expander & ammo
+sprite 195 angoff -832
+sprite 247 angoff 768
+sprite 410 angoff -256 // Dukematch only
+
+// Devastator & ammo
+sprite 170 angoff 512
+sprite 343 angoff -512 // Dukematch only
+
+// Freezethrower & ammo
+sprite 34 angoff 1024
+sprite 214 angoff 512
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 170 mdzoff -200000 // Devastator
+sprite 170 roll 1
+sprite 279 mdzoff -135000 // drinking fountain
+sprite 279 pitch 1
+sprite 530 away1 // viewscreen texture
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 5 notmd
+sprite 9 notmd
+sprite 10 notmd
+sprite 11 notmd
+sprite 25 notmd
+sprite 228 notmd
+sprite 255 notmd
+sprite 298 notmd
+sprite 299 notmd
+sprite 300 notmd
+sprite 399 notmd
+sprite 400 notmd
+sprite 594 notmd
+sprite 595 notmd
+sprite 596 notmd
