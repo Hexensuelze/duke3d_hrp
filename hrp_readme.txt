@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                   Version 4.1 (May 01, 2009)                   |
+         |                   Version 4.2 (Sep 01, 2009)                   |
          ==================================================================
 
 
@@ -213,13 +213,13 @@ Richard "TerminX" Gobeille
 (EDuke32 port author) .............................. terminx [at] gmail.com
 
 
------------------------
-3DRealms message boards
------------------------
-http://www.3drealms.com/forums.html
+--------------
+Message boards
+--------------
+http://forums.duke4.net
 
 The texture and model projects can be found in the Duke Nukem 3D source board:
-http://forums.3drealms.com/vb/forumdisplay.php?f=17
+http://forums.duke4.net/index.php?showforum=26
 
 
 ------------
@@ -233,7 +233,6 @@ IRC channels
 Visit us online!
 ----------------
 - Duke3D High Resolution Pack ... http://hrp.duke4.net
-- Duke3D HRP Update Pack Site ... http://hrpupdate.duke4.net
 - EDuke32 port (by TerminX) ..... http://eduke32.com
 - Duke4.net ..................... http://www.duke4.net
 
@@ -416,26 +415,3 @@ Special thanks to
 - The guys at Duke4.net for hosting and help building the HRP website.
 - All of you who support and contribute to the project.
 - All the mirrors and seeders.
-
-
-
-============
-7) CHANGELOG
-============
-
-Here is a list of all changes that have been included in this release since last
-HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
-
-
-HRP v4.1 (2009-05-01)
----------------------
-> Added:
-     - highres\skyboxes: 94
-     - highres\sprites\props: 4427 (pal0/14)
-     - highres\textures: 3407 (pal5/14)
-
-> Fixes:
-
-> Revisions:
-     - highres\sprites\props: 595 (texture)
-     - highres\textures: 3407 (pal24)

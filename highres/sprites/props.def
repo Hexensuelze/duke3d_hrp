@@ -666,6 +666,7 @@ model "highres/sprites/props/0919_electricmeter.md3" {
 }
 
 // Chain (920)
+texture 920 { pal 0 { file "highres/sprites/props/0920.png" } }
 model "highres/sprites/props/0920_chain.md3" { 
    scale 11 shade 0 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
@@ -1619,8 +1620,14 @@ model "highres/sprites/props/4438_coffeemug.md3" {
 
 // Broken Fuse #1 (4430-4432)
 texture 4430 { pal 0 { file "highres/sprites/props/4430.png" } }
-texture 4431 { pal 0 { file "highres/sprites/props/4431.png" } }
-texture 4432 { pal 0 { file "highres/sprites/props/4432.png" } }
+texture 4431 { 
+   pal 0 { file "highres/sprites/props/4431.png" } 
+   glow { pal 0 file "highres/sprites/props/4431_g.png" }
+}
+texture 4432 { 
+   pal 0 { file "highres/sprites/props/4432.png" } 
+   glow { pal 0 file "highres/sprites/props/4432_g.png" }   
+}
 
 // Paper And Pen (4439)
 texture 4439 { pal 0 { file "highres/sprites/props/4439_paper.png" } }

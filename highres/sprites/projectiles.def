@@ -54,10 +54,22 @@ texture 1658 { pal 0 { file "highres/sprites/projectiles/1658.png" } }
 texture 1659 { pal 0 { file "highres/sprites/projectiles/1659.png" } }
 
 // Expander Blast (2448)
-texture 2448 { pal 0 { file "highres/sprites/projectiles/2448.png" } }
-texture 2449 { pal 0 { file "highres/sprites/projectiles/2449.png" } }
-texture 2450 { pal 0 { file "highres/sprites/projectiles/2450.png" } }
-texture 2451 { pal 0 { file "highres/sprites/projectiles/2451.png" } }
+texture 2448 {
+   pal 0 { file "highres/sprites/projectiles/2448.png" }
+   pal 2 { file "highres/sprites/projectiles/2448.png" }
+}
+texture 2449 {
+   pal 0 { file "highres/sprites/projectiles/2449.png" }
+   pal 2 { file "highres/sprites/projectiles/2449.png" }
+}
+texture 2450 {
+   pal 0 { file "highres/sprites/projectiles/2450.png" }
+   pal 2 { file "highres/sprites/projectiles/2450.png" }
+}
+texture 2451 {
+   pal 0 { file "highres/sprites/projectiles/2451.png" }
+   pal 2 { file "highres/sprites/projectiles/2451.png" }
+}
 
 // Rocket (2605)
 model "highres/sprites/projectiles/2605_rocket.md2" {

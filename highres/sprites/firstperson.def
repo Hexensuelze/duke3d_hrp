@@ -88,14 +88,13 @@ model "highres/sprites/firstperson/2524_pistol.md3" {
    scale 1.9
    skin { pal 0 file "highres/sprites/firstperson/2524_pistol.png" }
    glow { file "highres/sprites/firstperson/2524_pistol_g.png" }
-   frame { name "idle" tile 2524 }
-   anim { frame0 "fire1" frame1 "fire2" fps 60 flags 0 }
-   frame { name "fire1" tile0 2525 tile1 2526 }
-   anim { frame0 "reload1" frame1 "reload3" fps 12.5 flags 1 }
-   frame { name "reload1" tile0 2528 tile1 2529 }
+   frame { name "Frame0" tile 2524 }
+   anim { frame0 "Frame1" frame1 "Frame5" fps 60 flags 0 }
+   frame { name "Frame1" tile0 2525 tile1 2526 }
+   anim { frame0 "Frame6" frame1 "Frame15" fps 12.5 flags 1 }
+   frame { name "Frame6" tile0 2528 tile1 2529 }
    hud { tile0 2524 tile1 2526 xadd -0.15 yadd 1.32 zadd -0.56 angadd -37 }
    hud { tile0 2528 tile1 2529 xadd -0.15 yadd 1.36 zadd -0.68 angadd -37 }
-   
 }
 
 model "highres/sprites/firstperson/2530_clip.md3" {

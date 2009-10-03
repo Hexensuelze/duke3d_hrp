@@ -189,14 +189,14 @@ model "highres/sprites/pickups/0052_healthbottle.md3" {
 }
 
 // First Aid Kit (53)
-texture 53 { 
-   pal 0 { file "highres/sprites/pickups/0053.png" } 
+texture 53 {
+   pal 0 { file "highres/sprites/pickups/0053.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.35 yscale 0.55 }
 }
-model "highres/sprites/pickups/0053_firstaid.md2" {
+model "highres/sprites/pickups/0053_firstaid.md3" {
    scale 4 shade 4
    skin { pal 0 file "highres/sprites/pickups/0053_firstaid.png" }
-   frame { name "frame01" tile 53 }
+   frame { name "frame_1" tile 53 }
 }
 
 // Armor (54)
