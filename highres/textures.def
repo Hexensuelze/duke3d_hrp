@@ -518,8 +518,10 @@ texture 312 {
    detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
 }
 texture 313 {
-   pal 0 { file "highres/textures/0313.png" }
-   normal { file "highres/textures/0313_n.png" }
+   pal 0 { file "highres/textures/0313_d.png" specpower 4.0 specfactor 1.5 }
+   normal { file "highres/textures/0313_n.png" parallaxbias 0.0 parallaxscale 0.0 }
+   specular { file "highres/textures/0313_s.png" }
+   glow { file "highres/textures/0313_g.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
 }
 texture 314 {
@@ -1935,7 +1937,12 @@ texture 1020 { pal 0 { file "highres/textures/1020.png" } }
 
 // Tiles004
 
-texture 1024 { pal 0 { file "highres/textures/1024.png" } }
+texture 1024 {
+   pal 0 { file "highres/textures/1024_d.png" specpower 4.0 specfactor 1.5 }
+   normal { file "highres/textures/0313_n.png" parallaxbias 0.0 parallaxscale 0.0 }
+   specular { file "highres/textures/1024_s.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
+}
 
 texture 1059 { pal 0 { file "highres/textures/1059.png" } }
 
