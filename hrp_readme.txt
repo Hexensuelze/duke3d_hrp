@@ -332,7 +332,6 @@ yossa
 -------------------
 alandog
 AlgorithMan
-Aaron Osborn
 Besli
 Blunty 
 Cipher
@@ -362,6 +361,7 @@ MagNet
 Mean Person
 motionblur
 Mr.Fibbles
+ozz
 Parkar
 Piterplus
 Plagman
