@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.018 (Nov 28, 2009)                 |
+         |                 Version 4.2.020 (Nov 29, 2009)                 |
          ==================================================================
 
 
@@ -427,16 +427,16 @@ Here is a list of all changes that have been included in this release since last
 HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
 
 
-HRP v4.2.018 (2009-11-28)
+HRP v4.2.020 (2009-11-29)
 -------------------------
 > General: Support for Polymer engine update added (builds 4.2.001-4.2.017)
 
 > Added:
      - normal maps: 1101/5108, 1104/5095, 1116, 1132-1135, 5107, 5119
-     - palettes: 0207_14/16, 0243_17, 0332_24, 0365/0366_7, 0387_12, 0392_17, 
-                 0399_17, 0428_17, 0438/0439_17/19, 0545_17, 0757_24, 0803_7,
-                 0881_15, 3407_7, 4123/4124_7, 4224_13, 4260-4263_17, 
-                 4284-4287_17
+     - palettes: 199_12, 207_14/16, 243_17, 332_24, 365/0366_7, 387_12, 392_17, 
+                 399_17, 428_17, 438/0439_17/19, 545_17, 757_24, 803_7, 881_15, 
+                 3407_7, 4123/4124_7, 4224_13, 4260-4263_17, 4284-4287_17, 
+                 4531_23
 
 > Revisions:
      - highres\sprites\firstperson: 2548 (Freezer texture/ozz)
@@ -444,8 +444,10 @@ HRP v4.2.018 (2009-11-28)
 
 > Fixes:
     - highres\sprites\pickups: 53 (missing md3)
-    - highres\textures.def: entries for non-existing 0313 (d/n/s/g) and 
-                            1024 (d/s) removed
+    - highres\textures.def: old version of 186 restored; entries for missing 
+                            313 (d/n/s/g) and 1024 (d/s) removed; entry for 718
+                            corrected
+
 
 
 HRP v4.1.1 (2009-09-01)
