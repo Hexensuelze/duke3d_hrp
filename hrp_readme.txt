@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                   Version 4.2 (Sep 01, 2009)                   |
+         |                 Version 4.2.018 (Nov 28, 2009)                 |
          ==================================================================
 
 
@@ -406,6 +406,7 @@ HRP assembly
 ------------
 NightFright
 Parkar
+Plagman
 
 
 -----------------
@@ -415,3 +416,74 @@ Special thanks to
 - The guys at Duke4.net for hosting and help building the HRP website.
 - All of you who support and contribute to the project.
 - All the mirrors and seeders.
+
+
+
+============
+7) CHANGELOG
+============
+
+Here is a list of all changes that have been included in this release since last
+HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
+
+
+HRP v4.2.018 (2009-11-28)
+-------------------------
+> General: Support for Polymer engine update added (builds 4.2.001-4.2.017)
+
+> Added:
+     - normal maps: 1101/5108, 1104/5095, 1116, 1132-1135, 5107, 5119
+     - palettes: 0207_14/16, 0243_17, 0332_24, 0365/0366_7, 0387_12, 0392_17, 
+                 0399_17, 0428_17, 0438/0439_17/19, 0545_17, 0757_24, 0803_7,
+                 0881_15, 3407_7, 4123/4124_7, 4224_13, 4260-4263_17, 
+                 4284-4287_17
+
+> Revisions:
+     - highres\sprites\firstperson: 2548 (Freezer texture/ozz)
+     - highres\textures: 1169
+
+> Fixes:
+    - highres\sprites\pickups: 53 (missing md3)
+    - highres\textures.def: entries for non-existing 0313 (d/n/s/g) and 
+                            1024 (d/s) removed
+
+
+HRP v4.1.1 (2009-09-01)
+-----------------------
+> Added:
+     - highres\textures.def: 446 (pal11/12)
+     - highres\sprites\props: 920 (chain/highres sprite)
+
+> Fixes:
+     - highres\sprites\props: 913
+
+> Revisions:
+     - highres\screen\hud: 46 (shrinker crystal HUD icon), 2470 (HoloDuke icon)
+     - highres\textures: 913
+
+
+HRP v4.1 (2009-07-01)
+---------------------
+> Added:
+     - highres\skyboxes: 94
+     - highres\sprites\props: 4427 (pal0/14), 4431/4432 (glow),
+     - highres\textures: 400, 443, 959, 3407 (pal5/14), 4177, 4202, 4207
+
+> Fixes:
+     - highres\screen\menu: 2813-2820 (icon rotation), 3190-3196 (icon texture)
+     - highres\sprites\firstperson: 2524 (pistol muzzleflash)
+     - highres\sprites\monsters.def: 2000 (pal 1/2/5/7-9)
+     - highres\sprites\projectiles: 2448-2451 (pal0/2)
+
+> Revisions:
+     - highres\sprites\characters: 1405 (pal0/10-16/21/23, face)
+     - highres\sprites\decals: 4445
+     - highres\sprites\effects: 2066-2079, 2270-2283, 2310-2323
+     - highres\sprites\pickups: 53 (md3)
+     - highres\sprites\projectiles: 2448-2451
+     - highres\sprites\props: 569, 571, 573 (md3), 595 (texture), 615 (md3), 
+                              4410 (skin), 4430-4432, 4458/4459 (skin), 4496, 
+                              4497 (skins), 4502/4503, 4557 (skin)
+     - highres\sprites\signs: 1044
+     - highres\sprites\switches: 712 (skin), 4883
+     - highres\textures: 823, 3407 (pal24)
