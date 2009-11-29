@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.020 (Nov 29, 2009)                 |
+         |                 Version 4.2.021 (Nov 29, 2009)                 |
          ==================================================================
 
 
@@ -427,27 +427,31 @@ Here is a list of all changes that have been included in this release since last
 HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
 
 
-HRP v4.2.020 (2009-11-29)
+HRP v4.2.021 (2009-11-29)
 -------------------------
 > General: Support for Polymer engine update added (builds 4.2.001-4.2.017)
 
 > Added:
-     - normal maps: 1101/5108, 1104/5095, 1116, 1132-1135, 5107, 5119
-     - palettes: 199_12, 207_14/16, 243_17, 332_24, 365/0366_7, 387_12, 392_17, 
-                 399_17, 428_17, 438/0439_17/19, 545_17, 757_24, 803_7, 881_15, 
-                 3407_7, 4123/4124_7, 4224_13, 4260-4263_17, 4284-4287_17, 
-                 4531_23
+     - Normal maps: 609, 771/772, 1082-1087, 1101/5108, 1104/5095, 1116, 
+                    1132-1135, 4240-4245, 5105, 5107, 5119
+     - Palettes: 199_12, 207_14/16, 243_17, 332_24, 365/0366_7, 370_7, 387_12/18, 
+                 392_17, 399_17, 428_17, 438/0439_17/19, 545_17, 757_24, 803_7, 
+                 881_15, 961_14, 1054_24, 3407_7, 4123/4124_7, 4178_13, 4224_13, 
+                 4260-4263_17, 4284-4287_17, 4531_23, 4953_12
 
 > Revisions:
      - highres\sprites\firstperson: 2548 (Freezer texture/ozz)
+     - highres\sprites\props: 4575
+     - highres\sprites\signs: 4953
      - highres\textures: 1169
 
 > Fixes:
     - highres\sprites\pickups: 53 (missing md3)
+    - highres\sprites\props.def: 768, 991 (scales corrections)
+    - highres\sprites\signs.def: 961 (scales correction)
     - highres\textures.def: old version of 186 restored; entries for missing 
                             313 (d/n/s/g) and 1024 (d/s) removed; entry for 718
                             corrected
-
 
 
 HRP v4.1.1 (2009-09-01)

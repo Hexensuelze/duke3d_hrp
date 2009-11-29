@@ -501,7 +501,7 @@ model "highres/sprites/props/0765_vase.md2" {
 
 // Sushiplate1: cooked head (768)
 model "highres/sprites/props/0768_head.md3" {
-   scale 4 shade 0
+   scale 4 shade 0 zadd 0.8
    skin { pal 0 file "highres/sprites/props/0768_head.jpg" }
    anim { frame0 "FRAME1" frame1 "FRAME10" fps 4 flags 0 }   // remove to stop animation
    frame { name "FRAME1" tile0 768 tile1 768 }
@@ -837,7 +837,7 @@ model "highres/sprites/props/0990_tire.md2" {
 
 // Shower headpiece (991)
 model "highres/sprites/props/0991_shower.md3" {
-   scale 9.5 shade 1
+   scale 11 shade 1 zadd 0.5
    detail { file "highres/detail/metal_fine.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0991_shower.jpg" }
    frame { name "FRAME15" tile0 991 tile1 991 }
@@ -1943,9 +1943,9 @@ model "highres/sprites/props/4570_dukeburger.md3" {
 }
 
 // Punch clock (4575)
-model "highres/sprites/props/4575_punchclock.md3" { 
-   scale 1 shade 0 
-   skin { pal 0 file "highres/sprites/props/4575_punchclock.png" } 
+model "highres/sprites/props/4575_punchclock.md3" {
+   scale 1.03 shade 0 zadd 3
+   skin { pal 0 file "highres/sprites/props/4575_punchclock.png" }
    frame { name "Frame0" tile 4575 }
 }
 

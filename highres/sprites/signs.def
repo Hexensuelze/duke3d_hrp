@@ -165,8 +165,9 @@ texture 949 { pal 0 { file "highres/sprites/signs/0949.png" } }
 // Exit (961)
 texture 961 { pal 0 { file "highres/sprites/signs/0961.png" } }
 model "highres/sprites/signs/0961_exit.md3" {
-   scale 14 zadd 1 shade 0
+   scale 17 zadd 1 shade 0
    skin { pal 0 file "highres/sprites/signs/0961_exit.png" }
+   skin { pal 14 file "highres/sprites/signs/0961_exit_14.png" }
    frame { name "exit1" tile 961 }
 }
 
@@ -203,7 +204,10 @@ texture 1019 { pal 0 { file "highres/sprites/signs/1019.png" } }
 
 texture 1040 { pal 0 { file "highres/sprites/signs/1040.png" } }
 texture 1041 { pal 0 { file "highres/sprites/signs/1041.png" } }
-texture 1042 { pal 0 { file "highres/sprites/signs/1042.png" } }
+texture 1042 { 
+   pal 0 { file "highres/sprites/signs/1042.png" }
+   pal 24 { file "highres/sprites/signs/1042_24.png" }
+}
 texture 1044 { pal 0 { file "highres/sprites/signs/1044.png" } }
 texture 1046 { pal 0 { file "highres/sprites/signs/1046.jpg" } }
 texture 1047 { pal 0 { file "highres/sprites/signs/1047.png" } }
@@ -544,7 +548,10 @@ texture 4949 { pal 0 { file "highres/sprites/signs/4949.png" } }
 texture 4950 { pal 0 { file "highres/sprites/signs/4950.png" } }
 texture 4951 { pal 0 { file "highres/sprites/signs/4951.jpg" } }
 texture 4952 { pal 0 { file "highres/sprites/signs/4952.png" } }
-texture 4953 { pal 0 { file "highres/sprites/signs/4953.png" } }
+texture 4953 { 
+   pal 0 { file "highres/sprites/signs/4953.png" } 
+   pal 12 { file "highres/sprites/signs/4953_12.png" } 
+}
 texture 4955 { pal 0 { file "highres/sprites/signs/4955.png" } }
 texture 4956 { pal 0 { file "highres/sprites/signs/4956.png" } }
 texture 4957 { pal 0 { file "highres/sprites/signs/4957.png" } }
