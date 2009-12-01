@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.021 (Nov 29, 2009)                 |
+         |                 Version 4.2.022 (Dec 01, 2009)                 |
          ==================================================================
 
 
@@ -427,7 +427,7 @@ Here is a list of all changes that have been included in this release since last
 HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
 
 
-HRP v4.2.021 (2009-11-29)
+HRP v4.2.022 (2009-12-01)
 -------------------------
 > General: Support for Polymer engine update added (builds 4.2.001-4.2.017)
 
@@ -443,15 +443,15 @@ HRP v4.2.021 (2009-11-29)
      - highres\sprites\firstperson: 2548 (Freezer texture/ozz)
      - highres\sprites\props: 4575
      - highres\sprites\signs: 4953
-     - highres\textures: 1169
+     - highres\textures: 341_n, 609_n, 1169 
 
 > Fixes:
     - highres\sprites\pickups: 53 (missing md3)
     - highres\sprites\props.def: 768, 991 (scales corrections)
     - highres\sprites\signs.def: 961 (scales correction)
     - highres\textures.def: old version of 186 restored; entries for missing 
-                            313 (d/n/s/g) and 1024 (d/s) removed; entry for 718
-                            corrected
+                            313 (d/n/s/g) and 1024 (d/s) removed; new parallaxscale 
+                            for 341-343_n; entry for 718 corrected
 
 
 HRP v4.1.1 (2009-09-01)
