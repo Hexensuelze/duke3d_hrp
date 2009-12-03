@@ -3,7 +3,11 @@
 
 // Tiles000
 
-texture 0 { pal 0 { file "highres/textures/0000.png" } }
+texture 0 {
+   pal 0 { file "highres/textures/0000.png" }
+   normal { file "highres/textures/0000_n.png" parallaxbias 0 parallaxscale 0.05 }
+   specular { file "highres/textures/0000_s.png" }
+}   
 
 texture 62 { pal 0 { file "highres/textures/0062.png" } }
 texture 63 { pal 0 { file "highres/textures/0063.png" } }
