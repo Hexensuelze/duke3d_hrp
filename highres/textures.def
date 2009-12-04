@@ -15,6 +15,8 @@ texture 64 { pal 0 { file "highres/textures/0064.png" } }
 
 texture 70 { 
    pal 0 { file "highres/textures/0070.png" }
+//   normal { file "highres/textures/0070_n.png" parallaxbias 0 parallaxscale 0.05 }
+//   specular { file "highres/textures/0070_s.png" }
    detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 } 
 }
 
@@ -507,10 +509,21 @@ texture 298 { pal 0 { file "highres/textures/0298.png" } }
 texture 299 { pal 0 { file "highres/textures/0299.png" } }
 
 
-texture 300 { pal 0 { file "highres/textures/0300.png" } }
+texture 300 {
+   pal 0 { file "highres/textures/0300.png" }
+   normal { file "highres/textures/0300_n.png" parallaxbias 0 parallaxscale 0.05 }
+   specular { file "highres/textures/0300_s.png" }
+}
 texture 301 { pal 0 { file "highres/textures/0301.png" } }
-texture 302 { pal 0 { file "highres/textures/0302.png" } }
-texture 303 { pal 0 { file "highres/textures/0303.png" } }
+texture 302 {
+   pal 0 { file "highres/textures/0302.png" }
+   specular { file "highres/textures/0302_s.png" }
+}
+texture 303 {
+   pal 0 { file "highres/textures/0303.png" }
+   normal { file "highres/textures/0303_n.png" parallaxbias 0 parallaxscale 0.05 }
+   specular { file "highres/textures/0303_s.png" }
+}
 texture 304 { 
    pal 0 { file "highres/textures/0304.png" } 
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
@@ -577,12 +590,16 @@ texture 327 {
 }
 texture 329 {
    pal 0 { file "highres/textures/0329.png" }
+   normal { file "highres/textures/0329_n.png" parallaxbias 0 parallaxscale 0.05 }
+   specular { file "highres/textures/0329_s.png" }
    glow { file "highres/textures/0329_g.png" }
    detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
 }
 
 texture 330 {
    pal 0 { file "highres/textures/0330.png" }
+   normal { file "highres/textures/0330_n.png" parallaxbias 0 parallaxscale 0.05 }
+   specular { file "highres/textures/0330_s.png" }
    glow { file "highres/textures/0330_g.png" }
    detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
 }
