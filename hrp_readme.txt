@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.022 (Dec 01, 2009)                 |
+         |                 Version 4.2.035 (Dec 07, 2009)                 |
          ==================================================================
 
 
@@ -427,13 +427,17 @@ Here is a list of all changes that have been included in this release since last
 HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
 
 
-HRP v4.2.022 (2009-12-01)
+HRP v4.2.035 (2009-12-07)
 -------------------------
 > General: Support for Polymer engine update added (builds 4.2.001-4.2.017)
 
 > Added:
-     - Normal maps: 609, 771/772, 1082-1087, 1101/5108, 1104/5095, 1116, 
-                    1132-1135, 4240-4245, 5105, 5107, 5119
+     - Specular maps: 0, 182, 183, 224, 300, 302, 303, 329, 330, 333, 334, 344, 
+                      352, 376, 402, 403, 405, 406 
+     - Normal maps: 0, 182, 183, 224, 300, 303, 329, 330, 333, 334, 344, 352, 
+                    376, 402, 403, 405, 406, 609, 771/772, 803, 805, 812, 
+                    1082-1087, 1101/5108, 1104/5095, 1116, 1132-1135, 4240-4245, 
+                    5105, 5107, 5119
      - Palettes: 199_12, 207_14/16, 243_17, 332_24, 365/0366_7, 370_7, 387_12/18, 
                  392_17, 399_17, 428_17, 438/0439_17/19, 545_17, 757_24, 803_7, 
                  881_15, 961_14, 1054_24, 3407_7, 4123/4124_7, 4178_13, 4224_13, 
@@ -443,7 +447,7 @@ HRP v4.2.022 (2009-12-01)
      - highres\sprites\firstperson: 2548 (Freezer texture/ozz)
      - highres\sprites\props: 4575
      - highres\sprites\signs: 4953
-     - highres\textures: 341_n, 609_n, 1169 
+     - highres\textures: 341_n, 609_n, 1169, 5110-5112, 5110-5112_n
 
 > Fixes:
     - highres\sprites\pickups: 53 (missing md3)
