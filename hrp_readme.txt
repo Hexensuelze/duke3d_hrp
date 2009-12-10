@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.036 (Dec 08, 2009)                 |
+         |                 Version 4.2.037 (Dec 10, 2009)                 |
          ==================================================================
 
 
@@ -427,7 +427,7 @@ Here is a list of all changes that have been included in this release since last
 HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
 
 
-HRP v4.2.036 (2009-12-08)
+HRP v4.2.037 (2009-12-10)
 -------------------------
 > General: Support for Polymer engine update added (builds 4.2.001-4.2.017)
 
