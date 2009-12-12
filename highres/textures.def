@@ -2148,7 +2148,11 @@ texture 1127 {
    pal 0 { file "highres/textures/1127.png" }
    detail { file "highres/detail/alien.png" xscale 0.6 yscale 0.15 } 
 }
-texture 1129 { pal 0 { file "highres/textures/1129.jpg" } }
+texture 1129 {
+   pal 0 { file "highres/textures/1129.jpg" }
+   normal { file "highres/textures/1129_n.png"  parallaxbias 0.0 parallaxscale 0.1  }
+   specular { file "highres/textures/1129_s.png" }
+}
 
 texture 1130 {
    pal 0 { file "highres/textures/1130.png" }
