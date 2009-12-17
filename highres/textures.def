@@ -51,7 +51,9 @@ texture 128 { pal 0 { file "highres/textures/0128.png" } }
 
 texture 150 { 
    pal 0 { file "highres/textures/0150.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+   normal { file "highres/textures/0150_n.png" parallaxbias 0.05 parallaxscale 0.075 }
+   specular { file "highres/textures/0150_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 151 { 
    pal 0 { file "highres/textures/0151_d.png" specularpower 10 specularfactor 0.6 }
@@ -59,12 +61,16 @@ texture 151 {
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 152 { 
-   pal 0 { file "highres/textures/0152.jpg" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+   pal 0 { file "highres/textures/0152.png" }
+   normal { file "highres/textures/0152_n.png" parallaxbias 0.05 parallaxscale 0.075 }
+   specular { file "highres/textures/0152_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
 }
 texture 153 { 
-   pal 0 { file "highres/textures/0153.jpg" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+   pal 0 { file "highres/textures/0153.png" }
+   normal { file "highres/textures/0153_n.png" parallaxbias 0.05 parallaxscale 0.075 }
+   specular { file "highres/textures/0153_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
 }
 texture 154 { 
    pal 0 { file "highres/textures/0154.jpg" }
@@ -2103,7 +2109,11 @@ texture 1101 {
    normal { file "highres/textures/1101_n.png" parallaxbias 0.03 parallaxscale 0.04 }
    detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
 }
-texture 1102 { pal 0 { file "highres/textures/1102.jpg" } }
+texture 1102 {
+	pal 0 { file "highres/textures/1102.jpg" }
+	normal { file "highres/textures/1102_n.png" parallaxbias 0.03 parallaxscale 0.075 }
+    specular { file "highres/textures/1102_s.png" }
+}
 texture 1104 { 
    pal 0 { file "highres/textures/1104.jpg" }
    normal { file "highres/textures/1104_n.png" parallaxbias 0.03 parallaxscale 0.04 }
