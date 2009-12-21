@@ -44,17 +44,22 @@ model "highres/sprites/monsters/1550_shark.md2" {
 // Trooper (1680)
 model "highres/sprites/monsters/1680_trooper.md3" {
    scale 9 shade 2
-   skin { pal 0 file "highres/sprites/monsters/1680_trooper_blue.png" }
-   skin { pal 1 file "highres/sprites/monsters/1680_trooper_blue.png" }
-   skin { pal 2 file "highres/sprites/monsters/1680_trooper_red.png" }
-   skin { pal 5 file "highres/sprites/monsters/1680_trooper_blue.png" }
-   skin { pal 9 file "highres/sprites/monsters/1680_trooper_blue.png" }
-   skin { pal 11 file "highres/sprites/monsters/1680_trooper_green.png" }
-   skin { pal 12 file "highres/sprites/monsters/1680_trooper_gray.png" }
-   skin { pal 18 file "highres/sprites/monsters/1680_trooper_gray.png" }
-   skin { pal 21 file "highres/sprites/monsters/1680_trooper_red.png" }
-   skin { pal 22 file "highres/sprites/monsters/1680_trooper_green.png" }
-   skin { pal 25 file "highres/sprites/monsters/1680_trooper_blue.png" }
+   skin { pal 0 file "highres/sprites/monsters/1680_trooper_0.png" }
+   skin { pal 10 file "highres/sprites/monsters/1680_trooper_10.png" }
+   skin { pal 11 file "highres/sprites/monsters/1680_trooper_11_22.png" }
+   skin { pal 12 file "highres/sprites/monsters/1680_trooper_12_18.png" }
+   skin { pal 13 file "highres/sprites/monsters/1680_trooper_13.png" }
+   skin { pal 14 file "highres/sprites/monsters/1680_trooper_14.png" }
+   skin { pal 15 file "highres/sprites/monsters/1680_trooper_15.png" }
+   skin { pal 16 file "highres/sprites/monsters/1680_trooper_16.png" }
+   skin { pal 17 file "highres/sprites/monsters/1680_trooper_17.png" }
+   skin { pal 18 file "highres/sprites/monsters/1680_trooper_12_18.png" }
+   skin { pal 19 file "highres/sprites/monsters/1680_trooper_19.png" }
+   skin { pal 20 file "highres/sprites/monsters/1680_trooper_20.png" }
+   skin { pal 21 file "highres/sprites/monsters/1680_trooper_21.png" }
+   skin { pal 22 file "highres/sprites/monsters/1680_trooper_11_22.png" }
+   skin { pal 23 file "highres/sprites/monsters/1680_trooper_23.png" }
+   skin { pal 24 file "highres/sprites/monsters/1680_trooper_24.png" }
    glow { file "highres/sprites/monsters/1680_trooper_g.png" }
 
 
@@ -75,17 +80,22 @@ model "highres/sprites/monsters/1680_trooper.md3" {
    frame { name "FRAME96" tile0 1754 tile1 1755 smoothduration 0.3 }
    frame { name "FRAME47" tile 1730 } // Flinch
 
-   skin { pal 0 file "highres/sprites/monsters/1680_trooper_blue_dead.png" }
-   skin { pal 1 file "highres/sprites/monsters/1680_trooper_blue_dead.png" }
-   skin { pal 2 file "highres/sprites/monsters/1680_trooper_red_dead.png" }
-   skin { pal 5 file "highres/sprites/monsters/1680_trooper_blue_dead.png" }
-   skin { pal 9 file "highres/sprites/monsters/1680_trooper_blue_dead.png" }
-   skin { pal 11 file "highres/sprites/monsters/1680_trooper_green_dead.png" }
-   skin { pal 12 file "highres/sprites/monsters/1680_trooper_gray_dead.png" }
-   skin { pal 18 file "highres/sprites/monsters/1680_trooper_gray_dead.png" }
-   skin { pal 21 file "highres/sprites/monsters/1680_trooper_red_dead.png" }
-   skin { pal 22 file "highres/sprites/monsters/1680_trooper_green_dead.png" }
-   skin { pal 25 file "highres/sprites/monsters/1680_trooper_blue_dead.png" }
+   skin { pal 0 file "highres/sprites/monsters/1680_trooper_0_dead.png" }
+   skin { pal 10 file "highres/sprites/monsters/1680_trooper_10_dead.png" }
+   skin { pal 11 file "highres/sprites/monsters/1680_trooper_11_22_dead.png" }
+   skin { pal 12 file "highres/sprites/monsters/1680_trooper_12_18_dead.png" }
+   skin { pal 13 file "highres/sprites/monsters/1680_trooper_13_dead.png" }
+   skin { pal 14 file "highres/sprites/monsters/1680_trooper_14_dead.png" }
+   skin { pal 15 file "highres/sprites/monsters/1680_trooper_15_dead.png" }
+   skin { pal 16 file "highres/sprites/monsters/1680_trooper_16_dead.png" }
+   skin { pal 17 file "highres/sprites/monsters/1680_trooper_17_dead.png" }
+   skin { pal 18 file "highres/sprites/monsters/1680_trooper_12_18_dead.png" }
+   skin { pal 19 file "highres/sprites/monsters/1680_trooper_19_dead.png" }
+   skin { pal 20 file "highres/sprites/monsters/1680_trooper_20_dead.png" }
+   skin { pal 21 file "highres/sprites/monsters/1680_trooper_21_dead.png" }
+   skin { pal 22 file "highres/sprites/monsters/1680_trooper_11_22_dead.png" }
+   skin { pal 23 file "highres/sprites/monsters/1680_trooper_23_dead.png" }
+   skin { pal 24 file "highres/sprites/monsters/1680_trooper_24_dead.png" }
 
    anim { frame0 "FRAME53" frame1 "FRAME64" fps 15 flags 1 } // Die
    frame { name "FRAME53" tile0 1731 tile1 1733 smoothduration 0.2 }
@@ -232,7 +242,11 @@ model "highres/sprites/monsters/2000_pigcop.md3" {
 // Enforcer (2120)
 model "highres/sprites/monsters/2120_enforcer.md3" {
    scale 1.75 shade -5
+
    skin { pal 0 file "highres/sprites/monsters/2120_enforcer.png" }
+   skin { pal 17 file "highres/sprites/monsters/2120_enforcer_17_20.png" }
+   skin { pal 19 file "highres/sprites/monsters/2120_enforcer_19.png" }
+   skin { pal 20 file "highres/sprites/monsters/2120_enforcer_17_20.png" }
    glow { file "highres/sprites/monsters/2120_enforcer_g.png" }
    anim { frame0 "walk0" frame1 "walk1" fps 23 flags 0 }
    frame { name "walk0" tile0 2120 tile1 2139 smoothduration 0.2 }
@@ -248,6 +262,9 @@ model "highres/sprites/monsters/2120_enforcer.md3" {
    frame { name "fire0" tile0 2190 tile1 2197 smoothduration 0.1 }
 
    skin { pal 0 file "highres/sprites/monsters/2120_enforcer_dead.png" }
+   skin { pal 17 file "highres/sprites/monsters/2120_enforcer_17_20_dead.png" }
+   skin { pal 19 file "highres/sprites/monsters/2120_enforcer_19_dead.png" }
+   skin { pal 20 file "highres/sprites/monsters/2120_enforcer_17_20_dead.png" }
    anim { frame0 "death0" frame1 "death1" fps 15 flags 1 }
    frame { name "death0" tile0 2180 tile1 2185 smoothduration 0.1 }
 }
@@ -258,6 +275,11 @@ model "highres/sprites/monsters/2350_gunturret.md2" {
    scale 12 shade 4
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/monsters/2350_gunturret.png" }
+   skin { pal 17 file "highres/sprites/monsters/2350_gunturret_17_20.png" }
+   skin { pal 19 file "highres/sprites/monsters/2350_gunturret_19_24.png" }
+   skin { pal 20 file "highres/sprites/monsters/2350_gunturret_17_20.png" }
+   skin { pal 24 file "highres/sprites/monsters/2350_gunturret_19_24.png" }
+   skin { pal 25 file "highres/sprites/monsters/2350_gunturret_25.png" }
    glow { file "highres/sprites/monsters/2350_gunturret_g.png" }
    anim { frame0 "idle01" frame1 "idle01" fps 1 flags 1 }
    frame { name "idle01" tile0 2360 tile1 2364 }
@@ -353,11 +375,17 @@ model "highres/sprites/monsters/2760_overlord.md3" {
 }
 
 
-// New Beast (4610)
+// Protector Drone (4610)
 model "highres/sprites/monsters/4610_newbeast.md3" {
    scale 0.85 shade 8
+
    skin { pal 0 file "highres/sprites/monsters/4610_newbeast.png" }
+   skin { pal 17 file "highres/sprites/monsters/4610_newbeast_17_20.png" }
+   skin { pal 19 file "highres/sprites/monsters/4610_newbeast_19.png" }
+   skin { pal 20 file "highres/sprites/monsters/4610_newbeast_17_20.png" }
+   skin { pal 24 file "highres/sprites/monsters/4610_newbeast_24.png" }
    glow { file "highres/sprites/monsters/4610_newbeast_g.png" }
+
    anim { frame0 "4610_start" frame1 "4610_end" fps 20 flags 0 }  // Crouch
    frame { name "4610_start" tile0 4610 tile1 4614 smoothduration 0.2 }
    anim { frame0 "4620_start" frame1 "4620_end" fps 20 flags 0 }  // Walk/Run
@@ -378,31 +406,69 @@ model "highres/sprites/monsters/4610_newbeast.md3" {
 // Alien Queen (4740)
 model "highres/sprites/monsters/4740_queen.md3" {
    scale 1.3 shade 3
+
    skin { pal 0 file "highres/sprites/monsters/4740_queen.png" }
+   skin { pal 10 file "highres/sprites/monsters/4740_queen_10.png" }
+   skin { pal 11 file "highres/sprites/monsters/4740_queen_11_22.png" }
+   skin { pal 12 file "highres/sprites/monsters/4740_queen_12_18.png" }
+   skin { pal 13 file "highres/sprites/monsters/4740_queen_13.png" }
+   skin { pal 14 file "highres/sprites/monsters/4740_queen_14.png" }
+   skin { pal 15 file "highres/sprites/monsters/4740_queen_15.png" }
+   skin { pal 16 file "highres/sprites/monsters/4740_queen_16.png" }
+   skin { pal 18 file "highres/sprites/monsters/4740_queen_12_18.png" }
+   skin { pal 21 file "highres/sprites/monsters/4740_queen_21.png" }
+   skin { pal 22 file "highres/sprites/monsters/4740_queen_11_22.png" }
+   skin { pal 23 file "highres/sprites/monsters/4740_queen_23.png" }
+   skin { pal 24 file "highres/sprites/monsters/4740_queen_24.png" }
+
    glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
+
+   // QUEENITSADRONE
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
+   anim { frame0 "FRAME50" frame1 "FRAME80" fps 5 flags 0 }
+   frame { name "FRAME50" tile0 4790 tile1 4804 smoothduration 0.3 }
+
    // QUEENSTRUT
    anim { frame0 "FRAME2" frame1 "FRAME20" fps 15 flags 0 }
    frame { name "FRAME2" tile0 4740 tile1 4759 smoothduration 0.2 }
+
    // QUEENSHOCKATTACK 
-   skin { pal 0 file "highres/sprites/monsters/4740_queen.png" }
    glow { surface 1 file "highres/sprites/monsters/4740_queen_glow.png" }
+
    anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
    frame { name "FRAME25" tile0 4760 tile1 4761 smoothduration 0.1 }
-   skin { pal 0 file "highres/sprites/monsters/4740_queen.png" }
+
    glow { surface 0 file "highres/sprites/monsters/4740_queen_shock1.png" }
    glow { surface 1 file "highres/sprites/monsters/4740_queen_light.png" }
+
    anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
    frame { name "FRAME25" tile0 4765 tile1 4766 smoothduration 0.1 }
-   skin { pal 0 file "highres/sprites/monsters/4740_queen.png" }
+
    glow { surface 0 file "highres/sprites/monsters/4740_queen_shock2.png" }
    glow { surface 1 file "highres/sprites/monsters/4740_queen_light.png" }
+
    anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
    frame { name "FRAME25" tile0 4770 tile1 4771 smoothduration 0.1 }
-   // QUEENITSADRONE
-   anim { frame0 "FRAME50" frame1 "FRAME80" fps 5 flags 0 }
-   frame { name "FRAME50" tile0 4790 tile1 4804 smoothduration 0.3 }
+
    // QUEENSNUFF
+
    skin { pal 0 file "highres/sprites/monsters/4740_queen_death.png" }
+   skin { pal 10 file "highres/sprites/monsters/4740_queen_death_10.png" }
+   skin { pal 11 file "highres/sprites/monsters/4740_queen_death_11_22.png" }
+   skin { pal 12 file "highres/sprites/monsters/4740_queen_death_12_18.png" }
+   skin { pal 13 file "highres/sprites/monsters/4740_queen_death_13.png" }
+   skin { pal 14 file "highres/sprites/monsters/4740_queen_death_14.png" }
+   skin { pal 15 file "highres/sprites/monsters/4740_queen_death_15.png" }
+   skin { pal 16 file "highres/sprites/monsters/4740_queen_death_16.png" }
+   skin { pal 18 file "highres/sprites/monsters/4740_queen_death_12_18.png" }
+   skin { pal 21 file "highres/sprites/monsters/4740_queen_death_21.png" }
+   skin { pal 22 file "highres/sprites/monsters/4740_queen_death_11_22.png" }
+   skin { pal 23 file "highres/sprites/monsters/4740_queen_death_23.png" }
+   skin { pal 24 file "highres/sprites/monsters/4740_queen_death_24.png" }
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 1 file "highres/sprites/monsters/4740_queen_glow.png" }
+
    anim { frame0 "FRAME85" frame1 "FRAME125" fps 15 flags 1 }
    frame { name "FRAME85" tile0 4780 tile1 4789 smoothduration 0.3 }
+
 }

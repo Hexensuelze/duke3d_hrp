@@ -241,9 +241,19 @@ model "highres/sprites/pickups/0059_nightvison.md2" {
 // Key Card (60)
 model "highres/sprites/pickups/0060_keycard.md2" {
    scale 2 shade 0
-   skin { pal 0 file "highres/sprites/pickups/0060_keycard_blue.png" nocompress }
-   skin { pal 21 file "highres/sprites/pickups/0060_keycard_red.png" nocompress }
-   skin { pal 23 file "highres/sprites/pickups/0060_keycard_yellow.png" nocompress }
+   skin { pal 0 file "highres/sprites/pickups/0060_keycard.png" nocompress }
+   skin { pal 10 file "highres/sprites/pickups/0060_keycard_10.png" nocompress }
+   skin { pal 11 file "highres/sprites/pickups/0060_keycard_11_22.png" nocompress }
+   skin { pal 12 file "highres/sprites/pickups/0060_keycard_12_18.png" nocompress }
+   skin { pal 13 file "highres/sprites/pickups/0060_keycard_13.png" nocompress }
+   skin { pal 14 file "highres/sprites/pickups/0060_keycard_14.png" nocompress }
+   skin { pal 15 file "highres/sprites/pickups/0060_keycard_15.png" nocompress }
+   skin { pal 16 file "highres/sprites/pickups/0060_keycard_16.png" nocompress }
+   skin { pal 18 file "highres/sprites/pickups/0060_keycard_12_18.png" nocompress }
+   skin { pal 21 file "highres/sprites/pickups/0060_keycard_21.png" nocompress }
+   skin { pal 22 file "highres/sprites/pickups/0060_keycard_11_22.png" nocompress }
+   skin { pal 23 file "highres/sprites/pickups/0060_keycard_23.png" nocompress }
+   skin { pal 24 file "highres/sprites/pickups/0060_keycard_24.png" nocompress }
    frame { name "idle01" tile 60 }
 }
 
@@ -258,19 +268,79 @@ model "highres/sprites/pickups/0061_boots.md2" {
 model "highres/sprites/pickups/0100_atom.md3" {
    scale 1 shade 4
    skin { pal 0 file "highres/sprites/pickups/0100_atom.png" }
+   skin { pal 10 file "highres/sprites/pickups/0100_atom_10.png" }
+   skin { pal 11 file "highres/sprites/pickups/0100_atom_11_22.png" }
+   skin { pal 12 file "highres/sprites/pickups/0100_atom_12_18.png" }
+   skin { pal 13 file "highres/sprites/pickups/0100_atom_13.png" }
+   skin { pal 14 file "highres/sprites/pickups/0100_atom_14.png" }
+   skin { pal 15 file "highres/sprites/pickups/0100_atom_15.png" }
+   skin { pal 16 file "highres/sprites/pickups/0100_atom_16.png" }
+   skin { pal 18 file "highres/sprites/pickups/0100_atom_12_18.png" }
+   skin { pal 21 file "highres/sprites/pickups/0100_atom_21.png" }
+   skin { pal 22 file "highres/sprites/pickups/0100_atom_11_22.png" }
+   skin { pal 23 file "highres/sprites/pickups/0100_atom_23.png" }
+   skin { pal 24 file "highres/sprites/pickups/0100_atom_24.png" }
    anim { frame0 "FRAME1" frame1 "FRAME118" fps 19 flags 0 }
    frame { name "FRAME1" tile0 100 tile1 115 }
 }
 
-// Holo Duke (1348)
+// HoloDuke (1348)
 model "highres/sprites/pickups/1348_holoduke.md3" {
    scale 1.5 shade 2
+
    skin { pal 0 file "highres/sprites/pickups/1348_holoduke.png" }
+   skin { pal 10 file "highres/sprites/pickups/1348_holoduke_10.png" }
+   skin { pal 11 file "highres/sprites/pickups/1348_holoduke_11_22.png" }
+   skin { pal 12 file "highres/sprites/pickups/1348_holoduke_12_18.png" }
+   skin { pal 13 file "highres/sprites/pickups/1348_holoduke_13.png" }
+   skin { pal 14 file "highres/sprites/pickups/1348_holoduke_14.png" }
+   skin { pal 15 file "highres/sprites/pickups/1348_holoduke_15.png" }
+   skin { pal 16 file "highres/sprites/pickups/1348_holoduke_16.png" }
+   skin { pal 18 file "highres/sprites/pickups/1348_holoduke_12_18.png" }
+   skin { pal 21 file "highres/sprites/pickups/1348_holoduke_21.png" }
+   skin { pal 22 file "highres/sprites/pickups/1348_holoduke_11_22.png" }
+   skin { pal 23 file "highres/sprites/pickups/1348_holoduke_23.png" }
    frame { name "frame2" tile 1348 }
-     skin { pal 0 file "highres/sprites/pickups/1348_holoduke1.png" }
-     frame { name "frame3" tile 1349 }
+
+   skin { pal 0 file "highres/sprites/pickups/1348_holoduke1.png" }
+   skin { pal 10 file "highres/sprites/pickups/1348_holoduke1_10.png" }
+   skin { pal 11 file "highres/sprites/pickups/1348_holoduke1_11_22.png" }
+   skin { pal 12 file "highres/sprites/pickups/1348_holoduke1_12_18.png" }
+   skin { pal 13 file "highres/sprites/pickups/1348_holoduke1_13.png" }
+   skin { pal 14 file "highres/sprites/pickups/1348_holoduke1_14.png" }
+   skin { pal 15 file "highres/sprites/pickups/1348_holoduke1_15.png" }
+   skin { pal 16 file "highres/sprites/pickups/1348_holoduke1_16.png" }
+   skin { pal 18 file "highres/sprites/pickups/1348_holoduke1_12_18.png" }
+   skin { pal 21 file "highres/sprites/pickups/1348_holoduke1_21.png" }
+   skin { pal 22 file "highres/sprites/pickups/1348_holoduke1_11_22.png" }
+   skin { pal 23 file "highres/sprites/pickups/1348_holoduke1_23.png" }
+   frame { name "frame3" tile 1349 }
+
    skin { pal 0 file "highres/sprites/pickups/1348_holoduke2.png" }
+   skin { pal 10 file "highres/sprites/pickups/1348_holoduke2_10.png" }
+   skin { pal 11 file "highres/sprites/pickups/1348_holoduke2_11_22.png" }
+   skin { pal 12 file "highres/sprites/pickups/1348_holoduke2_12_18.png" }
+   skin { pal 13 file "highres/sprites/pickups/1348_holoduke2_13.png" }
+   skin { pal 14 file "highres/sprites/pickups/1348_holoduke2_14.png" }
+   skin { pal 15 file "highres/sprites/pickups/1348_holoduke2_15.png" }
+   skin { pal 16 file "highres/sprites/pickups/1348_holoduke2_16.png" }
+   skin { pal 18 file "highres/sprites/pickups/1348_holoduke2_12_18.png" }
+   skin { pal 21 file "highres/sprites/pickups/1348_holoduke2_21.png" }
+   skin { pal 22 file "highres/sprites/pickups/1348_holoduke2_11_22.png" }
+   skin { pal 23 file "highres/sprites/pickups/1348_holoduke2_23.png" }
    frame { name "frame4" tile 1350 }
-     skin { pal 0 file "highres/sprites/pickups/1348_holoduke3.png" }
-     frame { name "frame5" tile 1351 }
+
+   skin { pal 0 file "highres/sprites/pickups/1348_holoduke3.png" }
+   skin { pal 10 file "highres/sprites/pickups/1348_holoduke3_10.png" }
+   skin { pal 11 file "highres/sprites/pickups/1348_holoduke3_11_22.png" }
+   skin { pal 12 file "highres/sprites/pickups/1348_holoduke3_12_18.png" }
+   skin { pal 13 file "highres/sprites/pickups/1348_holoduke3_13.png" }
+   skin { pal 14 file "highres/sprites/pickups/1348_holoduke3_14.png" }
+   skin { pal 15 file "highres/sprites/pickups/1348_holoduke3_15.png" }
+   skin { pal 16 file "highres/sprites/pickups/1348_holoduke3_16.png" }
+   skin { pal 18 file "highres/sprites/pickups/1348_holoduke3_12_18.png" }
+   skin { pal 21 file "highres/sprites/pickups/1348_holoduke3_21.png" }
+   skin { pal 22 file "highres/sprites/pickups/1348_holoduke3_11_22.png" }
+   skin { pal 23 file "highres/sprites/pickups/1348_holoduke3_23.png" }
+   frame { name "frame5" tile 1351 }
 }
