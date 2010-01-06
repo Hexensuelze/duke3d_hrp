@@ -92,7 +92,9 @@ texture 156 {
 }
 texture 157 { 
    pal 0 { file "highres/textures/0157.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+   normal { file "highres/textures/0157_n.png" parallaxbias 0.03 parallaxscale 0.05 }
+   specular { file "highres/textures/0157_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
 }
 texture 158 { 
    pal 0 { file "highres/textures/0158.jpg" }
