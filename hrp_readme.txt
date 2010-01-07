@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.037 (Dec 10, 2009)                 |
+         |                 Version 4.2.054 (Jan 07, 2010)                 |
          ==================================================================
 
 
@@ -26,7 +26,6 @@ CONTENTS OF THIS README
    4.2) Others
 5) Contact/Links
 6) Credits
-7) Changelog
 
 
 
@@ -416,85 +415,3 @@ Special thanks to
 - The guys at Duke4.net for hosting and help building the HRP website.
 - All of you who support and contribute to the project.
 - All the mirrors and seeders.
-
-
-
-============
-7) CHANGELOG
-============
-
-Here is a list of all changes that have been included in this release since last
-HRP v4.0 (2009-03-23). Includes any previous Update Packs compiled by NightFright.
-
-
-HRP v4.2.037 (2009-12-10)
--------------------------
-> General: Support for Polymer engine update added (builds 4.2.001-4.2.017)
-
-> Added:
-     - Specular maps: 0, 182, 183, 224, 300, 302, 303, 329, 330, 333, 334, 344, 
-                      352, 376, 402, 403, 405, 406, 472, 477, 770, 780, 786-788, 
-                      800, 1100
-     - Normal maps: 0, 182, 183, 224, 300, 303, 329, 330, 333, 334, 344, 352, 
-                    376, 402, 403, 405, 406, 472, 477, 609, 770-772, 780, 786-788, 
-                    800, 803, 805, 812, 1082-1087, 1101/5108, 1104/5095, 1116, 
-                    1132-1135, 4240-4245, 5105, 5107, 5119
-     - Palettes: 199_12, 207_14/16, 243_17, 332_24, 365/0366_7, 370_7, 387_12/18, 
-                 392_17, 399_17, 428_17, 438/0439_17/19, 545_17, 757_24, 803_7, 
-                 881_15, 961_14, 1054_24, 3407_7, 4123/4124_7, 4178_13, 4224_13, 
-                 4260-4263_17, 4284-4287_17, 4531_23, 4953_12
-
-> Revisions:
-     - highres\sprites\firstperson: 2548 (Freezer texture/ozz)
-     - highres\sprites\props: 4575
-     - highres\sprites\signs: 4953
-     - highres\textures: 341_n, 609_n, 1169, 5110-5112, 5110-5112_n
-
-> Fixes:
-    - highres\sprites\pickups: 53 (missing md3)
-    - highres\sprites\props.def: 768, 991 (scales corrections)
-    - highres\sprites\signs.def: 961 (scales correction)
-    - highres\textures.def: old version of 186 restored; entries for missing 
-                            313 (d/n/s/g) and 1024 (d/s) removed; new parallaxscale 
-                            for 341-343_n; entry for 718 corrected
-
-
-HRP v4.1.1 (2009-09-01)
------------------------
-> Added:
-     - highres\textures.def: 446 (pal11/12)
-     - highres\sprites\props: 920 (chain/highres sprite)
-
-> Fixes:
-     - highres\sprites\props: 913
-
-> Revisions:
-     - highres\screen\hud: 46 (shrinker crystal HUD icon), 2470 (HoloDuke icon)
-     - highres\textures: 913
-
-
-HRP v4.1 (2009-07-01)
----------------------
-> Added:
-     - highres\skyboxes: 94
-     - highres\sprites\props: 4427 (pal0/14), 4431/4432 (glow),
-     - highres\textures: 400, 443, 959, 3407 (pal5/14), 4177, 4202, 4207
-
-> Fixes:
-     - highres\screen\menu: 2813-2820 (icon rotation), 3190-3196 (icon texture)
-     - highres\sprites\firstperson: 2524 (pistol muzzleflash)
-     - highres\sprites\monsters.def: 2000 (pal 1/2/5/7-9)
-     - highres\sprites\projectiles: 2448-2451 (pal0/2)
-
-> Revisions:
-     - highres\sprites\characters: 1405 (pal0/10-16/21/23, face)
-     - highres\sprites\decals: 4445
-     - highres\sprites\effects: 2066-2079, 2270-2283, 2310-2323
-     - highres\sprites\pickups: 53 (md3)
-     - highres\sprites\projectiles: 2448-2451
-     - highres\sprites\props: 569, 571, 573 (md3), 595 (texture), 615 (md3), 
-                              4410 (skin), 4430-4432, 4458/4459 (skin), 4496, 
-                              4497 (skins), 4502/4503, 4557 (skin)
-     - highres\sprites\signs: 1044
-     - highres\sprites\switches: 712 (skin), 4883
-     - highres\textures: 823, 3407 (pal24)
