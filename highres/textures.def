@@ -97,14 +97,17 @@ texture 157 {
 //   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
 }
 texture 158 { 
-   pal 0 { file "highres/textures/0158.jpg" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+   pal 0 { file "highres/textures/0158.png" }
+   normal { file "highres/textures/0158_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+   specular { file "highres/textures/0158_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 159 {
-   pal 0 { file "highres/textures/0159.jpg" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+   pal 0 { file "highres/textures/0159.png" }
+   normal { file "highres/textures/0159_n.png" parallaxbias 0.015 parallaxscale 0.075 }
+   specular { file "highres/textures/0159_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
 }
-
 texture 161 {
    pal 0 { file "highres/textures/0161.png" }
    detail { file "highres/detail/metal.png" xscale 1.6 yscale 0.8 }
