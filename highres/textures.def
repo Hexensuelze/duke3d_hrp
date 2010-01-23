@@ -1570,7 +1570,8 @@ texture 749 {
 }
 
 texture 750 {
-   pal 0 { file "highres/textures/0750.png" }
+   pal 0 { file "highres/textures/0750.png" specpower 2.0 specfactor 0.1 }
+   normal { file "highres/textures/0750_n.png" parallaxbias 0.04 parallaxscale 0.05 }
    detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
 }
 texture 751 {
