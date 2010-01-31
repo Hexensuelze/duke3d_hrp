@@ -1834,8 +1834,9 @@ texture 814 {
    detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
 }
 texture 815 { 
-   pal 0 { file "highres/textures/0815.png" xscale 2.0 yscale 2.0 specpower 6 specfactor 0.1 }
-   normal { file "highres/textures/0815_n.png" }
+   pal 0 { file "highres/textures/0815.png" xscale 2.0 yscale 2.0 }
+   normal { file "highres/textures/0815_n.png" parallaxbias 0.0 parallaxscale 0.005 }
+   specular { file "highres/textures/0815_s.png" }
    detail { file "highres/detail/asphalt2.png" xscale 0.3 yscale 0.3 }
 }
 texture 816 {
