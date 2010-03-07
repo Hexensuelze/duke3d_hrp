@@ -371,7 +371,7 @@ texture 235 {
 }
 texture 236 {
    pal 0 { file "highres/textures/0236.png" }
-   normal { file "highres/textures/0236_n.png" parallaxbias 0.015 parallaxscale 0.1}
+   normal { file "highres/textures/0236_n.png" parallaxbias 0.015 parallaxscale 0.1 }
    specular { file "highres/textures/0236_s.png" }
    detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
 }
@@ -1605,7 +1605,7 @@ texture 749 {
 
 texture 750 {
    pal 0 { file "highres/textures/0750.png" specpower 2.0 specfactor 0.1 }
-   normal { file "highres/textures/0750_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+  // normal { file "highres/textures/0750_n.png" parallaxbias 0.04 parallaxscale 0.05 }
    detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
 }
 texture 751 {

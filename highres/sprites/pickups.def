@@ -37,11 +37,16 @@ model "highres/sprites/pickups/0024_freezer.md3" {
 // Shrinker (25)
 model "highres/sprites/pickups/0025_shrinker.md3" {
    scale 3.0 shade 0
+
    skin { pal 0 surface 0 file "highres/sprites/pickups/0025_shrinker.png" }
    skin { pal 0 surface 2 file "highres/sprites/pickups/0025_shrinker.png" }
-   skin { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
    glow { pal 0 surface 0 file "highres/sprites/pickups/0025_shrinker_g.png" }
+   glow { pal 0 surface 2 file "highres/sprites/pickups/0025_shrinker_g.png" }
+
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
    glow { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
+   normal { surface 1 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }  
+ 
    frame { name "Frame0" tile 25 }
 }
 
@@ -82,12 +87,19 @@ model "highres/sprites/pickups/0029_devastator.md3" {
 // Expander (32)
 model "highres/sprites/pickups/0032_expander.md3" {
    scale 3.0 shade 0
+
    skin { pal 0 surface 1 file "highres/sprites/pickups/0025_shrinker.png" }
-   skin { pal 0 surface 2 file "highres/sprites/pickups/0025_shrinker.png" }
+   skin { pal 0 surface 3 file "highres/sprites/pickups/0025_shrinker.png" }
+   glow { pal 0 surface 1 file "highres/sprites/pickups/0025_shrinker_g.png" }
+   glow { pal 0 surface 3 file "highres/sprites/pickups/0025_shrinker_g.png" }
+
    skin { pal 0 surface 2 file "highres/sprites/pickups/0032_crystal.png" }
    glow { pal 0 surface 2 file "highres/sprites/pickups/0032_crystal.png" }
+   normal { surface 2 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }  
+ 
    skin { pal 0 surface 0 file "highres/sprites/pickups/0032_expander.png" }
    glow { pal 0 surface 0 file "highres/sprites/pickups/0032_expander_glow.png" }
+
    frame { name "Frame0" tile 32 }
 }
 
@@ -168,7 +180,7 @@ model "highres/sprites/pickups/0047_pipebombbox.md2" {
 }
 
 // Shotgun Ammo (49)
-model "highres/sprites/pickups/0049_shotgunammo.md2" {
+model "highres/sprites/pickups/0049_shotgunammo.md3" {
    scale 8 shade 0 
    skin { pal 0 file "highres/sprites/pickups/0049_shotgunammo.png" nocompress }
    frame { name "idle" tile 49 }
