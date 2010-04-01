@@ -1204,7 +1204,10 @@ texture 449 {
 
 texture 450 {
    pal 0 { file "highres/textures/0450.png" }
-   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+   normal { file "highres/textures/0450_n.png" parallaxbias 0.025 parallaxscale 0.05 }
+   specular { file "highres/textures/0450_s.png" }
+   glow { file "highres/textures/0450_g.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
 }
 texture 451 {
    pal 0 { file "highres/textures/0451.png" }
