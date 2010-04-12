@@ -13,9 +13,11 @@ model "highres/sprites/monsters/0490_cycloidhead.md3" {
 
 
 // Egg (675)
-model "highres/sprites/monsters/0675_egg.md2" {
+model "highres/sprites/monsters/0675_egg.md3" {
    scale 3 shade 0
-   skin { pal 0 file "highres/sprites/monsters/0675_egg.png" }
+   skin { pal 0 file "highres/sprites/monsters/0675_egg.png" specpower 100 specfactor 64 }
+   normal { file "highres/sprites/monsters/0675_egg_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+   specular { file "highres/sprites/monsters/0675_egg_s.png" }
    frame { name "closed1" tile 675 }
    frame { name "closed1" tile 558 }
    anim { frame0 "open1" frame1 "open2" fps 2 flags 1 }
