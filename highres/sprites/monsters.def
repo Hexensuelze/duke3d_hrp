@@ -293,17 +293,19 @@ model "highres/sprites/monsters/2350_gunturret.md2" {
 
 
 // Protozoid Slimer (2370)
-model "highres/sprites/monsters/2370_slimer.md2" {
+model "highres/sprites/monsters/2370_slimer.md3" {
    scale 2 shade 0
-   skin { pal 0 file "highres/sprites/monsters/2370_slimer.png" }
+   skin { pal 0 file "highres/sprites/monsters/2370_slimer.png" specpower 100 specfactor 64 }
+   normal { file "highres/sprites/monsters/2370_slimer_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+   specular { file "highres/sprites/monsters/2370_slimer_s.png" }
    anim { frame0 "roof1" frame1 "roof1" fps 1 flags 0 }
    frame { name "roof1" tile 2370 smoothduration 0.1 }
    anim { frame0 "floor1" frame1 "floor1" fps 1 flags 0 }
    frame { name "floor1" tile 2371 smoothduration 0.1 }
    anim { frame0 "hang1" frame1 "hang1" fps 1 flags 0 }
    frame { name "hang1" tile 2372 smoothduration 0.1 }
-   anim { frame0 "hang1" frame1 "hang1" fps 1 flags 0 }
-   frame { name "hang1" tile 2373 smoothduration 0.1 }
+   anim { frame0 "hang2" frame1 "hang2" fps 1 flags 0 }
+   frame { name "hang2" tile 2373 smoothduration 0.1 }
    anim { frame0 "floor2" frame1 "floor2" fps 1 flags 0 }
    frame { name "floor2" tile 2374 smoothduration 0.1 }
 }
