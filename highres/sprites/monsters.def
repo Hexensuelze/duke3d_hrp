@@ -389,6 +389,8 @@ model "highres/sprites/monsters/4610_newbeast.md3" {
    skin { pal 20 file "highres/sprites/monsters/4610_newbeast_17_20.png" }
    skin { pal 24 file "highres/sprites/monsters/4610_newbeast_24.png" }
    glow { file "highres/sprites/monsters/4610_newbeast_g.png" }
+   normal { file "highres/sprites/monsters/4610_newbeast_n.png" parallaxbias 0.03 parallaxscale 0.05 }
+   specular { file "highres/sprites/monsters/4610_newbeast_s.png" }
 
    anim { frame0 "4610_start" frame1 "4610_end" fps 20 flags 0 }  // Crouch
    frame { name "4610_start" tile0 4610 tile1 4614 smoothduration 0.2 }
