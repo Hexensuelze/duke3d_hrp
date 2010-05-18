@@ -89,11 +89,12 @@ texture 137 {
 model "highres/sprites/switches/0136_sdoorswitch.md3" {
    scale 1.55 shade 0
    skin { pal 0 file "highres/sprites/switches/0136_sdoorswitch_red.png" }
-   detail { file "highres/detail/metal.png" detailscale 0.6 }
+   specular { pal 0 file "highres/sprites/switches/0136_sdoorswitch_red_s.png" }
+//   detail { file "highres/detail/metal.png" detailscale 0.6 }
    glow { file "highres/sprites/switches/0136_sdoorswitch_red_glow.png" }
    frame { name "red" tile 136 }
    skin { pal 0 file "highres/sprites/switches/0136_sdoorswitch_green.png" }
-   detail { file "highres/detail/metal.png" detailscale 0.6 }
+//   detail { file "highres/detail/metal.png" detailscale 0.6 }
    glow { file "highres/sprites/switches/0136_sdoorswitch_green_glow.png" }
    frame { name "green" tile 137 }
 }
