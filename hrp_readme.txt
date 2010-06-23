@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.088 (Apr 13, 2010)                 |
+         |                 Version 4.2.122 (Jun 24, 2010)                 |
          ==================================================================
 
 
@@ -305,6 +305,7 @@ NightFright
 Night Hacker 
 nyne
 ooppee
+ozz
 Parkar
 Piccolo
 Piterplus
