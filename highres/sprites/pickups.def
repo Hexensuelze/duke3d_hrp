@@ -3,11 +3,12 @@
 
 
 // Pistol (21)
-model "highres/sprites/pickups/0021_pistol.md2" { 
-   scale 1.4 shade 1
-   skin { pal 0 file "highres/sprites/pickups/0021_pistol.jpg" }
-   detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "FRAME01" tile 21 }
+model "highres/sprites/pickups/0021_pistol.md3" { 
+   scale 3.5 shade 0
+   skin { pal 0 file "highres/sprites/pickups/0021_pistol_d.png" }
+   normal { file "highres/sprites/pickups/0021_pistol_n.png" }
+   specular { file "highres/sprites/pickups/0021_pistol_s.png" }
+   frame { name "frame_1" tile 21 }
 }
 
 // Chaingun (22)

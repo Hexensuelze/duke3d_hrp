@@ -170,7 +170,10 @@ texture 928 { pal 0 { file "highres/sprites/signs/0928.png" } }
 texture 929 { pal 0 { file "highres/sprites/signs/0929.png" } }
 
 texture 930 { pal 0 { file "highres/sprites/signs/0930.png" } }
-texture 937 { pal 0 { file "highres/sprites/signs/0937.png" } }
+texture 937 { 
+   pal 0 { file "highres/sprites/signs/0937.png" } 
+   normal { file "highres/sprites/signs/0937_n.png" parallaxbias 0 parallaxscale 0.1 }
+}
 texture 938 { pal 0 { file "highres/sprites/signs/0938.png" nocompress } }
 
 texture 945 { pal 0 { file "highres/sprites/signs/0945.png" } }

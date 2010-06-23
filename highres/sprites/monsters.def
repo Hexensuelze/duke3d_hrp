@@ -45,65 +45,68 @@ model "highres/sprites/monsters/1550_shark.md2" {
 
 // Trooper (1680)
 model "highres/sprites/monsters/1680_trooper.md3" {
-   scale 9 shade 2
-   skin { pal 0 file "highres/sprites/monsters/1680_trooper_0.png" }
-   skin { pal 10 file "highres/sprites/monsters/1680_trooper_10.png" }
-   skin { pal 11 file "highres/sprites/monsters/1680_trooper_11_22.png" }
-   skin { pal 12 file "highres/sprites/monsters/1680_trooper_12_18.png" }
-   skin { pal 13 file "highres/sprites/monsters/1680_trooper_13.png" }
-   skin { pal 14 file "highres/sprites/monsters/1680_trooper_14.png" }
-   skin { pal 15 file "highres/sprites/monsters/1680_trooper_15.png" }
-   skin { pal 16 file "highres/sprites/monsters/1680_trooper_16.png" }
-   skin { pal 17 file "highres/sprites/monsters/1680_trooper_17.png" }
-   skin { pal 18 file "highres/sprites/monsters/1680_trooper_12_18.png" }
-   skin { pal 19 file "highres/sprites/monsters/1680_trooper_19.png" }
-   skin { pal 20 file "highres/sprites/monsters/1680_trooper_20.png" }
-   skin { pal 21 file "highres/sprites/monsters/1680_trooper_21.png" }
-   skin { pal 22 file "highres/sprites/monsters/1680_trooper_11_22.png" }
-   skin { pal 23 file "highres/sprites/monsters/1680_trooper_23.png" }
-   skin { pal 24 file "highres/sprites/monsters/1680_trooper_24.png" }
-   glow { file "highres/sprites/monsters/1680_trooper_g.png" }
+  scale 9 shade -15
+  skin { pal 0 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color.png" }
+  normal { file "highres/sprites/monsters/1680_trooper_skin_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 0 }
+  skin { pal 0 surface 1 file "highres/sprites/monsters/1680_trooper_gear_0.png" }
+  normal { file "highres/sprites/monsters/1680_trooper_gear_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 1 }
+  skin { pal 10 surface 1 file "highres/sprites/monsters/1680_trooper_gear_10.png" }
+  skin { pal 11 surface 1 file "highres/sprites/monsters/1680_trooper_gear_11_22.png" }
+  skin { pal 12 surface 1 file "highres/sprites/monsters/1680_trooper_gear_12_18.png" }
+  skin { pal 13 surface 1 file "highres/sprites/monsters/1680_trooper_gear_13.png" }
+  skin { pal 14 surface 1 file "highres/sprites/monsters/1680_trooper_gear_14.png" }
+  skin { pal 15 surface 1 file "highres/sprites/monsters/1680_trooper_gear_15.png" }
+  skin { pal 16 surface 1 file "highres/sprites/monsters/1680_trooper_gear_16.png" }
+  skin { pal 21 surface 1 file "highres/sprites/monsters/1680_trooper_gear_21.png" }
+  skin { pal 17 surface 1 file "highres/sprites/monsters/1680_trooper_gear_11_22.png" }
+  skin { pal 17 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color20.png" }
+  skin { pal 18 surface 1 file "highres/sprites/monsters/1680_trooper_gear_12_18.png" }
+  skin { pal 19 surface 1 file "highres/sprites/monsters/1680_trooper_gear_13.png" }
+  skin { pal 19 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color19.png" }
+  skin { pal 20 surface 1 file "highres/sprites/monsters/1680_trooper_gear_12_18.png" }
+  skin { pal 22 surface 1 file "highres/sprites/monsters/1680_trooper_gear_11_22.png" }
+  skin { pal 20 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color20.png" }
+  skin { pal 21 surface 1 file "highres/sprites/monsters/1680_trooper_gear_21.png" }
+  skin { pal 23 surface 1 file "highres/sprites/monsters/1680_trooper_gear_23.png" }
+  skin { pal 24 surface 1 file "highres/sprites/monsters/1680_trooper_gear_24.png" }
+  glow { file "highres/sprites/monsters/1680_trooper_g.png" }
+   
+   anim { frame0 "frame_1" frame1 "frame_32" fps 40 flags 0 } // Walk
+   frame { name "frame_1" tile0 1680 tile1 1704 smoothduration 0.1 }
 
+   anim { frame0 "frame_34" frame1 "frame_43" fps 22 flags 0 } // Shoot
+   frame { name "frame_34" tile0 1715 tile1 1717 smoothduration 0.1 }
+   
+   anim { frame0 "frame_44" frame1 "frame_52" fps 7 flags 0 } // Fly
+   frame { name "frame_44" tile0 1720 tile1 1724 smoothduration 0.8 }
+   
+   anim { frame0 "frame_53" frame1 "frame_58" fps 7 flags 0 } // Fly Shoot
+   frame { name "frame_53" tile0 1725 tile1 1727 smoothduration 0.1 }
+   
+   anim { frame0 "frame_89" frame1 "frame_99" fps 4 flags 0 } // Sit
+   frame { name "frame_89" tile0 1741 tile1 1742 smoothduration 0.3 }
+   
+   anim { frame0 "frame_100" frame1 "frame_108" fps 20 flags 0 } // Duck
+   frame { name "frame_100" tile0 1744 tile1 1751 smoothduration 0.3 }
+   
+   anim { frame0 "frame_109" frame1 "frame_115" fps 13 flags 1 } // Warp
+   frame { name "frame_109" tile0 1754 tile1 1755 smoothduration 0.3 }
+   
+   frame { name "frame_63" tile 1730 } // Flinch
 
-   anim { frame0 "FRAME1" frame1 "FRAME20" fps 25 flags 0 } // Walk
-   frame { name "FRAME1" tile0 1680 tile1 1704 smoothduration 0.2 }
-
-   anim { frame0 "FRAME21" frame1 "FRAME30" fps 22 flags 0 } // Shoot
-   frame { name "FRAME21" tile0 1715 tile1 1717 smoothduration 0.1 }
-   anim { frame0 "FRAME31" frame1 "FRAME38" fps 7 flags 0 } // Fly
-   frame { name "FRAME31" tile0 1720 tile1 1724 smoothduration 0.5 }
-   anim { frame0 "FRAME40" frame1 "FRAME45" fps 7 flags 0 } // Fly Shoot
-   frame { name "FRAME40" tile0 1725 tile1 1727 smoothduration 0.1 }
-   anim { frame0 "FRAME76" frame1 "FRAME86" fps 4 flags 0 } // Sit
-   frame { name "FRAME76" tile0 1741 tile1 1742 smoothduration 0.3 }
-   anim { frame0 "FRAME87" frame1 "FRAME95" fps 20 flags 0 } // Duck
-   frame { name "FRAME87" tile0 1744 tile1 1751 smoothduration 0.3 }
-   anim { frame0 "FRAME96" frame1 "FRAME102" fps 13 flags 1 } // Warp
-   frame { name "FRAME96" tile0 1754 tile1 1755 smoothduration 0.3 }
-   frame { name "FRAME47" tile 1730 } // Flinch
-
-   skin { pal 0 file "highres/sprites/monsters/1680_trooper_0_dead.png" }
-   skin { pal 10 file "highres/sprites/monsters/1680_trooper_10_dead.png" }
-   skin { pal 11 file "highres/sprites/monsters/1680_trooper_11_22_dead.png" }
-   skin { pal 12 file "highres/sprites/monsters/1680_trooper_12_18_dead.png" }
-   skin { pal 13 file "highres/sprites/monsters/1680_trooper_13_dead.png" }
-   skin { pal 14 file "highres/sprites/monsters/1680_trooper_14_dead.png" }
-   skin { pal 15 file "highres/sprites/monsters/1680_trooper_15_dead.png" }
-   skin { pal 16 file "highres/sprites/monsters/1680_trooper_16_dead.png" }
-   skin { pal 17 file "highres/sprites/monsters/1680_trooper_17_dead.png" }
-   skin { pal 18 file "highres/sprites/monsters/1680_trooper_12_18_dead.png" }
-   skin { pal 19 file "highres/sprites/monsters/1680_trooper_19_dead.png" }
-   skin { pal 20 file "highres/sprites/monsters/1680_trooper_20_dead.png" }
-   skin { pal 21 file "highres/sprites/monsters/1680_trooper_21_dead.png" }
-   skin { pal 22 file "highres/sprites/monsters/1680_trooper_11_22_dead.png" }
-   skin { pal 23 file "highres/sprites/monsters/1680_trooper_23_dead.png" }
-   skin { pal 24 file "highres/sprites/monsters/1680_trooper_24_dead.png" }
-
-   anim { frame0 "FRAME53" frame1 "FRAME64" fps 15 flags 1 } // Die
-   frame { name "FRAME53" tile0 1731 tile1 1733 smoothduration 0.2 }
-   frame { name "FRAME64" tile 1734 } // Dead
-   anim { frame0 "FRAME65" frame1 "FRAME74" fps 12 flags 0 } // Beg
-   frame { name "FRAME65" tile0 1738 tile1 1740 smoothduration 0.3 }
+   skin { pal 0 surface 0 file "highres/sprites/monsters/1680_trooper_dead.png" }  
+   normal { file "highres/sprites/monsters/1680_trooper_skin_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 0 }
+   skin { pal 17 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color20_dead.png" }
+   skin { pal 19 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color19_dead.png" }
+   skin { pal 20 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color20_dead.png" }
+ 
+     
+   anim { frame0 "frame_59" frame1 "frame_77" fps 15 flags 1 } // Die
+   frame { name "frame_59" tile0 1731 tile1 1733 smoothduration 0.2 }
+   
+   frame { name "frame_77" tile 1734 } // Dead
+   anim { frame0 "frame_78" frame1 "frame_87" fps 12 flags 0 } // Beg
+   frame { name "frame_78" tile0 1738 tile1 1740 smoothduration 0.3 }
 }
 
 
