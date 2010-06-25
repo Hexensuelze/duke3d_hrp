@@ -532,6 +532,7 @@ texture 275 { pal 0 { file "highres/textures/0275.jpg" } }
 texture 276 {
    pal 0 { file "highres/textures/0276.png" }
    pal 2 { file "highres/textures/0276_2.png" }
+   pal 23 { file "highres/textures/0276_23.png" }
 }
 texture 278 { 
    pal 0 { file "highres/textures/0278.png" } 
@@ -1023,7 +1024,11 @@ texture 400 {
    pal 0 { file "highres/textures/0400.png" }
    detail { file "highres/detail/metal.png" xscale 1.2 yscale 0.2 }
 }
-texture 401 { pal 0 { file "highres/textures/0401.png" } }
+texture 401 { 
+   pal 0 { file "highres/textures/0401.png" }
+   pal 1 { file "highres/textures/0401_1.png" } 
+   pal 2 { file "highres/textures/0401_2.png" } 
+}
 texture 402 {
    pal 0 { file "highres/textures/0402.png" }
    normal { file "highres/textures/0402_n.png" parallaxbias 0 parallaxscale 0.05 }
@@ -1512,6 +1517,7 @@ texture 706 {
 }
 texture 707 {
    pal 0 { file "highres/textures/0707.png" }
+   pal 1 { file "highres/textures/0707_1.png" }
    pal 2 { file "highres/textures/0707_2.png" }
    pal 7 { file "highres/textures/0707_7.png" }
    pal 8 { file "highres/textures/0707_8.png" }
@@ -1519,6 +1525,7 @@ texture 707 {
 }
 texture 708 {
    pal 0 { file "highres/textures/0708.png" }
+   pal 1 { file "highres/textures/0708_1.png" }
    pal 2 { file "highres/textures/0708_2.png" }
    pal 7 { file "highres/textures/0708_7.png" }
    pal 8 { file "highres/textures/0708_8.png" }

@@ -138,6 +138,7 @@ model "highres/sprites/props/0544_ironbar.md3" {
 model "highres/sprites/props/0551_domelight.md3" {
    scale 8.0 shade 3
    skin { pal 0 file "highres/sprites/props/0551_domelight.png" }
+   skin { pal 1 file "highres/sprites/props/0551_domelight_1.png" }
    glow { pal 0 file "highres/sprites/props/0551_domelight.png" }
    anim { frame0 "FRAME4" frame1 "FRAME11" fps 15 flags 0 }
    frame { name "FRAME4" tile0 0551 tile1 0554 }
@@ -1632,6 +1633,13 @@ model "highres/sprites/props/4417_busmirror.md3" {
    scale 1.5 shade 0
    skin { pal 0 file "highres/sprites/props/4417_busmirror.png" }
    frame { name "Frame0" tile 4417 }
+}
+
+// Opened Pipebomb (4419)
+model "highres/sprites/props/4419_openpbomb.md3" {
+   scale 15 shade 1
+   skin { pal 0 surface 0 file "highres/sprites/props/4419_openpbomb.png" }
+   frame { name "none00" tile 4419 }
 }
 
 // Hotmeat (4427)
