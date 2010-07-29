@@ -47,9 +47,11 @@ model "highres/sprites/monsters/1550_shark.md2" {
 model "highres/sprites/monsters/1680_trooper.md3" {
   scale 9 shade -15
   skin { pal 0 surface 0 file "highres/sprites/monsters/1680_trooper_skin_color.png" }
+  specular { file "highres/sprites/monsters/1680_trooper_skin_s.png" surf 0 }
   normal { file "highres/sprites/monsters/1680_trooper_skin_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 0 }
   skin { pal 0 surface 1 file "highres/sprites/monsters/1680_trooper_gear_0.png" }
   normal { file "highres/sprites/monsters/1680_trooper_gear_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 1 }
+  specular { file "highres/sprites/monsters/1680_trooper_gear_s.png" surf 1 }
   skin { pal 10 surface 1 file "highres/sprites/monsters/1680_trooper_gear_10.png" }
   skin { pal 11 surface 1 file "highres/sprites/monsters/1680_trooper_gear_11_22.png" }
   skin { pal 12 surface 1 file "highres/sprites/monsters/1680_trooper_gear_12_18.png" }
