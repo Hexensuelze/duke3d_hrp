@@ -291,7 +291,9 @@ model "highres/sprites/firstperson/2575_pipebombdrop.md3" {
 // Tip Hand (2576/2577)
 model "highres/sprites/firstperson/2576_tiphand.md3" {
    scale 1.9
-   skin { pal 0 surface 0 file "highres/sprites/firstperson/duke_hand.png" }
+   skin { pal 0 surface 0 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { file "highres/sprites/firstperson/duke_hand_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/sprites/firstperson/duke_hand_s.png" }
    detail { surface 0 file "highres/sprites/firstperson/2576_tiphand_lmap.png" detailscale 1 }
    skin { pal 0 surface 1 file "highres/sprites/firstperson/dollarnote.png" }   
    frame { name "Frame0" tile 2576 }
@@ -300,7 +302,9 @@ model "highres/sprites/firstperson/2576_tiphand.md3" {
 
 model "highres/sprites/firstperson/2577_tiphand.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/firstperson/duke_hand.png" }
+   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { file "highres/sprites/firstperson/duke_hand_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/sprites/firstperson/duke_hand_s.png" }
    detail { file "highres/sprites/firstperson/2577_tiphand_lmap.png" detailscale 1 }
    frame { name "Frame0" tile 2577 }
    hud { tile 2577 xadd -0.5 yadd 1.65 zadd -0.82 }
@@ -317,20 +321,32 @@ model "highres/sprites/firstperson/2581_scuba.md3" {
 
 // Shotgun (2613)
 model "highres/sprites/firstperson/2613_shotgun.md3" {
-   scale 1.7
-   skin { pal 0 file "highres/sprites/firstperson/2613_shotgun.png" }
-   frame { name "2613" tile 2613 }
-   frame { name "2613" tile 2614 }
-   frame { name "2613" tile 2615 }
-   frame { name "2616" tile 2616 }
-   frame { name "2617" tile 2617 }
-   frame { name "2618" tile 2618 }
-   frame { name "2619" tile 2619 }
-   // anim { frame0 "pump1" frame1 "pump2" fps 30 flags 1 }
-   // frame { name "pump1" tile0 2617 tile1 2619 }
-   hud { tile 2613 xadd 0.12 yadd 1.35 zadd -0.54 angadd -24 }
-   hud { tile 2616 xadd 0.053 yadd 1.167 zadd -0.54 angadd -24 }
-   hud { tile 2617 xadd -0.21 yadd 1.28 zadd -0.8 angadd -24 }
-   hud { tile 2618 xadd -0.474 yadd 1.407 zadd -0.8 angadd -24 }
-   hud { tile 2619 xadd -0.474 yadd 1.407 zadd -0.8 angadd -24 }
+   scale 6
+   skin { pal 0 surface 0 file "highres/sprites/firstperson/2613_shotgun_d.png" }
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/2613_shotgun_d.png" }
+   normal { file "highres/sprites/firstperson/2613_shotgun_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/sprites/firstperson/2613_shotgun_s.png" }
+   skin { pal 0 surface 2 file "highres/sprites/firstperson/2613_shotgun_d.png" }
+   normal { file "highres/sprites/firstperson/2613_shotgun_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/sprites/firstperson/2613_shotgun_s.png" }
+   skin { pal 0 surface 3 file "highres/sprites/firstperson/2613_shotgun_d.png" }
+   normal { file "highres/sprites/firstperson/2613_shotgun_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/sprites/firstperson/2613_shotgun_s.png" }
+   skin { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { file "highres/sprites/firstperson/duke_hand_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/sprites/firstperson/duke_hand_s.png" }
+   frame { name "frame_1" tile 2613 }
+   frame { name "frame_1" tile 2614 }
+   frame { name "frame_1" tile 2615 }
+   frame { name "frame_2" tile 2616 }
+   frame { name "frame_20" tile 2617 }
+   frame { name "frame_30" tile 2618 }
+   frame { name "frame_60" tile 2619 }
+   hud { tile 2613 xadd 0.32 yadd 0.81 zadd 0.8 angadd -1200 }
+   hud { tile 2614 hide }
+   hud { tile 2615 hide }
+   hud { tile 2616 xadd 0.24 yadd 0.7 zadd 0.8 angadd -1200 }
+   hud { tile 2617 xadd 0.2 yadd 0.9 zadd 1 angadd -1350 }
+   hud { tile 2618 xadd 0 yadd 0.2 zadd 1 angadd -1350 }
+   hud { tile 2619 xadd 0 yadd 0.2 zadd 1 angadd -1350 }
 }

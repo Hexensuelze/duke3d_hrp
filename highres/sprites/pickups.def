@@ -38,16 +38,13 @@ model "highres/sprites/pickups/0024_freezer.md3" {
 // Shrinker (25)
 model "highres/sprites/pickups/0025_shrinker.md3" {
    scale 3.0 shade 0
-
    skin { pal 0 surface 0 file "highres/sprites/pickups/0025_shrinker.png" }
    skin { pal 0 surface 2 file "highres/sprites/pickups/0025_shrinker.png" }
    glow { pal 0 surface 0 file "highres/sprites/pickups/0025_shrinker_g.png" }
    glow { pal 0 surface 2 file "highres/sprites/pickups/0025_shrinker_g.png" }
-
    skin { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
    glow { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
-   normal { surface 1 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }  
- 
+   normal { surface 1 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }
    frame { name "Frame0" tile 25 }
 }
 
@@ -71,10 +68,11 @@ model "highres/sprites/pickups/0027_tripbomb.md2" {
 
 // Shotgun (28)
 model "highres/sprites/pickups/0028_shotgun.md3" {
-   scale 1.25 shade 2 zadd 10
-   skin { pal 0 file "highres/sprites/pickups/0028_shotgun.jpg" }
-   detail { file "highres/detail/metal.png" detailscale 0.15 }
-   frame { name "Frame 0" tile 28 }
+   scale 15 shade 0 zadd 0
+   skin { pal 0 file "highres/sprites/pickups/0028_shotgun_d.png" }
+   normal { file "highres/sprites/pickups/0028_shotgun_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/sprites/pickups/0028_shotgun_s.png" }
+   frame { name "frame_1" tile 28 }
 }
 
 // Devastator (29)
@@ -88,19 +86,15 @@ model "highres/sprites/pickups/0029_devastator.md3" {
 // Expander (32)
 model "highres/sprites/pickups/0032_expander.md3" {
    scale 3.0 shade 0
-
    skin { pal 0 surface 1 file "highres/sprites/pickups/0025_shrinker.png" }
    skin { pal 0 surface 3 file "highres/sprites/pickups/0025_shrinker.png" }
    glow { pal 0 surface 1 file "highres/sprites/pickups/0025_shrinker_g.png" }
    glow { pal 0 surface 3 file "highres/sprites/pickups/0025_shrinker_g.png" }
-
    skin { pal 0 surface 2 file "highres/sprites/pickups/0032_crystal.png" }
    glow { pal 0 surface 2 file "highres/sprites/pickups/0032_crystal.png" }
-   normal { surface 2 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }  
- 
+   normal { surface 2 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }
    skin { pal 0 surface 0 file "highres/sprites/pickups/0032_expander.png" }
    glow { pal 0 surface 0 file "highres/sprites/pickups/0032_expander_glow.png" }
-
    frame { name "Frame0" tile 32 }
 }
 
