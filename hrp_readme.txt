@@ -5,7 +5,7 @@
          |                                                                |                      
          |                compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.144 (Aug 11, 2010)                 |
+         |                 Version 4.2.145 (Aug 12, 2010)                 |
          ==================================================================
 
 
@@ -50,8 +50,9 @@ over at http://www.3drealms.com/downloads.html .
 
 Here's what the Duke3D HRP has to offer: 
    - EDuke32 port for Duke Nukem 3D (by TerminX and Plagman, based on JFDuke3D by 
-     Jonathon "JonoF" Fowler). Which one is included depends on how well they support 
-     the current HRP version. 
+     Jonathon "JonoF" Fowler). Supports older Polymost renderer as well as the more
+     advanced Polymer renderer (with advanced effects like normal/specular mapping,
+     per-pixel dynamic lighting, real-time shadows etc). 
      For more info about these ports, check out JonoF's JFDuke3D and the EDuke32 site. 
    - 32-bit high resolution textures with 4-8 times the detail of the original textures. 
    - Models instead of the old sprites. 
@@ -60,11 +61,7 @@ While the HRP is still "work in progress" and missing quite a few textures and
 models, you can check the Duke Nukem 3D source code forums for additional content 
 or even better contributing something of your own.
 
-The community's goal is to issue a new HRP version once in 1-2 year(s) or anytime 
-JonoF comes up with a new milestone of the JFDuke3D port. For the impatient ones, 
-NightFright is offering an update pack every one or two months, integrating latest 
-forum contributions and fixes into the HRP. You can find these updates over at
-http://hrpupdate.duke4.net .
+The community's goal is to issue a new HRP version once in 1-2 year(s).
 
 
 
@@ -126,8 +123,8 @@ some of them could not be removed in this release. Here are those we know of:
 
 - Rarely you will still find props, pickup weapons or the like that are
   clipping into walls, often preventing you from seeing them completely. 
-  Maphacks since January 2008 can fix these glitches, so don't hesitate to
-  report anything you consider worthy of correcting.
+  Maphacks can fix these glitches, so don't hesitate to report anything you 
+  consider worthy of correcting.
 
 - Slime babe #1323 has a transparency/clipping bug with her hair. Updating
   the model should solve that problem.
@@ -370,6 +367,7 @@ Renegado
 Roma Loom
 Sky Fox
 Soul Collector
+Spiker
 Swiss Cheeseman/SwissCM
 Tea Monster
 Vasilinka
