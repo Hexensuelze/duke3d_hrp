@@ -1,11 +1,11 @@
          ==================================================================
          |            DUKE NUKEM 3D HIGH RESOLUTION PACK (HRP)            |
          |                                                                |
-         |                   A Duke3D Community project                   |
+         |                   A Duke3D Community Project                   |
          |                                                                |                      
-         |                compiled by Parkar & NightFright                |
+         |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.145 (Aug 12, 2010)                 |
+         |                 Version 4.2.147 (Aug 14, 2010)                 |
          ==================================================================
 
 
