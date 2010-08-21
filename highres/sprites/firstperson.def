@@ -36,13 +36,14 @@ model "highres/sprites/firstperson/2375_slimecrunch.md2" {
 }
 
 // Devastator (2510)
-model "highres/sprites/firstperson/2510_devastator.md2" {
+model "highres/sprites/firstperson/2510_devastator.md3" {
    scale 1.5
-   skin { pal 0 file "highres/sprites/firstperson/2510_devastator.jpg" }
-   frame { name "Frame 0" tile 2510 }
-   skin { pal 0 file "highres/sprites/firstperson/2510_devastator_f.jpg" }
+   skin { pal 0 file "highres/sprites/firstperson/2510_devastator.png" specfactor 0.5 specpower 35 }
+   normal { file "highres/sprites/firstperson/2510_devastator_n.png" parallaxbias 0.0 parallaxscale 0.0 }
+   specular { file "highres/sprites/firstperson/2510_devastator_s.png" }
+   frame { name "Frame0" tile 2510 }
    glow { file "highres/sprites/firstperson/2510_devastator_g.png" }
-   frame { name "Frame 1" tile 2511 }
+   frame { name "Frame0" tile 2511 }
    hud { tile0 2510 tile1 2511 xadd -0.38 yadd -0.70 zadd 1.42 angadd 1024 flipped } //left devastator
    hud { tile0 2510 tile1 2511 xadd 0.38 yadd 0.18 zadd 1.42 angadd 1024 } //right devastator
 }
