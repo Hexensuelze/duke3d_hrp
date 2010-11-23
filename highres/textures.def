@@ -1317,9 +1317,12 @@ texture 459 {
 }
 
 texture 460 {
-   pal 0 { file "highres/textures/0460.png" }
+   pal 0 { file "highres/textures/0460_d.png" }
+   normal { file "highres/textures/0460_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/textures/0460_s.png" }
    detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
 }
+
 texture 461 {
    pal 0 { file "highres/textures/0461.png" }
    detail { file "highres/detail/concrete_smooth2.png" xscale 0.15 yscale 0.15 }
