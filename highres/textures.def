@@ -240,22 +240,30 @@ texture 205 {
    detail { file "highres/detail/metal.png" xscale 1.2 yscale 0.3 }
 }
 texture 206 {
-   pal 0 { file "highres/textures/0206.png" }
+   pal 0 { file "highres/textures/0206_d.png" }
+   normal { file "highres/textures/0206_n.png" parallaxbias 0.025 parallaxscale 0.05 }
+   specular { file "highres/textures/0206_s.png" }
    detail { file "highres/detail/metal_fine.png" xscale 1.36 yscale 0.17 }
 }
 texture 207 {
-   pal 0 { file "highres/textures/0207.png" xscale 2.0 }
-   pal 10 { file "highres/textures/0207_10.png" xscale 2.0 }
-   pal 14 { file "highres/textures/0207_14.png" xscale 2.0 }
-   pal 16 { file "highres/textures/0207_16.png" xscale 2.0 }
+   pal 0 { file "highres/textures/0207_d.png" xscale 4.0 }
+   pal 10 { file "highres/textures/0207_10_d.png" xscale 4.0 }
+   pal 14 { file "highres/textures/0207_14_d.png" xscale 4.0 }
+   pal 16 { file "highres/textures/0207_16_d.png" xscale 4.0 }
+   normal { file "highres/textures/0207_n.png" parallaxbias 0.025 parallaxscale 0.05 }
+   specular { file "highres/textures/0207_s.png" }
    detail { file "highres/detail/metal_fine.png" xscale 0.68 yscale 0.17 }
 }
 texture 208 {
-   pal 0 { file "highres/textures/0208.png" }
+   pal 0 { file "highres/textures/0208_d.png" }
+   normal { file "highres/textures/0208_n.png" parallaxbias 0.025 parallaxscale 0.05 }
+   specular { file "highres/textures/0208_s.png" }
    detail { file "highres/detail/metal_fine.png" xscale 1.36 yscale 0.17 }
 }
 texture 209 {
-   pal 0 { file "highres/textures/0209.png" xscale 2.0 }
+   pal 0 { file "highres/textures/0209_d.png" xscale 4.0 }
+   normal { file "highres/textures/0209_n.png" parallaxbias 0.025 parallaxscale 0.05 }
+   specular { file "highres/textures/0209_s.png" }
    detail { file "highres/detail/metal_fine.png" xscale 0.68 yscale 0.17 }
 }
 
@@ -3266,8 +3274,10 @@ texture 4177 {
    detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
 }
 texture 4178 { 
-   pal 0 { file "highres/textures/0207_10.png" }
-   pal 13 { file "highres/textures/4178_13.png" } 
+   pal 0 { file "highres/textures/4178_d.png" xscale 4.0 }
+   pal 13 { file "highres/textures/4178_13_d.png" xscale 4.0 } 
+   normal { file "highres/textures/0207_n.png" parallaxbias 0.025 parallaxscale 0.05 }
+   specular { file "highres/textures/0207_s.png" }
 }
 
 texture 4180 { pal 0 { file "highres/textures/4180.jpg" nocompress } }
