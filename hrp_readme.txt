@@ -5,7 +5,7 @@
          |                                                                |                      
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.174 (Dec 06, 2010)                 |
+         |                 Version 4.2.189 (Feb 02, 2011)                 |
          ==================================================================
 
 
@@ -202,7 +202,7 @@ Pär "Parkar" Karlsson
 
 
 Robin "NightFright" Reisinger
-(HRP co-author, HRP Update Pack author) ............ hrp_update [at] fastmail.fm
+(HRP co-author) .................................... hrp_update [at] fastmail.fm
 
 
 Richard "TerminX" Gobeille
@@ -245,21 +245,21 @@ Please notify us if you did contribute to this project without being listed here
 
 
 -------------
-JFDuke3D port
+JFDuke3D Port
 -------------
 JonoF
 Ken Silverman
 
 
 ------------
-EDuke32 port
+EDuke32 Port
 ------------
 Plagman
 TerminX
 
 
 ----------------
-Highres textures
+Highres Textures
 ----------------
 0815Jack
 ADM
@@ -270,7 +270,7 @@ Another Duke Fan
 Armando
 Audiocraz
 BlitZ
-cage
+Cage
 chicken
 Daedolon
 Devastator
@@ -282,7 +282,8 @@ DukeAtomic
 Ecmaster76
 endmilled
 Fearpi
-gambini
+Flacken.WS
+Gambini
 Gman
 gt1750
 Hendricks266
@@ -296,7 +297,8 @@ Kevin9er
 Killd a ton
 L2theKING
 Lemming
-marked
+Marked
+Megadeus
 motionblur
 NightFright
 Night Hacker 
@@ -325,7 +327,7 @@ yossa
 
 
 -------------------
-3D models and skins
+3D Models and Skins
 -------------------
 alandog
 AlgorithMan
@@ -371,6 +373,7 @@ Soul Collector
 Spiker
 Swiss Cheeseman/SwissCM
 Tea Monster
+vakooja
 Vasilinka
 YicklePigeon
 zilppuri
@@ -379,6 +382,8 @@ zilppuri
 --------
 Maphacks
 --------
+
+> Initial Release
 Dave-ros
 DSotM
 Ecmaster76
@@ -392,16 +397,18 @@ Piterplus
 Renegado
 Zebius
 
-
------------------
-Maphacks Reloaded
------------------
+> "Reloaded" Release
 Hunter_rus
 NightFright
 
+> Polymer Lighting
+Devastator
+Micky C
+Roma Loom
+
 
 ------------
-HRP assembly
+HRP Assembly
 ------------
 NightFright
 Parkar

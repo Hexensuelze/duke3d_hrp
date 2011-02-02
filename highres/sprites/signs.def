@@ -253,16 +253,15 @@ texture 1202 { pal 0 { file "highres/sprites/signs/1202.png" } }
 
 // Guilty Sign (1210)
 texture 1210 { pal 0 { file "highres/sprites/signs/1210.png" } }
-model "highres/sprites/signs/1210_guilty.md2" {
-   scale 1.6 shade 4
+
+//"Innocent" sign (1211)
+texture 1211 { pal 0 { file "highres/sprites/signs/1211.png" } }
+
+// Guilty Sign (1210), "Innocent" sign (1211), "Crap" sign (4891) models
+model "highres/sprites/signs/1210p_guilty.md2" {
+   shade 0
    skin { pal 0 file "highres/sprites/signs/1210_guilty.png" }
    frame { name "frame01" tile 1210 }
-}
-
-// "Innocent" sign (1211), "Crap" sign (4891)
-texture 1211 { pal 0 { file "highres/sprites/signs/1211.png" } }
-model "highres/sprites/signs/1211_innocent.md2" {
-   scale 3.75 shade 0
    skin { pal 0 file "highres/sprites/signs/1211_innocent.png" }
    frame { name "frame01" tile 1211 }
    skin { pal 0 file "highres/sprites/signs/4891_crap.jpg" }
