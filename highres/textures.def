@@ -2168,7 +2168,9 @@ texture 876 {
    detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
 }
 texture 877 {
-   pal 0 { file "highres/textures/0877.png" }
+   pal 0 { file "highres/textures/0877_d.png" yscale 2 }
+   normal { file "highres/textures/0877_n.png" parallaxbias 0.025 parallaxscale 0.05 }
+   specular { file "highres/textures/0877_s.png" }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 878 {
