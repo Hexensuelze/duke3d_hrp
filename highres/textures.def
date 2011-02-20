@@ -1739,12 +1739,16 @@ texture 754 {
    detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
 }
 texture 755 {
-   pal 0 { file "highres/textures/0755.png" xscale 2.0 yscale 2.0 }
-   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+   pal 0 { file "highres/textures/0755_d.png" xscale 2.0 yscale 2.0 }
+   normal { file "highres/textures/0755_n.png" parallaxbias 0.0 parallaxscale 0.015 }
+   specular { file "highres/textures/0755_s.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
 }
 texture 756 {
-   pal 0 { file "highres/textures/0756.png" }
-   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.6 }
+   pal 0 { file "highres/textures/0756_d.png" }
+   normal { file "highres/textures/0756_n.png" parallaxbias 0.0 parallaxscale 0.015 }
+   specular { file "highres/textures/0756_s.png" }
+   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.6 }
 }
 texture 757 {
    pal 0 { file "highres/textures/0757.png" }
