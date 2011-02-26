@@ -1911,6 +1911,11 @@ texture 2915 {
 // Red Font 1.3D version (2929-2965)
 // Note that unlike the other fonts this changes the dimenions of the tiles
 // Works fine for menus, not tested in-game. Might need some tweaking.
+
+tilefromtexture 2929 { file "highres/screen/fonts/redfont13/2929_8b.png" alphacut "254" xoff "0" yoff "0" }
+texture 2929 {
+   pal 0 { file "highres/screen/fonts/redfont13/2929.png" }
+}
 tilefromtexture 2930 { file "highres/screen/fonts/redfont13/2930_8b.png" alphacut "254" xoff "0" yoff "0" }
 texture 2930 {
    pal 0 { file "highres/screen/fonts/redfont13/2930.png" }
