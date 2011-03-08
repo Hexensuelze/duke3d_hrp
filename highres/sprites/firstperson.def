@@ -127,11 +127,16 @@ model "highres/sprites/firstperson/2536_chaingun.md3" {
 
 // RPG (2544)
 model "highres/sprites/firstperson/2544_rpg.md3" {
-   scale 1.9
-   skin { pal 0 file "highres/sprites/firstperson/2544_rpg.png" }
-   frame { name "idle" tile 2544 }
-   hud { tile 2544 xadd 0.1 yadd 1.15 zadd -0.68 angadd -12 }
-   frame { name "idle" tile0 2545 tile1 2546 }
+   scale 4
+   skin { pal 0 surface 0 file "highres/sprites/firstperson/2544_rpg.png" }
+   normal { pal 0 surface 0 file "highres/sprites/firstperson/2544_rpg_n.png" }
+   specular { pal 0 surface 0 file "highres/sprites/firstperson/2544_rpg_s.png" }
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }
+   specular { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
+   frame { name "Frame0" tile 2544 }
+   hud { tile 2544 xadd 1 yadd 4 zadd -1 angadd 475 fov 250 }
+   frame { name "Frame0" tile0 2545 tile1 2546 }
 }
 
 // Freezer (2548)
