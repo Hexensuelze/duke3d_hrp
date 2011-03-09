@@ -137,6 +137,8 @@ model "highres/sprites/firstperson/2544_rpg.md3" {
    frame { name "Frame0" tile 2544 }
    hud { tile 2544 xadd 1 yadd 4 zadd -1 angadd 475 fov 250 }
    frame { name "Frame0" tile0 2545 tile1 2546 }
+   hud { tile 2545 hide }
+   hud { tile 2546 hide }
 }
 
 // Freezer (2548)
@@ -235,33 +237,11 @@ model "highres/sprites/firstperson/2566_tripbomb.md2" {
 // Key Card Hand (2568)
 model "highres/sprites/firstperson/2568_keycardhand.md3" {
    scale 1.9 shade 0
-   skin { pal 0  surface 0 file "highres/sprites/firstperson/2563_tripkeyhand.png" }
-   skin { pal 0  surface 1 file "highres/sprites/firstperson/2563_tripkeyhand.png" }
-   skin { pal 10 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_10.png" }
-   skin { pal 10 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_10.png" }
-   skin { pal 11 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_11_22.png" }
-   skin { pal 11 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_11_22.png" }
-   skin { pal 12 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_12_18.png" }
-   skin { pal 12 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_12_18.png" }
-   skin { pal 13 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_13.png" }
-   skin { pal 13 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_13.png" }
-   skin { pal 14 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_14.png" }
-   skin { pal 14 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_14.png" }
-   skin { pal 15 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_15.png" }
-   skin { pal 15 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_15.png" }
-   skin { pal 16 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_16.png" }
-   skin { pal 16 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_16.png" }
-   skin { pal 18 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_12_18.png" }
-   skin { pal 18 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_12_18.png" }
-   skin { pal 21 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_21.png" }
-   skin { pal 21 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_21.png" }
-   skin { pal 22 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_11_22.png" }
-   skin { pal 22 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_11_22.png" }
-   skin { pal 23 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_23.png" }
-   skin { pal 23 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_23.png" }
-   skin { pal 24 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand_24.png" }
-   skin { pal 24 surface 1 file "highres/sprites/firstperson/2563_tripkeyhand_24.png" }
-   frame { name "key" tile 2568 }
+   skin { pal 0 surface 0 file "highres/sprites/firstperson/2563_tripkeyhand.png" }
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }
+   specular { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
+   frame { name "Frame0" tile 2568 }
   // hud { tile 2568 xadd -0.25 yadd 0.24 zadd -0.1 angadd 0 }
    hud { tile 2568 xadd 0.25 yadd 0.24 zadd -0.1 angadd 0 flipped }
 }
