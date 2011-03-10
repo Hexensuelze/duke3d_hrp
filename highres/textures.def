@@ -432,9 +432,9 @@ texture 245 {
    detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
 }
 texture 246 {
-   pal 0 { file "highres/textures/0246_d.png" }
-   normal { file "highres/textures/0246_n.png" parallaxbias 0.01 parallaxscale 0.05 }
-   specular { file "highres/textures/0246_s.png" }
+   pal 0 { file "highres/textures/0246_d.png" xscale 2 yscale 1 specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/0246_n.png" parallaxbias 0.01 parallaxscale 0.05 xscale 2 yscale 1 }
+   specular { file "highres/textures/0246_s.png" xscale 2 yscale 1 }
    detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
 }
 texture 247 { pal 0 { file "highres/textures/0247.png" } }
@@ -443,12 +443,16 @@ texture 248 {
    detail { file "highres/detail/paint.png" xscale 0.6 yscale 0.15 }
 }
 texture 249 {
-   pal 0 { file "highres/textures/0249.png" }
-   detail { file "highres/detail/alien_paint_1.png" xscale 0.3 yscale 0.15 }
+   pal 0 { file "highres/textures/0249_d.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/0249_n.png" parallaxbias 0.0 parallaxscale 0.0 nocompress  }
+   specular { file "highres/textures/0249_s.png" }
+   detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.15 }
 }
 
 texture 250 {
-   pal 0 { file "highres/textures/0250.png" }
+   pal 0 { file "highres/textures/0250_d.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/0250_n.png" parallaxbias 0.0 parallaxscale 0.0 nocompress  }
+   specular { file "highres/textures/0250_s.png" }
    detail { file "highres/detail/alien_paint_0.png" xscale 0.3 yscale 0.15 }
 }
 texture 251 {
@@ -2574,7 +2578,7 @@ texture 1139 {
 }
 
 texture 1140 {
-   pal 0 { file "highres/textures/1140.png" specpower 20 specfactor 2 }
+   pal 0 { file "highres/textures/1140.png" specpower 20 specfactor 2.5 }
    normal { file "highres/textures/1140_n.png" parallaxbias 0.0 parallaxscale 0.07 }
    specular { file "highres/textures/1140_s.png" }
    detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
