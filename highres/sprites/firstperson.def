@@ -216,7 +216,7 @@ model "highres/sprites/firstperson/2558_crystal.md3" {
 // Trip Bomb Hand (2563)
 model "highres/sprites/firstperson/2563_tripbombhand.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/firstperson/2563_tripkeyhand.png" }
+   skin { pal 0 file "highres/sprites/firstperson/2563_tripkeyhand_10.png" }
    frame { name "trip" tile 2563 }
    anim { frame0 "release1" frame1 "release2" fps 15 flags 0 }
    frame { name "release1" tile0 2564 tile1 2565 }
@@ -243,7 +243,7 @@ model "highres/sprites/firstperson/2568_keycardhand.md3" {
    specular { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
    frame { name "Frame0" tile 2568 }
   // hud { tile 2568 xadd -0.25 yadd 0.24 zadd -0.1 angadd 0 }
-   hud { tile 2568 xadd 0.25 yadd 0.24 zadd -0.1 angadd 0 flipped }
+   hud { tile 2568 xadd 0.25 yadd 0.24 zadd -0.1 angadd 512 flipped }
 }
 
 // Trigger Hand (2570)
