@@ -2578,7 +2578,7 @@ texture 1139 {
 }
 
 texture 1140 {
-   pal 0 { file "highres/textures/1140.png" specpower 20 specfactor 2.5 }
+   pal 0 { file "highres/textures/1140_d.png" specpower 20 specfactor 2.5 }
    normal { file "highres/textures/1140_n.png" parallaxbias 0.0 parallaxscale 0.07 }
    specular { file "highres/textures/1140_s.png" }
    detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
@@ -4248,7 +4248,9 @@ texture 5108 {
    detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.15 }
 }
 texture 5109 {
-   pal 0 { file "highres/textures/5109.png" }
+   pal 0 { file "highres/textures/5109_d.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/1140_n.png" parallaxbias 0.0 parallaxscale 0.07 nocompress }
+   specular { file "highres/textures/1140_s.png" nocompress }
    detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
 }
 
