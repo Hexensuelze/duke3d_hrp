@@ -5,21 +5,23 @@
 // Fist (1640)
 model "highres/sprites/firstperson/1640_fist.md3" {
    scale 1.9
-   skin { pal 0  file "highres/sprites/firstperson/1640_fist.png" }
-   frame { name "fist" tile 1640 }
-   hud { tile 1640 xadd -0.2 yadd 1.50 zadd -0.4 }
-   hud { tile 1640 xadd 0.3 yadd 0.1 zadd -0.4 flipped }
+   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { pal 0 file "highres/sprites/firstperson/duke_hand_n.png" }
+   specular { pal 0 file "highres/sprites/firstperson/duke_hand_s.png" }
+   frame { name "frame_1" tile 1640 }
+   hud { tile 1640 xadd -0.2 yadd 1.50 zadd -0.4 fov 250 }
+   hud { tile 1640 xadd 0.3 yadd 0.1 zadd -0.4 flipped fov 250 }
 }
 
 // Crack Knuckles (2324)
 model "highres/sprites/firstperson/2324_crackknuckles.md3" {
    scale 1.75
-   skin { pal 0 file "highres/sprites/firstperson/2324_crackknuckles.png" }
-   frame { name "2324" tile 2324 }
-   frame { name "2325" tile 2325 }
-   frame { name "2326" tile 2326 }
-   frame { name "2327" tile 2327 }
-   hud { tile0 2324 tile1 2327 xadd 0.1 yadd 0.7 zadd -0.25 flipped }
+   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { pal 0 file "highres/sprites/firstperson/duke_hand_n.png" }
+   specular { pal 0 file "highres/sprites/firstperson/duke_hand_s.png" }
+   anim { frame0 "frame_1" frame1 "frame_28" fps 30 flags 0 }
+   frame { name "frame_1" tile0 2324 tile1 2327 }
+   hud { tile0 2324 tile1 2327 xadd 0.1 yadd 0.5 zadd 0.35 flipped fov 250 }
 }
 
 // Slimecrunch (2375)
@@ -134,9 +136,9 @@ model "highres/sprites/firstperson/2544_rpg.md3" {
    skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
    normal { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }
    specular { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
-   frame { name "Frame0" tile 2544 }
-   hud { tile 2544 xadd 1 yadd 4 zadd -1 angadd 475 fov 250 }
-   frame { name "Frame0" tile0 2545 tile1 2546 }
+   frame { name "frame_1" tile 2544 }
+   hud { tile 2544 xadd 2 yadd 4 zadd -0.5 angadd -64 fov 250 }
+   frame { name "frame_1" tile0 2545 tile1 2546 }
    hud { tile 2545 hide }
    hud { tile 2546 hide }
 }
