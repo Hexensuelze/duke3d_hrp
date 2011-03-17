@@ -117,13 +117,18 @@ model "highres/sprites/firstperson/2532_cliphand.md3" {
 // Chaingun (2536)
 model "highres/sprites/firstperson/2536_chaingun.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/firstperson/2536_chaingun.png" }
-   frame { name "idle" tile 2537 }
-   skin { pal 0 file "highres/sprites/firstperson/2536_chaingun_f.png" }
-   frame { name "idle" tile0 2538 tile1 2540 }
+   skin { pal 0 surface 0 file "highres/sprites/firstperson/2536_chaingun.png" }
+   normal { pal 0 surface 0 file "highres/sprites/firstperson/2536_chaingun_n.png" }
+   specular { pal 0 surface 0 file "highres/sprites/firstperson/2536_chaingun_s.png" }
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
+   normal { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }
+   specular { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
+   frame { name "frame00" tile 2537 }
+   skin { pal 0 surface 0 file "highres/sprites/firstperson/2536_chaingun_f.png" }
+   frame { name "frame00" tile0 2538 tile1 2540 }
    hud { tile0 2537 tile1 2540 xadd -0.26 yadd 0.52 zadd -0.65 angadd -24 }
-   frame { name "idle" tile 2536 }
-   frame { name "idle" tile0 2541 tile1 2543 }
+   frame { name "frame00" tile 2536 }
+   frame { name "frame00" tile0 2541 tile1 2543 }
    hud { tile 2536 hide }
 }
 
