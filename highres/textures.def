@@ -177,8 +177,8 @@ texture 194 {
    detail { file "highres/detail/marble.png" xscale 0.7 yscale 0.3 }
 }
 texture 195 {
-   pal 0 { file "highres/textures/0195.png" }
-   normal { file "highres/textures/0195_n.png" parallaxbias 0.02 parallaxscale 0.1 }
+   pal 0 { file "highres/textures/0195.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/0195_n.png" parallaxbias 0.04 parallaxscale 0.06 }
    specular { file "highres/textures/0195_s.png" }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
@@ -4205,11 +4205,15 @@ texture 5090 {
    detail { file "highres/detail/alien.png" xscale 0.3 yscale 0.3 }
 }
 texture 5091 {
-   pal 0 { file "highres/textures/5091.png" }
+   pal 0 { file "highres/textures/5091_d.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/5091_n.png" parallaxbias 0.04 parallaxscale 0.06 }
+   specular { file "highres/textures/5091_s.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.3 }
 }
 texture 5092 {
-   pal 0 { file "highres/textures/5092.png" }
+   pal 0 { file "highres/textures/5092_d.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/5092_n.png" parallaxbias 0.04 parallaxscale 0.06 }
+   specular { file "highres/textures/5092_s.png" }
    detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.3 }
 }
 texture 5093 {
@@ -4226,11 +4230,15 @@ texture 5095 {
    detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
 }
 texture 5096 {
-   pal 0 { file "highres/textures/5096.png" }
-   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.3 }
+   pal 0 { file "highres/textures/5096_d.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/5091_n.png" parallaxbias 0.04 parallaxscale 0.06 }
+   specular { file "highres/textures/5091_s.png" }
+   detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.3 }
 }
 texture 5097 {
-   pal 0 { file "highres/textures/5097.png" }
+   pal 0 { file "highres/textures/5097_d.png" specpower 20 specfactor 2.5 }
+   normal { file "highres/textures/5092_n.png" parallaxbias 0.04 parallaxscale 0.06 }
+   specular { file "highres/textures/5092_s.png" }
    detail { file "highres/detail/alien.png" xscale 0.15 yscale 0.3 }
 }
 texture 5098 {
