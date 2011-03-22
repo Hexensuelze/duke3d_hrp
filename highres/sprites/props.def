@@ -113,8 +113,9 @@ model "highres/sprites/props/0538_slimepipe.md3" {
 // globe (542)
 model "highres/sprites/props/0542_globe.md3" {
    scale 0.6 shade 1
-   skin { pal 0 file "highres/sprites/props/0542_globe.png" }
-   frame { name "(ZStudios)" tile0 542 tile1 542 }
+   skin { pal 0 surface 0 file "highres/sprites/props/0542_globe.png" }
+   skin { pal 0 surface 1 file "highres/sprites/props/0542_globe.png" }
+   frame { name "frame_1" tile 542 }
 }
 
 // Wallspeaker (543)
