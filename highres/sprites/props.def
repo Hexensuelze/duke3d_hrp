@@ -725,7 +725,7 @@ model "highres/sprites/props/0950_brokenhydrent.md3" {
 model "highres/sprites/props/0951_box.md3" {
    scale 1.5 shade 0
    skin { pal 0 file "highres/sprites/props/0951_box.png" }
-   frame { name "idle" tile 951 }
+   frame { name "frame00" tile 951 }
 }
 
 // Bottle1 (954)
@@ -1228,36 +1228,38 @@ model "highres/sprites/props/1225_barbroke.md3" {
 
 // Barrels 
 
-model "highres/sprites/props/1227_nukebarrel.md2" {
+model "highres/sprites/props/1227_nukebarrel.md3" {
    scale 1.8 shade 8
 
       // NukeBarrel (1227)
       detail { file "highres/detail/rust.png" detailscale 0.5 }
       skin { pal 0 file "highres/sprites/props/1227_nukebarrel.png" }
-      frame { name "Frame 1" tile 1227 }
-      frame { name "Frame 2" tile 1228 }
-      frame { name "Frame 3" tile 1229 }
+      frame { name "frame00" tile 1227 }
+      frame { name "frame01" tile 1228 }
+      frame { name "frame01" tile 1229 }
+      frame { name "frame03" tile 1230 }      
+      frame { name "frame04" tile 1231 }
  
       // ExplodingBarrel (1238)
       detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
       skin { pal 0 file "highres/sprites/props/1238_explodingbarrel.jpg" }
-      frame { name "Frame 1" tile 1238 }
-      frame { name "Frame 2" tile 1239 }
+      frame { name "frame00" tile 1238 }
+      frame { name "frame01" tile 1239 }
 
       // OilBarrel (4580)
       detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
       skin { pal 0 file "highres/sprites/props/4580_oilbarrel.jpg" }
-      frame { name "Frame 1" tile 4580 }
+      frame { name "frame00" tile 4580 }
       
       // WhiteBarrel (4581)  
       detail { file "highres/detail/metal_worn.png" detailscale 0.3 } 
       skin { pal 0 file "highres/sprites/props/4581_whitebarrel.jpg" }
-      frame { name "Frame 1" tile 4581 }
+      frame { name "frame00" tile 4581 }
       
       // ToxicBarrel (4582)
       detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
       skin { pal 0 file "highres/sprites/props/4582_toxicbarrel.jpg" }
-      frame { name "Frame 1" tile 4582 }
+      frame { name "frame00" tile 4582 }
 } 
 
 
@@ -1271,7 +1273,7 @@ model "highres/sprites/props/1232_canwithsomething.md2" {
 }
 
 // Money (1233)
-model "highres/sprites/props/1233_money.md2" {
+model "highres/sprites/props/1233_money.md3" {
    scale 8 shade 4
    skin { pal 0 file "highres/sprites/props/1233_money.png" }
    frame { name "Frame02" tile0 1233 tile1 1235 }
@@ -1599,10 +1601,10 @@ model "highres/sprites/props/4406_boatwheel.md3" {
 }
 
 // Letter (4410)
-model "highres/sprites/props/4410_letter.md2" {
+model "highres/sprites/props/4410_letter.md3" {
    scale 8 shade 4
    skin { pal 0 file "highres/sprites/props/4410_letter.png" }
-   frame { name "Frame02" tile0 4410 tile1 4412 }
+   frame { name "frame00" tile0 4410 tile1 4412 }
 }
 
 // Mailbag (4413)
@@ -1743,7 +1745,7 @@ model "highres/sprites/props/4459_gumballmachine_broken.md3" {
 }
 
 // Certificate (4460)
-model "highres/sprites/props/4460_cert.md2" {
+model "highres/sprites/props/4460_cert.md3" {
    scale 11 shade 4
    skin { pal 0 file "highres/sprites/props/4460_cert.png" nocompress }
    frame { name "Frame02" tile0 4460 tile1 4462 }
