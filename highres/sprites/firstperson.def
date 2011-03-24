@@ -25,13 +25,13 @@ model "highres/sprites/firstperson/2324_crackknuckles.md3" {
 }
 
 // Slimecrunch (2375)
-model "highres/sprites/firstperson/2375_slimecrunch.md2" {
+model "highres/sprites/firstperson/2375_slimecrunch.md3" {
    scale 3.5
    skin { pal 0 file "highres/sprites/firstperson/2375_slimer.png" }
-   // anim { frame0 "frame01" frame1 "frame03" fps 3 flags 0 }
-   frame { name "frame01" tile 2375 }
-   frame { name "frame02" tile 2376 }
-   frame { name "frame03" tile 2377 }
+   // anim { frame0 "frame00" frame1 "frame02" fps 3 flags 0 }
+   frame { name "frame00" tile 2375 }
+   frame { name "frame01" tile 2376 }
+   frame { name "frame02" tile 2377 }
    hud { tile 2375 yadd 0.14 zadd 1.16 angadd 1024 }
    hud { tile 2376 yadd 0.14 zadd 1.16 angadd 1024 }
    hud { tile 2377 yadd 0.14 zadd 1.16 angadd 1024 }
@@ -251,12 +251,11 @@ model "highres/sprites/firstperson/2563_tripbombhand.md3" {
 }
 
 // Tripbomb (2566)
-model "highres/sprites/firstperson/2566_tripbomb.md2" {
+model "highres/sprites/firstperson/2566_tripbomb.md3" {
    scale 6.5
    skin { pal 0 file "highres/sprites/firstperson/2566_tripbomb.png" }
    glow { file "highres/sprites/firstperson/2566_tripbomb_g.png" }
-   anim { frame0 "frame1" frame1 "frame1" fps 1 flags 0 }
-   frame { name "frame1" tile 2566 }
+   frame { name "frame00" tile 2566 }
    hud { tile 2566 yadd 0.14 zadd 1.46 angadd 1024 }
 }
 

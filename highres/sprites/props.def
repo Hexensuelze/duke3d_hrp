@@ -10,15 +10,15 @@ model "highres/sprites/props/0058_spacesuit.md3" {
 }
 
 // Door Shock (160)
-model "highres/sprites/props/0160_doorshock.md2" {
+model "highres/sprites/props/0160_doorshock.md3" {
    scale 5 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0160_doorshock.png" }
-   frame { name "idle" tile 160 }
+   frame { name "frame00" tile 160 }
 }
 
 // Fan Sprite (407)
-model "highres/sprites/props/0407_fansprite.md2" {
+model "highres/sprites/props/0407_fansprite.md3" {
    scale 1.56 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0407_fansprite.png" }
@@ -27,11 +27,11 @@ model "highres/sprites/props/0407_fansprite.md2" {
 }
 
 // Fan Sprite Broke (411)
-model "highres/sprites/props/0411_fanspritebroke.md2" {
+model "highres/sprites/props/0411_fanspritebroke.md3" {
    scale 1.56 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0407_fansprite.png" }
-   frame { name "idle" tile 411 }
+   frame { name "frame00" tile 411 }
 }
 
 texture 418 { 
@@ -48,10 +48,10 @@ model "highres/sprites/props/0479_radardish.md3" {
 }
 
 // Observatory (480)
-model "highres/sprites/props/0480_observatory.md2" {
+model "highres/sprites/props/0480_observatory.md3" {
    scale 3.5 shade 2
    skin { pal 0 file "highres/sprites/props/0480_observatory.png" }
-   frame { name "Frame 1" tile 480 }
+   frame { name "frame00" tile 480 }
 }
 
 // Space Shuttle (487)
@@ -87,19 +87,19 @@ model "highres/sprites/props/0517_fuelpod.md3" {
 }
 
 // Tube (536)
-model "highres/sprites/props/0536_tube.md2" {
+model "highres/sprites/props/0536_tube.md3" {
    scale 1.9 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0536_tube.jpg" }
-   frame { name "idle" tile 536 }
+   frame { name "frame00" tile 536 }
 }
 
 // Tube (537)
-model "highres/sprites/props/0537_tube.md2" {
+model "highres/sprites/props/0537_tube.md3" {
    scale 1.9 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0536_tube.jpg" }
-   frame { name "idle" tile 537 }
+   frame { name "frame00" tile 537 }
 }
 
 // Slimepipe (538)
@@ -152,19 +152,19 @@ model "highres/sprites/props/0555.md3" {
 }
 
 // Chair 1 (556)
-model "highres/sprites/props/0556_chair1.md2" {
+model "highres/sprites/props/0556_chair1.md3" {
    scale 2 shade 2
    detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props/0556_chair1.png" }
-   frame { name "kreslo" tile0 556 tile1 557 }
+   frame { name "frame00" tile0 556 tile1 557 }
 }
 
 // Broken Chair (559)
-model "highres/sprites/props/0559_brokenchair.md2" {
+model "highres/sprites/props/0559_brokenchair.md3" {
    scale 2 shade 2
    detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props/0556_chair1.png" }
-   frame { name "kreslo" tile 559 }
+   frame { name "frame00" tile 559 }
 }
 
 // Soap (561)
@@ -484,10 +484,10 @@ model "highres/sprites/props/0695_fryingpan.md3" {
 }
 
 // Pot 1 (697)
-model "highres/sprites/props/0697_pot1.md2" {
+model "highres/sprites/props/0697_pot1.md3" {
    scale 1 shade 0
    skin { pal 0 file "highres/sprites/props/0697_pot1.png" }
-   frame { name "frame01" tile 697 }
+   frame { name "frame00" tile 697 }
 }
 
 texture 698 { pal 0 { file "highres/sprites/props/0698.jpg" nocompress } }
@@ -498,18 +498,18 @@ texture 710 {
 }
 
 // Mike (762)
-model "highres/sprites/props/0762_mike.md2" {
+model "highres/sprites/props/0762_mike.md3" {
    scale 1.1 shade 2
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0762_mike.jpg" }
-   frame { name "la" tile 762 }
+   frame { name "frame00" tile 762 }
 }
 
 // Vase (765)
-model "highres/sprites/props/0765_vase.md2" {
+model "highres/sprites/props/0765_vase.md3" {
    scale 1.7 shade 0
    skin { pal 0 file "highres/sprites/props/0765_vase.png" }
-   frame { name "idle1" tile 765 }
+   frame { name "frame00" tile 765 }
 }
 
 // Sushiplate1: cooked head (768)
@@ -557,7 +557,7 @@ model "highres/sprites/props/0851_jib.md3" {
 }
 
 // Stripe Ball (901)
-model "highres/sprites/props/poolballs/0901_stripeball.md2" {
+model "highres/sprites/props/poolballs/0901_stripeball.md3" {
    scale 1 shade 8
    skin { pal 0 file "highres/sprites/props/poolballs/0901_stripeball.png" }
    skin { pal 13 file "highres/sprites/props/poolballs/0901_stripeball_13.png" }
@@ -565,12 +565,11 @@ model "highres/sprites/props/poolballs/0901_stripeball.md2" {
    skin { pal 16 file "highres/sprites/props/poolballs/0901_stripeball_16.png" }
    skin { pal 21 file "highres/sprites/props/poolballs/0901_stripeball_21.png" }
    skin { pal 23 file "highres/sprites/props/poolballs/0901_stripeball_23.png" }
-   anim { frame0 "idle01" frame1 "idle01" fps 1 flags 0 }
-   frame { name "idle01" tile 901 }
+   frame { name "frame00" tile 901 }
 }
 
 // Que Ball (902)
-model "highres/sprites/props/poolballs/0901_stripeball.md2" {
+model "highres/sprites/props/poolballs/0901_stripeball.md3" {
    scale 1 shade 8
    skin { pal 0 file "highres/sprites/props/poolballs/0902_queball.png" }
    skin { pal 10 file "highres/sprites/props/poolballs/0902_queball_10.png" }
@@ -580,15 +579,15 @@ model "highres/sprites/props/poolballs/0901_stripeball.md2" {
    skin { pal 16 file "highres/sprites/props/poolballs/0902_queball_16.png" }
    skin { pal 21 file "highres/sprites/props/poolballs/0902_queball_21.png" }
    skin { pal 23 file "highres/sprites/props/poolballs/0902_queball_23.png" }
-   frame { name "idle01" tile 902 }
+   frame { name "frame00" tile 902 }
 }
 
 // Wooden Horse (904)
-model "highres/sprites/props/0904_woodenhorse.md2" {
+model "highres/sprites/props/0904_woodenhorse.md3" {
    scale 4 shade 16
    detail { file "highres/detail/wood_v3.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0904_woodenhorse.png" }
-   frame { name "FRAME01" tile0 904 tile1 907 }
+   frame { name "frame00" tile0 904 tile1 907 }
 }
 
 // Tree (908)
@@ -820,10 +819,10 @@ model "highres/sprites/props/0977_genericpole.md3" {
 }
 
 // Cone (978)
-model "highres/sprites/props/0978_cone.md2" {
+model "highres/sprites/props/0978_cone.md3" {
    scale 0.6 shade 0
    skin { pal 0 file "highres/sprites/props/0978_cone.png" }
-   frame { name "frame01" tile 978 }
+   frame { name "frame00" tile 978 }
 }
 
 // Hang Light (979)
@@ -844,10 +843,10 @@ model "highres/sprites/props/0981_hydrent.md3" {
 }
 
 // Tire (990)
-model "highres/sprites/props/0990_tire.md2" {
+model "highres/sprites/props/0990_tire.md3" {
    scale 0.7 shade 0
    skin { pal 0 file "highres/sprites/props/0990_tire.png" }
-   frame { name "frame01" tile 990 }
+   frame { name "frame00" tile 990 }
 }
 
 // Shower headpiece (991)
@@ -901,10 +900,10 @@ model "highres/sprites/props/0998_meter.md3" {
 }
 
 // Bar stool (1006)
-model "highres/sprites/props/1006_barstol.md2" {
+model "highres/sprites/props/1006_barstol.md3" {
    scale 4.0 shade 2
    skin { pal 0 file "highres/sprites/props/1006_barstol.png" }
-   frame { name "FRAME01" tile 1006 }
+   frame { name "frame00" tile 1006 }
 }
 
 // Bottle5 (1012)
@@ -939,11 +938,11 @@ model "highres/sprites/props/1025_plant.md3" {
 }
 
 // Horse On Side (1026)
-model "highres/sprites/props/1026_horseonside.md2" {
+model "highres/sprites/props/0904_woodenhorse.md3" {
    scale 4 shade 16
    detail { file "highres/detail/wood_h3.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0904_woodenhorse.png" }
-   frame { name "FRAME01" tile0 1026 tile1 1030 }
+   frame { name "frame01" tile0 1026 tile1 1030 }
 }
 
 // Horselite (1034)
@@ -954,10 +953,10 @@ model "highres/sprites/props/1034_horselite.md3" {
 }
 
 // Round Table (1037)
-model "highres/sprites/props/1037_rtable.md2" {
+model "highres/sprites/props/1037_rtable.md3" {
    scale 1.4 shade 2
    skin { pal 0 file "highres/sprites/props/1037_rtable.png" }
-   frame { name "stand01" tile0 1037 tile1 1037 }
+   frame { name "frame00" tile0 1037 tile1 1037 }
 }
 
 // Pipe (1038)
@@ -1023,11 +1022,11 @@ model "highres/sprites/props/1053_toiletpaper.md3" {
 }
 
 // Cineline (1055)
-model "highres/sprites/props/1055_cineline.md2" {
+model "highres/sprites/props/1055_cineline.md3" {
    scale 22 shade 6
    skin { pal 0 file "highres/sprites/props/1055_cineline.png" }
-   anim { frame0 "cineline01" frame1 "cineline20" fps 65 flags 0 }
-   frame { name "cineline01" tile0 1055 tile1 1056 }
+   anim { frame0 "cineline00" frame1 "cineline19" fps 65 flags 0 }
+   frame { name "cineline00" tile0 1055 tile1 1056 }
 }
 
 // Black Clock (1060)
@@ -1264,12 +1263,12 @@ model "highres/sprites/props/1227_nukebarrel.md3" {
 
 
 // Can With Something (1232)
-model "highres/sprites/props/1232_canwithsomething.md2" {
+model "highres/sprites/props/1232_canwithsomething.md3" {
   scale 18 shade 8
   detail { file "highres/detail/metal.png" detailscale 0.15 }
   skin { pal 0 file "highres/sprites/props/1232_canwithsomething.png" }
-  anim { frame0 "trc01" frame1 "trc04" fps 2 flags 0 }
-  frame { name "trc01" tile 1232 }
+  anim { frame0 "trc00" frame1 "trc03" fps 2 flags 0 }
+  frame { name "trc00" tile 1232 }
 }
 
 // Money (1233)
@@ -1393,26 +1392,25 @@ model "highres/sprites/props/1810_cannon.md3" {
 }
 
 // Cannon ball (1817)
-model "highres/sprites/props/poolballs/0901_stripeball.md2" {
+model "highres/sprites/props/poolballs/0901_stripeball.md3" {
    scale 2.5 shade 8 zadd -6
    skin { pal 0 file "highres/sprites/props/1817_cannonball.png" }
-   anim { frame0 "idle01" frame1 "idle01" fps 1 flags 0 }
-   frame { name "idle01" tile 1817 }
+   frame { name "frame00" tile 1817 }
 }
 
 // Cannonball pile (1818)
-model "highres/sprites/props/1818_cannonballpile.md2" {
+model "highres/sprites/props/1818_cannonballpile.md3" {
    scale 2.5 shade 0
    skin { pal 0 file "highres/sprites/props/1817_cannonball.png" }
    detail { file "highres/detail/metal_worn.png" detailscale 1.2 }
-   frame { name "idle01" tile 1818 }
+   frame { name "frame00" tile 1818 }
 }
 
 // Feces (2200)
-model "highres/sprites/props/2200_feces.md2" {
+model "highres/sprites/props/2200_feces.md3" {
    scale 1 shade 0
    skin { pal 0 file "highres/sprites/props/2200_feces.png" }
-   frame { name "frame02" tile 2200 }
+   frame { name "frame00" tile 2200 }
 }
 
 // Skull (2453)

@@ -49,21 +49,20 @@ model "highres/sprites/pickups/0025_shrinker.md3" {
 }
 
 // Pipe Bomb (26)
-model "highres/sprites/pickups/0026_pipebomb.md2" {
+model "highres/sprites/pickups/0026_pipebomb.md3" {
    scale 20 shade 2
    skin { pal 0 file "highres/sprites/pickups/0047_pipebombbox.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "sf_hbomb01" tile 26 }
+   frame { name "frame00" tile 26 }
 }
 
 // Trip Bomb (27)
-model "highres/sprites/pickups/0027_tripbomb.md2" { 
+model "highres/sprites/pickups/0027_tripbomb.md3" { 
    scale 1.4 shade 0
    skin { pal 0 file "highres/sprites/firstperson/2566_tripbomb.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    glow { pal 0 file "highres/sprites/firstperson/2566_tripbomb_g.png" }
-   anim { frame0 "frame1" frame1 "frame1" fps 1 flags 0 }
-   frame { name "frame1" tile 27 }
+   frame { name "frame00" tile 27 }
 }
 
 // Shotgun (28)
@@ -126,27 +125,27 @@ model "highres/sprites/pickups/0040_pistolammo.md3" {
 }
 
 // Chaingun Ammo (41)
-model "highres/sprites/pickups/0041_chaingunammo.md2" {
+model "highres/sprites/pickups/0041_chaingunammo.md3" {
    scale 4 shade 2
    skin { pal 0 file "highres/sprites/pickups/0041_chanigunammo.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "sf_bammo01" tile 41 }
+   frame { name "frame00" tile 41 }
 }
 
 // Devastator Ammo (42)
-model "highres/sprites/pickups/0042_devistatorammo.md2" {
+model "highres/sprites/pickups/0042_devistatorammo.md3" {
    scale 4 shade 2
    skin { pal 0 file "highres/sprites/pickups/0042_devistatorammo.png" nocompress }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "sf_devammo01" tile 42 }
+   frame { name "frame00" tile 42 }
 }
 
 // RPG ammo (44)
-model "highres/sprites/pickups/0044_rpgammo.md2" {
+model "highres/sprites/pickups/0044_rpgammo.md3" {
    scale 5 shade 2
    skin { pal 0 file "highres/sprites/pickups/0044_rpgammo.png" nocompress }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "sf_rpgammo01" tile 44 }
+   frame { name "frame00" tile 44 }
 }
 
 // Expander Ammo (45)
@@ -167,11 +166,11 @@ model "highres/sprites/pickups/0046_crystal.md3" {
 }
 
 // Pipe Bomb Box (47)
-model "highres/sprites/pickups/0047_pipebombbox.md2" {
+model "highres/sprites/pickups/0047_pipebombbox.md3" {
    scale 5 shade 2
    skin { pal 0 file "highres/sprites/pickups/0047_pipebombbox.png" nocompress }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "sf_hpbammo01" tile 47 }
+   frame { name "frame00" tile 47 }
 }
 
 // Shotgun Ammo (49)
@@ -208,11 +207,11 @@ model "highres/sprites/pickups/0053_firstaid.md3" {
 }
 
 // Armor (54)
-model "highres/sprites/pickups/0054_armor.md2" {
+model "highres/sprites/pickups/0054_armor.md3" {
    scale 2 shade 2
    skin { pal 0 file "highres/sprites/pickups/0054_armor.png" }
    detail { file "highres/detail/fabric.png" detailscale 0.15 }
-   frame { name "frame1" tile 54 }
+   frame { name "frame00" tile 54 }
 }
 
 // Steroids (55)
@@ -223,10 +222,10 @@ model "highres/sprites/pickups/0055_steroids.md3" {
 }
 
 // Scuba Gear (56)
-model "highres/sprites/pickups/0056_scubagear.md2" {
+model "highres/sprites/pickups/0056_scubagear.md3" {
    scale 1 shade 4
    skin { pal 0 file "highres/sprites/pickups/0056_scubagear.jpg" }
-   frame { name "frame01" tile 56 }
+   frame { name "frame00" tile 56 }
 }
 
 // Jetpack (57)
@@ -238,16 +237,16 @@ model "highres/sprites/pickups/0057_jetpack.md3" {
 }
 
 // Nightvision Goggles (59)
-model "highres/sprites/pickups/0059_nightvison.md2" {
+model "highres/sprites/pickups/0059_nightvison.md3" {
    scale 0.9 shade 0
    skin { pal 0 file "highres/sprites/pickups/0059_nightvison.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    glow { file "highres/sprites/pickups/0059_nightvison_g.png" }
-   frame { name "frame01" tile 59 }
+   frame { name "frame00" tile 59 }
 }
 
 // Key Card (60)
-model "highres/sprites/pickups/0060_keycard.md2" {
+model "highres/sprites/pickups/0060_keycard.md3" {
    scale 2 shade 0
    skin { pal 0 file "highres/sprites/pickups/0060_keycard.png" nocompress }
    skin { pal 10 file "highres/sprites/pickups/0060_keycard_10.png" nocompress }
@@ -262,14 +261,14 @@ model "highres/sprites/pickups/0060_keycard.md2" {
    skin { pal 22 file "highres/sprites/pickups/0060_keycard_11_22.png" nocompress }
    skin { pal 23 file "highres/sprites/pickups/0060_keycard_23.png" nocompress }
    skin { pal 24 file "highres/sprites/pickups/0060_keycard_24.png" nocompress }
-   frame { name "idle01" tile 60 }
+   frame { name "frame00" tile 60 }
 }
 
 // Protective Boots (61)
-model "highres/sprites/pickups/0061_boots.md2" {
+model "highres/sprites/pickups/0061_boots.md3" {
    scale 1.5 shade 2
    skin { pal 0 file "highres/sprites/pickups/0061_boots.png" }
-   frame { name "FRAME01" tile 61 }
+   frame { name "frame00" tile 61 }
 }
 
 // Atomic Health (100)

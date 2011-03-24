@@ -258,14 +258,14 @@ texture 1210 { pal 0 { file "highres/sprites/signs/1210.png" } }
 texture 1211 { pal 0 { file "highres/sprites/signs/1211.png" } }
 
 // Guilty Sign (1210), "Innocent" sign (1211), "Crap" sign (4891) models
-model "highres/sprites/signs/1210p_guilty.md2" {
+model "highres/sprites/signs/1210_guilty.md3" {
    shade 0
    skin { pal 0 file "highres/sprites/signs/1210_guilty.png" }
-   frame { name "frame01" tile 1210 }
+   frame { name "frame00" tile 1210 }
    skin { pal 0 file "highres/sprites/signs/1211_innocent.png" }
-   frame { name "frame01" tile 1211 }
+   frame { name "frame00" tile 1211 }
    skin { pal 0 file "highres/sprites/signs/4891_crap.jpg" }
-   frame { name "frame01" tile 4891 }
+   frame { name "frame00" tile 4891 }
 }
 
 texture 1244 { pal 0 { file "highres/sprites/signs/1244.jpg" } }
@@ -444,10 +444,10 @@ texture 4494 {
 }
 
 // Slippery When Wet (4495)
-model "highres/sprites/signs/4495_slipsign.md2" {
+model "highres/sprites/signs/4495_slipsign.md3" {
    scale 1.5 shade 0
    skin { pal 0 file "highres/sprites/signs/4495_slipsign.png" }
-   frame { name "idle01" tile 4495 }
+   frame { name "frame00" tile 4495 }
 }
 
 texture 4498 { pal 0 { file "highres/sprites/signs/4498.jpg" } }

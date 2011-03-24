@@ -77,11 +77,11 @@ texture 2451 {
 }
 
 // Rocket (2605)
-model "highres/sprites/projectiles/2605_rocket.md2" {
+model "highres/sprites/projectiles/2605_rocket.md3" {
    scale 0.5 shade 0
    skin { pal 0 file "highres/sprites/projectiles/2605_rocket.png" }
-   anim { frame0 "idle1" frame1 "idle2" fps 22 flags 0 }
-   frame { name "idle1" tile0 2605 tile1 2611 }
+   anim { frame0 "frame00" frame1 "frame01" fps 22 flags 0 }
+   frame { name "frame00" tile0 2605 tile1 2611 }
 }
 
 // Shell Casings (2533-2535)

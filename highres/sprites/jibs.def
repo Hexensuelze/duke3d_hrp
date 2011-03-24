@@ -49,7 +49,7 @@ model "highres/sprites/jibs/1536_dukeleg.md3" {
 }
 
 // Trooper Head Jib (1768)
-model "highres/sprites/jibs/1768_trooperhead.md2" {
+model "highres/sprites/jibs/1768_trooperhead.md3" {
    scale 2.7 shade 2
    skin { pal 0 file "highres/sprites/jibs/1680_trooper_bloodyparts_0.png" }
    skin { pal 10 file "highres/sprites/jibs/1680_trooper_bloodyparts_10.png" }
@@ -67,11 +67,11 @@ model "highres/sprites/jibs/1768_trooperhead.md2" {
    skin { pal 22 file "highres/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
    skin { pal 23 file "highres/sprites/jibs/1680_trooper_bloodyparts_23.png" }
    skin { pal 24 file "highres/sprites/jibs/1680_trooper_bloodyparts_24.png" }
-   frame { name "idle" tile0 1768 tile1 1771 }
+   frame { name "frame00" tile0 1768 tile1 1771 }
 }
 
 // Trooper Arm Jib (1772)
-model "highres/sprites/jibs/1772_trooperarm.md2" {
+model "highres/sprites/jibs/1772_trooperarm.md3" {
    scale 2.7 shade 2
    skin { pal 0 file "highres/sprites/jibs/1680_trooper_bloodyparts_0.png" }
    skin { pal 10 file "highres/sprites/jibs/1680_trooper_bloodyparts_10.png" }
@@ -89,11 +89,11 @@ model "highres/sprites/jibs/1772_trooperarm.md2" {
    skin { pal 22 file "highres/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
    skin { pal 23 file "highres/sprites/jibs/1680_trooper_bloodyparts_23.png" }
    skin { pal 24 file "highres/sprites/jibs/1680_trooper_bloodyparts_24.png" }
-   frame { name "idle" tile0 1772 tile1 1775 }
+   frame { name "frame00" tile0 1772 tile1 1775 }
 }
 
 // Trooper Leg Jib (1776)
-model "highres/sprites/jibs/1776_trooperleg.md2" {
+model "highres/sprites/jibs/1776_trooperleg.md3" {
    scale 2.7 shade 2
    skin { pal 0 file "highres/sprites/jibs/1680_trooper_bloodyparts_0.png" }
    skin { pal 10 file "highres/sprites/jibs/1680_trooper_bloodyparts_10.png" }
@@ -111,7 +111,7 @@ model "highres/sprites/jibs/1776_trooperleg.md2" {
    skin { pal 22 file "highres/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
    skin { pal 23 file "highres/sprites/jibs/1680_trooper_bloodyparts_23.png" }
    skin { pal 24 file "highres/sprites/jibs/1680_trooper_bloodyparts_24.png" }
-   frame { name "idle" tile0 1776 tile1 1779 }
+   frame { name "frame00" tile0 1776 tile1 1779 }
 }
 
 // Enforcer Head Jib (2201)
@@ -181,12 +181,12 @@ model "highres/sprites/jibs/2254_eye.md3" {
 }
 
 // Heart (2255)
-model "highres/sprites/jibs/2255_heart.md2" {
+model "highres/sprites/jibs/2255_heart.md3" {
    scale 0.4 shade 0
    skin { pal 0 file "highres/sprites/jibs/2255_heart.jpg" }
    anim { frame0 "fly00" frame1 "fly08" fps 35 flags 0 }
    frame { name "fly00" tile0 2255 tile1 2258 }
-   frame { name "idle" tile0 2259 tile1 2259 }
+   frame { name "idle00" tile0 2259 tile1 2259 }
 }
 
 // Jibs4 (2260-2263)

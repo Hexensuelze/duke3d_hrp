@@ -34,12 +34,12 @@ model "highres/sprites/monsters/0679_battlelordholo.md3" {
 
 
 // Shark (1550)
-model "highres/sprites/monsters/1550_shark.md2" {
+model "highres/sprites/monsters/1550_shark.md3" {
    scale 10 shade 4
    skin { pal 0 file "highres/sprites/monsters/1550_shark.png" }
    glow { file "highres/sprites/monsters/1550_shark_g.png" }
-   anim { frame0 "sf_shark01" frame1 "sf_shark40" fps 15 flags 0 }
-   frame { name "sf_shark01" tile0 1550 tile1 1589 }
+   anim { frame0 "sf_shark00" frame1 "sf_shark39" fps 15 flags 0 }
+   frame { name "sf_shark00" tile0 1550 tile1 1589 }
 }
 
 
@@ -145,22 +145,22 @@ model "highres/sprites/monsters/1880_drone.md3" {
 
 
 // Assault Commander (1915)
-model "highres/sprites/monsters/1915_commander.md2" {
+model "highres/sprites/monsters/1915_commander.md3" {
    scale 1 shade 0 
    skin { pal 0 file "highres/sprites/monsters/1915_commander.png" }
    glow { file "highres/sprites/monsters/1915_commander_g.png" }
-   anim { frame0 "frame11" frame1 "frame11" fps 1 flags 0 }
-   frame { name "frame11" tile0 1915 tile1 1919 smoothduration 0.3 }
-   anim { frame0 "frame01" frame1 "frame09" fps 10 flags 0 }
-   frame { name "frame01" tile0 1920 tile1 1930 smoothduration 0.3 }
-   anim { frame0 "frame13" frame1 "frame13" fps 1 flags 0 }
-   frame { name "frame13" tile0 1935 tile1 1939 smoothduration 0.3 }
-   anim { frame0 "frame12" frame1 "frame12" fps 1 flags 0 }
-   frame { name "frame12" tile0 1940 tile1 1944 smoothduration 0.3 }
+   //anim { frame0 "frame10" frame1 "frame10" fps 1 flags 0 }
+   frame { name "frame10" tile0 1915 tile1 1919 smoothduration 0.3 }
+   anim { frame0 "frame00" frame1 "frame08" fps 10 flags 0 }
+   frame { name "frame00" tile0 1920 tile1 1930 smoothduration 0.3 }
+   //anim { frame0 "frame12" frame1 "frame12" fps 1 flags 0 }
+   frame { name "frame12" tile0 1935 tile1 1939 smoothduration 0.3 }
+   //anim { frame0 "frame11" frame1 "frame11" fps 1 flags 0 }
+   frame { name "frame11" tile0 1940 tile1 1944 smoothduration 0.3 }
 
    skin { pal 0 file "highres/sprites/monsters/1915_commander_dead.png" }
-   anim { frame0 "frame14" frame1 "frame17" fps 3 flags 1 }
-   frame { name "frame14" tile0 1950 tile1 1957 smoothduration 0.3 }
+   anim { frame0 "frame13" frame1 "frame16" fps 3 flags 1 }
+   frame { name "frame12" tile0 1950 tile1 1957 smoothduration 0.3 }
 }
 
 
@@ -178,15 +178,15 @@ model "highres/sprites/monsters/1960_reconcar.md3" {
 
 
 // Pig Tank (1975)
-model "highres/sprites/monsters/1975_pigtank.md2" {
+model "highres/sprites/monsters/1975_pigtank.md3" {
    scale 0.4 shade 0
    skin { pal 0 file "highres/sprites/monsters/1975_pigtank.png" }
    glow { file "highres/sprites/monsters/1975_pigtank_g.png" }
-   anim { frame0 "WALK1" frame1 "WALK2" fps 3 flags 0 }
-   frame { name "WALK1" tile0 1975 tile1 1981 smoothduration 0.3 }
+   anim { frame0 "WALK00" frame1 "WALK12" fps 3 flags 0 }
+   frame { name "WALK00" tile0 1975 tile1 1981 smoothduration 0.3 }
    skin { pal 0 file "highres/sprites/monsters/1975_pigtank2.png" }
-   anim { frame0 "FIRE1" frame1 "FIRE2" fps 25 flags 0 }
-   frame { name "FIRE1" tile0 1982 tile1 1991 smoothduration 0.3 }
+   anim { frame0 "FIRE00" frame1 "FIRE08" fps 25 flags 0 }
+   frame { name "FIRE00" tile0 1982 tile1 1991 smoothduration 0.3 }
 }
 
 
@@ -280,7 +280,7 @@ model "highres/sprites/monsters/2120_enforcer.md3" {
 
 
 // Gun Turret (2350)
-model "highres/sprites/monsters/2350_gunturret.md2" { 
+model "highres/sprites/monsters/2350_gunturret.md3" { 
    scale 12 shade 4
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/monsters/2350_gunturret.png" }
@@ -290,12 +290,12 @@ model "highres/sprites/monsters/2350_gunturret.md2" {
    skin { pal 24 file "highres/sprites/monsters/2350_gunturret_19_24.png" }
    skin { pal 25 file "highres/sprites/monsters/2350_gunturret_25.png" }
    glow { file "highres/sprites/monsters/2350_gunturret_g.png" }
-   anim { frame0 "idle01" frame1 "idle01" fps 1 flags 1 }
-   frame { name "idle01" tile0 2360 tile1 2364 }
-   anim { frame0 "sright01" frame1 "sright03" fps 6 flags 0 }
-   frame { name "sright01" tile0 2355 tile1 2359 }
-   anim { frame0 "sleft01" frame1 "sleft03" fps 6 flags 0 }
-   frame { name "sleft01" tile0 2350 tile1 2354 }
+   //anim { frame0 "idle01" frame1 "idle01" fps 1 flags 1 }
+   frame { name "idle00" tile0 2360 tile1 2364 }
+   anim { frame0 "sright00" frame1 "sright02" fps 6 flags 0 }
+   frame { name "sright00" tile0 2355 tile1 2359 }
+   anim { frame0 "sleft00" frame1 "sleft02" fps 6 flags 0 }
+   frame { name "sleft00" tile0 2350 tile1 2354 }
 }
 
 
