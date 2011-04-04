@@ -149,18 +149,15 @@ model "highres/sprites/monsters/1915_commander.md3" {
    scale 1 shade 0 
    skin { pal 0 file "highres/sprites/monsters/1915_commander.png" }
    glow { file "highres/sprites/monsters/1915_commander_g.png" }
-   //anim { frame0 "frame10" frame1 "frame10" fps 1 flags 0 }
    frame { name "frame10" tile0 1915 tile1 1919 smoothduration 0.3 }
    anim { frame0 "frame00" frame1 "frame08" fps 10 flags 0 }
    frame { name "frame00" tile0 1920 tile1 1930 smoothduration 0.3 }
-   //anim { frame0 "frame12" frame1 "frame12" fps 1 flags 0 }
    frame { name "frame12" tile0 1935 tile1 1939 smoothduration 0.3 }
-   //anim { frame0 "frame11" frame1 "frame11" fps 1 flags 0 }
    frame { name "frame11" tile0 1940 tile1 1944 smoothduration 0.3 }
 
    skin { pal 0 file "highres/sprites/monsters/1915_commander_dead.png" }
    anim { frame0 "frame13" frame1 "frame16" fps 3 flags 1 }
-   frame { name "frame12" tile0 1950 tile1 1957 smoothduration 0.3 }
+   frame { name "frame13" tile0 1950 tile1 1957 smoothduration 0.3 }
 }
 
 
