@@ -5,7 +5,7 @@
          |                                                                |                      
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.243 (Apr 15, 2011)                 |
+         |                 Version 4.2.244 (Apr 17, 2011)                 |
          ==================================================================
 
 
@@ -215,7 +215,7 @@ Message boards
 http://forums.duke4.net
 
 The texture and model projects can be found in the Duke Nukem 3D source board:
-http://forums.duke4.net/index.php?showforum=26
+http://forums.duke4.net/topic/779-duke3d-hrp-newupdated-art-assets-thread/
 
 
 ------------
@@ -413,7 +413,6 @@ HRP Assembly
 ------------
 NightFright
 Parkar
-Plagman
 
 
 -----------------
