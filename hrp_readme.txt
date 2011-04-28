@@ -5,7 +5,7 @@
          |                                                                |                      
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.247 (Apr 28, 2011)                 |
+         |                 Version 4.2.248 (Apr 28, 2011)                 |
          ==================================================================
 
 
@@ -352,6 +352,7 @@ GodBlitZor
 gt1750
 Hellbound
 ilovefoxes
+Jean Gorospe
 Jokke_r
 Killd a ton
 Kralex

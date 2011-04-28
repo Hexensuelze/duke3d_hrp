@@ -361,25 +361,45 @@ model "highres/sprites/monsters/2710_cycloid.md3" {
 }
 
 
-// Moon Overlord (2760)
+// Lunar Overlord (2760)
 model "highres/sprites/monsters/2760_overlord.md3" {
-  scale 66 shade 2
-  skin { pal 0 surface 0 file "highres/sprites/monsters/2630_muzzle.png" }
-  glow { surface 0 file "highres/sprites/monsters/2630_muzzle.png" }
-  skin { pal 0 surface 1 file "highres/sprites/monsters/2630_muzzle.png" } 
-  glow { surface 1 file "highres/sprites/monsters/2630_muzzle.png" }
-  skin { pal 0 surface 2 file "highres/sprites/monsters/2760_overlord.png" }
-  glow { surface 2 file "highres/sprites/monsters/2760_overlord_glow.png" }
-  anim { frame0 "FRAME1" frame1 "FRAME20" fps 22 flags 0 }   // walk
-  anim { frame0 "FRAME22" frame1 "FRAME29" fps 10 flags 0 }  // ready
-  anim { frame0 "FRAME30" frame1 "FRAME32" fps 10 flags 0 }  // shoot
-  frame { name "FRAME1" tile0 2760 tile1 2779 smoothduration 0.2 }
-  frame { name "FRAME22" tile0 2780 tile1 2789 smoothduration 0.3 }
-  frame { name "FRAME30" tile0 2790 tile1 2799 smoothduration 0.2 }
-  // Death
-  skin { pal 0 surface 2 file "highres/sprites/monsters/2760_overlord_pain.png" }
-  anim { frame0 "FRAME35" frame1 "FRAME57" fps 12 flags 1 }
-  frame { name "FRAME35" tile0 2800 tile1 2809 smoothduration 0.3 }
+  scale 45 shade 2
+
+  skin { pal 0 surface 0 file "highres/sprites/monsters/2760_rocket.png" }
+  glow { surface 0 file "highres/sprites/monsters/2760_rocket.png" }
+
+  skin { pal 0 surface 1 file "highres/sprites/monsters/2760_overlord_tech_d.png" specpower 2 specfactor 2 } 
+  specular { file "highres/sprites/monsters/2760_overlord_bio_d_s.png" }
+  normal { file "highres/sprites/monsters/2760_overlord_tech_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+
+  skin { pal 0 surface 2 file "highres/sprites/monsters/2760_overlord_bio_d.png" specpower 2 specfactor 2 }
+  specular { file "highres/sprites/monsters/2760_overlord_bio_s.png" }
+  normal { file "highres/sprites/monsters/2760_overlord_bio_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+  glow { surface 2 file "highres/sprites/monsters/2760_overlord_bio_g.png" }
+
+  // CORNFEDSPACEFROGWALKING
+  anim { frame0 "frame_1" frame1 "frame_20" fps 22 flags 0 }   
+  frame { name "frame_1" tile0 2760 tile1 2779 smoothduration 0.2 }
+  // CORNFEDSPACEFROGIDLE
+  anim { frame0 "frame_25" frame1 "frame_30" fps 10 flags 0 }  
+  frame { name "frame_25" tile0 2780 tile1 2789 smoothduration 0.3 }
+  // CORNFEDSPACEFROGDODGETHIS
+  anim { frame0 "frame_35" frame1 "frame_40" fps 10 flags 0 }  
+  frame { name "frame_35" tile0 2790 tile1 2799 smoothduration 0.2 }
+  // CORNFEDSPACEFROGPURCHASEAGRICULTURALREALESTATE
+  skin { pal 0 surface 0 file "highres/sprites/monsters/2760_rocket.png" }
+  glow { surface 0 file "highres/sprites/monsters/2760_rocket.png" }
+
+  skin { pal 0 surface 1 file "highres/sprites/monsters/2760_overlord_tech_d.png" specpower 2 specfactor 2 } 
+  specular { file "highres/sprites/monsters/2760_overlord_tech_s.png" }
+  normal { file "highres/sprites/monsters/2760_overlord_tech_n.png" parallaxbias 0.1 parallaxscale 0.1  }
+
+  skin { pal 0 surface 2 file "highres/sprites/monsters/2760_overlord_bio_pain_d.png" specpower 2 specfactor 2 }
+  specular { file "highres/sprites/monsters/2760_overlord_bio_pain_s.png" }
+  normal { file "highres/sprites/monsters/2760_overlord_bio_n.png" parallaxbias 0.1 parallaxscale 0.1  }
+
+  anim { frame0 "frame_50" frame1 "frame_80" fps 12 flags 1 }
+  frame { name "frame_50" tile0 2800 tile1 2809 smoothduration 0.3 }
 }
 
 
