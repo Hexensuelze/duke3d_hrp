@@ -91,12 +91,16 @@ model "highres/sprites/monsters/2710_cycloid.md3" {
   frame { pal 1 name "FRAME2" tile 2710 }
 }
 
-// Frozen Moon Overlord (2760)
+// Frozen Lunar Overlord (2760)
 model "highres/sprites/monsters/2760_overlord.md3" {
   scale 45 shade 2
-  skin { surface 0 file "highres/sprites/monsters/2630_muzzle.png" }
-  skin { surface 1 file "highres/sprites/monsters/2630_muzzle.png" }
-  skin { surface 2 file "highres/sprites/monsters/2760_overlord_bio_pain_d.png" }
+  skin { surface 0 file "highres/sprites/monsters/2760_rocket.png" }
+  skin { surface 1 file "highres/sprites/monsters/2760_overlord_tech_d.png" specpower 2 specfactor 2 } 
+  specular { surface 1 file "highres/sprites/monsters/2760_overlord_tech_s.png" }
+  normal { surface 1 file "highres/sprites/monsters/2760_overlord_tech_n.png" parallaxbias 0.1 parallaxscale 0.1  }
+  skin { surface 2 file "highres/sprites/monsters/2760_overlord_bio_d.png" specpower 2 specfactor 2 }
+  specular { surface 2 file "highres/sprites/monsters/2760_overlord_bio_s.png" }
+  normal { surface 2 file "highres/sprites/monsters/2760_overlord_bio_n.png" parallaxbias 0.1 parallaxscale 0.1 }
   frame { pal 1 name "frame_1" tile 2760 }
 }
 
