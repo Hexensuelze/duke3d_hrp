@@ -5,7 +5,7 @@
          |                                                                |                      
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 4.2.251 (Apr 29, 2011)                 |
+         |                   Version 5.0 (??? ?, 2011)                    |
          ==================================================================
 
 
@@ -314,7 +314,8 @@ Roger
 Quakis
 Semicharm
 Sky Fox
-Swiss Cheeseman/SwissCM
+Steveeeie
+SwissCM
 Tesserex
 theRobot
 toadie2k
