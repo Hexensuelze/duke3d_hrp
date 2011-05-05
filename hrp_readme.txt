@@ -5,7 +5,7 @@
          |                                                                |                      
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                   Version 5.0 (??? ?, 2011)                    |
+         |                   Version 5.0 (May 6, 2011)                    |
          ==================================================================
 
 
@@ -18,9 +18,10 @@ CONTENTS OF THIS README
 2) Installation
 3) Notes
    3.1) WIP release
-   3.2) Known issues
-   3.3) Title screen art
-   3.4) EDuke32 port
+   3.2) Highlights of this release
+   3.3) Known issues
+   3.4) Title screen art
+   3.5) EDuke32 port
 4) License
    4.1) HRP
    4.2) Others
@@ -80,11 +81,11 @@ by double-clicking it. Then just follow the onscreen instructions.
 
 After installation, you start the game using the shortcut in the Duke3D folder, 
 desktop or start menu called "Duke3D High Resolution Pack". Starting the game 
-directly will start JFDuke3D (or EDuke32) without textures and models.
+directly will start EDuke32 without textures and models.
 
 IMPORTANT: To see the high resolution textures and models you have to change the 
-           render mode to 32-bit Polymost in the "Video Settings" under "Options" 
-           in the game menu. Otherwise, HRP content will not work!
+           render mode to 32-bit Polymer in the "Video Settings" under "Options" 
+           in the game menu. Otherwise, HRP content will not work (properly)!
 
 It is recommended to run the setup utility in order to set up your video, audio 
 and controls for optimum quality and gameplay experience. However, most of the 
@@ -115,11 +116,40 @@ For a full summary of what's left to do, you may have a look at the HRP Wiki
 todo-list: http://hrp.duke4.net/wiki/doku.php?id=other:next_hrp_release
 
 
+-------------------------------
+3.2) Highlights of this release
+-------------------------------
+Compared to previous release (HRP v4), you can expect the following changes:
+
+> Full Polymer lighting support (with maphacks)
+> Polymer support for many textures (normal/specular mapping)
+> Polymer support for HUD weapons: Chaingun, RPG, Devastator
+> Increased resolution for several textures and model skins (beyond standard 512x512 HRP res)
+> New model for Lunar Overlord (ep.2 boss)
+> Improvements to the ingame menu (new font, some new screens)
+> Hundreds of new textures, dozens of new models - overall HRP size increased from 285 MB to over 550+ MB! 
+
+IMPORTANT!
+----------
+Please note that all HRP v5 contents has been optimized for usage with Polymer renderer.
+This means that if you use the older Polymost renderer, you WILL encounter problems (HUD 
+weapons rendered incorrectly or other display glitches). Polymer requirements offer advanced
+graphics effects but demand much better hardware. If you are forced to use Polymost due to
+having a weaker machine, you have to download a different HRP build! 
+
+
 -----------------
-3.2) Known issues
+3.3) Known issues
 ----------------- 
 Although we tried hard to eliminate or avoid any glitches, unfortunately 
 some of them could not be removed in this release. Here are those we know of:
+
+- Current EDuke32 problems (might get fixed in future versions):
+     > At the end of episodes 1-3, you will not see the end screen after the
+       cinematic. Instead, only a black screen will show up.
+     > The startup/loading screens are not optimized for widescreen resolutions 
+       and might show black stripes on both sides and possibly some distortions,
+       depending on your display.
 
 - Rarely you will still find props, pickup weapons or the like that are
   clipping into walls, often preventing you from seeing them completely. 
@@ -139,20 +169,20 @@ some of them could not be removed in this release. Here are those we know of:
 
 
 ---------------------
-3.3) Title screen art
+3.4) Title screen art
 ---------------------
 The front screen is a slightly modified and enhanced version of 3DRealms original
 art work used with permission.
 
 
 -----------------
-3.4) EDuke32 port
+3.5) EDuke32 port
 -----------------
 The EDuke32 port is an enhanced version of JonoF's initial JFDuke3D port and
 features enhanced mod support together with tons of newly-added code. It is 
 released and maintained by TerminX.
-For the time being, we recommend using EDuke32 for running HRP because the port 
-gets updated much more often and HRP content has been optimized for it.
+We are using EDuke32 for running HRP now because the port gets updated frequently,
+it offers advanced features for which HRP contents has been optimized.
 
 
 
