@@ -186,11 +186,62 @@ model "highres/sprites/monsters/1975_pigtank.md3" {
    frame { name "FIRE00" tile0 1982 tile1 1991 smoothduration 0.3 }
 }
 
+
+// Pig Cop (2000)
 model "highres/sprites/monsters/2000_pigcop.md3" {
-   scale 1 shade 0
-   skin { pal 0 file "highres/sprites/monsters/2000_pigcop_d.png" }
-   normal { file "highres/sprites/monsters/2000_pigcop_n.png" }
-   frame { name "rig" tile0 2000 tile1 2060 smoothduration 0.2 }
+   scale 14 shade 0
+   skin { pal 0 file "highres/sprites/monsters/2000_pigcop.png" }
+   skin { pal 10 file "highres/sprites/monsters/2000_pigcop_10.png" }
+   skin { pal 11 file "highres/sprites/monsters/2000_pigcop_11.png" }
+   skin { pal 12 file "highres/sprites/monsters/2000_pigcop_12.png" }
+   skin { pal 13 file "highres/sprites/monsters/2000_pigcop_13.png" }
+   skin { pal 14 file "highres/sprites/monsters/2000_pigcop_14.png" }
+   skin { pal 15 file "highres/sprites/monsters/2000_pigcop_15.png" }
+   skin { pal 16 file "highres/sprites/monsters/2000_pigcop_16.png" }
+   skin { pal 17 file "highres/sprites/monsters/2000_pigcop_17.png" }
+   skin { pal 18 file "highres/sprites/monsters/2000_pigcop_12.png" }
+   skin { pal 19 file "highres/sprites/monsters/2000_pigcop_19.png" }
+   skin { pal 20 file "highres/sprites/monsters/2000_pigcop_20.png" }
+   skin { pal 21 file "highres/sprites/monsters/2000_pigcop_21.png" }
+   skin { pal 22 file "highres/sprites/monsters/2000_pigcop_11.png" }
+   skin { pal 23 file "highres/sprites/monsters/2000_pigcop_23.png" }
+   skin { pal 24 file "highres/sprites/monsters/2000_pigcop_24.png" }
+   skin { pal 25 file "highres/sprites/monsters/2000_pigcop_25.png" }
+   glow { file "highres/sprites/monsters/2000_pigcop_g.png" }
+   anim { frame0 "WALK1" frame1 "WALK2" fps 18 flags 0 }
+   frame { name "WALK1" tile0 2000 tile1 2019 smoothduration 0.2 }
+   anim { frame0 "SHOOT3" frame1 "SHOOT4" fps 20 flags 1 }
+   frame { name "SHOOT3" tile0 2025 tile1 2027 smoothduration 0.1 }
+   frame { name "SHOOT1" tile0 2030 tile1 2034 smoothduration 0.1 }
+   anim { frame0 "SHOOT2" frame1 "SHOOT3" fps 14 flags 1 }
+   frame { name "SHOOT2" tile0 2035 tile1 2037 smoothduration 0.1 }
+   anim { frame0 "DIVE1" frame1 "DIVE2" fps 20 flags 1 }
+   frame { name "DIVE1" tile0 2040 tile1 2044 smoothduration 0.2 }
+   frame { name "DIVE2" tile0 2045 tile1 2049 smoothduration 0.2 }
+   anim { frame0 "DSHOOT1" frame1 "DSHOOT2" fps 21 flags 0 }
+   frame { name "DSHOOT1" tile0 2050 tile1 2052 smoothduration 0.1 }
+
+   skin { pal 0 file "highres/sprites/monsters/2000_pigcop_dead.png" }
+   skin { pal 10 file "highres/sprites/monsters/2000_pigcop_dead_10.png" }
+   skin { pal 11 file "highres/sprites/monsters/2000_pigcop_dead_11.png" }
+   skin { pal 12 file "highres/sprites/monsters/2000_pigcop_dead_12.png" }
+   skin { pal 13 file "highres/sprites/monsters/2000_pigcop_dead_13.png" }
+   skin { pal 14 file "highres/sprites/monsters/2000_pigcop_dead_14.png" }
+   skin { pal 15 file "highres/sprites/monsters/2000_pigcop_dead_15.png" }
+   skin { pal 16 file "highres/sprites/monsters/2000_pigcop_dead_16.png" }
+   skin { pal 17 file "highres/sprites/monsters/2000_pigcop_dead_17.png" }
+   skin { pal 18 file "highres/sprites/monsters/2000_pigcop_dead_12.png" }
+   skin { pal 19 file "highres/sprites/monsters/2000_pigcop_dead_19.png" }
+   skin { pal 20 file "highres/sprites/monsters/2000_pigcop_dead_20.png" }
+   skin { pal 21 file "highres/sprites/monsters/2000_pigcop_dead_21.png" }
+   skin { pal 22 file "highres/sprites/monsters/2000_pigcop_dead_11.png" }
+   skin { pal 23 file "highres/sprites/monsters/2000_pigcop_dead_23.png" }
+   skin { pal 24 file "highres/sprites/monsters/2000_pigcop_dead_24.png" }
+   skin { pal 25 file "highres/sprites/monsters/2000_pigcop_dead_25.png" }
+   anim { frame0 "DIE1" frame1 "DIE2" fps 10 flags 1 }
+   frame { name "DIE2" tile0 2055 tile1 2055 smoothduration 0.1 }
+   anim { frame0 "DIE2" frame1 "DIE3" fps 20 flags 1 }
+   frame { name "DIE2" tile0 2056 tile1 2060 smoothduration 0.1 }
 }
 
 
