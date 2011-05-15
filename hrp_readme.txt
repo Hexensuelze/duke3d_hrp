@@ -5,7 +5,7 @@
          |                                                                |                      
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                   Version 5.0 (May 6, 2011)                    |
+         |                 Version 5.1.261 (May 15, 2011)                 |
          ==================================================================
 
 
@@ -147,8 +147,8 @@ some of them could not be removed in this release. Here are those we know of:
 - Current EDuke32 problems (might get fixed in future versions):
      > At the end of episodes 1-3, you will not see the end screen after the
        cinematic. Instead, only a black screen will show up.
-     > The startup/loading screens are not optimized for widescreen resolutions 
-       and might show black stripes on both sides and possibly some distortions,
+     > The startup screens are not optimized for widescreen resolutions and
+       might show black stripes on both sides and possibly some distortions,
        depending on your display.
 
 - Rarely you will still find props, pickup weapons or the like that are
