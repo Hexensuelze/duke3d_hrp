@@ -6,10 +6,9 @@ texture 109 {
    pal 15 { file "highres/sprites/decals/0109_15.png" } 
 }
 
-//  parallaxbias 0.03 parallaxscale 0.06 
 texture 546 { 
    pal 0 { file "highres/sprites/decals/0546.png" } 
-   pal 100 { file "highres/sprites/decals/0546_n.png" parallaxbias 0.05 parallaxscale 0.045 }
+   normal { file "highres/sprites/decals/0546_n.png" parallaxbias 0.05 parallaxscale 0.045 }
 }
 texture 547 { pal 0 { file "highres/sprites/decals/0547.png" } }
 texture 548 { pal 0 { file "highres/sprites/decals/0548.png" } }
@@ -80,7 +79,7 @@ texture 2296 { pal 0 { file "highres/sprites/decals/2296.png" } }
 texture 2297 { pal 0 { file "highres/sprites/decals/2297.png" } }
 texture 2298 { 
    pal 0 { file "highres/sprites/decals/2298.png" } 
-   pal 100 { file "highres/sprites/decals/2298_n.png" } 
+   normal { file "highres/sprites/decals/2298_n.png" } 
 }
 texture 2299 { pal 0 { file "highres/sprites/decals/2299.png" } }
 
