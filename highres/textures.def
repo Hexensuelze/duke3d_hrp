@@ -2043,7 +2043,9 @@ texture 820 {
    detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
 }
 texture 821 {
-   pal 0 { file "highres/textures/0821.png" }
+   pal 0 { file "highres/textures/0821.png" xscale 2.0 }
+   normal { file "highres/textures/0821_n.png" parallaxbias 0.05 parallaxscale 0.05 }
+   specular { file "highres/textures/0821_s.png" }
    detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
 }
 texture 822 {
@@ -2695,7 +2697,9 @@ texture 1188 {
    detail { file "highres/detail/wood_h3.png" xscale 0.3 yscale 0.15 }
 }
 texture 1189 {
-   pal 0 { file "highres/textures/1189.png" }
+   pal 0 { file "highres/textures/1189.png" xscale 2.0 }
+   normal { file "highres/textures/1189_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+   specular { file "highres/textures/0742_s.png" }
    detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.15 }
 }
 
