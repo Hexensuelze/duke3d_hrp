@@ -64,12 +64,14 @@ texture 152 {
    pal 0 { file "highres/textures/0152.png" }
    normal { file "highres/textures/0152_n.png" parallaxbias 0.05 parallaxscale 0.075 }
    specular { file "highres/textures/0152_s.png" }
+   glow { file "highres/textures/0152_g.png" }
 //   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
 }
 texture 153 { 
    pal 0 { file "highres/textures/0153.png" }
    normal { file "highres/textures/0153_n.png" parallaxbias 0.05 parallaxscale 0.075 }
    specular { file "highres/textures/0153_s.png" }
+   glow { file "highres/textures/0153_g.png" }
 //   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
 }
 texture 154 { 
@@ -895,7 +897,9 @@ texture 370 {
    detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 }
 }
 texture 371 {
-   pal 0 { file "highres/textures/0371.png" }
+   pal 0 { file "highres/textures/0371_d.png" }
+   normal { file "highres/textures/0371_n.png" parallaxbias 0.0 parallaxscale 0.1 }
+   specular { file "highres/textures/0371_s.png" }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 372 {
