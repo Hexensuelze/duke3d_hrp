@@ -686,8 +686,10 @@ texture 315 {
    detail { file "highres/detail/metal_worn.png" xscale 0.075 yscale 0.075 }
 }
 texture 317 {
-   pal 0 { file "highres/textures/0317.png" }
-   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+   pal 0 { file "highres/textures/0317_d.png" xscale 2 yscale 2 }
+   normal { file "highres/textures/0317_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/textures/0317_s.png" }
+//   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
 }
 texture 318 {
    pal 0 { file "highres/textures/0318.png" }
