@@ -5,7 +5,7 @@
          |                                                                |                      
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 5.1.264 (Jun 11, 2011)                 |
+         |                 Version 5.1.275 (Jul 19, 2011)                 |
          ==================================================================
 
 
@@ -327,6 +327,7 @@ Kevin9er
 Killd a ton
 L2theKING
 Lemming
+Lightsource
 Marked
 Megadeus
 motionblur
