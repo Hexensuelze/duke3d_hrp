@@ -3363,6 +3363,11 @@ texture 4178 {
 }
 
 texture 4180 { pal 0 { file "highres/textures/4180.jpg" nocompress } }
+texture 4181 { 
+   pal 0 { file "highres/textures/4181.png" specpower 5 specfactor 1 }
+   normal { file "highres/textures/4181_n.png" parallaxbias 0.01 parallaxscale 0.005 }
+   specular { file "highres/textures/4181_s.png" }
+}
 texture 4182 { pal 0 { file "highres/textures/4182.jpg" nocompress } }
 texture 4183 { pal 0 { file "highres/textures/4183.png" } }
 texture 4184 { pal 0 { file "highres/textures/4184.png" } }
@@ -3390,7 +3395,11 @@ texture 4195 {
    pal 0 { file "highres/textures/4195.png" }
    detail { file "highres/detail/paint.png" xscale 0.3 yscale 0.3 }
 }
-
+texture 4199 { 
+   pal 0 { file "highres/textures/4199.png" specpower 5 specfactor 1 }
+   normal { file "highres/textures/4199_n.png" parallaxbias 0.01 parallaxscale 0.01 }
+   specular { file "highres/textures/4199_s.png" }
+}
 texture 4200 {
    pal 0 { file "highres/textures/4200.png" }
    detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.15 }
@@ -3402,6 +3411,21 @@ texture 4201 {
 texture 4202 { 
    pal 0 { file "highres/textures/4202.png" } 
    detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+}
+texture 4203 { 
+   pal 0 { file "highres/textures/4203.png" specpower 5 specfactor 1 }
+   normal { file "highres/textures/4203_n.png" parallaxbias 0.01 parallaxscale 0.005 }
+   specular { file "highres/textures/4203_s.png" }
+}
+texture 4204 { 
+   pal 0 { file "highres/textures/4204.png" specpower 5 specfactor 1 }
+   normal { file "highres/textures/4203_n.png" parallaxbias 0.01 parallaxscale 0.005 }
+   specular { file "highres/textures/4203_s.png" }
+}
+texture 4205 { 
+   pal 0 { file "highres/textures/4205.png" specpower 5 specfactor 1 }
+   normal { file "highres/textures/4203_n.png" parallaxbias 0.01 parallaxscale 0.005 }
+   specular { file "highres/textures/4203_s.png" }
 }
 texture 4206 {
    pal 0 { file "highres/textures/4206.jpg" }
