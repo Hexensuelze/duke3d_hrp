@@ -672,6 +672,7 @@ model "highres/sprites/props/0916_fireext.md3" {
    scale 1 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0916_fireext.png" }
+   specular { file "highres/sprites/props/0916_fireext_s.png" }
    frame { name "idle" tile 916 }
 }
 
@@ -679,7 +680,8 @@ model "highres/sprites/props/0916_fireext.md3" {
 model "highres/sprites/props/0917_firealarm.md3" {
    scale 1 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0917_firealarm.jpg" }
+   skin { pal 0 file "highres/sprites/props/0917_firealarm.png" }
+   specular { file "highres/sprites/props/0917_firealarm_s.png" }
    frame { name "FRAME1" tile 917 }
 }
 
