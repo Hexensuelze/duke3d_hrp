@@ -2217,8 +2217,9 @@ texture 878 {
    detail { file "highres/detail/alien_concrete_0.png" xscale 0.3 yscale 1.2 }
 }
 texture 879 {
-   pal 0 { file "highres/textures/0879.png" }
-   detail { file "highres/detail/wood_v3.png" xscale 0.3 yscale 0.3 }
+   pal 0 { file "highres/textures/0879_d.png" specpower 15 specfactor 1 }
+   normal { file "highres/textures/0879_n.png" parallaxbias 0.01 parallaxscale 0.01 }
+   specular { file "highres/textures/0879_s.png" }
 }
 
 texture 880 {
