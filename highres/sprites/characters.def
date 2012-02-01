@@ -6,14 +6,29 @@
 // BABES
 
    // Hanging Babe/NAKED1 (603)
-   model "highres/sprites/characters/0603_hangbabe.md3" {
-      scale 9.3 shade 2 zadd -14
-      skin { pal 0 surface 0 file "highres/sprites/characters/0603_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
-      skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
-      skin { pal 0 surface 2 file "highres/sprites/characters/0603_hair.png" }
-      anim { frame0 "FRAME1" frame1 "FRAME7" fps 2 flags 0 }
-      frame { name "FRAME1" tile 603 }
+   model "highres/sprites/characters/0603_naked1.md3" {
+	
+      scale 13.2 yoffset -10
+	
+      skin { pal 0 surface 0 file "highres/sprites/characters/0603_naked1_d.png" specfactor 0.3 specpower 2 }
+	
+   // normal { pal 0 surface 0 file "highres/sprites/characters/0603_naked1_n.png" parallaxscale 0 parallaxbias 0 }
+	
+      glow { surface 0 file "highres/sprites/characters/0603_naked1_g.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters/0603_slime_d.png" specpower 110 specfactor 180 }
+	
+      normal { pal 0 surface 1 file "highres/sprites/characters/0603_slime_n.png" }
+	
+      specular { pal 0 surface 1 file "highres/sprites/characters/0603_slime_s.png" }
+	
+      skin { pal 0 surface 2 file "highres/sprites/characters/0603_pants_d.png" specfactor 0 }
+	
+      skin { pal 0 surface 3 file "highres/sprites/characters/0603_hair_d.png" specfactor 0 }
+	
+      anim { frame0 "FRAME25" frame1 "FRAME50" fps 5 flag 0 }
+	
+      frame { name "FRAME25" tile 603 }
+
    }
 
    // Geisha/STATUE (753) 
