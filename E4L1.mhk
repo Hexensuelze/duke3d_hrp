@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E4L1.MAP - "It's Impossible" (Original Atomic Edition version)
-// Reviewed by NightFright (June 2009)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -79,9 +79,8 @@ sprite 54 angoff 1024
 // Jetpack
 sprite 840 angoff 512
 
-// Keycards (R/B)
-sprite 135 angoff -512
-sprite 136 angoff -768
+// Keycards (B)
+sprite 136 angoff -256
 
 // Nightvision
 sprite 53 angoff -256
@@ -101,11 +100,11 @@ sprite 251 angoff -256
 sprite 352 angoff 1024
 
 // Shotgun & ammo
-sprite 193 angoff 1024
-sprite 350 angoff 1024
+sprite 193 angoff -512
+sprite 350 angoff -512
 sprite 539 angoff 256
+sprite 542 angoff 512
 sprite 544 angoff 1024
-sprite 836 angoff 512
 
 // Chaingun & ammo
 sprite 191 angoff 512
@@ -117,7 +116,6 @@ sprite 545 angoff -256
 // RPG & ammo
 sprite 48 angoff -256 // Dukematch only
 sprite 140 angoff 768
-sprite 373 angoff 512
 
 // Pipebombs
 sprite 56 angoff -768
@@ -128,26 +126,28 @@ sprite 812 angoff 256
 sprite 813 angoff 768
 
 // Devastator & ammo
-sprite 655 angoff -512
 sprite 760 angoff -768
 sprite 761 angoff 256
+
+// Shrinker & ammo
+sprite 148 angoff 512
+sprite 633 angoff -512 
 
 // Laser Tripbomb
 sprite 4 angoff -256
 sprite 149 angoff -640
 sprite 150 angoff 128
 
-// Freezethrower & ammo
-sprite 47 angoff -512
-
 
 
 // OVERRIDE
 
 // Fixes for badly aligned sprites
+sprite 23 away1 // U.N.C.L.E. phone
 sprite 419 mdzoff 175000 // armor
 sprite 419 roll 1
 sprite 419 pitch 1
+sprite 501 away1 // "Danger" sign
 sprite 622 mdyoff 18000 // hotmeat
 sprite 622 roll 1
 
@@ -156,7 +156,6 @@ sprite 21 notmd
 sprite 80 notmd
 sprite 94 notmd
 sprite 100 notmd
-sprite 262 notmd
 sprite 393 notmd
 sprite 441 notmd
 sprite 442 notmd

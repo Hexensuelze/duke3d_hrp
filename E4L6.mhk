@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E4L6.MAP - "Going Postal" (Original Atomic Edition version)
-// Reviewed by NightFright (June 2009)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -102,9 +102,9 @@ sprite 277 angoff 256
 sprite 295 angoff -512 // Dukematch only
 
 // Keycards (R/B/Y)
-sprite 145 angoff 1024
-sprite 534 angoff 1024
-sprite 724 angoff 1024
+sprite 145 angoff -512
+sprite 534 angoff -512
+sprite 724 angoff -512
 
 // Medkit
 sprite 296 angoff 512
@@ -125,15 +125,13 @@ sprite 214 angoff -256
 sprite 299 angoff 256
 sprite 300 angoff 128
 sprite 302 angoff 1024
-sprite 304 angoff -512
 sprite 529 angoff 512
 sprite 669 angoff 512
 sprite 752 angoff 256
 
 // Shotgun & ammo
-sprite 211 angoff 512
-sprite 223 angoff -128
-sprite 298 angoff -512
+sprite 211 angoff 1024
+sprite 223 angoff 384
 sprite 635 angoff -256
 
 // Chaingun & ammo
@@ -146,7 +144,7 @@ sprite 641 angoff 512
 // RPG & ammo
 sprite 207 angoff -384
 sprite 282 angoff -512
-sprite 306 angoff -512
+sprite 306 angoff 1024
 sprite 351 angoff 512
 sprite 352 angoff 512
 
@@ -156,23 +154,20 @@ sprite 288 angoff -768
 sprite 750 angoff 512
 
 // Shrinker/Expander & ammo
-sprite 84 angoff -256 // Dukematch only
-sprite 280 angoff -256
+sprite 84 angoff -768 // Dukematch only
+sprite 280 angoff -768
 
 // Devastator & ammo
 sprite 26 angoff 64
 sprite 278 angoff 768
-sprite 290 angoff -512
 sprite 577 angoff -512
-sprite 590 angoff 1024
 
 // Laser Tripbomb
 sprite 266 angoff 1024
 sprite 267 angoff 896
 
 // Freezethrower & ammo
-sprite 281 angoff -512
-sprite 283 angoff 512
+sprite 283 angoff 1024
 
 // Forcing any floor aligned model to be rendered as sprite
 sprite 246 notmd
@@ -218,6 +213,8 @@ sprite 508 notmd
 sprite 710 notmd
 sprite 711 notmd
 sprite 741 notmd
+
+
 
 // OVERRIDE
 

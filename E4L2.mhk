@@ -104,8 +104,7 @@ sprite 356 angoff 256
 sprite 596 angoff 768
 
 // Keycards (R/B)
-sprite 198 angoff -256
-sprite 664 angoff -512
+sprite 198 angoff 256
 
 // MedKit
 sprite 102 angoff -256
@@ -125,17 +124,15 @@ sprite 116 angoff -512
 sprite 117 angoff -512
 
 // Shotgun & ammo
-sprite 351 angoff -512
+sprite 351 angoff -256
 sprite 417 angoff 512
-sprite 597 angoff -512
-sprite 792 angoff -512
+sprite 732 angoff 512
 
 // Chaingun & ammo
 sprite 418 angoff -512
 
 // RPG & ammo
-sprite 75 angoff -256
-sprite 416 angoff 512 // Dukematch only
+sprite 75 angoff -768
 
 // Pipebombs
 sprite 85 angoff -768
@@ -145,22 +142,19 @@ sprite 140 angoff 1024
 sprite 414 angoff 1024
 
 // Shrinker/Expander & ammo
-sprite 99 angoff 768
-sprite 100 angoff 768
-sprite 415 angoff 512 // Dukematch only
-sprite 594 angoff -768
-sprite 663 angoff 192
-
-// Devastator & ammo
-sprite 595 angoff -512
+sprite 99 angoff 256
+sprite 100 angoff 256
+sprite 594 angoff -256
+sprite 663 angoff -320
 
 // Laser Tripbomb
 sprite 59 angoff 512
 
 // Freezethrower & ammo
-sprite 60 angoff 512
-sprite 125 angoff 1024
-sprite 748 angoff -512
+sprite 60 angoff 1024
+sprite 125 angoff -512
+sprite 593 angoff 512 // Dukematch only
+sprite 731 angoff 512
 
 
 
@@ -214,7 +208,7 @@ sprite 790 notmd // "No way I'm eating this sh*t!"
 
 // LIGHTS
 
-// Polymer lights (by Micky C)
+// by Micky C
 light  235   29952 24896 1024  650  255 150 0   0 0 1536 0   0 0   0 -1
 light  235   31168 24896 1024  650  255 150 0   0 0 1536 0   0 0   0 -1
 light  211   31488 26112 -24128  500  255 255 225   0 0 1536 0   0 0   0 -1
@@ -373,7 +367,7 @@ light  83   33536 39808 -20480  1000  255 0 0   0 0 1536 -1   0 0   2 -1
 light  83   33792 39808 -18082  1000  0 255 0   0 0 1536 -1   0 0   2 -1
 light  103   33280 5728 -17408  1000  100 100 100   0 0 1536 -1   0 0   0 -1
 
-// Polymer lights (by Devastator, commented out)
+// by Devastator (commented out)
 /*
 light  281  32512 41472 -9216  2000  245 245 245  0 0 1536 -1  0 0  0 -1
 light  50  41472 30976 -15360  2200  150 150 150  0 0 1536 -1  0 0  0 -1

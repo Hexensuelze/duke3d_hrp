@@ -7,7 +7,7 @@ model "highres/sprites/pickups/0021_pistol.md3" {
    skin { pal 0 file "highres/sprites/pickups/0021_pistol_d.png" }
    normal { file "highres/sprites/pickups/0021_pistol_n.png" }
    specular { file "highres/sprites/pickups/0021_pistol_s.png" }
-   frame { name "frame_1" tile 21 }
+   frame { name "none00" tile 21 }
 }
 
 // Chaingun (22)
@@ -23,7 +23,7 @@ model "highres/sprites/pickups/0023_rpg.md3" {
    scale 0.75 shade 4
    skin { pal 0 file "highres/sprites/pickups/0023_rpg.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "Frame 1" tile 23 }
+   frame { name "none00" tile 23 }
 }
 
 // Freezer (24)
@@ -31,7 +31,7 @@ model "highres/sprites/pickups/0024_freezer.md3" {
    scale 1 shade 8
    skin { pal 0 file "highres/sprites/pickups/0024_freezer.jpg" }
    detail { file "highres/detail/metal.png" detailscale 0.15 }
-   frame { name "Frame 1" tile 24 }
+   frame { name "none00" tile 24 }
 }
 
 // Shrinker (25)
@@ -44,7 +44,7 @@ model "highres/sprites/pickups/0025_shrinker.md3" {
    skin { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
    glow { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
    normal { surface 1 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }
-   frame { name "Frame0" tile 25 }
+   frame { name "none00" tile 25 }
 }
 
 // Pipe Bomb (26)
@@ -70,7 +70,7 @@ model "highres/sprites/pickups/0028_shotgun.md3" {
    skin { pal 0 file "highres/sprites/pickups/0028_shotgun_d.png" }
    normal { file "highres/sprites/pickups/0028_shotgun_n.png" }
    specular { file "highres/sprites/pickups/0028_shotgun_s.png" }
-   frame { name "frame_1" tile 28 }
+   frame { name "none00" tile 28 }
 }
 
 // Devastator (29)
@@ -78,7 +78,7 @@ model "highres/sprites/pickups/0029_devastator.md3" {
    scale 2 shade 0 zadd -8
    skin { pal 0 file "highres/sprites/pickups/0029_devastator.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "Frame 0" tile 29 }
+   frame { name "none00" tile 29 }
 }
 
 // Expander (32)
@@ -93,7 +93,7 @@ model "highres/sprites/pickups/0032_expander.md3" {
    normal { surface 2 file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }
    skin { pal 0 surface 0 file "highres/sprites/pickups/0032_expander.png" }
    glow { pal 0 surface 0 file "highres/sprites/pickups/0032_expander_glow.png" }
-   frame { name "Frame0" tile 32 }
+   frame { name "none00" tile 32 }
 }
 
 // Freezer Ammo (37)
@@ -111,8 +111,8 @@ model "highres/sprites/pickups/0037_freezerammo.md3" {
    glow { surface 8 file "highres/sprites/pickups/0037_freezerammo_g.png" }
    glow { surface 9 file "highres/sprites/pickups/0037_freezerammo_g.png" }
    glow { surface 10 file "highres/sprites/pickups/0037_freezerammo_g.png" }
-   anim { frame0 "Frame0" frame1 "Frame10" fps 100 flags 0 }
-   frame { name "Frame0" tile0 37 tile1 39 }
+   anim { frame0 "AnimFrames00" frame1 "AnimFrames10" fps 100 flags 0 }
+   frame { name "AnimFrames00" tile0 37 tile1 39 }
 }
 
 // Pistol Ammo (40)
@@ -153,7 +153,7 @@ model "highres/sprites/pickups/0045_expander_ammo.md3" {
    skin { pal 0 file "highres/sprites/pickups/0032_expander.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    glow { pal 0 file "highres/sprites/pickups/0032_expander_glow.png" }
-   frame { name "Frame0" tile 45 }
+   frame { name "none00" tile 45 }
 }
 
 // Shrinker ammo (46)
@@ -161,7 +161,7 @@ model "highres/sprites/pickups/0046_crystal.md3" {
    scale 3.0 shade 0
    skin { pal 0 file "highres/sprites/pickups/0046_crystal.png" }  
    normal { file "highres/sprites/pickups/0046_crystal_n.png" parallaxbias 0.1 parallaxscale 0.1 }   
-   frame { name "Frame0" tile 46 }
+   frame { name "none00" tile 46 }
 }
 
 // Pipe Bomb Box (47)
@@ -176,7 +176,7 @@ model "highres/sprites/pickups/0047_pipebombbox.md3" {
 model "highres/sprites/pickups/0049_shotgunammo.md3" {
    scale 8 shade 0 
    skin { pal 0 file "highres/sprites/pickups/0049_shotgunammo.png" nocompress }
-   frame { name "frame00" tile 49 }
+   frame { name "none00" tile 49 }
 }
 
 // Health Box (51)
@@ -261,7 +261,7 @@ model "highres/sprites/pickups/0060_keycard.md3" {
    skin { pal 22 file "highres/sprites/pickups/0060_keycard_11_22.png" nocompress }
    skin { pal 23 file "highres/sprites/pickups/0060_keycard_23.png" nocompress }
    skin { pal 24 file "highres/sprites/pickups/0060_keycard_24.png" nocompress }
-   frame { name "frame00" tile 60 }
+   frame { name "none00" tile 60 }
 }
 
 // Protective Boots (61)

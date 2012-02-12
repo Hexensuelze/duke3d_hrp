@@ -1,6 +1,6 @@
 // Maphack for Duke3D HRP
 // Level: E2L3.MAP - "Warp Factor" (Original Atomic Edition version)
-// Reviewed by NightFright (February 2011)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -62,8 +62,9 @@ sprite 13 angoff -512 // Dukematch only
 // Jetpack
 sprite 91 angoff -256
 
-// Keycards (B)
-sprite 14 angoff 384
+// Keycards (B/Y)
+sprite 14 angoff 896
+sprite 316 angoff 512
 
 // Medkit
 sprite 96 angoff 256
@@ -85,10 +86,10 @@ sprite 708 angoff -512
 
 // Shotgun & ammo
 sprite 10 angoff 512
-sprite 161 angoff 1024
-sprite 688 angoff -512
+sprite 156 angoff 512
+sprite 161 angoff -512
 sprite 768 angoff 128
-sprite 802 angoff 256 // Dukematch only
+sprite 802 angoff 768 // Dukematch only
 
 // Chaingun & ammo
 sprite 7 angoff 1024
@@ -99,31 +100,27 @@ sprite 803 angoff 256 // Dukematch only
 sprite 819 angoff 1024
 
 // RPG & ammo
-sprite 772 angoff -512
-sprite 782 angoff -512
+sprite 772 angoff 1024
+sprite 782 angoff 1024
 sprite 813 angoff 1024
-sprite 821 angoff 768
+sprite 821 angoff 256
 
 // Pipebombs
 sprite 820 angoff -640
 
 // Shrinker & ammo
-sprite 22 angoff 512
-sprite 47 angoff 1024
-sprite 154 angoff 512
+sprite 47 angoff 512
 
 // Laser Tripbomb
 sprite 162 angoff -512
 
 // Devastator & ammo
-sprite 135 angoff 512
+sprite 135 angoff 1024
 sprite 346 angoff -512
-sprite 817 angoff 256
+sprite 817 angoff 768
 
 // Freezethrower & ammo
-sprite 182 angoff -512
-sprite 800 angoff 512 // Dukematch only
-sprite 818 angoff -512
+sprite 697 angoff -512
 
 
 
@@ -134,6 +131,10 @@ sprite 499 mdzoff -5600000
 sprite 499 pitch 2
 sprite 499 roll 1
 sprite 754 roll -60 // space shuttle
+sprite 770 mdxoff 50000 // sixpack stuck in globe
+sprite 770 pitch 1
+sprite 771 mdxoff 50000 // sixpack stuck in globe
+sprite 771 pitch 1
 
 // Forcing any floor aligned model to be rendered as sprite
 sprite 218 notmd

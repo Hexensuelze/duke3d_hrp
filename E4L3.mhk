@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E4L3.MAP - "Shop-n-Bag" (Original Atomic Edition version)
-// Reviewed by NightFright (June 2009)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -65,8 +65,10 @@ sprite 485 angoff 512
 // Jetpack
 sprite 446 angoff -256 // Dukematch only
 
-// Keycards (B)
-sprite 307 angoff 1024
+// Keycards (B/Y/R)
+sprite 307 angoff -512
+sprite 377 angoff 512
+sprite 396 angoff 512
 
 // Medkit
 sprite 139 angoff -512
@@ -85,20 +87,21 @@ sprite 547 angoff -768
 sprite 137 angoff -512
 
 // Shotgun & ammo
-sprite 52 angoff -256
+sprite 52 angoff 256
+sprite 90 angoff 512
 sprite 122 angoff -128 // Dukematch only
-sprite 127 angoff 256
-sprite 138 angoff -768
+sprite 127 angoff 512
+sprite 138 angoff -256
 sprite 148 angoff 1024
-sprite 477 angoff -512
-sprite 545 angoff 512
+sprite 545 angoff 1024
 
 // Chaingun & ammo
 sprite 18 angoff 256 // Dukematch only
 sprite 228 angoff -128
 
 // RPG & ammo
-sprite 126 angoff 256 // Dukematch only
+sprite 121 angoff -512
+sprite 126 angoff -512 // Dukematch only
 sprite 136 angoff -512
 sprite 143 angoff 384
 sprite 541 angoff 512
@@ -109,16 +112,16 @@ sprite 40 angoff 512
 
 // Shrinker/Expander & ammo
 sprite 19 angoff 512
-sprite 31 angoff 768
-sprite 116 angoff 1024 // Dukematch only
-sprite 119 angoff 256
+sprite 31 angoff 1024
+sprite 116 angoff 512 // Dukematch only
+sprite 119 angoff -256
 
 // Devastator & ammo
 sprite 129 angoff 512
-sprite 130 angoff 1024
+sprite 130 angoff -512
 
 // Freezethrower & ammo
-sprite 128 angoff 512
+sprite 128 angoff -512
 
 
 

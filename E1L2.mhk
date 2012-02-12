@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E1L2.MAP - "Red Light District" (Original Atomic Edition version)
-// Reviewed by NightFright (May 2011)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -69,9 +69,10 @@ sprite 180 angoff -256
 // HoloDuke
 sprite 208 angoff 256
 
-// Keycards (Y/R)
-sprite 179 angoff -768
-sprite 249 angoff 512
+// Keycards (Y/R/B)
+sprite 179 angoff -256
+sprite 249 angoff 1024
+sprite 27 angoff 512
 
 // Medkit
 sprite 278 angoff -512
@@ -90,23 +91,22 @@ sprite 755 angoff 512
 sprite 757 angoff 512
 
 // Shotgun & ammo
-sprite 331 angoff -512
-sprite 332 angoff -512 // Dukematch only
-sprite 390 angoff 512 // Dukematch only
-sprite 391 angoff 512
+sprite 390 angoff 1024 // Dukematch only
+sprite 391 angoff -512
 sprite 515 angoff 1024
-sprite 694 angoff 1024
-sprite 818 angoff -768
+sprite 694 angoff -512
+sprite 818 angoff -256
 
 // Chaingun & ammo
+sprite 159 angoff -128
 sprite 173 angoff 512
 sprite 693 angoff 512
 sprite 754 angoff -512
 
 // RPG & ammo
 sprite 163 angoff -512
-sprite 192 angoff -512 
-sprite 751 angoff 256 // Dukematch only
+sprite 751 angoff -256 // Dukematch only
+sprite 825 angoff 1024
 
 // Pipebombs
 sprite 63 angoff 512

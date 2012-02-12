@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E2L1.MAP - "Spaceport" (Original Atomic Edition version)
-// Reviewed by NightFright (December 2010)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -21,9 +21,6 @@ sprite 54 angoff 256
 sprite 280 angoff -512
 sprite 396 angoff -512 // Dukematch only
 
-// Keycards (B)
-sprite 180 angoff -512
-
 // Health +10
 sprite 46 angoff -256
 
@@ -43,6 +40,9 @@ sprite 367 angoff 512
 sprite 69 angoff -512
 sprite 110 angoff -512
 
+// Keycard (R)
+sprite 318 angoff 512
+
 // Medkit
 sprite 155 angoff -384
 
@@ -61,8 +61,8 @@ sprite 422 angoff 256
 
 // Shotgun & ammo
 sprite 156 angoff 256
-sprite 284 angoff -512
-sprite 379 angoff -512
+sprite 284 angoff -256
+sprite 390 angoff 512
 
 // Chaingun
 sprite 30 angoff 1024
@@ -72,7 +72,7 @@ sprite 378 angoff -512 // Dukematch only
 
 // RPG & ammo
 sprite 291 angoff -128
-sprite 373 angoff -512
+sprite 373 angoff 1024
 sprite 395 angoff -512
 
 // Pipebombs
@@ -80,20 +80,18 @@ sprite 40 angoff 1024
 sprite 235 angoff 768
 
 // Shrinker & ammo
-sprite 58 angoff 512
-sprite 371 angoff 256 // Dukematch only
-sprite 372 angoff 256 // Dukematch only
-
-// Devastator & ammo
-sprite 399 angoff 512
+sprite 371 angoff -256 // Dukematch only
+sprite 372 angoff -256 // Dukematch only
 
 // Laser Tripbomb
 sprite 385 angoff 832 // Dukematch only
 sprite 386 angoff -832 // Dukematch only
 sprite 387 angoff 1024 // Dukematch only
 
-// Freezethrower
-sprite 60 angoff 1024 // Dukematch only
+// Freezethrower & ammo
+sprite 60 angoff -512 // Dukematch only
+sprite 375 angoff -512 // Dukematch only
+sprite 376 angoff -512 // Dukematch only
 
 
 
@@ -105,7 +103,7 @@ sprite 23 mdzoff 155000 // water fountain
 sprite 23 pitch 2
 sprite 37 away1 // "Authorized Personnel" sign
 sprite 109 away1 // security screen
-sprite 399 mdzoff 110000 // Devastator
+sprite 399 mdzoff -90000 // Devastator
 sprite 399 roll 5
 
 // Forcing any floor aligned model to be rendered as sprite
@@ -215,7 +213,8 @@ light  169   56832 32768 -23552  1000  255 235 225   0 0 1536 -1   0 0   0 -1
 light  214   61952 32768 -74752  2000  255 235 225   0 0 1536 -1   0 0   0 -1
 
 // by Roma Loom (commented out)
-/* light  250  -10262 31841 81280  6553  255 255 255  0 0 128 100  0 0  0 -1
+/* 
+light  250  -10262 31841 81280  6553  255 255 255  0 0 128 100  0 0  0 -1
 light  250  3815 32172 105728  6553  255 255 255  0 0 1024 100  0 0  0 -1
 light  88  -19511 40245 42048  6553  255 255 255  0 0 128 100  0 0  0 -1
 light  250  -8621 47476 52480  6553  255 255 255  0 0 1664 100  0 0  0 -1
@@ -248,4 +247,5 @@ light  61  48219 32001 -23040  1500  255 255 255  0 0 512 -1  0 0  0 -1
 light  251  50035 33535 -23424  1500  255 255 255  0 0 1536 -1  0 0  0 -1
 light  251  50045 32001 -23040  1500  255 255 255  0 0 512 -1  0 0  0 -1
 light  262  51712 33408 -28312  1500  255 255 255  0 0 1536 -1  0 0  0 -1
-light  258  51712 32064 -28084  1500  255 255 255  0 0 1536 -1  0 0  0 -1 */
+light  258  51712 32064 -28084  1500  255 255 255  0 0 1536 -1  0 0  0 -1 
+*/

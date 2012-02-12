@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E3L7.MAP - "Fahrenheit" (Original Atomic Edition version)
-// Reviewed by NightFright (November 2010)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -63,9 +63,9 @@ sprite 77 angoff 512 // Dukematch only
 sprite 203 angoff -128 // Dukematch only
 
 // Keycard (B/R/Y)
-sprite 134 angoff 512
-sprite 295 angoff 1024
-sprite 432 angoff 1024
+sprite 134 angoff 1024
+sprite 295 angoff -512
+sprite 432 angoff -512
 
 // Medkit
 sprite 88 angoff 512
@@ -80,13 +80,12 @@ sprite 422 angoff 512
 // Pistol & ammo
 sprite 45 angoff 1024
 sprite 108 angoff -128
-sprite 360 angoff 512
+sprite 360 angoff 1024
 
 // Shotgun & ammo
-sprite 47 angoff -768
-sprite 109 angoff 1024
-sprite 201 angoff 1024
-sprite 423 angoff 768
+sprite 47 angoff -256
+sprite 109 angoff -512
+sprite 423 angoff -768
 sprite 431 angoff -128
 
 // Chaingun & ammo
@@ -96,8 +95,7 @@ sprite 299 angoff -256
 sprite 346 angoff 512
 
 // RPG & ammo
-sprite 368 angoff -512
-sprite 426 angoff 512
+sprite 368 angoff 1024
 sprite 427 angoff 256
 
 // Pipebombs
@@ -105,17 +103,22 @@ sprite 268 angoff 1024
 
 // Devastator & ammo
 sprite 200 angoff 1024
-sprite 294 angoff 768 
+sprite 294 angoff -768
 sprite 300 angoff 256
 sprite 343 angoff -768
 
 // Laser Tripbomb
 sprite 347 angoff -256
 
+// Shrinker & ammo
+sprite 40 angoff 256
+sprite 41 angoff 256
+sprite 344 angoff 512
+sprite 345 angoff 256
+
 // Freezethrower & ammo
-sprite 80 angoff -512
-sprite 361 angoff 512
-sprite 362 angoff 512
+sprite 361 angoff 1024
+sprite 362 angoff 1024
 
 
 

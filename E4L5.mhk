@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E4L5.MAP - "Pigsty" (Original Atomic Edition version)
-// Reviewed by NightFright (June 2009)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -102,9 +102,10 @@ sprite 841 angoff 1024
 sprite 211 angoff -512
 sprite 767 angoff -768 // Dukematch only
 
-// Keycards (Y/R)
-sprite 751 angoff 960
-sprite 854 angoff 768
+// Keycards (B/Y/R)
+sprite 363 angoff 512
+sprite 751 angoff -576
+sprite 854 angoff -768
 
 // Medkit
 sprite 264 angoff 512
@@ -127,13 +128,12 @@ sprite 151 angoff -512
 sprite 815 angoff 256
 
 // Shotgun & ammo
-sprite 118 angoff -768
-sprite 136 angoff -768
+sprite 118 angoff -256
+sprite 136 angoff -256
 sprite 142 angoff 1024 // Dukematch only
-sprite 153 angoff -512 // flipped sprite
-sprite 270 angoff -512
+sprite 190 angoff 512
 sprite 613 angoff -640
-sprite 615 angoff 512
+sprite 615 angoff 1024
 sprite 813 angoff 768 // Dukematch only
 
 // Chaingun & ammo
@@ -146,8 +146,7 @@ sprite 618 angoff 1024
 sprite 619 angoff 1024
 
 // RPG & ammo
-sprite 92 angoff 512
-sprite 260 angoff -512
+sprite 260 angoff 1024
 sprite 769 angoff -512
 
 // Pipebombs
@@ -156,7 +155,6 @@ sprite 717 angoff 256
 sprite 811 angoff 768
 
 // Devastator & ammo
-sprite 91 angoff -512
 sprite 715 angoff -256
 
 // Laser Tripbomb
@@ -164,13 +162,12 @@ sprite 196 angoff 512
 sprite 197 angoff 512
 
 // Shrinker/Expander & ammo
-sprite 87 angoff -256
-sprite 89 angoff 256
-sprite 768 angoff 1024
+sprite 87 angoff -768
+sprite 89 angoff -256
+sprite 768 angoff 512
 
 // Freezethrower & ammo
-sprite 90 angoff 768
-sprite 198 angoff -512
+sprite 90 angoff -768
 
 
 
@@ -197,6 +194,8 @@ sprite 840 notmd
 sprite 38 mdzoff 2500 // drinking fountain
 sprite 38 pitch 1
 sprite 78 away1 // "Wanted Dead" screen
+sprite 128 away1 // President picture
+sprite 129 away1 // President picture
 sprite 195 mdzoff -260000 // thermos
 sprite 195 pitch 1
 

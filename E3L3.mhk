@@ -39,9 +39,9 @@ sprite 50 angoff 384
 sprite 63 angoff -512 // Dukematch only
 
 // Keycards (B/Y/R)
-sprite 171 angoff 512
-sprite 392 angoff 384
-sprite 407 angoff 512
+sprite 171 angoff 768
+sprite 392 angoff 896
+sprite 407 angoff 1024
 
 // Medkit
 sprite 200 angoff 512
@@ -64,7 +64,8 @@ sprite 66 angoff 512
 sprite 74 angoff 192
 
 // Shotgun & ammo
-sprite 121 angoff 256
+sprite 75 angoff 320
+sprite 121 angoff 768
 sprite 126 angoff 1024
 sprite 373 angoff 1024
 
@@ -83,25 +84,22 @@ sprite 112 angoff 768
 sprite 169 angoff -512
 sprite 173 angoff 256
 sprite 202 angoff 256
-sprite 204 angoff 1024
+sprite 204 angoff 512
 sprite 374 angoff 768
-sprite 450 angoff 512 // Dukematch only
 
 // Pipebombs
 sprite 256 angoff 1024
 
 // Shrinker & ammo
-sprite 67 angoff -128
-sprite 73 angoff 512
+sprite 67 angoff -640
 
 // Devastator & ammo
-sprite 97 angoff 512 // Dukematch only
 sprite 109 angoff -512
 sprite 110 angoff -768
 sprite 127 angoff -256
 sprite 191 angoff -64
 sprite 192 angoff 256
-sprite 193 angoff 768 
+sprite 193 angoff -720
 sprite 375 angoff 1024
 sprite 426 angoff 1024
 sprite 427 angoff 768
@@ -113,8 +111,8 @@ sprite 71 angoff 1024
 sprite 72 angoff 1024
 
 // Freezethrower & ammo
-sprite 68 angoff 512
-sprite 70 angoff -512
+sprite 68 angoff 1024
+sprite 69 angoff 512
 
 
 
@@ -127,12 +125,13 @@ sprite 75 mdzoff -600000 // shotgun ammo
 sprite 75 pitch 1
 sprite 96 mdzoff 1260000 // chaingun (Dukematch only)
 sprite 96 pitch 1
+sprite 434 mdxoff 9000 // shotgun ammo
+sprite 434 pitch 1
 sprite 462 mdzoff 360000 // chaingun ammo (found by Hunter_rus)
 sprite 462 roll 1
 
 // Forcing any floor aligned model to be rendered as sprite
 sprite 253 notmd
-sprite 277 notmd
 
 // Switches to be hidden
 sprite 4 notmd // Hard Hat Area

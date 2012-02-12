@@ -1,6 +1,6 @@
 // Maphacks for Duke3D HRP
 // Level: E3L8.MAP - "Hotel Hell" (Original Atomic Edition version)
-// Reviewed by NightFright (November 2010)
+// Reviewed by NightFright (February 2012)
 
 
 
@@ -100,8 +100,8 @@ sprite 596 angoff 1024
 sprite 684 angoff 1024 // Dukematch only
 
 // Keycards (Y/B)
-sprite 172 angoff 1024
-sprite 372 angoff 1024
+sprite 172 angoff -512
+sprite 372 angoff -512
 
 // Medkit
 sprite 392 angoff 128
@@ -125,12 +125,12 @@ sprite 366 angoff -512
 sprite 608 angoff -512
 
 // Shotgun & ammo
-sprite 178 angoff -384
-sprite 361 angoff -768
-sprite 363 angoff 640
+sprite 178 angoff 128
+sprite 361 angoff -256
+sprite 363 angoff -896
 sprite 371 angoff 1024
 sprite 397 angoff -512
-sprite 619 angoff 768
+sprite 619 angoff -768
 
 // Chaingun & ammo
 sprite 395 angoff 128
@@ -139,6 +139,7 @@ sprite 689 angoff 512 // Dukematch only
 
 // RPG & ammo
 sprite 147 angoff 256
+sprite 175 angoff -512
 
 // Pipebombs
 sprite 150 angoff 512
@@ -146,24 +147,26 @@ sprite 151 angoff 384
 sprite 182 angoff 512
 sprite 823 angoff 896
 
-// Shrinker & ammo
-sprite 152 angoff 512
-
 // Devastator & ammo
 sprite 207 angoff -1024
-sprite 358 angoff -512
+sprite 358 angoff 1024
 sprite 562 angoff 1024
 sprite 563 angoff -512
 
 // Laser Tripbomb
 sprite 479 angoff -256
 
+// Shrinker ammo
+sprite 640 angoff 512
+
 // Freezethrower & ammo
-sprite 690 angoff 1024 // Dukematch only
-sprite 686 angoff -256 // Dukematch only
-sprite 687 angoff 512
-sprite 725 angoff 256
-sprite 827 angoff -128
+sprite 690 angoff -512 // Dukematch only
+sprite 691 angoff 512 // Dukematch only
+sprite 692 angoff 512 // Dukematch only
+sprite 686 angoff 256 // Dukematch only
+sprite 687 angoff 1024
+sprite 725 angoff 768
+sprite 827 angoff 384
 
 
 
@@ -224,7 +227,7 @@ sprite 342 pitch 1
 sprite 343 mdzoff 690000 // bottle
 sprite 343 pitch 1
 sprite 567 nomdanim // spinning Duke leg
-sprite 795 mdzoff -460000 // drinking fountain
+sprite 795 mdzoff -37500 // drinking fountain
 sprite 795 pitch 1
 
 // Forcing any floor aligned model to be rendered as sprite
