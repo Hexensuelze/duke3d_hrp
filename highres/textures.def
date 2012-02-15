@@ -560,7 +560,11 @@ texture 278 {
    pal 0 { file "highres/textures/0278.png" } 
    detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.3 }
 }
-
+texture 281 {
+   pal 0 { file "highres/textures/0281_d.png" }
+   normal { file "highres/textures/0281_n.png" parallaxbias 0.03 parallaxscale 0.04 }
+   specular { file "highres/textures/0281_s.png" }
+}
 texture 283 {
    pal 0 { file "highres/textures/0283.jpg" }
    detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.15 }
