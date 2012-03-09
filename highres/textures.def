@@ -43,8 +43,13 @@ texture 121 {
 }
 texture 122 { pal 0 { file "highres/textures/0122.png" } }
 texture 123 { pal 0 { file "highres/textures/0123.png" } }
-texture 124 { pal 0 { file "highres/textures/0124.png" } }
-texture 125 { pal 0 { file "highres/textures/0125.png" } }
+texture 124 {
+   pal 0 { file "highres/textures/0124.png" }
+   normal { file "highres/textures/0124_n.png" }
+texture 125 {
+   pal 0 { file "highres/textures/0125.png" }
+   normal { file "highres/textures/0125_n.png" }
+}
 texture 126 { pal 0 { file "highres/textures/0126.png" } }
 texture 127 { pal 0 { file "highres/textures/0127.png" } }
 texture 128 { pal 0 { file "highres/textures/0128.png" } }
@@ -461,7 +466,6 @@ texture 251 {
    pal 0 { file "highres/textures/0251_d.png" }
    normal { file "highres/textures/0251_n.png" parallaxbias 0.01 parallaxscale 0.05 }
    specular { file "highres/textures/0251_s.png" }
-//   glow { file "highres/textures/0251_g.png" }
 //WARNING: paletted tiles are not modified for polymer use
    pal 10 { file "highres/textures/0251_10_d.png" }
    pal 11 { file "highres/textures/0251_11_22_d.png" }
@@ -675,10 +679,6 @@ texture 312 {
 }
 texture 313 {
    pal 0 { file "highres/textures/0313.png" }
-   // pal 0 { file "highres/textures/0313_d.png" specpower 4.0 specfactor 1.5 }
-   // normal { file "highres/textures/0313_n.png" parallaxbias 0.0 parallaxscale 0.0 }
-   // specular { file "highres/textures/0313_s.png" }
-   // glow { file "highres/textures/0313_g.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
 }
 texture 314 {
@@ -2388,9 +2388,6 @@ texture 1020 { pal 0 { file "highres/textures/1020.png" } }
 
 texture 1024 {
    pal 0 { file "highres/textures/1024.png" }
-   // pal 0 { file "highres/textures/1024_d.png" specpower 4.0 specfactor 1.5 }
-   // normal { file "highres/textures/0313_n.png" parallaxbias 0.0 parallaxscale 0.0 }
-   // specular { file "highres/textures/1024_s.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
 }
 
