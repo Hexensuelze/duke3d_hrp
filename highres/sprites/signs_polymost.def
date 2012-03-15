@@ -347,7 +347,10 @@ texture 4362 { pal 0 { file "highres/sprites/signs/4362.png" } }
 
 texture 4371 { pal 0 { file "highres/sprites/signs/4371.png" nocompress } }
 texture 4376 { pal 0 { file "highres/sprites/signs/4376.png" } }
-texture 4378 { pal 0 { file "highres/sprites/signs/4378_flipped.png" nocompress } }   // non-flipped: "4378.png"
+
+// texture 4378 { pal 0 { file "highres/sprites/signs/4378.png" nocompress } }
+texture 4378 { pal 0 { file "highres/sprites/signs/4378_flipped.png" nocompress } }
+
 // texture 4379 { pal 0 { file "highres/sprites/signs/4379.png" nocompress } }
 
 // S.P.C.H. sign (4380)
@@ -364,7 +367,10 @@ model "highres/sprites/signs/4380_spch.md3" {
 
 texture 4395 { pal 0 { file "highres/sprites/signs/4395.png" nocompress } }
 
-texture 4401 { pal 0 { file "highres/sprites/signs/4401.png" nocompress } }
+texture 4401 {
+   pal 0 { file "highres/sprites/signs/4401.png" nocompress }
+   detail { file "highres/detail/paper_crumpled.png" }
+}
 
 texture 4414 { pal 0 { file "highres/sprites/signs/4414.png" } }
 
