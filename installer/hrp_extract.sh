@@ -68,9 +68,15 @@ copy_set_version()
         >> "${TARGET_FILE}"
       ;;
     duke3d_hrp.def)
-      cat "${VER_FILE}" | sed -r --posix \
-        s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
-        >> "${TARGET_FILE}"
+      if [ "${HRPTYPE}" = "polymer" ] ; then
+        cat "${VER_FILE}" | sed -r --posix \
+          s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\ Polymer\\3/ \
+          >> "${TARGET_FILE}"
+      else
+        cat "${VER_FILE}" | sed -r --posix \
+          s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
+          >> "${TARGET_FILE}"
+      fi
       ;;
     duke3d_hrp_polymost.def)
       if [ "${HRPTYPE}" = "polymost_override" ] ; then
@@ -473,7 +479,10 @@ main()
 PRGPATH=$0
 HRPTYPE=$1
 if [ "$2" = "y" ] ; then FORCE=1 ; else FORCE=0 ; fi
-if [ "$2" = "v" ] && [ ! "$3" = "" ] ; then VERSION="$3" ; fi
+if [ "$2" = "v" ] && [ ! "$3" = "" ] ; then
+  VERSION="$3"
+  echo "${VERSION}" > VERSION
+fi
 HRPROOT=.
 
 cd               "${HRPROOT}"
