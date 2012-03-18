@@ -1,19 +1,22 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.1  2012-03-14
+# Duke Nukem 3D High Resolution Pack Extractor  v0.2  2012-03-17
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
 #
 # This script extracts a PolyMER or PolyMOST only HRP from your working copy of
 # the Duke Nukem 3D High Resolution Pack's Subversion repository.
-# Note : "//" and "/* */"-like comments in DEF files are currently ingnored and
-# may lead to false warning messages or copying of actually unused files.
 # On Windows you need MSYS' zip to create package files.
 # ("mingw-get install msys-zip")
 # MinGW/MSYS performance is horrible, better go Linux. Even my virtual Debian
 # machine accessing the Windows drive is 5 to 10 times faster.
 # But it still sucks. This needs to become a Perl script one day.
+# Or maybe MSYS bash gets finally updated to 4.* and I'll use its regex engine.
+
+SET_VERSION=YES # [YES|NO]
+EXTRACT_COMMENTED_FILES=NO # [YES|NO]
+DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH=none # [none|polymost|polymer|mixed]
 
 ask()
 {
@@ -45,12 +48,63 @@ copy_folders()
 } # copy_folders()
 
 
+copy_set_version()
+{
+  VER_FILE="$1"
+  TARGET_FILE="$2"
+  V_DATE=`date +%F`
+  if [ "${VERSION}" = "" ] ; then
+    if [ -f VERSION ] ; then
+      VERSION=`grep -owE "[0-9\\.]*" VERSION`
+    fi
+  fi
+
+  echo "copy_set_version ${VER_FILE} -> ${TARGET_FILE}"
+
+  case "${VER_FILE}" in
+    hrp_readme.txt)
+      cat "${VER_FILE}" | sed -r --posix \
+        s/\(Version\ *\)\([0-9\.]*\)\(.*\)\(\\\)\)\(.*\)/\\1${VERSION}\ \(${V_DATE}\)\ \ \\5/ \
+        >> "${TARGET_FILE}"
+      ;;
+    duke3d_hrp.def)
+      cat "${VER_FILE}" | sed -r --posix \
+        s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
+        >> "${TARGET_FILE}"
+      ;;
+    duke3d_hrp_polymost.def)
+      if [ "${HRPTYPE}" = "polymost_override" ] ; then
+        cat "${VER_FILE}" | sed -r --posix \
+          s/\(Version\ *\)\([0-9\.]*\)\(\ Polymost\)/\\1${VERSION}\ Polymost\ Override/ \
+          >> "${TARGET_FILE}"
+      else
+        cat "${VER_FILE}" | sed -r --posix \
+          s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
+          >> "${TARGET_FILE}"
+      fi
+      ;;
+    *)
+      echo "###ERROR: copy_set_version() - BAD FILE: ${VER_FILE}"
+      exit 1
+      ;;
+  esac
+}
+
 copy_known_files()
 {
-  cp -pv *.txt      "${EXTRACTDIR}"
+  if [ "${SET_VERSION}" = "YES" ] ; then
+    copy_set_version hrp_readme.txt "${EXTRACTDIR}/hrp_readme.txt"
+  else
+    cp -pv hrp_readme.txt           "${EXTRACTDIR}"
+  fi
+  cp -pv hrp_art_license.txt        "${EXTRACTDIR}"
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ; then
-    cp -pv duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
+    if [ "${SET_VERSION}" = "YES" ] ; then
+      copy_set_version duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
+    else
+      cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
+    fi
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] ; then
@@ -60,7 +114,11 @@ copy_known_files()
   fi
 
   if [ "${HRPTYPE}" = "full" ] ; then
-    cp -pv duke3d_hrp_polymost.def "${EXTRACTDIR}"
+    if [ "${SET_VERSION}" = "YES" ] ; then
+      copy_set_version duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp_polymost.def"
+    else
+      cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}"
+    fi
   fi
 
   if [ "${HRPTYPE}" = "polymost_override" ] || [ "${HRPTYPE}" = "full" ] ; then
@@ -69,23 +127,26 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
     cp -pv duke3d.def                   "${EXTRACTDIR}"
-    cp -pv duke3d_hrp.def               "${EXTRACTDIR}"
+    if [ "${SET_VERSION}" = "YES" ] ; then
+      copy_set_version duke3d_hrp.def "${EXTRACTDIR}/duke3d_hrp.def"
+    else
+      cp -pv           duke3d_hrp.def "${EXTRACTDIR}"
+    fi
     echo                  "\`*.mhk' -> \`${EXTRACTDIR}/*.mhk'"
     cp -p  *.mhk                        "${EXTRACTDIR}"
     #cp -pv highres/screen/menu/2492.png "${EXTRACTDIR}/highres/screen/menu"
 
-    #cp -pv highres/common/black.png                       "${EXTRACTDIR}/highres/common"
-    #cp -pv highres/screen/fonts/digital/digital_minus.png "${EXTRACTDIR}/highres/screen/fonts/digital"
-    #cp -pv highres/screen/menu/2493_old.png               "${EXTRACTDIR}/highres/screen/menu"
-    #cp -pv highres/sprites/monsters/1960_reconcar_s.png   "${EXTRACTDIR}/highres/sprites/monsters"
-    #cp -pv highres/sprites/props/4387.png                 "${EXTRACTDIR}/highres/sprites/props"
-    #cp -pv highres/sprites/signs/4378.png                 "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4379.png                 "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4381.png                 "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4382.png                 "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4383.png                 "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4384.png                 "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4385.png                 "${EXTRACTDIR}/highres/sprites/signs"
+    #cp -pv highres/common/black.png                          "${EXTRACTDIR}/highres/common"
+    #cp -pv highres/screen/fonts/digital/digital_minus.png    "${EXTRACTDIR}/highres/screen/fonts/digital"
+    #cp -pv highres/screen/menu/2493_old.png                  "${EXTRACTDIR}/highres/screen/menu"
+    #cp -pv highres/screen/menu/widescreen/*_wide.png         "${EXTRACTDIR}/highres/screen/menu"
+    #cp -pv highres/sprites/characters/1357_terminarm.md3     "${EXTRACTDIR}/highres/sprites/characters"
+    #cp -pv highres/sprites/firstperson/2510_devastator_n.png "${EXTRACTDIR}/highres/sprites/firstperson"
+    #cp -pv highres/sprites/monsters/1960_reconcar_s.png      "${EXTRACTDIR}/highres/sprites/monsters"
+    #cp -pv highres/sprites/props/4387.png                    "${EXTRACTDIR}/highres/sprites/props"
+    #cp -pv highres/sprites/signs/4378.png                    "${EXTRACTDIR}/highres/sprites/signs"
+    #cp -pv highres/sprites/signs/4379.png                    "${EXTRACTDIR}/highres/sprites/signs"
+    #cp -pv highres/sprites/signs/4381-85.png                 "${EXTRACTDIR}/highres/sprites/signs"
   fi
 
 } # copy_known_files()
@@ -121,10 +182,10 @@ polymost_mhk_patch()
         MHK_INSERT=`echo "${MHK_LINE}" | grep -oE "sprite\ 96\ pitch\ 1"`
         if [ ! "${MHK_INSERT}" = "" ] ; then
           echo "sprite 105 mdxoff 450000 // underwater slime babe (Polymost HRP)\r" \
-               >> "${EXTRACTDIR}/${MHKFILE}"
+                                      >> "${EXTRACTDIR}/${MHKFILE}"
           echo "sprite 105 pitch 1\r" >> "${EXTRACTDIR}/${MHKFILE}"
           echo "sprite 447 mdxoff 462000 // underwater slime babe (Polymost HRP)\r" \
-               >> "${EXTRACTDIR}/${MHKFILE}"
+                                      >> "${EXTRACTDIR}/${MHKFILE}"
           echo "sprite 447 pitch 1\r" >> "${EXTRACTDIR}/${MHKFILE}"
         fi
       fi
@@ -133,14 +194,14 @@ polymost_mhk_patch()
       MHK_REPLACE1=`echo "${MHK_LINE}" | grep -oE "sprite\ 307\ angoff -210"`
       MHK_REPLACE2=`echo "${MHK_LINE}" | grep -oE "sprite\ 307\ mdxoff -125000 \\/\\/\ flipped hanging babe"`
       MHK_REPLACE3=`echo "${MHK_LINE}" | grep -oE "sprite\ 307\ mdzoff -11000"`
-      if [ ! "${MHK_REPLACE1}" = "" ] ; then
+      if   [ ! "${MHK_REPLACE1}" = "" ] ; then
         echo "sprite 307 angoff 200 // (Polymost HRP)\r" >> "${EXTRACTDIR}/${MHKFILE}"
       elif [ ! "${MHK_REPLACE2}" = "" ] ; then
         echo "sprite 307 mdxoff 750000 // flipped hanging babe (Polymost HRP)\r" \
-        >> "${EXTRACTDIR}/${MHKFILE}"
+             >> "${EXTRACTDIR}/${MHKFILE}"
       elif [ ! "${MHK_REPLACE3}" = "" ] ; then
         echo "sprite 307 mdzoff 625000 // flipped hanging babe (Polymost HRP)\r" \
-        >> "${EXTRACTDIR}/${MHKFILE}"
+             >> "${EXTRACTDIR}/${MHKFILE}"
       else
         echo "${MHK_LINE}" >> "${EXTRACTDIR}/${MHKFILE}"
       fi
@@ -178,15 +239,99 @@ create_polymost_mhk()
 } # create_polymost_mhk()
 
 
-duke_plus_compatibility()
+# I really don't know yet if this will become necessary, or if it doesn't make
+# sense at all, but at least the files involved are listed.
+dukeplus_polymost_compatibility()
 {
-  echo "DukePlus compatibility patch for Polymost HRP export is not yet implemented."
-} # duke_plus_compatibility()
+  # dukeplus.def expects some files to be present in the HRP
+  #
+  # model "highres/sprites/characters/1405_duke.md3" { // all OK, no action required
+  #    skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
+  #    skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
+  #    skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
+  #    skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
+  #    skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
+  #    skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
+  #    skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
+  #    skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
+  #    skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
+  #    skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
+  #    skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
+  #    skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
+  #
+  # model "highres/sprites/firstperson/2510_devastator.md3" { // since Imperium, not Eternity
+  #    skin { pal 0 file "highres/sprites/firstperson/2510_devastator.png" specfactor 0.5 specpower 35 }
+  #    specular { file "highres/sprites/firstperson/2510_devastator_s.png" }
+  #    glow { file "highres/sprites/firstperson/2510_devastator_g.png" }
+  #
+  # model "highres/sprites/firstperson/2524_pistol.md3" {    // most/mer : same MD3 + same skin til r295     
+  #    skin { pal 0 file "highres/sprites/firstperson/2524_pistol.png" } // up to DP2.30 DNE/IMP only
+  #    glow { file "highres/sprites/firstperson/2524_pistol_g.png" }     // up to DP2.30 DNE/IMP only
+  # model "highres/sprites/firstperson/2530_clip.md3" {                  // most/mer : diff MD3, same skin
+  #    skin { pal 0 file "highres/sprites/pickups/0040_pistolammo.jpg" }
+  # model "highres/sprites/firstperson/2532_cliphand.md3" {  // most/mer : same MD3 + same skin til r295
+  #    skin { pal 0 file "highres/sprites/firstperson/2532_cliphand.png" } // til r295, then duke_hand_*
+  #
+
+  SPR="highres/sprites"
+  SPRE="${EXTRACTDIR}/highres/sprites"
+  PATCHTYPE=$1
+
+  case "$PATCHTYPE" in
+    polymer)
+      echo "  # Using \"Polymer approach\")"
+      cp -pi $SPR/firstperson/2510_devastator.md3            "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2510_devastator.png            "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2510_devastator_g.png          "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2524_pistol.md3                "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2530_clip.md3                  "$SPRE/firstperson"
+      cp -pi $SPR/pickups/0040_pistolammo.jpg                "$SPRE/pickups"
+      cp -pi $SPR/firstperson/2532_cliphand.md3              "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2532_cliphand.png              "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/duke_hand_d.png                "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/duke_hand_n.png                "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson"
+      ;;
+    polymost)
+      echo "  # Using (\"Polymost approach\")"
+      cp -pi $SPR/firstperson_polymost/2510_devastator.md3   "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2510_devastator.png   "$SPRE/firstperson"
+      #cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2510_devastator_g.png "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2524_pistol.md3       "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson"
+      cp -pi $SPR/firstperson_polymost/2530_clip.md3         "$SPRE/firstperson"
+      cp -pi $SPR/pickups/0040_pistolammo.jpg                "$SPRE/pickups"
+      cp -pi $SPR/firstperson_polymost/2532_cliphand.md3     "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2532_cliphand.png              "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/duke_hand_d.png                "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/duke_hand_n.png                "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson"
+      ;;
+    mixed)
+      echo "  # Using (\"Mixed approach\")"
+      echo "    # Not applied / Not yet implemented"
+      ;;
+    none)
+      #echo "  Not applied"
+      echo "  # Not yet implemented"
+      ;;
+    *)
+      echo "  # Bad parameter"
+      ;;
+  esac
+
+} # dukeplus_polymost_compatibility()
 
 
 parse_defs()
 {
   echo "$1"
+  BLOCK_COMMENT="OFF"
   cat $1 | while read DEF_LINE; do
 
     #DOS only: DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ //`
@@ -197,6 +342,24 @@ parse_defs()
     fi
 
     HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|front|right|back|left|top|down"`
+
+    if [ ! "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
+
+      COMMENT_TERM=`echo "${DEF_LINE}" | grep -oE "\\/\\*|\\*\\/"`
+      if [ "$COMMENT_TERM"  = "/*" ] ; then BLOCK_COMMENT="ON" ; fi
+
+      if [ "$BLOCK_COMMENT" = "ON" ] ; then HRP_TERM="" ; fi
+
+      if [ "$COMMENT_TERM"  = "*/" ] ; then BLOCK_COMMENT="OFF" ; fi
+
+      if [ ! "$HRP_TERM" = "" ] ; then
+        HRP_COMMENT=`echo "${DEF_LINE}" | grep -E "//.*$HRP_TERM"`
+        if [ ! "$HRP_COMMENT" = "" ] ; then
+          HRP_TERM=""
+        fi
+      fi
+
+    fi
 
     case "$HRP_TERM" in
       file)
@@ -279,11 +442,16 @@ main()
     echo "### Creating Polymost maphacks ... ###"
     create_polymost_mhk
 
-    #echo "### Duke Plus compatibility patch ... ###"
-    #duke_plus_compatibility
+    #echo "### DukePlus<>Polymost HRP compatibility patch ... ###"
+    #dukeplus_polymost_compatibility $DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH
   fi
 
   echo "### Parsing DEF file hierarchy ... ###"
+  if [ "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
+    echo "  # Extract commented textures and models: $EXTRACT_COMMENTED_FILES"
+  else
+    echo "  # Extract commented textures and models: NO"
+  fi
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "full" ] ; then
     parse_defs duke3d_hrp_polymost.def
   fi
@@ -305,6 +473,7 @@ main()
 PRGPATH=$0
 HRPTYPE=$1
 if [ "$2" = "y" ] ; then FORCE=1 ; else FORCE=0 ; fi
+if [ "$2" = "v" ] && [ ! "$3" = "" ] ; then VERSION="$3" ; fi
 HRPROOT=.
 
 cd               "${HRPROOT}"
@@ -352,7 +521,7 @@ case "$HRPTYPE" in
     echo "Nothing to debug."
     ;;
   *)
-    echo "Usage: ${0} {full|polymer|polymost_override|polymost|both|all}"
+    echo "Usage: ${0} {full|polymer|polymost_override|polymost|both|all} [v VERSION]"
     exit 1
     ;;
 esac
