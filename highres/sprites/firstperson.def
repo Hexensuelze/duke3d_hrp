@@ -113,8 +113,10 @@ model "highres/sprites/firstperson/2524_pistol.md3" {
 
 model "highres/sprites/firstperson/2530_clip.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/pickups/0040_pistolammo.jpg" }
-   frame { name "Frame0" tile0 2530 tile1 2531 }
+   skin { pal 0 file "highres/sprites/pickups/0040_clip_d.png" }
+   normal { pal 0 file "highres/sprites/pickups/0040_clip_n.png" }
+   specular { pal 0 file "highres/sprites/pickups/0040_clip_s.png" }
+   frame { name "frame_1" tile0 2530 tile1 2531 }
    hud { tile 2530 xadd 0.38 yadd 0.9 zadd -0.28 angadd -37 fov 330 }
 }
 
@@ -124,7 +126,7 @@ model "highres/sprites/firstperson/2532_cliphand.md3" {
    specular { pal 0 file "highres/sprites/firstperson/duke_hand_s.png" }
    normal { pal 0 file "highres/sprites/firstperson/duke_hand_n.png" }
    frame { name "frame_1" tile 2532 }
-   hud { tile 2532 xadd 0.35 yadd 1.36 zadd -0.48 angadd -37 }
+   hud { tile 2532 xadd 0.35 yadd 1.36 zadd -0.48 angadd -37 fov 360 }
 }
 
 // Chaingun (2536)
