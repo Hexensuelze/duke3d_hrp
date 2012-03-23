@@ -96,6 +96,11 @@ copy_set_version()
   esac
 }
 
+tar_copy_dir()
+{
+  (cd ${1}; tar cf - . ) | (cd ${2}; tar xf -)
+}
+
 copy_known_files()
 {
   if [ "${SET_VERSION}" = "YES" ] ; then
@@ -153,6 +158,36 @@ copy_known_files()
     #cp -pv highres/sprites/signs/4378.png                    "${EXTRACTDIR}/highres/sprites/signs"
     #cp -pv highres/sprites/signs/4379.png                    "${EXTRACTDIR}/highres/sprites/signs"
     #cp -pv highres/sprites/signs/4381-85.png                 "${EXTRACTDIR}/highres/sprites/signs"
+  fi
+
+  if [ "${HRPTYPE}" = "voxel" ] ; then
+    cp -pv readme.txt             "${EXTRACTDIR}"
+    cp -pv voxelp_art_license.txt "${EXTRACTDIR}"
+    cp -pv duke3d.def             "${EXTRACTDIR}"
+    cp -pv duke3d_voxel.def       "${EXTRACTDIR}"
+    echo            "\`*.mhk' -> \`${EXTRACTDIR}/*.mhk'"
+    cp -p  *.mhk                  "${EXTRACTDIR}"
+  fi
+
+  if [ "${HRPTYPE}" = "sw_highres" ] ; then
+    cp -pv sw.def                   "${EXTRACTDIR}"
+    cp -pv highres/sw.def           "${EXTRACTDIR}/highres"
+    cp -pv HRP.bat                  "${EXTRACTDIR}"
+    cp -pv HRP_Readme.txt           "${EXTRACTDIR}"
+    cp -pv HRP_Changes.txt          "${EXTRACTDIR}"
+    echo "Copying skyboxes ..."
+    tar_copy_dir "highres/skyboxes" "${EXTRACTDIR}/highres/skyboxes"
+    cd "${WORKDIR}"
+  fi
+
+  if [ "${HRPTYPE}" = "sw_lowres" ] ; then
+    cp -pv lowres/sw.def            "${EXTRACTDIR}/lowres"
+    cp -pv LRP.bat                  "${EXTRACTDIR}"
+    cp -pv LRP_Readme.txt           "${EXTRACTDIR}"
+    cp -pv LRP_Changes.txt          "${EXTRACTDIR}"
+    echo "Copying skyboxes ..."
+    tar_copy_dir "highres/skyboxes" "${EXTRACTDIR}/highres/skyboxes"
+    cd "${WORKDIR}"
   fi
 
 } # copy_known_files()
@@ -347,7 +382,7 @@ parse_defs()
       parse_defs "${DEF_FILE}"
     fi
 
-    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|front|right|back|left|top|down"`
+    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|voxel|front|right|back|left|top|down"`
 
     if [ ! "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
 
@@ -377,6 +412,9 @@ parse_defs()
         ;;
       model)
         HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*model\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
+        ;;
+      voxel)
+        HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*voxel\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
         ;;
       front|right|back|left|top|down)
         #HRP_FILE=`echo "${DEF_LINE}" | sed -r s/^.*${HRP_TERM}\ *\"//g | sed s/\".*//`
@@ -464,6 +502,15 @@ main()
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
     parse_defs duke3d_hrp.def
   fi
+  if [ "${HRPTYPE}" = "voxel" ] ; then
+    parse_defs duke3d_voxel.def
+  fi
+  if [ "${HRPTYPE}" = "sw_highres" ] ; then
+    parse_defs highres/sw.def
+  fi
+  if [ "${HRPTYPE}" = "sw_lowres" ] ; then
+    parse_defs lowres/sw.def
+  fi
 
   echo "### Deleting empty directories in ${EXTRACTDIR} ... ###"
   delete_empty_folders
@@ -484,10 +531,11 @@ if [ "$2" = "v" ] && [ ! "$3" = "" ] ; then
   echo "${VERSION}" > VERSION
 fi
 HRPROOT=.
+WORKDIR=`pwd`
 
 cd               "${HRPROOT}"
-echo  "PWD     :" `pwd`
-echo  "HRPROOT :" ${HRPROOT}
+echo  "PWD     :  ${WORKDIR}"
+echo  "HRPROOT :  ${HRPROOT}"
 
 if [ ! -f "./duke3d.def" ] ; then
   echo "ERROR : ./duke3d.def not found. This is no HRP root directory. Exit."
@@ -522,9 +570,24 @@ case "$HRPTYPE" in
     ${PRGPATH} both y
     ${PRGPATH} full y
     ;;
+  voxel)
+    SET_VERSION=NO
+    main $HRPTYPE
+    ;;
+  sw_highres|sw_lowres)
+    SET_VERSION=NO
+    main $HRPTYPE
+    ;;
+  sw_both)
+    if [ $FORCE = 0 ] ; then if ask "Extract both Shadow Warrior HRP/LRP?"
+      then echo "Extracting ${HRPTYPE} from \"${HRPROOT}\" "
+      else exit 0
+    fi ; fi
+    ${PRGPATH} sw_lowres  y
+    ${PRGPATH} sw_highres y
+    ;;
   unused)
     echo "Option \"$1\" not yet implemented."
-    ##(cd ${1}; tar cf - . ) | (cd ${2}; tar xf -)
     ;;
   debug)
     echo "Nothing to debug."
