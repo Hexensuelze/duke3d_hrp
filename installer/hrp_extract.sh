@@ -1,18 +1,18 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.2  2012-03-17
+# Duke Nukem 3D High Resolution Pack Extractor  v0.3  2012-03-24
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
 #
-# This script extracts a PolyMER or PolyMOST only HRP from your working copy of
-# the Duke Nukem 3D High Resolution Pack's Subversion repository.
-# On Windows you need MSYS' zip to create package files.
+# This script extracts a PolyMER or PolyMOST only HRP from your working copy
+# of the Duke Nukem 3D High Resolution Pack's Subversion repository.
+# On Windows you might want MSYS' zip to create package files.
 # ("mingw-get install msys-zip")
 # MinGW/MSYS performance is horrible, better go Linux. Even my virtual Debian
 # machine accessing the Windows drive is 5 to 10 times faster.
 # But it still sucks. This needs to become a Perl script one day.
-# Or maybe MSYS bash gets finally updated to 4.* and I'll use its regex engine.
+# Or maybe MSYS' bash gets finally updated to 4.* and I'll use its regex engine.
 
 DEF_TOP=UNDEFINED
 SET_VERSION=YES            # [YES|NO]
@@ -172,7 +172,7 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "sw_highres" ] ; then
     cp -pv sw.def                   "${EXTRACTDIR}"
-    cp -pv highres/sw.def           "${EXTRACTDIR}/highres"
+    cp -pv highres/sw_hrp.def       "${EXTRACTDIR}/highres"
     cp -pv HRP.bat                  "${EXTRACTDIR}"
     cp -pv HRP_Readme.txt           "${EXTRACTDIR}"
     cp -pv HRP_Changes.txt          "${EXTRACTDIR}"
@@ -182,7 +182,7 @@ copy_known_files()
   fi
 
   if [ "${HRPTYPE}" = "sw_lowres" ] ; then
-    cp -pv lowres/sw.def            "${EXTRACTDIR}/lowres"
+    cp -pv lowres/sw_lrp.def        "${EXTRACTDIR}/lowres"
     cp -pv LRP.bat                  "${EXTRACTDIR}"
     cp -pv LRP_Readme.txt           "${EXTRACTDIR}"
     cp -pv LRP_Changes.txt          "${EXTRACTDIR}"
@@ -389,7 +389,8 @@ parse_defs()
       parse_defs "${DEF_FILE}"
     fi
 
-    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|voxel|front|right|back|left|top|down"`
+    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|voxel|front|right|back|left|top|bottom|down"`
+    #More skybox tokens: tile, pal, ft|rt|bk|lf|up|dn|forward|lt|ceiling|floor|ceil
 
     if [ ! "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
 
@@ -420,7 +421,7 @@ parse_defs()
       model|voxel)
         HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*${HRP_TERM}\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
         ;;
-      front|right|back|left|top|down)
+      front|right|back|left|top|bottom|down)
         #HRP_FILE=`echo "${DEF_LINE}" | sed -r s/^.*${HRP_TERM}\ *\"//g | sed s/\".*//`
         HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*${HRP_TERM}\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
         ;;
@@ -510,10 +511,10 @@ main()
     parse_defs duke3d_voxel.def
   fi
   if [ "${HRPTYPE}" = "sw_highres" ] ; then
-    parse_defs highres/sw.def
+    parse_defs highres/sw_hrp.def
   fi
   if [ "${HRPTYPE}" = "sw_lowres" ] ; then
-    parse_defs lowres/sw.def
+    parse_defs lowres/sw_lrp.def
   fi
   if [ "${HRPTYPE}" = "default" ] ; then
     parse_defs "${DEF_TOP}"
@@ -544,12 +545,10 @@ cd               "${HRPROOT}"
 echo  "PWD     :  ${WORKDIR}"
 echo  "HRPROOT :  ${HRPROOT}"
 
-if [ ! -f "./duke3d.def" ] ; then
-  if [ ! -f "./${HRPTYPE}.def" ] ; then
-    echo "ERROR : ./duke3d.def or ./${HRPTYPE}.def not found. This is no HRP root directory. Exit."
-    exit 1
-  fi
-fi
+#if [ ! -f "./duke3d.def" ] && [ ! "${HRPTYPE}" = "default" ] ; then
+#  echo "ERROR : ./duke3d.def not found. This is no HRP root directory. Exit."
+#  exit 1
+#fi
 
 case "$HRPTYPE" in
   polymer|polymost_override|polymost)
@@ -602,6 +601,10 @@ case "$HRPTYPE" in
     echo "Nothing to debug."
     ;;
   *)
+    #if [ ! -f "./${HRPTYPE}.def" ] ; then
+    #  echo "ERROR : ./${HRPTYPE}.def not found. This is no HRP root directory. Exit."
+    #  exit 1
+    #fi
     if [ -f "${HRPTYPE}.def" ] ; then
       DEF_TOP="${HRPTYPE}.def"
       HRPTYPE=default
