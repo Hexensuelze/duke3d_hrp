@@ -14,7 +14,8 @@
 # But it still sucks. This needs to become a Perl script one day.
 # Or maybe MSYS bash gets finally updated to 4.* and I'll use its regex engine.
 
-SET_VERSION=YES # [YES|NO]
+DEF_TOP=UNDEFINED
+SET_VERSION=YES            # [YES|NO]
 EXTRACT_COMMENTED_FILES=NO # [YES|NO]
 DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH=none # [none|polymost|polymer|mixed]
 
@@ -188,6 +189,12 @@ copy_known_files()
     echo "Copying skyboxes ..."
     tar_copy_dir "highres/skyboxes" "${EXTRACTDIR}/highres/skyboxes"
     cd "${WORKDIR}"
+  fi
+
+  if [ "${HRPTYPE}" = "default" ] ; then
+    cp -pv  "${DEF_TOP}"          "${EXTRACTDIR}/${DEF_TOP}"
+    echo            "\`*.txt' -> \`${EXTRACTDIR}/*.txt'"
+    cp -p  *.txt                  "${EXTRACTDIR}"
   fi
 
 } # copy_known_files()
@@ -410,11 +417,8 @@ parse_defs()
         # Ignore comments WIP:
         #HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*file\\ *\\)\\(\\"\\(.*\\)\\"\\)\\(.*\\)/\\\3/`
         ;;
-      model)
-        HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*model\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
-        ;;
-      voxel)
-        HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*voxel\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
+      model|voxel)
+        HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*${HRP_TERM}\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
         ;;
       front|right|back|left|top|down)
         #HRP_FILE=`echo "${DEF_LINE}" | sed -r s/^.*${HRP_TERM}\ *\"//g | sed s/\".*//`
@@ -511,6 +515,9 @@ main()
   if [ "${HRPTYPE}" = "sw_lowres" ] ; then
     parse_defs lowres/sw.def
   fi
+  if [ "${HRPTYPE}" = "default" ] ; then
+    parse_defs "${DEF_TOP}"
+  fi
 
   echo "### Deleting empty directories in ${EXTRACTDIR} ... ###"
   delete_empty_folders
@@ -538,8 +545,10 @@ echo  "PWD     :  ${WORKDIR}"
 echo  "HRPROOT :  ${HRPROOT}"
 
 if [ ! -f "./duke3d.def" ] ; then
-  echo "ERROR : ./duke3d.def not found. This is no HRP root directory. Exit."
-  exit 1
+  if [ ! -f "./${HRPTYPE}.def" ] ; then
+    echo "ERROR : ./duke3d.def or ./${HRPTYPE}.def not found. This is no HRP root directory. Exit."
+    exit 1
+  fi
 fi
 
 case "$HRPTYPE" in
@@ -593,8 +602,19 @@ case "$HRPTYPE" in
     echo "Nothing to debug."
     ;;
   *)
-    echo "Usage: ${0} {full|polymer|polymost_override|polymost|both|all} [v VERSION]"
-    exit 1
+    if [ -f "${HRPTYPE}.def" ] ; then
+      DEF_TOP="${HRPTYPE}.def"
+      HRPTYPE=default
+      SET_VERSION=NO
+      EXTRACT_COMMENTED_FILES=NO
+      main $HRPTYPE
+    else
+      echo "Usage: ${0} {HRPTYPE|TOP_DEF} [v VERSION]"
+      echo "HRPTYPEs: {full|polymer|polymost_override|polymost|both|all}"
+      echo "HRPTYPEs: {sw_highres|sw_lowres|sw_both}"
+      echo "TOP_DEF:  {Filename without extension}"
+      exit 1
+    fi
     ;;
 esac
 
