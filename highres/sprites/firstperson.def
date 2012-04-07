@@ -330,23 +330,33 @@ model "highres/sprites/firstperson/2581_scuba.md3" {
 
 // Shotgun (2613)
 model "highres/sprites/firstperson/2613_shotgun.md3" {
-   scale 1.7
-   skin { pal 0 file "highres/sprites/firstperson/2613_shotgun.png" }
-   frame { name "2613" tile 2613 }
-   frame { name "2613" tile 2614 }
-   frame { name "2613" tile 2615 }
-   frame { name "2616" tile 2616 }
-   frame { name "2617" tile 2617 }
-   frame { name "2618" tile 2618 }
-   frame { name "2619" tile 2619 }
-   // anim { frame0 "pump1" frame1 "pump2" fps 30 flags 1 }
-   // frame { name "pump1" tile0 2617 tile1 2619 }
-   hud { tile 2613 xadd 0.12 yadd 1.15 zadd -0.4 angadd -24 fov 280 }
-   hud { tile 2616 xadd 0.053 yadd 1.15 zadd -0.4 angadd -24 fov 280 }
-   hud { tile 2617 xadd -0.21 yadd 1.15 zadd -0.4 angadd -24 fov 280 }
-   hud { tile 2618 xadd -0.474 yadd 1.15 zadd -0.7 angadd -24 fov 280 }
-   hud { tile 2619 xadd -0.474 yadd 1.15 zadd -0.7 angadd -24 fov 280 }
+   scale 2
+   skin { pal 0 surface 2 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 20 specfactor 1.5 }
+   normal { pal 0 surface 2 file "highres/sprites/pickups/0028_shotgun_n.png" }
+   specular { pal 0 surface 2 file "highres/sprites/pickups/0028_shotgun_s.png" }
+   skin { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 20 specfactor 1.5 }
+   normal { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_n.png" }
+   specular { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_s.png" }
+   skin { pal 0 surface 3 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 20 specfactor 1.5 }
+   normal { pal 0 surface 3 file "highres/sprites/pickups/0028_shotgun_n.png" }
+   specular { pal 0 surface 3 file "highres/sprites/pickups/0028_shotgun_s.png" }
+   skin { pal 0 surface 4 file "highres/sprites/firstperson/2615x.png" }
+   glow { pal 0 surface 4 file "highres/sprites/firstperson/2615x.png" } 
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
+   specular { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
+   normal { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }  
+   frame { name "frame1" tile 2613 }
+   frame { name "frame2" tile 2616 }
+  // frame { name "frame3" tile 2617 }
+  // frame { name "frame4" tile 2618 }
+  // frame { name "frame5" tile 2619 }
+   anim { frame0 "frame3" frame1 "frame5" fps 5.6 flags 1 }
+   frame { name "frame3" tile0 2617 tile1 2619 }
+   hud { tile 2613 xadd 0.12 yadd 1.35 zadd -0.9 angadd -24 fov 300 }
+   hud { tile 2616 xadd -0.02 yadd 1.25 zadd -0.9 angadd -24 fov 300 }
+   hud { tile 2617 xadd -0.08 yadd 1.25 zadd -0.9 angadd -24 fov 300 }
+   hud { tile 2618 xadd -0.12 yadd 1.25 zadd -0.9 angadd -24 fov 300 }
+   hud { tile 2619 xadd -0.16 yadd 1.25 zadd -0.9 angadd -24 fov 300 }
+   frame { name "frame7" tile 2615 }
+   hud { tile 2615 hide }
 }
-
-// Shotgun muzzleflash (2614-2615)
-texture 2615 { pal 0 { file "highres/sprites/firstperson/2615.png" } }
