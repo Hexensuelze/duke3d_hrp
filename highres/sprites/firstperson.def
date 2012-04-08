@@ -54,15 +54,6 @@ model "highres/sprites/firstperson/2510_devastator.md3" {
 model "highres/sprites/firstperson/2521_mightyboot.md3" {
    scale 9
    skin { pal 0 file "highres/sprites/firstperson/2521_mightyboot.jpg" }
-   skin { pal 10 file "highres/sprites/firstperson/2521_mightyboot_10.jpg" }
-   skin { pal 11 file "highres/sprites/firstperson/2521_mightyboot_11.jpg" }
-   skin { pal 12 file "highres/sprites/firstperson/2521_mightyboot_12.jpg" }
-   skin { pal 13 file "highres/sprites/firstperson/2521_mightyboot_13.jpg" }
-   skin { pal 14 file "highres/sprites/firstperson/2521_mightyboot_14.jpg" }
-   skin { pal 15 file "highres/sprites/firstperson/2521_mightyboot_15.jpg" }
-   skin { pal 16 file "highres/sprites/firstperson/2521_mightyboot_16.jpg" }
-   skin { pal 21 file "highres/sprites/firstperson/2521_mightyboot_21.jpg" }
-   skin { pal 23 file "highres/sprites/firstperson/2521_mightyboot_23.jpg" }
    frame { name "FRAME1" tile 2521 }
    hud { tile 2521 xadd 0.1 yadd 2.0 zadd 2.5 angadd 600 }
    hud { tile 2521 xadd -1.0 yadd 1.8 zadd 2.5 angadd 550 flipped }  // Quick Kick
@@ -72,15 +63,6 @@ model "highres/sprites/firstperson/2521_mightyboot.md3" {
 model "highres/sprites/firstperson/2522_mightyboot.md3" {
    scale 9
    skin { pal 0 file "highres/sprites/firstperson/2521_mightyboot.jpg" }
-   skin { pal 10 file "highres/sprites/firstperson/2521_mightyboot_10.jpg" }
-   skin { pal 11 file "highres/sprites/firstperson/2521_mightyboot_11.jpg" }
-   skin { pal 12 file "highres/sprites/firstperson/2521_mightyboot_12.jpg" }
-   skin { pal 13 file "highres/sprites/firstperson/2521_mightyboot_13.jpg" }
-   skin { pal 14 file "highres/sprites/firstperson/2521_mightyboot_14.jpg" }
-   skin { pal 15 file "highres/sprites/firstperson/2521_mightyboot_15.jpg" }
-   skin { pal 16 file "highres/sprites/firstperson/2521_mightyboot_16.jpg" }
-   skin { pal 21 file "highres/sprites/firstperson/2521_mightyboot_21.jpg" }
-   skin { pal 23 file "highres/sprites/firstperson/2521_mightyboot_23.jpg" }
    frame { name "FRAME1" tile 2522 }
    hud { tile 2522 xadd -0.01 yadd 2.5 zadd 2.5 angadd 550 }
    hud { tile 2522 xadd 0.01 yadd 1.5 zadd 2.5 angadd 600 flipped }  // Quick Kick
@@ -337,14 +319,14 @@ model "highres/sprites/firstperson/2613_shotgun.md3" {
    skin { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 20 specfactor 1.5 }
    normal { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_n.png" }
    specular { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_s.png" }
-   skin { pal 0 surface 3 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 20 specfactor 1.5 }
-   normal { pal 0 surface 3 file "highres/sprites/pickups/0028_shotgun_n.png" }
-   specular { pal 0 surface 3 file "highres/sprites/pickups/0028_shotgun_s.png" }
-   skin { pal 0 surface 4 file "highres/sprites/firstperson/2615.png" }
-   glow { pal 0 surface 4 file "highres/sprites/firstperson/2615.png" } 
-   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
-   specular { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
-   normal { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }  
+   skin { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 20 specfactor 1.5 }
+   normal { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_n.png" }
+   specular { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_s.png" }
+   skin { pal 0 surface 3 file "highres/sprites/firstperson/2615.png" }
+   glow { pal 0 surface 3 file "highres/sprites/firstperson/2615.png" } 
+   skin { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_d.png" }
+   specular { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_s.png" }
+   normal { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_n.png" }  
    frame { name "frame1" tile 2613 }
    frame { name "frame2" tile 2616 }
    frame { name "frame3" tile 2617 }
