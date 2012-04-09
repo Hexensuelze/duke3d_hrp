@@ -326,16 +326,14 @@ model "highres/sprites/firstperson/2613_shotgun.md3" {
    glow { pal 0 surface 3 file "highres/sprites/firstperson/2615.png" } 
    skin { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_d.png" }
    specular { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_s.png" }
-   normal { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_n.png" }  
+   normal { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_n.png" } 
    frame { name "frame1" tile 2613 }
    frame { name "frame2" tile 2616 }
    frame { name "frame3" tile 2617 }
    frame { name "frame4" tile 2618 }
    frame { name "frame5" tile 2619 }
-  // anim { frame0 "frame3" frame1 "frame5" fps 5.6 flags 1 }
-  // frame { name "frame3" tile0 2617 tile1 2619 }
    hud { tile 2613 xadd  0.12 yadd 1.4 zadd -0.9 angadd -24 fov 300 }
-   hud { tile 2616 xadd -0.2 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
+   hud { tile 2616 xadd -0.0 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
    hud { tile 2617 xadd -0.5 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
    hud { tile 2618 xadd -0.6 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
    hud { tile 2619 xadd -0.65 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
