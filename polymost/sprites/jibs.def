@@ -1,0 +1,225 @@
+
+// Duke3D HRP Gibs Definitions
+
+
+// Duke Gibs Torso (1520)
+model "polymost/sprites/jibs/1520_duketorso.md3" {
+   scale 13 shade 3
+   skin { pal 0 file "polymost/sprites/jibs/1520_duketorso.png" }
+   skin { pal 10 file "polymost/sprites/jibs/1520_duketorso_10.png" }
+   skin { pal 11 file "polymost/sprites/jibs/1520_duketorso_11_22.png" }
+   skin { pal 12 file "polymost/sprites/jibs/1520_duketorso_12_18.png" }
+   skin { pal 13 file "polymost/sprites/jibs/1520_duketorso_13.png" }
+   skin { pal 14 file "polymost/sprites/jibs/1520_duketorso_14.png" }
+   skin { pal 15 file "polymost/sprites/jibs/1520_duketorso_15.png" }
+   skin { pal 16 file "polymost/sprites/jibs/1520_duketorso_16.png" }
+   skin { pal 18 file "polymost/sprites/jibs/1520_duketorso_12_18.png" }
+   skin { pal 21 file "polymost/sprites/jibs/1520_duketorso_21.png" }
+   skin { pal 22 file "polymost/sprites/jibs/1520_duketorso_11_22.png" }
+   skin { pal 23 file "polymost/sprites/jibs/1520_duketorso_23.png" }
+   anim { frame0 "FRAME5" frame1 "FRAME12" fps 15 flags 0 }
+   frame { name "FRAME5" tile0 1520 tile1 1527 }
+}
+
+// Duke Gibs Arm (1528)
+model "polymost/sprites/jibs/1528_dukearm.md3" {
+   scale 15 shade 3
+   skin { pal 0 file "polymost/sprites/jibs/1528_dukearm.png" }
+   anim { frame0 "FRAME4" frame1 "FRAME11" fps 15 flags 0 }
+   frame { name "FRAME4" tile0 1528 tile1 1535 }
+}
+
+// Duke Gibs Leg (1536)
+model "polymost/sprites/jibs/1536_dukeleg.md3" {
+   scale 15 shade 3
+   skin { pal 0 file "polymost/sprites/jibs/1536_dukeleg.png" }
+   skin { pal 10 file "polymost/sprites/jibs/1536_dukeleg_10.png" }
+   skin { pal 11 file "polymost/sprites/jibs/1536_dukeleg_11_22.png" }
+   skin { pal 12 file "polymost/sprites/jibs/1536_dukeleg_12_18.png" }
+   skin { pal 13 file "polymost/sprites/jibs/1536_dukeleg_13.png" }
+   skin { pal 14 file "polymost/sprites/jibs/1536_dukeleg_14.png" }
+   skin { pal 15 file "polymost/sprites/jibs/1536_dukeleg_15.png" }
+   skin { pal 16 file "polymost/sprites/jibs/1536_dukeleg_16.png" }
+   skin { pal 18 file "polymost/sprites/jibs/1536_dukeleg_12_18.png" }
+   skin { pal 21 file "polymost/sprites/jibs/1536_dukeleg_21.png" }
+   skin { pal 22 file "polymost/sprites/jibs/1536_dukeleg_11_22.png" }
+   skin { pal 23 file "polymost/sprites/jibs/1536_dukeleg_23.png" }
+   anim { frame0 "FRAME3" frame1 "FRAME10" fps 15 flags 0 }
+   frame { name "FRAME3" tile0 1536 tile1 1543 }
+}
+
+// Trooper Head Jib (1768)
+model "polymost/sprites/jibs/1768_trooperhead.md3" {
+   scale 2.7 shade 2
+   skin { pal 0 file "polymost/sprites/jibs/1680_trooper_bloodyparts_0.png" }
+   skin { pal 10 file "polymost/sprites/jibs/1680_trooper_bloodyparts_10.png" }
+   skin { pal 11 file "polymost/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
+   skin { pal 12 file "polymost/sprites/jibs/1680_trooper_bloodyparts_12_18.png" }
+   skin { pal 13 file "polymost/sprites/jibs/1680_trooper_bloodyparts_13.png" }
+   skin { pal 14 file "polymost/sprites/jibs/1680_trooper_bloodyparts_14.png" }
+   skin { pal 15 file "polymost/sprites/jibs/1680_trooper_bloodyparts_15.png" }
+   skin { pal 16 file "polymost/sprites/jibs/1680_trooper_bloodyparts_16.png" }
+   skin { pal 17 file "polymost/sprites/jibs/1680_trooper_bloodyparts_17.png" }
+   skin { pal 18 file "polymost/sprites/jibs/1680_trooper_bloodyparts_12_18.png" }
+   skin { pal 19 file "polymost/sprites/jibs/1680_trooper_bloodyparts_19.png" }
+   skin { pal 20 file "polymost/sprites/jibs/1680_trooper_bloodyparts_20.png" }
+   skin { pal 21 file "polymost/sprites/jibs/1680_trooper_bloodyparts_21.png" }
+   skin { pal 22 file "polymost/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
+   skin { pal 23 file "polymost/sprites/jibs/1680_trooper_bloodyparts_23.png" }
+   skin { pal 24 file "polymost/sprites/jibs/1680_trooper_bloodyparts_24.png" }
+   frame { name "frame00" tile0 1768 tile1 1771 }
+}
+
+// Trooper Arm Jib (1772)
+model "polymost/sprites/jibs/1772_trooperarm.md3" {
+   scale 2.7 shade 2
+   skin { pal 0 file "polymost/sprites/jibs/1680_trooper_bloodyparts_0.png" }
+   skin { pal 10 file "polymost/sprites/jibs/1680_trooper_bloodyparts_10.png" }
+   skin { pal 11 file "polymost/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
+   skin { pal 12 file "polymost/sprites/jibs/1680_trooper_bloodyparts_12_18.png" }
+   skin { pal 13 file "polymost/sprites/jibs/1680_trooper_bloodyparts_13.png" }
+   skin { pal 14 file "polymost/sprites/jibs/1680_trooper_bloodyparts_14.png" }
+   skin { pal 15 file "polymost/sprites/jibs/1680_trooper_bloodyparts_15.png" }
+   skin { pal 16 file "polymost/sprites/jibs/1680_trooper_bloodyparts_16.png" }
+   skin { pal 17 file "polymost/sprites/jibs/1680_trooper_bloodyparts_17.png" }
+   skin { pal 18 file "polymost/sprites/jibs/1680_trooper_bloodyparts_12_18.png" }
+   skin { pal 19 file "polymost/sprites/jibs/1680_trooper_bloodyparts_19.png" }
+   skin { pal 20 file "polymost/sprites/jibs/1680_trooper_bloodyparts_20.png" }
+   skin { pal 21 file "polymost/sprites/jibs/1680_trooper_bloodyparts_21.png" }
+   skin { pal 22 file "polymost/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
+   skin { pal 23 file "polymost/sprites/jibs/1680_trooper_bloodyparts_23.png" }
+   skin { pal 24 file "polymost/sprites/jibs/1680_trooper_bloodyparts_24.png" }
+   frame { name "frame00" tile0 1772 tile1 1775 }
+}
+
+// Trooper Leg Jib (1776)
+model "polymost/sprites/jibs/1776_trooperleg.md3" {
+   scale 2.7 shade 2
+   skin { pal 0 file "polymost/sprites/jibs/1680_trooper_bloodyparts_0.png" }
+   skin { pal 10 file "polymost/sprites/jibs/1680_trooper_bloodyparts_10.png" }
+   skin { pal 11 file "polymost/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
+   skin { pal 12 file "polymost/sprites/jibs/1680_trooper_bloodyparts_12_18.png" }
+   skin { pal 13 file "polymost/sprites/jibs/1680_trooper_bloodyparts_13.png" }
+   skin { pal 14 file "polymost/sprites/jibs/1680_trooper_bloodyparts_14.png" }
+   skin { pal 15 file "polymost/sprites/jibs/1680_trooper_bloodyparts_15.png" }
+   skin { pal 16 file "polymost/sprites/jibs/1680_trooper_bloodyparts_16.png" }
+   skin { pal 17 file "polymost/sprites/jibs/1680_trooper_bloodyparts_17.png" }
+   skin { pal 18 file "polymost/sprites/jibs/1680_trooper_bloodyparts_12_18.png" }
+   skin { pal 19 file "polymost/sprites/jibs/1680_trooper_bloodyparts_19.png" }
+   skin { pal 20 file "polymost/sprites/jibs/1680_trooper_bloodyparts_20.png" }
+   skin { pal 21 file "polymost/sprites/jibs/1680_trooper_bloodyparts_21.png" }
+   skin { pal 22 file "polymost/sprites/jibs/1680_trooper_bloodyparts_11_22.png" }
+   skin { pal 23 file "polymost/sprites/jibs/1680_trooper_bloodyparts_23.png" }
+   skin { pal 24 file "polymost/sprites/jibs/1680_trooper_bloodyparts_24.png" }
+   frame { name "frame00" tile0 1776 tile1 1779 }
+}
+
+// Enforcer Head Jib (2201)
+model "polymost/sprites/jibs/2201_enforcerhead.md3" {
+   scale 1.75 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2201_enforcerjibs.png" }
+   skin { pal 17 file "polymost/sprites/jibs/2201_enforcerjibs_17_20.png" }
+   skin { pal 19 file "polymost/sprites/jibs/2201_enforcerjibs_19.png" }
+   skin { pal 20 file "polymost/sprites/jibs/2201_enforcerjibs_17_20.png" }
+   frame { name "idle" tile 2201 }
+   anim { frame0 "f0" frame1 "f1" fps 30 flags 0 }
+   frame { name "f0" tile0 2202 tile1 2204 }
+}
+
+// Enforcer Arm Jib (2205)
+model "polymost/sprites/jibs/2205_enforcerarm.md3" {
+   scale 1.75 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2201_enforcerjibs.png" }
+   skin { pal 17 file "polymost/sprites/jibs/2201_enforcerjibs_17_20.png" }
+   skin { pal 19 file "polymost/sprites/jibs/2201_enforcerjibs_19.png" }
+   skin { pal 20 file "polymost/sprites/jibs/2201_enforcerjibs_17_20.png" }
+   frame { name "idle" tile 2205 }
+   anim { frame0 "f0" frame1 "f1" fps 30 flags 0 }
+   frame { name "f0" tile0 2206 tile1 2208 }
+}
+
+// Enforcer Leg Jib (2209)
+model "polymost/sprites/jibs/2209_enforcerleg.md3" {
+   scale 1.75 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2201_enforcerjibs.png" }
+   skin { pal 17 file "polymost/sprites/jibs/2201_enforcerjibs_17_20.png" }
+   skin { pal 19 file "polymost/sprites/jibs/2201_enforcerjibs_19.png" }
+   skin { pal 20 file "polymost/sprites/jibs/2201_enforcerjibs_17_20.png" }
+   frame { name "idle" tile 2209 }
+   anim { frame0 "f0" frame1 "f1" fps 30 flags 0 }
+   frame { name "f0" tile0 2210 tile1 2212 }
+}
+
+// Flying Jibs1 (2245)
+model "polymost/sprites/jibs/2245_jib1_fly.md3" {
+   scale 1.5 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2245_jib1.jpg" }
+   anim { frame0 "fly1" frame1 "fly4" fps 10 flags 0 }
+   frame { name "fly1" tile0 2245 tile1 2248 }
+}
+
+// Jibs1 (2249)
+model "polymost/sprites/jibs/2249_jib1.md3" {
+   scale 1.5 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2245_jib1.jpg" }
+   frame { name "idle" tile 2249 }
+}
+
+// Flying Eyeball (2250)
+model "polymost/sprites/jibs/2250_eye.md3" {
+   scale 0.4 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2250_eyeball.png" }
+   anim { frame0 "fly1" frame1 "fly4" fps 10 flags 0 }
+   frame { name "fly1" tile0 2250 tile1 2253 }
+}
+
+// Eyeball on Ground (2254)
+model "polymost/sprites/jibs/2254_eye.md3" {
+   scale 0.4 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2250_eyeball.png" }
+   frame { name "idle" tile 2254 }
+}
+
+// Heart (2255)
+model "polymost/sprites/jibs/2255_heart.md3" {
+   scale 0.4 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2255_heart.jpg" }
+   anim { frame0 "fly00" frame1 "fly08" fps 35 flags 0 }
+   frame { name "fly00" tile0 2255 tile1 2258 }
+   frame { name "idle00" tile0 2259 tile1 2259 }
+}
+
+// Jibs4 (2260-2263)
+model "polymost/sprites/jibs/2260_jibs4.md3" { 
+   scale 1.4 shade 8
+   skin { pal 0 surface 0 file "polymost/sprites/jibs/2264_gibs.png" } 
+   anim { frame0 "frame1" frame1 "frame4" fps 1 flags 0 }
+   frame { frame "frame1" tile0 2260 tile1 2263 }
+}
+
+// More gibs (2264)
+model "polymost/sprites/jibs/2264_gibs.md3" { 
+   scale 1.4 shade 8 
+   skin { pal 0 surface 0 file "polymost/sprites/jibs/2264_gibs.png" } 
+   anim { frame0 "frame1" frame1 "frame2" fps 1 flags 0 }
+   frame { frame "frame1" tile0 2264  tile1 2264 }
+}
+
+// Flying Jibs5 (2265)
+model "polymost/sprites/jibs/2265_jib5_fly.md3" {
+   scale 0.8 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2265_jib5.jpg" }
+   anim { frame0 "fly1" frame1 "fly4" fps 10 flags 0 }
+   frame { name "fly1" tile0 2265 tile1 2268 }
+}
+
+// Jibs5 (2269)
+model "polymost/sprites/jibs/2269_jib5.md3" {
+   scale 0.8 shade 0
+   skin { pal 0 file "polymost/sprites/jibs/2265_jib5.jpg" }
+   frame { name "idle" tile 2269 }
+}
+
+// Ooz/Ooz2 (2300/2309)
+texture 2300 { pal 0 { file "polymost/sprites/jibs/2300_ooz.png" } }
+texture 2309 { pal 0 { file "polymost/sprites/jibs/2309_ooz2.png" } }

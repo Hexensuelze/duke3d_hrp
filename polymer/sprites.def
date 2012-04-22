@@ -1,0 +1,15 @@
+include polymer/sprites/characters.def
+include polymer/sprites/firstperson.def
+include polymer/sprites/jibs.def
+include polymer/sprites/monsters.def
+include polymer/sprites/pickups.def
+include polymer/sprites/props.def
+include polymer/sprites/signs.def
+include polymer/sprites/switches.def
+include polymer/sprites/effects.def
+include polymer/sprites/decals.def
+include polymer/sprites/projectiles.def
+
+// ice.def needs to be loaded last (after freezable models)
+// Otherwise the 1680_trooper gets messed up.
+include polymer/sprites/ice.def

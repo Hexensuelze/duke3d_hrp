@@ -1,0 +1,344 @@
+
+// Duke3D HRP HUD Weapons Definitions
+
+
+// Fist (1640)
+model "polymost/sprites/firstperson/1640_fist.md3" {
+   scale 1.9
+   skin { pal 0  file "polymost/sprites/firstperson/1640_fist.png" }
+   frame { name "fist" tile 1640 }
+   hud { tile 1640 xadd -0.2 yadd 1.50 zadd -0.4 }
+   hud { tile 1640 xadd 0.3 yadd 0.1 zadd -0.4 flipped }
+}
+
+// Crack knuckles (2324)
+model "polymost/sprites/firstperson/2324_crackknuckles.md3" {
+   scale 1.75
+   skin { pal 0 file "polymost/sprites/firstperson/2324_crackknuckles.png" }
+   frame { name "2324" tile 2324 }
+   frame { name "2325" tile 2325 }
+   frame { name "2326" tile 2326 }
+   frame { name "2327" tile 2327 }
+   hud { tile0 2324 tile1 2327 xadd 0.1 yadd 0.7 zadd -0.25 flipped }
+}
+
+// Slimecrunch (2375)
+model "polymost/sprites/firstperson/2375_slimecrunch.md3" {
+   scale 3.5
+   skin { pal 0 file "polymost/sprites/firstperson/2375_slimer.png" }
+   // anim { frame0 "frame00" frame1 "frame02" fps 3 flags 0 }
+   frame { name "frame00" tile 2375 }
+   frame { name "frame01" tile 2376 }
+   frame { name "frame02" tile 2377 }
+   hud { tile 2375 yadd 0.14 zadd 1.16 angadd 1024 }
+   hud { tile 2376 yadd 0.14 zadd 1.16 angadd 1024 }
+   hud { tile 2377 yadd 0.14 zadd 1.16 angadd 1024 }
+}
+
+// Devastator (2510)
+model "polymost/sprites/firstperson/2510_devastator.md3" {
+   scale 1.5
+   skin { pal 0 file "polymost/sprites/firstperson/2510_devastator.jpg" }
+   frame { name "Frame 00" tile 2510 }
+   skin { pal 0 file "polymost/sprites/firstperson/2510_devastator_f.jpg" }
+   glow { file "polymost/sprites/firstperson/2510_devastator_g.png" }
+   frame { name "Frame 01" tile 2511 }
+   hud { tile0 2510 tile1 2511 xadd -0.38 yadd -0.70 zadd 1.42 angadd 1024 flipped } //Left devastator
+   hud { tile0 2510 tile1 2511 xadd 0.38 yadd 0.18 zadd 1.42 angadd 1024 } //Right devastator
+}
+
+// Mighty Boot (2521)
+model "polymost/sprites/firstperson/2521_mightyboot.md3" {
+   scale 9
+   skin { pal 0 file "polymost/sprites/firstperson/2521_mightyboot.jpg" }
+   skin { pal 10 file "polymost/sprites/firstperson/2521_mightyboot_10.jpg" }
+   skin { pal 11 file "polymost/sprites/firstperson/2521_mightyboot_11.jpg" }
+   skin { pal 12 file "polymost/sprites/firstperson/2521_mightyboot_12.jpg" }
+   skin { pal 13 file "polymost/sprites/firstperson/2521_mightyboot_13.jpg" }
+   skin { pal 14 file "polymost/sprites/firstperson/2521_mightyboot_14.jpg" }
+   skin { pal 15 file "polymost/sprites/firstperson/2521_mightyboot_15.jpg" }
+   skin { pal 16 file "polymost/sprites/firstperson/2521_mightyboot_16.jpg" }
+   skin { pal 21 file "polymost/sprites/firstperson/2521_mightyboot_21.jpg" }
+   skin { pal 23 file "polymost/sprites/firstperson/2521_mightyboot_23.jpg" }
+   frame { name "FRAME1" tile 2521 }
+   hud { tile 2521 xadd 0.1 yadd 2.0 zadd 2.5 angadd 600 }
+   hud { tile 2521 xadd -1.0 yadd 1.8 zadd 2.5 angadd 550 flipped }  // Quick Kick
+}
+
+// Mighty Boot (2522)
+model "polymost/sprites/firstperson/2522_mightyboot.md3" {
+   scale 9
+   skin { pal 0 file "polymost/sprites/firstperson/2521_mightyboot.jpg" }
+   skin { pal 10 file "polymost/sprites/firstperson/2521_mightyboot_10.jpg" }
+   skin { pal 11 file "polymost/sprites/firstperson/2521_mightyboot_11.jpg" }
+   skin { pal 12 file "polymost/sprites/firstperson/2521_mightyboot_12.jpg" }
+   skin { pal 13 file "polymost/sprites/firstperson/2521_mightyboot_13.jpg" }
+   skin { pal 14 file "polymost/sprites/firstperson/2521_mightyboot_14.jpg" }
+   skin { pal 15 file "polymost/sprites/firstperson/2521_mightyboot_15.jpg" }
+   skin { pal 16 file "polymost/sprites/firstperson/2521_mightyboot_16.jpg" }
+   skin { pal 21 file "polymost/sprites/firstperson/2521_mightyboot_21.jpg" }
+   skin { pal 23 file "polymost/sprites/firstperson/2521_mightyboot_23.jpg" }
+   frame { name "FRAME1" tile 2522 }
+   hud { tile 2522 xadd -0.01 yadd 2.5 zadd 2.5 angadd 550 }
+   hud { tile 2522 xadd 0.01 yadd 1.5 zadd 2.5 angadd 600 flipped }  // Quick Kick
+}
+
+// Pistol (2524)
+model "polymost/sprites/firstperson/2524_pistol.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2524_pistol.png" }
+   glow { file "polymost/sprites/firstperson/2524_pistol_g.png" }
+   frame { name "Frame0" tile 2524 }
+   anim { frame0 "Frame1" frame1 "Frame5" fps 60 flags 0 }
+   frame { name "Frame1" tile0 2525 tile1 2526 }
+   anim { frame0 "Frame6" frame1 "Frame15" fps 12.5 flags 1 }
+   frame { name "Frame6" tile0 2528 tile1 2529 }
+   hud { tile0 2524 tile1 2526 xadd -0.15 yadd 1.32 zadd -0.56 angadd -37 }
+   hud { tile0 2528 tile1 2529 xadd -0.15 yadd 1.36 zadd -0.68 angadd -37 }
+}
+
+model "polymost/sprites/firstperson/2530_clip.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/pickups/0040_pistolammo.jpg" }
+   frame { name "Frame0" tile0 2530 tile1 2531 }
+   hud { tile 2530 xadd 0.38 yadd 0.9 zadd -0.48 angadd -37 }
+}
+
+model "polymost/sprites/firstperson/2532_cliphand.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2532_cliphand.png" }
+   frame { name "idle" tile 2532 }
+   hud { tile 2532 xadd 0.35 yadd 1.36 zadd -0.48 angadd -37 }
+}
+
+// Chaingun (2536)
+model "polymost/sprites/firstperson/2536_chaingun.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2536_chaingun.png" }
+   frame { name "idle" tile 2537 }
+   skin { pal 0 file "polymost/sprites/firstperson/2536_chaingun_f.png" }
+   frame { name "idle" tile0 2538 tile1 2540 }
+   hud { tile0 2537 tile1 2540 xadd -0.26 yadd 0.52 zadd -0.65 angadd -24 }
+   frame { name "idle" tile 2536 }
+   frame { name "idle" tile0 2541 tile1 2543 }
+   hud { tile 2536 hide }
+}
+
+// Chaingun muzzleflash (2541-2543)
+texture 2541 { pal 0 { file "polymost/sprites/firstperson/2541.png" } }
+texture 2542 { pal 0 { file "polymost/sprites/firstperson/2542.png" } }
+texture 2543 { pal 0 { file "polymost/sprites/firstperson/2543.png" } }
+
+// RPG (2544)
+model "polymost/sprites/firstperson/2544_rpg.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2544_rpg.png" }
+   frame { name "idle" tile 2544 }
+   hud { tile 2544 xadd 0.1 yadd 1.15 zadd -0.68 angadd -12 }
+   frame { name "idle" tile0 2545 tile1 2546 }
+}
+
+// Freezer (2548)
+model "polymost/sprites/firstperson/2548_freezer.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2548_freezer.jpg" }
+   glow { file "polymost/sprites/firstperson/2548_freezer_g.png" }
+   frame { name "idle" tile0 2548 tile1 2550 }
+   skin { pal 0 file "polymost/sprites/firstperson/2548_freezer_f.jpg" }
+   glow { file "polymost/sprites/firstperson/2548_freezer_f_g.png" }
+   anim { frame0 "fire0" frame1 "fire1" fps 60 flags 0 }
+   frame { name "fire0" tile0 2551 tile1 2553 }
+   hud { tile 2548 xadd -0.5 yadd 0.5 zadd -0.16 angadd -9 }
+   hud { tile0 2551 tile1 2553 xadd -0.5 yadd 0.5 zadd -0.35 angadd -15 }
+   hud { tile 2550 hide }
+}
+
+// Expander (2554)
+model "polymost/sprites/firstperson/2554_expander.md3" {
+   scale 15.0
+   skin { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker.png" }
+   glow { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   skin { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker.png" }
+   glow { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   skin { pal 0 surface 2 file "polymost/sprites/firstperson/2554_expander.png" }
+   glow { pal 0 surface 2 file "polymost/sprites/firstperson/2554_expander_glow.png" }
+   frame { name "Frame0" tile 2554 }
+   skin { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker.png" }
+   glow { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   detail { surface 0 file "polymost/sprites/firstperson/2554_expander_body_f.png" xscale 1 yscale 1 }
+   skin { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker.png" }
+   glow { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   detail { surface 1 file "polymost/sprites/firstperson/2554_expander_body_f.png" xscale 1 yscale 1 }
+   skin { pal 0 surface 2 file "polymost/sprites/firstperson/2554_expander.png" }
+   glow { pal 0 surface 2 file "polymost/sprites/firstperson/2554_expander_glow.png" }
+   detail { surface 2 file "polymost/sprites/firstperson/2554_expander_f.png" xscale 1 yscale 1 }
+   frame { name "Frame0" tile 2555 }
+   hud { tile 2554 xadd 0 yadd 1.4 zadd 1.55 angadd -30 }
+   hud { tile 2555 xadd 0 yadd 1.4 zadd 1.5 angadd -30 }
+}
+
+// Shrinker (2556)
+model "polymost/sprites/firstperson/2556_shrinker.md3" {
+   scale 15.0
+   skin { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker.png" }
+   glow { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   skin { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker.png" }   
+   glow { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   frame { name "Frame0" tile 2556 }
+   skin { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker.png" }
+   glow { pal 0 surface 0 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   detail { surface 0 file "polymost/sprites/firstperson/2556_shrinker_f.png" xscale 1 yscale 1 }
+   skin { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker.png" }   
+   glow { pal 0 surface 1 file "polymost/sprites/firstperson/2556_shrinker_glow.png" }
+   detail { surface 1 file "polymost/sprites/firstperson/2556_shrinker_f.png" xscale 1 yscale 1 } 
+   frame { name "Frame0" tile 2557 }
+   hud { tile 2556 xadd 0 yadd 1.4 zadd 1.55 angadd -30 }
+   hud { tile 2557 xadd 0 yadd 1.4 zadd 1.5 angadd -30 }
+}
+
+// Shrinker/Expander crystal (2558 pal0/2)
+model "polymost/sprites/firstperson/2558_crystal.md3" {
+  scale 15.0 shade 0
+  skin { pal 0 surface 0 file "polymost/sprites/firstperson/2558_crystal.png" }
+  skin { pal 0 surface 1 file "polymost/sprites/firstperson/2558_crystal.png" }
+  skin { pal 2 surface 0 file "polymost/sprites/firstperson/2558_crystal_red.png" }
+  skin { pal 2 surface 1 file "polymost/sprites/firstperson/2558_crystal_red.png" }
+  frame { name "Frame0" tile 2558 }
+  anim { frame0 "Frame1" frame1 "Frame5" fps 20 flags 0 }
+  frame { name "Frame1" tile0 2559 tile1 2561 }
+  hud { tile0 2558 tile1 2561 xadd 0 yadd 1.4 zadd 1.55 angadd -30 }
+  hud { tile0 2559 tile1 2561 xadd 0 yadd 1.4 zadd 1.5 angadd -30 }
+}
+
+// Tripbomb hand (2563)
+model "polymost/sprites/firstperson/2563_tripbombhand.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2563_tripkeyhand.png" }
+   frame { name "trip" tile 2563 }
+   anim { frame0 "release1" frame1 "release2" fps 15 flags 0 }
+   frame { name "release1" tile0 2564 tile1 2565 }
+   hud { tile0 2563 tile1 2565 xadd -0.039 yadd 1.55 zadd 0.09 angadd 0 }
+   hud { tile0 2563 tile1 2565 xadd 0.046 yadd 0.44 zadd 0.09 angadd 0 flipped }
+}
+
+// Tripbomb (2566)
+model "polymost/sprites/firstperson/2566_tripbomb.md3" {
+   scale 6.5
+   skin { pal 0 file "polymost/sprites/firstperson/2566_tripbomb.png" }
+   glow { file "polymost/sprites/firstperson/2566_tripbomb_g.png" }
+   anim { frame0 "frame00" frame1 "frame00" fps 1 flags 0 }
+   frame { name "frame00" tile 2566 }
+   hud { tile 2566 yadd 0.14 zadd 1.46 angadd 1024 }
+}
+
+// Keycard Hand (2568)
+model "polymost/sprites/firstperson/2568_keycardhand.md3" {
+   scale 1.9 shade 0
+   skin { pal 0  surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand.png" }
+   skin { pal 0  surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand.png" }
+   skin { pal 10 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_10.png" }
+   skin { pal 10 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_10.png" }
+   skin { pal 11 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_11_22.png" }
+   skin { pal 11 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_11_22.png" }
+   skin { pal 12 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_12_18.png" }
+   skin { pal 12 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_12_18.png" }
+   skin { pal 13 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_13.png" }
+   skin { pal 13 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_13.png" }
+   skin { pal 14 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_14.png" }
+   skin { pal 14 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_14.png" }
+   skin { pal 15 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_15.png" }
+   skin { pal 15 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_15.png" }
+   skin { pal 16 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_16.png" }
+   skin { pal 16 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_16.png" }
+   skin { pal 18 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_12_18.png" }
+   skin { pal 18 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_12_18.png" }
+   skin { pal 21 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_21.png" }
+   skin { pal 21 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_21.png" }
+   skin { pal 22 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_11_22.png" }
+   skin { pal 22 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_11_22.png" }
+   skin { pal 23 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_23.png" }
+   skin { pal 23 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_23.png" }
+   skin { pal 24 surface 0 file "polymost/sprites/firstperson/2563_tripkeyhand_24.png" }
+   skin { pal 24 surface 1 file "polymost/sprites/firstperson/2563_tripkeyhand_24.png" }
+   frame { name "key" tile 2568 }
+  // hud { tile 2568 xadd -0.25 yadd 0.24 zadd -0.1 angadd 0 }
+   hud { tile 2568 xadd 0.25 yadd 0.24 zadd -0.1 angadd 0 flipped }
+}
+
+// Trigger Hand (2570)
+model "polymost/sprites/firstperson/2570_triggerhand.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2570_triggerhand.png" }
+   frame { name "ready" tile 2570 }
+   anim { frame0 "push0" frame1 "push1" fps 6 flags 1 }
+   frame { name "push0" tile0 2571 tile1 2572 }
+   hud { tile0 2570 tile1 2572 xadd 0.7 yadd 1.20 zadd -0.4 }
+}
+
+// Pipebomb (2573)
+model "polymost/sprites/firstperson/2573_pipebombhand.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2573_pipebombhand.png" }
+   frame { name "hold" tile 2573 }
+   frame { name "load" tile 2574 }
+   hud { tile 2573 xadd -0.2 yadd 1.3 zadd -0.42 }
+   hud { tile 2574 xadd -0.2 yadd 1.10 zadd -0.42 }
+}
+
+// Pipebomb Drop (2575)
+model "polymost/sprites/firstperson/2575_pipebombdrop.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/2575_pipebombdrop.png" }
+   frame { name "drop" tile 2575 }
+   hud { tile 2575 xadd -0.2 yadd 1.10 zadd -0.42 }
+}
+
+// Tip Hand (2576/2577)
+model "polymost/sprites/firstperson/2576_tiphand.md3" {
+   scale 1.9
+   skin { pal 0 surface 0 file "polymost/sprites/firstperson/duke_hand.png" }
+   detail { surface 0 file "polymost/sprites/firstperson/2576_tiphand_lmap.png" detailscale 1 }
+   skin { pal 0 surface 1 file "polymost/sprites/firstperson/dollarnote.png" }   
+   frame { name "Frame0" tile 2576 }
+   hud { tile 2576 xadd -0.5 yadd 1.65 zadd -0.82 }
+}
+
+model "polymost/sprites/firstperson/2577_tiphand.md3" {
+   scale 1.9
+   skin { pal 0 file "polymost/sprites/firstperson/duke_hand.png" }
+   detail { file "polymost/sprites/firstperson/2577_tiphand_lmap.png" detailscale 1 }
+   frame { name "Frame0" tile 2577 }
+   hud { tile 2577 xadd -0.5 yadd 1.65 zadd -0.82 }
+}
+
+// Scubagear Mask (2581)
+texture 2581 { pal 0 { file "polymost/sprites/firstperson/2581.png" } }
+model "polymost/sprites/firstperson/2581_scuba.md3" {
+   scale 0.5
+   skin { pal 0 file "polymost/sprites/firstperson/2581_scuba.png" }
+   frame { name "Frame0" tile 2581 }
+   hud { tile 2581 xadd 1 yadd -0.15 zadd 0.35 }
+}
+
+// Shotgun (2613)
+model "polymost/sprites/firstperson/2613_shotgun.md3" {
+   scale 1.7
+   skin { pal 0 file "polymost/sprites/firstperson/2613_shotgun.png" }
+   frame { name "2613" tile 2613 }
+   frame { name "2613" tile 2614 }
+   frame { name "2613" tile 2615 }
+   frame { name "2616" tile 2616 }
+   frame { name "2617" tile 2617 }
+   frame { name "2618" tile 2618 }
+   frame { name "2619" tile 2619 }
+   // anim { frame0 "pump1" frame1 "pump2" fps 30 flags 1 }
+   // frame { name "pump1" tile0 2617 tile1 2619 }
+   hud { tile 2613 xadd 0.12 yadd 1.35 zadd -0.54 angadd -24 }
+   hud { tile 2616 xadd 0.053 yadd 1.167 zadd -0.54 angadd -24 }
+   hud { tile 2617 xadd -0.21 yadd 1.28 zadd -0.8 angadd -24 }
+   hud { tile 2618 xadd -0.474 yadd 1.407 zadd -0.8 angadd -24 }
+   hud { tile 2619 xadd -0.474 yadd 1.407 zadd -0.8 angadd -24 }
+}
+
+// Shotgun muzzleflash (2614-2615)
+texture 2615 { pal 0 { file "polymost/sprites/firstperson/2615.png" } }

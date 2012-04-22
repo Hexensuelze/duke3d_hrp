@@ -1,0 +1,411 @@
+
+// Duke3D HRP Monsters Definitions
+// Death skins by Hellbound
+
+
+// Cycloid Emperor Holographic Head (490)
+model "polymer/sprites/monsters/0490_cycloidhead.md3" {
+   scale 1.0 shade 3
+   skin { pal 0 file "polymer/sprites/monsters/0490_cycloidhead.png" }
+   anim { frame0 "FRAME6" frame1 "FRAME25" fps 10 flags 0 }
+   frame { name "FRAME6" tile0 0490 tile1 0497 }
+}
+
+
+// Egg (675)
+model "polymer/sprites/monsters/0675_egg.md3" {
+   scale 3 shade 0
+   skin { pal 0 file "polymer/sprites/monsters/0675_egg.png" specpower 100 specfactor 64 }
+   normal { file "polymer/sprites/monsters/0675_egg_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+   specular { file "polymer/sprites/monsters/0675_egg_s.png" }
+   frame { name "closed1" tile 675 }
+   frame { name "closed1" tile 558 }
+   anim { frame0 "open1" frame1 "open2" fps 2 flags 1 }
+   frame { name "open1" tile0 676 tile1 677 }
+}
+
+
+// Battlelord Holographic Head (679)
+model "polymer/sprites/monsters/0679_battlelordholo.md3" {
+   scale 40 shade 1
+   skin { pal 0 file "polymer/sprites/monsters/0679_battlelordholo.png" }
+   frame { name "FRAME1" tile0 679 tile1 679 }
+}
+
+
+// Shark (1550)
+model "polymer/sprites/monsters/1550_shark.md3" {
+   scale 10 shade 4
+   skin { pal 0 file "polymer/sprites/monsters/1550_shark.png" }
+   glow { file "polymer/sprites/monsters/1550_shark_g.png" }
+   anim { frame0 "sf_shark00" frame1 "sf_shark39" fps 15 flags 0 }
+   frame { name "sf_shark00" tile0 1550 tile1 1589 }
+}
+
+
+// Trooper (1680)
+model "polymer/sprites/monsters/1680_trooper.md3" {
+  scale 9 shade 6
+  skin { pal 0 surface 0 file "polymer/sprites/monsters/1680_trooper_skin_color.png" }
+  specular { file "polymer/sprites/monsters/1680_trooper_skin_s.png" surf 0 }
+  normal { file "polymer/sprites/monsters/1680_trooper_skin_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 0 }
+  skin { pal 0 surface 1 file "polymer/sprites/monsters/1680_trooper_gear_0.png" }
+  normal { file "polymer/sprites/monsters/1680_trooper_gear_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 1 }
+  specular { file "polymer/sprites/monsters/1680_trooper_gear_s.png" surf 1 }
+  glow { file "polymer/sprites/monsters/1680_trooper_g.png" }
+   
+   anim { frame0 "frame_1" frame1 "frame_32" fps 40 flags 0 } // Walk
+   frame { name "frame_1" tile0 1680 tile1 1704 smoothduration 0.1 }
+
+   anim { frame0 "frame_34" frame1 "frame_43" fps 22 flags 0 } // Shoot
+   frame { name "frame_34" tile0 1715 tile1 1717 smoothduration 0.1 }
+   
+   anim { frame0 "frame_44" frame1 "frame_52" fps 7 flags 0 } // Fly
+   frame { name "frame_44" tile0 1720 tile1 1724 smoothduration 0.8 }
+   
+   anim { frame0 "frame_53" frame1 "frame_58" fps 7 flags 0 } // Fly Shoot
+   frame { name "frame_53" tile0 1725 tile1 1727 smoothduration 0.1 }
+   
+   anim { frame0 "frame_89" frame1 "frame_99" fps 4 flags 0 } // Sit
+   frame { name "frame_89" tile0 1741 tile1 1742 smoothduration 0.3 }
+   
+   anim { frame0 "frame_100" frame1 "frame_108" fps 20 flags 0 } // Duck
+   frame { name "frame_100" tile0 1744 tile1 1751 smoothduration 0.3 }
+   
+   anim { frame0 "frame_109" frame1 "frame_115" fps 13 flags 1 } // Warp
+   frame { name "frame_109" tile0 1754 tile1 1755 smoothduration 0.3 }
+   
+   frame { name "frame_63" tile 1730 } // Flinch
+
+   skin { pal 0 surface 0 file "polymer/sprites/monsters/1680_trooper_dead.png" }  
+   normal { file "polymer/sprites/monsters/1680_trooper_skin_n.png" parallaxbias 0.1 parallaxscale 0.1 surf 0 }
+  
+   anim { frame0 "frame_65" frame1 "frame_77" fps 12 flags 1 } // Die
+   frame { name "frame_65" tile0 1731 tile1 1733 smoothduration 0.2 }
+ 
+   frame { name "frame_77" tile 1734 } // Dead
+   anim { frame0 "frame_78" frame1 "frame_87" fps 12 flags 0 } // Beg
+   frame { name "frame_78" tile0 1738 tile1 1740 smoothduration 0.3 }
+}
+
+
+// Octabrain (1820)
+model "polymer/sprites/monsters/1820_octabrain.md3" {
+   scale 11 shade 4
+   skin { pal 0 file "polymer/sprites/monsters/1820_octabrain.jpg" }
+   skin { pal 17 file "polymer/sprites/monsters/1820_octabrain_17.jpg" }
+   glow { file "polymer/sprites/monsters/1820_octabrain_g.png" }
+   anim { frame0 "FRAME1" frame1 "FRAME20" fps 18 flags 0 }
+   frame { name "FRAME1" tile0 1820 tile1 1839 smoothduration 0.3 }
+
+   skin { pal 0 file "polymer/sprites/monsters/1820_octabrain_attack.jpg" }
+   skin { pal 17 file "polymer/sprites/monsters/1820_octabrain_attack_17.jpg" }
+   glow { file "polymer/sprites/monsters/1820_octabrain_g.png" }
+   anim { frame0 "FRAME21" frame1 "FRAME31" fps 10 flags 0 }
+   frame { name "FRAME21" tile0 1840 tile1 1844 smoothduration 0.2 }
+
+   skin { pal 0 file "polymer/sprites/monsters/1820_octabrain_dead.png" }
+   skin { pal 17 file "polymer/sprites/monsters/1820_octabrain_dead_17.png" }
+   anim { frame0 "FRAME32" frame1 "FRAME42" fps 8 flags 1 }
+   frame { name "FRAME32" tile0 1850 tile1 1855 smoothduration 0.1 }
+}
+
+
+// Drone (1880)
+model "polymer/sprites/monsters/1880_drone.md3" {
+   scale 8 shade 1
+   detail { file "polymer/detail/metal.png" detailscale 0.3 }
+   skin { pal 0 file "polymer/sprites/monsters/1880_drone.png" }
+   glow { file "polymer/sprites/monsters/1880_drone_g.png" }
+   anim { frame0 "idle" frame1 "idle" fps 1 flags 0 }
+   frame { name "idle" tile0 1880 tile1 1886 }
+}
+
+
+// Assault Commander (1915)
+model "polymer/sprites/monsters/1915_commander.md3" {
+   scale 1 shade 0 
+   skin { pal 0 file "polymer/sprites/monsters/1915_commander.png" }
+   glow { file "polymer/sprites/monsters/1915_commander_g.png" }
+   frame { name "frame10" tile0 1915 tile1 1919 smoothduration 0.3 }
+   anim { frame0 "frame00" frame1 "frame08" fps 10 flags 0 }
+   frame { name "frame00" tile0 1920 tile1 1930 smoothduration 0.3 }
+   frame { name "frame12" tile0 1935 tile1 1939 smoothduration 0.3 }
+   frame { name "frame11" tile0 1940 tile1 1944 smoothduration 0.3 }
+
+   skin { pal 0 file "polymer/sprites/monsters/1915_commander_dead.png" }
+   anim { frame0 "frame13" frame1 "frame16" fps 3 flags 1 }
+   frame { name "frame13" tile0 1950 tile1 1957 smoothduration 0.3 }
+}
+
+
+// Recon Car (1960)
+model "polymer/sprites/monsters/1960_reconcar.md3" {
+   scale 11.25 shade 0
+   skin { pal 0 surface 1 file "polymer/sprites/monsters/2000_pigcop.png" }
+   glow { file "polymer/sprites/monsters/2000_pigcop_g.png" surf 1 }
+   skin { pal 0 surface 0 file "polymer/sprites/monsters/1960_reconcar.png" }
+   anim { frame0 "Frame0" frame1 "Frame0" fps 6 flags 0 }
+   frame { name "Frame0" tile0 1960 tile1 1966 smoothduration 0.5 }
+   anim { frame0 "Frame1" frame1 "Frame1" fps 6 flags 0 }
+   frame { name "Frame1" tile0 1967 tile1 1973 smoothduration 0.5 }
+}
+
+
+// Pig Tank (1975)
+model "polymer/sprites/monsters/1975_pigtank.md3" {
+   scale 0.4 shade 0
+   skin { pal 0 file "polymer/sprites/monsters/1975_pigtank.png" }
+   glow { file "polymer/sprites/monsters/1975_pigtank_g.png" }
+   anim { frame0 "WALK00" frame1 "WALK12" fps 3 flags 0 }
+   frame { name "WALK00" tile0 1975 tile1 1981 smoothduration 0.3 }
+   skin { pal 0 file "polymer/sprites/monsters/1975_pigtank2.png" }
+   anim { frame0 "FIRE00" frame1 "FIRE08" fps 25 flags 0 }
+   frame { name "FIRE00" tile0 1982 tile1 1991 smoothduration 0.3 }
+}
+
+
+// Pig Cop (2000)
+model "polymer/sprites/monsters/2000_pigcop.md3" {
+   scale 14 shade 0
+   skin { pal 0 file "polymer/sprites/monsters/2000_pigcop.png" }
+   glow { file "polymer/sprites/monsters/2000_pigcop_g.png" }
+   anim { frame0 "WALK1" frame1 "WALK2" fps 18 flags 0 }
+   frame { name "WALK1" tile0 2000 tile1 2019 smoothduration 0.2 }
+   anim { frame0 "SHOOT3" frame1 "SHOOT4" fps 20 flags 1 }
+   frame { name "SHOOT3" tile0 2025 tile1 2027 smoothduration 0.1 }
+   frame { name "SHOOT1" tile0 2030 tile1 2034 smoothduration 0.1 }
+   anim { frame0 "SHOOT2" frame1 "SHOOT3" fps 14 flags 1 }
+   frame { name "SHOOT2" tile0 2035 tile1 2037 smoothduration 0.1 }
+   anim { frame0 "DIVE1" frame1 "DIVE2" fps 20 flags 1 }
+   frame { name "DIVE1" tile0 2040 tile1 2044 smoothduration 0.2 }
+   frame { name "DIVE2" tile0 2045 tile1 2049 smoothduration 0.2 }
+   anim { frame0 "DSHOOT1" frame1 "DSHOOT2" fps 21 flags 0 }
+   frame { name "DSHOOT1" tile0 2050 tile1 2052 smoothduration 0.1 }
+
+   skin { pal 0 file "polymer/sprites/monsters/2000_pigcop_dead.png" }
+   anim { frame0 "DIE1" frame1 "DIE2" fps 10 flags 1 }
+   frame { name "DIE2" tile0 2055 tile1 2055 smoothduration 0.1 }
+   anim { frame0 "DIE2" frame1 "DIE3" fps 20 flags 1 }
+   frame { name "DIE2" tile0 2056 tile1 2060 smoothduration 0.1 }
+}
+
+
+// Enforcer (2120)
+model "polymer/sprites/monsters/2120_enforcer.md3" {
+   scale 1.75 shade -5
+
+   skin { pal 0 file "polymer/sprites/monsters/2120_enforcer.png" }
+   glow { file "polymer/sprites/monsters/2120_enforcer_g.png" }
+   anim { frame0 "walk0" frame1 "walk1" fps 23 flags 0 }
+   frame { name "walk0" tile0 2120 tile1 2139 smoothduration 0.2 }
+   anim { frame0 "crouch0" frame1 "crouch1" fps 5 flags 0 }
+   frame { name "crouch0" tile0 2140 tile1 2144 smoothduration 0.3 }
+   anim { frame0 "crouch2" frame1 "crouch3" fps 10 flags 1 }
+   frame { name "crouch2" tile0 2145 tile1 2150 smoothduration 0.3 }
+   anim { frame0 "crouch4" frame1 "crouch5" fps 10 flags 1 }
+   frame { name "crouch4" tile0 2155 tile1 2161 smoothduration 0.3 }
+   anim { frame0 "jump0" frame1 "jump1" fps 10 flags 1 }
+   frame { name "jump0" tile0 2165 tile1 2177 smoothduration 0.2 }
+   anim { frame0 "fire0" frame1 "fire1" fps 30 flags 0 }
+   frame { name "fire0" tile0 2190 tile1 2197 smoothduration 0.1 }
+
+   skin { pal 0 file "polymer/sprites/monsters/2120_enforcer_dead.png" }
+   anim { frame0 "death0" frame1 "death1" fps 15 flags 1 }
+   frame { name "death0" tile0 2180 tile1 2185 smoothduration 0.1 }
+}
+
+
+// Gun Turret (2350)
+model "polymer/sprites/monsters/2350_gunturret.md3" { 
+   scale 12 shade 4
+   detail { file "polymer/detail/metal.png" detailscale 0.3 }
+   skin { pal 0 file "polymer/sprites/monsters/2350_gunturret.png" }
+   skin { pal 17 file "polymer/sprites/monsters/2350_gunturret_17_20.png" }
+   skin { pal 19 file "polymer/sprites/monsters/2350_gunturret_19_24.png" }
+   skin { pal 20 file "polymer/sprites/monsters/2350_gunturret_17_20.png" }
+   skin { pal 24 file "polymer/sprites/monsters/2350_gunturret_19_24.png" }
+   skin { pal 25 file "polymer/sprites/monsters/2350_gunturret_25.png" }
+   glow { file "polymer/sprites/monsters/2350_gunturret_g.png" }
+   //anim { frame0 "idle01" frame1 "idle01" fps 1 flags 1 }
+   frame { name "idle00" tile0 2360 tile1 2364 }
+   anim { frame0 "sright00" frame1 "sright02" fps 6 flags 0 }
+   frame { name "sright00" tile0 2355 tile1 2359 }
+   anim { frame0 "sleft00" frame1 "sleft02" fps 6 flags 0 }
+   frame { name "sleft00" tile0 2350 tile1 2354 }
+}
+
+
+// Protozoid Slimer (2370)
+model "polymer/sprites/monsters/2370_slimer.md3" {
+   scale 2 shade 0
+   skin { pal 0 file "polymer/sprites/monsters/2370_slimer.png" specpower 100 specfactor 64 }
+   normal { file "polymer/sprites/monsters/2370_slimer_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+   specular { file "polymer/sprites/monsters/2370_slimer_s.png" }
+   anim { frame0 "roof1" frame1 "roof1" fps 1 flags 0 }
+   frame { name "roof1" tile 2370 smoothduration 0.1 }
+   anim { frame0 "floor1" frame1 "floor1" fps 1 flags 0 }
+   frame { name "floor1" tile 2371 smoothduration 0.1 }
+   anim { frame0 "hang1" frame1 "hang1" fps 1 flags 0 }
+   frame { name "hang1" tile 2372 smoothduration 0.1 }
+   anim { frame0 "hang2" frame1 "hang2" fps 1 flags 0 }
+   frame { name "hang2" tile 2373 smoothduration 0.1 }
+   anim { frame0 "floor2" frame1 "floor2" fps 1 flags 0 }
+   frame { name "floor2" tile 2374 smoothduration 0.1 }
+}
+
+
+// Battlelord (2630)
+model "polymer/sprites/monsters/2630_battlelord.md3" {
+  scale 13 shade 2
+  skin { pal 0 surface 0 file "polymer/sprites/monsters/2630_battlelord.png" }
+  glow { surface 0 file "polymer/sprites/monsters/2630_battlelord_g.png" }
+  skin { pal 0 surface 1 file "polymer/sprites/monsters/2630_muzzle.png" }
+  skin { pal 0 surface 2 file "polymer/sprites/monsters/2630_gatling.png" }
+  anim { frame0 "FRAME1" frame1 "FRAME20" fps 40 flags 0 } // walk
+  anim { frame0 "FRAME26" frame1 "FRAME31" fps 10 flags 0 } // mortar
+  anim { frame0 "FRAME34" frame1 "FRAME37" fps 20 flags 1 } // pain
+  anim { frame0 "FRAME38" frame1 "FRAME57" fps 14 flags 1 } // death
+  frame { name "FRAME1" tile0 2630 tile1 2659 smoothduration 0.2 }
+  frame { name "FRAME22" tile0 2660 tile1 2662 smoothduration 0.3 }
+  frame { name "FRAME23" tile0 2665 tile1 2667 smoothduration 0.3 }
+  frame { name "FRAME26" tile0 2670 tile1 2677 smoothduration 0.1 }
+  frame { name "FRAME34" tile 2680 smoothduration 0.1 }
+  frame { name "FRAME38" tile0 2681 tile1 2684 smoothduration 0.2 }
+  frame { name "FRAME58" tile 2685 } // dead body
+}
+
+
+// Cycloid Emperor (2710)
+model "polymer/sprites/monsters/2710_cycloid.md3" {
+   scale 1.03 shade 3
+   skin { pal 0 file "polymer/sprites/monsters/2710_cycloid.png" }
+   glow { file "polymer/sprites/monsters/2710_cycloid_g.png" }
+   // ABOSS2WALK
+   anim { frame0 "FRAME2" frame1 "FRAME30" fps 25 flags 0 }
+   frame { name "FRAME2" tile0 2710 tile1 2729 smoothduration 0.2 }
+   // ABOSS2SHOOTYRASS
+   anim { frame0 "FRAME35" frame1 "FRAME45" fps 15 flags 0 }
+   frame { name "FRAME35" tile0 2730 tile1 2739 smoothduration 0.2 }
+   // ABOSS2PSYCHBLAST
+   skin { pal 0 file "polymer/sprites/monsters/2710_cycloidlight.png" }   
+   anim { frame0 "FRAME50" frame1 "FRAME65" fps 5 flags 0 }
+   frame { name "FRAME50" tile0 2740 tile1 2749 smoothduration 0.2 }
+   // ABOSS2DONTHURTME
+   skin { pal 0 file "polymer/sprites/monsters/2710_cycloidpain.png" }
+   anim { frame0 "FRAME70" frame1 "FRAME80" fps 5 flags 0 }
+   frame { name "FRAME70" tile0 2750 tile1 2750 smoothduration 0.2 }
+   // ABOSS2SNUFF
+   anim { frame0 "FRAME80" frame1 "FRAME130" fps 15 flags 1 }
+   frame { name "FRAME80" tile0 2750 tile1 2758 smoothduration 0.3 }
+}
+
+
+// Lunar Overlord (2760)
+model "polymer/sprites/monsters/2760_overlord.md3" {
+  scale 45 shade 2
+
+  skin { pal 0 surface 0 file "polymer/sprites/monsters/2760_rocket.png" }
+  glow { surface 0 file "polymer/sprites/monsters/2760_rocket.png" }
+
+  skin { pal 0 surface 1 file "polymer/sprites/monsters/2760_overlord_tech_d.png" specpower 2 specfactor 2 } 
+  specular { surface 1 file "polymer/sprites/monsters/2760_overlord_tech_s.png" }
+  normal { surface 1 file "polymer/sprites/monsters/2760_overlord_tech_n.png" parallaxbias 0.1 parallaxscale 0.1  }
+
+  skin { pal 0 surface 2 file "polymer/sprites/monsters/2760_overlord_bio_d.png" specpower 2 specfactor 2 }
+  specular { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_s.png" }
+  normal { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+  glow { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_g.png" }
+
+  // CORNFEDSPACEFROGWALKING
+  anim { frame0 "frame_1" frame1 "frame_20" fps 22 flags 0 }   
+  frame { name "frame_1" tile0 2760 tile1 2779 smoothduration 0.2 }
+  
+  // CORNFEDSPACEFROGIDLE
+  anim { frame0 "frame_25" frame1 "frame_30" fps 10 flags 0 }  
+  frame { name "frame_25" tile0 2780 tile1 2789 smoothduration 0.3 }
+  
+  // CORNFEDSPACEFROGDODGETHIS
+  anim { frame0 "frame_35" frame1 "frame_40" fps 10 flags 0 }  
+  frame { name "frame_35" tile0 2790 tile1 2799 smoothduration 0.2 }
+  
+  // CORNFEDSPACEFROGPURCHASEAGRICULTURALREALESTATE
+  skin { pal 0 surface 2 file "polymer/sprites/monsters/2760_overlord_bio_pain_d.png" specpower 2 specfactor 2 }
+  specular { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_pain_s.png" }
+  normal { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_n.png" parallaxbias 0.1 parallaxscale 0.1  }
+  
+  anim { frame0 "frame_50" frame1 "frame_80" fps 12 flags 1 }
+  frame { name "frame_50" tile0 2800 tile1 2809 smoothduration 0.3 }
+}
+
+
+// Protector Drone (4610)
+model "polymer/sprites/monsters/4610_newbeast.md3" {
+   scale 0.85 shade 8
+
+   skin { pal 0 file "polymer/sprites/monsters/4610_newbeast.png" }
+   glow { file "polymer/sprites/monsters/4610_newbeast_g.png" }
+   normal { file "polymer/sprites/monsters/4610_newbeast_n.png" parallaxbias 0.03 parallaxscale 0.05 }
+   specular { file "polymer/sprites/monsters/4610_newbeast_s.png" }
+
+   anim { frame0 "4610_start" frame1 "4610_end" fps 20 flags 0 }  // Crouch
+   frame { name "4610_start" tile0 4610 tile1 4614 smoothduration 0.2 }
+   anim { frame0 "4620_start" frame1 "4620_end" fps 20 flags 0 }  // Walk/Run
+   frame { name "4620_start" tile0 4620 tile1 4639 smoothduration 0.2 }
+   anim { frame0 "4640_start" frame1 "4640_end" fps 40 flags 0 }  // Melee attack
+   frame { name "4640_start" tile0 4640 tile1 4652 smoothduration 0.1 }
+   anim { frame0 "4660_start" frame1 "4660_end" fps 24 flags 1 }  // Shoot attack
+   frame { name "4660_start" tile0 4660 tile1 4667 smoothduration 0.1 }
+   frame { name "4670" tile0 4670 tile1 4674 smoothduration 0.2 } // "hanging"
+   anim { frame0 "4681_start" frame1 "4681_end" fps 20 flags 1 }  // Death
+   frame { name "4681_start" tile0 4681 tile1 4688 smoothduration 0.2 }
+   frame { name "4689" tile 4689 }                                // Dead body
+   anim { frame0 "4690_start" frame1 "4690_end" fps 24 flags 1 }  // Jump
+   frame { name "4690_start" tile0 4690 tile1 4704 smoothduration 0.2 }
+}
+
+
+// Alien Queen (4740)
+model "polymer/sprites/monsters/4740_queen.md3" {
+   scale 1.3 shade 3
+
+   skin { pal 0 file "polymer/sprites/monsters/4740_queen.png" }
+   glow { surface 0 file "polymer/sprites/monsters/4740_queen_glow.png" }
+
+   // QUEENITSADRONE
+   glow { surface 0 file "polymer/sprites/monsters/4740_queen_glow.png" }
+   anim { frame0 "FRAME50" frame1 "FRAME80" fps 5 flags 0 }
+   frame { name "FRAME50" tile0 4790 tile1 4804 smoothduration 0.3 }
+
+   // QUEENSTRUT
+   anim { frame0 "FRAME2" frame1 "FRAME20" fps 15 flags 0 }
+   frame { name "FRAME2" tile0 4740 tile1 4759 smoothduration 0.2 }
+
+   // QUEENSHOCKATTACK 
+   glow { surface 1 file "polymer/sprites/monsters/4740_queen_glow.png" }
+
+   anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
+   frame { name "FRAME25" tile0 4760 tile1 4761 smoothduration 0.1 }
+
+   glow { surface 0 file "polymer/sprites/monsters/4740_queen_shock1.png" }
+   glow { surface 1 file "polymer/sprites/monsters/4740_queen_light.png" }
+
+   anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
+   frame { name "FRAME25" tile0 4765 tile1 4766 smoothduration 0.1 }
+
+   glow { surface 0 file "polymer/sprites/monsters/4740_queen_shock2.png" }
+   glow { surface 1 file "polymer/sprites/monsters/4740_queen_light.png" }
+
+   anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
+   frame { name "FRAME25" tile0 4770 tile1 4771 smoothduration 0.1 }
+
+   // QUEENSNUFF
+
+   skin { pal 0 file "polymer/sprites/monsters/4740_queen_death.png" }
+   glow { surface 0 file "polymer/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 1 file "polymer/sprites/monsters/4740_queen_glow.png" }
+
+   anim { frame0 "FRAME85" frame1 "FRAME125" fps 15 flags 1 }
+   frame { name "FRAME85" tile0 4780 tile1 4789 smoothduration 0.3 }
+
+}

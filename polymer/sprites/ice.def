@@ -1,0 +1,227 @@
+
+// Frozen models for Duke3D HRP
+
+
+
+// MONSTERS
+
+// Frozen Slimer Egg (675)
+model "polymer/sprites/monsters/0675_egg.md3" {
+   scale 3 flags 1
+   skin { file "polymer/sprites/ice/0675_egg_ice.png" }
+   frame { pal 1 name "closed1" tile 675 }
+   frame { pal 1 name "closed1" tile 558 }
+   frame { pal 1 name "open1" tile0 676 tile1 677 }
+}
+
+// Frozen Shark (1550)
+model "polymer/sprites/ice/1550_shark_ice.md3" {
+   scale 10 shade 4 flags 1
+   skin { file "polymer/sprites/ice/1550_shark_ice.png" }
+   frame { pal 1 name "ice" tile 1550 }
+}
+
+// Frozen Alien Trooper (1680)
+model "polymer/sprites/ice/1680_trooper_ice.md3" {
+   scale 9 shade 2 flags 1
+   skin { file "polymer/sprites/ice/1680_trooper_ice.png" }
+   frame { pal 1 name "ice" tile 1680 }
+}
+
+// Frozen Octabrain (1820)
+model "polymer/sprites/ice/1820_octabrain_ice.md3" {
+   scale 11 shade 4 flags 1
+   skin { file "polymer/sprites/ice/1820_octabrain_ice.png" }
+   frame { pal 1 name "ice" tile 1820 }
+}
+
+// Frozen Commander (1920)
+model "polymer/sprites/ice/1920_commander_ice.md3" {
+  scale 1 flags 1
+  skin { surface 0 file "polymer/sprites/ice/1920_commander_ice.png" }
+  skin { surface 1 file "polymer/sprites/ice/ice.png" }
+  frame { pal 1 name "ice" tile 1920 }
+}
+
+// Frozen Pigcop (2000)
+model "polymer/sprites/ice/2000_pigcop_ice.md3" {
+  scale 14 shade 0 flags 1
+  skin { file "polymer/sprites/ice/2000_pigcop_ice.png" }
+  frame { pal 1 name "ice" tile 2000 }
+}
+
+// Frozen Enforcer (2120)
+model "polymer/sprites/ice/2120_enforcer_ice.md3" {
+  scale 1.75 flags 1
+  skin { file "polymer/sprites/ice/2120_enforcer_ice.png" }
+  frame { pal 1 name "ice" tile 2120 }
+}
+
+// Frozen Protozoid Slimer (2372)
+model "polymer/sprites/monsters/2370_slimer.md3" {
+  scale 2 flags 1
+  skin { file "polymer/sprites/ice/2372_slimer_ice.png" }
+  frame { pal 1 name "floor1" tile 2372 }
+}
+
+// Frozen Newbeast (4620)
+model "polymer/sprites/ice/4620_newbeast_ice.md3" {
+  scale 28.5 shade 0 flags 1
+  skin { file "polymer/sprites/ice/4620_newbeast_ice.png" }
+  frame { pal 1 name "FRAME1" tile 4620 }
+}
+
+
+
+// BOSSES
+
+// Frozen Battlelord (2630)
+model "polymer/sprites/monsters/2630_battlelord.md3" {
+  scale 13 shade 2 flags 1
+  skin { surface 0 file "polymer/sprites/ice/2630_battlelord_ice.png" }
+  skin { surface 1 file "polymer/sprites/monsters/2630_muzzle.png" }
+  skin { surface 2 file "polymer/sprites/ice/ice.png" }
+  frame { pal 1 name "FRAME22" tile 2660 }
+}
+
+// Frozen Cycloid Emperor (2710)
+model "polymer/sprites/monsters/2710_cycloid.md3" {
+  scale 1.03 shade 3
+  skin { file "polymer/sprites/monsters/2710_cycloid.png" }
+  frame { pal 1 name "FRAME2" tile 2710 }
+}
+
+// Frozen Lunar Overlord (2760)
+model "polymer/sprites/monsters/2760_overlord.md3" {
+  scale 45 shade 2
+  skin { surface 0 file "polymer/sprites/monsters/2760_rocket.png" }
+  skin { surface 1 file "polymer/sprites/monsters/2760_overlord_tech_d.png" specpower 2 specfactor 2 } 
+  specular { surface 1 file "polymer/sprites/monsters/2760_overlord_tech_s.png" }
+  normal { surface 1 file "polymer/sprites/monsters/2760_overlord_tech_n.png" parallaxbias 0.1 parallaxscale 0.1  }
+  skin { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_d.png" specpower 2 specfactor 2 }
+  specular { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_s.png" }
+  normal { surface 2 file "polymer/sprites/monsters/2760_overlord_bio_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+  frame { pal 1 name "frame_1" tile 2760 }
+}
+
+
+
+// CHARACTERS
+
+// Frozen Hanging Babe/NAKED1 (603)
+   model "polymer/sprites/characters/0603_naked1.md3" {
+	
+      scale 13.2 yoffset -10
+	
+      skin { pal 0 surface 0 file "polymer/sprites/ice/0603_naked1_ice.png" specfactor 0.3 specpower 2 }
+
+      skin { pal 0 surface 1 file "polymer/sprites/ice/0603_slime_ice.png" specpower 110 specfactor 180 }
+	
+      normal { pal 0 surface 1 file "polymer/sprites/characters/0603_slime_n.png" }
+	
+      specular { pal 0 surface 1 file "polymer/sprites/characters/0603_slime_s.png" }
+	
+      skin { pal 0 surface 2 file "polymer/sprites/ice/0603_pants_ice.png" }
+	
+      skin { pal 0 surface 3 file "polymer/sprites/ice/ice.png" }
+	
+      frame { pal 1 name "FRAME25" tile 603 }
+
+   }
+
+// Frozen Pod Babe/PODFEM1 (1294)
+model "polymer/sprites/characters/1294_podbabe.md3" {
+  scale 9.3 shade 2 flags 1
+  skin { surface 0 file "polymer/sprites/ice/1294_podbabe_ice.png" }
+  skin { surface 1 file "polymer/sprites/characters/slime.png" }
+  skin { surface 2 file "polymer/sprites/ice/ice.png" }
+  frame { pal 1 name "FRAME1" tile 1294 }
+}
+
+// Frozen Stripper (1313)
+model "polymer/sprites/ice/1313_stripper_ice.md3" {
+  scale 1.9 flags 1
+  skin { surface 0 file "polymer/sprites/ice/1313_stripper_ice.png" }
+  skin { surface 1 file "polymer/sprites/ice/ice.png" }
+  frame { pal 1 name "ice" tile 1313 }
+}
+
+// Frozen Pole Dancer (1318)
+model "polymer/sprites/ice/1318_stripper_ice.md3" {
+  scale 3 shade 3 flags 1
+  skin { surface 0 file "polymer/sprites/ice/1318_stripper_ice.png" }
+  skin { surface 1 file "polymer/sprites/ice/ice.png" }
+  frame { pal 1 name "frame1" tile 1318 }
+}
+
+// Frozen Hooker (1322)
+model "polymer/sprites/ice/1322_hooker_ice.md3" {
+  scale 1.1 shade 1 flags 1
+  skin { surface 0 file "polymer/sprites/ice/ice.png" }
+  skin { surface 1 file "polymer/sprites/ice/1322_hooker_ice.png" }
+  frame { pal 1 name "ice" tile 1322 }
+}
+
+// Frozen Impaled Babe/FEM5 (1323)
+model "polymer/sprites/characters/1323_paledbabe.md3" {
+  scale 9.3 shade 2 flags 1
+  skin { surface 0 file "polymer/sprites/ice/1323_paledbabe_ice.png" }
+  skin { surface 1 file "polymer/sprites/ice/ice.png" }
+  skin { surface 2 file "polymer/sprites/characters/1323_slime.png" }
+  frame { pal 1 name "FRAME1" tile 1323 }
+}
+
+// Frozen Cavedancer/FEM4 (1326)
+model "polymer/sprites/ice/1326_cavedancer_ice.md3" {
+  scale 2 shade 0 flags 1
+  skin { file "polymer/sprites/ice/1326_cavedancer_ice.png" }
+  frame { pal 1 name "FRAME1" tile 1326 }
+}
+
+// Frozen Crouching Babe/FEM6 (1334)
+model "polymer/sprites/characters/1334_crouchbabe.md3" {
+  scale 10.8 shade 2 zadd 5 flags 1
+  skin { surface 0 file "polymer/sprites/ice/1334_crouchbabe_ice.png" }
+  skin { surface 1 file "polymer/sprites/characters/slime.png" }
+  skin { surface 2 file "polymer/sprites/ice/ice.png" }
+  frame { pal 1 name "FRAME1" tile 1334 }
+}
+
+// Frozen Asian Stripper/FEM7 (1396)
+model "polymer/sprites/ice/1396_fem7_ice.md3" {
+  scale 2.57 shade 3 flags 1
+  skin { file "polymer/sprites/ice/1396_fem7_ice.png" }
+  frame { pal 1 name "FRAME1" tile 1396 }
+}
+
+// Frozen Duke (1405)
+model "polymer/sprites/characters/1405_duke.md3" {
+  scale 1.45 shade 0 zadd 3 flags 1
+  skin { surface 0 file "polymer/sprites/ice/ice.png" }
+  skin { surface 1 file "polymer/sprites/ice/1405_duke_ice.png" }
+  skin { surface 2 file "polymer/sprites/ice/ice.png" }
+  frame { pal 1 name "run0" tile 1425  }
+}
+
+// Frozen Cheerleader (3450)
+model "polymer/sprites/ice/3450_cheerleader_ice.md3" {
+   scale 2 shade 0 flags 1
+   skin { file "polymer/sprites/ice/3450_cheerleader_ice.png" }
+   frame { pal 1 name "FRAME1" tile 3450 }
+}
+
+// Frozen FEM10 (4864)
+model "polymer/sprites/ice/4864_fem10_ice.md3" {
+   scale 2.76 shade 3 flags 1
+   skin { surface 0 file "polymer/sprites/ice/4864_fem10a_ice.png" }
+   skin { surface 1 file "polymer/sprites/ice/4864_fem10b_ice.png" }
+   frame { pal 1 frame "frame1" tile 4864 }
+}
+
+// Frozen E4L7 Domina/TOUGHGAL (4866)
+model "polymer/sprites/ice/4866_toughgal_ice.md3" {
+   scale 1.75 shade 0 flags 1
+   skin { surface 0 file "polymer/sprites/ice/4866_toughgal_ice.png" }
+   skin { surface 1 file "polymer/sprites/ice/ice.png" }
+   frame { pal 1 name "FRAME1" tile 4866 }
+}
