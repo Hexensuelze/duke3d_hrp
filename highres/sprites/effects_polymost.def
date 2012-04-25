@@ -1,0 +1,372 @@
+
+// Effects for Duke3D HRP
+
+
+// REACTOR2SPARK (580)
+texture 580 { 
+   pal 0 { file "highres/sprites/effects/0580.png" }
+   pal 21 { file "highres/sprites/effects/0580_21.png" }
+   glow { file "highres/sprites/effects/0580_g.png" }
+}
+texture 581 { 
+   pal 0 { file "highres/sprites/effects/0581.png" }
+   pal 21 { file "highres/sprites/effects/0581_21.png" }
+   glow { file "highres/sprites/effects/0581_g.png" }
+}
+texture 582 { 
+   pal 0 { file "highres/sprites/effects/0582.png" }
+   pal 21 { file "highres/sprites/effects/0582_21.png" }
+   glow { file "highres/sprites/effects/0582_g.png" }
+}
+texture 583 { 
+   pal 0 { file "highres/sprites/effects/0583.png" }
+   pal 21 { file "highres/sprites/effects/0583_21.png" }
+   glow { file "highres/sprites/effects/0583_g.png" }
+}
+
+// BOLT1 (634)
+texture 634 { 
+   pal 0 { file "highres/sprites/effects/0634.png" }
+   pal 2 { file "highres/sprites/effects/0634_2.png" } 
+   pal 10 { file "highres/sprites/effects/0634_10.png" } 
+   glow { file "highres/sprites/effects/0634_g.png" } 
+}
+texture 635 { 
+   pal 0 { file "highres/sprites/effects/0635.png" }
+   pal 2 { file "highres/sprites/effects/0635_2.png" } 
+   pal 10 { file "highres/sprites/effects/0635_10.png" } 
+   glow { file "highres/sprites/effects/0635_g.png" } 
+}
+texture 636 { 
+   pal 0 { file "highres/sprites/effects/0636.png" }
+   pal 2 { file "highres/sprites/effects/0636_2.png" } 
+   pal 10 { file "highres/sprites/effects/0636_10.png" } 
+   glow { file "highres/sprites/effects/0636_g.png" } 
+}
+texture 637 { 
+   pal 0 { file "highres/sprites/effects/0637.png" }
+   pal 2 { file "highres/sprites/effects/0637_2.png" } 
+   pal 10 { file "highres/sprites/effects/0637_10.png" } 
+   glow { file "highres/sprites/effects/0637_g.png" } 
+}
+
+// Waterdrip (660)
+texture 660 {
+    pal  0 { file "highres/sprites/effects/0660.png" }
+    pal 13 { file "highres/sprites/effects/0660_13.png" }
+    pal 23 { file "highres/sprites/effects/0660_23.png" }
+}
+
+// Bubbles (661/662)
+texture 661 { pal 0 { file "highres/sprites/effects/0661.png" } }
+texture 662 { pal 0 { file "highres/sprites/effects/0662.png" } }
+
+// W_FORCEFIELD (663)
+texture 663 { 
+   pal 0 { file "highres/sprites/effects/0663_0.png" }
+   pal 2 { file "highres/sprites/effects/0663_2.png" }
+   pal 7 { file "highres/sprites/effects/0663_7.png" }
+   pal 8 { file "highres/sprites/effects/0663_7.png" }
+   pal 10 { file "highres/sprites/effects/0663_2.png" } 
+}
+
+// Water fountain (921)
+texture 921 { pal 0 { file "highres/sprites/effects/0921.png" } }
+texture 922 { pal 0 { file "highres/sprites/effects/0922.png" } }
+texture 923 { pal 0 { file "highres/sprites/effects/0923.png" } }
+texture 924 { pal 0 { file "highres/sprites/effects/0924.png" } }
+
+
+// GLASSPIECES (1031-1033)
+model "highres/sprites/effects/1031_glasspieces.md3" {
+  scale 12 shade 0
+  skin { pal 0 file "highres/sprites/effects/1031_glasspieces.png" }
+  anim { frame0 "FRAME2" frame1 "FRAME9" fps 15 flag 0 }
+  frame { name "FRAME2" tile0 1031 tile1 1033 }
+}
+
+// REACTORSPARK (1092)
+texture 1092 { 
+   pal 0 { file "highres/sprites/effects/1092.png" }
+   pal 10 { file "highres/sprites/effects/1092_10.png" }
+   glow { file "highres/sprites/effects/1092_g.png" }
+}
+texture 1093 { 
+   pal 0 { file "highres/sprites/effects/1093.png" }
+   pal 10 { file "highres/sprites/effects/1093_10.png" }
+   glow { file "highres/sprites/effects/1093_g.png" }
+}
+texture 1094 { 
+   pal 0 { file "highres/sprites/effects/1094.png" }
+   pal 10 { file "highres/sprites/effects/1094_10.png" }
+   glow { file "highres/sprites/effects/1094_g.png" }
+}
+texture 1095 { 
+   pal 0 { file "highres/sprites/effects/1095.png" }
+   pal 10 { file "highres/sprites/effects/1095_10.png" }
+   glow { file "highres/sprites/effects/1095_g.png" }
+}
+
+// Glass shards (1176/1177)
+texture 1176 { pal 0 { file "highres/sprites/effects/1176.png" } }
+texture 1177 { pal 0 { file "highres/sprites/effects/1177.png" } }
+
+// STEAM (1250-1254)
+setuptilerange 1250 1254 87 24 212 8
+texture 1250 { pal 0 { file "highres/sprites/effects/1250.png" } }
+texture 1251 { pal 0 { file "highres/sprites/effects/1251.png" } }
+texture 1252 { pal 0 { file "highres/sprites/effects/1252.png" } }
+texture 1253 { pal 0 { file "highres/sprites/effects/1253.png" } }
+texture 1254 { pal 0 { file "highres/sprites/effects/1254.png" } }
+
+// CEILINGSTEAM (1255-1259)
+setuptilerange 1255 1259 22 86 0 212
+texture 1255 { pal 0 { file "highres/sprites/effects/1255.png" } }
+texture 1256 { pal 0 { file "highres/sprites/effects/1256.png" } }
+texture 1257 { pal 0 { file "highres/sprites/effects/1257.png" } }
+texture 1258 { pal 0 { file "highres/sprites/effects/1258.png" } }
+texture 1259 { pal 0 { file "highres/sprites/effects/1259.png" } }
+
+// Teleporter Splash (1261)
+model "highres/sprites/effects/1261_teleport.md3" {
+   scale 4
+   skin { pal 0 surface 0 file "highres/sprites/effects/1261_teleport.png" }
+   anim { frame0 "Frame0" frame1 "Frame9" fps 30 flag 0 }
+   frame { name "Frame0" tile0 1261 tile1 1266 }
+}
+
+// Watersplash (1380-1384)
+setuptilerange 1380 1384 100 180 0 0
+texture 1380 { pal 0 { file "highres/sprites/effects/1380.png" } }
+texture 1381 { pal 0 { file "highres/sprites/effects/1381.png" } }
+texture 1382 { pal 0 { file "highres/sprites/effects/1382.png" } }
+texture 1383 { pal 0 { file "highres/sprites/effects/1383.png" } }
+texture 1384 { pal 0 { file "highres/sprites/effects/1384.png" } }
+
+// Teleporter Star (1630)
+texture 1630 { pal 0 { file "highres/sprites/effects/1630.png" } }
+texture 1631 { pal 0 { file "highres/sprites/effects/1631.png" } }
+texture 1632 { pal 0 { file "highres/sprites/effects/1632.png" } }
+texture 1633 { pal 0 { file "highres/sprites/effects/1633.png" } }
+texture 1634 { pal 0 { file "highres/sprites/effects/1634.png" } }
+texture 1635 { pal 0 { file "highres/sprites/effects/1635.png" } }
+
+// FORCERIPPLE (1671)
+texture 1671 { pal 0 { file "highres/sprites/effects/1671.png" } }
+texture 1672 { pal 0 { file "highres/sprites/effects/1672.png" } }
+texture 1673 { pal 0 { file "highres/sprites/effects/1673.png" } }
+texture 1674 { pal 0 { file "highres/sprites/effects/1674.png" } }
+texture 1675 { pal 0 { file "highres/sprites/effects/1675.png" } }
+texture 1676 { pal 0 { file "highres/sprites/effects/1676.png" } }
+texture 1677 { pal 0 { file "highres/sprites/effects/1677.png" } }
+texture 1678 { pal 0 { file "highres/sprites/effects/1678.png" } }
+texture 1679 { pal 0 { file "highres/sprites/effects/1679.png" } }
+
+// Explosion2 (1890)
+setuptilerange 1890 1910 180 180 0 0
+texture 1890 { pal 0 { file "highres/sprites/effects/1890.png" } }
+texture 1891 { pal 0 { file "highres/sprites/effects/1891.png" } }
+texture 1892 { pal 0 { file "highres/sprites/effects/1892.png" } }
+texture 1893 { pal 0 { file "highres/sprites/effects/1893.png" } }
+texture 1894 { pal 0 { file "highres/sprites/effects/1894.png" } }
+texture 1895 { pal 0 { file "highres/sprites/effects/1895.png" } }
+texture 1896 { pal 0 { file "highres/sprites/effects/1896.png" } }
+texture 1897 { pal 0 { file "highres/sprites/effects/1897.png" } }
+texture 1898 { pal 0 { file "highres/sprites/effects/1898.png" } }
+texture 1899 { pal 0 { file "highres/sprites/effects/1899.png" } }
+texture 1900 { pal 0 { file "highres/sprites/effects/1900.png" } }
+texture 1901 { pal 0 { file "highres/sprites/effects/1901.png" } }
+texture 1902 { pal 0 { file "highres/sprites/effects/1902.png" } }
+texture 1903 { pal 0 { file "highres/sprites/effects/1903.png" } }
+texture 1904 { pal 0 { file "highres/sprites/effects/1904.png" } }
+texture 1905 { pal 0 { file "highres/sprites/effects/1905.png" } }
+texture 1906 { pal 0 { file "highres/sprites/effects/1906.png" } }
+texture 1907 { pal 0 { file "highres/sprites/effects/1907.png" } }
+texture 1908 { pal 0 { file "highres/sprites/effects/1908.png" } }
+texture 1909 { pal 0 { file "highres/sprites/effects/1909.png" } }
+texture 1910 { pal 0 { file "highres/sprites/effects/1910.png" } }
+
+
+// Fire #1 (2066)
+texture 2066 { pal 0 { file "highres/sprites/effects/2066.png" } }
+texture 2067 { pal 0 { file "highres/sprites/effects/2067.png" } }
+texture 2068 { pal 0 { file "highres/sprites/effects/2068.png" } }
+texture 2069 { pal 0 { file "highres/sprites/effects/2069.png" } }
+texture 2070 { pal 0 { file "highres/sprites/effects/2070.png" } }
+texture 2071 { pal 0 { file "highres/sprites/effects/2071.png" } }
+texture 2072 { pal 0 { file "highres/sprites/effects/2072.png" } }
+texture 2073 { pal 0 { file "highres/sprites/effects/2073.png" } }
+texture 2074 { pal 0 { file "highres/sprites/effects/2074.png" } }
+texture 2075 { pal 0 { file "highres/sprites/effects/2075.png" } }
+texture 2076 { pal 0 { file "highres/sprites/effects/2076.png" } }
+texture 2077 { pal 0 { file "highres/sprites/effects/2077.png" } }
+texture 2078 { pal 0 { file "highres/sprites/effects/2078.png" } }
+texture 2079 { pal 0 { file "highres/sprites/effects/2079.png" } }
+
+// Explosion2bot (2219)
+texture 2219 { pal 0 { file "highres/sprites/effects/2219.png" } }
+texture 2220 { pal 0 { file "highres/sprites/effects/2219.png" } }
+texture 2221 { pal 0 { file "highres/sprites/effects/2221.png" } }
+texture 2222 { pal 0 { file "highres/sprites/effects/2222.png" } }
+texture 2223 { pal 0 { file "highres/sprites/effects/2223.png" } }
+texture 2224 { pal 0 { file "highres/sprites/effects/2224.png" } }
+texture 2225 { pal 0 { file "highres/sprites/effects/2225.png" } }
+texture 2226 { pal 0 { file "highres/sprites/effects/2226.png" } }
+texture 2227 { pal 0 { file "highres/sprites/effects/2227.png" } }
+texture 2228 { pal 0 { file "highres/sprites/effects/2228.png" } }
+texture 2229 { pal 0 { file "highres/sprites/effects/2229.png" } }
+texture 2230 { pal 0 { file "highres/sprites/effects/2230.png" } }
+texture 2231 { pal 0 { file "highres/sprites/effects/2231.png" } }
+texture 2232 { pal 0 { file "highres/sprites/effects/2232.png" } }
+texture 2233 { pal 0 { file "highres/sprites/effects/2233.png" } }
+texture 2234 { pal 0 { file "highres/sprites/effects/2234.png" } }
+texture 2235 { pal 0 { file "highres/sprites/effects/2234.png" } }
+texture 2236 { pal 0 { file "highres/sprites/effects/2236.png" } }
+texture 2237 { pal 0 { file "highres/sprites/effects/2237.png" } }
+texture 2238 { pal 0 { file "highres/sprites/effects/2238.png" } }
+texture 2239 { pal 0 { file "highres/sprites/effects/2238.png" } }
+
+// BURNING/FIRE (2270/2271)
+texture 2270 { pal 0 { file "highres/sprites/effects/2270.png" } }
+texture 2271 { pal 0 { file "highres/sprites/effects/2271.png" } }
+texture 2272 { pal 0 { file "highres/sprites/effects/2272.png" } }
+texture 2273 { pal 0 { file "highres/sprites/effects/2273.png" } }
+texture 2274 { pal 0 { file "highres/sprites/effects/2274.png" } }
+texture 2275 { pal 0 { file "highres/sprites/effects/2275.png" } }
+texture 2276 { pal 0 { file "highres/sprites/effects/2276.png" } }
+texture 2277 { pal 0 { file "highres/sprites/effects/2277.png" } }
+texture 2278 { pal 0 { file "highres/sprites/effects/2278.png" } }
+texture 2279 { pal 0 { file "highres/sprites/effects/2279.png" } }
+texture 2280 { pal 0 { file "highres/sprites/effects/2280.png" } }
+texture 2281 { pal 0 { file "highres/sprites/effects/2281.png" } }
+texture 2282 { pal 0 { file "highres/sprites/effects/2282.png" } }
+texture 2283 { pal 0 { file "highres/sprites/effects/2283.png" } }
+
+// Fire #2 (2310)
+texture 2310 { pal 0 { file "highres/sprites/effects/2310.png" } }
+texture 2311 { pal 0 { file "highres/sprites/effects/2311.png" } }
+texture 2312 { pal 0 { file "highres/sprites/effects/2312.png" } }
+texture 2313 { pal 0 { file "highres/sprites/effects/2313.png" } }
+texture 2314 { pal 0 { file "highres/sprites/effects/2314.png" } }
+texture 2315 { pal 0 { file "highres/sprites/effects/2315.png" } }
+texture 2316 { pal 0 { file "highres/sprites/effects/2316.png" } }
+texture 2317 { pal 0 { file "highres/sprites/effects/2317.png" } }
+texture 2318 { pal 0 { file "highres/sprites/effects/2318.png" } }
+texture 2319 { pal 0 { file "highres/sprites/effects/2319.png" } }
+texture 2320 { pal 0 { file "highres/sprites/effects/2320.png" } }
+texture 2321 { pal 0 { file "highres/sprites/effects/2321.png" } }
+texture 2322 { pal 0 { file "highres/sprites/effects/2322.png" } }
+texture 2323 { pal 0 { file "highres/sprites/effects/2323.png" } }
+
+// Smoke Puff (2329)
+texture 2329 { pal 0 { file "highres/sprites/effects/2329.png" } }
+texture 2330 { pal 0 { file "highres/sprites/effects/2330.png" } }
+texture 2331 { pal 0 { file "highres/sprites/effects/2331.png" } }
+texture 2332 { pal 0 { file "highres/sprites/effects/2332.png" } }
+
+
+// Scrap parts (2390-2418)
+
+   // Scrap1 (2390-2398)
+   model "highres/sprites/effects/2390_scrap1.md3" {
+      scale 4 shade 3
+      detail { file "highres/detail/metal.png" detailscale 0.3 }
+      skin { pal 0 file "highres/sprites/effects/2390_scrap1.png" }
+      anim { frame0 "FRAME2" frame1 "FRAME6" fps 15 flag 0 }
+      anim { frame0 "FRAME6" frame1 "FRAME9" fps 15 flag 0 }
+      frame { name "FRAME2" tile0 2390 tile1 2398 }
+   }
+
+   // Scrap2 (2400-2403)
+   model "highres/sprites/effects/2400_scrap2.md3" {
+      scale 7 shade 3
+      detail { file "highres/detail/metal.png" detailscale 0.3 }
+      skin { pal 0 file "highres/sprites/effects/2400_scrap2.png" }
+      anim { frame0 "FRAME2" frame1 "FRAME6" fps 15 flag 0 }
+      anim { frame0 "FRAME6" frame1 "FRAME9" fps 15 flag 0 }
+      frame { name "FRAME2" tile0 2400 tile1 2403 }
+   }
+
+   // Scrap3 (2404-2407)
+   model "highres/sprites/effects/2404_scrap3.md3" {
+      scale 7 shade 3
+      detail { file "highres/detail/metal.png" detailscale 0.3 }
+      skin { pal 0 file "highres/sprites/effects/2404_scrap3.png" }
+      anim { frame0 "FRAME2" frame1 "FRAME6" fps 15 flag 0 }
+      anim { frame0 "FRAME6" frame1 "FRAME9" fps 15 flag 0 }
+      frame { name "FRAME2" tile0 2404 tile1 2407 }
+   }
+
+   // Scrap4 (2408-2411)
+   model "highres/sprites/effects/2408_scrap4.md3" {
+      scale 7 shade 3
+      detail { file "highres/detail/metal.png" detailscale 0.3 }
+      skin { pal 0 file "highres/sprites/effects/2408_scrap4.png" }
+      anim { frame0 "FRAME2" frame1 "FRAME6" fps 15 flag 0 }
+      anim { frame0 "FRAME6" frame1 "FRAME9" fps 15 flag 0 }
+      frame { name "FRAME2" tile0 2408 tile1 2411 }
+   }
+
+   // Scrap5 (2412-2415)
+   model "highres/sprites/effects/2412_scrap5.md3" {
+      scale 7 shade 3
+      detail { file "highres/detail/metal.png" detailscale 0.3 }
+      skin { pal 0 file "highres/sprites/effects/2412_scrap5.png" }
+      anim { frame0 "FRAME2" frame1 "FRAME6" fps 15 flag 0 }
+      anim { frame0 "FRAME6" frame1 "FRAME9" fps 15 flag 0 }
+      frame { name "FRAME2" tile0 2412 tile1 2415 }
+   }
+
+   // Scrap6 (2416-2418)
+   model "highres/sprites/effects/2412_scrap5.md3" {
+      scale 7 shade 3
+      detail { file "highres/detail/metal.png" detailscale 0.3 }
+      skin { pal 0 file "highres/sprites/effects/2416_scrap6.png" }
+      anim { frame0 "FRAME2" frame1 "FRAME6" fps 15 flag 0 }
+      anim { frame0 "FRAME6" frame1 "FRAME9" fps 15 flag 0 }
+      frame { name "FRAME2" tile0 2416 tile1 2418 }
+   }
+
+
+// Tripbomb Laser (2567)
+texture 2567 { 
+   pal 0 { file "highres/sprites/effects/2567_laser.png" }
+   pal 1 { file "highres/sprites/effects/2567_laser_1.png" } 
+   pal 2 { file "highres/sprites/effects/2567_laser.png" }
+   pal 8 { file "highres/sprites/effects/2567_laser_8.png" } 
+}
+
+// SHOTSPARK1 (2595-2598)
+model "highres/sprites/effects/2595_shotspark1.md3" {
+  scale 90 shade 3
+  skin { pal 0 file "highres/sprites/effects/2595_shotspark1.png" }
+  glow { pal 0 file "highres/sprites/effects/2595_shotspark1.png" }
+  anim { frame0 "FRAME3" frame1 "FRAME20" fps 40 flag 0 }
+  frame { name "FRAME3" tile0 2595 tile1 2598 }
+}
+
+
+// SIDEBOLT1 (4525)
+texture 4525 { 
+   pal 0 { file "highres/sprites/effects/4525.png" }
+   pal 10 { file "highres/sprites/effects/4525_10.png" } 
+   glow { file "highres/sprites/effects/4525_g.png" } 
+}
+texture 4526 { 
+   pal 0 { file "highres/sprites/effects/4526.png" }
+   pal 10 { file "highres/sprites/effects/4526_10.png" } 
+   glow { file "highres/sprites/effects/4526_g.png" } 
+}
+texture 4527 { 
+   pal 0 { file "highres/sprites/effects/4527.png" }
+   pal 10 { file "highres/sprites/effects/4527_10.png" } 
+   glow { file "highres/sprites/effects/4527_g.png" } 
+}
+texture 4528 { 
+   pal 0 { file "highres/sprites/effects/4528.png" }
+   pal 10 { file "highres/sprites/effects/4528_10.png" } 
+   glow { file "highres/sprites/effects/4528_g.png" } 
+}
+
+// Lightning (4890)
+texture 4890 { pal 0 { file "highres/sprites/effects/4890.png" } }
