@@ -110,5 +110,11 @@ texture 2482 { pal 0 { file "highres/screen/hud/2482.png" } }
 texture 2483 { pal 0 { file "highres/screen/hud/2483.png" } }
 texture 2484 { pal 0 { file "highres/screen/hud/2484.png" } }
 
-texture 2523 { pal 0 { file "highres/screen/hud/2523.png" } }
-texture 2527 { pal 0 { file "highres/screen/hud/2527.png" } }
+texture 2523 {
+  pal 0 { file "highres/screen/hud/2523.png" nocompress }
+  glow { file "highres/screen/hud/2523.png" nocompress }
+}
+texture 2527 {
+  pal 0 { file "highres/screen/hud/2527.png" nocompress }
+  glow { file "highres/screen/hud/2527_g.png" nocompress }
+}
