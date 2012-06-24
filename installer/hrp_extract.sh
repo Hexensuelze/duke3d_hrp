@@ -389,7 +389,9 @@ parse_defs()
       parse_defs "${DEF_FILE}"
     fi
 
-    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|voxel|front|right|back|left|top|bottom|down"`
+    #HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|voxel|front|right|back|left|top|bottom|down"`
+    ## Old style added (except "defineskybox"):
+    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "definetexture|definemodel|definemodelskin|file|model|voxel|front|right|back|left|top|bottom|down"`
     #More skybox tokens: tile, pal, ft|rt|bk|lf|up|dn|forward|lt|ceiling|floor|ceil
 
     if [ ! "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
@@ -424,6 +426,20 @@ parse_defs()
       front|right|back|left|top|bottom|down)
         #HRP_FILE=`echo "${DEF_LINE}" | sed -r s/^.*${HRP_TERM}\ *\"//g | sed s/\".*//`
         HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*${HRP_TERM}\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
+        ;;
+      ## Old Style
+      definemodel)
+        HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*${HRP_TERM}\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
+        ;;
+      definemodelskin)
+        HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*${HRP_TERM}\\ 0\\ \"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`
+        ;;
+      definetexture)
+        # Won't work atm if filename in quotes (too lazy)
+        #HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(\\.*\\)\\(\\ \\)\\(.*\\)\\($\\)/\\\3/`
+        HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(\\.*\\)\\(\\ \\)\\([0-9a-zA-Z\\_\\/\\.]*\\)\\(.*\\)/\\\3/`
+        #echo "DEF_LINE : ${DEF_LINE}"
+        #echo "HRP_FILE : ${HRP_FILE}"
         ;;
       *)
         HRP_FILE=""
