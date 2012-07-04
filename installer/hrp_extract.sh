@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.3  2012-03-24
+# Duke Nukem 3D High Resolution Pack Extractor  v0.4  2012-07-04
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -109,7 +109,11 @@ copy_known_files()
   else
     cp -pv hrp_readme.txt           "${EXTRACTDIR}"
   fi
-  cp -pv hrp_art_license.txt        "${EXTRACTDIR}"
+
+  if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] || \
+     [ "${HRPTYPE}" = "polymer"  ] || [ "${HRPTYPE}" = "full" ] ; then
+    cp -pv hrp_art_license.txt      "${EXTRACTDIR}"
+  fi
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ; then
     if [ "${SET_VERSION}" = "YES" ] ; then
@@ -182,12 +186,14 @@ copy_known_files()
   fi
 
   if [ "${HRPTYPE}" = "sw_lowres" ] ; then
-    cp -pv lowres/sw_lrp.def        "${EXTRACTDIR}/lowres"
-    cp -pv LRP.bat                  "${EXTRACTDIR}"
-    cp -pv LRP_Readme.txt           "${EXTRACTDIR}"
-    cp -pv LRP_Changes.txt          "${EXTRACTDIR}"
+    echo "Creating sw.def for lowres HRP ..."
+    echo "include lowres/sw_lrp.def" > "${EXTRACTDIR}/sw.def"
+    cp -pv lowres/sw_lrp.def           "${EXTRACTDIR}/lowres"
+    cp -pv LRP.bat                     "${EXTRACTDIR}"
+    cp -pv LRP_Readme.txt              "${EXTRACTDIR}"
+    cp -pv LRP_Changes.txt             "${EXTRACTDIR}"
     echo "Copying skyboxes ..."
-    tar_copy_dir "highres/skyboxes" "${EXTRACTDIR}/highres/skyboxes"
+    tar_copy_dir "highres/skyboxes"    "${EXTRACTDIR}/highres/skyboxes"
     cd "${WORKDIR}"
   fi
 

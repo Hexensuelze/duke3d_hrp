@@ -2,10 +2,10 @@
          |            DUKE NUKEM 3D HIGH RESOLUTION PACK (HRP)            |
          |                                                                |
          |                   A Duke3D Community Project                   |
-         |                                                                |                      
+         |                                                                |
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 5.1.324 (Mar 17, 2012)                 |
+         |                 Version 5.1.384 (2012-07-04)                   |
          ==================================================================
 
 
@@ -35,32 +35,34 @@ CONTENTS OF THIS README
 1) ABOUT
 ========
 
-Remember "Duke Nukem 3D", the great first-person shooter 3D Realms released back in 
-1996? Its cool protagonist, ingame atmosphere, original weaponry and many other 
-features make it worth playing even today.
+Remember "Duke Nukem 3D", the great first-person shooter 3D Realms released back
+in 1996? Its cool protagonist, ingame atmosphere, original weaponry and many
+other features make it worth playing even today.
 
-For all Duke fans who want to play the game again in a modern Windows environment 
-with 3D accelerated graphics, the Duke3D community has created the High Resolution 
-Pack (HRP). Utilizing the amazing skills of various texturing and modelling artists, 
-the project´s goal is to replace all textures and sprites with high-res versions, 
-optimizing it for latest OpenGL ports.
+For all Duke fans who want to play the game again in a modern Windows / Linux
+environment with 3D accelerated graphics, the Duke3D community has created the
+High Resolution Pack (HRP). Utilizing the amazing skills of various texturing
+and modelling artists, the project's goal is to replace all textures and sprites
+with high-res versions, optimizing it for latest OpenGL ports.
 
 All you need is the "duke3d.grp" file from your original Duke3D v1.3d or 
 Atomic (v1.5) CD-ROM. You can also play with the shareware version available 
 over at http://www.3drealms.com/downloads.html . 
 
 Here's what the Duke3D HRP has to offer: 
-   - EDuke32 port for Duke Nukem 3D (by TerminX and Plagman, based on JFDuke3D by 
-     Jonathon "JonoF" Fowler). Supports older Polymost renderer as well as the more
-     advanced Polymer renderer (with advanced effects like normal/specular mapping,
-     per-pixel dynamic lighting, real-time shadows etc). 
-     For more info about these ports, check out JonoF's JFDuke3D and the EDuke32 site. 
-   - 32-bit high resolution textures with 4-8 times the detail of the original textures. 
+   - EDuke32 port for Duke Nukem 3D (by TerminX and Plagman, based on JFDuke3D
+     by Jonathon "JonoF" Fowler). Supports older Polymost renderer as well as
+     the more advanced Polymer renderer (with advanced effects like
+     normal/specular mapping, per-pixel dynamic lighting, real-time shadows,etc)
+     For more info about these ports, check out JonoF's JFDuke3D and the
+     EDuke32 site. 
+   - 32-bit high resolution textures with 4-8 times the detail of the original
+     textures. 
    - Models instead of the old sprites. 
 
 While the HRP is still "work in progress" and missing quite a few textures and 
-models, you can check the Duke Nukem 3D source code forums for additional content 
-or even better contributing something of your own.
+models, you can check the Duke Nukem 3D source code forums for additional
+content or even better contributing something of your own.
 
 The community's goal is to issue a new HRP version once in 1-2 year(s).
 
@@ -83,8 +85,8 @@ After installation, you start the game using the shortcut in the Duke3D folder,
 desktop or start menu called "Duke3D High Resolution Pack". Starting the game 
 directly will start EDuke32 without textures and models.
 
-IMPORTANT: To see the high resolution textures and models you have to change the 
-           render mode to 32-bit Polymer in the "Video Settings" under "Options" 
+IMPORTANT: To see the high resolution textures and models you have to change the
+           render mode to 32-bit Polymer in the "Video Settings" under "Options"
            in the game menu. Otherwise, HRP content will not work (properly)!
 
 It is recommended to run the setup utility in order to set up your video, audio 
@@ -104,9 +106,9 @@ settings can be changed with EDuke32 ingame menu as well.
 Since this is a work in progress version of the pack which has not been tested 
 extensively, there are probably some issues that need fixing. Please let us 
 know of any problems with it so they can be sorted out in future versions. Also 
-notify us if we are missing any art that’s been released prior to the packs 
-release date, even though we have skipped some stuff since we simply did not like 
-it, there is maybe some stuff that has been missed to include.
+notify us if we are missing any art that's been released prior to the pack's 
+release date, even though we have skipped some stuff since we simply did not
+like, there is maybe some stuff that has been missed to include.
 
 Please also be aware of the fact that we are still missing models and textures
 because these have not been remade yet by the community. They will probably
@@ -123,19 +125,22 @@ Compared to previous release (HRP v4), you can expect the following changes:
 
 > Full Polymer lighting support (with maphacks)
 > Polymer support for many textures (normal/specular mapping)
-> Polymer support for HUD weapons: Chaingun, RPG, Devastator
-> Increased resolution for several textures and model skins (beyond standard 512x512 HRP res)
+> Polymer support for HUD weapons: Chaingun, RPG, Devastator, Pistol, Shotgun
+> Increased resolution for several textures and model skins
+  (beyond standard 512x512 HRP res)
 > New model for Lunar Overlord (ep.2 boss)
 > Improvements to the ingame menu (new font, some new screens)
-> Hundreds of new textures, dozens of new models - overall HRP size increased from 285 MB to over 550+ MB! 
+> Hundreds of new textures, dozens of new models - overall HRP size increased
+  from 285 MB to over 600+ MB! 
 
 IMPORTANT!
 ----------
-Please note that all HRP v5 contents has been optimized for usage with Polymer renderer.
-This means that if you use the older Polymost renderer, you WILL encounter problems (HUD 
-weapons rendered incorrectly or other display glitches). Polymer requirements offer advanced
-graphics effects but demand much better hardware. If you are forced to use Polymost due to
-having a weaker machine, you have to download a different HRP build! 
+Please note that all HRP v5 contents has been optimized for usage with Polymer
+renderer. This means that if you use the older Polymost renderer, you WILL
+encounter problems (HUD weapons rendered incorrectly or other display glitches).
+Polymer requirements offer advanced graphics effects but demand much better
+hardware. If you are forced to use Polymost due to having a weaker machine,
+you have to download a different HRP build!
 
 
 -----------------
@@ -171,8 +176,8 @@ some of them could not be removed in this release. Here are those we know of:
 ---------------------
 3.4) Title screen art
 ---------------------
-The front screen is a slightly modified and enhanced version of 3DRealms original
-art work used with permission.
+The front screen is a slightly modified and enhanced version of 3DRealms
+original art work used with permission.
 
 
 -----------------
@@ -181,8 +186,9 @@ art work used with permission.
 The EDuke32 port is an enhanced version of JonoF's initial JFDuke3D port and
 features enhanced mod support together with tons of newly-added code. It is 
 released and maintained by TerminX.
-We are using EDuke32 for running HRP now because the port gets updated frequently,
-it offers advanced features for which HRP contents has been optimized.
+We are using EDuke32 for running HRP now because the port gets updated
+frequently, and it offers advanced features for which HRP contents has been
+optimized.
 
 
 
@@ -195,14 +201,15 @@ it offers advanced features for which HRP contents has been optimized.
 4.1) HRP 
 --------
 
-The contents of the High Resolution Pack are licensed under these three licenses:
+The contents of the High Resolution Pack are licensed under these three
+licenses:
 
-- The build engine is licensed under Ken Silverman's Build License which can be 
+- The build engine is licensed under Ken Silverman's Build License which can be
   found in "BUILDLIC.TXT".
-- The EDuke32 port is licensed under the GNU Public license which can be found 
+- The EDuke32 port is licensed under the GNU Public license which can be found
   in "GNU.TXT".
-- The art content is licensed under the High Resolution Pack Art License which can 
-  be found in "hrp_art_license.txt".
+- The art content is licensed under the High Resolution Pack Art License which
+  can be found in "hrp_art_license.txt".
 
 
 -----------
@@ -218,7 +225,7 @@ more information and the full license, please visit http://www.cgtextures.com.
 This disclaimer applies to the following textures:
 - highres\sprites\props: 585
 - highres\sprites\signs: 4420, 4949, 4955
-- highres\textures: 1120
+- highres\textures:      1120
 
 
 
@@ -268,10 +275,11 @@ Visit us online!
 6) CREDITS
 ==========
 
-All the following people are involved in this release. They all have our gratitude,
-for nothing of the great artwork (or pretty much anything else) would have been 
-possible to include without their support and effort.  
-Please notify us if you did contribute to this project without being listed here!
+All the following people are involved in this release. They all have our
+gratitude, for nothing of the great artwork (or pretty much anything else)
+would have been possible to include without their support and effort.
+Please notify us if you did contribute to this project without being listed
+here!
 
 
 -------------
@@ -284,6 +292,8 @@ Ken Silverman
 ------------
 EDuke32 Port
 ------------
+Helixhorned
+Hendricks266
 Plagman
 TerminX
 
@@ -325,6 +335,7 @@ Kef Nukem
 Kev_Hectic
 Kevin9er
 Killd a ton
+L.D. Simone
 L2theKING
 Lemming
 Lightsource
@@ -342,11 +353,12 @@ Piterplus
 princetonEO
 Rellik66
 Roger
+Roma Loom
 Quakis
 Semicharm
 Sky Fox
 Steveeeie
-SwissCM
+Swiss Cheeseman/SwissCM
 Tesserex
 theRobot
 toadie2k
@@ -404,13 +416,20 @@ Renegado
 Roma Loom
 Sky Fox
 Soul Collector
-Spiker
+Spiker/Brain Damage
+Supertanker
 Swiss Cheeseman/SwissCM
 Tea Monster
 vakooja
 Vasilinka
 YicklePigeon
 zilppuri
+
+
+--------
+Highpals
+--------
+Lezing/CraigFatman
 
 
 --------
