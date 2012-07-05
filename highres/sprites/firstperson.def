@@ -337,6 +337,6 @@ model "highres/sprites/firstperson/2613_shotgun.md3" {
    hud { tile 2617 xadd -0.5 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
    hud { tile 2618 xadd -0.6 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
    hud { tile 2619 xadd -0.65 yadd 1.5 zadd -0.9 angadd -24 fov 300 }
-   frame { name "frame7" tile 2615 }
-   hud { tile 2615 hide }
+   frame { name "frame7" tile0 2614 tile1 2615 }
+   hud { tile0 2614 tile1 2615 hide }
 }
