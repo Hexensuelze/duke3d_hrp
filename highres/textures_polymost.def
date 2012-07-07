@@ -46,7 +46,8 @@ texture 128 { pal 0 { file "highres/textures/0128.png" } }
 
 texture 150 { 
    pal 0 { file "highres/textures/0150.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.3 yscale 0.3 }
 }
 texture 151 { 
    pal 0 { file "highres/textures/0151.jpg" }
@@ -54,27 +55,33 @@ texture 151 {
 }
 texture 152 { 
    pal 0 { file "highres/textures/0152.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.6 }
 }
 texture 153 { 
    pal 0 { file "highres/textures/0153.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.6 }
 }
 texture 154 { 
    pal 0 { file "highres/textures/0154.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.3 yscale 0.6 }
 }
 texture 155 { 
    pal 0 { file "highres/textures/0155.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.6 }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.3 yscale 0.6 }
 }
 texture 156 { 
    pal 0 { file "highres/textures/0156.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.3 }
 }
 texture 157 { 
    pal 0 { file "highres/textures/0157.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.3 }
 }
 texture 158 { 
    pal 0 { file "highres/textures/0158.jpg" }
@@ -82,7 +89,8 @@ texture 158 {
 }
 texture 159 {
    pal 0 { file "highres/textures/0159.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.3 }
 }
 
 texture 161 {
@@ -555,17 +563,20 @@ texture 315 {
    detail { file "highres/detail/metal_worn.png" xscale 0.075 yscale 0.075 }
 }
 texture 317 {
-   pal 0 { file "highres/textures/0317.png" xscale 2 yscale 2 }
-   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+   pal 0 { file "highres/textures/0317.png" xscale 2 yscale 4 }
+//   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.6 }
 }
 texture 318 {
-   pal 0 { file "highres/textures/0318.png" xscale 2 yscale 2 }
-   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+   pal 0 { file "highres/textures/0318.png" xscale 2 yscale 1 }
+//   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.6 }
 }
 
 texture 322 {
    pal 0 { file "highres/textures/0322.png" xscale 2 yscale 2 }
    detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.6 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.6 }
 }
 texture 325 {
    pal 0 { file "highres/textures/0325.png" }
@@ -581,6 +592,7 @@ texture 327 {
 }
 texture 328 {
    pal 0 { file "highres/textures/0328.png" }
+   detail { file "highres/detail/polymost_tint.png" xscale 0.6 yscale 0.6 }
 }
 texture 329 {
    pal 0 { file "highres/textures/0329.png" }
@@ -683,6 +695,7 @@ texture 353 {
 texture 354 {
    pal 0 { file "highres/textures/0354.png" }
    detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.15 yscale 0.3 }
 }
 texture 355 {
    pal 0 { file "highres/textures/0355.png" }
@@ -711,14 +724,17 @@ texture 366 {
 texture 367 {
    pal 0 { file "highres/textures/0367.png" xscale 2 }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.3 yscale 0.15 }
 }
 texture 368 {
    pal 0 { file "highres/textures/0368.png" xscale 2 }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.3 yscale 0.15 }
 }
 texture 369 {
    pal 0 { file "highres/textures/0369.png" xscale 2 }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.3 yscale 0.15 }
 }
 
 texture 370 {
@@ -729,6 +745,7 @@ texture 370 {
 texture 371 {
    pal 0 { file "highres/textures/0371.png" }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+//   detail { file "highres/detail/polymost_tint.png" xscale 0.3 yscale 0.3 }
 }
 texture 372 {
    pal 0 { file "highres/textures/0372.png" }
