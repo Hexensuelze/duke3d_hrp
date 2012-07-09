@@ -137,6 +137,9 @@ model "highres/sprites/firstperson_polymost/2544_rpg.md3" {
    hud { tile 2544 xadd 0.1 yadd 1.15 zadd -0.68 angadd -12 }
    frame { name "idle" tile0 2545 tile1 2546 }
 }
+// RPG muzzleflash (2544-2546)
+texture 2545 { pal 0 { file "highres/sprites/firstperson_polymost/2545_muzzle_flash.png" } }
+texture 2546 { pal 0 { file "highres/sprites/firstperson_polymost/2545_muzzle_flash.png" } }
 
 // Freezer (2548)
 model "highres/sprites/firstperson/2548_freezer.md3" {
