@@ -425,10 +425,10 @@ model "highres/sprites/monsters/4740_queen.md3" {
    skin { pal 23 file "highres/sprites/monsters/4740_queen_23.png" }
    skin { pal 24 file "highres/sprites/monsters/4740_queen_24.png" }
 
-   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_g.png" }
 
    // QUEENITSADRONE
-   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_g.png" }
    anim { frame0 "FRAME50" frame1 "FRAME80" fps 5 flags 0 }
    frame { name "FRAME50" tile0 4790 tile1 4804 smoothduration 0.3 }
 
@@ -437,7 +437,7 @@ model "highres/sprites/monsters/4740_queen.md3" {
    frame { name "FRAME2" tile0 4740 tile1 4759 smoothduration 0.2 }
 
    // QUEENSHOCKATTACK 
-   glow { surface 1 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 1 file "highres/sprites/monsters/4740_queen_g.png" }
 
    anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
    frame { name "FRAME25" tile0 4760 tile1 4761 smoothduration 0.1 }
@@ -469,8 +469,8 @@ model "highres/sprites/monsters/4740_queen.md3" {
    skin { pal 22 file "highres/sprites/monsters/4740_queen_death_11_22.png" }
    skin { pal 23 file "highres/sprites/monsters/4740_queen_death_23.png" }
    skin { pal 24 file "highres/sprites/monsters/4740_queen_death_24.png" }
-   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
-   glow { surface 1 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_g.png" }
+   glow { surface 1 file "highres/sprites/monsters/4740_queen_g.png" }
 
    anim { frame0 "FRAME85" frame1 "FRAME125" fps 15 flags 1 }
    frame { name "FRAME85" tile0 4780 tile1 4789 smoothduration 0.3 }

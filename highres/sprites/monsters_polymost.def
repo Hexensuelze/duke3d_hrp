@@ -351,7 +351,7 @@ model "highres/sprites/monsters_polymost/2760_overlord.md3" {
   skin { pal 0 surface 1 file "highres/sprites/monsters/2630_muzzle.png" } 
   glow { surface 1 file "highres/sprites/monsters/2630_muzzle.png" }
   skin { pal 0 surface 2 file "highres/sprites/monsters_polymost/2760_overlord.png" }
-  glow { surface 2 file "highres/sprites/monsters_polymost/2760_overlord_glow.png" }
+  glow { surface 2 file "highres/sprites/monsters_polymost/2760_overlord_g.png" }
   anim { frame0 "FRAME1" frame1 "FRAME20" fps 22 flags 0 }   // walk
   anim { frame0 "FRAME22" frame1 "FRAME29" fps 10 flags 0 }  // ready
   anim { frame0 "FRAME30" frame1 "FRAME32" fps 10 flags 0 }  // shoot
@@ -410,10 +410,10 @@ model "highres/sprites/monsters/4740_queen.md3" {
    skin { pal 23 file "highres/sprites/monsters/4740_queen_23.png" }
    skin { pal 24 file "highres/sprites/monsters/4740_queen_24.png" }
 
-   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_g.png" }
 
    // QUEENITSADRONE
-   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_g.png" }
    anim { frame0 "FRAME50" frame1 "FRAME80" fps 5 flags 0 }
    frame { name "FRAME50" tile0 4790 tile1 4804 smoothduration 0.3 }
 
@@ -422,7 +422,7 @@ model "highres/sprites/monsters/4740_queen.md3" {
    frame { name "FRAME2" tile0 4740 tile1 4759 smoothduration 0.2 }
 
    // QUEENSHOCKATTACK 
-   glow { surface 1 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 1 file "highres/sprites/monsters/4740_queen_g.png" }
 
    anim { frame0 "FRAME25" frame1 "FRAME45" fps 20 flags 0 }
    frame { name "FRAME25" tile0 4760 tile1 4761 smoothduration 0.1 }
@@ -454,8 +454,8 @@ model "highres/sprites/monsters/4740_queen.md3" {
    skin { pal 22 file "highres/sprites/monsters/4740_queen_death_11_22.png" }
    skin { pal 23 file "highres/sprites/monsters/4740_queen_death_23.png" }
    skin { pal 24 file "highres/sprites/monsters/4740_queen_death_24.png" }
-   glow { surface 0 file "highres/sprites/monsters/4740_queen_glow.png" }
-   glow { surface 1 file "highres/sprites/monsters/4740_queen_glow.png" }
+   glow { surface 0 file "highres/sprites/monsters/4740_queen_g.png" }
+   glow { surface 1 file "highres/sprites/monsters/4740_queen_g.png" }
 
    anim { frame0 "FRAME85" frame1 "FRAME125" fps 15 flags 1 }
    frame { name "FRAME85" tile0 4780 tile1 4789 smoothduration 0.3 }
