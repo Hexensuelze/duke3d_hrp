@@ -45,9 +45,9 @@ model "highres/sprites/firstperson/2510_devastator.md3" {
    specular { file "highres/sprites/firstperson/2510_devastator_s.png" }
    frame { name "Frame0" tile 2510 }
    glow { file "highres/sprites/firstperson/2510_devastator_g.png" }
-   frame { name "Frame0" tile 2511 }
-   hud { tile0 2510 tile1 2511 xadd -0.38 yadd -0.70 zadd 1.42 angadd 1024 flipped } //Left devastator
-   hud { tile0 2510 tile1 2511 xadd 0.38 yadd 0.18 zadd 1.42 angadd 1024 } //Right devastator
+   frame { name "Frame1" tile 2511 }
+   hud { tile0 2510 tile1 2511 xadd -0.38 yadd -0.70 zadd 1.42 angadd -512 flipped } //left devastator
+   hud { tile0 2510 tile1 2511 xadd 0.38 yadd 0.18 zadd 1.42 angadd -512 } //right devastator
 }
 
 // Mighty Boot (2521)
