@@ -1045,19 +1045,22 @@ texture 389 {
 }
 
 texture 390 {
-   pal 0 { file "highres/textures/0390.png" }
-   pal 10 { file "highres/textures/0390_10.png" }
-   pal 11 { file "highres/textures/0390_11_22.png" }
-   pal 12 { file "highres/textures/0390_12_18.png" }
-   pal 13 { file "highres/textures/0390_13.png" }
-   pal 14 { file "highres/textures/0390_14.png" }
-   pal 15 { file "highres/textures/0390_15.jpg" }
-   pal 16 { file "highres/textures/0390_16.png" }
-   pal 18 { file "highres/textures/0390_12_18.png" }
-   pal 21 { file "highres/textures/0390_21.png" }
-   pal 22 { file "highres/textures/0390_11_22.png" }
-   pal 23 { file "highres/textures/0390_23.png" }
-   pal 24 { file "highres/textures/0390_24.png" }
+   pal 0 { file "highres/textures/0390_d.png" }
+   normal { file "highres/textures/0390_n.png" parallaxbias 0.035  parallaxscale 0.075 }
+   specular { file "highres/textures/0390_s.png" }
+   glow { file "highres/textures/0390_g.png" }   
+//   pal 10 { file "highres/textures/0390_10.png" }
+//   pal 11 { file "highres/textures/0390_11_22.png" }
+//   pal 12 { file "highres/textures/0390_12_18.png" }
+//   pal 13 { file "highres/textures/0390_13.png" }
+//   pal 14 { file "highres/textures/0390_14.png" }
+//   pal 15 { file "highres/textures/0390_15.jpg" }
+//   pal 16 { file "highres/textures/0390_16.png" }
+//   pal 18 { file "highres/textures/0390_12_18.png" }
+//   pal 21 { file "highres/textures/0390_21.png" }
+//   pal 22 { file "highres/textures/0390_11_22.png" }
+//   pal 23 { file "highres/textures/0390_23.png" }
+//   pal 24 { file "highres/textures/0390_24.png" }
    detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.15 }
 }
 
