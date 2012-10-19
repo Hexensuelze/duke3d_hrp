@@ -144,10 +144,11 @@ texture 184 {
    pal 0 { file "highres/textures/0184.png" }
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
-texture 186 {
-   pal 0 { file "highres/textures/0186_d.png" specpower 20 specfactor 1 }
-   normal { file "highres/textures/0186_n.png" parallaxbias 0.002 parallaxscale 0.04 }
-   specular { file "highres/textures/0186_s.png" }
+texture 186 { // old version until neighbours 187-190 are complete
+   pal 0 { file "highres/textures/0186.jpg" }
+//   pal 0 { file "highres/textures/0186_d.png" specpower 20 specfactor 1 }
+//   normal { file "highres/textures/0186_n.png" parallaxbias 0.002 parallaxscale 0.04 }
+//   specular { file "highres/textures/0186_s.png" }
    detail { file "highres/detail/paint.png" xscale 0.4 yscale 0.4 }
 }
 texture 187 {

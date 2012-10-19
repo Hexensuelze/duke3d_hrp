@@ -1,12 +1,14 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.4.1  2012-07-29
+# Duke Nukem 3D High Resolution Pack Extractor  v0.4.2  2012-10-19
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
 #
-# This script extracts a PolyMER or PolyMOST only HRP from your working copy
-# of the Duke Nukem 3D High Resolution Pack's Subversion repository.
+# This script extracts a working copy of your local Duke Nukem 3D High
+# Resolution Pack's Subversion repository, ready for zipping and distribution.
+# This is mostly done by hierarchically parsing the *.def files.
+# PolyMER or PolyMOST only versions can be chosen.
 # On Windows you might want MSYS' zip to create package files.
 # ("mingw-get install msys-zip")
 # MinGW/MSYS performance is horrible, better go Linux. Even my virtual Debian
@@ -154,14 +156,12 @@ copy_known_files()
 
     #cp -pv highres/common/black.png                          "${EXTRACTDIR}/highres/common"
     #cp -pv highres/screen/fonts/digital/digital_minus.png    "${EXTRACTDIR}/highres/screen/fonts/digital"
-    #cp -pv highres/screen/menu/2493_old.png                  "${EXTRACTDIR}/highres/screen/menu"
     #cp -pv highres/screen/menu/widescreen/*_wide.png         "${EXTRACTDIR}/highres/screen/menu"
     #cp -pv highres/sprites/characters/1357_terminarm.md3     "${EXTRACTDIR}/highres/sprites/characters"
     #cp -pv highres/sprites/firstperson/2510_devastator_n.png "${EXTRACTDIR}/highres/sprites/firstperson"
     #cp -pv highres/sprites/monsters/1960_reconcar_s.png      "${EXTRACTDIR}/highres/sprites/monsters"
     #cp -pv highres/sprites/props/4387.png                    "${EXTRACTDIR}/highres/sprites/props"
-    #cp -pv highres/sprites/signs/4378.png                    "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4379.png                    "${EXTRACTDIR}/highres/sprites/signs"
+    #cp -pv highres/sprites/signs/4378-79.png                 "${EXTRACTDIR}/highres/sprites/signs"
     #cp -pv highres/sprites/signs/4381-85.png                 "${EXTRACTDIR}/highres/sprites/signs"
   fi
 
@@ -199,6 +199,8 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "default" ] ; then
     cp -pv  "${DEF_TOP}"          "${EXTRACTDIR}/${DEF_TOP}"
+    echo            "\`*.mhk' -> \`${EXTRACTDIR}/*.mhk'"
+    cp -p  *.mhk                  "${EXTRACTDIR}"
     echo            "\`*.txt' -> \`${EXTRACTDIR}/*.txt'"
     cp -p  *.txt                  "${EXTRACTDIR}"
   fi
@@ -513,7 +515,7 @@ main()
     echo "### Creating Polymost maphacks ... ###"
     create_polymost_mhk
 
-    #echo "### DukePlus<>Polymost HRP compatibility patch ... ###"
+    echo "### DukePlus<>Polymost HRP compatibility patch ... ###"
     dukeplus_polymost_compatibility $DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH
   fi
 
@@ -567,11 +569,6 @@ cd               "${HRPROOT}"
 echo  "PWD     :  ${WORKDIR}"
 echo  "HRPROOT :  ${HRPROOT}"
 
-#if [ ! -f "./duke3d.def" ] && [ ! "${HRPTYPE}" = "default" ] ; then
-#  echo "ERROR : ./duke3d.def not found. This is no HRP root directory. Exit."
-#  exit 1
-#fi
-
 case "$HRPTYPE" in
   polymer|polymost_override|polymost)
     main $HRPTYPE
@@ -623,21 +620,16 @@ case "$HRPTYPE" in
     echo "Nothing to debug."
     ;;
   *)
-    #if [ ! -f "./${HRPTYPE}.def" ] ; then
-    #  echo "ERROR : ./${HRPTYPE}.def not found. This is no HRP root directory. Exit."
-    #  exit 1
-    #fi
-    if [ -f "${HRPTYPE}.def" ] ; then
-      DEF_TOP="${HRPTYPE}.def"
+    if [ -f "${HRPTYPE}" ] && [ "${HRPTYPE##*.}" = "def" ] ; then
+      DEF_TOP="${HRPTYPE}"
       HRPTYPE=default
       SET_VERSION=NO
       EXTRACT_COMMENTED_FILES=NO
       main $HRPTYPE
     else
-      echo "Usage: ${0} {HRPTYPE|TOP_DEF} [v VERSION]"
+      echo "Usage: ${0} {HRPTYPE|TOP_DEF_FILE} [v VERSION]"
       echo "HRPTYPEs: {full|polymer|polymost_override|polymost|both|all}"
       echo "HRPTYPEs: {sw_highres|sw_lowres|sw_both}"
-      echo "TOP_DEF:  {Filename without extension}"
       exit 1
     fi
     ;;
