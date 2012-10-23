@@ -1,0 +1,10 @@
+//Examples:
+
+//sound { id   3 file "highres/sounds/my_pistol.ogg" } // PISTOL.VOC
+
+//sound { id  14 file "highres/sounds/pbe.ogg" }       // BOMBEXPL.VOC
+//sound { id 244 file "highres/sounds/flb.ogg" }       // FLYBY.VOC
+
+//                    frame 1: FLY_BY,  frame 64: PIPEBOMB_EXPLODE
+//animsounds <anim> { frame1   sound1   frame2    sound2 ... }
+//animsounds    logo  { 1        244      64        14 }

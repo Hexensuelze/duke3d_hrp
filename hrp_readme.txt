@@ -5,7 +5,7 @@
          |                                                                |
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 5.1.384 (2012-07-04)                   |
+         |                 Version 5.1.409 (2012-10-23)                   |
          ==================================================================
 
 
@@ -27,7 +27,6 @@ CONTENTS OF THIS README
    4.2) Others
 5) Contact/Links
 6) Credits
-
 
 
 
@@ -61,8 +60,8 @@ Here's what the Duke3D HRP has to offer:
    - Models instead of the old sprites. 
 
 While the HRP is still "work in progress" and missing quite a few textures and 
-models, you can check the Duke Nukem 3D source code forums for additional
-content or even better contributing something of your own.
+models, you can check the Duke4.net forums at http://forums.duke4.net for
+additional content or even better contributing something of your own.
 
 The community's goal is to issue a new HRP version once in 1-2 year(s).
 
@@ -99,7 +98,6 @@ settings can be changed with EDuke32 ingame menu as well.
 3) NOTES
 ========
 
-
 ----------------
 3.1) WIP release
 ---------------- 
@@ -107,8 +105,8 @@ Since this is a work in progress version of the pack which has not been tested
 extensively, there are probably some issues that need fixing. Please let us 
 know of any problems with it so they can be sorted out in future versions. Also 
 notify us if we are missing any art that's been released prior to the pack's 
-release date, even though we have skipped some stuff since we simply did not
-like, there is maybe some stuff that has been missed to include.
+release date. Even though we have skipped some stuff since we simply did not
+like it, there may be some stuff that has been missed to include.
 
 Please also be aware of the fact that we are still missing models and textures
 because these have not been remade yet by the community. They will probably
@@ -131,16 +129,17 @@ Compared to previous release (HRP v4), you can expect the following changes:
 > New model for Lunar Overlord (ep.2 boss)
 > Improvements to the ingame menu (new font, some new screens)
 > Hundreds of new textures, dozens of new models - overall HRP size increased
-  from 285 MB to over 600+ MB! 
+  from 285 MB to over 700+ MB! 
 
 IMPORTANT!
 ----------
 Please note that all HRP v5 contents has been optimized for usage with Polymer
-renderer. This means that if you use the older Polymost renderer, you WILL
+renderer. This means that if you switch to the older Polymost renderer, you WILL
 encounter problems (HUD weapons rendered incorrectly or other display glitches).
 Polymer requirements offer advanced graphics effects but demand much better
 hardware. If you are forced to use Polymost due to having a weaker machine,
-you have to download a different HRP build!
+you have to use an older HRP build, or better the Polymost Override Pack which
+should be available as of the release of this HRP version.
 
 
 -----------------
@@ -150,8 +149,6 @@ Although we tried hard to eliminate or avoid any glitches, unfortunately
 some of them could not be removed in this release. Here are those we know of:
 
 - Current EDuke32 problems (might get fixed in future versions):
-     > At the end of episodes 1-3, you will not see the end screen after the
-       cinematic. Instead, only a black screen will show up.
      > The startup screens are not optimized for widescreen resolutions and
        might show black stripes on both sides and possibly some distortions,
        depending on your display.
@@ -176,7 +173,7 @@ some of them could not be removed in this release. Here are those we know of:
 ---------------------
 3.4) Title screen art
 ---------------------
-The front screen is a slightly modified and enhanced version of 3DRealms
+The front screen is a slightly modified and enhanced version of 3D Realms'
 original art work used with permission.
 
 
@@ -195,7 +192,6 @@ optimized.
 ===========
 4) LICENSES
 ===========
-
 
 --------
 4.1) HRP 
@@ -233,17 +229,16 @@ This disclaimer applies to the following textures:
 5) CONTACT/LINKS
 ================
 
-
-Pär "Parkar" Karlsson 
-(HRP author) ....................................... parkar82 [at] gmail.com
-
-
 Robin "NightFright" Reisinger
 (HRP co-author) .................................... hrp_update [at] fastmail.fm
 
 
 Richard "TerminX" Gobeille
 (EDuke32 port author) .............................. terminx [at] gmail.com
+
+
+[ Retired:  Pär "Parkar" Karlsson ]
+[ (HRP author) ....................................... parkar82 [at] gmail.com ]
 
 
 --------------
@@ -280,7 +275,6 @@ gratitude, for nothing of the great artwork (or pretty much anything else)
 would have been possible to include without their support and effort.
 Please notify us if you did contribute to this project without being listed
 here!
-
 
 -------------
 JFDuke3D Port
