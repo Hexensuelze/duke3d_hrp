@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.4.2  2012-10-19
+# Duke Nukem 3D High Resolution Pack Extractor  v0.4.3  2012-11-06
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -20,6 +20,7 @@ DEF_TOP=UNDEFINED
 SET_VERSION=YES            # [YES|NO]
 EXTRACT_COMMENTED_FILES=NO # [YES|NO]
 DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH=polymost # [none|polymost|polymer|mixed]
+ATTRITION_POLYMOST_COMPATIBILTY_APPROACH=polymost # [none|polymost|polymer|mixed]
 
 ask()
 {
@@ -295,9 +296,9 @@ create_polymost_mhk()
 } # create_polymost_mhk()
 
 
-# I really don't know yet if this will become necessary, or if it doesn't make
+# I really don't know yet if this will become necessary, or if it does make
 # sense at all, but at least the files involved are listed.
-dukeplus_polymost_compatibility()
+dukeplus_polymost_hrp_compatibility()
 {
   # dukeplus.def expects some files to be present in the HRP
   #
@@ -335,7 +336,7 @@ dukeplus_polymost_compatibility()
 
   case "$PATCHTYPE" in
     polymer)
-      echo "  # Using \"Polymer approach\")"
+      echo "  # (Using \"Polymer approach\")"
       cp -pi $SPR/firstperson/2510_devastator.md3            "$SPRE/firstperson"
       cp -pi $SPR/firstperson/2510_devastator.png            "$SPRE/firstperson"
       cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson"
@@ -352,7 +353,7 @@ dukeplus_polymost_compatibility()
       cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson"
       ;;
     polymost)
-      echo "  # Using (\"Polymost approach\")"
+      echo "  # (Using \"Polymost approach\")"
       #cp -pi $SPR/firstperson_polymost/2510_devastator.md3   "$SPRE/firstperson"
       #cp -pi $SPR/firstperson_polymost/2510_devastator.png   "$SPRE/firstperson"
       ##cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson"
@@ -369,7 +370,7 @@ dukeplus_polymost_compatibility()
       #cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson"
       ;;
     mixed)
-      echo "  # Using (\"Mixed approach\")"
+      echo "  # (Using \"Mixed approach\")"
       echo "    # Not applied / Not yet implemented"
       ;;
     none)
@@ -381,7 +382,64 @@ dukeplus_polymost_compatibility()
       ;;
   esac
 
-} # dukeplus_polymost_compatibility()
+} # dukeplus_polymost_hrp_compatibility()
+
+
+attrition_polymost_hrp_compatibility()
+{
+  # attr_hrp.def expects some files to be present in the HRP
+  #
+  # model "highres/sprites/firstperson/2524_pistol.md3" {    // most/mer : same MD3 + same skin til r295     
+  #    skin { pal 0 file "highres/sprites/firstperson/2524_pistol.png" } // up to DP2.30 DNE/IMP only
+  #    glow { file "highres/sprites/firstperson/2524_pistol_g.png" }     // up to DP2.30 DNE/IMP only
+
+  SPR="highres/sprites"
+  SPRE="${EXTRACTDIR}/highres/sprites"
+  PATCHTYPE=$1
+
+  case "$PATCHTYPE" in
+    polymer)
+      echo "  # (Using \"Polymer approach\")"
+      ;;
+    polymost)
+      echo "  # (Using \"Polymost approach\")"
+      cp -piu $SPR/firstperson_polymost/2524_pistol.md3      "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol.png      "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol_g.png    "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/2530_clip.md3                 "$SPRE/firstperson"
+      #cp -pi  $SPR/firstperson/2532_cliphand.md3             "$SPRE/firstperson"
+      ##cp -pi  $SPR/firstperson/2532_cliphand.png             "$SPRE/firstperson"
+      #cp -pi  $SPR/firstperson/duke_hand_d.png               "$SPRE/firstperson/2532_cliphand.png"
+      ;;
+    mixed)
+      echo "  # (Using \"Mixed approach\")"
+      cp -piu $SPR/firstperson_polymost/2524_pistol.md3       "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/2530_clip.md3                 "$SPRE/firstperson"
+      #cp -pi  $SPR/firstperson/2532_cliphand.md3             "$SPRE/firstperson"
+      ##cp -pi  $SPR/firstperson/2532_cliphand.png             "$SPRE/firstperson"
+      #cp -pi  $SPR/firstperson/duke_hand_d.png               "$SPRE/firstperson/2532_cliphand.png"
+      cp -pi  $SPR/firstperson/2544_rpg.md3                  "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/2544_rpg_d.png                "$SPRE/firstperson/2544_rpg.png"
+      cp -pi  $SPR/firstperson/2544_rpg_n.png                "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/2544_rpg_s.png                "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/duke_hand_d.png               "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/duke_hand_n.png               "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/duke_hand_s.png               "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/muzzle_flash_01.png           "$SPRE/firstperson"
+      cp -pi  highres/common/transp.png                      "${EXTRACTDIR}/highres/common"
+      ;;
+    none)
+      echo "  Not applied"
+      #echo "  # Not yet implemented"
+      ;;
+    *)
+      echo "  # Bad parameter"
+      ;;
+  esac
+
+} # attrition_polymost_hrp_compatibility()
 
 
 parse_defs()
@@ -516,7 +574,10 @@ main()
     create_polymost_mhk
 
     echo "### DukePlus<>Polymost HRP compatibility patch ... ###"
-    dukeplus_polymost_compatibility $DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH
+    dukeplus_polymost_hrp_compatibility $DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH
+
+    echo "### Attrition<>Polymost HRP compatibility patch ... ###"
+    attrition_polymost_hrp_compatibility $ATTRITION_POLYMOST_COMPATIBILTY_APPROACH
   fi
 
   echo "### Parsing DEF file hierarchy ... ###"
