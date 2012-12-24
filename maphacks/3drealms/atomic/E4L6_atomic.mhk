@@ -1,0 +1,285 @@
+// Maphacks for Duke3D HRP
+// Level: E4L6.MAP - "Going Postal" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// PROPS
+
+// Box
+sprite 328 angoff -384
+sprite 329 angoff 64
+sprite 676 angoff 128
+sprite 677 angoff -256
+
+// Car mirror
+sprite 14 angoff 1024
+
+// Chair
+sprite 143 angoff 256
+sprite 332 angoff -640
+
+// Desklamp
+sprite 333 angoff -512
+
+// Fire extinguisher
+sprite 637 angoff -256
+sprite 638 angoff -768
+sprite 640 angoff -256
+
+// Fire hydrant
+sprite 42 angoff 512
+
+// Mail bags
+sprite 17 angoff 128
+sprite 110 angoff 256
+sprite 111 angoff -128
+sprite 112 angoff -128
+sprite 113 angoff 192
+sprite 114 angoff -128
+sprite 115 angoff 256
+sprite 116 angoff -640
+sprite 117 angoff 256
+sprite 314 angoff 128
+
+// Nuke barrel
+sprite 231 angoff 512
+sprite 232 angoff 640
+sprite 233 angoff -896
+sprite 235 angoff 1024
+sprite 684 angoff -512
+sprite 685 angoff -512
+sprite 686 angoff 768
+sprite 688 angoff 256
+sprite 689 angoff 512
+sprite 690 angoff 768
+sprite 691 angoff 512
+sprite 693 angoff 512
+sprite 694 angoff 1024
+sprite 696 angoff -384
+sprite 697 angoff 896
+
+// Radar Dish
+sprite 221 angoff 512
+
+// Spotlights
+sprite 96 angoff 1024
+sprite 98 angoff 1024
+
+// Toilet
+sprite 238 angoff 512
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 209 angoff -256
+sprite 286 angoff -512
+
+// Boots
+sprite 25 angoff 1024
+
+// Health +10
+sprite 269 angoff -128
+sprite 270 angoff 256
+sprite 272 angoff -256
+sprite 274 angoff -256
+sprite 275 angoff 256
+sprite 276 angoff 512
+
+// Health +30
+sprite 271 angoff -768
+sprite 285 angoff -512
+sprite 292 angoff -256
+sprite 578 angoff -512
+sprite 579 angoff -512
+
+// HoloDuke
+sprite 277 angoff 256
+
+// Jetpack
+sprite 295 angoff -512 // Dukematch only
+
+// Keycards (R/B/Y)
+sprite 145 angoff -512
+sprite 534 angoff -512
+sprite 724 angoff -512
+
+// Medkit
+sprite 296 angoff 512
+sprite 672 angoff -512
+
+// Steroids
+sprite 284 angoff -768
+sprite 293 angoff -512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 212 angoff -256
+sprite 213 angoff -256
+sprite 214 angoff -256
+sprite 299 angoff 256
+sprite 300 angoff 128
+sprite 302 angoff 1024
+sprite 529 angoff 512
+sprite 669 angoff 512
+sprite 752 angoff 256
+
+// Shotgun & ammo
+sprite 211 angoff 1024
+sprite 223 angoff 384
+sprite 635 angoff -256
+
+// Chaingun & ammo
+sprite 206 angoff -512
+sprite 216 angoff -512
+sprite 218 angoff -512
+sprite 305 angoff 1024
+sprite 641 angoff 512
+
+// RPG & ammo
+sprite 207 angoff -384
+sprite 282 angoff -512
+sprite 306 angoff 1024
+sprite 351 angoff 512
+sprite 352 angoff 512
+
+// Pipebombs
+sprite 81 angoff -512
+sprite 288 angoff -768
+sprite 750 angoff 512
+
+// Shrinker/Expander & ammo
+sprite 84 angoff -768 // Dukematch only
+sprite 280 angoff -768
+
+// Devastator & ammo
+sprite 26 angoff 64
+sprite 278 angoff 768
+sprite 577 angoff -512
+
+// Laser Tripbomb
+sprite 266 angoff 1024
+sprite 267 angoff 896
+
+// Freezethrower & ammo
+sprite 283 angoff 1024
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 246 notmd
+sprite 254 notmd
+sprite 255 notmd
+sprite 256 notmd
+sprite 257 notmd
+sprite 258 notmd
+sprite 259 notmd
+sprite 260 notmd
+sprite 334 notmd
+sprite 335 notmd
+sprite 336 notmd
+sprite 337 notmd
+sprite 338 notmd
+sprite 339 notmd
+sprite 340 notmd
+sprite 341 notmd
+sprite 342 notmd
+sprite 343 notmd
+sprite 344 notmd
+sprite 345 notmd
+sprite 346 notmd
+sprite 347 notmd
+sprite 348 notmd
+sprite 399 notmd
+sprite 400 notmd
+sprite 403 notmd
+sprite 404 notmd
+sprite 429 notmd
+sprite 430 notmd
+sprite 433 notmd
+sprite 434 notmd
+sprite 437 notmd
+sprite 438 notmd
+sprite 441 notmd
+sprite 442 notmd
+sprite 472 notmd
+sprite 473 notmd
+sprite 505 notmd
+sprite 507 notmd
+sprite 508 notmd
+sprite 710 notmd
+sprite 711 notmd
+sprite 741 notmd
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 513 mdyoff -26700 // newspaper
+sprite 513 roll 5
+sprite 635 mdzoff 375000 // shotgun
+sprite 635 pitch 1
+
+// Switches to be hidden
+sprite 41 notmd // Side of fire engine
+sprite 147 notmd // Stamps machine
+sprite 633 notmd // Paw-print by PO boxes
+
+
+
+// LIGHTS
+
+// by Devastator
+light  284  19712 43776 -8192  4900  185 185 185  0 0 1536 -1  0 0  0 -1
+light  284  30976 41216 -8192  6600  185 185 185  0 0 1536 -1  0 0  0 -1
+light  103  31488 30720 4096  2700  95 95 95  0 0 1536 -1  0 0  0 -1
+light  284  25344 43008 -8192  4900  255 255 255  0 0 1536 -1  0 0  0 -1
+light  284  20480 34816 -8192  4900  255 255 255  0 0 1536 -1  0 0  0 -1
+light  284  15616 37376 -8192  4900  185 185 185  0 0 1536 -1  0 0  0 -1
+light  284  15104 35584 -112384  6500  146 114 94  0 0 1536 -1  0 0  0 -1
+light  328  31744 35840 -7168  5200  71 71 71  0 0 1536 -1  0 0  0 -1
+light  284  20224 25344 -25600  5300  41 41 41  0 0 1536 -1  0 0  0 -1
+light  284  13824 44544 -76800  4900  236 204 184  0 0 1536 -1  0 0  0 -1
+light  280  12288 25088 -52992  3300  121 121 121  0 0 1536 -1  0 0  0 -1
+light  284  35840 44544 2048  6700  21 21 21  0 0 1536 -1  0 0  0 -1
+light  284  26112 33280 -8192  5200  185 185 185  0 0 1536 -1  0 0  0 -1
+light  263  34112 32384 -2048  3300  31 31 31  0 0 1536 -1  0 0  0 -1
+light  263  37056 36032 -3072  3400  51 51 51  0 0 1536 -1  0 0  0 -1
+light  263  39936 40256 -5120  3300  75 75 75  0 0 1536 -1  0 0  0 -1
+light  263  34880 34112 -2048  3300  91 91 91  0 0 1536 -1  0 0  0 -1
+light  6  33664 27136 -6144  1900  131 131 131  0 0 1536 -1  0 0  0 -1
+light  180  44032 26752 -4096  2700  81 81 81  0 0 1536 -1  0 0  0 -1
+light  143  35776 25984 3072  1200  40 36 35  0 0 1536 -1  0 0  0 -1
+light  191  31040 19968 23552  2200  131 131 131  0 0 1536 -1  0 0  0 -1
+light  255  30272 25408 -9216  4000  54 42 34  0 0 1536 -1  0 0  0 -1
+light  126  34048 20224 10496  1800  20 16 15  0 0 1536 -1  0 0  0 -1
+light  6  33664 24448 -6144  1900  131 131 131  0 0 1536 -1  0 0  0 -1
+light  180  44160 22656 -5120  2700  81 81 81  0 0 1536 -1  0 0  0 -1
+light  335  41600 25728 -4096  2300  181 181 181  0 0 1536 -1  0 0  0 -1
+light  335  41600 23552 -4096  2300  181 181 181  0 0 1536 -1  0 0  0 -1
+light  335  38144 24960 -30720  4400  71 71 71  0 0 1536 -1  0 0  0 -1
+light  164  37120 18432 -8192  1900  68 69 79  0 0 0 -1  0 0  0 -1
+light  174  42880 16768 -5120  4200  135 135 135  0 0 896 -1  0 0  0 -1
+light  162  38528 18432 -8192  1900  68 69 79  0 0 0 -1  0 0  0 -1
+light  267  45504 30144 -24576  2000  95 31 21  0 0 1536 -1  0 0  0 -1
+light  337  45824 33280 -17408  4700  145 131 111  0 0 1536 -1  0 0  0 -1
+light  337  41216 33536 -14336  4700  135 121 111  0 0 1536 -1  0 0  0 -1
+light  277  45056 38912 -5120  2900  131 141 121  0 0 1536 -1  0 0  0 -1
+light  258  37632 30720 -1024  2900  81 80 78  0 0 1536 -1  0 0  0 -1
+light  330  41984 43520 -7168  3300  47 58 85  0 0 1536 -1  0 0  0 -1
+light  226  52480 35072 -24576  4300  195 195 195  0 0 1536 -1  0 0  0 -1
+light  226  51712 38400 4096  3000  101 101 101  0 0 1536 -1  0 0  0 -1
+light  227  60416 32768 -11264  2700  121 121 121  0 0 1536 -1  0 0  0 -1
+light  265  60416 28928 0  3000  201 201 201  0 0 1536 -1  0 0  0 -1
+light  218  49280 24960 -20480  2900  101 98 91  0 0 1536 -1  0 0  0 -1
+light  223  63872 24832 11264  1600  44 41 26  0 0 1536 -1  0 0  0 -1
+light  229  60416 38304 9216  1200  101 100 96  0 0 1536 -1  0 0  0 -1
+light  231  60416 41472 6144  500  195 180 166  0 0 1536 -1  0 0  0 -1
+light  231  60416 39680 12288  1000  195 180 166  0 0 1536 -1  0 0  0 -1
+light  231  60416 40704 12288  1000  195 180 166  0 0 1536 -1  0 0  0 -1
+light  266  55296 25088 -37632  4900  85 85 85  0 0 1536 -1  0 0  0 -1
+light  140  33856 22784 -20480  2800  211 211 211  296 222 0 -361  0 0  0 -1

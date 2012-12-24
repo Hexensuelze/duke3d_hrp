@@ -1,0 +1,209 @@
+// Maphacks for Duke3D HRP
+// Level: E4L2.MAP - "Duke-Burger" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// PROPS
+
+// Bottles
+sprite 41 angoff 192
+
+// Boxes
+sprite 156 angoff 64
+sprite 157 angoff -128
+
+// C9 cannisters
+sprite 2 angoff 256
+sprite 3 angoff -128
+sprite 4 angoff 512
+sprite 5 angoff 768
+sprite 6 angoff -256
+sprite 7 angoff 384
+sprite 8 angoff -768
+sprite 9 angoff 128
+sprite 10 angoff -256
+sprite 11 angoff 768
+sprite 12 angoff -384
+sprite 13 angoff 64
+sprite 14 angoff 256
+sprite 15 angoff -768
+sprite 16 angoff -128
+sprite 17 angoff 256
+sprite 18 angoff -512
+sprite 19 angoff 128
+sprite 20 angoff 384
+sprite 21 angoff -256
+
+// Chair
+sprite 273 angoff -512
+sprite 521 angoff 512
+
+// Chickens (storage room)
+sprite 581 angoff 128
+sprite 582 angoff -256
+sprite 583 angoff 512
+sprite 627 angoff -128
+sprite 628 angoff 768
+sprite 629 angoff -64
+
+// Deskphone
+sprite 678 angoff -768
+
+// Fries
+sprite 477 angoff -128
+sprite 478 angoff 768
+
+// IV Unit
+sprite 363 angoff 384
+
+// Jollymeals/Foodobjects
+sprite 325 angoff 256
+sprite 656 angoff -128
+sprite 657 angoff -192
+
+// Ketchup/mustard 
+sprite 559 angoff 128
+sprite 560 angoff -64
+
+// Robotdog2
+sprite 37 angoff 192
+
+// Scale
+sprite 362 angoff 768
+
+// "Slippery floor" sign
+sprite 676 angoff -256
+
+// Wooden Horses
+sprite 118 angoff 896
+sprite 119 angoff 256
+sprite 120 angoff -192
+sprite 121 angoff 384
+sprite 122 angoff 96
+sprite 123 angoff -128
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 217 angoff 512
+sprite 354 angoff 1024
+
+// Health +10
+sprite 124 angoff 512
+sprite 136 angoff 512
+sprite 352 angoff 512 // Dukematch only
+sprite 680 angoff 512
+
+// Health +30
+sprite 335 angoff -896
+sprite 353 angoff 512
+sprite 356 angoff 256
+sprite 596 angoff 768
+
+// Keycards (R/B)
+sprite 198 angoff 256
+
+// MedKit
+sprite 102 angoff -256
+sprite 355 angoff 256
+
+// Steroids
+sprite 101 angoff 256
+sprite 423 angoff 1024
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 89 angoff 512
+sprite 116 angoff -512
+sprite 117 angoff -512
+
+// Shotgun & ammo
+sprite 351 angoff -256
+sprite 417 angoff 512
+sprite 732 angoff 512
+
+// Chaingun & ammo
+sprite 418 angoff -512
+
+// RPG & ammo
+sprite 75 angoff -768
+
+// Pipebombs
+sprite 85 angoff -768
+sprite 98 angoff -512
+sprite 113 angoff 896
+sprite 140 angoff 1024
+sprite 414 angoff 1024
+
+// Shrinker/Expander & ammo
+sprite 99 angoff 256
+sprite 100 angoff 256
+sprite 594 angoff -256
+sprite 663 angoff -320
+
+// Laser Tripbomb
+sprite 59 angoff 512
+
+// Freezethrower & ammo
+sprite 60 angoff 1024
+sprite 125 angoff -512
+sprite 593 angoff 512 // Dukematch only
+sprite 731 angoff 512
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 559 mdzoff 790000 // foodobject9
+sprite 559 roll 1
+sprite 560 mdzoff 330000 // foodobject9
+sprite 560 pitch 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 46 notmd
+sprite 323 notmd
+sprite 324 notmd
+sprite 330 notmd
+sprite 361 notmd
+sprite 364 notmd
+sprite 365 notmd
+sprite 372 notmd
+sprite 373 notmd
+sprite 375 notmd
+sprite 376 notmd
+sprite 394 notmd
+sprite 395 notmd
+sprite 420 notmd
+sprite 421 notmd
+sprite 422 notmd
+sprite 431 notmd
+sprite 432 notmd
+sprite 447 notmd
+sprite 448 notmd
+sprite 481 notmd
+sprite 665 notmd
+sprite 666 notmd
+sprite 667 notmd
+sprite 668 notmd
+sprite 669 notmd
+sprite 670 notmd
+sprite 671 notmd
+sprite 672 notmd
+sprite 673 notmd
+
+// Switches to be hidden
+sprite 334 notmd // Drive-thru speaker
+sprite 702 notmd // Payphone
+sprite 703 notmd // Payphone
+sprite 790 notmd // "No way I'm eating this sh*t!"
+
+
+
+// LIGHTS

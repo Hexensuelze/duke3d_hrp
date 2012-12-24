@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.4.3  2012-11-06
+# Duke Nukem 3D High Resolution Pack Extractor  v0.5  2012-12-23
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -449,7 +449,8 @@ parse_defs()
   cat $1 | while read DEF_LINE; do
 
     #DOS only: DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ //`
-    DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ // | sed s/\\\r//`
+    #DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ // | sed s/\\\r//`
+    DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ // | sed s/\\\/\\\/.*// | sed s/\\\r//`
     if [ "${DEF_FILE}" != "" ] ; then
       cp -p      "${DEF_FILE}" "${EXTRACTDIR}/${DEF_FILE}"
       parse_defs "${DEF_FILE}"
@@ -457,7 +458,7 @@ parse_defs()
 
     #HRP_TERM=`echo "${DEF_LINE}" | grep -owE "file|model|voxel|front|right|back|left|top|bottom|down"`
     ## Old style added (except "defineskybox"):
-    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "definetexture|definemodel|definemodelskin|file|model|voxel|front|right|back|left|top|bottom|down"`
+    HRP_TERM=`echo "${DEF_LINE}" | grep -owE "definetexture|definemodel|definemodelskin|file|mhkfile|model|voxel|front|right|back|left|top|bottom|down"`
     #More skybox tokens: tile, pal, ft|rt|bk|lf|up|dn|forward|lt|ceiling|floor|ceil
 
     if [ ! "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
@@ -479,7 +480,7 @@ parse_defs()
     fi
 
     case "$HRP_TERM" in
-      file)
+      file|mhkfile)
         #HRP_FILE=`echo "${DEF_LINE}" | sed -r s/^.*file\ *\"//g | sed s/\".*//`
         # Mastering the backslash :-) ... hm, no big performance gain ... :
         HRP_FILE=`echo "${DEF_LINE}" | sed -r --posix s/\\(^.*file\\ *\"\\)\\([^\"]*\\)\\(.*\\)/\\\2/`

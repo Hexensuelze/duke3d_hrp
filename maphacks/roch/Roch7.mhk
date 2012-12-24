@@ -1,0 +1,99 @@
+
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Level    : Roch7.map - "Roch7" by Pascal Rouaud
+// Map Date : 2002-06-21
+// mapmd4   : 776d175cb91a88badffb954f002a8c6c
+// Curr. HRP: r5.2.415
+
+
+// Forcing tile 1266 which is part of the "teleporter splash" model (1261-1266)
+// to be rendered as a single sprite when used as a fence
+sprite  1767 notmd                 // tile1266 (tile1261)
+sprite  1228 notmd                 // tile1266 (tile1261)
+sprite  2272 notmd                 // tile1266 (tile1261)
+sprite  2276 notmd                 // tile1266 (tile1261)
+sprite  2275 notmd                 // tile1266 (tile1261)
+sprite  2277 notmd                 // tile1266 (tile1261)
+sprite  2274 notmd                 // tile1266 (tile1261)
+sprite  1229 notmd                 // tile1266 (tile1261)
+sprite  2273 notmd                 // tile1266 (tile1261)
+sprite  2255 notmd                 // tile1266 (tile1261)
+sprite  1227 notmd                 // tile1266 (tile1261)
+
+// Rotate key cards
+sprite    82 angoff     1024       // tile0060 accesscard red
+sprite   144 angoff     512        // tile0060 accesscard blue
+sprite   434 angoff     1024       // tile0060 accesscard blue
+sprite  3088 angoff     1024       // tile0060 accesscard blue
+
+// Flatten frankenstineswitch near start ... or not
+//sprite   502 notmd                 // tile0140 frankenstineswitch
+//sprite   502 mdzoff    -30000      // tile0140 frankenstineswitch
+//sprite   502 pitch      1          // tile0140 frankenstineswitch
+
+// Lamp Spheres (tile 1220) // No effect -> rise genericpoles instead
+//sprite   698 mdxoff    -3500       // tile1220 (sphere)
+//sprite   698 pitch      1          // tile1220 (sphere)
+
+sprite   697 mdxoff     3500       // tile0977 genericpole
+sprite   697 pitch      1          // tile0977 genericpole
+sprite  1024 mdxoff     3500       // tile0977 genericpole
+sprite  1024 pitch      1          // tile0977 genericpole
+sprite  1026 mdxoff     3500       // tile0977 genericpole
+sprite  1026 pitch      1          // tile0977 genericpole
+sprite  1028 mdxoff     3500       // tile0977 genericpole
+sprite  1028 pitch      1          // tile0977 genericpole
+sprite  1032 mdxoff     3500       // tile0977 genericpole
+sprite  1032 pitch      1          // tile0977 genericpole
+sprite  1034 mdxoff     3500       // tile0977 genericpole
+sprite  1034 pitch      1          // tile0977 genericpole
+
+// Pickups
+//sprite  3005 pitch      1          // tile0021 firstgunsprite
+//sprite  3005 mdxoff     200000     // tile0021 firstgunsprite
+//sprite  3005 mdzoff     2000000    // tile0021 firstgunsprite
+//sprite  3005 mdzoff    -2000000    // tile0021 firstgunsprite
+
+//sprite  3005 roll       1          // tile0021 firstgunsprite
+//sprite  3005 mdyoff     200000     // tile0021 firstgunsprite
+//sprite  3005 mdzoff     2000000    // tile0021 firstgunsprite
+//sprite  3005 mdzoff    -2000000    // tile0021 firstgunsprite
+
+//sprite  3005 pitch      1          // tile0021 firstgunsprite
+//sprite  3005 roll       1          // tile0021 firstgunsprite
+//sprite  3005 mdzoff     2000000    // tile0021 firstgunsprite
+//sprite  3005 mdzoff    -2000000    // tile0021 firstgunsprite
+
+sprite   548 angoff     256        // tile0028 shotgunsprite near start
+sprite   597 angoff     512        // tile0024 freezersprite  - Shop-n-Bag
+sprite  3315 angoff     512        // tile0021 firstgunsprite - Shop-n-Bag
+sprite  3315 pitch      1          // tile0021 firstgunsprite - Shop-n-Bag
+sprite  3315 mdzoff     300000     // tile0021 firstgunsprite - Shop-n-Bag
+sprite  3334 angoff     512        // tile0028 shotgunsprite - Shop-n-Bag
+sprite  3334 pitch      1          // tile0028 shotgunsprite - Shop-n-Bag
+sprite  3334 mdxoff    -60000      // tile0028 shotgunsprite - Shop-n-Bag
+sprite  3334 mdzoff    -900000     // tile0028 shotgunsprite - Shop-n-Bag
+sprite  1110 nomdanim              // tile4398 (broken speaker) - Shop-n-Bag
+sprite  1112 nomdanim              // tile4398 (broken speaker) - Shop-n-Bag
+
+sprite   360 mdzoff     1000000    // tile0049 shotgunammo
+sprite   360 pitch      1          // tile0049 shotgunammo
+sprite  3070 mdzoff     1000000    // tile0049 shotgunammo
+sprite  3070 pitch      1          // tile0049 shotgunammo
+
+sprite   472 roll       1          // tile0049 shotgunammo
+sprite   472 mdzoff     500000     // tile0049 shotgunammo
+sprite   473 roll       1          // tile0028 shotgunsprite
+sprite   473 mdzoff     1000000    // tile0028 shotgunsprite
+
+
+sprite  572 angoff      512        // tile4887 pleasewait
+
+// Policelight
+//sprite   573 notmd                 // tile4377 policelightpole left
+sprite   573 roll       1          // tile4377 policelightpole left
+sprite   573 mdzoff    -500000     // tile4377 policelightpole left
+//sprite   575 notmd                 // tile4377 policelightpole right
+sprite   575 roll       1          // tile4377 policelightpole right
+sprite   575 mdzoff    -500000     // tile4377 policelightpole right

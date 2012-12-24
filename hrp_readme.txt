@@ -5,7 +5,7 @@
          |                                                                |
          |                Compiled by Parkar & NightFright                |
          ==================================================================
-         |                 Version 5.1.414 (2012-12-21)                   |
+         |           Repository Snapshot >= 5.2.415 (2012-12-24)          |
          ==================================================================
 
 
@@ -48,7 +48,7 @@ All you need is the "duke3d.grp" file from your original Duke3D v1.3d or
 Atomic (v1.5) CD-ROM. You can also play with the shareware version available 
 over at http://www.3drealms.com/downloads.html . 
 
-Here's what the Duke3D HRP has to offer: 
+What the Duke Nukem 3D HRP has to offer: 
    - EDuke32 port for Duke Nukem 3D (by TerminX and Plagman, based on JFDuke3D
      by Jonathon "JonoF" Fowler). Supports older Polymost renderer as well as
      the more advanced Polymer renderer (with advanced effects like
@@ -73,24 +73,39 @@ The community's goal is to issue a new HRP version once in 1-2 year(s).
 
 Installing is easy:
 
-First make sure you have your Duke3D CD in your CD/DVD drive or an existing 
-installation of the game. You can also just have the "duke3d.grp" file somewere 
-on your system.
+First make sure you have your Duke3D CD in your CD/DVD drive or an existing
+installation of the game. You can also just have the "duke3d.grp" file
+somewhere on your system.
 
-Then run the installer (the file you downloaded/got from a friend or whatever) 
-by double-clicking it. Then just follow the onscreen instructions.
+Then run the self-extracting archive (the file you downloaded/got from a friend
+or whatever) by double-clicking it. Then just choose any hard drive/subdir of
+your personal preference.
 
-After installation, you start the game using the shortcut in the Duke3D folder, 
-desktop or start menu called "Duke3D High Resolution Pack". Starting the game 
-directly will start EDuke32 without textures and models.
+After the extraction process is complete, you may copy over any existing
+"duke3d.grp" file you already have (either directly from the installation disc
+or from the folder which contains your digital copy). Be sure to overwrite the
+existing "duke3d.grp" since this one only contains the shareware episode.
+After you are done, start the game by clicking "eduke32.exe" in the Duke3D
+folder. 
+You can also create a shortcut by right-clicking the file and choose 
+"Send to" --> "Desktop (Create shortcut)".
 
-IMPORTANT: To see the high resolution textures and models you have to change the
-           render mode to 32-bit Polymer in the "Video Settings" under "Options"
-           in the game menu. Otherwise, HRP content will not work (properly)!
+IMPORTANT: 
+In order to see the high resolution textures and models, you have to change the
+render mode to 32-bit Polymer in the "Video Settings" under "Options" in the
+game menu. 
+Otherwise, HRP content will not work (properly)!
 
-It is recommended to run the setup utility in order to set up your video, audio 
-and controls for optimum quality and gameplay experience. However, most of the 
-settings can be changed with EDuke32 ingame menu as well.
+POLYMOST COMPATIBILITY OPTION:
+For players who are unable to use the advanced Polymer renderer (e.g. because
+they experience graphics issues or their graphics card simply cannot handle it),
+please deactivate (= untick) the "Polymer" checkbox in the EDuke32 launcher and
+run the game with this parameter: -hduke3d_hrp_polymost.def
+> Example: E:\Duke3D\eduke32.exe -hduke3d_hrp_polymost.def
+Alternatively, and if you want to run mods like DukePlus, using the
+Polymost Override Pack (put into the autoload folder) is the recommended way of
+running the Polymost HRP mode. A matching version of this pack should be
+available soon after any HRP release.
 
 
 
@@ -105,8 +120,8 @@ Since this is a work in progress version of the pack which has not been tested
 extensively, there are probably some issues that need fixing. Please let us 
 know of any problems with it so they can be sorted out in future versions. Also 
 notify us if we are missing any art that's been released prior to the pack's 
-release date. Even though we have skipped some stuff since we simply did not
-like it, there may be some stuff that has been missed to include.
+release date, even though we have skipped some stuff since we simply did not
+like it, there is maybe some stuff that has been missed to include.
 
 Please also be aware of the fact that we are still missing models and textures
 because these have not been remade yet by the community. They will probably
@@ -119,27 +134,28 @@ todo-list: http://hrp.duke4.net/wiki/doku.php?id=other:next_hrp_release
 -------------------------------
 3.2) Highlights of this release
 -------------------------------
-Compared to previous release (HRP v4), you can expect the following changes:
+Compared to previous release (HRP v5.1.285), you can expect the following changes:
 
-> Full Polymer lighting support (with maphacks)
-> Polymer support for many textures (normal/specular mapping)
-> Polymer support for HUD weapons: Chaingun, RPG, Devastator, Pistol, Shotgun
-> Increased resolution for several textures and model skins
-  (beyond standard 512x512 HRP res)
-> New model for Lunar Overlord (ep.2 boss)
-> Improvements to the ingame menu (new font, some new screens)
-> Hundreds of new textures, dozens of new models - overall HRP size increased
-  from 285 MB to over 700+ MB! 
+[FEATURE] Full Polymost compatibility (use parameter -hduke3d_hrp_polymost.def)
+[UPDATE] New HUD weapon models for pistol and shotgun
+[UPDATE] New hanging slime babe
+[UPDATE] Improved crosshairs
+[UPDATE] Polymer/Polymost adding/optimization for many textures
+[FIX] FOV change for RPG, fixed animation for HUD Devastator
+[FIX] Model fixes for Trooper
+[FIX] Rotation corrections for various models
+[FIX] Activation of various "forgotten" textures throughout the HRP
+
 
 IMPORTANT!
 ----------
-Please note that all HRP v5 contents has been optimized for usage with Polymer
-renderer. This means that if you switch to the older Polymost renderer, you WILL
+Please note that all HRP v5.x contents has been optimized for usage with Polymer
+renderer. This means that if you use the older Polymost renderer, you WILL
 encounter problems (HUD weapons rendered incorrectly or other display glitches).
 Polymer requirements offer advanced graphics effects but demand much better
-hardware. If you are forced to use Polymost due to having a weaker machine,
-you have to use an older HRP build, or better the Polymost Override Pack which
-should be available as of the release of this HRP version.
+hardware.
+If you are forced to use Polymost due to having a weaker machine, be sure to
+launch the HRP in Polymost mode (see "Installation" section for more info)! 
 
 
 -----------------
@@ -230,15 +246,15 @@ This disclaimer applies to the following textures:
 ================
 
 Robin "NightFright" Reisinger
-(HRP co-author) .................................... hrp_update [at] fastmail.fm
+(HRP author) ....................................... nightfright2k7 [at] gmail.com
+
+
+Pär "Parkar" Karlsson 
+(Former HRP author, retired) ....................... parkar82 [at] gmail.com
 
 
 Richard "TerminX" Gobeille
 (EDuke32 port author) .............................. terminx [at] gmail.com
-
-
-[ Retired:  Pär "Parkar" Karlsson ]
-[ (HRP author) ....................................... parkar82 [at] gmail.com ]
 
 
 --------------
@@ -352,7 +368,7 @@ Quakis
 Semicharm
 Sky Fox
 Steveeeie
-Swiss Cheeseman/SwissCM
+SwissCM
 Tesserex
 theRobot
 toadie2k
@@ -410,9 +426,9 @@ Renegado
 Roma Loom
 Sky Fox
 Soul Collector
-Spiker/Brain Damage
+Spiker
 Supertanker
-Swiss Cheeseman/SwissCM
+SwissCM
 Tea Monster
 vakooja
 Vasilinka
@@ -448,23 +464,36 @@ Zebius
 Hunter_rus
 NightFright
 
+> User Map Maphacks
+LeoD
+
 > Polymer Lighting
 Devastator
 Micky C
 Roma Loom
 
 
+SVN Maintenance
+---------------
+Devastator
+Hendricks266
+LeoD
+NightFright
+Roma Loom
+Spiker
+
+
 ------------
 HRP Assembly
 ------------
 NightFright
-Parkar
+
 
 
 -----------------
 Special thanks to
 -----------------
 - 3D Realms, for making this great game in the first place!
-- The guys at Duke4.net for hosting and help building the HRP website.
-- All of you who support and contribute to the project.
-- All the mirrors and seeders.
+- The guys at Duke4.net for hosting and help building the HRP website!
+- All of you who support and contribute to the project!
+- All the mirrors and seeders!

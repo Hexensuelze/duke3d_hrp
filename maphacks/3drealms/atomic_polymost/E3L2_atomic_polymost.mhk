@@ -1,0 +1,99 @@
+// Maphacks for Duke3D HRP
+// Level: E3L2.MAP - "Bank Roll" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// CHARACTERS
+
+// Slime babes
+sprite 117 angoff -384
+sprite 118 angoff -896
+sprite 411 angoff 768
+
+
+
+// PROPS
+
+// Chair
+sprite 457 angoff 512
+
+// Trashcan
+sprite 426 angoff -768
+sprite 427 angoff -256
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 516 angoff -256
+
+// Boots
+sprite 537 angoff 512
+
+// Health +10
+sprite 266 angoff 512
+
+// Health +30
+sprite 33 angoff 256
+sprite 88 angoff 768
+sprite 534 angoff 256
+sprite 535 angoff 1024
+
+// Keycards (R/B)
+sprite 355 angoff -256
+sprite 440 angoff -512
+
+// Medkit
+sprite 265 angoff -256
+sprite 533 angoff 512
+
+// Steroids
+sprite 506 angoff -512
+
+
+
+// WEAPONS/AMMO
+
+// Shotgun & ammo
+sprite 89 angoff -256
+sprite 90 angoff -512
+sprite 424 angoff 512
+sprite 513 angoff 512
+
+// Pipebombs
+sprite 66 angoff -512
+sprite 106 angoff 256
+
+// Shrinker & ammo
+sprite 511 angoff 512
+
+// Devastator & ammo
+sprite 86 angoff -256
+
+// Laser Tripbomb
+sprite 518 angoff 640
+sprite 519 angoff 512
+
+// Freezethrower & ammo
+sprite 507 angoff -512
+sprite 515 angoff 512
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 538 mdzoff -230000 // drinking fountain
+sprite 538 pitch 2
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 113 notmd
+sprite 191 notmd
+sprite 283 notmd
+sprite 284 notmd
+
+
+
+// LIGHTS 

@@ -1,0 +1,220 @@
+// Maphacks for Duke3D HRP
+// Level: E4L8.MAP - "Critical Mass" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// PROPS
+
+// Bottle
+sprite 326 angoff 256
+sprite 327 angoff 512
+
+// Chair
+sprite 336 angoff -512
+sprite 361 angoff 786
+sprite 457 angoff -896
+sprite 894 angoff 256
+
+// Chopper wheel (trash compactor)
+sprite 684 angoff 128
+
+// Donuts
+sprite 458 angoff -64
+sprite 706 angoff -384
+sprite 707 angoff 192
+
+// Nuke barrel
+sprite 365 angoff -128
+sprite 366 angoff -512
+sprite 367 angoff 512
+sprite 368 angoff -256
+sprite 369 angoff -128
+sprite 600 angoff 896
+sprite 601 angoff -512
+sprite 603 angoff 256
+
+// Trashcan
+sprite 837 angoff -768
+sprite 838 angoff 512
+
+// US flag
+sprite 335 angoff 256
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 351 angoff 256
+
+// Health +10
+sprite 655 angoff 256
+sprite 656 angoff -256
+sprite 851 angoff 256
+sprite 859 angoff 512
+
+// Health +30
+sprite 610 angoff -128
+sprite 654 angoff -768
+sprite 657 angoff -256
+sprite 732 angoff 512
+sprite 1019 angoff -512
+
+// HoloDuke
+sprite 724 angoff 1024
+
+// Jetpack
+sprite 323 angoff 1024 // Dukematch only
+
+// Keycards (B/Y/R)
+sprite 386 angoff 1024
+sprite 762 angoff 768
+sprite 854 angoff 1024
+
+// Medkit
+sprite 733 angoff 256
+
+// Scuba gear
+sprite 863 angoff 768
+
+// Steroids
+sprite 55 angoff -256
+sprite 734 angoff 256
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 607 angoff 256
+sprite 608 angoff 256
+sprite 609 angoff 256
+sprite 829 angoff 512
+sprite 865 angoff 512
+
+// Shotgun & ammo
+sprite 352 angoff 64
+sprite 714 angoff -256
+sprite 715 angoff -512
+sprite 731 angoff 512
+
+// Chaingun & ammo
+sprite 561 angoff -512
+sprite 611 angoff -512
+sprite 615 angoff 512
+
+// RPG & ammo
+sprite 228 angoff -512
+sprite 834 angoff 1024
+sprite 864 angoff 256 // Dukematch only
+
+// Pipebombs
+sprite 140 angoff 1024
+sprite 538 angoff -512
+sprite 713 angoff -256
+sprite 723 angoff 128
+sprite 850 angoff 128
+
+// Shrinker/Expander & ammo
+sprite 319 angoff 768
+sprite 827 angoff -640
+
+// Devastator & ammo
+sprite 532 angoff 512
+sprite 828 angoff -256
+
+// Freezethrower & ammo
+sprite 344 angoff 1024
+sprite 831 angoff 128
+sprite 868 angoff 256 // Dukematch only
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 335 mdzoff 530000 // US flag
+sprite 335 roll 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 330 notmd
+sprite 360 notmd
+sprite 364 notmd
+sprite 893 notmd
+
+// Switches to be hidden
+sprite 537 notmd // Pressure maintenance computer
+
+// Symbols to be rendered as sprites
+sprite 35 notmd // Atomic symbol on desk
+sprite 332 notmd // Atomic symbol on desk
+sprite 1033 notmd // Picture outside building used to hold player flat
+
+
+
+// LIGHTS
+
+// by Devastator
+light  238  26112 -3840 -3840  1200  91 111 91  0 0 1536 -1  0 0  0 -1
+light  200  29600 -4960 -3072  3500  126 123 121  0 0 1536 -1  0 0  0 -1
+light  303  33024 -17408 -5120  2400  91 91 101  0 0 1536 -1  0 0  0 -1
+light  258  30976 -14080 -5120  1300  115 115 115  0 0 1536 -1  0 0  0 -1
+light  149  39808 -2176 35072  1200  91 111 91  0 0 1536 -1  0 0  0 -1
+light  158  37344 -2016 -7168  1600  31 31 31  0 0 1536 -1  0 0  0 -1
+light  134  39680 -33280 -25600  4800  43 39 35  0 0 1536 -1  0 0  0 -1
+light  136  37504 -29312 -15360  1200  71 71 71  0 0 1536 -1  0 0  0 -1
+light  34  39552 -24832 -7838  2400  33 29 25  0 0 1536 -1  0 0  0 -1
+light  376  34304 -24448 -1024  2400  33 29 25  0 0 1536 -1  0 0  0 -1
+light  376  36992 -25984 -38912  2300  81 81 81  0 0 1536 -1  0 4  0 -1
+light  376  36992 -24448 -10240  2300  51 51 51  0 0 1536 -1  0 0  0 -1
+light  376  36608 -22272 -4096  2800  33 32 25  0 0 1536 -1  0 0  0 -1
+light  28  33920 -34176 -61440  3500  32 6 1  0 0 1536 -1  0 0  0 -1
+light  134  41728 -31616 -64512  3900  32 16 11  0 0 1536 -1  0 0  0 -1
+light  136  34816 -29184 -25600  2100  163 156 141  0 0 1536 -1  0 0  0 -1
+light  46  36352 -18944 -36864  1500  111 108 101  0 0 1536 -1  0 0  0 -1
+light  21  36480 -16896 -31744  1800  211 178 131  0 0 1536 -1  0 0  0 -1
+light  59  41728 -17152 -29696  1100  211 211 211  0 0 1536 -1  0 0  0 -1
+light  54  39680 -16640 -36864  2100  71 71 71  0 0 1536 -1  0 0  0 -1
+light  60  43136 -17152 -38912  700  171 171 171  0 0 1536 -1  0 0  0 -1
+light  66  41792 -12928 -15360  2900  235 211 201  0 0 1536 -1  0 0  0 -1
+light  66  41792 -12928 27648  3900  125 101 91  0 0 1536 -1  0 0  0 -1
+light  71  44544 39552 -26624  2400  151 141 111  0 0 1536 -1  0 0  0 -1
+light  71  42944 37824 -26624  1200  121 151 131  0 0 1536 -1  0 0  0 -1
+light  71  40896 38592 -26624  2400  151 141 111  0 0 1536 -1  0 0  0 -1
+light  216  41792 -10368 39936  1700  120 109 90  0 0 1536 -1  0 0  0 -1
+light  370  41984 -4288 29952  1300  91 91 91  0 0 1536 -1  0 0  0 -1
+light  363  42112 -8960 33024  1300  91 91 91  0 0 1536 -1  0 0  0 -1
+light  363  42048 -7488 48128  1300  91 91 91  0 0 1536 -1  0 0  0 -1
+light  317  40448 -4224 37888  1300  83 77 70  0 0 1536 -1  0 0  0 -1
+light  317  38752 -4288 43008  1300  83 77 70  0 0 1536 -1  0 0  0 -1
+light  274  36512 -4320 -7168  1200  51 31 21  0 0 1536 -1  0 0  0 -1
+light  265  27648 -13568 -32512  3700  67 56 45  0 0 1536 -1  0 0  0 -1
+light  202  32128 -3904 0  3500  11 3 1  0 0 1536 -1  0 0  0 -1
+light  269  26976 -4672 2048  1600  111 101 101  0 0 1536 -1  0 0  0 -1
+light  144  39808 -6304 35072  1200  91 111 91  0 0 1536 -1  0 0  0 -1
+light  242  27136 -9152 0  1300  81 91 71  0 0 1536 -1  0 0  0 -1
+light  197  25664 -7488 -10240  1200  135 125 115  0 0 1536 -1  0 0  0 -1
+light  241  27136 -7488 -1024  1400  81 81 71  0 0 1536 -1  0 0  0 -1
+light  197  25664 -9152 -10240  1200  135 125 115  0 0 1536 -1  0 0  0 -1
+light  212  28864 -10368 -11264  1800  101 95 91  0 0 1536 -1  0 0  0 -1
+light  178  30144 -9344 0  1000  101 95 91  0 0 1536 -1  0 0  0 -1
+light  178  30208 -8576 -1024  1000  101 95 91  0 0 1536 -1  0 0  0 -1
+light  121  34816 -8992 -99072  10200  145 165 108  372 279 1664 -500  0 0  0 -1
+light  193  34656 -5568 4096  1300  45 55 1  0 0 1536 -1  0 0  0 -1
+light  193  38016 -8128 3072  1300  45 55 1  0 0 1536 -1  0 0  0 -1
+light  193  31776 -11264 -15360  1300  45 55 1  0 0 1536 -1  0 0  0 -1
+light  42  36096 43968 67840  3800  215 235 161  0 0 1536 -1  0 0  0 -1
+light  42  33728 41568 71680  2500  235 255 201  0 0 1536 -1  0 0  0 -1
+light  240  39232 -8800 -112640  1500  33 42 21  0 0 1536 -1  0 0  0 -1
+light  209  29888 -12416 -7168  1100  101 95 91  0 0 1536 -1  0 0  0 -1
+light  258  29696 -14080 -2048  1700  167 145 136  0 0 1536 -1  0 0  0 -1
+light  203  32384 -1664 2048  1700  49 9 1  0 0 1536 -1  0 0  0 -1
+light  303  32000 -15616 0  800  41 71 51  0 0 1536 -1  0 0  0 -1
+light  315  27776 -17920 -1024  1600  83 83 81  0 0 1536 -1  0 0  0 -1
+light  352  -48640 8704 -26676  12100  27 16 11  0 0 1536 -1  0 0  0 -1
+light  353  -56704 27520 -1792  12100  17 6 1  0 0 1536 -1  0 0  0 -1
+light  353  -50688 -1792 22528  14700  37 26 21  0 0 1536 -1  0 0  0 -1
+light  353  -23168 24320 -30720  16000  21 21 21  0 0 1536 -1  0 0  0 -1
+light  193  31104 -8960 5120  1300  33 35 23  0 0 1536 9  0 0  0 -1
+light  23  40704 -36352 -16128  1000  255 206 111  0 0 1536 -1  0 0  0 -1

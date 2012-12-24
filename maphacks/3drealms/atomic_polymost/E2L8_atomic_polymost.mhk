@@ -1,0 +1,243 @@
+// Maphacks for Duke3D HRP
+// Level: E2L8.MAP - "Dark Side" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// CHARACTERS
+
+// Pig Cop corpses
+sprite 355 angoff 384
+sprite 371 angoff -960
+
+// Slime babes
+sprite 542 angoff 256
+sprite 543 angoff 128
+sprite 544 angoff -896
+sprite 545 angoff -384
+sprite 546 angoff 896
+sprite 547 angoff -256
+sprite 549 angoff 192
+sprite 550 angoff 768
+sprite 551 angoff 384
+sprite 552 angoff 1024
+sprite 553 angoff -128
+sprite 675 angoff 512
+sprite 676 angoff 768
+sprite 677 angoff 960
+sprite 679 angoff -196
+
+
+
+// PROPS
+
+// Chair
+sprite 340 angoff -768
+sprite 561 angoff 512
+
+// Duke gibs
+sprite 448 angoff 128
+sprite 449 angoff -256
+sprite 452 angoff 384
+sprite 453 angoff 768
+
+// Observatory
+sprite 947 angoff 640
+
+// Radar Dish
+sprite 948 angoff -960
+
+// Reactor core
+sprite 844 angoff 256
+sprite 845 angoff 256
+
+// Space suits
+sprite 519 angoff -512
+sprite 587 angoff 512
+sprite 588 angoff 1024
+sprite 594 angoff -640
+sprite 596 angoff -128
+sprite 597 angoff -512
+sprite 598 angoff -64
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 226 angoff -512
+sprite 247 angoff 256
+sprite 347 angoff 512
+sprite 797 angoff 128
+sprite 932 angoff -768
+sprite 990 angoff 512
+
+// Boots
+sprite 955 angoff 1024
+
+// Health +10
+sprite 223 angoff -256
+sprite 224 angoff -256
+sprite 252 angoff 320
+sprite 353 angoff 128
+sprite 354 angoff -128
+sprite 356 angoff 256
+sprite 358 angoff 256
+sprite 800 angoff 512
+sprite 802 angoff 512
+
+// Health +30
+sprite 201 angoff -256
+sprite 205 angoff -256
+sprite 208 angoff -384
+sprite 213 angoff 256
+sprite 216 angoff -640
+sprite 220 angoff 768
+sprite 227 angoff 1024
+sprite 248 angoff -256
+sprite 250 angoff 384
+sprite 263 angoff -768
+sprite 264 angoff 512
+sprite 366 angoff 512
+sprite 369 angoff 1024
+sprite 376 angoff 384
+sprite 792 angoff 512
+
+// HoloDuke
+sprite 954 angoff 1024
+
+// Jetpack
+sprite 991 angoff -512 // Dukematch only
+sprite 995 angoff 1024 // Dukematch only
+
+// Keycards (B)
+sprite 520 angoff 1024
+
+// MedKit
+sprite 364 angoff -384
+
+// Nightvision
+sprite 952 angoff -512
+sprite 989 angoff -1024
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 258 angoff 1024
+sprite 791 angoff 512
+
+// Shotgun & ammo
+sprite 200 angoff 256
+sprite 202 angoff -512
+sprite 219 angoff 1024
+sprite 249 angoff 1024
+sprite 251 angoff -512
+sprite 262 angoff 256
+sprite 372 angoff 256
+sprite 826 angoff -768
+
+// Chaingun & ammo
+sprite 265 angoff -512
+sprite 375 angoff 256
+sprite 406 angoff 512 // Dukematch only
+
+// RPG & ammo
+sprite 211 angoff 256
+sprite 214 angoff 1024
+sprite 217 angoff -128
+sprite 218 angoff -512
+sprite 266 angoff -896
+sprite 268 angoff 1024
+sprite 346 angoff 1024
+sprite 836 angoff 512 // Dukematch only
+sprite 997 angoff 768 // Dukematch only 
+sprite 1001 angoff -512 // Dukematch only
+
+// Pipebombs
+sprite 42 angoff 768
+sprite 206 angoff 128
+sprite 207 angoff 640
+sprite 242 angoff 512
+sprite 359 angoff 640
+sprite 363 angoff 256
+sprite 837 angoff 1024
+sprite 1017 angoff 768
+sprite 1018 angoff 512
+sprite 1019 angoff 1024
+
+// Shrinker & ammo
+sprite 203 angoff -128
+sprite 209 angoff -256
+sprite 210 angoff -256
+sprite 407 angoff 1024
+sprite 996 angoff -768 // Dukematch only
+sprite 1008 angoff 1024
+
+// Devastator & ammo
+sprite 204 angoff -960
+sprite 212 angoff 512
+sprite 215 angoff -768
+sprite 225 angoff -832
+sprite 260 angoff 1024
+sprite 269 angoff -512
+sprite 365 angoff 512
+sprite 999 angoff 1024 // Dukematch only
+
+// Laser Tripbomb
+sprite 361 angoff 768
+sprite 1007 angoff 1024
+sprite 1009 angoff 1024
+
+// Freezethrower & ammo
+sprite 221 angoff 256
+sprite 222 angoff 1024
+sprite 254 angoff -256
+sprite 255 angoff 768
+sprite 790 angoff 768
+sprite 998 angoff -256 // Dukematch only
+sprite 1000 angoff 256 // Dukematch only
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 406 mdzoff 930000 // chaingun ammo (Dukematch only)
+sprite 406 pitch 1
+sprite 407 mdzoff 930000 // Shrinker
+sprite 407 roll 1
+sprite 448 nomdanim // spinning Duke gib
+sprite 449 nomdanim // spinning Duke gib
+sprite 452 nomdanim // spinning Duke gib
+sprite 453 nomdanim // spinning Duke gib
+sprite 595 mdzoff -1500000 // double-rendered space suit near secret exit
+sprite 595 pitch 1
+sprite 801 mdzoff 930000 // Devastator
+sprite 801 pitch 1
+sprite 836 mdzoff -50000 // RPG (Dukematch only)
+sprite 836 roll 1
+sprite 836 pitch -12
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 357 notmd
+sprite 422 notmd
+sprite 488 notmd
+sprite 604 notmd
+sprite 605 notmd
+sprite 606 notmd
+sprite 607 notmd
+sprite 608 notmd
+sprite 609 notmd
+sprite 610 notmd
+sprite 611 notmd
+sprite 612 notmd
+sprite 613 notmd
+sprite 678 notmd
+sprite 772 notmd
+sprite 773 notmd
+
+
+
+// LIGHTS

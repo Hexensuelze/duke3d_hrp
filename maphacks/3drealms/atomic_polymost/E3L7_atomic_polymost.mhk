@@ -1,0 +1,139 @@
+// Maphacks for Duke3D HRP
+// Level: E3L7.MAP - "Fahrenheit" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// PROPS
+
+// Antenna
+sprite 144 angoff 128
+
+// Bottles
+sprite 323 angoff 512
+sprite 324 angoff 256
+sprite 325 angoff 768
+sprite 326 angoff 512
+sprite 327 angoff 128
+sprite 328 angoff 768
+sprite 329 angoff -128
+sprite 330 angoff 256
+sprite 331 angoff 128
+sprite 332 angoff -768
+
+// Camera (KTIT studio)
+sprite 242 angoff -128
+
+// Camera Spotlights (KTIT studio)
+sprite 138 angoff -896
+sprite 241 angoff -512
+sprite 244 angoff -128
+
+// Drinking fountain
+sprite 366 angoff 1024
+
+// Microphone (KTIT studio)
+sprite 247 angoff -896
+
+// Trashcan
+sprite 204 angoff 1024
+sprite 205 angoff 768
+sprite 349 angoff -384
+sprite 351 angoff -256
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 202 angoff -768
+
+// Health +10
+sprite 34 angoff -256 
+sprite 35 angoff -256
+
+// Health +30
+sprite 401 angoff 196
+sprite 402 angoff -128
+sprite 403 angoff 768
+sprite 404 angoff 768
+
+// Jetpack
+sprite 77 angoff 512 // Dukematch only
+sprite 203 angoff -128 // Dukematch only
+
+// Keycard (B/R/Y)
+sprite 134 angoff 1024
+sprite 295 angoff -512
+sprite 432 angoff -512
+
+// Medkit
+sprite 88 angoff 512
+sprite 192 angoff 512
+sprite 334 angoff 256
+sprite 422 angoff 512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 45 angoff 1024
+sprite 108 angoff -128
+sprite 360 angoff 1024
+
+// Shotgun & ammo
+sprite 47 angoff -256
+sprite 109 angoff -512
+sprite 423 angoff -768
+sprite 431 angoff -128
+
+// Chaingun & ammo
+sprite 48 angoff 256
+sprite 110 angoff 512
+sprite 299 angoff -256
+sprite 346 angoff 512
+
+// RPG & ammo
+sprite 368 angoff 1024
+sprite 427 angoff 256
+
+// Pipebombs
+sprite 268 angoff 1024
+
+// Devastator & ammo
+sprite 200 angoff 1024
+sprite 294 angoff -768
+sprite 300 angoff 256
+sprite 343 angoff -768
+
+// Laser Tripbomb
+sprite 347 angoff -256
+
+// Shrinker & ammo
+sprite 40 angoff 256
+sprite 41 angoff 256
+sprite 344 angoff 512
+sprite 345 angoff 256
+
+// Freezethrower & ammo
+sprite 361 angoff 1024
+sprite 362 angoff 1024
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 192 mdzoff 600000 // medkit
+sprite 192 pitch 1
+sprite 366 mdzoff -160000 // drinking fountain
+sprite 366 pitch 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 309 notmd
+sprite 310 notmd
+
+
+
+// LIGHTS 

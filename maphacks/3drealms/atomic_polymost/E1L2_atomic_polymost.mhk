@@ -1,0 +1,145 @@
+// Maphacks for Duke3D HRP
+// Level: E1L2.MAP - "Red Light District" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// CHARACTERS
+
+// Hooker
+sprite   544 angoff    -768        // tile1321 fem3 hooker (flipped sprite)
+
+// Slime babes
+sprite     1 angoff    -896        // tile1294 podfem1
+
+// Stripper
+sprite   309 angoff     512        // tile1312 fem1 stripper
+
+
+
+// PROPS
+
+// Bottles
+sprite   525 angoff    -64         // tile0956 bottle3
+sprite   526 angoff     128        // tile0956 bottle3
+sprite   527 angoff     384        // tile0956 bottle3
+sprite   528 angoff     960        // tile0956 bottle3
+sprite   465 angoff     256        // tile1160 bottle13
+sprite   466 angoff    -512        // tile1162 bottle15
+sprite   467 angoff     128        // tile1161 bottle14
+sprite   468 angoff     512        // tile1163 bottle16
+sprite   469 angoff    -768        // tile1164 bottle17
+sprite   470 angoff    -192        // tile1165 bottle18
+sprite   471 angoff     256        // tile1166 bottle19
+sprite   472 angoff    -384        // tile1163 bottle16
+sprite   473 angoff    -192        // tile1161 bottle14
+sprite   474 angoff     512        // tile1165 bottle18
+sprite   475 angoff     128        // tile1166 bottle19
+sprite   476 angoff    -256        // tile1161 bottle14
+
+// Fire Hydrant 
+sprite   797 angoff    -512        // tile0981 hydrent
+
+// Toilet
+sprite   478 angoff    -512        // tile0569 toilet
+
+// Trashcan
+sprite   160 angoff    -256        // tile1232 canwithsomething
+sprite   228 angoff     512        // tile1232 canwithsomething
+sprite   402 angoff    -256        // tile1232 canwithsomething
+sprite   407 angoff    -256        // tile1232 canwithsomething
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite   189 angoff    -512        // tile0054 shield
+sprite   367 angoff     256        // tile0054 shield
+
+// Health +30
+sprite    44 angoff     256        // tile0052 sixpack
+sprite   153 angoff     256        // tile0052 sixpack
+sprite   154 angoff     256        // tile0052 sixpack
+sprite   155 angoff    -256        // tile0052 sixpack
+sprite   156 angoff     256        // tile0052 sixpack
+sprite   158 angoff     512        // tile0052 sixpack
+sprite   180 angoff    -256        // tile0052 sixpack
+
+// HoloDuke
+sprite   208 angoff     256        // tile1348 holoduke
+
+// Keycards (Y/R/B)
+sprite    27 angoff     512        // tile0060 accesscard blue
+sprite   179 angoff    -256        // tile0060 accesscard yellow
+sprite   249 angoff     1024       // tile0060 accesscard red
+
+// Medkit
+sprite   278 angoff    -512        // tile0053 firstaid
+sprite   823 angoff     384        // tile0053 firstaid
+
+// Nightvision
+sprite   186 angoff     1024       // tile0059 heatsensor
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite   432 angoff     1024       // tile0021 firstgunsprite
+sprite   755 angoff     512        // tile0040 ammo
+sprite   757 angoff     512        // tile0040 ammo
+
+// Shotgun & ammo
+sprite   390 angoff     1024       // tile0049 shotgunammo (Dukematch only)
+sprite   391 angoff    -512        // tile0028 shotgunsprite
+sprite   515 angoff     1024       // tile0028 shotgunsprite
+sprite   694 angoff    -512        // tile0049 shotgunammo
+sprite   818 angoff    -256        // tile0049 shotgunammo
+
+// Chaingun & ammo
+sprite   159 angoff    -128        // tile0041 batteryammo
+sprite   173 angoff     512        // tile0041 batteryammo
+sprite   693 angoff     512        // tile0041 batteryammo
+sprite   754 angoff    -512        // tile0041 batteryammo
+
+// RPG & ammo
+sprite   163 angoff    -512        // tile0044 rpgammo
+sprite   751 angoff    -256        // tile0023 rpgsprite (Dukematch only)
+sprite   825 angoff     1024       // tile0044 rpgammo
+
+// Pipebombs
+sprite    63 angoff     512        // tile0047 hbombammo
+sprite   188 angoff    -512        // tile0047 hbombammo
+sprite   265 angoff    -768        // tile0047 hbombammo
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite   208 mdzoff     600000     // tile1348 holoduke (secret in video store)
+sprite   208 pitch      1          // tile1348 holoduke
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite   177 notmd                 // tile2301 wallblood1
+sprite   287 notmd                 // tile0903 pocket billard
+sprite   288 notmd                 // tile0903 pocket billard
+sprite   289 notmd                 // tile0903 pocket billard
+sprite   290 notmd                 // tile0903 pocket billard
+sprite   291 notmd                 // tile0903 pocket billard
+sprite   292 notmd                 // tile0903 pocket billard
+sprite   426 notmd                 // tile0577 femmag2
+sprite   461 notmd                 // tile0568 femmag1
+sprite   462 notmd                 // tile0568 femmag1
+sprite   463 notmd                 // tile0577 femmag2
+sprite   540 notmd                 // tile0690 (manhole, half open)
+
+// Switches to be hidden
+sprite   191 notmd                 // tile0132 slotdoor (hand dryer)
+sprite   254 notmd                 // tile0132 slotdoor (telephone)
+sprite   517 notmd                 // tile0132 slotdoor (telephone)
+
+
+
+// LIGHTS 

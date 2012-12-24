@@ -1,0 +1,49 @@
+
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Level    : Roch6.map - "Roch6" by Pascal Rouaud
+// Map Date : 2001-10-03
+// mapmd4   : 4b4b1d084fad737fcf7be4b7098835c0
+// Curr. HRP: r5.2.415
+
+
+// Forcing tile 1266 which is part of the "teleporter splash" model (1261-1266)
+// to be rendered as a single sprite when used as a fence
+sprite  1315 notmd                 // tile1266 (tile1261 teleporter splash)
+sprite  1316 notmd                 // tile1266 (tile1261 teleporter splash)
+sprite  1317 notmd                 // tile1266 (tile1261 teleporter splash)
+sprite  1422 notmd                 // tile1266 (tile1261 teleporter splash)
+sprite  1423 notmd                 // tile1266 (tile1261 teleporter splash)
+
+// Rotate key cards
+sprite  2085 angoff     768        // tile0060 accesscard blue
+sprite  2373 angoff     512        // tile0060 accesscard red
+
+// Switches to be hidden
+sprite   795 notmd                 // tile0164 dipswitch2 (telephone)
+sprite  1751 notmd                 // tile1069 plug       (telephone)
+sprite  1752 notmd                 // tile0164 dipswitch2 (telephone)
+
+// Globe on shelf
+sprite  2251 mdzoff     180000     // tile0542 (globe)
+sprite  2251 pitch      1          // tile0542 (globe)
+
+// Hanglights in container
+//sprite  1610 notmd                 // tile0979 hanglight
+sprite  1610 mdzoff     600000     // tile0979 hanglight
+sprite  1610 pitch      1          // tile0979 hanglight
+//sprite  1611 notmd                 // tile0979 hanglight
+sprite  1611 mdzoff     600000     // tile0979 hanglight
+sprite  1611 pitch      1          // tile0979 hanglight
+
+// Black wooden horses
+sprite  1573 notmd                 // tile0904 woodenhorse
+sprite  1574 notmd                 // tile0904 woodenhorse
+
+// Pirate painting
+//sprite  2173 nomdanim              // tile4517 (pirate torso)
+sprite  2173 notmd                 // tile4517 (pirate torso)
+
+// Duke & Battlelord painting
+sprite  1070 nomdanim              // tile1425 (tile1405 duke run)
+sprite  1513 notmd                 // tile2666 (tile2630 Battlelord

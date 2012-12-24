@@ -1,0 +1,152 @@
+// Maphacks for Duke3D HRP
+// Level: E4L10.MAP - "The Queen" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 374 angoff -768
+sprite 825 angoff -768
+sprite 840 angoff -256
+sprite 841 angoff 768
+
+// Boots
+sprite 150 angoff 1024
+
+// Health +10
+sprite 308 angoff -256
+sprite 309 angoff -256
+
+// Health +30
+sprite 4 angoff -768
+sprite 5 angoff -256
+sprite 454 angoff -256
+sprite 455 angoff -256
+sprite 566 angoff -256
+sprite 567 angoff -256
+sprite 670 angoff 512
+sprite 671 angoff 512
+sprite 678 angoff 1024
+sprite 679 angoff 1024
+sprite 682 angoff 1024
+sprite 683 angoff 1024
+sprite 839 angoff 1024
+sprite 843 angoff 128
+
+// Jetpack
+sprite 29 angoff 1024
+
+// Scuba gear
+sprite 337 angoff -256
+
+// Steroids
+sprite 844 angoff 512
+
+
+
+// WEAPONS/AMMO
+
+// Shotgun & ammo
+sprite 299 angoff -768 // Dukematch only
+sprite 300 angoff 768 // Dukematch only
+sprite 313 angoff 256
+sprite 322 angoff 1024
+sprite 613 angoff 512 // Dukematch only
+sprite 614 angoff 512 // Dukematch only
+sprite 615 angoff 512
+sprite 616 angoff 512 // Dukematch only
+sprite 701 angoff 512 // Dukematch only
+sprite 702 angoff 512 // Dukematch only
+sprite 867 angoff -896
+sprite 868 angoff -768
+sprite 871 angoff -256
+sprite 885 angoff 512
+sprite 886 angoff 512
+sprite 962 angoff -768
+
+// Chaingun & ammo
+sprite 323 angoff 1024
+sprite 859 angoff 512 // Dukematch only
+sprite 860 angoff -512 // Dukematch only
+sprite 861 angoff -512 // Dukematch only
+sprite 862 angoff 512 // Dukematch only
+sprite 865 angoff 512
+sprite 866 angoff 512
+sprite 870 angoff -512
+sprite 872 angoff -512
+sprite 889 angoff -512
+sprite 890 angoff -512
+sprite 960 angoff 1024
+sprite 981 angoff -256
+
+// RPG & ammo
+sprite 310 angoff 256
+sprite 326 angoff 256
+sprite 453 angoff 768
+sprite 564 angoff 256
+sprite 578 angoff 256
+sprite 833 angoff -768
+sprite 887 angoff -512
+sprite 888 angoff -512
+sprite 963 angoff -768
+sprite 1051 angoff -384
+sprite 1052 angoff -128
+
+// Pipebombs
+sprite 312 angoff 256
+sprite 315 angoff -512
+sprite 316 angoff 512
+sprite 686 angoff -512
+sprite 891 angoff 512
+sprite 892 angoff -512
+sprite 893 angoff 512
+sprite 964 angoff -768
+
+// Devastator & ammo
+sprite 311 angoff 256
+sprite 317 angoff -256
+sprite 318 angoff 768
+sprite 319 angoff -256
+sprite 320 angoff 768
+sprite 388 angoff -512
+sprite 669 angoff 512
+sprite 684 angoff 768
+sprite 685 angoff 256
+sprite 699 angoff -256
+sprite 700 angoff -768
+sprite 834 angoff 512
+sprite 835 angoff 512
+sprite 837 angoff -640
+sprite 838 angoff -384
+sprite 863 angoff 512
+sprite 864 angoff 512
+sprite 903 angoff 1024
+sprite 961 angoff -768
+sprite 1049 angoff 512
+sprite 1050 angoff 1024
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 579 mdzoff -730000 // RPG
+sprite 579 roll 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 11 notmd
+sprite 12 notmd
+sprite 21 notmd
+sprite 22 notmd
+sprite 562 notmd
+sprite 563 notmd
+sprite 705 notmd
+sprite 706 notmd
+sprite 1113 notmd
+sprite 1114 notmd
+
+
+
+// LIGHTS

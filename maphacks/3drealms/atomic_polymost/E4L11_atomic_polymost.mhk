@@ -1,0 +1,199 @@
+// Maphacks for Duke3D HRP
+// Level: E4L11.MAP - "Area 51" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// PROPS
+
+// Antenna (bus)
+sprite 305 angoff 128
+
+// Barrels
+sprite 728 angoff 512
+sprite 729 angoff -256
+
+// Bottle
+sprite 726 angoff 384
+
+// IV Unit
+sprite 441 angoff -256
+
+// Parking lot light
+sprite 620 angoff -128
+
+// Scale
+sprite 442 angoff 256
+
+// Tripod camera
+sprite 303 angoff -32
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 304 angoff 1024
+sprite 513 angoff 512
+
+// Health +10
+sprite 191 angoff 512
+sprite 192 angoff 512
+sprite 263 angoff 256
+sprite 264 angoff -384
+sprite 265 angoff 512
+sprite 266 angoff 640
+sprite 283 angoff -256
+sprite 289 angoff -128
+sprite 290 angoff -128
+sprite 291 angoff -128
+sprite 608 angoff 256
+sprite 609 angoff -256
+
+// Health +30
+sprite 201 angoff 512
+sprite 205 angoff -128
+sprite 253 angoff 768
+sprite 255 angoff 1024
+sprite 267 angoff -512
+sprite 277 angoff -512
+sprite 293 angoff 256
+sprite 296 angoff 768
+sprite 515 angoff -896
+sprite 562 angoff -512
+sprite 563 angoff -512
+sprite 611 angoff -256
+sprite 686 angoff 128
+
+// HoloDuke
+sprite 258 angoff -512
+sprite 297 angoff 768
+
+// Jetpack
+sprite 558 angoff 512
+
+// Keycards (B/R/Y)
+sprite 311 angoff -512
+sprite 469 angoff 512
+sprite 690 angoff 1024
+
+// MedKit
+sprite 301 angoff -768
+
+// Nightvision
+sprite 234 angoff -256
+sprite 252 angoff 1024
+
+// Scuba gear
+sprite 637 angoff 768
+
+// Steroids
+sprite 299 angoff 768
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 244 angoff 256
+sprite 259 angoff -512
+sprite 260 angoff 512
+sprite 262 angoff 512
+sprite 276 angoff -768
+
+// Shotgun & ammo
+sprite 85 angoff 768
+sprite 284 angoff 1024
+sprite 285 angoff 512
+sprite 286 angoff -256
+
+// Chaingun & ammo
+sprite 202 angoff -512
+sprite 256 angoff 512
+sprite 257 angoff 512
+sprite 292 angoff 512
+sprite 335 angoff -768
+sprite 711 angoff 1024
+
+// RPG & ammo
+sprite 287 angoff 128
+sprite 288 angoff 128
+sprite 568 angoff 1024
+
+// Pipebombs
+sprite 90 angoff 1024
+sprite 92 angoff -256
+sprite 93 angoff 128
+sprite 94 angoff -768 // Dukematch only
+sprite 95 angoff -384
+sprite 203 angoff -512
+sprite 204 angoff -640
+sprite 254 angoff -512
+sprite 275 angoff 384
+sprite 636 angoff -768
+sprite 655 angoff -256
+sprite 721 angoff 384
+sprite 722 angoff 512
+sprite 723 angoff 1024
+sprite 724 angoff -256
+
+// Shrinker/Expander & ammo
+sprite 282 angoff -256 // Dukematch only
+sprite 560 angoff 1024
+sprite 599 angoff -256 // Dukematch only
+sprite 651 angoff -512
+sprite 652 angoff -512
+
+// Devastator & ammo
+sprite 97 angoff 768
+sprite 98 angoff -768
+sprite 198 angoff 768 
+
+// Laser Tripbomb
+sprite 294 angoff -512
+sprite 295 angoff -512
+sprite 300 angoff -512
+
+// Freezethrower & ammo
+sprite 280 angoff 512
+sprite 281 angoff 512
+sprite 656 angoff 256
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 198 mdzoff -330000 // Devastator
+sprite 198 roll 1
+sprite 198 pitch 1
+sprite 499 mdzoff -150000 // Hotmeat
+sprite 499 roll 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 69 notmd
+sprite 75 notmd
+sprite 89 notmd
+sprite 110 notmd
+sprite 111 notmd
+sprite 410 notmd
+sprite 486 notmd
+sprite 491 notmd
+sprite 492 notmd
+sprite 567 notmd
+sprite 574 notmd
+sprite 583 notmd
+sprite 615 notmd
+sprite 616 notmd
+sprite 705 notmd
+
+// Switches to be hidden
+sprite 406 notmd
+sprite 423 notmd // Computer in section 2
+sprite 421 notmd // Bloody handprint inside crate
+sprite 630 notmd // Teleporter in section 2
+sprite 683 notmd // Reception computer
+
+
+
+// LIGHTS

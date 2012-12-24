@@ -1,0 +1,251 @@
+// Maphacks for Duke3D HRP
+// Level: E3L8.MAP - "Hotel Hell" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// CHARACTERS
+
+// Jibs5
+sprite 570 angoff 512
+
+
+
+// PROPS
+
+// Bottles
+sprite 219 angoff -256
+sprite 220 angoff -128
+sprite 221 angoff 128
+sprite 234 angoff -192
+sprite 235 angoff 128
+sprite 236 angoff -512
+sprite 238 angoff 384
+sprite 240 angoff 256
+sprite 241 angoff 128
+sprite 302 angoff 512
+sprite 303 angoff -512
+sprite 304 angoff 384
+sprite 305 angoff 128
+sprite 306 angoff -192
+sprite 314 angoff 128
+sprite 315 angoff 192
+sprite 316 angoff -256
+sprite 317 angoff 512
+sprite 318 angoff -384
+sprite 334 angoff 128
+sprite 335 angoff -128
+sprite 336 angoff -320
+sprite 337 angoff 256
+sprite 338 angoff -192
+sprite 339 angoff -384
+sprite 340 angoff -768
+sprite 341 angoff -896
+sprite 342 angoff 512
+
+// Donuts
+sprite 367 angoff -128
+
+// Drinking fountains
+sprite 95 angoff -512
+sprite 795 angoff -512
+
+// Root
+sprite 91 angoff 768
+
+// Trashcan
+sprite 376 angoff 512
+sprite 377 angoff 384
+sprite 378 angoff 256
+sprite 380 angoff 768
+sprite 385 angoff 384
+sprite 387 angoff 256
+sprite 388 angoff 256
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 460 angoff 768
+sprite 663 angoff 256
+sprite 685 angoff 1024 // Dukematch only
+
+// Health +10
+sprite 362 angoff -128
+
+// Health +30
+sprite 68 angoff -512
+sprite 69 angoff 512
+sprite 70 angoff 512
+sprite 176 angoff -512
+sprite 206 angoff -512
+sprite 307 angoff 512
+sprite 308 angoff 512
+sprite 312 angoff 512
+sprite 313 angoff 512
+sprite 480 angoff -256
+sprite 618 angoff -512
+sprite 672 angoff 256
+sprite 810 angoff 256
+sprite 811 angoff 256
+sprite 821 angoff 768
+sprite 822 angoff -896
+
+// HoloDuke
+sprite 577 angoff -512
+sprite 596 angoff 1024
+
+// Jetpack
+sprite 684 angoff 1024 // Dukematch only
+
+// Keycards (Y/B)
+sprite 172 angoff -512
+sprite 372 angoff -512
+
+// Medkit
+sprite 392 angoff 128
+
+// Nightvision
+sprite 99 angoff -256
+sprite 657 angoff 1024 // flipped sprite
+
+// Scuba gear
+sprite 86 angoff -256
+
+// Steroids
+sprite 355 angoff -512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 366 angoff -512
+sprite 608 angoff -512
+
+// Shotgun & ammo
+sprite 178 angoff 128
+sprite 361 angoff -256
+sprite 363 angoff -896
+sprite 371 angoff 1024
+sprite 397 angoff -512
+sprite 619 angoff -768
+
+// Chaingun & ammo
+sprite 395 angoff 128
+sprite 688 angoff 256 // Dukematch only
+sprite 689 angoff 512 // Dukematch only
+
+// RPG & ammo
+sprite 147 angoff 256
+sprite 175 angoff -512
+
+// Pipebombs
+sprite 150 angoff 512
+sprite 151 angoff 384
+sprite 182 angoff 512
+sprite 823 angoff 896
+
+// Devastator & ammo
+sprite 207 angoff -1024
+sprite 358 angoff 1024
+sprite 562 angoff 1024
+sprite 563 angoff -512
+
+// Laser Tripbomb
+sprite 479 angoff -256
+
+// Shrinker ammo
+sprite 640 angoff 512
+
+// Freezethrower & ammo
+sprite 690 angoff -512 // Dukematch only
+sprite 691 angoff 512 // Dukematch only
+sprite 692 angoff 512 // Dukematch only
+sprite 686 angoff 256 // Dukematch only
+sprite 687 angoff 1024
+sprite 725 angoff 768
+sprite 827 angoff 384
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 95 mdzoff -150000 // drinking fountain
+sprite 95 pitch 1
+sprite 237 mdxoff 1800 // bottle
+sprite 237 pitch 1
+sprite 238 mdzoff -610000 // bottle
+sprite 238 mdxoff 1800
+sprite 238 pitch 1
+sprite 243 mdzoff 410000 // bottle
+sprite 243 mdxoff 1800
+sprite 243 pitch 1
+sprite 244 mdzoff 810000 // bottle
+sprite 244 mdxoff 1800
+sprite 244 pitch 1
+sprite 247 mdzoff 770000 // bottle
+sprite 247 mdxoff 1800
+sprite 247 pitch 1
+sprite 248 mdzoff 410000 // bottle
+sprite 248 mdxoff 1800
+sprite 248 pitch 1
+sprite 251 mdzoff -90000 // bottle
+sprite 251 pitch 1
+sprite 252 mdzoff 160000 // bottle
+sprite 252 pitch 1
+sprite 253 mdzoff 240000 // bottle
+sprite 253 pitch 1
+sprite 323 mdzoff 320000 // bottle
+sprite 323 pitch 1
+sprite 324 mdzoff 210000 // bottle
+sprite 324 pitch 1
+sprite 328 mdzoff 340000 // bottle
+sprite 328 mdxoff 1800
+sprite 328 pitch 1
+sprite 329 mdzoff 690000 // bottle
+sprite 329 mdxoff 1800
+sprite 329 pitch 1
+sprite 332 mdzoff 760000 // bottle
+sprite 332 mdxoff 1800
+sprite 332 pitch 1
+sprite 333 mdzoff 340000 // bottle
+sprite 333 mdxoff 1800
+sprite 333 pitch 1
+sprite 335 mdxoff 1800 // bottle
+sprite 335 pitch 1
+sprite 337 mdxoff 1800 // bottle
+sprite 337 pitch 1
+sprite 338 mdxoff 1800 // bottle
+sprite 338 pitch 1
+sprite 339 mdxoff 1800 // bottle
+sprite 339 pitch 1
+sprite 342 mdzoff 650000 // bottle
+sprite 342 pitch 1
+sprite 343 mdzoff 690000 // bottle
+sprite 343 pitch 1
+sprite 567 nomdanim // spinning Duke leg
+sprite 795 mdzoff -37500 // drinking fountain
+sprite 795 pitch 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 216 notmd
+sprite 232 notmd
+sprite 288 notmd
+sprite 301 notmd
+sprite 319 notmd
+sprite 495 notmd
+sprite 609 notmd
+sprite 729 notmd
+sprite 796 notmd
+
+// Switches to be hidden
+sprite 139 notmd 
+sprite 481 notmd // Fire alarm secret
+sprite 743 notmd // Handprint in jungle
+
+
+
+// LIGHTS 

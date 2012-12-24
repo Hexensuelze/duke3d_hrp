@@ -1,0 +1,163 @@
+// Maphacks for Duke3D HRP
+// Level: E3L4.MAP - "L.A. Rumble" (Original Atomic Edition version)
+// Reviewed by NightFright (February 2012)
+
+
+
+// PROPS
+
+// Alien Fetus Jar
+sprite 141 angoff 1024
+sprite 142 angoff 1024
+sprite 394 angoff 1024
+
+// Bottles
+sprite 302 angoff 512
+sprite 303 angoff 128
+sprite 304 angoff -256
+sprite 305 angoff 256
+sprite 307 angoff -128
+sprite 309 angoff 384
+sprite 311 angoff -128
+sprite 313 angoff 256
+sprite 317 angoff 384
+sprite 333 angoff -384
+
+// Chairs
+sprite 264 angoff -384
+sprite 265 angoff 512
+sprite 364 angoff 1024
+sprite 365 angoff 1024
+
+// Donuts
+sprite 353 angoff 128
+
+// Drinking fountain
+sprite 76 angoff 1024
+
+// Scale
+sprite 395 angoff 256
+
+// Trashcan
+sprite 107 angoff 640
+sprite 108 angoff 512
+
+// Vacuum
+sprite 257 angoff 512
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite 458 angoff -512
+
+// Health +10
+sprite 362 angoff 512
+
+// Health +30
+sprite 60 angoff 1024
+sprite 72 angoff -512
+sprite 237 angoff -512
+sprite 240 angoff -512
+sprite 243 angoff 896
+sprite 348 angoff -256
+sprite 449 angoff 512
+sprite 457 angoff -512
+
+// HoloDuke
+sprite 468 angoff 512
+
+// Jetpack
+sprite 339 angoff 512
+sprite 500 angoff -512 // Dukematch only
+sprite 501 angoff -512 // Dukematch only
+
+// Keycards (R/B)
+sprite 59 angoff 512
+sprite 475 angoff 1024
+
+// Medkit
+sprite 135 angoff -256
+sprite 391 angoff 256
+sprite 515 angoff 512
+
+// Nightvision
+sprite 137 angoff -512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite 356 angoff 512
+sprite 480 angoff 1024
+sprite 481 angoff 768
+sprite 510 angoff 1024
+
+// Shotgun & ammo
+sprite 73 angoff -768
+sprite 74 angoff -512
+sprite 275 angoff 512
+sprite 482 angoff 768
+
+// Chaingun & ammo
+sprite 139 angoff 768
+
+// RPG & ammo
+sprite 138 angoff -768
+sprite 140 angoff -512
+sprite 283 angoff 1024
+sprite 347 angoff 1024
+sprite 443 angoff 512
+sprite 502 angoff 1024 // Dukematch only
+sprite 504 angoff 1024 // Dukematch only
+sprite 537 angoff -768
+
+// Pipebombs
+sprite 442 angoff 1024
+
+// Shrinker & ammo
+sprite 113 angoff 512
+sprite 114 angoff 1024
+
+// Devastator & ammo
+sprite 58 angoff 512
+sprite 126 angoff 1024
+sprite 127 angoff 1024
+sprite 136 angoff -256
+sprite 448 angoff 512
+sprite 505 angoff 512 // Dukematch only
+
+// Freezethrower & ammo
+sprite 506 angoff -512
+sprite 514 angoff 512
+sprite 516 angoff 512
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite 76 mdzoff -75000 // drinking fountain
+sprite 76 pitch 2
+sprite 257 mdzoff -860000 // vacuum
+sprite 257 roll 1
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite 258 notmd
+sprite 334 notmd
+sprite 335 notmd
+sprite 354 notmd
+sprite 360 notmd
+sprite 367 notmd
+sprite 393 notmd
+sprite 400 notmd
+sprite 401 notmd
+
+// Switches to be hidden
+sprite 87 notmd // "Under the Knife" secret
+
+
+
+// LIGHTS 
