@@ -196,12 +196,15 @@ texture 945 { pal 0 { file "highres/sprites/signs/0945.png" } }
 texture 949 { pal 0 { file "highres/sprites/signs/0949.png" } }
 
 // Exit (961)
-texture 961 { pal 0 { file "highres/sprites/signs/0961.png" } }
+texture 961 { pal 0 { file "highres/sprites/signs/0961.png" } } // "notmd"
 model "highres/sprites/signs/0961_exit.md3" {
    scale 17 zadd 1 shade 0
-   skin { pal 0 file "highres/sprites/signs/0961_exit.png" }
-   skin { pal 14 file "highres/sprites/signs/0961_exit_14.png" }
-   frame { name "exit1" tile 961 }
+   skin { pal 0 file "highres/sprites/signs/0961_exit_d.png" }
+   normal { file "highres/sprites/signs/0961_exit_n.png" }
+   specular { file "highres/sprites/signs/0961_exit_s.png" }
+   glow { pal 0  file "highres/sprites/signs/0961_exit_0_g.png" }
+   glow { pal 14 file "highres/sprites/signs/0961_exit_14_g.png" } 
+   frame { name "Frame 0" tile 961 }
 }
 
 texture 963 { pal 0 { file "highres/sprites/signs/0963.jpg" } }

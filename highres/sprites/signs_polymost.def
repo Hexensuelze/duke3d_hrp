@@ -190,11 +190,11 @@ texture 945 { pal 0 { file "highres/sprites/signs/0945.png" } }
 texture 949 { pal 0 { file "highres/sprites/signs/0949.png" } }
 
 // Exit (961)
-texture 961 { pal 0 { file "highres/sprites/signs/0961.png" } }
-model "highres/sprites/signs/0961_exit.md3" {
+texture 961 { pal 0 { file "highres/sprites/signs/0961.png" } } // "notmd"
+model "highres/sprites/signs_polymost/0961_exit.md3" {
    scale 17 zadd 1 shade 0
-   skin { pal 0 file "highres/sprites/signs/0961_exit.png" }
-   skin { pal 14 file "highres/sprites/signs/0961_exit_14.png" }
+   skin { pal 0 file "highres/sprites/signs_polymost/0961_exit.png" }
+   skin { pal 14 file "highres/sprites/signs_polymost/0961_exit_14.png" }
    frame { name "exit1" tile 961 }
 }
 
