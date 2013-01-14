@@ -45,11 +45,13 @@ texture 1155 { pal 0 { file "highres/sprites/decals/1155.png" } }
 texture 1220 { pal 0 { file "highres/sprites/decals/1220.png" } }
 
 texture 1226 {
-   pal 0 { file "highres/sprites/decals/1226.png" }
-   pal 1 { file "highres/sprites/decals/1226_1.png" }
-   pal 2 { file "highres/sprites/decals/1226_2.png" }
-   pal 6 { file "highres/sprites/decals/1226_6.png" }
-   pal 7 { file "highres/sprites/decals/1226_7.png" }
+   pal 0 { file "highres/sprites/decals/1226.png" specpower 15 specfactor 2 }
+   normal { file "highres/sprites/decals/1226_n.png" }
+   specular { file "highres/sprites/decals/1226_s.png" }
+//   pal 1 { file "highres/sprites/decals/1226_1.png" }
+//   pal 2 { file "highres/sprites/decals/1226_2.png" }
+//   pal 6 { file "highres/sprites/decals/1226_6.png" }
+//   pal 7 { file "highres/sprites/decals/1226_7.png" }
 }
 
 
