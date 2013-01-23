@@ -1,0 +1,81 @@
+                   ==========================================
+                   | Polymost HRP Override Pack for EDuke32 |
+                   |                by LeoD                 |
+                   ==========================================
+                   |     Repository Snapshot >= 5.2.415     |
+                   ==========================================
+
+
+WHAT THIS IS ABOUT:
+-------------------
+This file contains updated data for the Duke3D High-Resolution Pack (HRP). 
+It features an updated Polymost HRP for use with the EDuke32 Polymost renderer
+on top of the default Polymer HRP.
+
+Basically, this means: First get the full HRP 5.2 (r5.2.413), the latest update
+pack (if available), then this file.
+
+It is possible to run the Polymost HRP without this pack, using the EDuke32
+command line option -hduke3d_hrp_polymost.def. But this won't work correctly in
+conjunction with Mods like DukePlus or Attrition, as well as addons like
+DukeDC, NWinter, and Vacation.
+
+
+"Why still using the Polymost HRP?"
+-----------------------------------
+The Polymer HRP textures have additional normal and specular maps whereas that
+information is already "baked" into the Polymost HRP textures (and therefore
+somewhat specific to their occurrence in the original levels).
+
+If you can't run Polymer at all (or have to turn off those features in the
+configuration file) then the normal and specular information is lost and the
+remaining diffuse textures won't look as intended.
+-> You'd be better off using the Polymost HRP.
+
+If Polymer renderer/HRP performance sucks even after tuning the EDuke32
+configuration file, try running the Polymer renderer but use the Polymost HRP.
+This should run faster and reduce loading times and memory usage, too, while
+you might still be able to profit from features like point lights, shadows,
+glowing fire/health atoms and, of course, TROR (True Room Over Room).
+
+Quite some of the newer textures which are not only "polymerized" but remade
+from scratch have brought some change of style to the HRP IMO. If you can't run
+Polymer/Polymer HRP anyway this might be an argument for the Polymost HRP, too.
+
+
+HOW TO USE IT:
+--------------
+Drop the HRP Override Pack into the autoload folder within your EDuke32
+installation folder like the HRP zipfile itself.
+It should be loaded automatically, but note that autoload contents is loaded
+alphabetically, so check the file names if something seems wrong.
+Delete "textures" and "textures.cache" after changes in the autoload folder.
+
+
+IMPORTANT:
+----------
+This override pack is meant for the HRP v5.2 (=r5.2.413)!
+
+
+WHERE TO GET IT:
+----------------
+- You can check the Duke3D mod thread over at the Duke4.net forums:
+  http://forums.duke4.net/index.php?showtopic=3513
+
+
+RELATED LINKS:
+--------------
+- Duke4.net ................................... http://www.duke4.net
+- Duke Nukem 3D High-Resolution Pack .......... http://hrp.duke4.net
+- EDuke32 port (by TerminX) ................... http://eduke32.com
+
+
+CONTACT:
+--------
+  http://forums.duke4.net/user/1299-leod/
+
+
+SPECIAL CREDITS:
+--------
+  Tea Monster - model conversion
+  Roma Loom   - backporting Polymer textures

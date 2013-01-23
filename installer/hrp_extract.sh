@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.5  2012-12-23
+# Duke Nukem 3D High Resolution Pack Extractor  v0.5.1  2013-01-22
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -19,8 +19,8 @@
 DEF_TOP=UNDEFINED
 SET_VERSION=YES            # [YES|NO]
 EXTRACT_COMMENTED_FILES=NO # [YES|NO]
-DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH=polymost # [none|polymost|polymer|mixed]
-ATTRITION_POLYMOST_COMPATIBILTY_APPROACH=polymost # [none|polymost|polymer|mixed]
+DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH=polymost  #[none|polymost|polymer|mixed]
+ATTRITION_POLYMOST_COMPATIBILTY_APPROACH=polymost #[none|polymost|polymer|mixed]
 
 ask()
 {
@@ -82,16 +82,11 @@ copy_set_version()
           >> "${TARGET_FILE}"
       fi
       ;;
-    duke3d_hrp_polymost.def)
-      if [ "${HRPTYPE}" = "polymost_override" ] ; then
-        cat "${VER_FILE}" | sed -r --posix \
-          s/\(Version\ *\)\([0-9\.]*\)\(\ Polymost\)/\\1${VERSION}\ Polymost\ Override/ \
-          >> "${TARGET_FILE}"
-      else
-        cat "${VER_FILE}" | sed -r --posix \
-          s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
-          >> "${TARGET_FILE}"
-      fi
+    duke3d_hrp_polymost.def | \
+    installer/polymost_override/duke3d_hrp_polymost_override.def )
+      cat "${VER_FILE}" | sed -r --posix \
+        s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
+        >> "${TARGET_FILE}"
       ;;
     *)
       echo "###ERROR: copy_set_version() - BAD FILE: ${VER_FILE}"
@@ -113,16 +108,27 @@ copy_known_files()
     cp -pv hrp_readme.txt           "${EXTRACTDIR}"
   fi
 
-  if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] || \
+  if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
      [ "${HRPTYPE}" = "polymer"  ] || [ "${HRPTYPE}" = "full" ] ; then
     cp -pv hrp_art_license.txt      "${EXTRACTDIR}"
   fi
 
-  if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ; then
+  if [ "${HRPTYPE}" = "polymost" ] ; then
     if [ "${SET_VERSION}" = "YES" ] ; then
       copy_set_version duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
     else
       cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
+    fi
+  fi
+
+  if [ "${HRPTYPE}" = "polymost_override" ] ; then
+    if [ "${SET_VERSION}" = "YES" ] ; then
+      copy_set_version \
+        installer/polymost_override/duke3d_hrp_polymost_override.def \
+        "${EXTRACTDIR}/duke3d_hrp.def"
+    else
+      cp -pv installer/polymost_override/duke3d_hrp_polymost_override.def \
+        "${EXTRACTDIR}/duke3d_hrp.def"
     fi
   fi
 
@@ -134,14 +140,23 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "full" ] ; then
     if [ "${SET_VERSION}" = "YES" ] ; then
-      copy_set_version duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp_polymost.def"
+      copy_set_version duke3d_hrp_polymost.def \
+        "${EXTRACTDIR}/duke3d_hrp_polymost.def"
     else
       cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}"
     fi
   fi
 
-  if [ "${HRPTYPE}" = "polymost_override" ] || [ "${HRPTYPE}" = "full" ] ; then
-    cp -pv highres/screen/menu/2492_ver_polymost.png "${EXTRACTDIR}/highres/screen/menu"
+  if [ "${HRPTYPE}" = "full" ] ; then
+    cp -pv highres/screen/menu/2492_ver_polymost.png \
+      "${EXTRACTDIR}/highres/screen/menu"
+  fi
+
+  if [ "${HRPTYPE}" = "polymost_override" ] ; then
+    cp -pv installer/polymost_override/hrp_polymost_override.txt \
+      "${EXTRACTDIR}"
+    cp -pv installer/polymost_override/2492_ver_polymost_override.png \
+      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
   fi
 
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
@@ -291,8 +306,8 @@ create_polymost_mhk()
       fi
     done
   done
-  # Some people prefer unusual setups ...
-  zip -rq9 ${EXTRACTDIR}/polymost_hrp_update_polymer_maphacks.zip *.mhk
+  # Some people prefer unusual setups ... polymost_mhk_patch not applied automatically
+  zip -rq9 ${EXTRACTDIR}/polymost_hrp_polymer_maphacks.zip *.mhk
 } # create_polymost_mhk()
 
 
@@ -529,14 +544,13 @@ delete_empty_folders()
 {
     if [ -d "${EXTRACTDIR}" ] ; then
       rm -rf ${EXTRACTDIR}/.svn
-      rm -rf ${EXTRACTDIR}/installer
       DIRLIST=./EXTRACT_DIRECTORIES.lst
       du "${EXTRACTDIR}" > ${DIRLIST}
       cat ${DIRLIST} | while read DIR ; do
         if [ "0" = "`echo \"${DIR}\" | grep -owE \"0\"`" ] ; then
           EMPTYDIR="`echo \"${DIR}\" | sed -r --posix s/0//`"
           if [ -d ${EMPTYDIR} ] ; then
-            rmdir ${EMPTYDIR}
+            rmdir --parents --ignore-fail-on-non-empty ${EMPTYDIR}
           fi
         fi
       done
