@@ -2147,8 +2147,10 @@ texture 834 {
 }
 
 texture 843 {
-   pal 0 { file "highres/textures/0843.png" }
-   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
+   pal 0 { file "highres/textures/0843_d.png" }
+   normal { file "highres/textures/0843_n.png" parallaxbias 0.03 parallaxscale 0.1 }
+   specular { file "highres/textures/0843_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
 }
 
 texture 850 { pal 0 { file "highres/textures/0850.jpg" } }
