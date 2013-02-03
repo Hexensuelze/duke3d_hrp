@@ -6,11 +6,6 @@ mapinfo {
    //author "GregR"
    mapfile  "1_bitch.map"
    mapmd4   ae655dc0466f4fdf75d2141316005e47 // 1997-05-12
-   mhkfile  "maphacks/usermaps/1_bitch.mhk"
-}
-mapinfo {
-   maptitle "1_bitch"
-   //author "GregR"
    mapfile  "1_bitch_fixed.map"
    mapmd4   f62dd088b3c6e16fb6d12be135d245e6 // 2012-10-15 Map corruption fix by Helixhorned
    mhkfile  "maphacks/usermaps/1_bitch.mhk"
@@ -38,6 +33,7 @@ mapinfo {
    mapfile  "twincreeks.map"
    mapmd4   1ea00e840075cdfde20d7949d0009d42 // 2013-01-27
    mhkfile  "maphacks/usermaps/twincreeks.mhk"
+   //mhkfile  "maphacks/usermaps/twincreeks-notDcHrp1.57.mhk"
 }
 
 mapinfo {
@@ -62,7 +58,7 @@ mapinfo {
    mapfile  "AtomicArena.map"
    //mapmd5   b52213c9f88f780fb0be4d712933fdb3 // 2012-11-24
    mapmd4   eb127a098315fff182fcee8b5429adcf // 2012-11-25
-   mhkfile  "maphacks/usermaps/AtomicArena.mhk"
+   mhkfile  "maphacks/usermaps/AtomicArena-2012-11-25.mhk"
 }
 mapinfo {
    maptitle "Atomic Arena"
@@ -111,6 +107,14 @@ mapinfo {
 }
 
 mapinfo {
+   maptitle "Canyon"
+   //author "Mister Sinister"
+   mapfile  "desert.map"
+   mapmd4   a50c8445caa499e708c4628a55d12e84 // 2010-06-23
+   mhkfile  "maphacks/usermaps/canyon_desert.mhk" // "desert.mhk" already used
+}
+
+mapinfo {
    maptitle "Cherenkov Station"
    //author "Supertanker"
    mapfile  "cherenkov.map"
@@ -154,11 +158,6 @@ mapinfo {
    //author "Robert 'underTaker' Wypiór"
    mapfile  "foreverplus.map"
    mapmd4   fc8f20dc9fb35ecc6b92badbb22950db // 2012-06-11
-   mhkfile  "maphacks/usermaps/foreverplus.mhk"
-}
-mapinfo {
-   maptitle "Day After Forever"
-   //author "Robert 'underTaker' Wypiór"
    mapfile  "foreverplus_fix2.map"
    mapmd4   663b2e89bbd6f898b4930c9dcf29b4c2 // 2012-07-09 - Helixorned's fix
    mhkfile  "maphacks/usermaps/foreverplus.mhk"
@@ -177,12 +176,6 @@ mapinfo {
    //author "?"
    mapfile  "DEVIL'S ROCKS.MAP"
    mapmd4   2ce9da7f3b7350028351c044f30cebcf // 1997-05-12
-   mhkfile  "maphacks/usermaps/DEVIL'S ROCKS.mhk"
-}
-mapinfo {
-   maptitle "Devil's Rocks"
-   //author "?"
-   mapfile  "DEVIL'S ROCKS.MAP"
    mapmd4   aa03b5e2d4ed477d479219329cccb20f // 2012-09-17 - Fix by underTaker
    mhkfile  "maphacks/usermaps/DEVIL'S ROCKS.mhk"
 }
@@ -192,12 +185,6 @@ mapinfo {
    //author "Tamas Kovacs"
    mapfile  "dharga.map"
    mapmd4   d587e6218ef2d592c5c1c9cff0c3ca96 // 1998-01-30 v1.2
-   mhkfile  "maphacks/usermaps/dharga.mhk"
-}
-mapinfo {
-   maptitle "Dharga"
-   //author "Tamas Kovacs"
-   mapfile  "dharga.map"
    mapmd4   acac3856cadf784e76a1fc44a4e56fc6 // 2012-09-17 Map corruption fix by Helixhorned
    mhkfile  "maphacks/usermaps/dharga.mhk"
 }
@@ -222,12 +209,6 @@ mapinfo {
    //author "quakis & Mikko Sandt"
    mapfile  "donedust.map"
    mapmd4   292469152a58ddcee9a33ea05b9e3fe4 // 2011-05-21 16:10
-   mhkfile  "maphacks/usermaps/donedustAttrition.mhk"
-}
-mapinfo {
-   maptitle "Done & Dusted"
-   //author "quakis & Mikko Sandt"
-   mapfile  "donedust.map"
    mapmd4   eae8e5e0b2464b1cf767488187352f42 // 2011-05-21 21:13 - Attrition version
    mhkfile  "maphacks/usermaps/donedustAttrition.mhk"
 }
@@ -237,6 +218,15 @@ mapinfo {
    mapfile  "donedust.map"
    mapmd4   b12b9c2649e499499edc46c9571606aa // 2012-05-20
    mhkfile  "maphacks/usermaps/donedust.mhk"
+}
+
+mapinfo {
+   maptitle "Duke 12:12"
+   //author "ScottL 'Forge'"
+   mapfile  "Duke 12_12.map"
+   mapmd4   f32751f772efb5c9c16af09774773751 // 2011-11-26
+   mapmd4   52f9f10cf9c28ea04b634843baf9460d // 2012-11-16
+   mhkfile  "maphacks/usermaps/Duke 12_12.mhk"
 }
 
 mapinfo {
@@ -276,6 +266,28 @@ mapinfo {
    mapfile  "EXT.map"
    mapmd4   ce409101fafd4f498585fdf04938a340 // 2012-11-01
    //mhkfile  "not applicable"
+}
+
+mapinfo {
+   maptitle "Eye-Witness"
+   //author "Kevin 'Kef_Nukem' Cools & Alejandro Glavic"
+   mapfile  "EWITNESS.MAP"
+   mapmd4   4aa0e655b7dd902fb042013a4ce61149 // 2002-01-25
+   mhkfile  "maphacks/usermaps/EWITNESS.mhk"
+}
+mapinfo {
+   maptitle "Eye-Witness"
+   //author "Kevin 'Kef_Nukem' Cools & Alejandro Glavic"
+   mapfile  "EWITNESS.MAP"
+   mapmd4   6cd8eccd819c843ccc8ab206c0b7df54 // 2002-01-26
+   mhkfile  "maphacks/usermaps/EWITNESS.mhk"
+}
+mapinfo {
+   maptitle "Eye-Witness"
+   //author "Kevin 'Kef_Nukem' Cools & Alejandro Glavic"
+   mapfile  "EWITNESS.MAP"
+   mapmd4   45c47edb22cf901e003dcaf8238ca253 // 2010-02-26 - Attrition version
+   mhkfile  "maphacks/usermaps/EWITNESS.mhk"
 }
 
 mapinfo {
@@ -386,7 +398,7 @@ mapinfo {
 
 mapinfo {
    maptitle "Metropolitan Starlight"
-   //author "Mike Norvak & Michael 'Micky C' Crisp & Paul 'High Treason' Monteray & Mister Sinister & Maarten van Oostrum & Merlijn van Oostrum & Captain Awesome & Forge & quakis & William Gee"
+   //author "Mike Norvak & Michael 'Micky C' Crisp & Paul 'High Treason' Monteray & Mister Sinister & Maarten van Oostrum & Merlijn van Oostrum & Captain Awesome & ScottL 'Forge' & quakis & William Gee"
    mapfile  "CBP8.map"
    mapmd4   e7df16c5d27533207fcafc953ba9a42b // 2012-07-27
    mhkfile  "maphacks/usermaps/CBP8.mhk"
@@ -591,11 +603,6 @@ mapinfo {
    //author "Lars Stian Martinsen(aka LSM)"
    mapfile  "TOXICWST.MAP"
    mapmd4   112f5777140c7a17a45e1d9d0639ff21 // 1997-06-12
-   mhkfile  "maphacks/usermaps/TOXICWST.mhk"
-}
-mapinfo {
-   maptitle "Toxic Waste"
-   //author "Lars Stian Martinsen(aka LSM)"
    mapfile  "TOXICWST_fixed.map"
    mapmd4   0d042d5457c89ee5b3b912b61f8a3517 // 2012-10-15 Map corruption fix by Helixhorned
    mhkfile  "maphacks/usermaps/TOXICWST.mhk"
