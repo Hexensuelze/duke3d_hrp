@@ -2707,8 +2707,11 @@ texture 1175 {
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 1178 {
-   pal 0 { file "highres/textures/1178.png" }
-   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
+   pal 0 { file "highres/textures/1178_d.png" }
+   normal { file "highres/textures/1178_n.png" parallaxbias 0.05 parallaxscale 0.1 }
+   specular { file "highres/textures/1178_s.png" }
+   glow { file "highres/textures/1178_g.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.3 }
 }
 texture 1179 {
    pal 0 { file "highres/textures/1179.png" }
