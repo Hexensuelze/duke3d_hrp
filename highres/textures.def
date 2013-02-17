@@ -2414,8 +2414,10 @@ texture 1020 { pal 0 { file "highres/textures/1020.png" } }
 // Tiles004
 
 texture 1024 {
-   pal 0 { file "highres/textures/1024.png" }
-   detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
+   pal 0 { file "highres/textures/1024_d.png" }
+   normal { file "highres/textures/1024_n.png" }
+   specular { file "highres/textures/1024_s.png" }
+//   detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
 }
 
 texture 1059 { pal 0 { file "highres/textures/1059.png" } }
