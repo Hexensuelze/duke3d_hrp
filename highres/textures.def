@@ -689,7 +689,9 @@ texture 312 {
    detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
 }
 texture 313 {
-   pal 0 { file "highres/textures/0313.png" }
+   pal 0 { file "highres/textures/0313_d.png" specfactor 0.8 specpower 10 }
+   normal { file "highres/textures/0313_n.png" }
+   specular { file "highres/textures/0313_s.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.1 yscale 0.1 }
 }
 texture 314 {
