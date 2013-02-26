@@ -189,9 +189,10 @@ model "highres/sprites/pickups/0051_healthbox.md3" {
 // Health Bottle (52)
 model "highres/sprites/pickups/0052_healthbottle.md3" {
    scale 1 shade 0
-   skin { pal 0 file "highres/sprites/pickups/0052_healthbottle.png" }
-   detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "FRAME1" tile 52 }
+   skin { pal 0 file "highres/sprites/pickups/0052_healthbottle_d.png" specpower 1 specfactor 1.5 }
+   normal { file "highres/sprites/pickups/0052_healthbottle_n.png" }
+   specular { file "highres/sprites/pickups/0052_healthbottle_s.png" }
+   frame { name "Frame 0" tile 52 }
 }
 
 // First Aid Kit (53)
