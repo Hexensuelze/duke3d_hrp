@@ -6,12 +6,12 @@
 // BABES
 
    // Hanging Babe/NAKED1 (603)
-   model "highres/sprites/characters/0603_hangbabe.md3" {
+   model "highres/sprites/characters_polymost/0603_hangbabe.md3" {
       scale 9.3 shade 2 zadd -14
-      skin { pal 0 surface 0 file "highres/sprites/characters/0603_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      skin { pal 0 surface 0 file "highres/sprites/characters_polymost/0603_skin.png" }
+      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
-      skin { pal 0 surface 2 file "highres/sprites/characters/0603_hair.png" }
+      skin { pal 0 surface 2 file "highres/sprites/characters_polymost/0603_hair.png" }
       anim { frame0 "FRAME1" frame1 "FRAME7" fps 2 flags 0 }
       frame { name "FRAME1" tile 603 }
    }
@@ -41,7 +41,7 @@
    model "highres/sprites/characters/1294_podbabe.md3" {
       scale 9.3 shade 2
       skin { pal 0 surface 0 file "highres/sprites/characters/1294_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
       skin { pal 0 surface 2 file "highres/sprites/characters/1294_hair.png" }
       anim { frame0 "FRAME1" frame1 "FRAME31" fps 4 flags 0 }
@@ -110,7 +110,7 @@
    model "highres/sprites/characters/1323_paledbabe.md3" {
       scale 9.3 shade 2
       skin { pal 0 surface 0 file "highres/sprites/characters/1323_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/1323_hair.png" }
       skin { pal 0 surface 2 file "highres/sprites/characters/1323_slime.png" }
       anim { frame0 "FRAME1" frame1 "FRAME15" fps 2 flags 0 }
@@ -121,7 +121,7 @@
    model "highres/sprites/characters/1324_pale.md3" {
       scale 9.3 shade 2
       skin { pal 0 file "highres/sprites/characters/slime_blood.png" }
-      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
       frame { name "FRAME1" tile 1324 }
    }
 
@@ -137,7 +137,7 @@
    model "highres/sprites/characters/1334_crouchbabe.md3" {
       scale 10.8 shade 2 zadd 5
       skin { pal 0 surface 0 file "highres/sprites/characters/1334_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
       skin { pal 0 surface 2 file "highres/sprites/characters/1334_hair.png" }
       anim { frame0 "FRAME1" frame1 "FRAME25" fps 4 flags 0 }
@@ -148,7 +148,7 @@
    model "highres/sprites/characters/1335_podest.md3" {
       scale 9.3 shade 2 zadd -2
       skin { pal 0 file "highres/sprites/characters/slime_blood.png" }
-      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
       frame { name "FRAME1" tile 1335 }
    }
 
@@ -301,19 +301,19 @@
    texture 1403 { pal 0 { file "highres/sprites/characters/1403_mapduke.png" } }
 
    // Duke standing/moving (1405/1420/1425/1445/1455)
-   model "highres/sprites/characters/1405_duke.md3" {
+   model "highres/sprites/characters_polymost/1405_duke.md3" {
       scale 1.45 shade 0 zadd 3
       skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
-      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
-      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
-      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
-      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
-      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
-      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
-      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
-      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
-      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
-      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters_polymost/1405_duke.png" }
+      skin { pal 10 surface 1 file "highres/sprites/characters_polymost/1405_duke_10.png" }
+      skin { pal 11 surface 1 file "highres/sprites/characters_polymost/1405_duke_11.png" }
+      skin { pal 12 surface 1 file "highres/sprites/characters_polymost/1405_duke_12.png" }
+      skin { pal 13 surface 1 file "highres/sprites/characters_polymost/1405_duke_13.png" }
+      skin { pal 14 surface 1 file "highres/sprites/characters_polymost/1405_duke_14.png" }
+      skin { pal 15 surface 1 file "highres/sprites/characters_polymost/1405_duke_15.png" }
+      skin { pal 16 surface 1 file "highres/sprites/characters_polymost/1405_duke_16.png" }
+      skin { pal 21 surface 1 file "highres/sprites/characters_polymost/1405_duke_21.png" }
+      skin { pal 23 surface 1 file "highres/sprites/characters_polymost/1405_duke_23.png" }
       skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
 
       // Idle (1405-1409)
@@ -337,38 +337,38 @@
    }
 
    // Duke swimming (1780)
-   model "highres/sprites/characters/1405_duke.md3" {
+   model "highres/sprites/characters_polymost/1405_duke.md3" {
       scale 1.45 shade 0 zadd 50
       skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
-      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
-      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
-      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
-      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
-      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
-      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
-      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
-      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
-      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
-      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters_polymost/1405_duke.png" }
+      skin { pal 10 surface 1 file "highres/sprites/characters_polymost/1405_duke_10.png" }
+      skin { pal 11 surface 1 file "highres/sprites/characters_polymost/1405_duke_11.png" }
+      skin { pal 12 surface 1 file "highres/sprites/characters_polymost/1405_duke_12.png" }
+      skin { pal 13 surface 1 file "highres/sprites/characters_polymost/1405_duke_13.png" }
+      skin { pal 14 surface 1 file "highres/sprites/characters_polymost/1405_duke_14.png" }
+      skin { pal 15 surface 1 file "highres/sprites/characters_polymost/1405_duke_15.png" }
+      skin { pal 16 surface 1 file "highres/sprites/characters_polymost/1405_duke_16.png" }
+      skin { pal 21 surface 1 file "highres/sprites/characters_polymost/1405_duke_21.png" }
+      skin { pal 23 surface 1 file "highres/sprites/characters_polymost/1405_duke_23.png" }
       skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
       anim { frame0 "swim0" frame1 "swim1" fps 20 flags 0 }
       frame { name "swim0" tile0 1780 tile1 1799 smoothduration 0.3 }
    }
 
    // Duke crouching/dying (1491/1511)
-   model "highres/sprites/characters/1405_duke.md3" {
+   model "highres/sprites/characters_polymost/1405_duke.md3" {
       scale 1.45 shade 0 zadd 41
       skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
-      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
-      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
-      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
-      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
-      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
-      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
-      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
-      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
-      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
-      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
+      skin { pal 0 surface 1 file "highres/sprites/characters_polymost/1405_duke.png" }
+      skin { pal 10 surface 1 file "highres/sprites/characters_polymost/1405_duke_10.png" }
+      skin { pal 11 surface 1 file "highres/sprites/characters_polymost/1405_duke_11.png" }
+      skin { pal 12 surface 1 file "highres/sprites/characters_polymost/1405_duke_12.png" }
+      skin { pal 13 surface 1 file "highres/sprites/characters_polymost/1405_duke_13.png" }
+      skin { pal 14 surface 1 file "highres/sprites/characters_polymost/1405_duke_14.png" }
+      skin { pal 15 surface 1 file "highres/sprites/characters_polymost/1405_duke_15.png" }
+      skin { pal 16 surface 1 file "highres/sprites/characters_polymost/1405_duke_16.png" }
+      skin { pal 21 surface 1 file "highres/sprites/characters_polymost/1405_duke_21.png" }
+      skin { pal 23 surface 1 file "highres/sprites/characters_polymost/1405_duke_23.png" }
       skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
 
       // Crouch (1491-1505)
