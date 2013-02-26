@@ -315,28 +315,42 @@ model "highres/sprites/monsters/2630_battlelord.md3" {
 
 
 // Cycloid Emperor (2710)
-model "highres/sprites/monsters/2710_cycloid.md3" {
-   scale 1.03 shade 3
-   skin { pal 0 file "highres/sprites/monsters/2710_cycloid.png" }
-   glow { file "highres/sprites/monsters/2710_cycloid_g.png" }
-   // ABOSS2WALK
-   anim { frame0 "FRAME2" frame1 "FRAME30" fps 25 flags 0 }
-   frame { name "FRAME2" tile0 2710 tile1 2729 smoothduration 0.2 }
-   // ABOSS2SHOOTYRASS
-   anim { frame0 "FRAME35" frame1 "FRAME45" fps 15 flags 0 }
-   frame { name "FRAME35" tile0 2730 tile1 2739 smoothduration 0.2 }
-   // ABOSS2PSYCHBLAST
-   skin { pal 0 file "highres/sprites/monsters/2710_cycloidlight.png" }   
-   anim { frame0 "FRAME50" frame1 "FRAME65" fps 5 flags 0 }
-   frame { name "FRAME50" tile0 2740 tile1 2749 smoothduration 0.2 }
-   // ABOSS2DONTHURTME
-   skin { pal 0 file "highres/sprites/monsters/2710_cycloidpain.png" }
-   anim { frame0 "FRAME70" frame1 "FRAME80" fps 5 flags 0 }
-   frame { name "FRAME70" tile0 2750 tile1 2750 smoothduration 0.2 }
-   // ABOSS2SNUFF
-   anim { frame0 "FRAME80" frame1 "FRAME130" fps 15 flags 1 }
-   frame { name "FRAME80" tile0 2750 tile1 2758 smoothduration 0.3 }
+model "highres/sprites/monsters/2710_cycloid2013.md3" {
+   scale 6 shade 3
+
+  glow { surface 0 file "highres/sprites/monsters/2710_body_g.png" }
+
+  skin { pal 0 surface 0 file "highres/sprites/monsters/2710_body_d.png" specpower 1 specfactor 1 } 
+  specular { surface 0 file "highres/sprites/monsters/2710_body_s.png" }
+  normal { surface 0 file "highres/sprites/monsters/2710_body_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
+  skin { pal 0 surface 1 file "highres/sprites/monsters/2710_armour_d.png" specpower 1 specfactor 1 } 
+  specular { surface 1 file "highres/sprites/monsters/2710_armour_s.png" }
+  normal { surface 1 file "highres/sprites/monsters/2710_armour_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
+  skin { pal 0 surface 2 file "highres/sprites/monsters/2710_limbs_d.png" specpower 1 specfactor 1 } 
+  specular { surface 2 file "highres/sprites/monsters/2710_limbs_s.png" }
+  normal { surface 2 file "highres/sprites/monsters/2710_limbs_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
+   // CYCLOID STRUT
+   anim { frame0 "frame1" frame1 "frame25" fps 15 flags 0 }
+   frame { name "frame1" tile0 2710 tile1 2729 smoothduration 0.2 }
+   // CYCLOID MISSLE RANGE
+   anim { frame0 "frame26" frame1 "frame30" fps 8 flags 0 }
+   frame { name "frame26" tile0 2730 tile1 2739 smoothduration 0.2 }
+   // CYCLOID PSYCH BLAST
+   anim { frame0 "frame35" frame1 "frame48" fps 8 flags 0 }
+   frame { name "frame35" tile0 2740 tile1 2749 smoothduration 0.2 }
+   // CYCLOID OW THAT HURTS
+   anim { frame0 "frame50" frame1 "frame58" fps 8 flags 0 }
+   frame { name "frame50" tile0 2750 tile1 2750 smoothduration 0.2 }
+   // CYCLOID BROWN BREAD
+   anim { frame0 "frame64" frame1 "frame101" fps 20 flags 1 }
+   frame { name "frame64" tile0 2750 tile1 2758 smoothduration 0.3 }
 }
+
+
+
 
 
 // Lunar Overlord (2760)

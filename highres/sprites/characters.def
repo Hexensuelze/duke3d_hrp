@@ -307,6 +307,8 @@
 
 
 
+// Duke3D HRP Characters Definitions
+
 // DUKE
 
    // Automap Duke (1400)
@@ -315,86 +317,102 @@
    texture 1402 { pal 0 { file "highres/sprites/characters/1402_mapduke.png" } }
    texture 1403 { pal 0 { file "highres/sprites/characters/1403_mapduke.png" } }
 
-   // Duke standing/moving (1405/1420/1425/1445/1455)
-   model "highres/sprites/characters/1405_duke.md3" {
-      scale 1.45 shade 0 zadd 3
-      skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
-      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
-      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
-      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
-      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
-      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
-      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
-      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
-      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
-      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
-      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
-      skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
+   // Duke moving (1405/1445/1455)
+   model "highres/sprites/characters/1405_duke2013.md3" {
+      scale 1.3 shade 0
+  //Shotgun skin
+  skin { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 1 specfactor 1 } 
+  specular { surface 0 file "highres/sprites/pickups/0028_shotgun_s.png" }
+  normal { surface 0 file "highres/sprites/pickups/0028_shotgun_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Duke skin
+  skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke2013_d.png" specpower 1 specfactor 1 } 
+  specular { surface 1 file "highres/sprites/characters/1405_duke2013_s.png" }
+  normal { surface 1 file "highres/sprites/characters/1405_duke2013_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Bandolier
+  skin { pal 0 surface 2 file "highres/sprites/characters/1405_bandolier_d.png" specpower 1 specfactor 1 } 
+  specular { surface 2 file "highres/sprites/characters/1405_bandolier_s.png" }
+  normal { surface 2 file "highres/sprites/characters/1405_bandolier_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Jetpack
+  skin { pal 0 surface 3 file "highres/sprites/characters/1405_jetpack_d.png" specpower 1 specfactor 1 } 
+  specular { surface 3 file "highres/sprites/characters/1405_jetpack_s.png" }
+  normal { surface 3 file "highres/sprites/characters/1405_jetpack_n.png" parallaxbias 0.0 parallaxscale 0.0  }
 
       // Idle (1405-1409)
-         anim { frame0 "idle0" frame1 "idle1" fps 6 flags 0 }
-         frame { name "idle0" tile0 1405 tile1 1409 smoothduration 0.4 }
+      anim { frame0 "frame1" frame1 "frame10" fps 5 flags 0 }
+      frame { name "frame1" tile0 1405 tile1 1409 smoothduration 0.3 }
       // Jetpack (1420-1424)
-         anim { frame0 "jetpack0" frame1 "jetpack1" fps 8 flags 0 }
-         frame { name "jetpack0" tile0 1420 tile1 1424 smoothduration 0.5 }
+      anim { frame0 "frame15" frame1 "frame25" fps 5 flags 0 }
+      frame { name "frame15" tile0 1420 tile1 1424 smoothduration 0.3 }
       // Run (1425-1444)
-         anim { frame0 "run0" frame1 "run1" fps 36 flags 0 }
-         frame { name "run0" tile0 1425 tile1 1444 smoothduration 0.2 }
+      anim { frame0 "frame30" frame1 "frame49" fps 30 flags 0 }
+      frame { name "frame30" tile0 1425 tile1 1454 smoothduration 0.3 }
       // Kick (1445-1454)
-         anim { frame0 "kick0" frame1 "kick1" fps 8 flags 1 }
-         frame { name "kick0" tile0 1445 tile1 1454 smoothduration 0.1 }
+      anim { frame0 "frame55" frame1 "frame69" fps 40 flags 0  ` }
+      frame { name "frame55" tile0 1445 tile1 1454 smoothduration 0.1 }
       // Jump (1455-1469)
-         anim { frame0 "jump0" frame1 "land" fps 7 flags 1 }
-         frame { name "jump0" tile0 1455 tile1 1464 smoothduration 0.2 }
-         frame { name "land" tile0 1465 tile1 1469 smoothduration 0.2 }
-
-      hud { tile0 1425 tile1 1444 xadd 0.2 yadd 0.4 zadd 1 angadd -640 }
+      anim { frame0 "frame70" frame1 "frame89" fps 20 flags 0 }
+      frame { name "frame70" tile0 1455 tile1 1464 smoothduration 0.3 }
+      frame { name "frame90" tile0 1465 tile1 1469 smoothduration 0.3 }      
    }
 
    // Duke swimming (1780)
-   model "highres/sprites/characters/1405_duke.md3" {
-      scale 1.45 shade 0 zadd 50
-      skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
-      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
-      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
-      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
-      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
-      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
-      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
-      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
-      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
-      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
-      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
-      skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
-      anim { frame0 "swim0" frame1 "swim1" fps 20 flags 0 }
-      frame { name "swim0" tile0 1780 tile1 1799 smoothduration 0.3 }
+   model "highres/sprites/characters/1405_duke2013.md3" {
+      scale 1.3 shade 0 zadd 55
+  //Shotgun skin
+  skin { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 0 file "highres/sprites/pickups/0028_shotgun_s.png" }
+  normal { surface 0 file "highres/sprites/pickups/0028_shotgun_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Duke skin
+  skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke2013_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 1 file "highres/sprites/characters/1405_duke2013_s.png" }
+  normal { surface 1 file "highres/sprites/characters/1405_duke2013_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Bandolier
+  skin { pal 0 surface 2 file "highres/sprites/characters/1405_bandolier_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 2 file "highres/sprites/characters/1405_bandolier_s.png" }
+  normal { surface 2 file "highres/sprites/characters/1405_bandolier_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Jetpack
+  skin { pal 0 surface 3 file "highres/sprites/characters/1405_jetpack_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 3 file "highres/sprites/characters/1405_jetpack_s.png" }
+  normal { surface 3 file "highres/sprites/characters/1405_jetpack_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+       anim { frame0 "frame140" frame1 "frame154" fps 20 flags 0 }
+      frame { name "frame140" tile0 1780 tile1 1799 smoothduration 0.3 }
    }
 
    // Duke crouching/dying (1491/1511)
-   model "highres/sprites/characters/1405_duke.md3" {
-      scale 1.45 shade 0 zadd 41
-      skin { pal 0 surface 0 file "highres/sprites/pickups/0057_jetpack.png" }
-      skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke.png" }
-      skin { pal 10 surface 1 file "highres/sprites/characters/1405_duke_10.png" }
-      skin { pal 11 surface 1 file "highres/sprites/characters/1405_duke_11.png" }
-      skin { pal 12 surface 1 file "highres/sprites/characters/1405_duke_12.png" }
-      skin { pal 13 surface 1 file "highres/sprites/characters/1405_duke_13.png" }
-      skin { pal 14 surface 1 file "highres/sprites/characters/1405_duke_14.png" }
-      skin { pal 15 surface 1 file "highres/sprites/characters/1405_duke_15.png" }
-      skin { pal 16 surface 1 file "highres/sprites/characters/1405_duke_16.png" }
-      skin { pal 21 surface 1 file "highres/sprites/characters/1405_duke_21.png" }
-      skin { pal 23 surface 1 file "highres/sprites/characters/1405_duke_23.png" }
-      skin { pal 0 surface 2 file "highres/sprites/pickups/0023_rpg.png" }
+   model "highres/sprites/characters/1405_duke2013.md3" {
+      scale 1.2 shade 0 zadd 50
+
+  //Shotgun skin
+  skin { pal 0 surface 0 file "highres/sprites/pickups/0028_shotgun_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 0 file "highres/sprites/pickups/0028_shotgun_s.png" }
+  normal { surface 0 file "highres/sprites/pickups/0028_shotgun_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
+  //Duke skin
+  skin { pal 0 surface 1 file "highres/sprites/characters/1405_duke2013_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 1 file "highres/sprites/characters/1405_duke2013_s.png" }
+  normal { surface 1 file "highres/sprites/characters/1405_duke2013_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
+  //Bandolier
+  skin { pal 0 surface 2 file "highres/sprites/characters/1405_bandolier_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 2 file "highres/sprites/characters/1405_bandolier_s.png" }
+  normal { surface 2 file "highres/sprites/characters/1405_bandolier_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
+  //Jetpack
+  skin { pal 0 surface 3 file "highres/sprites/characters/1405_jetpack_d.png" specpower 1 specfactor 1 } 
+  //specular { surface 3 file "highres/sprites/characters/1405_jetpack_s.png" }
+  normal { surface 3 file "highres/sprites/characters/1405_jetpack_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
 
       // Crouch (1491-1505)
-         frame { name "crouch1" tile0 1491 tile1 1495 smoothduration 0.2 }
-         frame { name "crouch2" tile0 1496 tile1 1500 smoothduration 0.2 }
-         frame { name "crouch3" tile0 1501 tile1 1505 smoothduration 0.2 }
+         frame { name "frame95" tile0 1491 tile1 1495 smoothduration 0.2 }
+         frame { name "frame100" tile0 1496 tile1 1500 smoothduration 0.2 }
+         frame { name "frame105" tile0 1501 tile1 1505 smoothduration 0.2 }
       // Death (1511-1518)
-         anim { frame0 "die0" frame1 "die1" fps 25 flags 1 }
-         frame { name "die0" tile0 1511 tile1 1515 smoothduration 0.2 }
-         frame { name "dead" tile 1518 smoothduration 0.3 }
+         anim { frame0 "frame115" frame1 "frame134" fps 25 flags 1 }
+         frame { name "frame115" tile0 1511 tile1 1515 smoothduration 0.2 }
+         frame { name "frame135" tile 1518 smoothduration 0.3 }
    }
+
 
 
 
