@@ -319,10 +319,10 @@ model "highres/sprites/monsters/2630_battlelord.md3" {
 
 
 // Cycloid Emperor (2710)
-model "highres/sprites/monsters/2710_cycloid.md3" {
+model "highres/sprites/monsters_polymost/2710_cycloid.md3" {
    scale 1.03 shade 3
-   skin { pal 0 file "highres/sprites/monsters/2710_cycloid.png" }
-   glow { file "highres/sprites/monsters/2710_cycloid_g.png" }
+   skin { pal 0 file "highres/sprites/monsters_polymost/2710_cycloid.png" }
+   glow { file "highres/sprites/monsters_polymost/2710_cycloid_g.png" }
    // ABOSS2WALK
    anim { frame0 "FRAME2" frame1 "FRAME30" fps 25 flags 0 }
    frame { name "FRAME2" tile0 2710 tile1 2729 smoothduration 0.2 }
@@ -330,11 +330,11 @@ model "highres/sprites/monsters/2710_cycloid.md3" {
    anim { frame0 "FRAME35" frame1 "FRAME45" fps 15 flags 0 }
    frame { name "FRAME35" tile0 2730 tile1 2739 smoothduration 0.2 }
    // ABOSS2PSYCHBLAST
-   skin { pal 0 file "highres/sprites/monsters/2710_cycloidlight.png" }   
+   skin { pal 0 file "highres/sprites/monsters_polymost/2710_cycloidlight.png" }   
    anim { frame0 "FRAME50" frame1 "FRAME65" fps 5 flags 0 }
    frame { name "FRAME50" tile0 2740 tile1 2749 smoothduration 0.2 }
    // ABOSS2DONTHURTME
-   skin { pal 0 file "highres/sprites/monsters/2710_cycloidpain.png" }
+   skin { pal 0 file "highres/sprites/monsters_polymost/2710_cycloidpain.png" }
    anim { frame0 "FRAME70" frame1 "FRAME80" fps 5 flags 0 }
    frame { name "FRAME70" tile0 2750 tile1 2750 smoothduration 0.2 }
    // ABOSS2SNUFF

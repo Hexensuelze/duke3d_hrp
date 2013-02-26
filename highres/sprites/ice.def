@@ -85,10 +85,12 @@ model "highres/sprites/monsters/2630_battlelord.md3" {
 }
 
 // Frozen Cycloid Emperor (2710)
-model "highres/sprites/monsters/2710_cycloid.md3" {
-  scale 1.03 shade 3
-  skin { file "highres/sprites/monsters/2710_cycloid.png" }
-  frame { pal 1 name "FRAME2" tile 2710 }
+model "highres/sprites/monsters/2710_cycloid2013.md3" {
+  scale 6 shade 3
+  skin { surface 0 file "highres/sprites/monsters/2710_body_ice.png" } 
+  skin { surface 1 file "highres/sprites/monsters/2710_armour_ice.png" } 
+  skin { surface 2 file "highres/sprites/monsters/2710_limbs_ice.png" } 
+  frame { pal 1 name "frame1" tile 2710 }
 }
 
 // Frozen Lunar Overlord (2760)
@@ -196,7 +198,7 @@ model "highres/sprites/ice/1396_fem7_ice.md3" {
 
 // Frozen Duke (1405)
 model "highres/sprites/characters/1405_duke2013.md3" {
-  scale 1.45 shade 0 zadd 3 flags 1
+  scale 1.3 shade 0
   skin { surface 0 file "highres/sprites/ice/ice.png" }
   skin { surface 1 file "highres/sprites/ice/1405_duke2013_ice.png" }
   skin { surface 2 file "highres/sprites/ice/ice.png" }
