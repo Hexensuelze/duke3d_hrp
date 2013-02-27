@@ -1,0 +1,162 @@
+// Maphacks for Duke3D HRP
+// Level:  E3L1.MAP - "Raw Meat" (Original Atomic Edition version)
+// Author: Richard Bailey Gray (The Levelord)
+// mapmd4: bf886fce1a2aa54ae2bcac5e9cdd727b
+// Reviewed by NightFright (February 2012)
+
+
+
+// CHARACTERS
+
+// Geisha statues
+sprite   119 angoff    -512        // tile0753 statue (geisha)
+sprite   482 angoff    -196        // tile0753 statue (geisha)
+
+// Jibs5
+sprite   619 angoff     256
+
+// Slime babes
+sprite    87 angoff     768
+sprite   104 angoff     512
+sprite   429 angoff     256
+sprite   591 angoff     768
+sprite   592 angoff     256
+sprite   593 angoff    -384
+
+
+
+// PROPS
+
+// Bottles
+sprite   284 angoff    -256
+
+// "Please Wait To Be Seated" Sign
+sprite   468 angoff     384
+
+
+
+// ITEMS/POWERUPS
+
+// Armor
+sprite   564 angoff     1024
+
+// Health +10
+sprite   578 angoff     256
+sprite   658 angoff     512
+sprite   659 angoff     512
+sprite   664 angoff     512
+
+// Health +30
+sprite    24 angoff     256
+sprite    30 angoff    -256
+sprite    31 angoff    -256
+sprite   109 angoff    -256
+sprite   267 angoff     512
+sprite   545 angoff     384
+sprite   546 angoff     384
+sprite   622 angoff     1024
+
+// HoloDuke
+sprite   609 angoff    -512
+
+// Jetpack
+sprite    78 angoff     1024
+
+// Keycards (B/R)
+sprite   452 angoff     512
+sprite   457 angoff     1024
+
+// Medkit
+sprite   500 angoff    -512
+
+// Nightvision
+sprite   656 angoff    -512
+
+// Scuba gear
+sprite   632 angoff     256
+
+// Steroids
+sprite   499 angoff    -512
+
+
+
+// WEAPONS/AMMO
+
+// Pistol & ammo
+sprite   552 angoff    -512
+
+// Shotgun & ammo
+sprite    89 angoff    -512
+sprite   260 angoff    -512 // Dukematch only
+sprite   492 angoff     512
+sprite   553 angoff    -512
+sprite   554 angoff     1024
+sprite   574 angoff    -512 // Dukematch only
+sprite   611 angoff     1024
+sprite   621 angoff     1024
+sprite   679 angoff    -512
+sprite   680 angoff    -512
+
+// Chaingun & ammo
+sprite    32 angoff    -256
+sprite   115 angoff     512
+sprite   575 angoff    -512 // Dukematch only
+sprite   623 angoff     512
+sprite   625 angoff     512
+sprite   657 angoff     512
+
+// RPG & ammo
+sprite   261 angoff    -512 // Dukematch only
+sprite   562 angoff    -512
+sprite   563 angoff     512
+
+// Pipebombs
+sprite   309 angoff    -512
+sprite   543 angoff     512
+sprite   624 angoff     1024
+
+// Shrinker & ammo
+sprite   497 angoff     512
+sprite   640 angoff    -256
+
+// Devastator & ammo
+sprite    91 angoff     1024 // Dukematch only
+sprite   608 angoff     512
+sprite   677 angoff     768
+
+// Laser Tripbomb
+sprite   569 angoff     512
+
+// Freezethrower & ammo
+sprite   620 angoff     1024
+
+
+
+// OVERRIDE
+
+// Fixes for badly aligned sprites
+sprite   104 mdxoff    -13000 // crouching slimebabe
+sprite   104 pitch      1
+sprite   575 mdzoff    -660000 // chaingun (Dukematch only)
+sprite   575 pitch      1
+sprite   591 mdxoff     425000 // underwater slimebabe (Polymost HRP)
+sprite   591 pitch      1      // underwater slimebabe (Polymost HRP)
+sprite   592 mdxoff     425000 // underwater slimebabe (Polymost HRP)
+sprite   592 pitch      1      // underwater slimebabe (Polymost HRP)
+sprite   593 mdxoff     425000 // underwater slimebabe (Polymost HRP)
+sprite   593 pitch      1      // underwater slimebabe (Polymost HRP)
+
+// Forcing any floor aligned model to be rendered as sprite
+sprite   147 notmd
+
+// Switches to be hidden
+sprite    40 notmd // Push Me
+sprite   146 notmd // Bloody hand print
+sprite   236 notmd // Cash register
+sprite   642 notmd // "Exotica" poster
+
+// Use texture version of fansprite to hide a "secret" path
+//sprite   157 notmd                 // tile0407 fansprite  // Polymer HRP only
+
+
+// LIGHTS 
