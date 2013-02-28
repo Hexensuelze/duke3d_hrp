@@ -56,7 +56,7 @@
    model "highres/sprites/characters/1294_podbabe.md3" {
       scale 9.3 shade 2
       skin { pal 0 surface 0 file "highres/sprites/characters/1294_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
       skin { pal 0 surface 2 file "highres/sprites/characters/1294_hair.png" }
       anim { frame0 "FRAME1" frame1 "FRAME31" fps 4 flags 0 }
@@ -125,7 +125,7 @@
    model "highres/sprites/characters/1323_paledbabe.md3" {
       scale 9.3 shade 2
       skin { pal 0 surface 0 file "highres/sprites/characters/1323_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/1323_hair.png" }
       skin { pal 0 surface 2 file "highres/sprites/characters/1323_slime.png" }
       anim { frame0 "FRAME1" frame1 "FRAME15" fps 2 flags 0 }
@@ -136,7 +136,7 @@
    model "highres/sprites/characters/1324_pale.md3" {
       scale 9.3 shade 2
       skin { pal 0 file "highres/sprites/characters/slime_blood.png" }
-      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
       frame { name "FRAME1" tile 1324 }
    }
 
@@ -152,7 +152,7 @@
    model "highres/sprites/characters/1334_crouchbabe.md3" {
       scale 10.8 shade 2 zadd 5
       skin { pal 0 surface 0 file "highres/sprites/characters/1334_skin.png" }
-      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/slime.png" }
       skin { pal 0 surface 2 file "highres/sprites/characters/1334_hair.png" }
       anim { frame0 "FRAME1" frame1 "FRAME25" fps 4 flags 0 }
@@ -163,7 +163,7 @@
    model "highres/sprites/characters/1335_podest.md3" {
       scale 9.3 shade 2 zadd -2
       skin { pal 0 file "highres/sprites/characters/slime_blood.png" }
-      glow { surface 0 file "highres/sprites/characters/babe_skin_g.png" }
+      glow { surface 0 file "highres/sprites/characters/0603_skin_g.png" }
       frame { name "FRAME1" tile 1335 }
    }
 
@@ -307,6 +307,8 @@
 
 
 
+// Duke3D HRP Characters Definitions
+
 // DUKE
 
    // Automap Duke (1400)
@@ -336,8 +338,9 @@
   normal { surface 3 file "highres/sprites/characters/1405_jetpack_n.png" parallaxbias 0.0 parallaxscale 0.0  }
 
       // Idle (1405-1409)
-      anim { frame0 "frame1" frame1 "frame10" fps 5 flags 0 }
-      frame { name "frame1" tile0 1405 tile1 1409 smoothduration 0.3 }
+      anim { frame0 "frame5" frame1 "frame10" fps 3
+ flags 0 }
+      frame { name "frame5" tile0 1405 tile1 1409 smoothduration 0.3 }
       // Jetpack (1420-1424)
       anim { frame0 "frame15" frame1 "frame25" fps 5 flags 0 }
       frame { name "frame15" tile0 1420 tile1 1424 smoothduration 0.3 }
@@ -353,7 +356,7 @@
       frame { name "frame90" tile0 1465 tile1 1469 smoothduration 0.3 }      
    }
 
-   // Duke swimming (1780)
+   // Duke swimming (1780)  
    model "highres/sprites/characters/1405_duke2013.md3" {
       scale 1.3 shade 0 zadd 55
   //Shotgun skin
@@ -410,6 +413,7 @@
          frame { name "frame115" tile0 1511 tile1 1515 smoothduration 0.2 }
          frame { name "frame135" tile 1518 smoothduration 0.3 }
    }
+
 
 
 
