@@ -9,114 +9,108 @@
 // PROPS
 
 // Barrels
-sprite 134 angoff 768
+sprite   134 angoff     768        // tile????
 
 // Toilet
-sprite 89 angoff 512
+sprite    89 angoff     512        // tile0569 toilet
 
 // Trashcan
-sprite 210 angoff -256
-sprite 304 angoff 640
-sprite 305 angoff 512
-sprite 306 angoff 1024
+sprite   210 angoff    -256        // tile????
+sprite   304 angoff     640        // tile????
+sprite   305 angoff     512        // tile????
+sprite   306 angoff     1024       // tile????
 
 
 
 // ITEMS/POWERUPS
 
 // Armor
-sprite 364 angoff 384
-sprite 379 angoff 256
+sprite   364 angoff     384        // tile0054 shield
+sprite   379 angoff     256        // tile0054 shield
 
 // Health +10
-sprite 370 angoff 512
-sprite 371 angoff 512
-sprite 385 angoff 512
-sprite 396 angoff -768
-sprite 397 angoff -512
+sprite   370 angoff     512        // tile0051 cola
+sprite   371 angoff     512        // tile0051 cola
+sprite   385 angoff     512        // tile0051 cola
+sprite   396 angoff    -768        // tile0051 cola
+sprite   397 angoff    -512        // tile0051 cola
 
 // Health +30
-sprite 19 angoff 768
-sprite 22 angoff -768
-sprite 71 angoff -256
-sprite 82 angoff 512
-sprite 365 angoff -512
-sprite 375 angoff -768
-sprite 395 angoff 768
-sprite 511 angoff 1024
+sprite    19 angoff     768        // tile0052 sixpack
+sprite    22 angoff    -768        // tile0052 sixpack
+sprite    71 angoff    -256        // tile0052 sixpack
+sprite    82 angoff     512        // tile0052 sixpack
+sprite   365 angoff    -512        // tile0052 sixpack
+sprite   375 angoff    -768        // tile0052 sixpack
+sprite   395 angoff     768        // tile0052 sixpack
+sprite   511 angoff     1024       // tile0052 sixpack
 
 // Jetpack
-sprite 211 angoff -512
-sprite 399 angoff 256 // Dukematch only
+sprite   211 angoff    -512        // tile0150 jetpack
+sprite   399 angoff     256        // tile0150 jetpack (multiplayer)
 
 // Keycards (B/R)
-sprite 463 angoff 256
-sprite 465 angoff 1024
+sprite   463 angoff     256        // tile0060 accesscard
+sprite   465 angoff     1024       // tile0060 accesscard
 
 // Medkit
-sprite 378 angoff -512
+sprite   378 angoff    -512        // tile0053 firstaid
 
 // Nightvision
-sprite 21 angoff 512
+sprite    21 angoff     512        // tile0059 heatsensor
 
 
 
 // WEAPONS/AMMO
 
 // Shotgun & ammo
-sprite 25 angoff 512
-sprite 33 angoff 256
-sprite 64 angoff 256
-sprite 70 angoff 640
-sprite 373 angoff -768
-sprite 380 angoff -384
-sprite 393 angoff -768
-sprite 398 angoff 1024
+sprite    25 angoff     512
+sprite    33 angoff     256
+sprite    64 angoff     256
+sprite    70 angoff     640        // tile0049 shotgunammo
+sprite    70 mdxoff     11500      // tile0049 shotgunammo
+sprite    70 pitch     -1          // tile0049 shotgunammo
+sprite    70 roll      -3          // tile0049 shotgunammo
+sprite   373 angoff    -768
+sprite   380 angoff    -384
+sprite   393 angoff    -768
+sprite   398 angoff     1024
 
 // Chaingun & ammo
-sprite 381 angoff 128
+sprite   381 angoff     128
 
 // RPG & ammo
-sprite 361 angoff -512
-sprite 374 angoff -256
-sprite 386 angoff 1024
-sprite 391 angoff -768
-sprite 392 angoff 1024
+sprite   361 angoff    -512
+sprite   374 angoff    -256
+sprite   386 angoff     1024
+sprite   391 angoff    -768
+sprite   392 angoff     1024
 
 // Pipebombs
-sprite 24 angoff -256
-sprite 81 angoff 1024
-sprite 384 angoff 512
+sprite    24 angoff    -256
+sprite    81 angoff     1024
+sprite   384 angoff     512
 
 // Shrinker & ammo
-sprite 388 angoff -256
+sprite   388 angoff    -256
 
 // Devastator & ammo
-sprite 26 angoff 256
-sprite 366 angoff 1024
-sprite 368 angoff -512
-sprite 382 angoff -512
-sprite 383 angoff -512
+sprite    26 angoff     256
+sprite   366 angoff     1024
+sprite   368 angoff    -512
+sprite   382 angoff    -512
+sprite   383 angoff    -512
 
 // Laser Tripbomb
-sprite 61 angoff 512
-sprite 62 angoff 512
+sprite    61 angoff     512        // tile0027 tripbombsprite
+sprite    62 angoff     512        // tile0027 tripbombsprite
 
 // Freezethrower & ammo
-sprite 4 angoff 256
-sprite 387 angoff 768
-sprite 390 angoff -512
-
-
-
-// OVERRIDE
-
-// Fixes for badly aligned sprites
-sprite 5 mdzoff -660000 // Freezer ammo
-sprite 5 roll 1
-sprite 70 mdxoff 11500 // shotgun ammo
-sprite 70 pitch -1
-sprite 70 roll -3
+sprite     4 angoff     256
+sprite     5 mdzoff    -660000     // tile0037 freezeammo
+sprite     5 roll       1          // tile0037 freezeammo
+sprite   387 angoff     768
+sprite   390 angoff    -512
 
 
 
