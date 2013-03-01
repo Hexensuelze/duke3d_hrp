@@ -230,11 +230,12 @@ model "highres/sprites/pickups/0056_scubagear.md3" {
 }
 
 // Jetpack (57)
-model "highres/sprites/pickups/0057_jetpack.md3" {
-   scale 1.5 shade 0
-   skin { pal 0 file "highres/sprites/pickups/0057_jetpack.png" }
-   detail { file "highres/detail/metal.png" detailscale 0.3 }
-   frame { name "FRAME1" tile 57 }
+model "highres/sprites/pickups/0057_jetpack2013.md3" {
+   scale 6 shade 0
+   skin { pal 0 file "highres/sprites/characters/1405_jetpack_d.png" }
+   normal { pal 0 file "highres/sprites/characters/1405_jetpack_n.png" }
+   specular { pal 0 file "highres/sprites/characters/1405_jetpack_s.png" }
+   frame { name "frame1" tile 57 }
 }
 
 // Nightvision Goggles (59)
