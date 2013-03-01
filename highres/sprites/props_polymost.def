@@ -18,19 +18,19 @@ model "highres/sprites/props/0160_doorshock.md3" {
 }
 
 // Fan Sprite (407)
-model "highres/sprites/props/0407_fansprite.md3" {
+model "highres/sprites/props_polymost/0407_fansprite.md3" {
    scale 1.56 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0407_fansprite.png" }
+   skin { pal 0 file "highres/sprites/props_polymost/0407_fansprite.png" }
    anim { frame0 "spinn00" frame1 "spinn15" fps 35 flags 0 }
    frame { name "spinn00" tile0 407 tile1 410 }
 }
 
 // Fan Sprite Broke (411)
-model "highres/sprites/props/0411_fanspritebroke.md3" {
+model "highres/sprites/props_polymost/0411_fanspritebroke.md3" {
    scale 1.56 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0407_fansprite.png" }
+   skin { pal 0 file "highres/sprites/props_polymost/0407_fansprite.png" }
    frame { name "frame00" tile 411 }
 }
 
