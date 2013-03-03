@@ -197,12 +197,29 @@ model "highres/sprites/ice/1396_fem7_ice.md3" {
 }
 
 // Frozen Duke (1405)
-model "highres/sprites/characters/1405_duke2013.md3" {
-  scale 1.3 shade 0 zadd -39
-  skin { surface 0 file "highres/sprites/ice/ice.png" }
-  //skin { surface 1 file "highres/sprites/ice/1405_duke2013_ice.png" }
-  skin { surface 2 file "highres/sprites/ice/ice.png" }
-  frame { pal 1 name "frame1" tile 1425  }
+   model "highres/sprites/ice/1405_duke2013_ice.md3" {
+      scale 1.3 shade 0 zadd -39
+ //Icicle skin
+  skin { pal 1 surface 0 file "highres/sprites/ice/iceicle.png" specpower 1 specfactor 1 } 
+  specular { surface 0 file "highres/sprites/ice/iceicle.png" }
+  //Shotgun skin
+  skin { pal 1 surface 1 file "highres/sprites/ice/1405_duke2013_shotty_ice.png" specpower 1 specfactor 1 } 
+  specular { surface 1 file "highres/sprites/ice/ice.png" }
+  normal { surface 1 file "highres/sprites/pickups/0028_shotgun_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Duke skin
+  skin { pal 1 surface 2 file "highres/sprites/ice/1405_duke2013_ice_d.png" specpower 1 specfactor 1 } 
+  specular { surface 2 file "highres/sprites/ice/ice.png" }
+  normal { surface 2 file "highres/sprites/characters/1405_duke2013_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Bandolier
+  skin { pal 1 surface 3 file "highres/sprites/ice/1405_bandolier_ice_d.png" specpower 1 specfactor 1 } 
+  specular { surface 3 file "highres/sprites/characters/1405_bandolier_s.png" }
+  normal { surface 3 file "highres/sprites/characters/1405_bandolier_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  //Jetpack
+  skin { pal 1 surface 4 file "highres/sprites/ice/1405_jetpack_ice_d.png" specpower 1 specfactor 1 } 
+  specular { surface 4 file "highres/sprites/characters/1405_jetpack_s.png" }
+  normal { surface 4 file "highres/sprites/characters/1405_jetpack_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+
+  frame { pal 1 frame "frame1" tile 1425 }
 }
 
 // Frozen Cheerleader (3450)
