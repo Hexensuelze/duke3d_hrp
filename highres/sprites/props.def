@@ -2034,10 +2034,21 @@ model "highres/sprites/props/4569_jollymeal.md3" {
 }
 
 // Dukeburger (4570)
-model "highres/sprites/props/4570_dukeburger.md3" {
-   scale 3 shade 0
-   skin { pal 0 surface 0 file "highres/sprites/pickups/1348_holoduke.png" }  
-   skin { pal 0 surface 2 file "highres/sprites/props/4540_foodobject11.png" }
+model "highres/sprites/props/4570_dukeburger2013.md3" {
+   scale 1.5 shade 0 zadd 15
+   skin { pal 0 surface 4 file "highres/sprites/characters/1405_jetpack_d.png" }
+   normal { pal 0 surface 4 file "highres/sprites/characters/1405_jetpack_n.png" }
+   specular { pal 0 surface 4 file "highres/sprites/characters/1405_jetpack_s.png" }  
+   skin { pal 0 surface 3 file "highres/sprites/characters/1405_bandolier_d.png" }
+   normal { pal 0 surface 3 file "highres/sprites/characters/1405_bandolier_n.png" }
+   specular { pal 0 surface 3 file "highres/sprites/characters/1405_bandolier_s.png" }
+   skin { pal 0 surface 2 file "highres/sprites/characters/1405_duke2013_d.png" }
+   normal { pal 0 surface 2 file "highres/sprites/characters/1405_duke2013_n.png" }
+   specular { pal 0 surface 2 file "highres/sprites/characters/1405_duke2013_s.png" }
+   skin { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_d.png" }
+   normal { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_n.png" }
+   specular { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_s.png" }
+   skin { pal 0 surface 0 file "highres/sprites/props/4570_dukeburger2013.png" }
    frame { name "frame1" tile0 4570 tile1 4574 }
 }
 
