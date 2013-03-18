@@ -63,7 +63,7 @@ sprite   451 angoff     860        // tile0060 accesscard blue
 sprite   376 angoff     1024       // tile0053 firstaid
 
 // Nightvision
-sprite    25 angoff     1024       // tile0059 heatsensor (Dukematch only)
+sprite    25 angoff     1024       // tile0059 heatsensor (multiplayer)
 
 
 
@@ -73,13 +73,18 @@ sprite    25 angoff     1024       // tile0059 heatsensor (Dukematch only)
 sprite   548 angoff     512        // tile0021 firstgunsprite
 sprite   548 mdzoff     200000     // tile0021 firstgunsprite
 sprite   548 roll      -1          // tile0021 firstgunsprite
+
 sprite   617 angoff    -512        // tile0040 ammo
 sprite   619 angoff     512        // tile0040 ammo
 
 // Shotgun & ammo
-sprite    44 angoff    -512        // tile0028 shotgunsprite
+sprite    44 angoff     512        // tile0028 shotgunsprite
+sprite    44 mdzoff     200000     // tile0028 shotgunsprite
+sprite    44 roll      -1          // tile0028 shotgunsprite
 sprite    81 mdzoff     200000     // tile0028 shotgunsprite (multiplayer)
 sprite    81 roll      -1          // tile0028 shotgunsprite (multiplayer)
+sprite   421 angoff     768        // tile0028 shotgunsprite (multiplayer)
+
 sprite   112 angoff    -768        // tile0049 shotgunammo
 sprite   113 angoff    -256        // tile0049 shotgunammo
 sprite   199 angoff     256        // tile0049 shotgunammo flipped sprite
@@ -89,24 +94,28 @@ sprite   634 angoff     512        // tile0049 shotgunammo
 sprite   636 angoff     512        // tile0049 shotgunammo
 
 // Chaingun & ammo
-sprite    45 angoff     512        // tile0022 chaingunsprite
-sprite   111 angoff    -512        // tile0022 chaingunsprite (Dukematch only)
-sprite   530 angoff     512        // tile0022 chaingunsprite (Dukematch only)
-sprite   534 angoff     256        // tile0041 batteryammo    (Dukematch only)
+sprite    45 angoff    -512        // tile0022 chaingunsprite
+sprite   111 angoff    -512        // tile0022 chaingunsprite (multiplayer)
+sprite   530 angoff     512        // tile0022 chaingunsprite (multiplayer)
+sprite   534 angoff     256        // tile0041 batteryammo    (multiplayer)
 
 // RPG & ammo
-sprite    26 angoff     512        // tile0023 rpgsprite
+sprite    26 angoff    -512        // tile0023 rpgsprite
 sprite    82 angoff    -512        // tile0023 rpgsprite
-sprite    87 angoff     1024       // tile0044 rpgammo (Dukematch only)
+sprite    87 angoff     1024       // tile0044 rpgammo (multiplayer)
 sprite   180 angoff    -768        // tile0044 rpgammo
 sprite   192 angoff    -512        // tile????
 sprite   431 angoff     512        // tile0023 rpgsprite
 
 // Pipebombs
 sprite    27 angoff     768        // tile0047 hbombammo
-sprite   535 angoff    -384        // tile0047 hbombammo (Dukematch only)
+sprite   535 angoff    -384        // tile0047 hbombammo (multiplayer)
 sprite   632 angoff    -256        // tile0047 hbombammo box in secret area
+sprite   632 mdzoff     1500000    // tile0047 hbombammo box in secret area
+sprite   632 pitch      1          // tile0047 hbombammo box in secret area
 
+
+sprite   542 angoff    -640        // tile1161 bottle14
 
 
 // OVERRIDE
@@ -185,8 +194,6 @@ sprite   575 mdzoff    -700000     // tile0913 maskwall2 (fence, rooftop)
 sprite   575 pitch      1          // tile0913 maskwall2 (fence, rooftop)
 sprite   575 roll       1          // tile0913 maskwall2 (fence, rooftop)
 sprite   588 away1                 // tile0502 security screen "Innocent?" sign
-sprite   632 mdzoff     1500000    // tile0047 hbombammo box in secret area
-sprite   632 pitch      1          // tile0047 hbombammo box in secret area
 
 // Forcing any floor aligned model to be rendered as sprite
 sprite    47 notmd                 // tile0341 bpannel1
