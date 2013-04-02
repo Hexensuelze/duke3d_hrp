@@ -1141,7 +1141,7 @@ model "highres/sprites/props/1079_oozfilter.md3" {
       skin { pal 0 surface 5 file "highres/sprites/props/1088_reactor_base.png" }
       detail { file "highres/detail/metal.png" detailscale 0.3 }
       anim { frame0 "Frame0" frame1 "Frame3" fps 15 }
-      frame { name "Frame0" tile 1088 }
+      frame { name "Frame0" tile0 1088 tile1 1091 }
    }
 
    model "highres/sprites/props/1096_reactorburnt.md3" {
@@ -2023,7 +2023,7 @@ model "highres/sprites/props/4560_doggy.md3" {
    scale 0.7 shade 5 
    skin { pal 0 file "highres/sprites/props/4560_doggy.png" }
    anim { frame0 "Frame0" frame1 "Frame16" fps 27 flags 0 }
-   frame { name "Frame0" tile 4560 }
+   frame { name "Frame0" tile0 4560 tile1 4562 }
 }
 
 // Jollymeal (4569)
