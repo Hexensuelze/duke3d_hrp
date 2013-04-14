@@ -1,0 +1,119 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Level    : ARGH!!Shopping!!02.map - "Paradisiac Shopping" by Arghantyl Aryostaz
+// Map Date : 2011-03-19
+// mapmd4   : d87b49da44690d2b2f7fa68d01f5bd54
+// Curr. HRP: r5.2.488
+
+
+sprite  1269 angoff     256        // tile0054 shield
+sprite  1268 mdzoff     500000     // tile2060 pigcopdeadsprite
+sprite  1268 roll       1          // tile2060 pigcopdeadsprite
+sprite  1260 angoff     256        // tile0028 shotgunsprite
+sprite  1261 angoff     1024       // tile2060 pigcopdeadsprite
+sprite  1261 mdzoff     1000000    // tile2060 pigcopdeadsprite
+sprite  1261 roll       1          // tile2060 pigcopdeadsprite
+sprite  1270 angoff    -768        // tile0049 shotgunammo
+sprite  1575 angoff    -768        // tile0049 shotgunammo (multiplayer)
+sprite  1541 angoff     1024       // tile0041 batteryammo (multiplayer)
+sprite   615 angoff     1024       // tile0059 heatsensor
+sprite  1516 angoff    -512        // tile0022 chaingunsprite
+sprite   810 angoff     256        // tile0052 sixpack
+sprite   850 angoff     768        // tile0045 growammo
+sprite   852 angoff     768        // tile0045 growammo
+sprite   853 angoff     768        // tile0045 growammo
+sprite   886 angoff     1024       // tile0044 rpgammo
+sprite  1485 angoff     768        // tile0028 shotgunsprite
+sprite   923 angoff     512        // tile0022 chaingunsprite
+sprite  1581 angoff     512        // tile0041 batteryammo (multiplayer)
+sprite  1581 mdzoff     500000     // tile0041 batteryammo (multiplayer)
+sprite  1581 pitch      1          // tile0041 batteryammo (multiplayer)
+sprite  1582 angoff     512        // tile0041 batteryammo (multiplayer)
+sprite   967 angoff     1024       // tile0023 rpgsprite
+sprite   921 angoff    -256        // tile0916 fireext
+sprite  1066 notmd                 // tile0164 dipswitch2
+sprite   980 angoff     1024       // tile0044 rpgammo
+sprite  1065 angoff     1024       // tile0044 rpgammo
+sprite  1198 angoff    -256        // tile0049 shotgunammo
+sprite  1046 angoff     512        // tile0053 firstaid
+sprite  1064 angoff     512        // tile0028 shotgunsprite
+sprite  1521 angoff    -512        // tile0023 rpgsprite (multiplayer)
+sprite  1337 angoff     512        // tile0052 sixpack
+sprite  1522 angoff     256        // tile0055 steroids (multiplayer)
+sprite  1527 angoff     512        // tile0049 shotgunammo (multiplayer)
+sprite  1525 angoff     512        // tile0055 steroids (multiplayer)
+sprite  1519 angoff    -256        // tile0054 shield (multiplayer)
+sprite  1518 angoff     256        // tile0021 firstgunsprite (multiplayer)
+sprite  1363 angoff     512        // tile0049 shotgunammo
+sprite  1364 angoff     512        // tile0049 shotgunammo
+sprite   807 angoff    -256        // tile0052 sixpack
+sprite   808 angoff    -256        // tile0052 sixpack
+sprite   809 angoff    -256        // tile0052 sixpack
+sprite  1440 angoff     512        // tile0037 freezeammo
+sprite  1441 angoff     512        // tile0037 freezeammo
+sprite  1443 angoff     1024       // tile0026 heavyhbomb
+sprite  1444 angoff     1024       // tile0026 heavyhbomb
+sprite  1576 angoff     512        // tile0051 cola
+sprite  1107 angoff     1024       // tile0060 accesscard blue
+sprite  1433 angoff    -512        // tile0054 shield
+sprite  1434 angoff    -512        // tile0049 shotgunammo
+sprite  1435 angoff    -512        // tile0049 shotgunammo
+sprite   774 angoff    -256        // tile1294 podfem1
+sprite   984 angoff     512        // tile0054 shield
+sprite   803 angoff    -256        // tile0053 firstaid
+sprite   776 mdxoff     50000      // tile1501 (tile1491 (duke crouching))
+sprite   776 pitch     -1          // tile1501 (tile1491 (duke crouching))
+sprite   777 angoff    -512        // tile1690 (tile1680 liztroop)
+sprite   777 nomdanim              // tile1690 (tile1680 liztroop)
+sprite   778 angoff    -512        // tile2730 (tile2710 boss2 (cycloid))
+sprite   778 nomdanim              // tile2730 (tile2710 boss2 (cycloid))
+sprite   779 angoff    -256        // tile2730 (tile2710 boss2 (cycloid))
+sprite   779 nomdanim              // tile2730 (tile2710 boss2 (cycloid))
+sprite   782 angoff     256        // tile1406 (tile1405 (duke))
+sprite   783 angoff     256        // tile1406 (tile1405 (duke))
+sprite   784 angoff     256        // tile1406 (tile1405 (duke))
+sprite   785 angoff     256        // tile1406 (tile1405 (duke))
+sprite   790 angoff     256        // tile1406 (tile1405 (duke))
+sprite   786 angoff    -768        // tile1690 (tile1680 liztroop)
+sprite   786 nomdanim              // tile1690 (tile1680 liztroop)
+sprite   787 angoff    -768        // tile1690 (tile1680 liztroop)
+sprite   787 nomdanim              // tile1690 (tile1680 liztroop)
+sprite   788 angoff    -768        // tile1690 (tile1680 liztroop)
+sprite   788 nomdanim              // tile1690 (tile1680 liztroop)
+sprite   789 angoff    -768        // tile1690 (tile1680 liztroop)
+sprite   789 nomdanim              // tile1690 (tile1680 liztroop)
+sprite   781 angoff    -768        // tile2730 (tile2710 boss2 (cycloid))
+sprite   781 nomdanim              // tile2730 (tile2710 boss2 (cycloid))
+sprite   792 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   793 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   794 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   795 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   796 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   797 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   798 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   799 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   800 angoff     1024       // tile1406 (tile1405 (duke))
+sprite   801 angoff     1024       // tile1406 (tile1405 (duke))
+sprite  1395 angoff     1024       // tile0060 accesscard blue
+sprite  1481 angoff     1024       // tile0150 jetpack
+sprite  1503 angoff     1024       // tile0150 jetpack
+sprite  1504 angoff     1024       // tile0150 jetpack (multiplayer)
+sprite  1505 angoff     1024       // tile0150 jetpack (multiplayer)
+sprite  1506 angoff     1024       // tile0150 jetpack (multiplayer)
+sprite  1507 angoff     1024       // tile0150 jetpack
+sprite  1508 angoff     1024       // tile0150 jetpack (multiplayer)
+sprite  1509 angoff     1024       // tile0150 jetpack (multiplayer)
+sprite  1510 angoff     1024       // tile0150 jetpack (multiplayer)
+sprite   608 angoff     1024       // tile0044 rpgammo
+sprite   609 angoff     1024       // tile0044 rpgammo
+sprite   610 angoff     1024       // tile0044 rpgammo
+sprite  1425 angoff     1024       // tile0044 rpgammo
+sprite  1487 angoff     1024       // tile0044 rpgammo
+sprite  1489 angoff     768        // tile0049 shotgunammo
+sprite  1490 angoff     768        // tile0049 shotgunammo
+sprite   328 angoff     256        // tile0053 firstaid
+sprite    41 angoff     512        // tile0029 devistatorsprite
+sprite  1395 angoff     1024       // tile0060 accesscard blue
+sprite  1055 angoff     128        // tile0060 accesscard red
+sprite  1418 mdxoff     6500       // tile0142 nukebutton
+sprite  1418 pitch     -1          // tile0142 nukebutton
