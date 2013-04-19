@@ -9,157 +9,159 @@
 // PROPS
 
 // Dolphin
-sprite 259 angoff 256
+sprite   259 angoff     256
 
 // Drinking fountain
-sprite 181 angoff -512
+sprite   181 angoff    -512        // tile0563 waterfountain
+sprite   181 mdzoff     120000     // tile0563 waterfountain
+sprite   181 pitch     -1          // tile0563 waterfountain
 
 // Meat Market knife
-sprite 260 angoff -256
+sprite   260 angoff    -256
 
 // Shopping carts
-sprite 334 angoff -128
-sprite 335 angoff 96
-sprite 337 angoff 128
-sprite 345 angoff -256
-sprite 386 angoff -64
+sprite   334 angoff    -128
+sprite   335 angoff     96
+sprite   337 angoff     128
+sprite   345 angoff    -256
+sprite   386 angoff    -64
 
 // Trashcan
-sprite 178 angoff -768
+sprite   178 angoff    -768
 
+sprite   186 mdzoff     300000     // tile0916 fireext
+sprite   186 pitch      1          // tile0916 fireext
 
 
 // ITEMS/POWERUPS
 
 // Armor
-sprite 32 angoff -512
-sprite 442 angoff -256
+sprite    32 angoff    -512        // tile0054 shield
+sprite   442 angoff    -256        // tile0054 shield
 
 // Boots
-sprite 549 angoff 1024
+sprite   549 angoff     1024       // tile0061 boots
 
 // Health +10
-sprite 34 angoff 512
-sprite 35 angoff 512
-sprite 91 angoff -256
-sprite 92 angoff 256
-sprite 146 angoff -256
-sprite 147 angoff 256
-sprite 483 angoff -256
-sprite 484 angoff 256
-sprite 486 angoff -256
+sprite    34 angoff     512        // tile0051 cola
+sprite    35 angoff     512        // tile0051 cola
+sprite    91 angoff    -256        // tile0051 cola
+sprite    92 angoff     256        // tile0051 cola
+sprite   146 angoff    -256        // tile0051 cola
+sprite   147 angoff     256        // tile0051 cola
+sprite   483 angoff    -256        // tile0051 cola
+sprite   484 angoff     256        // tile0051 cola
+sprite   486 angoff    -256        // tile0051 cola
 
 // Health +30
-sprite 20 angoff 1024
-sprite 57 angoff -512
-sprite 61 angoff 1024
-sprite 77 angoff -512
-sprite 78 angoff -512
-sprite 79 angoff 768
-sprite 117 angoff 768
-sprite 120 angoff -256
-sprite 142 angoff 768
-sprite 440 angoff 256
-sprite 444 angoff 512
-sprite 469 angoff 512
-sprite 485 angoff 512
+sprite    20 angoff     1024       // tile0052 sixpack
+sprite    57 angoff    -512        // tile0052 sixpack
+sprite    61 angoff     1024       // tile0052 sixpack
+sprite    77 angoff    -512        // tile0052 sixpack
+sprite    78 angoff    -512        // tile0052 sixpack
+sprite    79 angoff     768        // tile0052 sixpack
+sprite   117 angoff     768        // tile0052 sixpack
+sprite   120 angoff    -256        // tile0052 sixpack
+sprite   142 angoff     768        // tile0052 sixpack
+sprite   440 angoff     256        // tile0052 sixpack
+sprite   444 angoff     512        // tile0052 sixpack
+sprite   469 angoff     512        // tile0052 sixpack
+sprite   485 angoff     512        // tile0052 sixpack
 
 // Jetpack
-sprite 446 angoff -256 // Dukematch only
+sprite   446 angoff    -256        // tile0150 jetpack (multiplayer)
 
 // Keycards (B/Y/R)
-sprite 307 angoff -512
-sprite 377 angoff 512
-sprite 396 angoff 512
+sprite   307 angoff    -512
+sprite   377 angoff     512
+sprite   396 angoff     512
 
 // Medkit
-sprite 139 angoff -512
+sprite   139 angoff    -512        // tile0053 firstaid
 
 // Nightvision
-sprite 445 angoff -768
+sprite   445 angoff    -768        // tile0059 heatsensor
 
 // Steroids
-sprite 547 angoff -768
+sprite   547 angoff    -768        // tile0055 steroids
 
 
 
 // WEAPONS/AMMO
 
 // Pistol & ammo
-sprite 137 angoff -512
+sprite   137 angoff    -512
 
 // Shotgun & ammo
-sprite 52 angoff 256
-sprite 90 angoff 512
-sprite 122 angoff -128 // Dukematch only
-sprite 127 angoff 512
-sprite 138 angoff -256
-sprite 148 angoff 1024
-sprite 545 angoff 1024
+sprite    52 angoff     256
+sprite    90 angoff     512
+sprite   122 angoff    -128 // Dukematch only
+sprite   127 angoff     512
+sprite   138 angoff    -256
+sprite   148 angoff     1024
+sprite   545 angoff     1024
 
 // Chaingun & ammo
-sprite 18 angoff 256 // Dukematch only
-sprite 228 angoff -128
+sprite    18 angoff     256 // Dukematch only
+sprite   228 angoff    -128        // tile0022 chaingunsprite
+sprite   228 mdzoff     475000     // tile0022 chaingunsprite
+sprite   228 pitch      3          // tile0022 chaingunsprite
+sprite   228 roll       4095       // tile0022 chaingunsprite
 
 // RPG & ammo
-sprite 121 angoff -512
-sprite 126 angoff -512 // Dukematch only
-sprite 136 angoff -512
-sprite 143 angoff 384
-sprite 541 angoff 512
-sprite 546 angoff 992
+sprite   121 angoff    -512
+sprite   126 angoff    -512 // Dukematch only
+sprite   136 angoff    -512        // tile0044 rpgammo
+sprite   136 mdzoff     400000     // tile0044 rpgammo
+sprite   136 roll       1          // tile0044 rpgammo
+sprite   143 angoff     384
+sprite   541 angoff     512
+sprite   546 angoff     992
 
 // Pipebombs
-sprite 40 angoff 512
+sprite    40 angoff     512
 
 // Shrinker/Expander & ammo
-sprite 19 angoff 512
-sprite 31 angoff 1024
-sprite 116 angoff 512 // Dukematch only
-sprite 119 angoff -256
+sprite    19 angoff     512
+sprite    31 angoff     1024
+sprite   116 angoff     512 // Dukematch only
+sprite   119 angoff    -256
 
 // Devastator & ammo
-sprite 129 angoff 512
-sprite 130 angoff -512
+sprite   129 angoff     512
+sprite   130 angoff    -512
+sprite   158 mdzoff     530000     // tile0029 devistatorsprite
+sprite   158 roll      -1          // tile0029 devistatorsprite
 
 // Freezethrower & ammo
-sprite 128 angoff -512
+sprite   128 angoff    -512
 
 
 
 // OVERRIDE
 
 // Fixes for badly aligned sprites
-sprite 136 mdzoff 400000 // RPG ammo
-sprite 136 roll 1
-sprite 158 mdzoff -530000 // Devastator
-sprite 158 roll 1
-sprite 181 mdzoff -120000 // drinking fountain
-sprite 181 pitch 1
-sprite 228 mdzoff 475000 // chaingun
-sprite 228 pitch 3
-sprite 228 roll 4095
-sprite 449 away1 // loadscreen
+sprite   449 away1 // loadscreen
 
 // Forcing any floor aligned model to be rendered as sprite
-sprite 85 notmd
-sprite 86 notmd
-sprite 87 notmd
-sprite 144 notmd
-sprite 145 notmd
-sprite 225 notmd
-sprite 258 notmd
-sprite 300 notmd
-sprite 301 notmd
-sprite 302 notmd
-sprite 303 notmd
-sprite 304 notmd
-sprite 470 notmd
-sprite 493 notmd
-sprite 534 notmd
+sprite    85 notmd
+sprite    86 notmd
+sprite    87 notmd
+sprite   144 notmd
+sprite   145 notmd
+sprite   225 notmd
+sprite   258 notmd
+sprite   300 notmd
+sprite   301 notmd
+sprite   302 notmd
+sprite   303 notmd
+sprite   304 notmd
+sprite   470 notmd
+sprite   493 notmd
+sprite   534 notmd
 
 // Switches to be hidden
-sprite 551 notmd // "Get back to work, you slacker!"
+sprite   551 notmd // "Get back to work, you slacker!"
 
 
 

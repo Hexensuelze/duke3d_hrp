@@ -1,5 +1,7 @@
 // Maphacks for Duke3D HRP
-// Level: E3L5.MAP - "Movie Set" (Original Atomic Edition version)
+// Level:  E3L5.MAP - "Movie Set" (Original Atomic Edition version)
+// Author: Richard Bailey Gray (The Levelord)
+// mapmd4: 9dc91896bb83d2492293a5903ebd80d1
 // Reviewed by NightFright (February 2012)
 
 
@@ -7,161 +9,164 @@
 // PROPS
 
 // Cameras
-sprite 155 angoff -192
-sprite 156 angoff -768
-sprite 157 angoff 128
-sprite 176 angoff -128
+sprite   155 angoff    -192
+sprite   156 angoff    -768
+sprite   157 angoff     128
+sprite   176 angoff    -128
 
 // Camera Spotlights
-sprite 158 angoff 768
-sprite 159 angoff -384
-sprite 160 angoff -256
-sprite 161 angoff -768
-sprite 162 angoff 256
-sprite 171 angoff 128
-sprite 174 angoff -256
-sprite 175 angoff -768
-sprite 284 angoff 256
+sprite   158 angoff     768
+sprite   159 angoff    -384
+sprite   160 angoff    -256
+sprite   161 angoff    -768
+sprite   162 angoff     256
+sprite   171 angoff     128
+sprite   174 angoff    -256
+sprite   175 angoff    -768
+sprite   284 angoff     256
 
 // Chopper debris
-sprite 306 angoff -384
-sprite 484 angoff -640
-sprite 485 angoff 384
+sprite   306 angoff    -384
+sprite   484 angoff    -640
+sprite   485 angoff     384
 
 // Director's chairs
-sprite 73 angoff -896
-sprite 285 angoff -896
+sprite    73 angoff    -896
+sprite   285 angoff    -896
 
 // Radar Dish
-sprite 482 angoff -128
+sprite   482 angoff    -128
 
+sprite   289 mdzoff     400000     // tile0916 fireext
+sprite   289 pitch      1          // tile0916 fireext
 
 
 // ITEMS/POWERUPS
 
 // Health +10
-sprite 395 angoff 640
-sprite 396 angoff 512
+sprite   395 angoff     640        // tile0051 cola
+sprite   396 angoff     512        // tile0051 cola
 
 // Health +30
-sprite 4 angoff -768
-sprite 8 angoff -768
-sprite 372 angoff -256
-sprite 473 angoff -768
+sprite     4 angoff    -768        // tile0052 sixpack
+sprite     8 angoff    -768        // tile0052 sixpack
+sprite   372 angoff    -256        // tile0052 sixpack
+sprite   473 angoff    -768        // tile0052 sixpack
 
 // Jetpack
-sprite 480 angoff -384
+sprite   480 angoff    -384        // tile0150 jetpack
 
 // Keycard (R)
-sprite 105 angoff 512
+sprite   105 angoff     512        // tile0060 accesscard red
 
 // Medkit
-sprite 47 angoff 256
-sprite 61 angoff -256
-sprite 268 angoff 256
+sprite    47 angoff     256        // tile0053 firstaid
+sprite    61 angoff    -256        // tile0053 firstaid
+sprite   268 angoff     256        // tile0053 firstaid
 
 // Nightvision
-sprite 0 angoff -512
-sprite 24 angoff 1024
-sprite 39 angoff -768
+sprite     0 angoff    -512        // tile0059 heatsensor
+sprite    24 angoff     1024       // tile0059 heatsensor
+sprite    39 angoff    -768        // tile0059 heatsensor
 
 // Steroids 
-sprite 371 angoff -512
+sprite   371 angoff    -512        // tile0055 steroids
 
 
 
 // WEAPONS/AMMO
 
 // Pistol & ammo
-sprite 368 angoff 512
+sprite   368 angoff     512
 
 // Chaingun ammo
-sprite 378 angoff 256
+sprite   378 angoff     256        // tile0041 batteryammo
 
 // RPG & ammo
-sprite 367 angoff 1024
-sprite 379 angoff 512
-sprite 398 angoff -512
-sprite 399 angoff 512
+sprite   367 angoff     1024
+sprite   379 angoff     512
+sprite   398 angoff    -512
+sprite   399 angoff     512
 
 // Pipebombs
-sprite 380 angoff -768
-sprite 415 angoff 768
+sprite   380 angoff    -768
+sprite   415 angoff     768
 
 // Devastator & ammo
-sprite 52 angoff 512
+sprite    52 angoff     512
 
 // Shrinker ammo
-sprite 422 angoff 512
+sprite   422 angoff     512
 
 // Freezethrower & ammo
-sprite 43 angoff 1024
-sprite 420 angoff 256
-sprite 421 angoff 256
+sprite    43 angoff     1024
+sprite   420 angoff     256
+sprite   421 angoff     256
 
 
 
 // OVERRIDE
 
 // Fixes for badly aligned sprites
-sprite 282 nomdanim // spinning Enforcer gib
-sprite 347 mdzoff -550000 // lamp above helicopter crash site
-sprite 347 pitch 1
+sprite   282 nomdanim              // spinning Enforcer gib
+sprite   347 mdzoff    -550000     // lamp above helicopter crash site
+sprite   347 pitch      1
 
 // Forcing any floor aligned model to be rendered as sprite
-sprite 280 notmd
-sprite 286 notmd
+sprite   280 notmd
+sprite   286 notmd
 
 // Switches to be hidden
-sprite 19 notmd // Cash register
-sprite 102 notmd // Screen in spaceship set
-sprite 187 notmd // Telephone near subway
-sprite 481 notmd // Rocket fin in lunar set
+sprite    19 notmd                 // Cash register
+sprite   102 notmd                 // Screen in spaceship set
+sprite   187 notmd                 // Telephone near subway
+sprite   481 notmd                 // Rocket fin in lunar set
 
 
 
 // LIGHTS 
 
 // by Micky C
-light  159   44544 1408 13568  2000  40 40 225   0 0 1536 -1   0 0   0 -1
-light  75   29952 -1600 -8960  2000  255 235 225   0 0 1536 -1   0 0   0 -1
-light  159   43008 640 32000  2000  40 40 225   0 0 1536 -1   0 0   0 -1
-light  181   31488 32768 38912  2500  255 235 225   0 0 1536 -1   0 0   0 -1
-light  189   34048 21600 -4096  300  255 0 0   0 0 1536 -1   0 0   0 -1
-light  189   34048 21600 3072  300  0 0 255   0 0 1536 -1   0 0   0 -1
-light  163   46208 8896 -50176  2500  255 0 0   0 0 1536 -1   0 0   0 -1
-light  160   44800 7168 -47104  3000  255 0 0   0 0 1536 -1   0 0   0 -1
-light  182   46208 4160 -60416  800  255 235 225   0 0 1536 -1   0 0   0 -1
-light  47   33472 2816 -3840  2000  255 235 225   0 0 1536 -1   0 0   0 -1
-light  66   32000 7168 -5888  1500  255 235 225   0 0 1536 -1   0 0   0 -1
-light  75   32512 -768 -33536  4000  51 47 45   0 0 1536 -1   0 0   0 -1
-light  195   46272 6336 -58368  2500  255 0 0   0 0 1536 -1   0 0   0 -1
-light  174   29760 -3328 -3840  2500  255 235 225   0 0 1536 -1   0 0   0 -1
-light  49   35904 10496 -3840  2000  255 235 225   0 0 1536 -1   0 0   0 -1
-light  205   39168 18432 -76800  27000  220 205 255   156 117 1536 0   0 0   2 -1
-light  167   29376 9600 -23552  1200  255 235 225   0 0 1536 -1   0 0   0 -1
-light  153   27776 15104 -14080  3000  255 150 0   0 0 1536 -1   0 0   0 -1
-light  193   28288 16640 -43008  2500  255 255 180   0 0 1536 -1   0 0   0 -1
-light  152   36096 6912 -44032  2500  255 255 180   0 0 1536 -1   0 0   0 -1
-light  123   36288 11776 -44032  2500  255 255 180   0 0 1536 -1   0 0   0 -1
-light  122   36224 16640 -44032  2500  255 255 180   0 0 1536 -1   0 0   0 -1
-light  90   31744 16640 -40960  2500  255 255 180   0 0 1536 -1   0 0   0 -1
-light  97   30912 6784 -44032  2500  255 255 180   0 0 1536 -1   0 0   0 -1
-light  88   25600 16896 -17408  2500  255 255 180   0 0 1536 -1   0 0   0 -1
-light  153   24256 15104 -14080  3000  255 150 0   0 0 1536 -1   0 0   0 -1
-light  73   26304 -1728 -28416  14500  220 205 255   284 213 504 50   0 0   2 -1
-light  156   23616 8384 -24576  1500  255 235 225   0 0 1536 -1   0 0   0 -1
-light  80   28416 8960 -24576  1800  255 235 225   0 0 1536 -1   0 0   0 -1
-light  204   25216 9792 -16384  500  255 235 225   0 0 1536 -1   0 0   0 -1
-light  142   36096 15360 -2816  1000  255 235 225   0 0 1536 -1   0 0   0 -1
-light  57   24704 12352 -14336  900  255 0 0   0 0 1536 -1   0 0   0 -1
-light  121   25920 14461 -14080  8000  0 0 255   396 297 1536 100   0 0   2 -1
-light  44   39040 21056 -768  2000  255 235 225   0 0 1536 -1   0 0   0 -1
-light  39   39104 22784 -768  2000  255 235 225   0 0 1536 -1   0 0   0 -1
-light  189   34048 23232 -1792  800  255 235 225   0 0 1536 -1   0 0   0 -1
-light  4   34496 22400 256  1000  255 235 225   0 0 1536 -1   0 0   0 -1
-light  38   31488 21760 -5120  2800  255 235 225   0 0 1536 -1   0 0   0 -1
-light  14   31488 30384 29696  3000  51 47 45   0 0 1536 -1   0 0   0 -1
-light  181   31488 34048 41984  800  255 0 0   0 0 1536 -1   0 0   0 -1
-light  200   22528 -512 -3840  1700  0 255 0   0 0 1536 -1   0 0   0 -1
-light  171   29504 7232 -54016  12000  255 225 200   268 201 256 40   0 0   2 -1
+//    sect     x       y       z   range   r   g   b    rad fade  ang horiz mins maxs prio tile
+light  159   44544    1408   13568  2000   40  40 225     0   0  1536    -1   0    0    0    -1
+light   75   29952   -1600   -8960  2000  255 235 225     0   0  1536    -1   0    0    0    -1
+light  159   43008     640   32000  2000   40  40 225     0   0  1536    -1   0    0    0    -1
+light  181   31488   32768   38912  2500  255 235 225     0   0  1536    -1   0    0    0    -1
+light  189   34048   21600   -4096   300  255   0   0     0   0  1536    -1   0    0    0    -1
+light  189   34048   21600    3072   300    0   0 255     0   0  1536    -1   0    0    0    -1
+light  163   46208    8896  -50176  2500  255   0   0     0   0  1536    -1   0    0    0    -1
+light  160   44800    7168  -47104  3000  255   0   0     0   0  1536    -1   0    0    0    -1
+light  182   46208    4160  -60416   800  255 235 225     0   0  1536    -1   0    0    0    -1
+light   47   33472    2816   -3840  2000  255 235 225     0   0  1536    -1   0    0    0    -1
+light   66   32000    7168   -5888  1500  255 235 225     0   0  1536    -1   0    0    0    -1
+light   75   32512    -768  -33536  4000   51  47  45     0   0  1536    -1   0    0    0    -1
+light  195   46272    6336  -58368  2500  255   0   0     0   0  1536    -1   0    0    0    -1
+light  174   29760   -3328   -3840  2500  255 235 225     0   0  1536    -1   0    0    0    -1
+light   49   35904   10496   -3840  2000  255 235 225     0   0  1536    -1   0    0    0    -1
+light  205   39168   18432  -76800 27000  220 205 255   156 117  1536     0   0    0    2    -1
+light  167   29376    9600  -23552  1200  255 235 225     0   0  1536    -1   0    0    0    -1
+light  153   27776   15104  -14080  3000  255 150   0     0   0  1536    -1   0    0    0    -1
+light  193   28288   16640  -43008  2500  255 255 180     0   0  1536    -1   0    0    0    -1
+light  152   36096    6912  -44032  2500  255 255 180     0   0  1536    -1   0    0    0    -1
+light  123   36288   11776  -44032  2500  255 255 180     0   0  1536    -1   0    0    0    -1
+light  122   36224   16640  -44032  2500  255 255 180     0   0  1536    -1   0    0    0    -1
+light   90   31744   16640  -40960  2500  255 255 180     0   0  1536    -1   0    0    0    -1
+light   97   30912    6784  -44032  2500  255 255 180     0   0  1536    -1   0    0    0    -1
+light   88   25600   16896  -17408  2500  255 255 180     0   0  1536    -1   0    0    0    -1
+light  153   24256   15104  -14080  3000  255 150   0     0   0  1536    -1   0    0    0    -1
+light   73   26304   -1728  -28416 14500  220 205 255   284 213   504    50   0    0    2    -1
+light  156   23616    8384  -24576  1500  255 235 225     0   0  1536    -1   0    0    0    -1
+light   80   28416    8960  -24576  1800  255 235 225     0   0  1536    -1   0    0    0    -1
+light  204   25216    9792  -16384   500  255 235 225     0   0  1536    -1   0    0    0    -1
+light  142   36096   15360   -2816  1000  255 235 225     0   0  1536    -1   0    0    0    -1
+light   57   24704   12352  -14336   900  255   0   0     0   0  1536    -1   0    0    0    -1
+light  121   25920   14461  -14080  8000    0   0 255   396 297  1536   100   0    0    2    -1
+light   44   39040   21056    -768  2000  255 235 225     0   0  1536    -1   0    0    0    -1
+light   39   39104   22784    -768  2000  255 235 225     0   0  1536    -1   0    0    0    -1
+light  189   34048   23232   -1792   800  255 235 225     0   0  1536    -1   0    0    0    -1
+light    4   34496   22400     256  1000  255 235 225     0   0  1536    -1   0    0    0    -1
+light   38   31488   21760   -5120  2800  255 235 225     0   0  1536    -1   0    0    0    -1
+light   14   31488   30384   29696  3000   51  47  45     0   0  1536    -1   0    0    0    -1
+light  181   31488   34048   41984   800  255   0   0     0   0  1536    -1   0    0    0    -1
+light  200   22528    -512   -3840  1700    0 255   0     0   0  1536    -1   0    0    0    -1
+light  171   29504    7232  -54016 12000  255 225 200   268 201   256    40   0    0    2    -1

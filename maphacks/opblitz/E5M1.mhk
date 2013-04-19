@@ -1,10 +1,10 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : E5M1.map - Operation Blitzkrieg: "Nut Case" by David Billing
 // Map Date : 2012-03-13 (GRP)
 // mapmd4   : 3ab2f3ea19fcb133730beeab60446fcc
-// Curr. HRP: r5.2.415
+// Curr. HRP: r5.2.489
+
 
 sprite    37 angoff    -128        // tile0021 firstgunsprite
 sprite    99 mdzoff    -300000     // tile1348 holoduke
@@ -19,12 +19,17 @@ sprite    17 pitch      1          // tile2360 rotategun
 sprite   418 mdxoff    -10000      // tile2360 rotategun
 sprite   418 pitch      1          // tile2360 rotategun
 sprite   124 angoff     256        // tile0052 sixpack
-sprite   323 angoff     768        // tile0563 waterfountain
+sprite   323 angoff    -768        // tile0563 waterfountain
 sprite   357 angoff    -256        // tile0052 sixpack
+sprite   613 angoff     1024       // tile0044 rpgammo
+sprite   194 angoff    -512        // tile0049 shotgunammo
+sprite   194 mdzoff     300000     // tile0049 shotgunammo
+sprite   194 pitch     -1          // tile0049 shotgunammo
+sprite   194 roll       1          // tile0049 shotgunammo
 sprite   419 angoff     512        // tile0055 steroids
 sprite   421 angoff     512        // tile0052 sixpack
 sprite   420 angoff     512        // tile0051 cola
-//sprite   557 angoff     ???        // tile0023 rpgsprite // multiplayer
+sprite   557 angoff     512        // tile0023 rpgsprite (multiplayer)
 sprite   422 angoff     256        // tile0052 sixpack
 sprite   496 angoff    -768        // tile1294 podfem1
 sprite   461 angoff     1024       // tile0916 fireext
@@ -33,7 +38,7 @@ sprite   212 angoff     1024       // tile0022 chaingunsprite
 sprite   621 angoff    -512        // tile0044 rpgammo
 sprite   388 angoff     1024       // tile1741 liztroopontoilet
 sprite   342 angoff    -512        // tile0557 chair2
-sprite   191 angoff     512        // tile0049 shotgunammo
+sprite   191 angoff     256        // tile0049 shotgunammo
 sprite   191 mdzoff     300000     // tile0049 shotgunammo
 sprite   191 roll       1          // tile0049 shotgunammo
 sprite   101 angoff    -768        // tile4454 deskphone
@@ -47,6 +52,9 @@ sprite   193 mdzoff     300000     // tile0049 shotgunammo
 sprite   193 roll       1          // tile0049 shotgunammo
 sprite   440 angoff     512        // tile0059 heatsensor
 sprite   354 angoff     512        // tile0052 sixpack
+sprite   192 angoff     256        // tile0049 shotgunammo
+sprite   192 mdzoff     300000     // tile0049 shotgunammo
+sprite   192 pitch      1          // tile0049 shotgunammo
 sprite   415 mdxoff    -5000       // tile2360 rotategun
 sprite   415 pitch      1          // tile2360 rotategun
 sprite   416 mdxoff    -5000       // tile2360 rotategun

@@ -9,116 +9,118 @@
 // PROPS
 
 // Cameras
-sprite 155 angoff -192
-sprite 156 angoff -768
-sprite 157 angoff 128
-sprite 176 angoff -128
+sprite   155 angoff    -192
+sprite   156 angoff    -768
+sprite   157 angoff     128
+sprite   176 angoff    -128
 
 // Camera Spotlights
-sprite 158 angoff 768
-sprite 159 angoff -384
-sprite 160 angoff -256
-sprite 161 angoff -768
-sprite 162 angoff 256
-sprite 171 angoff 128
-sprite 174 angoff -256
-sprite 175 angoff -768
-sprite 284 angoff 256
+sprite   158 angoff     768
+sprite   159 angoff    -384
+sprite   160 angoff    -256
+sprite   161 angoff    -768
+sprite   162 angoff     256
+sprite   171 angoff     128
+sprite   174 angoff    -256
+sprite   175 angoff    -768
+sprite   284 angoff     256
 
 // Chopper debris
-sprite 306 angoff -384
-sprite 484 angoff -640
-sprite 485 angoff 384
+sprite   306 angoff    -384
+sprite   484 angoff    -640
+sprite   485 angoff     384
 
 // Director's chairs
-sprite 73 angoff -896
-sprite 285 angoff -896
+sprite    73 angoff    -896
+sprite   285 angoff    -896
 
 // Radar Dish
-sprite 482 angoff -128
+sprite   482 angoff    -128
 
+sprite   289 mdzoff     400000     // tile0916 fireext
+sprite   289 pitch      1          // tile0916 fireext
 
 
 // ITEMS/POWERUPS
 
 // Health +10
-sprite 395 angoff 640
-sprite 396 angoff 512
+sprite   395 angoff     640        // tile0051 cola
+sprite   396 angoff     512        // tile0051 cola
 
 // Health +30
-sprite 4 angoff -768
-sprite 8 angoff -768
-sprite 372 angoff -256
-sprite 473 angoff -768
+sprite     4 angoff    -768        // tile0052 sixpack
+sprite     8 angoff    -768        // tile0052 sixpack
+sprite   372 angoff    -256        // tile0052 sixpack
+sprite   473 angoff    -768        // tile0052 sixpack
 
 // Jetpack
-sprite 480 angoff -384
+sprite   480 angoff    -384        // tile0150 jetpack
 
 // Keycard (R)
-sprite 105 angoff 512
+sprite   105 angoff     512        // tile0060 accesscard red
 
 // Medkit
-sprite 47 angoff 256
-sprite 61 angoff -256
-sprite 268 angoff 256
+sprite    47 angoff     256        // tile0053 firstaid
+sprite    61 angoff    -256        // tile0053 firstaid
+sprite   268 angoff     256        // tile0053 firstaid
 
 // Nightvision
-sprite 0 angoff -512
-sprite 24 angoff 1024
-sprite 39 angoff -768
+sprite     0 angoff    -512        // tile0059 heatsensor
+sprite    24 angoff     1024       // tile0059 heatsensor
+sprite    39 angoff    -768        // tile0059 heatsensor
 
 // Steroids 
-sprite 371 angoff -512
+sprite   371 angoff    -512        // tile0055 steroids
 
 
 
 // WEAPONS/AMMO
 
 // Pistol & ammo
-sprite 368 angoff 512
+sprite   368 angoff     512
 
 // Chaingun ammo
-sprite 378 angoff 256
+sprite   378 angoff     256        // tile0041 batteryammo
 
 // RPG & ammo
-sprite 367 angoff 1024
-sprite 379 angoff 512
-sprite 398 angoff -512
-sprite 399 angoff 512
+sprite   367 angoff     1024
+sprite   379 angoff     512
+sprite   398 angoff    -512
+sprite   399 angoff     512
 
 // Pipebombs
-sprite 380 angoff -768
-sprite 415 angoff 768
+sprite   380 angoff    -768
+sprite   415 angoff     768
 
 // Devastator & ammo
-sprite 52 angoff 512
+sprite    52 angoff     512
 
 // Shrinker ammo
-sprite 422 angoff 512
+sprite   422 angoff     512
 
 // Freezethrower & ammo
-sprite 43 angoff 1024
-sprite 420 angoff 256
-sprite 421 angoff 256
+sprite    43 angoff     1024
+sprite   420 angoff     256
+sprite   421 angoff     256
 
 
 
 // OVERRIDE
 
 // Fixes for badly aligned sprites
-sprite 282 nomdanim // spinning Enforcer gib
-sprite 347 mdzoff -550000 // lamp above helicopter crash site
-sprite 347 pitch 1
+sprite   282 nomdanim              // spinning Enforcer gib
+sprite   347 mdzoff    -550000     // lamp above helicopter crash site
+sprite   347 pitch      1
 
 // Forcing any floor aligned model to be rendered as sprite
-sprite 280 notmd
-sprite 286 notmd
+sprite   280 notmd
+sprite   286 notmd
 
 // Switches to be hidden
-sprite 19 notmd // Cash register
-sprite 102 notmd // Screen in spaceship set
-sprite 187 notmd // Telephone near subway
-sprite 481 notmd // Rocket fin in lunar set
+sprite    19 notmd                 // Cash register
+sprite   102 notmd                 // Screen in spaceship set
+sprite   187 notmd                 // Telephone near subway
+sprite   481 notmd                 // Rocket fin in lunar set
 
 
 
