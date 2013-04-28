@@ -232,17 +232,20 @@ polymost_mhk_patch()
   case "${MHKFILE}" in
     "E3L1.mhk")
       echo "${MHK_LINE}" >> "${EXTRACTDIR}/${MHKFILE}"
-      MHK_INSERT=`echo "${MHK_LINE}" | grep -oE "sprite\ 575\ pitch\ 1"`
+      MHK_INSERT=`echo "${MHK_LINE}" | grep -oE "Fixes\ for\ badly\ aligned\ sprites"`
       if [ ! "${MHK_INSERT}" = "" ] ; then
-        echo "sprite 591 mdxoff 425000 // underwater slimebabe (Polymost HRP)\r" \
+        echo "sprite   591 mdxoff     425000     // tile0603 naked1 hangbabe (Polymost HRP)\r" \
              >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite 591 pitch 1\r" >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite 592 mdxoff 425000 // underwater slimebabe (Polymost HRP)\r" \
+        echo "sprite   591 pitch      1          // tile0603 naked1 hangbabe (Polymost HRP)\r" \
              >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite 592 pitch 1\r" >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite 593 mdxoff 425000 // underwater slimebabe (Polymost HRP)\r" \
+        echo "sprite   592 mdxoff     425000     // tile0603 naked1 hangbabe (Polymost HRP)\r" \
              >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite 593 pitch 1\r" >> "${EXTRACTDIR}/${MHKFILE}"
+        echo "sprite   592 pitch      1          // tile0603 naked1 hangbabe (Polymost HRP)\r" \
+             >> "${EXTRACTDIR}/${MHKFILE}"
+        echo "sprite   593 mdxoff     425000     // tile0603 naked1 hangbabe (Polymost HRP)\r" \
+             >> "${EXTRACTDIR}/${MHKFILE}"
+        echo "sprite   593 pitch      1          // tile0603 naked1 hangbabe (Polymost HRP)\r" \
+             >> "${EXTRACTDIR}/${MHKFILE}"
       fi
       ;;
     "E3L3.mhk")

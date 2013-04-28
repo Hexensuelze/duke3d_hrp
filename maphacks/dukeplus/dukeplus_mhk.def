@@ -1,8 +1,9 @@
 //
 // Maps designed for the DukePlus gameplay mod
 //
-include maphacks/dukeplus/eternity/eternity_mhk.def     // Duke Nukem Eternity
-include maphacks/dukeplus/imperium/imperium_mhk.def     // Imperium
+include maphacks/dukeplus/eternity/eternity_mhk.def      // Duke Nukem Eternity
+include maphacks/dukeplus/imperium/imperium_mhk.def      // Imperium
+include maphacks/dukeplus/overkill/overkill_beta_mhk.def // Overkill beta
 
 
 mapinfo {
@@ -14,11 +15,43 @@ mapinfo {
 }
 
 mapinfo {
+   maptitle "City Flight"
+   //author "Dan 'DanM' Mason"
+   mapfile  "CITYFLIGHT.map"
+   mapmd4   a0d74c742af8ce1bb4904d3f4f276086 // 2009-12-27
+   //mhkfile  "not applicable"
+}
+
+mapinfo {
    maptitle "Dark Horizon"
    //author "Mike Norvak"
    mapfile  "DarkHorizon.map"
-   mapmd4   3e715ba60e688035cbeb73fe99ee602c // 2011-08-6
+   mapmd4   3e715ba60e688035cbeb73fe99ee602c // 2011-08-06
    mhkfile  "maphacks/dukeplus/DarkHorizon.mhk"
+}
+
+mapinfo {
+   maptitle "Desert Base (old version)"
+   //author "Mia Max"
+   mapfile  "Desertbase.map"
+   mapmd4   6c5abe0325fa8c861e0ee2da852b97df // 2008-06-29
+   mhkfile  "maphacks/dukeplus/Desertbase-2008-06-29.mhk"
+}
+
+mapinfo {
+   maptitle "Doom2 Remake"
+   //author "Marked"
+   mapfile  "DOOM2remake.map"
+   mapmd4   bcda18e1c4e01bf0c57bb41f8015bbb6 // 2013-02-03
+   mhkfile  "maphacks/dukeplus/DOOM2remake.mhk"
+}
+
+mapinfo {
+   maptitle "Mike's Map"
+   //author "Michael 'Micky C' Crisp"
+   mapfile  "mikesmap.map"
+   mapmd4   9bb8f7c754cd824cdd89b5ff6c7caff1 // 2010-04-09
+   mhkfile  "maphacks/dukeplus/mikesmap.mhk"
 }
 
 mapinfo {
