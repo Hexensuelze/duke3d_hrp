@@ -1,49 +1,98 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : Getmo.map - "USS Guantanamo Bay" by N.E.Voigt aka HangNail
 // Map Date : 2012-11-13
 // mapmd4   : e3744fb40edc2b0f13bc1f755254955a
-// Curr. HRP: r5.2.484
+// Curr. HRP: r5.2.494
 
 
-// Playthrough order
-sprite  2444 angoff    -512        // tile0049 shotgunammo
-sprite  1364 angoff     512        // tile0049 shotgunammo
-sprite  1189 angoff     512        // tile0049 shotgunammo
-sprite  1262 angoff    -512        // tile0049 shotgunammo
-sprite  1262 mdzoff     1000000    // tile0049 shotgunammo
-sprite  1262 pitch      1          // tile0049 shotgunammo
+sprite  1183 mdzoff     200000     // tile0028 shotgunsprite
+sprite  1183 roll      -1          // tile0028 shotgunsprite
+sprite  1364 angoff     1024       // tile0049 shotgunammo
+sprite  1182 angoff     256        // tile0054 shield
+sprite  1189 angoff    -768        // tile0049 shotgunammo
+sprite   578 angoff     512        // tile0023 rpgsprite
+sprite  1214 angoff    -256        // tile0052 sixpack
+sprite   571 angoff     512        // tile0044 rpgammo
+sprite  1213 angoff     512        // tile0052 sixpack
+sprite  1200 angoff     1024       // tile0049 shotgunammo
+sprite  1232 angoff     512        // tile0051 cola
 sprite   531 angoff     512        // tile0556 chair1
-sprite  1300 angoff     1024       // tile0049 shotgunammo
+sprite  1300 angoff    -512        // tile0049 shotgunammo
+sprite  1263 angoff     1024       // tile0049 shotgunammo
 sprite   214 angoff     1024       // tile0680 chair3
 sprite   212 angoff     512        // tile0680 chair3
 sprite   211 angoff    -512        // tile0680 chair3
 sprite   215 angoff     1024       // tile0680 chair3
 sprite   216 angoff     512        // tile0680 chair3
 sprite   218 angoff    -512        // tile0680 chair3
+sprite  1264 angoff     512        // tile0054 shield
+sprite  1265 angoff     640        // tile0054 shield
 sprite   320 angoff    -512        // tile0569 toilet
 sprite   321 angoff    -512        // tile0569 toilet
 sprite   322 angoff    -512        // tile0569 toilet
 sprite   323 angoff    -512        // tile0569 toilet
 sprite   324 angoff    -512        // tile0569 toilet
+sprite  1373 angoff     512        // tile0052 sixpack
+sprite   297 angoff    -512        // tile4496 broom
+sprite  1372 angoff     512        // tile0052 sixpack
+sprite   547 angoff     1024       // tile0022 chaingunsprite
+sprite   547 mdzoff     300000     // tile0022 chaingunsprite
+sprite   547 pitch      1          // tile0022 chaingunsprite
+sprite   549 angoff    -512        // tile0041 batteryammo
+sprite   554 angoff     512        // tile0047 hbombammo
+sprite   555 angoff     512        // tile0047 hbombammo
 sprite   497 angoff     1024       // tile0603 naked1 hangbabe
 sprite   495 angoff     256        // tile1323 fem5 polebabe
-sprite  1301 angoff     1024       // tile0049 shotgunammo
+sprite   494 angoff    -256        // tile1294 podfem1
+sprite   556 angoff     768        // tile0025 shrinkersprite
+sprite  2189 angoff     256        // tile0052 sixpack
+sprite  2188 angoff    -256        // tile0052 sixpack
+sprite  1301 angoff    -512        // tile0049 shotgunammo
 sprite   712 angoff    -512        // tile0556 chair1
 sprite   713 angoff    -512        // tile0556 chair1
 sprite   714 angoff     512        // tile0556 chair1
 sprite   715 angoff     512        // tile0556 chair1
-sprite  1302 angoff     1024       // tile0049 shotgunammo
+sprite  1302 angoff    -512        // tile0049 shotgunammo
+sprite  1303 angoff     768        // tile0049 shotgunammo
+sprite  1304 angoff    -256        // tile0049 shotgunammo
+sprite  1305 angoff     256        // tile0049 shotgunammo
 sprite   849 angoff    -512        // tile0569 toilet
 sprite   850 angoff    -512        // tile0569 toilet
 sprite   851 angoff    -512        // tile0569 toilet
 sprite   852 angoff    -512        // tile0569 toilet
 sprite   853 angoff    -512        // tile0569 toilet
+sprite  1309 angoff     512        // tile0055 steroids
+sprite   854 angoff     1024       // tile4496 broom
+sprite  1308 angoff     512        // tile0049 shotgunammo
+sprite  1394 mdzoff     500000     // tile0041 batteryammo
+sprite  1394 roll       1          // tile0041 batteryammo
+sprite  2182 angoff     512        // tile0052 sixpack
+sprite  2183 angoff     512        // tile0052 sixpack
+sprite  2184 angoff    -256        // tile0052 sixpack
 sprite  1177 angoff     512        // tile0060 accesscard red
-sprite  2235 angoff     1024       // tile0049 shotgunammo
-sprite  2236 angoff     1024       // tile0049 shotgunammo
-sprite  2237 angoff     1024       // tile0049 shotgunammo
+sprite  2317 angoff     1024       // tile0049 shotgunammo
+sprite  2318 angoff     1024       // tile0049 shotgunammo
+sprite  2242 angoff     256        // tile0052 sixpack
+sprite  2320 angoff     1024       // tile0049 shotgunammo
+sprite  2321 angoff     768        // tile0049 shotgunammo
+sprite  2322 angoff     1024       // tile0049 shotgunammo
+sprite  2323 angoff     1024       // tile0049 shotgunammo
+sprite  2217 angoff     512        // tile0024 freezesprite
+sprite  2221 angoff     512        // tile0023 rpgsprite
+sprite  2222 angoff     768        // tile0044 rpgammo
+sprite  2223 angoff     768        // tile0044 rpgammo
+sprite  2238 angoff     1024       // tile0054 shield
+sprite  2239 angoff     1024       // tile0054 shield
+sprite  2227 angoff     1024       // tile0042 devistatorammo
+sprite  2228 angoff     1024       // tile0042 devistatorammo
+sprite  2229 angoff     1024       // tile0042 devistatorammo
+sprite  2230 angoff     1024       // tile0042 devistatorammo
+sprite  2231 angoff    -768        // tile0047 hbombammo
+sprite  2232 angoff    -768        // tile0047 hbombammo
+sprite  2235 angoff    -512        // tile0049 shotgunammo
+sprite  2236 angoff    -512        // tile0049 shotgunammo
+sprite  2237 angoff    -512        // tile0049 shotgunammo
 sprite  2190 angoff    -512        // tile0556 chair1
 sprite  2191 angoff    -512        // tile0556 chair1
 sprite  2192 angoff    -512        // tile0556 chair1
