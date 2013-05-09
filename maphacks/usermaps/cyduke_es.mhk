@@ -1,31 +1,36 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : cyduke_es.map - "CyberDuke" by Eye del Cul
 // Map Date : 2011-11-01
 // mapmd4   : c96cc96cad3a7dff5651896363bddec5
-// Curr. HRP: r5.2.415
+// Curr. HRP: r5.2.495
 
 
 sprite   134 angoff     256        // tile0053 firstaid
 sprite   135 angoff     256        // tile0052 sixpack
 sprite   136 angoff     256        // tile0052 sixpack
+//sprite     ? angoff     256        // tile0052 sixpack (multiplayer)
+//sprite     ? angoff    -256        // tile0052 sixpack (multiplayer)
 sprite   121 angoff     1024       // tile0049 shotgunammo
 sprite   119 mdzoff    -500000     // tile0028 shotgunsprite
 sprite   119 roll       1          // tile0028 shotgunsprite
 sprite   120 angoff     1024       // tile0022 chaingunsprite
 sprite   120 mdzoff    -500000     // tile0022 chaingunsprite
 sprite   120 roll       1          // tile0022 chaingunsprite
-sprite  3118 angoff    -512        // tile0049 shotgunammo
+sprite  3118 angoff    -768        // tile0049 shotgunammo
 sprite  3119 angoff    -768        // tile0054 shield
-sprite  2962 angoff     512        // tile0047 hbombammo
-sprite  2963 angoff     512        // tile0047 hbombammo
-sprite   246 angoff     512        // tile0557 chair2
+sprite  2962 angoff    -768        // tile0047 hbombammo
+sprite  2963 angoff    -256        // tile0047 hbombammo
+sprite  2940 angoff     1024       // tile0023 rpgsprite
+sprite   245 angoff     128        // tile0556 chair1
+sprite   246 angoff     384        // tile0557 chair2
 sprite   247 angoff     512        // tile0556 chair1
+sprite  1329 angoff    -384        // tile0556 chair1
 sprite  3243 angoff     512        // tile0051 cola
 sprite  3244 angoff     512        // tile0051 cola
 sprite  3199 angoff     512        // tile0049 shotgunammo
-sprite  3050 angoff    -512        // tile0044 rpgammo
+sprite  3018 angoff    -256        // tile0052 sixpack
+sprite  3050 angoff     512        // tile0044 rpgammo
 sprite  2993 angoff     512        // tile0041 batteryammo
 sprite  2994 angoff     512        // tile0049 shotgunammo
 sprite  2878 angoff     1024       // tile0060 accesscard blue
@@ -33,11 +38,15 @@ sprite  2879 angoff     1024       // tile0060 accesscard red
 sprite  2880 angoff     1024       // tile0060 accesscard yellow
 sprite  3127 angoff     1024       // tile0041 batteryammo
 sprite  3129 angoff     256        // tile0051 cola
+sprite  3443 angoff     512        // tile0023 rpgsprite (multiplayer)
 sprite  3144 angoff    -256        // tile0051 cola
-sprite  3250 angoff     1024       // tile0059 heatsensor
+sprite  3146 angoff    -256        // tile0051 cola
+sprite  3145 angoff     256        // tile0051 cola
+sprite  3250 angoff     512        // tile0059 heatsensor
 sprite  3153 angoff     512        // tile0052 sixpack
 sprite  2030 angoff     1024       // tile0557 chair2
 sprite  3084 angoff     1024       // tile0041 batteryammo
+sprite  2484 angoff    -768        // tile0025 shrinkersprite
 sprite  3072 angoff     512        // tile0051 cola
 sprite  3073 angoff    -512        // tile0049 shotgunammo
 sprite  2928 angoff    -512        // tile0556 chair1
