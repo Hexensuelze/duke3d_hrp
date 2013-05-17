@@ -1,11 +1,14 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : NsA.map - "Nightshade Army" by Mike Norvak
 // Map Date : 2010-08-05
 // mapmd4   : 41ef882d37747d9cbe49c81b608c03fd
-// Curr. HRP: r5.2.484
+// Curr. HRP: r5.2.498
 
+
+// 0-370 / 690-955
+//sprite     ? angoff     512        // tile0051 cola
+sprite   370 angoff    -256        // tile0052 sixpack
 sprite  7109 angoff    -512        // tile0049 shotgunammo
 sprite  7109 mdzoff     50000      // tile0049 shotgunammo
 sprite  7109 pitch      1          // tile0049 shotgunammo
@@ -16,6 +19,7 @@ sprite   710 notmd                 // tile4386 (power line)
 sprite   712 notmd                 // tile4386 (power line)
 sprite   713 notmd                 // tile4386 (power line)
 sprite   715 notmd                 // tile4386 (power line)
+sprite   933 angoff    -512        // tile0049 shotgunammo
 sprite  4883 angoff     512        // tile0049 shotgunammo
 sprite  4664 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  8078 notmd                 // tile0164 dipswitch2
@@ -35,6 +39,9 @@ sprite  7059 nomdanim              // tile1294 podfem1
 sprite  2925 angoff     512        // tile0053 firstaid
 sprite  2925 mdzoff     50000      // tile0053 firstaid
 sprite  2925 pitch      1          // tile0053 firstaid
+sprite  4647 angoff     512        // tile0049 shotgunammo
+sprite  4647 mdzoff     500000     // tile0049 shotgunammo
+sprite  4647 roll      -1          // tile0049 shotgunammo
 sprite  4560 angoff     512        // tile0049 shotgunammo
 sprite  4559 angoff    -512        // tile0025 shrinkersprite
 sprite  5554 angoff     512        // tile0049 shotgunammo
@@ -43,16 +50,28 @@ sprite  4629 angoff     256        // tile0052 sixpack
 //sprite  4629 mdzoff     1000000    // tile0052 sixpack
 //sprite  4629 pitch      1          // tile0052 sixpack
 //sprite     ? angoff     512        // tile0052 sixpack
+sprite  5559 angoff     768        // tile0044 rpgammo
+sprite  5559 mdzoff     500000     // tile0044 rpgammo
+sprite  5559 pitch      1          // tile0044 rpgammo
 sprite  7265 angoff     512        // tile0037 freezeammo
 sprite  7218 nomdanim              // tile1268 (tile1266 rat)
+sprite  7224 notmd                 // tile4408 (tile4407 robotmouse)
 sprite  7253 angoff     512        // tile0053 firstaid
 sprite  5599 angoff     768        // tile0049 shotgunammo
+sprite  4954 pitch      128        // tile0044 rpgammo
+sprite  3369 angoff     512        // tile0025 shrinkersprite
+sprite  3369 mdzoff     500000     // tile0025 shrinkersprite
+sprite  3369 roll       1          // tile0025 shrinkersprite
+sprite  5555 angoff    -512        // tile0024 freezesprite
 sprite  5489 angoff     512        // tile0049 shotgunammo
 sprite  6064 angoff     512        // tile0049 shotgunammo
 sprite  7256 angoff     512        // tile0049 shotgunammo
 sprite  5503 angoff     1024       // tile0041 batteryammo
 sprite  6063 angoff     1024       // tile0041 batteryammo
 sprite  6065 angoff     1024       // tile0041 batteryammo
+sprite  7721 angoff     512        // tile0049 shotgunammo
+sprite  7721 mdzoff     900000     // tile0049 shotgunammo
+sprite  7721 roll      -1          // tile0049 shotgunammo
 sprite  5481 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  8230 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  8257 nomdanim              // tile1056 (tile1055 (film reel))
