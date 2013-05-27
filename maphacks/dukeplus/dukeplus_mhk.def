@@ -1,6 +1,7 @@
 //
 // Maps designed for the DukePlus gameplay mod
 //
+
 include maphacks/dukeplus/eternity/eternity_mhk.def      // Duke Nukem Eternity
 include maphacks/dukeplus/imperium/imperium_mhk.def      // Imperium
 include maphacks/dukeplus/overkill/overkill_beta_mhk.def // Overkill beta
@@ -81,6 +82,14 @@ mapinfo {
 }
 
 mapinfo {
+   maptitle "Duke Plus Community Build Project"
+   //author "Luciano 'Gambini' Gallo, Mikko Sandt, Crux Borealis & Rigelblast, Merlijn van Oostrum, Maarten van Oostrum"
+   mapfile  "dpcbp.map"
+   mapmd4   c47d6ff1b525f0800edd518a9fea9476 // 2011-05-12
+   mhkfile  "maphacks/dukeplus/dpcbp.mhk"
+}
+
+mapinfo {
    maptitle "(Duke Plus Effects, old)"
    //author "Dan 'DeeperThought' Gaskill"
    mapfile  "!DP.map"
@@ -113,11 +122,27 @@ mapinfo {
 }
 
 mapinfo {
+   maptitle "Dukecide"
+   //author "Mikko Sandt"
+   mapfile  "Dukecide.map"
+   mapmd4   a8baa2791ee8eb62225c9632c817cb45 // 2010-06-14
+   mhkfile  "maphacks/dukeplus/Dukecide.mhk"
+}
+
+mapinfo {
+   maptitle "From Base to Base"
+   //author "CarThief"
+   mapfile  "FBTB.map"
+   mapmd4   1f37b2884d72e18fa58228684fc333f5 // 2009-07-29
+   mhkfile  "maphacks/dukeplus/FBTB.mhk"
+}
+
+mapinfo {
    maptitle "Hollywood Holocaust Remake Part 1"
    //author "Bruno"
    mapfile  "mapE1L1A.map"
    mapmd4   c54adb55f335da0918890c77d1739732 // 2013-05-10
-   //mhkfile  "none"
+   mhkfile  "maphacks/dukeplus/mapE1L1A.mhk"
 }
 
 mapinfo {
@@ -192,30 +217,6 @@ mapinfo {
    mhkfile  "maphacks/dukeplus/WCTime.mhk"
 }
 /*
-mapinfo {
-   maptitle "Duke Plus Community Build Project"
-   //author "Luciano 'Gambini' Gallo, Mikko Sandt, Crux Borealis & Rigelblast, Merlijn van Oostrum, Maarten van Oostrum"
-   mapfile  "dpcbp.map"
-   mapmd4   c47d6ff1b525f0800edd518a9fea9476 // 2011-05-12
-   mhkfile  "maphacks/dukeplus/dpcbp.mhk"
-}
-
-mapinfo {
-   maptitle "Dukecide"
-   //author "Mikko Sandt"
-   mapfile  "Dukecide.map"
-   mapmd4   a8baa2791ee8eb62225c9632c817cb45 // 2010-06-14
-   mhkfile  "maphacks/dukeplus/Dukecide.mhk"
-}
-
-mapinfo {
-   maptitle "From Base to Base"
-   //author "CarThief"
-   mapfile  "FBTB.map"
-   mapmd4   1f37b2884d72e18fa58228684fc333f5 // 2009-07-29
-   mhkfile  "maphacks/dukeplus/FBTB.mhk"
-}
-
 mapinfo {
    maptitle "From Base to Base 2"
    //author "CarThief"
