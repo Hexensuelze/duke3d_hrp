@@ -188,8 +188,8 @@ model "highres/sprites/pickups/0051_healthbox.md3" {
 
 // Health Bottle (52)
 model "highres/sprites/pickups/0052_healthbottle.md3" {
-   scale 1 shade 0
-   skin { pal 0 file "highres/sprites/pickups/0052_healthbottle_d.png" specpower 1 specfactor 1.5 }
+   scale 1.05 shade 0
+   skin { pal 0 file "highres/sprites/pickups/0052_healthbottle_d.png" specpower 5 specfactor 2 }
    normal { file "highres/sprites/pickups/0052_healthbottle_n.png" }
    specular { file "highres/sprites/pickups/0052_healthbottle_s.png" }
    frame { name "Frame 0" tile 52 }
@@ -200,9 +200,9 @@ texture 53 {
    pal 0 { file "highres/sprites/pickups/0053.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.35 yscale 0.55 }
 }
-model "highres/sprites/pickups/0053_firstaid.md3" {
+model "highres/sprites/pickups_polymost/0053_firstaid.md3" {
    scale 4 shade 4
-   skin { pal 0 file "highres/sprites/pickups/0053_firstaid.png" }
+   skin { pal 0 file "highres/sprites/pickups_polymost/0053_firstaid.png" }
    frame { name "frame_1" tile 53 }
 }
 
