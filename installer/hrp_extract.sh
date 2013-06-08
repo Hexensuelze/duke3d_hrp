@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.5.1  2013-01-22
+# Duke Nukem 3D High Resolution Pack Extractor  v0.5.2  2013-06-08
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -468,7 +468,8 @@ parse_defs()
 
     #DOS only: DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ //`
     #DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ // | sed s/\\\r//`
-    DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ // | sed s/\\\/\\\/.*// | sed s/\\\r//`
+#    DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | sed s/include\ // | sed s/\\\/\\\/.*// | sed s/\\\r//`
+    DEF_FILE=`echo "${DEF_LINE}" | grep -wE "^include" | awk '{ print $2 }' | sed 's/\r//'`
     if [ "${DEF_FILE}" != "" ] ; then
       cp -p      "${DEF_FILE}" "${EXTRACTDIR}/${DEF_FILE}"
       parse_defs "${DEF_FILE}"
