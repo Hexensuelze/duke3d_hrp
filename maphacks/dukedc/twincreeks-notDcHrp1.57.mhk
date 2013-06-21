@@ -3,25 +3,32 @@
 // Level    : E1L1.map - "Twin Creeks" by Frode 'Puritan' Waksvik
 // Map Date : 2013-01-27
 // mapmd4   : 1ea00e840075cdfde20d7949d0009d42
-// Curr. HRP: r5.2.432
+// Curr. HRP: r5.2.508
 
 // Note : "Twin Creeks" borrows tiles014.art from DukeDC
 // Add the DukeDC HRP to your autoload folder (any version NEWER than v1.57)
+
 
 sprite   315 angoff     512        // tile0061 boots
 sprite    46 angoff     512        // tile0053 firstaid
 sprite  2230 angoff     512        // tile0060 accesscard blue
 sprite  1048 angoff    -384        // tile0557 chair2
 sprite  1465 angoff     256        // tile0037 freezeammo
-sprite  1044 angoff     512        // tile3640 wallphone (DukeDC)
-sprite  1044 pitch     -512        // tile3640 wallphone (DukeDC)
+sprite  1044 angoff     512        // tile3640 (dukedc wallphone)
+sprite  1044 pitch     -512        // tile3640 (dukedc wallphone)
 sprite  2387 angoff     512        // tile0556 chair1
 sprite  2386 angoff    -512        // tile0556 chair1
 sprite  2381 angoff     1024       // tile0557 chair2
 sprite  2382 angoff     1024       // tile0557 chair2
 sprite  2380 angoff    -256        // tile0557 chair2
-sprite  2388 angoff    -512        // tile0028 shotgunsprite
+sprite  2388 angoff     512        // tile0028 shotgunsprite
 sprite  2112 notmd                 // tile0132 slotdoor
+sprite  1026 mdzoff     80000      // tile0574 (tile0670 (faucet))
+sprite  1026 roll       1          // tile0574 (tile0670 (faucet))
+sprite  1027 mdzoff     80000      // tile0574 (tile0670 (faucet))
+sprite  1027 roll       1          // tile0574 (tile0670 (faucet))
+sprite  1028 mdzoff     80000      // tile0574 (tile0670 (faucet))
+sprite  1028 roll       1          // tile0574 (tile0670 (faucet))
 sprite  1040 angoff     512        // tile0569 toilet
 sprite  1039 angoff     512        // tile0569 toilet
 sprite  2565 angoff     512        // tile1741 liztroopontoilet
@@ -54,7 +61,7 @@ sprite  2441 angoff     512        // tile0556 chair1
 //sprite  2901 pitch     -1          // tile2360 rotategun
 sprite  2598 angoff     512        // tile0025 shrinkersprite
 sprite  2717 angoff     1024       // tile0041 batteryammo
-sprite  2605 angoff    -256        // tile0026 heavyhbomb
+sprite  2605 angoff     768        // tile0026 heavyhbomb
 sprite  2718 angoff     512        // tile0037 freezeammo
 sprite  2283 angoff    -512        // tile0056 airtank
 sprite  2634 angoff    -512        // tile0049 shotgunammo
@@ -105,7 +112,7 @@ sprite  3050 pitch     -1          // tile0049 shotgunammo
 sprite  2164 notmd                 // tile0168 dipswitch3
 sprite  2846 angoff     1024       // tile0869 statueflash (geisha)
 sprite  2173 angoff     1024       // tile0556 chair1
-sprite  2170 angoff     1024       // tile3640 wallphone (DukeDC)
+sprite  2170 angoff     1024       // tile3649 (dukedc deskphone)
 sprite  2200 notmd                 // tile0168 dipswitch3
 sprite  2811 angoff     384        // tile0955 bottle2
 sprite  2219 angoff    -768        // tile0044 rpgammo
@@ -119,7 +126,7 @@ sprite  2878 angoff     1024       // tile0981 hydrent
 sprite  2879 angoff     1024       // tile0981 hydrent
 sprite  3054 angoff     1024       // tile0041 batteryammo
 sprite  3055 angoff     1024       // tile0041 batteryammo
-sprite  2499 angoff     384        // tile0053 firstaid
+sprite  2499 angoff    -640        // tile0053 firstaid
 sprite  2483 angoff    -384        // tile0060 accesscard red
 sprite  3074 angoff    -512        // tile0054 shield
 sprite  2328 angoff    -384        // tile0042 devistatorammo
