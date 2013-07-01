@@ -1,19 +1,74 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : ie4.map - Imperium: "Alien Sky Fortress"
 //            by Kaiser, William Gee, Maarten & Merlijn van Oostrum
 // Map Date : 2011-08-18
 // mapmd4   : 0734c53eb7eb7ad5b93a654c0831e27a
-// Curr. HRP: r5.2.415
+// Curr. HRP: r5.2.509
+
 
 sprite  1540 angoff    -768        // tile0049 shotgunammo
-sprite  1541 angoff    -768        // tile0044 rpgammo
-sprite  3504 angoff     512        // tile0053 firstaid
+sprite  1541 angoff     256        // tile0044 rpgammo
+sprite  3504 angoff    -512        // tile0053 firstaid
+sprite   866 angoff     512        // tile0028 shotgunsprite
+sprite  2022 angoff    -768        // tile0047 hbombammo
+sprite  2022 mdzoff     900000     // tile0047 hbombammo
+sprite  2022 pitch     -1          // tile0047 hbombammo
+sprite  2023 angoff    -256        // tile0023 rpgsprite
+sprite  2023 mdzoff     900000     // tile0023 rpgsprite
+sprite  2023 pitch     -1          // tile0023 rpgsprite
+sprite  1537 mdyoff     500000     // tile0021 firstgunsprite
+sprite  1537 pitch      1          // tile0021 firstgunsprite
+sprite  1539 angoff    -512        // tile0022 chaingunsprite
+sprite  1539 mdzoff     300000     // tile0022 chaingunsprite
+sprite  1539 roll       1          // tile0022 chaingunsprite
 sprite  1538 angoff     1024       // tile0041 batteryammo
+sprite  1538 mdzoff     1200000    // tile0041 batteryammo
+sprite  1538 pitch      1          // tile0041 batteryammo
+sprite  1803 angoff    -512        // tile0054 shield
+sprite  1804 angoff    -512        // tile0022 chaingunsprite
+sprite  1805 angoff    -256        // tile0041 batteryammo
+sprite  1806 angoff     1024       // tile0041 batteryammo
+sprite  1933 angoff     768        // tile0049 shotgunammo
+sprite  1893 angoff     768        // tile0049 shotgunammo
+
+sprite  1572 angoff    -512        // tile0053 firstaid
+sprite  1572 mdzoff     400000     // tile0053 firstaid
+sprite  1572 pitch     -2          // tile0053 firstaid
+sprite  1572 roll      -1          // tile0053 firstaid
+sprite  3351 angoff    -256        // tile0051 cola
+sprite  2084 angoff     512        // tile0044 rpgammo
+sprite  2079 angoff     512        // tile0027 tripbombsprite
+sprite  2080 angoff     512        // tile0027 tripbombsprite
+sprite  2081 angoff     512        // tile0027 tripbombsprite
+sprite  2078 angoff    -768        // tile0026 heavyhbomb
+sprite  2076 angoff    -384        // tile0026 heavyhbomb
+sprite  2077 angoff    -512        // tile0026 heavyhbomb
+sprite  2069 angoff     512        // tile0041 batteryammo
+sprite  2068 angoff    -512        // tile0037 freezeammo
+sprite  1922 angoff     256        // tile0051 cola
+sprite  1570 angoff     768        // tile0051 cola
+sprite  2421 angoff     1024       // tile0047 hbombammo
+sprite  2429 angoff     640        // tile0051 cola
+sprite  2428 angoff    -640        // tile0051 cola
+sprite  2123 angoff     256        // tile0054 shield
+sprite  2122 angoff     512        // tile0049 shotgunammo
+sprite  2125 angoff     1024       // tile0051 cola
+sprite  1949 angoff    -256        // tile0044 rpgammo
+sprite  2430 angoff    -768        // tile0051 cola
+sprite  2431 angoff    -768        // tile0051 cola
+sprite  2249 angoff     256        // tile0024 freezesprite
+sprite  1967 angoff     512        // tile0052 sixpack
+sprite  1918 angoff     1024       // tile0049 shotgunammo
+sprite  2034 angoff     512        // tile0049 shotgunammo
+sprite  3505 angoff    -512        // tile0054 shield
+sprite  2422 angoff    -512        // tile0025 shrinkersprite
+sprite  2423 angoff    -512        // tile0046 crystalammo
+
 sprite  1542 angoff     256        // tile0052 sixpack
 sprite  1916 angoff     1024       // tile0041 batteryammo
 sprite  1917 angoff     1024       // tile0041 batteryammo
+
 //sprite  2274 angoff     ???        // tile0842 (no smoke)
 //sprite  2276 angoff     ???        // tile0842 (no smoke)
 sprite  1509 angoff    -512        // tile0060 accesscard blue
@@ -21,8 +76,8 @@ sprite  1826 angoff     512        // tile0059 heatsensor
 sprite  3028 angoff     1024       // tile0041 batteryammo
 sprite  3028 mdzoff     900000     // tile0041 batteryammo
 sprite  3028 roll       1          // tile0041 batteryammo
-sprite  3029 mdzoff    -1500000    // tile0046 crystalammo
-sprite  3029 roll       1          // tile0046 crystalammo
+sprite  3029 mdzoff     1500000    // tile0046 crystalammo
+sprite  3029 roll      -1          // tile0046 crystalammo
 sprite  3030 angoff     1024       // tile0049 shotgunammo
 sprite  3030 mdzoff     2000000    // tile0049 shotgunammo
 sprite  3030 roll       1          // tile0049 shotgunammo
@@ -31,6 +86,8 @@ sprite  2035 angoff     512        // tile0051 cola
 sprite  3442 angoff     512        // tile0051 cola
 sprite  1945 angoff     1024       // tile0041 batteryammo
 sprite  2067 angoff     1024       // tile0054 shield
+sprite  2066 angoff    -768        // tile0026 heavyhbomb
+sprite  2075 angoff     896        // tile0026 heavyhbomb
 sprite  2074 angoff     1024       // tile0059 heatsensor
 sprite  2303 angoff     384        // tile0053 firstaid
 sprite  2181 angoff     512        // tile0054 shield
@@ -38,5 +95,6 @@ sprite  2180 angoff    -512        // tile0044 rpgammo
 sprite  2301 angoff    -512        // tile0044 rpgammo
 sprite  2302 angoff     512        // tile0023 rpgsprite
 sprite  1567 angoff    -512        // tile0060 accesscard yellow
-sprite  1531 angoff     512        // tile0047 hbombammo
+sprite  1531 angoff    -512        // tile0047 hbombammo
+sprite  1534 angoff     1024       // tile0042 devistatorammo
 sprite  1533 angoff     1024       // tile0041 batteryammo

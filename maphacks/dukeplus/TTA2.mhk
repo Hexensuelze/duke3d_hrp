@@ -3,7 +3,7 @@
 // Level    : TTA2.map - "Tribute to Action II" by Danny 'DanM' Mason
 // Map Date : 2010-01-05
 // mapmd4   : 63bf251f6c4a3d1c04b1177a963176a3
-// Curr. HRP: r5.2.495
+// Curr. HRP: r5.2.509
 
 
 sprite   251 angoff    -256        // tile0052 sixpack
@@ -14,7 +14,7 @@ sprite   460 angoff     512        // tile0049 shotgunammo
 sprite   461 angoff     512        // tile0049 shotgunammo
 sprite   569 mdxoff     20000      // tile0041 batteryammo
 sprite   569 pitch      1          // tile0041 batteryammo
-sprite   465 angoff    -128        // tile0028 shotgunsprite
+sprite   465 angoff     896        // tile0028 shotgunsprite
 sprite     1 angoff    -256        // tile0977 genericpole
 sprite     1 mdzoff     120000     // tile0977 genericpole
 sprite     1 pitch     -1          // tile0977 genericpole
@@ -41,16 +41,30 @@ sprite   271 pitch     -1          // tile0977 genericpole
 sprite  1520 angoff     512        // tile0049 shotgunammo
 sprite   193 mdzoff     100        // tile0916 fireext
 sprite   193 pitch      1          // tile0916 fireext
-sprite   563 angoff     512        // tile0053 firstaid
+sprite   563 angoff    -512        // tile0053 firstaid
 sprite  2131 angoff     512        // tile0049 shotgunammo
-sprite   609 pitch      128        // tile0041 batteryammo
-sprite   609 roll       128        // tile0041 batteryammo
+sprite   265 mdzoff     150000     // tile0574 (tile0670 (faucet))
+sprite   265 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite    12 mdzoff     150000     // tile0574 (tile0670 (faucet))
+sprite    12 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   161 mdzoff     150000     // tile0574 (tile0670 (faucet))
+sprite   161 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite    25 mdzoff     300000     // tile0574 (tile0670 (faucet))
+sprite    25 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   609 pitch     -64         // tile0041 batteryammo
+sprite   609 roll      -64         // tile0041 batteryammo
 sprite  1533 angoff     512        // tile0046 crystalammo
 sprite   619 angoff     512        // tile0046 crystalammo
 sprite  1622 angoff     512        // tile0046 crystalammo
 sprite  1725 angoff     512        // tile0049 shotgunammo
 sprite   596 angoff     512        // tile0060 accesscard blue
-sprite   402 angoff     192        // tile0028 shotgunsprite
+sprite   390 angoff     128        // tile0041 batteryammo
+sprite  1624 angoff     832        // tile0059 heatsensor
+sprite  1624 mdzoff     400000     // tile0059 heatsensor
+sprite  1624 roll       1          // tile0059 heatsensor
+sprite   496 mdzoff     150000     // tile1045 donuts
+sprite   496 roll       1          // tile1045 donuts
+sprite   402 angoff    -832        // tile0028 shotgunsprite
 sprite  1503 angoff     512        // tile0049 shotgunammo
 sprite  2111 angoff     512        // tile0049 shotgunammo
 sprite   346 angoff    -512        // tile0024 freezesprite
@@ -67,7 +81,7 @@ sprite  1625 mdzoff     200000     // tile0055 steroids
 sprite  1625 roll      -1          // tile0055 steroids
 sprite  1527 angoff     512        // tile0049 shotgunammo
 sprite  1528 angoff     1024       // tile0041 batteryammo
-sprite   337 angoff     512        // tile0053 firstaid
+sprite   337 angoff    -512        // tile0053 firstaid
 sprite  1953 angoff     512        // tile0037 freezeammo
 sprite  1954 angoff     512        // tile0037 freezeammo
 sprite   331 pitch      64         // tile0023 rpgsprite
@@ -117,7 +131,7 @@ sprite  1686 angoff     384        // tile0049 shotgunammo
 sprite  1165 mdzoff     100000     // tile1353 spacemarine
 sprite  1165 pitch      5          // tile1353 spacemarine
 sprite  1165 roll       9          // tile1353 spacemarine
-sprite  1962 angoff     512        // tile0053 firstaid
+sprite  1962 angoff    -512        // tile0053 firstaid
 sprite  1575 angoff     512        // tile0049 shotgunammo
 sprite  1661 angoff     512        // tile0049 shotgunammo
 sprite  1662 angoff     512        // tile0049 shotgunammo

@@ -3,14 +3,20 @@
 // Level    : A.DREAM2.MAP - "A.dream 2" by Zykov Eddy
 // Map Date : 2009-01-12
 // mapmd4   : cb6816a7259ef73012a623b8fd3944f6
-// Curr. HRP: r5.2.484
+// Curr. HRP: r5.2.509
 
 
 sprite  1265 angoff     640        // tile0060 accesscard yellow
-sprite  1266 angoff     128        // tile0021 firstgunsprite (a.dream shotgun)
+sprite  1265 mdzoff     500000     // tile0060 accesscard yellow
+sprite  1265 roll       1          // tile0060 accesscard yellow
+sprite  1266 angoff     192        // tile0021 firstgunsprite (a.dream shotgun)
+sprite  1266 mdzoff     700000     // tile0021 firstgunsprite (a.dream shotgun)
+sprite  1266 pitch     -1          // tile0021 firstgunsprite (a.dream shotgun)
 sprite  1267 angoff     512        // tile0040 ammo (a.dream shotgun ammo)
+sprite  1267 mdzoff     700000     // tile0040 ammo (a.dream shotgun ammo)
+sprite  1267 pitch      1          // tile0040 ammo (a.dream shotgun ammo)
 sprite  2266 angoff     512        // tile0040 ammo (a.dream shotgun ammo)
-sprite  2266 mdzoff     900000     // tile0040 ammo (a.dream shotgun ammo)
+sprite  2266 mdzoff     700000     // tile0040 ammo (a.dream shotgun ammo)
 sprite  2266 pitch     -1          // tile0040 ammo (a.dream shotgun ammo)
 sprite  1287 angoff     640        // tile0040 ammo (a.dream shotgun ammo)
 sprite  1288 angoff     384        // tile0051 cola
@@ -61,14 +67,17 @@ sprite   590 mdxoff     70000      // tile0979 hanglight
 sprite   590 pitch     -1          // tile0979 hanglight
 sprite   660 notmd                 // tile4386 (power line)
 sprite  1292 angoff    -640        // tile0040 ammo (a.dream shotgun ammo)
+sprite  1293 angoff     1024       // tile0051 cola
+sprite  1293 mdzoff     500000     // tile0051 cola
+sprite  1293 roll      -1          // tile0051 cola
 sprite  1283 angoff     512        // tile0051 cola
 sprite  1283 mdzoff     500000     // tile0051 cola
 sprite  1283 pitch     -1          // tile0051 cola
 sprite  1284 angoff     512        // tile0051 cola
 sprite  1284 mdzoff     500000     // tile0051 cola
 sprite  1284 pitch     -1          // tile0051 cola
-sprite  1294 angoff     192        // tile0040 ammo (a.dream shotgun ammo)
-sprite  1294 pitch      128        // tile0040 ammo (a.dream shotgun ammo)
+sprite  1294 angoff    -320        // tile0040 ammo (a.dream shotgun ammo)
+sprite  1294 roll      -128        // tile0040 ammo (a.dream shotgun ammo)
 sprite  1295 angoff     192        // tile0051 cola
 sprite  1286 angoff     512        // tile0040 ammo (a.dream shotgun ammo)
 sprite  1285 angoff     512        // tile0051 cola
@@ -77,6 +86,8 @@ sprite   645 angoff     640        // tile4419 (openbomb)
 sprite   669 angoff    -512        // tile0060 accesscard blue
 sprite  1129 angoff    -128        // tile0060 accesscard red
 sprite  1303 angoff     256        // tile0040 ammo (a.dream shotgun ammo)
+sprite   172 angoff     512        // tile4370 desklamp
+sprite    74 angoff    -640        // tile4438 coffeemug
 sprite   145 notmd                 // tile0164 dipswitch2
 sprite  1305 angoff     1024       // tile0040 ammo (a.dream shotgun ammo)
 sprite  1011 angoff     768        // tile1160 bottle13 (Jack Daniels)
@@ -84,6 +95,12 @@ sprite  1316 angoff     1024       // tile0040 ammo (a.dream shotgun ammo)
 sprite  1316 mdzoff     2700000    // tile0040 ammo (a.dream shotgun ammo)
 sprite  1316 mdxoff    -215000     // tile0040 ammo (a.dream shotgun ammo)
 sprite  1316 pitch     -1          // tile0040 ammo (a.dream shotgun ammo)
+sprite  1314 angoff     1024       // tile0051 cola
+sprite  1315 angoff     1024       // tile0051 cola
+sprite  1313 angoff    -768        // tile0040 ammo (a.dream shotgun ammo)
+sprite  1313 mdzoff     100000     // tile0040 ammo (a.dream shotgun ammo)
+sprite  1313 pitch      1          // tile0040 ammo (a.dream shotgun ammo)
+sprite  1313 roll       1          // tile0040 ammo (a.dream shotgun ammo)
 sprite   365 angoff     384        // tile0956 bottle3
 sprite  1101 angoff    -256        // tile0956 bottle3
 sprite  1094 angoff    -512        // tile0026 heavyhbomb
@@ -99,8 +116,10 @@ sprite  2138 mdzoff     300000     // tile0040 ammo (a.dream shotgun ammo)
 sprite  2138 roll       1          // tile0040 ammo (a.dream shotgun ammo)
 sprite  2139 mdzoff     500000     // tile0051 cola
 sprite  2139 pitch     -1          // tile0051 cola
+//sprite  2136 angoff    -256        // tile0059 heatsensor (a.dream flashlight)
 sprite  2272 angoff    -256        // tile0051 cola
 sprite  2270 angoff     512        // tile0051 cola
+//sprite  2188 angoff     768        // tile0059 heatsensor (a.dream flashlight)
 sprite  2271 angoff     512        // tile0051 cola
 sprite  2219 nomdanim              // tile2125 (tile2120 lizman)
 sprite  2219 mdxoff     5000       // tile2125 (tile2120 lizman)
