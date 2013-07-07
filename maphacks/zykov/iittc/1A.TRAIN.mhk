@@ -1,13 +1,21 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : 1A.TRAIN.MAP - IITTC : "To the Center of LA" by Zykov Eddy
+// Level    : 1A.TRAIN.MAP - IITTC v1.5 : "To the Center of LA" by Zykov Eddy
 // Map Date : 2012-05-15
 // mapmd4   : 3ef7637da54ca158309c454377d10b09
-// Curr. HRP: r5.2.481
+// Curr. HRP: r5.2.510
 
 
+sprite     8 angoff     1024       // tile4369 (emergency light)
 sprite   436 angoff     512        // tile0051 cola
-sprite   419 angoff    -256        // tile0028 shotgunsprite
+sprite   377 angoff     1024       // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
+sprite   377 mdzoff     500000     // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
+sprite   377 roll      -1          // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
+sprite   419 angoff    -768        // tile0028 shotgunsprite
+sprite   366 angoff     512        // tile0029 devistatorsprite (multiplayer)
+sprite   376 angoff     512        // tile0024 freezesprite  IITTC flame cannon (multiplayer)
+sprite   376 mdzoff     500000     // tile0024 freezesprite  IITTC flame cannon (multiplayer)
+sprite   376 pitch     -1          // tile0024 freezesprite  IITTC flame cannon (multiplayer)
 sprite   378 angoff     1024       // tile0022 chaingunsprite
 sprite   444 angoff    -512        // tile0049 shotgunammo
 sprite   462 mdxoff     20000      // tile1235 (tile1233 money)
@@ -32,14 +40,16 @@ sprite   105 roll      -1          // tile4413 mailbag
 sprite   442 angoff     1024       // tile0049 shotgunammo
 sprite   475 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   475 pitch     -1          // tile1235 (tile1233 money)
-sprite   443 angoff    -512        // tile0049 shotgunammo
+sprite   443 angoff     512        // tile0049 shotgunammo
+sprite   443 mdzoff     900000     // tile0049 shotgunammo
+sprite   443 pitch     -1          // tile0049 shotgunammo
 sprite   191 mdxoff     45000      // tile0170 accessswitch2 yellow
 sprite   191 pitch      1          // tile0170 accessswitch2 yellow
 sprite   191 roll       1024       // tile0170 accessswitch2 yellow
 sprite   210 mdxoff     45000      // tile0170 accessswitch2 yellow
 sprite   210 pitch      1          // tile0170 accessswitch2 yellow
 sprite   210 roll       1024       // tile0170 accessswitch2 yellow
-sprite   447 angoff     512        // tile0041 batteryammo
+sprite   447 angoff     1024       // tile0041 batteryammo
 sprite   468 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   468 pitch     -1          // tile1235 (tile1233 money)
 sprite   467 mdxoff     20000      // tile1235 (tile1233 money)
@@ -52,19 +62,32 @@ sprite   469 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   469 pitch     -1          // tile1235 (tile1233 money)
 sprite   498 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   498 pitch     -1          // tile1235 (tile1233 money)
-sprite   480 angoff     1024       // tile1472  IITTC rpgsprite
+sprite   480 angoff     512        // tile1472  IITTC rpgsprite
+sprite   481 angoff     512        // tile1473  IITTC flame cannon
+sprite   482 angoff    -512        // tile1476  IITTC devistatorsprite
+sprite   482 mdzoff     500000     // tile1476  IITTC devistatorsprite
+sprite   482 roll      -1          // tile1476  IITTC devistatorsprite
 sprite   375 angoff     512        // tile0047 hbombammo (multiplayer)
-sprite   371 angoff     1024       // tile0023 rpgsprite (multiplayer)
-sprite   371 mdzoff     900000     // tile0023 rpgsprite (multiplayer)
+sprite   375 mdzoff     500000     // tile0047 hbombammo (multiplayer)
+sprite   375 pitch     -1          // tile0047 hbombammo (multiplayer)
+sprite   371 angoff     512        // tile0023 rpgsprite (multiplayer)
+sprite   371 mdzoff     700000     // tile0023 rpgsprite (multiplayer)
 sprite   371 pitch     -1          // tile0023 rpgsprite (multiplayer)
 sprite   474 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   474 pitch     -1          // tile1235 (tile1233 money)
+sprite   374 angoff    -512        // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
 sprite   372 angoff     512        // tile0047 hbombammo (multiplayer)
+sprite   372 mdzoff     500000     // tile0047 hbombammo (multiplayer)
+sprite   372 pitch     -1          // tile0047 hbombammo (multiplayer)
 sprite   428 angoff     256        // tile0054 shield
+sprite   472 angoff    -512        // tile1235 (tile1233 money)
 sprite   472 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   472 pitch     -1          // tile1235 (tile1233 money)
+sprite   473 angoff    -512        // tile1235 (tile1233 money)
 sprite   473 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   473 pitch     -1          // tile1235 (tile1233 money)
+sprite   427 mdzoff     900000     // tile0054 shield
+sprite   427 pitch     -1          // tile0054 shield
 sprite   441 angoff     512        // tile0047 hbombammo
 sprite   470 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   470 pitch     -1          // tile1235 (tile1233 money)
@@ -72,4 +95,5 @@ sprite   471 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   471 pitch     -1          // tile1235 (tile1233 money)
 sprite   440 angoff    -512        // tile0047 hbombammo
 sprite   424 angoff     1024       // tile0041 batteryammo
-sprite   112 angoff     1024       // tile0023 rpgsprite
+sprite   112 angoff     512        // tile0023 rpgsprite
+sprite   302 angoff     0          // tile0029 devistatorsprite (multiplayer)

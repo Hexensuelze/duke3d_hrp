@@ -1,45 +1,58 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : 1A.WATRB.MAP - IITTC : "Ringo Ashens" by Zykov Eddy
+// Level    : 1A.WATRB.MAP - IITTC v1.5 : "Ringo Ashens" by Zykov Eddy
 // Map Date : 2012-05-15
 // mapmd4   : c3fddaab5756cdc0e30ed05ca1194477
-// Curr. HRP: r5.2.481
+// Curr. HRP: r5.2.510
 
 
+sprite   924 angoff     256        // tile0028 shotgunsprite
+sprite   928 angoff    -768        // tile0051 cola
 sprite   929 angoff     768        // tile0049 shotgunammo
 sprite  1157 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1157 pitch     -1          // tile1235 (tile1233 money)
+sprite  1127 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1127 pitch     -1          // tile1235 (tile1233 money)
+sprite  1126 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1126 pitch     -1          // tile1235 (tile1233 money)
 sprite   932 angoff    -384        // tile0051 cola
+sprite   934 angoff     1024       // tile0041 batteryammo
 sprite   926 angoff     512        // tile0052 sixpack
 sprite  1128 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1128 pitch     -1          // tile1235 (tile1233 money)
 sprite  1129 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1129 pitch     -1          // tile1235 (tile1233 money)
 sprite  1016 angoff    -256        // tile0052 sixpack
-sprite   951 angoff    -256        // tile0051 cola
+sprite   883 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   883 pitch     -6          // tile0574 (tile0670 (faucet))
+sprite   883 roll       7          // tile0574 (tile0670 (faucet))
+sprite   884 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   884 pitch     -6          // tile0574 (tile0670 (faucet))
+sprite   884 roll       5          // tile0574 (tile0670 (faucet))
+sprite   951 angoff     768        // tile0051 cola
 sprite  1175 angoff    -256        // tile3670  IITTC bottle
 sprite  1176 angoff    -256        // tile3670  IITTC bottle
 sprite  1177 angoff    -256        // tile3670  IITTC bottle
 sprite  1178 angoff    -256        // tile3670  IITTC bottle
-sprite   216 angoff     1024       // tile0060 accesscard yellow
 sprite  1130 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1130 pitch     -1          // tile1235 (tile1233 money)
 sprite  1131 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1131 pitch     -1          // tile1235 (tile1233 money)
 sprite   952 angoff     1024       // tile0044 rpgammo
-//sprite   246 angoff     0          // tile0060 accesscard blue
+sprite   216 angoff     1024       // tile0060 accesscard yellow
 sprite   925 angoff     256        // tile0052 sixpack
-sprite   936 angoff    -256        // tile0037 freezeammo
+sprite   936 angoff     256        // tile0037 freezeammo
 sprite  1124 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1124 pitch     -1          // tile1235 (tile1233 money)
 sprite  1125 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1125 pitch     -1          // tile1235 (tile1233 money)
 sprite   938 angoff     256        // tile0051 cola
 sprite   430 angoff     1024       // tile1471  IITTC chaingunsprite
-sprite  1102 angoff     512        // tile1473  IITTC flame cannon
+sprite  1102 angoff     1024       // tile1473  IITTC flame cannon
+sprite  1103 angoff    -512        // tile1472  IITTC rpgsprite
 sprite  1104 angoff    -512        // tile1478  IITTC hbombammo
 sprite   939 angoff     1024       // tile0041 batteryammo
-sprite   942 angoff    -512        // tile0025 shrinkersprite  IITC grenade launcher
+sprite   942 angoff     1024       // tile0025 shrinkersprite  IITTC grenade launcher
 sprite   943 angoff     512        // tile0052 sixpack
 sprite   944 angoff     512        // tile0051 cola
 sprite   946 angoff     512        // tile0052 sixpack
@@ -47,10 +60,15 @@ sprite   945 angoff     512        // tile0051 cola
 sprite   947 angoff    -256        // tile0052 sixpack
 sprite  1132 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1132 pitch     -1          // tile1235 (tile1233 money)
+//sprite   437 angoff     0          // tile0060 accesscard blue
 sprite   940 mdxoff     20000      // tile1235 (tile1233 money)
 sprite   940 pitch     -1          // tile1235 (tile1233 money)
 sprite  1133 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1133 pitch     -1          // tile1235 (tile1233 money)
+sprite   873 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite   873 roll       2          // tile0574 (tile0670 (faucet))
+sprite   872 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite   872 roll       2          // tile0574 (tile0670 (faucet))
 sprite   948 angoff    -512        // tile0054 shield
 sprite  1134 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1134 pitch     -1          // tile1235 (tile1233 money)
@@ -64,29 +82,60 @@ sprite  1152 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1152 pitch     -1          // tile1235 (tile1233 money)
 sprite  1153 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1153 pitch     -1          // tile1235 (tile1233 money)
+sprite  1140 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1140 pitch     -1          // tile1235 (tile1233 money)
+sprite  1141 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1141 pitch     -1          // tile1235 (tile1233 money)
+sprite  1142 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1142 pitch     -1          // tile1235 (tile1233 money)
+sprite  1143 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1143 pitch     -1          // tile1235 (tile1233 money)
+sprite  1144 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1144 pitch     -1          // tile1235 (tile1233 money)
+sprite  1145 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1145 pitch     -1          // tile1235 (tile1233 money)
+sprite  1146 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1146 pitch     -1          // tile1235 (tile1233 money)
+sprite  1147 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1147 pitch     -1          // tile1235 (tile1233 money)
+sprite  1148 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1148 pitch     -1          // tile1235 (tile1233 money)
+sprite  1149 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1149 pitch     -1          // tile1235 (tile1233 money)
 sprite  1138 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1138 pitch     -1          // tile1235 (tile1233 money)
 sprite  1139 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1139 pitch     -1          // tile1235 (tile1233 money)
-sprite   767 angoff     512        // tile0032 growspriteicon  IITC blackpistol
+sprite   767 angoff    -512        // tile0032 growspriteicon  IITTC blackpistol
 sprite   987 mdxoff     10000      // tile2360 rotategun
 sprite   987 pitch     -1          // tile2360 rotategun
 sprite   988 mdxoff     10000      // tile2360 rotategun
 sprite   988 pitch     -1          // tile2360 rotategun
 sprite   766 angoff     512        // tile0051 cola
+sprite   968 angoff    -512        // tile0052 sixpack
+sprite   968 mdzoff     900000     // tile0052 sixpack
+sprite   968 pitch     -1          // tile0052 sixpack
 sprite  1150 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1150 pitch     -1          // tile1235 (tile1233 money)
 sprite  1151 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1151 pitch     -1          // tile1235 (tile1233 money)
 sprite   280 angoff     1024       // tile0060 accesscard blue
-sprite   990 angoff     1024       // tile0059 heatsensor
 sprite   992 angoff     1024       // tile0049 shotgunammo
-sprite   618 angoff    -512        // tile0060 accesscard red
+sprite   990 angoff     1024       // tile0059 heatsensor
+sprite   991 angoff    -256        // tile0051 cola
 sprite   996 angoff     768        // tile3670  IITTC bottle
 sprite   997 angoff     768        // tile3670  IITTC bottle
 sprite   998 angoff     768        // tile3670  IITTC bottle
 sprite   999 angoff     768        // tile3670  IITTC bottle
 sprite  1000 angoff     768        // tile3670  IITTC bottle
+sprite   618 angoff    -512        // tile0060 accesscard red
+sprite  1136 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1136 pitch     -1          // tile1235 (tile1233 money)
+sprite  1137 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1137 pitch     -1          // tile1235 (tile1233 money)
+sprite  1012 angoff     512        // tile0051 cola
+sprite  1007 angoff     768        // tile0042 devistatorammo
+sprite   921 angoff     512        // tile0060 accesscard blue
 sprite   955 angoff    -384        // tile3670  IITTC bottle
 sprite   956 angoff    -384        // tile3670  IITTC bottle
 sprite   957 angoff    -384        // tile3670  IITTC bottle
@@ -95,10 +144,8 @@ sprite   959 angoff    -384        // tile3670  IITTC bottle
 sprite   960 angoff    -384        // tile3670  IITTC bottle
 sprite   961 angoff    -512        // tile0027 tripbombsprite
 sprite   962 angoff    -512        // tile0042 devistatorammo
-sprite   921 angoff     512        // tile0060 accesscard blue
+sprite  1154 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1154 pitch     -1          // tile1235 (tile1233 money)
+sprite  1155 mdxoff     20000      // tile1235 (tile1233 money)
+sprite  1155 pitch     -1          // tile1235 (tile1233 money)
 sprite   993 angoff    -256        // tile0051 cola
-sprite  1136 mdxoff     20000      // tile1235 (tile1233 money)
-sprite  1136 pitch     -1          // tile1235 (tile1233 money)
-sprite  1137 mdxoff     20000      // tile1235 (tile1233 money)
-sprite  1137 pitch     -1          // tile1235 (tile1233 money)
-sprite  1012 angoff     512        // tile0051 cola

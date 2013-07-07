@@ -3,16 +3,18 @@
 // Level    : A.EZ1.map - "Delta Outpost" by Zykov Eddy
 // Map Date : 2008-06-18
 // mapmd4   : bbf5b3d1d91d3171cacf05d85dc2964a
-// Curr. HRP: r5.2.498
+// Curr. HRP: r5.2.510
 
 
 sprite  1760 mdzoff     90000      // tile0961 (exit sign)
 sprite  1760 roll      -1          // tile0961 (exit sign)
 sprite  1761 mdzoff     90000      // tile0961 (exit sign)
 sprite  1761 roll      -1          // tile0961 (exit sign)
-sprite   159 mdzoff     300000     // tile0028 shotgunsprite
-sprite   159 roll      -1          // tile0028 shotgunsprite
 sprite   158 angoff    -512        // tile0049 shotgunammo
+sprite   143 angoff     1024       // tile0054 shield
+sprite   191 angoff    -768        // tile0047 hbombammo
+sprite   191 mdzoff     900000     // tile0047 hbombammo
+sprite   191 pitch     -1          // tile0047 hbombammo
 sprite   125 angoff    -512        // tile0023 rpgsprite
 sprite   126 angoff    -512        // tile0044 rpgammo
 sprite   115 angoff     512        // tile0025 shrinkersprite
@@ -23,12 +25,9 @@ sprite   108 angoff     512        // tile0053 firstaid
 sprite   109 angoff     768        // tile0049 shotgunammo
 sprite   110 angoff    -896        // tile0027 tripbombsprite
 sprite   111 angoff    -896        // tile0027 tripbombsprite
-sprite   522 mdzoff     300000     // tile0916 fireext
-sprite   522 pitch      1          // tile0916 fireext
-sprite   225 angoff     512        // tile0060 accesscard blue
 sprite    19 angoff     896        // tile0049 shotgunammo
 sprite    21 angoff    -896        // tile0049 shotgunammo
-sprite    18 angoff     512        // tile0053 firstaid
+sprite    18 angoff    -512        // tile0053 firstaid
 sprite   257 mdzoff     300000     // tile0556 chair1
 sprite   257 pitch     -1          // tile0556 chair1
 sprite    24 angoff     512        // tile0024 freezesprite
@@ -40,13 +39,19 @@ sprite    23 pitch     -1          // tile0037 freezeammo
 sprite    22 angoff     512        // tile0037 freezeammo
 sprite    22 mdzoff     200000     // tile0037 freezeammo
 sprite    22 pitch     -1          // tile0037 freezeammo
+sprite   522 mdzoff     300000     // tile0916 fireext
+sprite   522 pitch      1          // tile0916 fireext
+sprite   225 angoff     512        // tile0060 accesscard blue
 sprite   518 angoff    -384        // tile1160 bottle13 (Jack Daniels)
+sprite   967 notmd                 // tile0961 (exit sign)
 sprite   645 angoff     512        // tile0046 crystalammo
 sprite   609 angoff    -512        // tile0049 shotgunammo
 sprite   239 mdzoff     300000     // tile0556 chair1
 sprite   239 pitch     -1          // tile0556 chair1
 sprite   239 roll       3          // tile0556 chair1
-sprite   143 angoff     1024       // tile0054 shield
+sprite   246 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   246 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   246 roll       2          // tile0574 (tile0670 (faucet))
 sprite   764 angoff     512        // tile0060 accesscard red
 sprite  1256 angoff     512        // tile0052 sixpack
 sprite  1275 angoff     512        // tile0046 crystalammo
@@ -59,7 +64,7 @@ sprite   300 angoff    -512        // tile0049 shotgunammo
 sprite   296 angoff     1024       // tile0041 batteryammo
 sprite   296 mdzoff     300000     // tile0041 batteryammo
 sprite   296 roll       1          // tile0041 batteryammo
-sprite   947 angoff    -512        // tile0049 shotgunammo
+sprite   947 angoff    -768        // tile0049 shotgunammo
 sprite   948 angoff    -512        // tile0041 batteryammo
 sprite  2554 angoff    -512        // tile0049 shotgunammo
 sprite   962 angoff     1024       // tile0054 shield
@@ -84,13 +89,13 @@ sprite  1389 angoff     1024       // tile0045 growammo
 sprite   564 angoff     1024       // tile0563 waterfountain
 sprite   564 mdzoff     400000     // tile0563 waterfountain
 sprite   564 pitch     -1          // tile0563 waterfountain
-sprite   435 angoff     512        // tile0053 firstaid
+sprite   435 angoff    -512        // tile0053 firstaid
 sprite   432 angoff     256        // tile0041 batteryammo
 sprite   432 roll      -128        // tile0041 batteryammo
 sprite  1229 angoff     512        // tile0046 crystalammo
 sprite  1202 angoff     384        // tile0051 cola
 sprite  1201 angoff    -256        // tile0049 shotgunammo
-sprite  1200 angoff     512        // tile0053 firstaid
+sprite  1200 angoff    -512        // tile0053 firstaid
 sprite  1425 angoff     256        // tile0052 sixpack
 sprite  1429 angoff    -256        // tile0052 sixpack
 sprite  1424 angoff    -256        // tile0052 sixpack
@@ -103,7 +108,7 @@ sprite  1422 pitch      96         // tile0029 devistatorsprite
 sprite  1433 angoff     1024       // tile0041 batteryammo
 sprite  1433 roll      -96         // tile0041 batteryammo
 sprite  1490 angoff    -512        // tile0024 freezesprite
-sprite  1491 angoff     512        // tile0053 firstaid
+sprite  1491 angoff    -512        // tile0053 firstaid
 sprite  1423 angoff     512        // tile0023 rpgsprite
 sprite  1430 angoff    -128        // tile0052 sixpack
 sprite  1431 angoff     128        // tile0052 sixpack

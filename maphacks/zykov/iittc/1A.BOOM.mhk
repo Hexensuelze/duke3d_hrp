@@ -1,9 +1,9 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : 1A.BOOM.MAP - IITTC : "Park Avenue" by Zykov Eddy
+// Level    : 1A.BOOM.MAP - IITTC v1.5 : "Park Avenue" by Zykov Eddy
 // Map Date : 2012-05-15
 // mapmd4   : 92dfaa3ec3780128cff1c839660b4cd3
-// Curr. HRP: r5.2.481
+// Curr. HRP: r5.2.510
 
 
 sprite  1572 mdxoff     20000      // tile1235 (tile1233 money)
@@ -11,7 +11,7 @@ sprite  1572 pitch     -1          // tile1235 (tile1233 money)
 sprite  1517 angoff     512        // tile0051 cola
 sprite  1518 angoff     1024       // tile0027 tripbombsprite (multiplayer)
 sprite  1519 angoff     1024       // tile0027 tripbombsprite (multiplayer)
-sprite  1520 angoff     1024       // tile0026 heavyhbomb
+sprite  1520 angoff    -512        // tile0026 heavyhbomb
 sprite  1521 angoff     512        // tile0052 sixpack
 sprite  1573 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1573 pitch     -1          // tile1235 (tile1233 money)
@@ -28,9 +28,11 @@ sprite   616 pitch      1          // tile0022 chaingunsprite (multiplayer)
 sprite   616 roll      -1          // tile0022 chaingunsprite (multiplayer)
 sprite   586 angoff    -256        // tile0028 shotgunsprite (multiplayer)
 sprite   585 angoff    -256        // tile0052 sixpack (multiplayer)
-sprite   544 angoff     512        // tile0025 shrinkersprite  IITC grenade launcher (multiplayer)
+sprite   544 angoff     0          // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
 sprite   545 angoff    -512        // tile0022 chaingunsprite (multiplayer)
 sprite   546 angoff    -512        // tile0041 batteryammo (multiplayer)
+sprite  1327 angoff     512        // tile0037 freezeammo
+sprite  1328 angoff     1024       // tile0045 growammo  IITTC blackpistol ammo
 sprite  1569 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1569 pitch     -1          // tile1235 (tile1233 money)
 sprite  1554 notmd                 // tile1221 cranepole
@@ -39,7 +41,9 @@ sprite  1185 angoff     1024       // tile3670  IITTC bottle
 sprite  1186 angoff     1024       // tile3670  IITTC bottle
 sprite  1187 angoff     1024       // tile3670  IITTC bottle
 sprite  1188 angoff     1024       // tile3670  IITTC bottle
+sprite   690 angoff     0          // tile0023 rpgsprite (multiplayer)
 sprite   757 angoff     512        // tile0051 cola
+sprite   686 angoff     512        // tile0057 jetpack (multiplayer)
 sprite   662 notmd                 // tile1221 cranepole
 sprite   663 notmd                 // tile1221 cranepole
 sprite   664 notmd                 // tile1221 cranepole
@@ -50,16 +54,25 @@ sprite   777 angoff    -512        // tile0047 hbombammo
 sprite   697 angoff     1024       // tile0049 shotgunammo
 sprite   697 mdzoff     500000     // tile0049 shotgunammo
 sprite   697 pitch      1          // tile0049 shotgunammo
+sprite   688 angoff     512        // tile0022 chaingunsprite (multiplayer)
+sprite   689 mdzoff     900000     // tile0041 batteryammo
+sprite   689 pitch      1          // tile0041 batteryammo
 sprite   519 angoff    -256        // tile0049 shotgunammo
 sprite   557 angoff     256        // tile0052 sixpack
 sprite   532 angoff     512        // tile0041 batteryammo (multiplayer)
-sprite   399 angoff     512        // tile0053 firstaid (multiplayer)
+sprite   397 angoff     1024       // tile0042 devistatorammo
+sprite   397 mdzoff     900000     // tile0042 devistatorammo
+sprite   397 pitch      1          // tile0042 devistatorammo
+sprite   399 angoff    -512        // tile0053 firstaid (multiplayer)
 sprite  1211 angoff     256        // tile0052 sixpack
 sprite  1215 angoff    -256        // tile0026 heavyhbomb
-sprite  1217 angoff    -256        // tile0037 freezeammo
+sprite  1217 angoff    -768        // tile0037 freezeammo
 sprite  1219 angoff    -256        // tile0051 cola
 sprite   247 angoff     1024       // tile0022 chaingunsprite
 sprite   248 angoff     512        // tile0028 shotgunsprite
+sprite   385 angoff     512        // tile0563 waterfountain
+sprite   385 mdzoff     200000     // tile0563 waterfountain
+sprite   385 pitch     -1          // tile0563 waterfountain
 sprite  1568 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1568 pitch     -1          // tile1235 (tile1233 money)
 sprite  1567 mdxoff     20000      // tile1235 (tile1233 money)
@@ -71,15 +84,19 @@ sprite   614 mdzoff     2000000    // tile1811 (tile1810 (cannon))
 sprite   614 pitch      1          // tile1811 (tile1810 (cannon))
 sprite  1564 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1564 pitch     -1          // tile1235 (tile1233 money)
-sprite   538 angoff     1024       // tile0023 rpgsprite (multiplayer)
+sprite   538 angoff     512        // tile0023 rpgsprite (multiplayer)
 sprite   539 angoff    -512        // tile0044 rpgammo (multiplayer)
 sprite  1565 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1565 pitch     -1          // tile1235 (tile1233 money)
 sprite   855 angoff     512        // tile0051 cola
+sprite   854 angoff     0          // tile0023 rpgsprite (multiplayer)
 sprite   518 angoff     1024       // tile0049 shotgunammo
 sprite   518 mdzoff     900000     // tile0049 shotgunammo
+sprite   518 pitch     -1          // tile0049 shotgunammo
 sprite   518 roll      -1          // tile0049 shotgunammo
 sprite   523 angoff     1024       // tile0022 chaingunsprite
+sprite   523 mdzoff     600000     // tile0022 chaingunsprite
+sprite   523 pitch     -1          // tile0022 chaingunsprite
 sprite  1563 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1563 pitch     -1          // tile1235 (tile1233 money)
 sprite   517 angoff     512        // tile0049 shotgunammo
@@ -87,6 +104,9 @@ sprite   516 angoff     1024       // tile3670  IITTC bottle
 sprite   533 angoff     1024       // tile3670  IITTC bottle
 sprite  1522 angoff     1024       // tile3670  IITTC bottle
 sprite  1523 angoff     1024       // tile3670  IITTC bottle
+sprite   567 angoff     1024       // tile0037 freezeammo
+sprite   566 angoff     1024       // tile0027 tripbombsprite (multiplayer)
+sprite  1601 angoff    -512        // tile0037 freezeammo
 sprite  1180 angoff    -768        // tile3670  IITTC bottle
 sprite  1181 angoff    -768        // tile3670  IITTC bottle
 sprite  1182 angoff    -768        // tile3670  IITTC bottle
@@ -105,10 +125,15 @@ sprite   556 angoff     1024       // tile0047 hbombammo (multiplayer)
 sprite  1570 mdxoff     20000      // tile1235 (tile1233 money)
 sprite  1570 pitch     -1          // tile1235 (tile1233 money)
 sprite   524 angoff    -512        // tile0049 shotgunammo
-sprite   542 angoff     256        // tile0024 freezesprite  IITTC flame cannon (multiplayer)
+sprite   542 angoff     896        // tile0024 freezesprite  IITTC flame cannon (multiplayer)
+sprite   543 angoff    -896        // tile0037 freezeammo
 sprite  1220 angoff    -128        // tile0955 bottle2
 sprite   541 angoff    -512        // tile0049 shotgunammo (multiplayer)
-sprite   525 angoff     512        // tile0023 rpgsprite
+sprite   610 angoff     1024       // tile0053 firstaid (multiplayer)
+sprite   525 angoff     0          // tile0023 rpgsprite
+sprite   521 angoff    -512        // tile0025 shrinkersprite  IITTC grenade launcher
+sprite   521 mdzoff     900000     // tile0025 shrinkersprite  IITTC grenade launcher
+sprite   521 roll      -1          // tile0025 shrinkersprite  IITTC grenade launcher
 sprite   439 notmd                 // tile1221 cranepole
 sprite   440 notmd                 // tile1221 cranepole
 sprite   441 notmd                 // tile1221 cranepole

@@ -1,13 +1,17 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : 1A.MYFMA.MAP - IITTC : "My First Map" by Zykov Eddy
+// Level    : 1A.MYFMA.MAP - IITTC v1.5 : "My First Map" by Zykov Eddy
 // Map Date : 2012-05-15
 // mapmd4   : a64165645f8ed6dd7be02216a4111428
-// Curr. HRP: r5.2.481
+// Curr. HRP: r5.2.510
 
 
+sprite  1227 angoff    -512        // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
+sprite  1175 angoff     512        // tile0024 freezesprite  IITTC flame cannon (multiplayer)
 sprite    31 angoff     1024       // tile0022 chaingunsprite
 sprite    61 notmd                 // tile1231 (1227 nukebarrel)
+sprite    46 angoff    -768        // tile1232 canwithsomething
+sprite    47 angoff     512        // tile1232 canwithsomething
 sprite    55 mdzoff     500000     // tile1359 fetusbroke
 sprite    55 pitch     -1          // tile1359 fetusbroke
 sprite    42 angoff    -512        // tile0047 hbombammo
@@ -18,6 +22,10 @@ sprite   643 angoff     512        // tile0060 accesscard blue
 sprite    51 angoff     1024       // tile0998 (parkometer)
 sprite    52 angoff     1024       // tile0998 (parkometer)
 sprite  1182 angoff     512        // tile0057 jetpack (multiplayer)
+sprite   609 angoff    -768        // tile4547 foodobject18
+sprite   610 angoff     896        // tile4547 foodobject18
+sprite   576 mdzoff     150000     // tile0670 (faucet)
+sprite   576 pitch      1          // tile0670 (faucet)
 sprite   606 angoff    -256        // tile0052 sixpack
 sprite    68 mdzoff     300000     // tile0916 fireext
 sprite    68 pitch      1          // tile0916 fireext
@@ -25,40 +33,58 @@ sprite    70 mdxoff     2000       // tile4453 meter
 sprite    70 pitch     -1          // tile4453 meter
 sprite    71 mdxoff     2000       // tile4453 meter
 sprite    71 pitch     -1          // tile4453 meter
-sprite    65 angoff     512        // tile0053 firstaid
+sprite    65 angoff    -512        // tile0053 firstaid
 sprite   105 mdzoff     300000     // tile0916 fireext
 sprite   105 pitch      1          // tile0916 fireext
-sprite   109 angoff    -512        // tile0023 rpgsprite
+sprite   109 angoff     1024       // tile0023 rpgsprite
 sprite    74 angoff     1024       // tile0049 shotgunammo
+sprite    75 angoff     1024       // tile0041 batteryammo
 sprite   671 angoff     1024       // tile0054 shield
-sprite  1177 angoff     768        // tile0024 freezesprite  IITTC flame cannon (multiplayer)
+sprite  1177 angoff    -768        // tile0024 freezesprite  IITTC flame cannon (multiplayer)
 sprite   115 angoff    -512        // tile4454 deskphone
-sprite  1178 angoff    -256        // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
+sprite  1178 angoff    -768        // tile0025 shrinkersprite  IITTC grenade launcher (multiplayer)
+sprite   127 angoff     1024       // tile1232 canwithsomething
+sprite   288 angoff     1024       // tile4369 (emergency light)
+sprite  1190 angoff     768        // tile0027 tripbombsprite (multiplayer)
+sprite  1191 angoff     768        // tile0027 tripbombsprite (multiplayer)
 sprite   121 angoff     512        // tile0049 shotgunammo
+sprite  1187 angoff    -512        // tile0027 tripbombsprite (multiplayer)
+sprite  1188 angoff    -512        // tile0027 tripbombsprite (multiplayer)
+sprite  1189 angoff    -512        // tile0027 tripbombsprite (multiplayer)
+sprite  1179 angoff     0          // tile0029 devistatorsprite
+sprite   308 angoff     1024       // tile1232 canwithsomething
 sprite   321 angoff    -256        // tile0052 sixpack
 sprite   312 angoff     512        // tile0060 accesscard red
 sprite   275 angoff     512        // tile0044 rpgammo
-sprite   274 angoff     512        // tile0023 rpgsprite
-sprite  1180 angoff     1024       // tile0022 chaingunsprite
+sprite   274 angoff     0          // tile0023 rpgsprite
+sprite   153 angoff    -128        // tile0557 chair2
+sprite  1180 angoff     1024       // tile0022 chaingunsprite (multiplayer)
+sprite   329 angoff     512        // tile0058 (spacesuit)
+sprite   330 angoff     512        // tile0058 (spacesuit)
 sprite   355 mdxoff     3000       // tile2360 rotategun
 sprite   355 pitch     -1          // tile2360 rotategun
 sprite   353 mdxoff     3000       // tile2360 rotategun
 sprite   353 pitch     -1          // tile2360 rotategun
-sprite  1183 angoff    -768        // tile0023 rpgsprite (multiplayer)
-sprite   367 angoff     1024        // tile0044 rpgammo
+sprite  1183 angoff     768        // tile0023 rpgsprite (multiplayer)
+sprite   367 angoff     1024       // tile0044 rpgammo
 sprite   354 mdxoff     3000       // tile2360 rotategun
 sprite   354 pitch     -1          // tile2360 rotategun
 sprite   347 angoff     512        // tile0060 accesscard yellow
 sprite   368 angoff    -256        // tile0049 shotgunammo
 sprite   369 angoff     512        // tile0052 sixpack
+sprite   280 angoff     640        // tile0052 sixpack
 sprite  1181 angoff    -512        // tile0057 jetpack (multiplayer)
 sprite   279 angoff    -256        // tile0052 sixpack
 sprite   426 angoff     512        // tile0049 shotgunammo
+sprite   424 angoff    -512        // tile0025 shrinkersprite  IITTC grenade launcher
 sprite   539 angoff     256        // tile0052 sixpack
 sprite   430 mdxoff     20000      // tile0594 (airlock sign)
 sprite   430 pitch      1          // tile0594 (airlock sign)
+sprite   428 angoff     512        // tile0058 (spacesuit)
 sprite  1173 notmd                 // tile4386 (power line)
+sprite  1185 angoff    -512        // tile0023 rpgsprite (multiplayer)
 sprite   558 angoff     1024       // tile0041 batteryammo
 sprite   555 angoff    -512        // tile0044 rpgammo
+sprite   556 angoff    -512        // tile0023 rpgsprite
 sprite   525 angoff     512        // tile0060 accesscard blue
 sprite   517 angoff     512        // tile0052 sixpack
