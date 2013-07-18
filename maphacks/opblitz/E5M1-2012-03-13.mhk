@@ -3,10 +3,14 @@
 // Level    : E5M1.map - Operation Blitzkrieg: "Nut Case" by David Billing
 // Map Date : 2012-03-13 (GRP)
 // mapmd4   : 3ab2f3ea19fcb133730beeab60446fcc
-// Curr. HRP: r5.2.489
+// Curr. HRP: r5.2.511
 
+//         <-> E5M1-2012-03-27.mhk
 
+// 17->621
 sprite    37 angoff    -128        // tile0021 firstgunsprite
+sprite   261 angoff     512        // tile1247 seenine
+sprite   262 angoff     512        // tile1247 seenine
 sprite    99 mdzoff    -300000     // tile1348 holoduke
 sprite    99 mdyoff    -5000       // tile1348 holoduke
 sprite    99 roll       1          // tile1348 holoduke
@@ -14,6 +18,8 @@ sprite   211 angoff     512        // tile0023 rpgsprite
 sprite   211 mdxoff    -5000       // tile0023 rpgsprite
 sprite   211 pitch      1          // tile0023 rpgsprite
 sprite   343 angoff     512        // tile0556 chair1
+sprite   343 mdzoff     500000     // tile0556 chair1
+sprite   343 pitch     -1          // tile0556 chair1
 sprite    17 mdxoff    -10000      // tile2360 rotategun
 sprite    17 pitch      1          // tile2360 rotategun
 sprite   418 mdxoff    -10000      // tile2360 rotategun
@@ -32,6 +38,10 @@ sprite   420 angoff     512        // tile0051 cola
 sprite   557 angoff     512        // tile0023 rpgsprite (multiplayer)
 sprite   422 angoff     256        // tile0052 sixpack
 sprite   496 angoff    -768        // tile1294 podfem1
+sprite   203 angoff    -768        // tile1232 canwithsomething
+sprite   203 nomdanim              // tile1232 canwithsomething
+sprite   204 angoff     768        // tile1232 canwithsomething
+sprite   204 nomdanim              // tile1232 canwithsomething
 sprite   461 angoff     1024       // tile0916 fireext
 sprite   195 angoff     256        // tile0052 sixpack
 sprite   212 angoff     1024       // tile0022 chaingunsprite
@@ -45,23 +55,47 @@ sprite   101 angoff    -768        // tile4454 deskphone
 sprite   358 angoff     128        // tile0051 cola
 sprite   359 angoff     128        // tile0051 cola
 sprite   355 angoff     256        // tile0052 sixpack
+sprite   201 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   201 pitch     -6          // tile0574 (tile0670 (faucet))
+sprite   201 roll       3          // tile0574 (tile0670 (faucet))
 sprite   365 angoff     1024       // tile0041 batteryammo
 sprite   218 angoff     1024       // tile0060 accesscard blue
 sprite   193 angoff     1024       // tile0049 shotgunammo
 sprite   193 mdzoff     300000     // tile0049 shotgunammo
 sprite   193 roll       1          // tile0049 shotgunammo
+sprite   205 angoff    -256        // tile1232 canwithsomething
+sprite   205 nomdanim              // tile1232 canwithsomething
+sprite   325 angoff    -768        // tile0027 tripbombsprite
+sprite   328 angoff    -768        // tile0027 tripbombsprite
+sprite   326 angoff    -768        // tile0027 tripbombsprite
+sprite   327 angoff    -768        // tile0027 tripbombsprite
 sprite   440 angoff     512        // tile0059 heatsensor
-sprite   354 angoff     512        // tile0052 sixpack
+sprite   230 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   230 pitch     -5          // tile0574 (tile0670 (faucet))
+sprite   230 roll       1          // tile0574 (tile0670 (faucet))
+sprite   229 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   229 pitch     -5          // tile0574 (tile0670 (faucet))
+sprite   229 roll       1          // tile0574 (tile0670 (faucet))
+sprite   228 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   228 pitch     -5          // tile0574 (tile0670 (faucet))
+sprite   228 roll       1          // tile0574 (tile0670 (faucet))
+sprite   354 angoff    -512        // tile0052 sixpack
 sprite   192 angoff     256        // tile0049 shotgunammo
 sprite   192 mdzoff     300000     // tile0049 shotgunammo
 sprite   192 pitch      1          // tile0049 shotgunammo
+sprite   210 angoff     1024       // tile0053 firstaid
+sprite   441 angoff     256        // tile1232 canwithsomething
+sprite   441 nomdanim              // tile1232 canwithsomething
 sprite   415 mdxoff    -5000       // tile2360 rotategun
 sprite   415 pitch      1          // tile2360 rotategun
 sprite   416 mdxoff    -5000       // tile2360 rotategun
 sprite   416 pitch      1          // tile2360 rotategun
 sprite   417 mdxoff    -5000       // tile2360 rotategun
 sprite   417 pitch      1          // tile2360 rotategun
-sprite   196 angoff    -256        // tile0052 sixpack
+sprite   231 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite   231 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   231 roll       1          // tile0574 (tile0670 (faucet))
+sprite   196 angoff     768        // tile0052 sixpack
 sprite   217 angoff    -512        // tile0060 accesscard red
 sprite   367 angoff     512        // tile0041 batteryammo
 sprite   356 angoff     512        // tile0052 sixpack

@@ -3,8 +3,9 @@
 // Level    : A.DREAM2.MAP - "A.dream 2" by Zykov Eddy
 // Map Date : 2009-01-12
 // mapmd4   : cb6816a7259ef73012a623b8fd3944f6
-// Curr. HRP: r5.2.509
+// Curr. HRP: r5.2.511
 
+//         <-> A.DR2.mhk
 
 sprite  1265 angoff     640        // tile0060 accesscard yellow
 sprite  1265 mdzoff     500000     // tile0060 accesscard yellow
@@ -32,6 +33,8 @@ sprite   563 pitch     -1          // tile0979 hanglight
 sprite   562 notmd                 // tile4386 (power line)
 sprite   560 mdxoff     70000      // tile0979 hanglight
 sprite   560 pitch     -1          // tile0979 hanglight
+
+// mhk diff sync 1
 sprite   559 notmd                 // tile4386 (power line)
 sprite   557 mdxoff     70000      // tile0979 hanglight
 sprite   557 pitch     -1          // tile0979 hanglight
@@ -41,6 +44,8 @@ sprite   571 pitch     -1          // tile0979 hanglight
 sprite   542 notmd                 // tile4386 (power line)
 sprite   574 mdxoff     70000      // tile0979 hanglight
 sprite   574 pitch     -1          // tile0979 hanglight
+
+// mhk diff sync 2
 sprite   605 notmd                 // tile4386 (power line)
 sprite   576 mdxoff     70000      // tile0979 hanglight
 sprite   576 pitch     -1          // tile0979 hanglight
@@ -81,9 +86,10 @@ sprite  1294 roll      -128        // tile0040 ammo (a.dream shotgun ammo)
 sprite  1295 angoff     192        // tile0051 cola
 sprite  1286 angoff     512        // tile0040 ammo (a.dream shotgun ammo)
 sprite  1285 angoff     512        // tile0051 cola
-sprite   644 angoff     128        // tile0026 heavyhbomb
 sprite   645 angoff     640        // tile4419 (openbomb)
+sprite   644 angoff     128        // tile0026 heavyhbomb
 sprite   669 angoff    -512        // tile0060 accesscard blue
+sprite     1 angoff     1024       // tile4369 (emergency light)
 sprite  1129 angoff    -128        // tile0060 accesscard red
 sprite  1303 angoff     256        // tile0040 ammo (a.dream shotgun ammo)
 sprite   172 angoff     512        // tile4370 desklamp
@@ -101,12 +107,21 @@ sprite  1313 angoff    -768        // tile0040 ammo (a.dream shotgun ammo)
 sprite  1313 mdzoff     100000     // tile0040 ammo (a.dream shotgun ammo)
 sprite  1313 pitch      1          // tile0040 ammo (a.dream shotgun ammo)
 sprite  1313 roll       1          // tile0040 ammo (a.dream shotgun ammo)
+
+
+
 sprite   365 angoff     384        // tile0956 bottle3
+
+
+
 sprite  1101 angoff    -256        // tile0956 bottle3
 sprite  1094 angoff    -512        // tile0026 heavyhbomb
-sprite  1918 angoff    -512        // tile0060 accesscard blue
-sprite  1982 angoff    -640        // tile0040 ammo (a.dream shotgun ammo)
+sprite  1958 angoff    -256        // tile1232 canwithsomething
+sprite  1959 angoff     1024       // tile1232 canwithsomething
+sprite  1957 angoff     256        // tile1232 canwithsomething
 sprite  1977 angoff    -384        // tile0051 cola
+sprite  1982 angoff    -640        // tile0040 ammo (a.dream shotgun ammo)
+sprite  1918 angoff    -512        // tile0060 accesscard blue
 sprite  2265 angoff     512        // tile0051 cola
 sprite  2053 angoff     1024       // tile0040 ammo (a.dream shotgun ammo)
 sprite  2053 mdzoff     500000     // tile0040 ammo (a.dream shotgun ammo)
@@ -118,11 +133,14 @@ sprite  2139 mdzoff     500000     // tile0051 cola
 sprite  2139 pitch     -1          // tile0051 cola
 //sprite  2136 angoff    -256        // tile0059 heatsensor (a.dream flashlight)
 sprite  2272 angoff    -256        // tile0051 cola
+sprite  2269 angoff     1024       // tile0051 cola
 sprite  2270 angoff     512        // tile0051 cola
 //sprite  2188 angoff     768        // tile0059 heatsensor (a.dream flashlight)
+sprite  2189 angoff     1024       // tile0051 cola
 sprite  2271 angoff     512        // tile0051 cola
 sprite  2219 nomdanim              // tile2125 (tile2120 lizman)
 sprite  2219 mdxoff     5000       // tile2125 (tile2120 lizman)
 sprite  2219 pitch      1          // tile2125 (tile2120 lizman)
 sprite  2202 mdxoff     40000      // tile0958 (lights)
 sprite  2202 pitch      1          // tile0958 (lights)
+// mhk diff sync 3

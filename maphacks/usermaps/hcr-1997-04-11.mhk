@@ -3,26 +3,38 @@
 // Level    : hcr.map - "Escape" aka "V4" by Ryan Isenberg
 // Map Date : 1997-04-11
 // mapmd4   : ac24359b8aad34c21b996b87c626ef2a
-// Curr. HRP: r5.2.418
+// Curr. HRP: r5.2.511
 
 //         <-> hcr-1996-11-06.mhk
 
+// 10 / 57-596
 sprite   531 angoff    -512        // tile0021 firstgunsprite
-sprite   479 mdzoff     200000     // tile0028 shotgunsprite
-sprite   479 roll      -1          // tile0028 shotgunsprite
-sprite   544 angoff     512        // tile0028 shotgunsprite (multiplayer)
+sprite   479 angoff     1024       // tile0028 shotgunsprite
+sprite   544 angoff    -512        // tile0028 shotgunsprite (multiplayer)
 sprite   128 angoff     512        // tile0051 cola
-sprite   545 angoff     512        // tile0028 shotgunsprite (multiplayer)
-sprite   547 angoff     256        // tile0028 shotgunsprite (multiplayer)
+sprite   545 angoff    -512        // tile0028 shotgunsprite (multiplayer)
+sprite   547 angoff    -768        // tile0028 shotgunsprite (multiplayer)
+sprite   536 angoff    -768        // tile0022 chaingunsprite
 sprite   263 angoff     1024       // tile0981 hydrent
 sprite   546 angoff     256        // tile0028 shotgunsprite (multiplayer)
 sprite   262 angoff     1024       // tile0981 hydrent
-sprite   565 angoff     256        // tile0051 cola (multiplayer)
-sprite   564 angoff     512        // tile0051 cola (multiplayer)
+sprite    60 angoff     1024       // tile1232 canwithsomething
+sprite    61 angoff     512        // tile1232 canwithsomething
+sprite   565 angoff    -768        // tile0051 cola (multiplayer)
+sprite   578 angoff    -768        // tile0027 tripbombsprite
+sprite   579 angoff    -768        // tile0027 tripbombsprite
+sprite   579 mdzoff     300000     // tile0027 tripbombsprite
+sprite   579 pitch      1          // tile0027 tripbombsprite
+sprite    64 angoff     128        // tile1232 canwithsomething
+sprite    65 angoff    -512        // tile1232 canwithsomething
+sprite   564 angoff    -512        // tile0051 cola (multiplayer)
 sprite   562 angoff     1024       // tile0022 chaingunsprite (multiplayer)
+sprite   165 angoff     1024       // tile0053 firstaid
 sprite   587 angoff     768        // tile0049 shotgunammo (multiplayer)
 sprite   594 mdzoff     500000     // tile0037 freezeammo (multiplayer)
 sprite   594 pitch      1          // tile0037 freezeammo (multiplayer)
+sprite   595 angoff     1024       // tile0037 freezeammo (multiplayer)
+sprite   596 angoff     1024       // tile0037 freezeammo (multiplayer)
 sprite   573 angoff     512        // tile0051 cola (multiplayer)
 sprite   476 angoff    -256        // tile0028 shotgunsprite
 sprite   477 angoff    -768        // tile0049 shotgunammo
@@ -41,7 +53,7 @@ sprite   575 roll       1          // tile0027 tripbombsprite (multiplayer)
 sprite   577 mdzoff     500000     // tile0027 tripbombsprite (multiplayer)
 sprite   577 pitch      1          // tile0027 tripbombsprite (multiplayer)
 sprite   577 roll       1          // tile0027 tripbombsprite (multiplayer)
-sprite   281 angoff     512        // tile0053 firstaid
+sprite   281 angoff    -512        // tile0053 firstaid
 sprite   288 angoff     1024       // tile0023 rpgsprite
 sprite   288 mdzoff     600000     // tile0023 rpgsprite
 sprite   288 pitch     -1          // tile0023 rpgsprite
@@ -52,16 +64,30 @@ sprite    57 angoff     1024       // tile0054 shield
 sprite   589 angoff     1024       // tile0049 shotgunammo (multiplayer)
 sprite   589 mdzoff     500000     // tile0049 shotgunammo (multiplayer)
 sprite   589 pitch     -1          // tile0049 shotgunammo (multiplayer)
-sprite   497 angoff     1024       // tile0025 shrinkersprite
+sprite   497 angoff     512        // tile0025 shrinkersprite
+sprite   497 mdzoff     100000     // tile0025 shrinkersprite
+sprite   487 pitch     -4          // tile0025 shrinkersprite
+sprite   497 roll      -6          // tile0025 shrinkersprite
+sprite   498 angoff     512        // tile0046 crystalammo
+sprite   498 mdzoff     600000     // tile0046 crystalammo
+sprite   498 pitch      1          // tile0046 crystalammo
 sprite   207 angoff    -512        // tile0678 scale
 sprite   207 mdzoff     500000     // tile0678 scale
 sprite   207 pitch     -1          // tile0678 scale
 sprite   207 roll      -1          // tile0678 scale
 sprite   560 angoff    -256        // tile0028 shotgunsprite (multiplayer)
-sprite    58 angoff    -256        // tile0051 cola
+sprite    58 angoff     768        // tile0051 cola
+sprite   203 angoff     1024       // tile0671 (tile0670 (faucet))
+sprite   203 mdzoff     250000     // tile0671 (tile0670 (faucet))
+sprite   203 pitch     -1          // tile0671 (tile0670 (faucet))
+sprite   203 roll       2          // tile0671 (tile0670 (faucet))
 sprite   206 angoff     1024       // tile0678 scale
 sprite   206 mdzoff     500000     // tile0678 scale
 sprite   206 pitch     -1          // tile0678 scale
+sprite   202 angoff     1024       // tile0671 (tile0670 (faucet))
+sprite   202 mdzoff     100000     // tile0671 (tile0670 (faucet))
+sprite   202 pitch     -2          // tile0671 (tile0670 (faucet))
+sprite   202 roll       1          // tile0671 (tile0670 (faucet))
 sprite   518 angoff    -256        // tile0022 chaingunsprite
 sprite    59 angoff     512        // tile0051 cola
 sprite   590 angoff    -512        // tile0049 shotgunammo (multiplayer)
@@ -69,9 +95,13 @@ sprite   213 mdzoff     500000     // tile0916 fireext
 sprite   213 pitch      1          // tile0916 fireext
 sprite   212 mdzoff     500000     // tile0916 fireext
 sprite   212 pitch      1          // tile0916 fireext
+sprite   563 angoff     256        // tile0022 chaingunsprite (multiplayer)
 sprite   561 mdzoff     500000     // tile0022 chaingunsprite (multiplayer)
 sprite   561 pitch      1          // tile0022 chaingunsprite (multiplayer)
 sprite    10 angoff     1024       // tile0041 batteryammo
+sprite   135 angoff     384        // tile1232 canwithsomething
+sprite   135 nomdanim              // tile1232 canwithsomething
+sprite   570 angoff     1024       // tile0051 cola
 sprite   583 angoff     1024       // tile0047 hbombammo (multiplayer)
 sprite   495 angoff    -512        // tile1353 spacemarine
 sprite   495 mdzoff     1000000    // tile1353 spacemarine
@@ -79,6 +109,7 @@ sprite   495 pitch      1          // tile1353 spacemarine
 sprite   495 roll       1          // tile1353 spacemarine
 sprite   557 mdzoff     500000     // tile0028 shotgunsprite (multiplayer)
 sprite   557 pitch      1          // tile0028 shotgunsprite (multiplayer)
+sprite   132 angoff     0          // tile0060 accesscard yellow
 sprite   586 mdzoff     500000     // tile0024 freezesprite
 sprite   586 roll       1          // tile0024 freezesprite
 sprite   585 angoff    -512        // tile0059 heatsensor (multiplayer)

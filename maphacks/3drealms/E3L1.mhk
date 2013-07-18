@@ -2,8 +2,7 @@
 // Level:  E3L1.MAP - "Raw Meat" (Original Atomic Edition version)
 // Author: Richard Bailey Gray (The Levelord)
 // mapmd4: bf886fce1a2aa54ae2bcac5e9cdd727b
-// Reviewed by NightFright (February 2012)
-
+// Curr. HRP: r5.2.511
 
 
 // CHARACTERS
@@ -13,7 +12,7 @@ sprite   119 angoff    -512        // tile0753 statue (geisha)
 sprite   482 angoff    -196        // tile0753 statue (geisha)
 
 // Jibs5
-sprite   619 angoff     256
+sprite   619 angoff     256        // tile2269 (tile2265 jibs5)
 
 // Slime babes
 sprite    87 angoff     768        // tile0603 naked1 hangbabe
@@ -30,10 +29,9 @@ sprite   593 angoff    -384        // tile0603 naked1 hangbabe
 // PROPS
 
 // Bottles
-sprite   284 angoff    -256
+sprite   284 angoff    -256        // tile1160 bottle13 (Jack Daniels)
 
-// "Please Wait To Be Seated" Sign
-sprite   468 angoff     384
+sprite   468 angoff     384        // tile0716 waittobeseated
 
 
 
@@ -85,56 +83,61 @@ sprite   499 angoff    -512        // tile0055 steroids
 // WEAPONS/AMMO
 
 // Pistol & ammo
-sprite   552 angoff    -512
+sprite   552 angoff    -512        // tile0021 firstgunsprite
 
 // Shotgun & ammo
-sprite    89 angoff    -512
-sprite   260 angoff    -512 // Dukematch only
-sprite   492 angoff     512
+sprite    89 angoff    -512        // tile0049 shotgunammo
+sprite   260 angoff    -512        // tile0049 shotgunammo (multiplayer)
+sprite   492 angoff     512        // tile0028 shotgunsprite
 sprite   553 angoff     1024       // tile0049 shotgunammo
 sprite   553 roll      -256        // tile0049 shotgunammo
-sprite   554 angoff     1024
-sprite   574 angoff    -512 // Dukematch only
-sprite   611 angoff     1024
-sprite   621 angoff     1024
-sprite   679 angoff    -512
-sprite   680 angoff    -512
+sprite   554 angoff     1024       // tile0049 shotgunammo
+sprite   574 angoff    -512        // tile0028 shotgunsprite (multiplayer)
+sprite   611 angoff     1024       // tile0049 shotgunammo
+sprite   621 angoff     1024       // tile0049 shotgunammo
+sprite   679 angoff    -512        // tile0049 shotgunammo
+sprite   680 angoff    -512        // tile0049 shotgunammo
 
 // Chaingun & ammo
-sprite    32 angoff    -256
-sprite   115 angoff     512
+sprite    32 angoff    -256        // tile0041 batteryammo
+sprite   115 angoff     512        // tile0022 chaingunsprite
 sprite   575 angoff    -512        // tile0022 chaingunsprite (multiplayer)
 sprite   575 mdzoff    -660000     // tile0022 chaingunsprite (multiplayer)
 sprite   575 pitch      1          // tile0022 chaingunsprite (multiplayer)
-sprite   623 angoff     512
-sprite   625 angoff     512
-sprite   657 angoff     512
+sprite   623 angoff     512        // tile0041 batteryammo
+sprite   625 angoff     512        // tile0041 batteryammo
+sprite   657 angoff     512        // tile0041 batteryammo
 
 // RPG & ammo
-sprite   261 angoff    -512 // Dukematch only
-sprite   562 angoff    -512
-sprite   563 angoff     512
+sprite   261 angoff     512        // tile0044 rpgammo (multiplayer)
+sprite   261 pitch     -256        // tile0044 rpgammo (multiplayer)
+sprite   562 angoff    -512        // tile0044 rpgammo
+sprite   563 angoff     512        // tile0044 rpgammo
 
 // Pipebombs
-sprite   309 angoff    -512
-sprite   543 angoff     512
-sprite   624 angoff     1024
+sprite   309 angoff    -512        // tile0047 hbombammo
+sprite   543 angoff     512        // tile0047 hbombammo
+sprite   624 angoff     1024       // tile0047 hbombammo
 
 // Shrinker & ammo
-sprite   497 angoff     512
-sprite   640 angoff    -256
+sprite   497 angoff     512        // tile0025 shrinkersprite
+sprite   640 angoff    -256        // tile0046 crystalammo
 
 // Devastator & ammo
-sprite    91 angoff     1024 // Dukematch only
-sprite   608 angoff     512
-sprite   677 angoff     768
+sprite    91 angoff     1024       // tile0042 devistatorammo (multiplayer)
+sprite   608 angoff     512        // tile0029 devistatorsprite
+sprite   677 angoff     768        // tile0042 devistatorammo
 
 // Laser Tripbomb
 sprite   569 angoff     512        // tile0027 tripbombsprite
 
 // Freezethrower & ammo
-sprite   620 angoff     1024
+sprite   620 angoff     1024       // tile0037 freezeammo
 
+
+sprite   406 mdxoff     8          // tile0407 fansprite
+sprite   406 mdzoff    -4096       // tile0407 fansprite
+sprite   406 pitch      1024       // tile0407 fansprite
 
 
 // OVERRIDE
@@ -142,13 +145,13 @@ sprite   620 angoff     1024
 // Fixes for badly aligned sprites
 
 // Forcing any floor aligned model to be rendered as sprite
-sprite   147 notmd
+sprite   147 notmd                 // tile2301 wallblood1
 
 // Switches to be hidden
-sprite    40 notmd // Push Me
-sprite   146 notmd // Bloody hand print
-sprite   236 notmd // Cash register
-sprite   642 notmd // "Exotica" poster
+sprite    40 notmd                 // tile0164 dipswitch2 // Push Me
+sprite   146 notmd                 // tile0164 dipswitch2 // Bloody hand print
+sprite   236 notmd                 // tile0164 dipswitch2 // Cash register
+sprite   642 notmd                 // tile0132 slotdoor   // "Exotica" poster
 
 // Use texture version of fansprite to hide a "secret" path
 sprite   157 notmd                 // tile0407 fansprite

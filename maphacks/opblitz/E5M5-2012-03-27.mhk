@@ -3,11 +3,13 @@
 // Level    : E5M5.map - Operation Blitzkrieg: "Metrocalypse" by David Billing
 // Map Date : 2012-03-27 (GRP)
 // mapmd4   : 0f6be75514be2056185f76301c6c4570
-// Curr. HRP: r5.2.489
+// Curr. HRP: r5.2.511
 
 //         <-> E5M5-2012-03-13.mhk
 
+// 11-518
 sprite    11 angoff     1024       // tile0041 batteryammo
+sprite   468 angoff     768        // tile0029 devistatorsprite
 sprite    75 angoff     256        // tile0042 devistatorammo
 sprite    76 angoff     256        // tile0042 devistatorammo
 sprite    85 angoff    -256        // tile0052 sixpack
@@ -18,7 +20,7 @@ sprite    47 angoff     512        // tile0045 growammo
 sprite   301 angoff     1024       // tile4438 coffeemug
 sprite    51 angoff     1024       // tile0042 devistatorammo
 sprite    86 angoff     256        // tile0052 sixpack
-sprite    81 angoff     256        // tile0051 cola
+sprite    81 angoff    -768        // tile0051 cola
 sprite    82 angoff    -256        // tile0051 cola
 sprite   190 angoff    -768        // tile0556 chair1
 sprite   226 angoff     1024       // tile0557 chair2
@@ -29,7 +31,8 @@ sprite    45 angoff     512        // tile0054 shield
 sprite    46 angoff     512        // tile0041 batteryammo
 sprite   189 angoff    -768        // tile0567 waterfountainbroke
 sprite    59 angoff     768        // tile0045 growammo
-sprite   474 angoff    -256        // tile0052 sixpack
+sprite   474 angoff     768        // tile0052 sixpack
+sprite   495 angoff    -512        // tile1247 seenine
 sprite   233 angoff     512        // tile0556 chair1
 sprite   234 angoff     1024       // tile0556 chair1
 sprite   235 angoff     1024       // tile0556 chair1
@@ -37,6 +40,10 @@ sprite   236 angoff     1024       // tile0556 chair1
 sprite   460 angoff    -512        // tile0060 accesscard blue
 sprite   469 angoff     1024       // tile0023 rpgsprite
 sprite   461 angoff     1024       // tile0057 jetpack
+sprite   285 angoff     1024       // tile0574 (tile0670 (faucet))
+sprite   285 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   285 pitch     -5          // tile0574 (tile0670 (faucet))
+sprite   285 roll       1          // tile0574 (tile0670 (faucet))
 sprite   459 angoff     1024       // tile0060 accesscard red
 sprite    44 angoff     1024       // tile0049 shotgunammo
 sprite    87 angoff     256        // tile0052 sixpack
@@ -47,6 +54,9 @@ sprite    60 angoff     512        // tile0053 firstaid
 sprite   518 angoff    -768        // tile0028 shotgunsprite
 sprite    73 angoff    -768        // tile0049 shotgunammo
 sprite    74 angoff    -768        // tile0049 shotgunammo
+sprite    65 angoff     1024       // tile0027 tripbombsprite
+sprite    66 angoff     1024       // tile0027 tripbombsprite
+sprite    64 angoff     1024       // tile0027 tripbombsprite
 sprite   513 angoff     768        // tile0023 rpgsprite
 sprite    72 angoff     768        // tile0044 rpgammo
 sprite    71 angoff     768        // tile0044 rpgammo

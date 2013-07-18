@@ -3,10 +3,11 @@
 // Level    : E5M3.map - Operation Blitzkrieg: "Pork Roll" by David Billing
 // Map Date : 2012-03-27 (GRP)
 // mapmd4   : 0a3e64728485e98af2f785234326ec3c
-// Curr. HRP: r5.2.489
+// Curr. HRP: r5.2.511
 
 //         <-> E5M3-2012-03-13.mhk
 
+// 9-516
 sprite   459 angoff    -256        // tile0021 firstgunsprite
 sprite    76 mdxoff    -20000      // tile2360 rotategun
 sprite    76 pitch      1          // tile2360 rotategun
@@ -20,6 +21,7 @@ sprite   131 pitch      1          // tile0049 shotgunammo
 sprite   385 angoff    -256        // tile0052 sixpack
 sprite   322 angoff    -512        // tile0563 waterfountain
 sprite   113 angoff    -512        // tile4454 deskphone
+sprite    17 angoff     1024       // tile0053 firstaid
 sprite   408 angoff    -512        // tile0054 shield
 sprite   133 mdzoff     300000     // tile0049 shotgunammo
 sprite   133 pitch     -1          // tile0049 shotgunammo
@@ -27,6 +29,12 @@ sprite   133 roll       1          // tile0049 shotgunammo
 sprite   381 angoff     256        // tile0052 sixpack
 sprite   117 angoff     512        // tile0037 freezeammo
 sprite   186 angoff     512        // tile0022 chaingunsprite
+sprite   252 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   252 pitch     -7          // tile0574 (tile0670 (faucet))
+sprite   252 roll       3          // tile0574 (tile0670 (faucet))
+sprite   253 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   253 pitch     -7          // tile0574 (tile0670 (faucet))
+sprite   253 roll       3          // tile0574 (tile0670 (faucet))
 sprite   328 angoff     512        // tile0060 accesscard blue
 sprite   508 angoff    -512        // tile4454 deskphone
 sprite   507 angoff    -512        // tile4454 deskphone
@@ -41,7 +49,7 @@ sprite   127 angoff    -512        // tile0041 batteryammo
 sprite   181 angoff    -512        // tile1045 donuts
 sprite     9 angoff     512        // tile0557 chair2
 sprite   295 angoff     512        // tile0556 chair1
-sprite   386 angoff    -256        // tile0052 sixpack
+sprite   386 angoff     768        // tile0052 sixpack
 sprite   294 angoff     512        // tile0557 chair2
 sprite   241 angoff     512        // tile0916 fireext
 sprite   130 angoff     512        // tile0046 crystalammo
@@ -60,7 +68,7 @@ sprite    78 pitch      1          // tile2360 rotategun
 sprite   134 angoff     512        // tile0049 shotgunammo
 sprite   134 mdzoff     500000     // tile0049 shotgunammo
 sprite   134 roll       1          // tile0049 shotgunammo
-sprite   387 angoff    -256        // tile0052 sixpack
+sprite   387 angoff     768        // tile0052 sixpack
 sprite   118 angoff     1024       // tile0024 freezesprite
 sprite   224 angoff    -512        // tile0057 jetpack
 sprite   383 angoff    -256        // tile0052 sixpack
@@ -69,7 +77,7 @@ sprite   225 angoff     512        // tile0556 chair1
 sprite   375 angoff     256        // tile4454 deskphone
 sprite   352 angoff    -512        // tile4438 coffeemug
 sprite   516 angoff    -256        // tile0052 sixpack
-sprite   401 angoff     512        // tile0053 firstaid
+sprite   401 angoff    -512        // tile0053 firstaid
 sprite   124 angoff    -512        // tile0045 growammo
 sprite   125 angoff    -512        // tile0041 batteryammo
 sprite   121 angoff    -512        // tile0044 rpgammo
