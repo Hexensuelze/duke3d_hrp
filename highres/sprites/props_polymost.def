@@ -525,10 +525,9 @@ texture 710 {
 
 // Mike (762)
 model "highres/sprites/props/0762_mike.md3" {
-   scale 1.1 shade 2
-   detail { file "highres/detail/metal.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0762_mike.jpg" }
-   frame { name "frame00" tile 762 }
+   scale 0.8 shade 10
+   skin { pal 0 surface 0 file "highres/sprites/props/0762_mike.png" }
+   frame { name "none00" tile 762 }
 }
 
 // Vase (765)
