@@ -180,10 +180,12 @@ model "highres/sprites/pickups/0049_shotgunammo.md3" {
 }
 
 // Health Box (51)
-model "highres/sprites/pickups_polymost/0051_healthbox.md3" {
+model "highres/sprites/pickups/0051_healthbox.md3" {
    scale 1.2 shade 0
-   skin { pal 0 file "highres/sprites/pickups_polymost/0051_healthbox.png" }
-   frame { name "FRAME1" tile 51 }
+   skin { pal 0 file "highres/sprites/pickups/0051_healthbox_d.png" specpower 6 specfactor 1.2 }
+   normal { file "highres/sprites/pickups/0051_healthbox_n.png" }
+   specular { file "highres/sprites/pickups/0051_healthbox_s.png" }
+   frame { name "Frame_0" tile 51 }
 }
 
 // Health Bottle (52)
