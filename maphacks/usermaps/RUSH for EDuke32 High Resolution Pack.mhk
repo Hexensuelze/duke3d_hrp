@@ -4,39 +4,57 @@
 //            - "Rush Back v2.00 for HRP" by Luciano 'Gambini' Gallo
 // Map Date : 2007-07-09
 // mapmd4   : 7867a04d9d9fafeb2feab08fbd12768e
-// Curr. HRP: r5.2.481
+// Curr. HRP: r5.2.536
 
 //         <-> RUSH.mhk
 //         <-> rush244.mhk
 
-sprite    17 mdzoff     500000     // tile0051 cola
+sprite    17 mdxoff     20000      // tile0051 cola
 sprite    17 pitch      1          // tile0051 cola
-sprite   173 angoff    -256        // tile0028 shotgunsprite
+sprite   173 angoff     768        // tile0028 shotgunsprite
 //sprite   156 angoff     ???        // tile0603 naked1 hangbabe
 sprite  3601 pitch      48         // tile0049 shotgunammo
-//sprite     ? mdzoff     ???        // tile1062 rubbercan
-//sprite     ? pitch      ???        // tile1062 rubbercan
-//sprite     ? angoff     ???        // tile0916 fireext
+//sprite  1865 mdzoff     ???        // tile1062 rubbercan
+//sprite  1865 pitch      ???        // tile1062 rubbercan
+sprite  1844 angoff     0          // tile0916 fireext
 sprite   806 angoff     256        // tile4438 coffeemug
-//sprite     ? angoff     ???        // tile4458 gumballmachine
+sprite  2009 angoff     512        // tile4458 gumballmachine
 sprite  3270 notmd                 // tile0132 slotdoor
-//sprite     ? mdzoff     ???        // tile1062 rubbercan
-//sprite     ? roll       ???        // tile1062 rubbercan
+//sprite  2020 mdzoff     ???        // tile1062 rubbercan
+//sprite  2020 roll       ???        // tile1062 rubbercan
+sprite  1973 angoff     512        // tile4586 (pipe)
 //sprite     ? mdzoff     ???        // tile0616 pipe2
 //sprite     ? pitch      ???        // tile0616 pipe2
 //sprite     ? mdxoff     ???        // tile1053 (toilet roll holder)
 //sprite     ? pitch      ???        // tile1053 (toilet roll holder)
 //sprite     ? mdxoff     ???        // tile1053 (toilet roll holder)
 //sprite     ? pitch      ???        // tile1053 (toilet roll holder)
-sprite  2058 angoff     256        // tile0052 sixpack
+sprite  1981 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1981 pitch      3          // tile0574 (tile0670 (faucet))
+sprite  1981 roll       1          // tile0574 (tile0670 (faucet))
+sprite  1982 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1982 pitch      3          // tile0574 (tile0670 (faucet))
+sprite  1982 roll       1          // tile0574 (tile0670 (faucet))
+sprite  2058 angoff    -768        // tile0052 sixpack
+sprite  1983 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1983 pitch      3          // tile0574 (tile0670 (faucet))
+sprite  1983 roll       1          // tile0574 (tile0670 (faucet))
+sprite  1984 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1984 pitch      3          // tile0574 (tile0670 (faucet))
+sprite  1984 roll       1          // tile0574 (tile0670 (faucet))
 sprite  2059 angoff    -256        // tile0049 shotgunammo
 //sprite     ? nomdanim              // tile1056 (tile1055 (film reel))
-//sprite     ? angoff     ???        // tile0916 fireext
-//sprite     ? angoff     ???        // tile0669 vacuum
-//sprite  1762 angoff     0          // tile4496 broom
+sprite  2011 angoff     0          // tile0916 fireext
+sprite  1072 angoff     0          // tile0051 cola
+sprite  2070 angoff     0          // tile0669 vacuum
+sprite  1762 angoff     0          // tile4496 broom
 sprite  1762 mdzoff     200000     // tile4496 broom
 sprite  1762 pitch     -1          // tile4496 broom
-//sprite     ? angoff     ???        // tile4495 wetfloor
+sprite  1761 angoff     0          // tile4495 wetfloor
+sprite  3444 nomdanim              // tile2414 (tile2412 (scrap5))
+sprite  3445 nomdanim              // tile2414 (tile2412 (scrap5))
+sprite  3446 nomdanim              // tile2414 (tile2412 (scrap5))
+sprite  3447 nomdanim              // tile2414 (tile2412 (scrap5))
 sprite  1422 angoff     1024       // tile4496 broom
 sprite  1422 mdzoff     50000      // tile4496 broom
 sprite  1422 pitch      1          // tile4496 broom
@@ -49,7 +67,7 @@ sprite  1418 angoff     128        // tile0669 vacuum
 //sprite  2179 pitch      ???        // tile0162 dipswitch
 //sprite  2179 roll       ???        // tile0162 dipswitch
 sprite   517 angoff    -768        // tile4438 coffeemug
-sprite  3029 angoff     512        // tile0052 sixpack
+sprite  3029 angoff    -768        // tile0052 sixpack
 sprite   537 mdxoff     110000     // tile0164 dipswitch2
 sprite   537 pitch     -1          // tile0164 dipswitch2
 //sprite     ? mdxoff     ???        // tile0146 multiswitch
@@ -65,32 +83,50 @@ sprite   547 pitch      1          // tile4454 deskphone
 sprite  3716 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3717 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3718 nomdanim              // tile2411 (tile2408 scrap3)
+sprite  3710 angoff     1024       // tile0051 cola
 sprite  3711 angoff    -768        // tile0049 shotgunammo
 sprite  3734 angoff    -896        // tile0022 chaingunsprite
 sprite  3735 angoff    -128        // tile0051 cola
 sprite  1689 mdzoff     300000     // tile0049 shotgunammo
 sprite  1689 pitch      1          // tile0049 shotgunammo
-//sprite     ? angoff     ???        // tile0916 fireext
+sprite  1959 angoff     0          // tile0916 fireext
+sprite  1932 angoff     512        // tile4586 (pipe)
+sprite  1930 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite  1930 pitch     -2          // tile0574 (tile0670 (faucet))
+sprite  1930 roll       2          // tile0574 (tile0670 (faucet))
+sprite  2032 nomdanim              // tile1232 canwithsomething
+sprite  2032 angoff     1024       // tile1232 canwithsomething
 //sprite     ? nomdanim              // tile1056 (tile1055 (film reel))
 //sprite     ? mdzoff     ???        // tile1056 (tile1055 (film reel))
 //sprite     ? roll       ???        // tile1056 (tile1055 (film reel))
-sprite  3168 angoff     1024       // tile0049 shotgunammo
+sprite  3168 angoff     896        // tile0049 shotgunammo
 sprite     0 angoff     1024       // tile0049 shotgunammo
+sprite  3946 angoff    -256        // tile0051 cola
+sprite  2232 notmd                 // tile4386 (power line)
+sprite  2252 notmd                 // tile4386 (power line)
+sprite  2235 notmd                 // tile4386 (power line)
+sprite  2253 notmd                 // tile4386 (power line)
+sprite  1413 notmd                 // tile4386 (power line)
+sprite  2233 notmd                 // tile4386 (power line)
+sprite  1412 notmd                 // tile4386 (power line)
+sprite  2234 notmd                 // tile4386 (power line)
+sprite  3943 angoff    -512        // tile0052 sixpack
+sprite   148 angoff     0          // tile4560 robotdog2
 sprite   367 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3401 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3403 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3405 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3407 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3409 nomdanim              // tile2411 (tile2408 scrap3)
-//sprite     ? angoff     ???        // tile4560 robotdog2
+sprite  3692 angoff     0          // tile0052 sixpack
 sprite  1684 angoff     128        // tile0060 accesscard red
 //sprite  2069 angoff     ???        // tile0049 shotgunammo
-sprite  2068 angoff     512        // tile0051 cola
+sprite  2068 angoff    -512        // tile0051 cola
 sprite  1731 mdzoff     200000     // tile4370 desklamp
 sprite  1731 pitch      1          // tile4370 desklamp
 sprite  1731 roll      -1          // tile4370 desklamp
 sprite  2608 angoff     512        // tile0060 accesscard blue
-//sprite     ? angoff     ???        // tile4441 (J.McClain)
+sprite   836 angoff     0          // tile4441 (J.McClain)
 sprite  3059 notmd                 // tile0138 spacelightswitch
 //sprite     ? angoff     ???        // tile0026 heavyhbomb
 //sprite     ? angoff     ???        // tile0026 heavyhbomb

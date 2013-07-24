@@ -4,7 +4,7 @@
 //            by Richard Bailey Gray (The Levelord) / edited by Nancsi
 // Map Date : 2012-07-22
 // mapmd4   : 4105e040bc34405d9832951b1c39e00a
-// Curr. HRP: r5.2.432
+// Curr. HRP: r5.2.536
 
 //         <-> sewer.mhk
 
@@ -15,12 +15,16 @@ sprite   633 mdxoff     8000       // tile0054 shield
 sprite   633 pitch     -1          // tile0054 shield
 sprite    64 mdxoff     7000       // tile0049 shotgunammo
 sprite    64 pitch     -1          // tile0049 shotgunammo
-sprite   131 angoff    -256        // tile0052 sixpack
+sprite   131 angoff     768        // tile0052 sixpack
+sprite   587 angoff     768        // tile1232 canwithsomething
 sprite   318 angoff    -256        // tile0051 cola
-sprite   132 angoff    -512        // tile0049 shotgunammo (multiplayer)
+sprite   132 angoff    -768        // tile0049 shotgunammo (multiplayer)
 sprite   132 mdzoff     500000     // tile0049 shotgunammo (multiplayer)
 sprite   132 roll       1          // tile0049 shotgunammo (multiplayer)
-sprite   317 angoff     256        // tile0051 cola
+sprite   319 angoff     1024       // tile0023 rpgsprite
+sprite   123 angoff    -768        // tile1232 canwithsomething
+sprite    78 angoff    -512        // tile1232 canwithsomething
+sprite   317 angoff    -768        // tile0051 cola
 sprite   316 angoff     512        // tile0052 sixpack
 //sprite   515 mdxoff     40000      // tile0981 hydrent
 //sprite   515 pitch     -1          // tile0981 hydrent
@@ -42,23 +46,26 @@ sprite   179 angoff     1024       // tile0041 batteryammo
 sprite   572 angoff     256        // tile0028 shotgunsprite
 sprite   572 mdzoff     500000     // tile0028 shotgunsprite
 sprite   572 pitch      1          // tile0028 shotgunsprite
-sprite   178 angoff     256        // tile0051 cola
+sprite   178 angoff    -768        // tile0051 cola
 sprite   178 mdzoff     500000     // tile0051 cola
-sprite   178 pitch     -1          // tile0051 cola
+sprite   178 pitch      1          // tile0051 cola
 sprite   195 angoff     1024       // tile0047 hbombammo
 sprite   194 angoff     1024       // tile0054 shield
+sprite   196 angoff     1024       // tile0053 firstaid
 sprite   677 angoff     1024       // tile0057 jetpack (multiplayer)
 sprite   473 angoff     1024       // tile0047 hbombammo
 sprite   474 angoff     1024       // tile0047 hbombammo
 sprite   321 angoff     1024       // tile0044 rpgammo
 sprite    73 angoff    -256        // tile0041 batteryammo
 sprite    74 angoff     768        // tile0049 shotgunammo
+sprite   575 angoff     1024       // tile0049 shotgunammo (multiplayer)
 sprite    70 angoff    -768        // tile0060 accesscard blue
 sprite    75 angoff     512        // tile0059 heatsensor
 sprite   334 angoff    -512        // tile0027 tripbombsprite (multiplayer)
+sprite   678 angoff     256        // tile0025 shrinkersprite (multiplayer)
 sprite   517 angoff    -512        // tile0916 fireext
 sprite   504 angoff     256        // tile0060 accesscard yellow
-sprite   487 angoff     512        // tile0051 cola
+sprite   487 angoff    -512        // tile0051 cola (multiplayer)
 sprite   312 angoff    -256        // tile0023 rpgsprite
 sprite   312 pitch      160        // tile0023 rpgsprite
 sprite   561 angoff    -512        // tile0047 hbombammo
@@ -78,8 +85,16 @@ sprite   564 angoff     512        // tile0051 cola
 sprite   303 angoff     1024       // tile0057 jetpack
 sprite   484 angoff     1024       // tile0047 hbombammo
 sprite   484 roll       96         // tile0047 hbombammo
-sprite   485 angoff     512        // tile0051 cola
+sprite   485 angoff    -512        // tile0051 cola (multiplayer)
+sprite   485 angoff     1024       // tile0051 cola (multiplayer)
+sprite   305 angoff     768        // tile0027 tripbombsprite
+sprite   305 pitch      160        // tile0027 tripbombsprite
 sprite   304 angoff    -512        // tile0054 shield (multiplayer)
 sprite   548 mdzoff     500000     // tile0047 hbombammo (multiplayer)
 sprite   548 roll       1          // tile0047 hbombammo (multiplayer)
+sprite   311 angoff     512        // tile0025 shrinkersprite
 sprite   468 angoff    -256        // tile0051 cola
+sprite   512 angoff     1024       // tile0053 firstaid
+sprite   716 angoff     128        // tile0028 shotgunsprite (multiplayer)
+sprite   264 angoff     960        // tile0044 rpgammo
+sprite   264 pitch     -256        // tile0044 rpgammo
