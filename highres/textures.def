@@ -437,8 +437,10 @@ texture 242 {
    detail { file "highres/detail/metal.png" xscale 0.2 yscale 0.2 }
 }
 texture 243 {
-   pal 0 { file "highres/textures/0243.png" }
+   pal 0 { file "highres/textures/0243_d.png" }
    pal 17 { file "highres/textures/0243_17.png" }
+   normal { file "highres/textures/0243_n.png" parallaxbias 0.04 parallaxscale 0.06 }
+   specular { file "highres/textures/0243_s.png" }
    detail { file "highres/detail/rust.png" xscale 0.3 yscale 0.3 }
 }
 texture 245 {
