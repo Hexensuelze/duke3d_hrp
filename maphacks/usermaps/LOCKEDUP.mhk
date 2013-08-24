@@ -3,11 +3,15 @@
 // Level    : LOCKEDUP.map - "Locked Up 1: Qwerty's Railways" by Mister Sinister
 // Map Date : 2013-05-30
 // mapmd4   : 290a5d3f857805c49ef6acab9973c305
-// Curr. HRP: r5.2.506
+// Curr. HRP: r5.2.539
 
 
 sprite    14 nomdanim              // tile1032 (tile1031 glasspieces)
 sprite    15 nomdanim              // tile1033 (tile1031 glasspieces)
+sprite    50 angoff     1024       // tile1232 canwithsomething
+sprite    50 nomdanim              // tile1232 canwithsomething
+sprite    51 angoff     768        // tile1232 canwithsomething
+sprite    51 nomdanim              // tile1232 canwithsomething
 sprite   104 angoff     1024       // tile0574 (tile0670 (faucet))
 sprite   104 mdzoff     200000     // tile0574 (tile0670 (faucet))
 sprite   104 roll       1          // tile0574 (tile0670 (faucet))
@@ -17,25 +21,28 @@ sprite   103 roll       1          // tile0574 (tile0670 (faucet))
 sprite   102 angoff     1024       // tile0574 (tile0670 (faucet))
 sprite   102 mdzoff     200000     // tile0574 (tile0670 (faucet))
 sprite   102 roll       1          // tile0574 (tile0670 (faucet))
-//sprite   101 angoff     1024       // tile0574 (tile0670 (faucet))
-sprite   101 mdzoff     100000     // tile0574 (tile0670 (faucet))
-sprite   101 roll       1          // tile0574 (tile0670 (faucet))
+sprite   101 mdzoff     100000     // tile0670 (faucet)
+sprite   101 roll       1          // tile0670 (faucet)
 sprite   100 angoff     1024       // tile0574 (tile0670 (faucet))
 sprite   100 mdzoff     200000     // tile0574 (tile0670 (faucet))
 sprite   100 roll       1          // tile0574 (tile0670 (faucet))
+sprite   477 angoff     768        // tile4438 coffeemug
 sprite   473 angoff     896        // tile4454 deskphone
 sprite   474 angoff    -512        // tile0556 chair1
-sprite   473 angoff     896        // tile4454 deskphone
-sprite   474 angoff    -512        // tile0556 chair1
-sprite   929 angoff     512        // tile0051 cola
+sprite   474 mdzoff     700000     // tile0556 chair1
+sprite   474 pitch     -1          // tile0556 chair1
+sprite   929 angoff    -512        // tile0051 cola
 //sprite   257 angoff     256        // tile1247 seenine
 sprite   978 angoff     256        // tile1247 seenine
 sprite   559 angoff     1024       // tile1045 donuts
 sprite   561 angoff    -768        // tile4454 deskphone
 sprite   986 angoff     512        // tile0026 heavyhbomb
+sprite   562 mdzoff     300000     // tile0556 chair1
+sprite   562 pitch     -1          // tile0556 chair1
 sprite   518 mdzoff     400000     // tile4496 broom
 sprite   518 pitch     -1          // tile4496 broom
 sprite   518 roll       1          // tile4496 broom
+sprite   933 angoff     256        // tile0556 chair1
 sprite  2393 angoff     256        // tile0021 firstgunsprite
 sprite  2394 angoff     256        // tile0021 firstgunsprite
 sprite  2395 angoff     256        // tile0021 firstgunsprite
@@ -45,13 +52,17 @@ sprite   936 mdzoff     500000     // tile0956 bottle3
 sprite   936 pitch      1          // tile0956 bottle3
 sprite   570 angoff    -512        // tile0686 moviecamera
 sprite   568 angoff    -512        // tile0669 vacuum
+sprite   532 angoff     384        // tile1232 canwithsomething
+sprite   532 nomdanim              // tile1232 canwithsomething
+sprite   533 angoff    -768        // tile1232 canwithsomething
+sprite   533 nomdanim              // tile1232 canwithsomething
 sprite   542 mdzoff     500000     // tile4495 wetfloor
 sprite   542 pitch     -1          // tile4495 wetfloor
 sprite   542 roll      -1          // tile4495 wetfloor
 sprite   543 angoff     512        // tile4496 broom
-sprite   543 mdzoff     100000     // tile4496 broom
+sprite   543 mdzoff     70000      // tile4496 broom
 sprite   543 pitch     -1          // tile4496 broom
-sprite   545 mdzoff     300000     // tile4496 broom
+sprite   545 mdzoff     350000     // tile4496 broom
 sprite   545 pitch     -1          // tile4496 broom
 sprite   544 mdzoff     300000     // tile4497 mop
 sprite   544 pitch      1          // tile4497 mop
@@ -76,20 +87,20 @@ sprite  1117 angoff     1024       // tile0025 shrinkersprite
 sprite  1117 mdzoff     300000     // tile0025 shrinkersprite
 sprite  1117 pitch     -1          // tile0025 shrinkersprite
 sprite  1787 angoff    -512        // tile0021 firstgunsprite
-sprite  2300 mdzoff     400000     // tile4496 broom
+sprite  2300 mdzoff     300000     // tile4496 broom
 sprite  2300 pitch     -1          // tile4496 broom
 sprite  1757 angoff     1024       // tile4547 foodobject18
 sprite  1760 angoff     1024       // tile4547 foodobject18
 sprite  1761 angoff     1024       // tile4547 foodobject18
 sprite  1762 angoff     1024       // tile4547 foodobject18
-sprite  1618 mdzoff     50000      // tile0574 (tile0670 (faucet))
-sprite  1618 pitch     -2          // tile0574 (tile0670 (faucet))
-sprite  1618 roll       1          // tile0574 (tile0670 (faucet))
 sprite  1619 mdzoff     50000      // tile0574 (tile0670 (faucet))
-sprite  1619 pitch     -2          // tile0574 (tile0670 (faucet))
+sprite  1619 pitch     -4          // tile0574 (tile0670 (faucet))
 sprite  1619 roll       1          // tile0574 (tile0670 (faucet))
+sprite  1618 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite  1618 pitch     -4          // tile0574 (tile0670 (faucet))
+sprite  1618 roll       1          // tile0574 (tile0670 (faucet))
 sprite  1620 mdzoff     50000      // tile0574 (tile0670 (faucet))
-sprite  1620 pitch     -2          // tile0574 (tile0670 (faucet))
+sprite  1620 pitch     -4          // tile0574 (tile0670 (faucet))
 sprite  1620 roll       1          // tile0574 (tile0670 (faucet))
 sprite  1406 mdxoff     30000      // tile1037 (table)
 sprite  1406 mdzoff     500000     // tile1037 (table)
@@ -127,6 +138,7 @@ sprite  2269 notmd                 // tile0136 spacedoorswitch
 sprite  2254 notmd                 // tile0136 spacedoorswitch
 sprite  2230 notmd                 // tile0136 spacedoorswitch
 sprite  2005 angoff     512        // tile0556 chair1
+sprite  1900 angoff    -256        // tile0028 shotgunsprite
 sprite  1426 angoff     512        // tile4400 teddybear
 sprite  1427 angoff     512        // tile4400 teddybear
 sprite  1428 angoff     512        // tile4400 teddybear
@@ -150,14 +162,22 @@ sprite   825 angoff    -512        // tile0556 chair1
 sprite   826 angoff    -512        // tile0556 chair1
 sprite   843 mdzoff     500000     // tile4443 (flag)
 sprite   843 pitch      1          // tile4443 (flag)
-sprite   796 angoff    -512        // tile0669 vacuum
+sprite   792 angoff     256        // tile0669 vacuum
+sprite   796 angoff     320        // tile0669 vacuum
 sprite  1033 angoff     1024       // tile0060 accesscard yellow
+sprite   701 mdzoff     500000     // tile0559 brokenchair
+sprite   701 pitch     -1          // tile0559 brokenchair
 sprite  1052 angoff     256        // tile0052 sixpack
 sprite  1045 angoff     1024       // tile0569 toilet
 sprite  1047 angoff     1024       // tile0569 toilet
 sprite  1112 angoff     896        // tile4454 deskphone
+sprite  1109 angoff     896        // tile4372 coffeemachine
 sprite  1113 angoff     1024       // tile0556 chair1
 sprite  1101 angoff     512        // tile4473 (J.Dredd)
 sprite  1078 angoff    -640        // tile0557 chair2
 sprite  1084 angoff     768        // tile0054 shield
 sprite  1069 angoff    -512        // tile0060 accesscard red
+sprite  2037 angoff     128        // tile0556 chair1
+sprite  2037 mdzoff     500000     // tile0556 chair1
+sprite  2037 pitch     -1          // tile0556 chair1
+sprite  2040 angoff    -768        // tile4372 coffeemachine
