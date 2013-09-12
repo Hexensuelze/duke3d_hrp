@@ -318,19 +318,19 @@ model "highres/sprites/monsters/2630_battlelord.md3" {
 model "highres/sprites/monsters/2710_cycloid2013.md3" {
    scale 6 shade 3
 
-  glow { surface 0 file "highres/sprites/monsters/2710_body_g.png" }
+  glow { surface 1 file "highres/sprites/monsters/2710_body_g.png" }
 
-  skin { pal 0 surface 0 file "highres/sprites/monsters/2710_body_d.png" specpower 1 specfactor 1 } 
-  specular { surface 0 file "highres/sprites/monsters/2710_body_s.png" }
-  normal { surface 0 file "highres/sprites/monsters/2710_body_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  skin { pal 0 surface 1 file "highres/sprites/monsters/2710_body_d.png" specpower 1 specfactor 1 }
+  specular { surface 1 file "highres/sprites/monsters/2710_body_s.png" }
+  normal { surface 1 file "highres/sprites/monsters/2710_body_n.png" parallaxbias 0.0 parallaxscale 0.0 }
 
-  skin { pal 0 surface 1 file "highres/sprites/monsters/2710_armour_d.png" specpower 1 specfactor 1 } 
-  specular { surface 1 file "highres/sprites/monsters/2710_armour_s.png" }
-  normal { surface 1 file "highres/sprites/monsters/2710_armour_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  skin { pal 0 surface 0 file "highres/sprites/monsters/2710_armour_d.png" specpower 1 specfactor 1 }
+  specular { surface 0 file "highres/sprites/monsters/2710_armour_s.png" }
+  normal { surface 0 file "highres/sprites/monsters/2710_armour_n.png" parallaxbias 0.0 parallaxscale 0.0 }
 
-  skin { pal 0 surface 2 file "highres/sprites/monsters/2710_limbs_d.png" specpower 1 specfactor 1 } 
+  skin { pal 0 surface 2 file "highres/sprites/monsters/2710_limbs_d.png" specpower 1 specfactor 1 }
   specular { surface 2 file "highres/sprites/monsters/2710_limbs_s.png" }
-  normal { surface 2 file "highres/sprites/monsters/2710_limbs_n.png" parallaxbias 0.0 parallaxscale 0.0  }
+  normal { surface 2 file "highres/sprites/monsters/2710_limbs_n.png" parallaxbias 0.0 parallaxscale 0.0 }
 
    // CYCLOID STRUT
    anim { frame0 "frame1" frame1 "frame25" fps 15 flags 0 }
