@@ -6,30 +6,56 @@
 // Level    : AVinsaneOne.map - NBCBP : "Parking Lot" by VinsaneOne
 // Map Date : 2011-01-05
 // mapmd4   : 03ba7649a6c1d7ef0a3c08e9c0c6ce1b
-// Curr. HRP: r5.2.495
+// Curr. HRP: r5.2.549
 
 
+sprite     1 angoff     896        // tile4372 coffeemachine
 sprite   458 angoff     512        // tile0026 heavyhbomb
-sprite   174 angoff     896        // tile0028 shotgunsprite
 sprite    62 angoff     256        // tile0051 cola
+sprite   271 mdzoff     150000     // tile0574 (tile0670 (faucet))
+sprite   271 roll       1          // tile0574 (tile0670 (faucet))
+sprite   271 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   272 mdzoff     150000     // tile0574 (tile0670 (faucet))
+sprite   272 roll       1          // tile0574 (tile0670 (faucet))
+sprite   272 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   273 mdzoff     150000     // tile0574 (tile0670 (faucet))
+sprite   273 roll       1          // tile0574 (tile0670 (faucet))
+sprite   273 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   274 mdzoff     150000     // tile0574 (tile0670 (faucet))
+sprite   274 roll       1          // tile0574 (tile0670 (faucet))
+sprite   274 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite    63 mdzoff     150000     // tile0040 ammo
+sprite    63 pitch     -1          // tile0040 ammo
+sprite    22 nomdanim              // tile1232 canwithsomething
+sprite    22 angoff     768        // tile1232 canwithsomething
+sprite   490 angoff     512        // tile0027 tripbombsprite
+sprite   174 angoff    -128        // tile0028 shotgunsprite
 sprite    42 angoff    -512        // tile4496 broom
 sprite    42 mdzoff     300000     // tile4496 broom
 sprite    42 pitch      1          // tile4496 broom
+sprite   344 nomdanim              // tile1232 canwithsomething
+sprite   181 nomdanim              // tile1232 canwithsomething
+sprite   345 nomdanim              // tile1232 canwithsomething
 sprite   441 angoff    -512        // tile0049 shotgunammo
 sprite   177 angoff     512        // tile0049 shotgunammo
-sprite    70 angoff    -768        // tile0060 accesscard blue
-sprite   356 angoff    -256        // tile0024 freezesprite (multiplayer)
-sprite   357 angoff    -256        // tile0037 freezeammo (multiplayer)
-sprite   358 angoff    -256        // tile0037 freezeammo (multiplayer)
-sprite   178 angoff     768        // tile0054 shield
 sprite   363 angoff     256        // tile0045 growammo (multiplayer)
 sprite   364 angoff     256        // tile0045 growammo (multiplayer)
 sprite   365 angoff     256        // tile0045 growammo (multiplayer)
-sprite   173 angoff     512        // tile0051 cola
-sprite   470 angoff    -256        // tile0051 cola
+sprite   178 angoff     768        // tile0054 shield
+sprite   173 angoff    -512        // tile0051 cola
+sprite   470 angoff     768        // tile0051 cola
+sprite    79 angoff     256        // tile0028 shotgunsprite
+sprite   356 angoff    -256        // tile0024 freezesprite (multiplayer)
+sprite   357 angoff    -128        // tile0037 freezeammo (multiplayer)
+sprite   358 angoff    -384        // tile0037 freezeammo (multiplayer)
+sprite   312 nomdanim              // tile1232 canwithsomething
+sprite   359 angoff     768        // tile0053 firstaid
+sprite    70 angoff    -768        // tile0060 accesscard blue
 sprite   460 angoff    -128        // tile0026 heavyhbomb
 sprite   461 angoff    -512        // tile0026 heavyhbomb
 sprite    72 angoff    -256        // tile0041 batteryammo
+sprite    72 mdzoff     100000     // tile0041 batteryammo
+sprite    72 pitch     -1          // tile0041 batteryammo
 sprite    71 angoff     256        // tile0022 chaingunsprite
 sprite    71 mdzoff     100000     // tile0022 chaingunsprite
 sprite    71 pitch      5          // tile0022 chaingunsprite
@@ -38,15 +64,20 @@ sprite   346 angoff    -768        // tile0057 jetpack (multiplayer)
 sprite   172 angoff    -256        // tile0044 rpgammo
 sprite   172 mdzoff     500000     // tile0044 rpgammo
 sprite   172 pitch      1          // tile0044 rpgammo
-sprite   444 angoff    -768        // tile1323 fem5 polebabe
-sprite   373 mdzoff     500000     // tile0028 shotgunsprite (multiplayer)
-sprite   373 roll      -1          // tile0028 shotgunsprite (multiplayer)
+sprite   444 angoff    -640        // tile1323 fem5 polebabe
+sprite   444 mdzoff     900000     // tile1323 fem5 polebabe
+sprite   444 pitch     -1          // tile1323 fem5 polebabe
+sprite   373 angoff     1024       // tile0028 shotgunsprite (multiplayer)
+sprite   373 mdzoff     900000     // tile0028 shotgunsprite (multiplayer)
+sprite   373 roll       1          // tile0028 shotgunsprite (multiplayer)
+sprite   374 angoff     1024       // tile0051 cola (multiplayer)
 sprite   376 angoff     512        // tile0051 cola (multiplayer)
 sprite   335 angoff     512        // tile0051 cola
 sprite   375 angoff     512        // tile0051 cola (multiplayer)
 sprite   164 angoff    -512        // tile1323 fem5 polebabe
 sprite   166 angoff    -768        // tile1334 fem6 padbabe
 sprite   419 angoff    -384        // tile0041 batteryammo
+sprite   167 angoff    -256        // tile1294 podfem1
 sprite   169 angoff    -512        // tile1294 podfem1
 sprite   278 angoff    -384        // tile1294 podfem1
 sprite   463 angoff     -128       // tile2060 pigcopdeadsprite
@@ -56,14 +87,14 @@ sprite   466 angoff     768        // tile0044 rpgammo
 sprite   465 angoff    -768        // tile0047 hbombammo
 sprite   465 mdzoff     700000     // tile0047 hbombammo
 sprite   465 pitch      1          // tile0047 hbombammo
-sprite   413 angoff    -896        // tile0028 shotgunsprite
+sprite   413 angoff     128        // tile0028 shotgunsprite
 sprite   412 angoff     896        // tile0049 shotgunammo
 sprite   368 angoff     512        // tile0029 devistatorsprite (multiplayer)
 sprite   369 angoff     512        // tile0042 devistatorammo (multiplayer)
-sprite   288 angoff     768        // tile0060 accesscard red
 sprite   416 angoff     512        // tile0047 hbombammo
 sprite   331 angoff     256        // tile0052 sixpack
 sprite   417 angoff    -512        // tile0044 rpgammo
+sprite   288 angoff     768        // tile0060 accesscard red
 sprite   249 angoff     1024       // tile0041 batteryammo
 sprite   185 angoff    -640        // tile0024 freezesprite
 sprite   184 angoff     512        // tile0037 freezeammo

@@ -3,22 +3,22 @@
 // Level    : SHOTDOWN28.map - NBCBP : "Shot Down" by Radar1013
 // Map Date : 2011-03-18
 // mapmd4   : f6cb70b2d4d2e16b2c599e827cedca0e
-// Curr. HRP: r5.2.495
+// Curr. HRP: r5.2.549
 
 
 sprite   254 angoff     1024       // tile0059 heatsensor
-sprite   157 angoff     256        // tile0052 sixpack
-sprite   158 angoff     256        // tile0052 sixpack
+sprite   157 angoff    -768        // tile0052 sixpack
+sprite   158 angoff    -768        // tile0052 sixpack
 sprite    17 nomdanim              // tile2212 (tile2209 lizmanleg1)
 sprite     3 nomdanim              // tile1521 (tile1520 (duke torso))
 sprite     3 angoff     128        // tile1521 (tile1520 (duke torso))
-sprite     4 angoff     128        // tile0028 shotgunsprite
-sprite   159 angoff    -256        // tile0052 sixpack
-sprite   160 angoff    -256        // tile0052 sixpack
+sprite     4 angoff    -896        // tile0028 shotgunsprite
+sprite   159 angoff     768        // tile0052 sixpack
+sprite   160 angoff     768        // tile0052 sixpack
 sprite    24 angoff     256        // tile0049 shotgunammo
 sprite    47 angoff     256        // tile0049 shotgunammo
-sprite   161 angoff    -256        // tile0052 sixpack
-sprite   162 angoff    -384        // tile0052 sixpack
+sprite   161 angoff     768        // tile0052 sixpack
+sprite   162 angoff     640        // tile0052 sixpack
 sprite    40 nomdanim              // tile1521 (tile1520 (duke torso))
 sprite    40 angoff     256        // tile1521 (tile1520 (duke torso))
 sprite   148 angoff     0          // tile0052 sixpack
@@ -29,11 +29,12 @@ sprite    86 angoff    -512        // tile0041 batteryammo
 sprite    88 angoff    -512        // tile0041 batteryammo
 sprite    88 mdzoff     500000     // tile0041 batteryammo
 sprite    88 roll      -1          // tile0041 batteryammo
-sprite   163 angoff    -256        // tile0052 sixpack
-sprite   164 angoff    -384        // tile0052 sixpack
-sprite   128 angoff     512        // tile0053 firstaid
+sprite   163 angoff     768        // tile0052 sixpack
+sprite   164 angoff     640        // tile0052 sixpack
+sprite   165 angoff     960        // tile0052 sixpack
+sprite   128 angoff    -512        // tile0053 firstaid
 sprite   128 mdzoff     1200000    // tile0053 firstaid
-sprite   128 roll       1          // tile0053 firstaid
+sprite   128 roll      -1          // tile0053 firstaid
 sprite   124 mdzoff     500000     // tile0044 rpgammo
 sprite   124 roll       1          // tile0044 rpgammo
 sprite   125 mdzoff     500000     // tile0044 rpgammo
@@ -48,14 +49,20 @@ sprite   126 roll       1          // tile0049 shotgunammo
 sprite   112 mdzoff     500000     // tile0052 sixpack
 sprite   112 pitch      1          // tile0052 sixpack
 sprite   112 roll       1          // tile0052 sixpack
+sprite   143 angoff     896        // tile1734 liztroopdsprite
 sprite   151 angoff    -512        // tile0023 rpgsprite
 sprite   151 pitch      64         // tile0023 rpgsprite
+sprite   144 angoff     1024       // tile0041 batteryammo
 sprite   146 angoff    -256        // tile0052 sixpack
 sprite   147 angoff    -256        // tile0051 cola
+sprite   152 angoff     0          // tile0060 accesscard blue
 sprite   202 angoff     768        // tile0042 devistatorammo
 sprite   203 angoff     768        // tile0042 devistatorammo
+sprite   211 angoff     1024       // tile0052 sixpack
+sprite   212 angoff     1024       // tile0052 sixpack
+sprite   213 angoff     1024       // tile0053 firstaid
 sprite   213 mdzoff     200000     // tile0053 firstaid
-sprite   213 pitch     -1          // tile0053 firstaid
+sprite   213 pitch      1          // tile0053 firstaid
 sprite   209 mdzoff     500000     // tile0044 rpgammo
 sprite   209 roll       1          // tile0044 rpgammo
 sprite   210 mdzoff     500000     // tile0044 rpgammo
