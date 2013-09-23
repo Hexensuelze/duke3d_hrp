@@ -457,20 +457,21 @@
 
    // Terminator (1356)
    model "highres/sprites/characters/1356_terminator.md3" { 
-      scale 1 shade 0
-      skin { pal 0 surface 0 file "highres/sprites/characters/1356_terminator.png" }
-      anim { frame0 "frame1" frame1 "frame4" fps 0.5 flags 0 }
+      scale 10 shade 0
+      skin { pal 0 surface 0 file "highres/sprites/characters/1356_terminator_d.png" }
+      specular { surface 0 file "highres/sprites/characters/1356_terminator_s.png" }
+      normal { surface 0 file "highres/sprites/characters/1356_terminator_n.png" parallaxbias 0.0 parallaxscale 0.0 }
       frame { name "frame1" tile 1356 }
    }
 
-/* 
    // Terminator arm (1357)
-   model "highres/sprites/characters/1357_terminarm.md3" { 
-      scale 1.5 shade 0
-      skin { pal 0 surface 0 file "highres/sprites/characters/1356_terminator.png" }
+  model "highres/sprites/characters/1357_terminarm.md3" { 
+      scale 20 shade 0
+      skin { pal 0 surface 0 file "highres/sprites/characters/1356_terminator_d.png" }
+      specular { surface 0 file "highres/sprites/characters/1356_terminator_s.png" }
+      normal { surface 0 file "highres/sprites/characters/1356_terminator_n.png" parallaxbias 0.0 parallaxscale 0.0 }
       frame { name "frame1" tile 1357 }
    }
-*/
 
    // Robot mouse (4407)
    model "highres/sprites/characters/4407_robotmouse.md3" {
