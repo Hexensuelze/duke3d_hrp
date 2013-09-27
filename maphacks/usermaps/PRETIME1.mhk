@@ -4,7 +4,7 @@
 //            by Forklift Productions
 // Map Date : 1999-08-29
 // mapmd4   : 9efc1b1c990273344a2a70da323d8ab2
-// Curr. HRP: r5.2.506
+// Curr. HRP: r5.2.560
 
 
 sprite   807 angoff    -512        // tile0028 shotgunsprite
@@ -13,12 +13,15 @@ sprite   805 angoff     1024       // tile0574 (tile0670 (faucet))
 sprite   805 mdzoff     100000     // tile0574 (tile0670 (faucet))
 sprite   805 pitch     -2          // tile0574 (tile0670 (faucet))
 sprite   805 roll       3          // tile0574 (tile0670 (faucet))
+sprite   821 angoff     1024       // tile4370 desklamp
 sprite    55 angoff     896        // tile1321 fem3 hooker
 sprite   817 angoff    -896        // tile0680 chair3
-sprite   830 angoff    -256        // tile0052 sixpack
+sprite   818 mdzoff     200000     // tile0680 chair3
+sprite   818 roll       1          // tile0680 chair3
+sprite   830 angoff     768        // tile0052 sixpack
 sprite   824 angoff    -512        // tile1162 bottle15
 sprite   825 angoff    -512        // tile1162 bottle15
-sprite   794 mdzoff     800000     // tile0053 firstaid
+sprite   794 mdzoff     600000     // tile0053 firstaid
 sprite   794 pitch     -1          // tile0053 firstaid
 sprite   795 angoff     256        // tile0054 shield
 sprite   533 angoff    -512        // tile0916 fireext
@@ -29,8 +32,13 @@ sprite   778 pitch      1          // tile0052 sixpack
 sprite   781 angoff     640        // tile0028 shotgunsprite
 sprite   779 angoff    -768        // tile0049 shotgunammo
 sprite   780 angoff    -256        // tile0049 shotgunammo
+sprite   780 mdzoff     150000     // tile0049 shotgunammo
+sprite   780 pitch      1          // tile0049 shotgunammo
 sprite   777 angoff    -896        // tile0049 shotgunammo
 sprite   775 angoff     512        // tile0052 sixpack
+sprite   776 angoff     1024       // tile0052 sixpack
+sprite    70 angoff     1024       // tile0051 cola
+sprite    75 angoff     1024       // tile0051 cola
 sprite    88 angoff     1024       // tile0556 chair1
 sprite    87 angoff     1024       // tile0557 chair2
 sprite    84 angoff     1024       // tile0556 chair1
@@ -39,38 +47,58 @@ sprite    86 angoff     1024       // tile0557 chair2
 sprite    31 angoff     768        // tile0045 growammo
 sprite    32 angoff     768        // tile0045 growammo
 sprite    33 angoff     768        // tile0045 growammo
-sprite    77 mdxoff     150000     // tile0909 (treetrunk)
+sprite    77 mdxoff     80000      // tile0909 (treetrunk)
 sprite    77 pitch     -1          // tile0909 (treetrunk)
+sprite   766 angoff     512        // tile0051 cola
 sprite    36 mdzoff     500000     // tile0023 rpgsprite
 sprite    36 pitch     -1          // tile0023 rpgsprite
 sprite    35 angoff     256        // tile0044 rpgammo
+sprite   705 angoff    -512        // tile0052 sixpack
+sprite   706 angoff     128        // tile0049 shotgunammo
+sprite   706 mdzoff     500000     // tile0049 shotgunammo
+sprite   706 pitch      1          // tile0049 shotgunammo
+sprite   719 pitch     -64         // tile0041 batteryammo
+sprite   719 roll      -192        // tile0041 batteryammo
+sprite   717 angoff    -64         // tile0022 chaingunsprite
+sprite   717 roll      -128        // tile0022 chaingunsprite
+sprite   718 angoff    -64         // tile0041 batteryammo
+sprite   718 mdzoff     8000       // tile0041 batteryammo
+sprite   718 roll      -128        // tile0041 batteryammo
 sprite   187 angoff     512        // tile0028 shotgunsprite
 sprite   187 roll      -96         // tile0028 shotgunsprite
 sprite   186 angoff    -512        // tile0049 shotgunammo
-sprite   186 mdzoff     900000     // tile0049 shotgunammo
+sprite   186 mdzoff     500000     // tile0049 shotgunammo
 sprite   186 pitch     -1          // tile0049 shotgunammo
+sprite   186 roll       1          // tile0049 shotgunammo
+sprite   184 angoff     1024       // tile0052 sixpack
 sprite    42 angoff     1024       // tile0060 accesscard yellow
 sprite   723 angoff    -384        // tile0052 sixpack
 sprite     7 angoff    -768        // tile0029 devistatorsprite
 sprite     7 roll      -256        // tile0029 devistatorsprite
 sprite   727 roll      -64         // tile0042 devistatorammo
 sprite   728 roll      -128        // tile0042 devistatorammo
+sprite   751 angoff     256        // tile0028 shotgunsprite
+sprite   751 mdzoff     700000     // tile0028 shotgunsprite
+sprite   751 roll       1          // tile0028 shotgunsprite
+sprite   747 angoff    -768        // tile0052 sixpack
 sprite    41 angoff     512        // tile0054 shield
 sprite    40 angoff     512        // tile0051 cola
 sprite    39 angoff     512        // tile0051 cola
 sprite    13 angoff     512        // tile0047 hbombammo
-sprite    12 angoff    -256        // tile0052 sixpack
-sprite   401 mdxoff     40000      // tile0909 (treetrunk)
+sprite    12 angoff     768        // tile0052 sixpack
+sprite   401 mdxoff     20000      // tile0909 (treetrunk)
 sprite   401 pitch     -1          // tile0909 (treetrunk)
-sprite   400 mdxoff     80000      // tile0909 (treetrunk)
+sprite   400 mdxoff     40000      // tile0909 (treetrunk)
 sprite   400 pitch     -1          // tile0909 (treetrunk)
-sprite   395 mdxoff     80000      // tile0909 (treetrunk)
-sprite   395 pitch     -1          // tile0909 (treetrunk)
-sprite   398 mdxoff     80000      // tile0909 (treetrunk)
+sprite   399 mdxoff     40000      // tile0909 (treetrunk)
+sprite   399 pitch     -1          // tile0909 (treetrunk)
+sprite   398 mdxoff     40000      // tile0909 (treetrunk)
 sprite   398 pitch     -1          // tile0909 (treetrunk)
-sprite   396 mdxoff     80000      // tile0909 (treetrunk)
+sprite   396 mdxoff     40000      // tile0909 (treetrunk)
 sprite   396 pitch     -1          // tile0909 (treetrunk)
-sprite   394 mdxoff     60000      // tile0909 (treetrunk)
+sprite   395 mdxoff     40000      // tile0909 (treetrunk)
+sprite   395 pitch     -1          // tile0909 (treetrunk)
+sprite   394 mdxoff     30000      // tile0909 (treetrunk)
 sprite   394 pitch     -1          // tile0909 (treetrunk)
 sprite    15 angoff    -256        // tile0027 tripbombsprite
 sprite    16 angoff    -256        // tile0027 tripbombsprite
