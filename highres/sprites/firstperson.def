@@ -53,8 +53,10 @@ model "highres/sprites/firstperson/2510_devastator.md3" {
 // Mighty Boot (2521)
 model "highres/sprites/firstperson/2521_mightyboot.md3" {
    scale 9
-   skin { pal 0 file "highres/sprites/firstperson/2521_mightyboot.jpg" }
-   frame { name "FRAME1" tile 2521 }
+   skin { pal 0 file "highres/sprites/characters/1405_duke2013_d.png" }
+   specular { pal 0 surface 0 file "highres/sprites/characters/1405_duke2013_s.png" }
+   normal { pal 0 surface 0 file "highres/sprites/characters/1405_duke2013_n.png" }
+   frame { name "frame1" tile 2521 }
    hud { tile 2521 xadd 0.1 yadd 2.0 zadd 2.5 angadd 600 }
    hud { tile 2521 xadd -1.0 yadd 1.8 zadd 2.5 angadd 550 flipped }  // Quick Kick
 }
@@ -62,8 +64,10 @@ model "highres/sprites/firstperson/2521_mightyboot.md3" {
 // Mighty Boot (2522)
 model "highres/sprites/firstperson/2522_mightyboot.md3" {
    scale 9
-   skin { pal 0 file "highres/sprites/firstperson/2521_mightyboot.jpg" }
-   frame { name "FRAME1" tile 2522 }
+   skin { pal 0 file "highres/sprites/characters/1405_duke2013_d.png" }
+   specular { pal 0 surface 0 file "highres/sprites/characters/1405_duke2013_s.png" }
+   normal { pal 0 surface 0 file "highres/sprites/characters/1405_duke2013_n.png" }
+   frame { name "frame1" tile 2522 }
    hud { tile 2522 xadd -0.01 yadd 2.5 zadd 2.5 angadd 550 }
    hud { tile 2522 xadd 0.01 yadd 1.5 zadd 2.5 angadd 600 flipped }  // Quick Kick
 }
