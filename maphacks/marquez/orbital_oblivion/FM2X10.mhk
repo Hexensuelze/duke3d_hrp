@@ -3,14 +3,21 @@
 // Level    : FM2X10.MAP - "Cycling Perimeter" by Fernando Márquez
 // Map Date : 2009-03-12
 // mapmd4   : 710cd52013e98f10b27d1b76f324d002
-// Curr. HRP: r5.2.432
+// Curr. HRP: r5.2.562
 
 //         <-> CYCLER.mhk
 
 sprite    55 angoff     768        // tile0029 devistatorsprite
 sprite    56 angoff     256        // tile0047 hbombammo
-sprite   752 angoff     1024       // tile0022 chaingunsprite
-sprite    53 angoff    -256        // tile0028 shotgunsprite
+sprite    11 angoff     1024       // tile0052 sixpack
+sprite   752 angoff     1024       // tile0041 batteryammo
+sprite   752 mdzoff     300000     // tile0041 batteryammo
+sprite   752 pitch     -2          // tile0041 batteryammo
+sprite   752 roll       1          // tile0041 batteryammo
+sprite   751 mdzoff     300000     // tile0041 batteryammo
+sprite   751 pitch      2          // tile0041 batteryammo
+sprite   751 roll       1          // tile0041 batteryammo
+sprite    53 angoff     768        // tile0028 shotgunsprite
 sprite   757 angoff    -512        // tile0049 shotgunammo
 sprite   757 mdzoff     500000     // tile0049 shotgunammo
 sprite   757 pitch      1          // tile0049 shotgunammo
@@ -37,8 +44,9 @@ sprite    18 angoff     512        // tile0037 freezeammo
 sprite    30 angoff     512        // tile0023 rpgsprite
 sprite   656 angoff     512        // tile0023 rpgsprite
 sprite    16 angoff     256        // tile0053 firstaid
+sprite    27 angoff     256        // tile0052 sixpack
 sprite    33 angoff    -512        // tile0054 shield
-sprite    28 angoff     256        // tile0052 sixpack
+sprite    28 angoff    -768        // tile0052 sixpack
 sprite   766 angoff     256        // tile0054 shield
 sprite   762 angoff    -768        // tile0057 jetpack
 sprite   774 angoff    -768        // tile1323 fem5 polebabe
