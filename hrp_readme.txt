@@ -3,9 +3,9 @@
          |                                                                |
          |                   A Duke3D Community Project                   |
          |                                                                |
-         |                Compiled by Parkar & NightFright                |
+         |                    Compiled by NightFright                     |
          ==================================================================
-         |           Repository Snapshot >= 5.2.415 (2012-12-24)          |
+         |           Repository Snapshot >= 5.3.566 (2013-10-01)          |
          ==================================================================
 
 
@@ -134,17 +134,22 @@ todo-list: http://hrp.duke4.net/wiki/doku.php?id=other:next_hrp_release
 -------------------------------
 3.2) Highlights of this release
 -------------------------------
-Compared to previous release (HRP v5.1.285), you can expect the following changes:
+Compared to previous release (HRP v5.2), you can expect the following changes:
 
-[FEATURE] Full Polymost compatibility (use parameter -hduke3d_hrp_polymost.def)
-[UPDATE] New HUD weapon models for pistol and shotgun
-[UPDATE] New hanging slime babe
-[UPDATE] Improved crosshairs
-[UPDATE] Polymer/Polymost adding/optimization for many textures
-[FIX] FOV change for RPG, fixed animation for HUD Devastator
-[FIX] Model fixes for Trooper
-[FIX] Rotation corrections for various models
-[FIX] Activation of various "forgotten" textures throughout the HRP
+[FEATURE] New maphacks system: Hacks for 500+ custom maps included!
+[UPDATE] Polymer versions of 15 existing textures added; about 10 new textures
+         (some for Ep.4)
+[UPDATE] Remakes of existing props models: 
+         Airlock sign, microphone, exit sign, hand dryer, Terminator+arm, 
+         Cycloid Emperor hologram, Dukeburger statue
+[UPDATE] Remakes of character models for Cycloid Emperor (by Tea Monster) and
+         Duke (by Mark Skelton, Tea Monster and Spiker)
+[UPDATE] Remakes of pickup models: Jetpack, health bottles, First Aid kit
+[UPDATE] Improvements for Mighty Boot, HUD pistol hands and chaingun muzzleflash
+[UPDATE] New level stats screen (based on new Duke model)
+[FIX] Screen alignment fix for HUD scubagear
+[FIX] Small corrections for pistol and shotgun pickup models (size, rotation,
+      center)
 
 
 IMPORTANT!
@@ -246,15 +251,10 @@ This disclaimer applies to the following textures:
 ================
 
 Robin "NightFright" Reisinger
-(HRP author) ....................................... nightfright2k7 [at] gmail.com
-
-
-Pär "Parkar" Karlsson 
-(Former HRP author, retired) ....................... parkar82 [at] gmail.com
-
+(HRP author) ..................................... nightfright2k7 [at] gmail.com
 
 Richard "TerminX" Gobeille
-(EDuke32 port author) .............................. terminx [at] gmail.com
+(EDuke32 port author) ............................ terminx [at] gmail.com
 
 
 --------------
@@ -413,6 +413,7 @@ Kralex
 L2theKING
 Madaut
 MagNet
+Mark Skelton
 Mean Person
 Millenia
 motionblur
@@ -474,6 +475,7 @@ Micky C
 Roma Loom
 
 
+---------------
 SVN Maintenance
 ---------------
 Devastator
