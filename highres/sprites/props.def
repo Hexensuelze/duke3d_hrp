@@ -1334,11 +1334,17 @@ model "highres/sprites/props/1247_seenine.md3" {
 }
 
 // Newspaper (1275)
-model "highres/sprites/props/1275_newspaper.md3" {
+texture 1275 {
+   pal 0 { file "highres/sprites/props/1275.png" }
+   detail { file "highres/detail/paper_crumpled.png" detailscale 2.0 }
+}
+
+// Newspaper (1276)
+model "highres/sprites/props/1276_newspaper.md3" {
    scale 1.2 shade 0
-   skin { pal 0 file "highres/sprites/props/1275_newspaper.png" }
+   skin { pal 0 file "highres/sprites/props/1276_newspaper.png" }
    anim { frame0 "frame1" frame1 "frame2" fps 1 flags 0 }
-   frame { frame "frame1" tile0 1275 tile1 1275 }
+   frame { frame "frame1" tile0 1276 tile1 1276 }
 }
 
 // Chopper (1337)

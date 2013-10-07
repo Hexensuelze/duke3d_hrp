@@ -3,9 +3,10 @@
 // Level    : It_Lives 1.05.map - "It Lives v1.05" by Luciano 'Gambini' Gallo
 // Map Date : 2011-03-26
 // mapmd4   : e5608459e08178b169704d2dd21c3007
-// Curr. HRP: r5.2.488
+// Curr. HRP: r5.3.569
 
 
+sprite  6096 angoff     1024       // tile0028 shotgunsprite
 sprite  6098 angoff     512        // tile0049 shotgunammo
 sprite 12092 angoff     512        // tile0049 shotgunammo
 sprite 11984 notmd                 // tile1030 (tile1026 horseonside)
@@ -26,19 +27,25 @@ sprite  8288 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  8289 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite 10687 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite 10698 notmd                 // tile0907 (tile0904 woodenhorse)
-sprite  6998 angoff     512        // tile0051 cola
+sprite  5457 angoff     128        // tile0051 cola
+sprite  6998 angoff    -512        // tile0051 cola
 sprite   636 nomdanim              // tile1835 (tile1820 octabrain)
 sprite   371 nomdanim              // tile1826 (tile1820 octabrain)
 sprite   372 nomdanim              // tile1826 (tile1820 octabrain)
 sprite   373 nomdanim              // tile1830 (tile1820 octabrain)
 sprite   378 nomdanim              // tile2212 (tile2209 lizmanleg1)
+sprite  6997 mdzoff     500000     // tile0049 shotgunammo
+sprite  6997 pitch      1          // tile0049 shotgunammo
 //sprite   366 mdxoff     100000     // tile1255 ceilingsteam
 //sprite   366 pitch     -1          // tile1255 ceilingsteam
 sprite  8092 notmd                 // tile0491 (tile0490 (cycloid head))
 sprite  8093 notmd                 // tile0491 (tile0490 (cycloid head))
 sprite 10099 notmd                 // tile0491 (tile0490 (cycloid head))
+sprite  6660 mdzoff     300000     // tile1230 (1227 nukebarrel)
+sprite  6660 roll       1          // tile1230 (1227 nukebarrel)
 sprite  8149 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  8141 angoff    -768        // tile0049 shotgunammo
+sprite  8572 nomdanim              // tile1232 canwithsomething
 sprite  4154 notmd                 // tile2251 (tile2250 jibs2 (eye))
 sprite  6128 nomdanim              // tile2251 (tile2250 jibs2 (eye))
 sprite  6130 nomdanim              // tile2252 (tile2250 jibs2 (eye))
@@ -50,8 +57,12 @@ sprite 12103 nomdanim              // tile2251 (tile2250 jibs2 (eye))
 sprite   990 nomdanim              // tile2251 (tile2250 jibs2 (eye))
 sprite 12586 angoff     1024       // tile0054 shield
 sprite  1167 angoff     256        // tile0060 accesscard blue
+sprite  4897 angoff     512        // tile1229 nukebarrelleaked
+sprite  1160 nomdanim              // tile1232 canwithsomething
 sprite  1161 mdzoff     200000     // tile4496 broom
 sprite  1161 pitch      1          // tile4496 broom
+sprite  4943 angoff    -512        // tile1229 nukebarrelleaked
+sprite  8956 angoff     1024       // tile4369 (emergency light)
 sprite  3111 notmd                 // tile1060 clock
 sprite  3113 notmd                 // tile1060 clock
 sprite  6751 angoff     384        // tile0049 shotgunammo
@@ -64,6 +75,10 @@ sprite  8339 nomdanim              // tile2411 (tile2408 (scrap4))
 sprite  5993 nomdanim              // tile2402 (tile2400 (scrap2))
 sprite  5994 nomdanim              // tile2418 (tile2416 (scrap6))
 sprite  4986 nomdanim              // tile2394 (tile2390 (scrap1))
+sprite  4997 nomdanim              // tile2404 scrap2
+sprite  6028 mdzoff     100000     // tile0056 airtank
+sprite  6028 pitch      1          // tile0056 airtank
+sprite  6028 roll       1          // tile0056 airtank
 sprite  6676 notmd                 // tile0495 (tile0490 (cycloid head))
 sprite  6677 notmd                 // tile0495 (tile0490 (cycloid head))
 sprite  8009 mdzoff     100000     // tile0916 fireext
@@ -72,6 +87,7 @@ sprite   742 angoff     1024       // tile0678 scale
 sprite   742 mdzoff     100000     // tile0678 scale
 sprite   742 pitch     -5          // tile0678 scale
 sprite   742 roll      -1          // tile0678 scale
+sprite  5064 angoff     768        // tile1229 nukebarrelleaked
 sprite  5056 mdzoff     500000     // tile0041 batteryammo
 sprite  5056 pitch     -2          // tile0041 batteryammo
 sprite  5056 roll      -1          // tile0041 batteryammo
@@ -80,6 +96,7 @@ sprite  2828 notmd                 // tile1060 clock
 sprite  2911 notmd                 // tile1060 clock
 sprite  6962 nomdanim              // tile2414 (tile2412 (scrap5))
 sprite  6963 nomdanim              // tile2414 (tile2412 (scrap5))
+sprite  6964 nomdanim              // tile2415 (tile2412 (scrap5))
 sprite  6965 nomdanim              // tile2414 (tile2412 (scrap5))
 sprite  4243 nomdanim              // tile2417 (tile2416 (scrap6))
 sprite  6961 nomdanim              // tile2403 (tile2400 (scrap2))
@@ -91,7 +108,7 @@ sprite  6743 notmd                 // tile1033 (tile1031 glasspieces)
 sprite  6744 notmd                 // tile1033 (tile1031 glasspieces)
 sprite  6748 notmd                 // tile1033 (tile1031 glasspieces)
 sprite  6749 notmd                 // tile1033 (tile1031 glasspieces)
-sprite  4290 angoff    -256        // tile0028 shotgunsprite
+sprite  4290 angoff    -768        // tile0028 shotgunsprite
 sprite 13180 angoff     1024       // tile0041 batteryammo
 sprite  3120 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  3122 nomdanim              // tile1056 (tile1055 (film reel))
@@ -100,7 +117,7 @@ sprite  3124 pitch     -1          // tile4369 (emergency light)
 sprite  3128 angoff     1024       // tile4369 (emergency light)
 sprite  3128 mdxoff     5000       // tile4369 (emergency light)
 sprite  3128 pitch     -1          // tile4369 (emergency light)
-sprite  6969 angoff     512        // tile0025 shrinkersprite
+sprite  6969 angoff    -512        // tile0025 shrinkersprite
 sprite  4196 mdxoff     5000       // tile0860 powerswitch1
 sprite  4196 mdzoff    -100000     // tile0860 powerswitch1
 sprite  4196 pitch      2          // tile0860 powerswitch1
@@ -114,6 +131,7 @@ sprite  8819 notmd                 // tile4585 (valve)
 sprite  2344 notmd                 // tile2327 (tile2324 (crackknuckles))
 sprite  6727 angoff     128        // tile0052 sixpack
 sprite   245 notmd                 // tile4672 (tile4670 (newbeast hanging))
+sprite  4429 notmd                 // tile1357 (terminator arm)
 sprite  4067 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  4080 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  4525 notmd                 // tile0670 (faucet)
@@ -130,6 +148,8 @@ sprite  4538 notmd                 // tile0670 (faucet)
 sprite  7039 notmd                 // tile4408 (tile4407 robotmouse)
 sprite  5853 notmd                 // tile1028 (tile1026 horseonside)
 sprite  5854 notmd                 // tile1028 (tile1026 horseonside)
+sprite  2580 mdzoff     500000     // tile0669 vacuum
+sprite  2580 pitch      1          // tile0669 vacuum
 sprite  2534 nomdanim              // tile0974 oceansprite4
 sprite  2535 nomdanim              // tile0974 oceansprite4
 sprite  2536 nomdanim              // tile0974 oceansprite4
@@ -139,11 +159,16 @@ sprite  2539 nomdanim              // tile0974 oceansprite4
 sprite  2540 nomdanim              // tile0974 oceansprite4
 sprite  2625 notmd                 // tile1264 (tile1261 teleporter splash)
 sprite  2124 notmd                 // tile1264 (tile1261 teleporter splash)
+sprite  3225 angoff     0          // tile0051 cola
+sprite  3226 angoff     1024       // tile0051 cola
 sprite  2180 notmd                 // tile0495 (tile0490 (cycloid head))
 sprite  2181 notmd                 // tile0495 (tile0490 (cycloid head))
 sprite  2183 nomdanim              // tile1826 (tile1820 octabrain)
 sprite  2225 notmd                 // tile0494 (tile0490 (cycloid head))
 sprite  2226 notmd                 // tile0494 (tile0490 (cycloid head))
+sprite  2502 nomdanim              // tile1232 canwithsomething
+sprite  2503 nomdanim              // tile1232 canwithsomething
+sprite  2503 angoff     768        // tile1232 canwithsomething
 sprite  3258 angoff     1024       // tile0049 shotgunammo
 sprite  2033 nomdanim              // tile2414 (tile2412 (scrap5))
 sprite  2034 nomdanim              // tile2414 (tile2412 (scrap5))
@@ -157,13 +182,15 @@ sprite  2031 notmd                 // tile1033 (tile1031 glasspieces)
 sprite  2043 nomdanim              // tile2253 (tile2250 jibs2 (eye))
 sprite  2038 nomdanim              // tile2202 (tile2201 lizmanhead1)
 sprite  2040 nomdanim              // tile1769 (tile1768 headjib1)
+sprite  3274 nomdanim              // tile1232 canwithsomething
 sprite    29 angoff     384        // tile0051 cola
 sprite  2713 angoff     512        // tile4547 foodobject18
 sprite  1819 angoff    -256        // tile0956 bottle3
 sprite  1825 notmd                 // tile1006 (barstool)
 sprite  1833 notmd                 // tile1006 (barstool)
 sprite  1650 mdzoff     500000     // tile0955 bottle2
-sprite  1650 pitch     -1          // tile0955 bottle2
+sprite  1650 roll       1          // tile0955 bottle2
+sprite  1651 angoff    -640        // tile0955 bottle2
 sprite  1652 notmd                 // tile1032 (tile1031 glasspieces)
 sprite  2010 nomdanim              // tile2411 (tile2408 (scrap4))
 sprite  1858 nomdanim              // tile2411 (tile2408 (scrap4))
@@ -214,6 +241,7 @@ sprite 12206 notmd                 // tile1069 plug
 sprite 12686 notmd                 // tile2576 tip
 sprite 13516 angoff     1024       // tile0049 shotgunammo
 sprite  3166 angoff    -768        // tile4496 broom
+sprite  9231 angoff    -512        // tile4400 teddybear
 sprite  3129 angoff     1024       // tile4590 snakep
 sprite  2160 mdxoff     5000       // tile4369 (emergency light)
 sprite  2160 pitch     -1          // tile4369 (emergency light)
@@ -225,7 +253,9 @@ sprite  2158 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  9884 notmd                 // tile2398 (tile2390 (scrap1))
 sprite  9799 nomdanim              // tile2405 (tile2404 (scrap3))
 sprite  9802 nomdanim              // tile2407 (tile2404 (scrap3))
+sprite  9936 nomdanim              // tile1232 canwithsomething
 sprite  9933 angoff    -640        // tile0955 bottle2
+sprite  9261 nomdanim              // tile1232 canwithsomething
 sprite   227 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  2588 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  2590 mdxoff     5000       // tile4369 (emergency light)
@@ -236,13 +266,14 @@ sprite  2594 pitch     -1          // tile4369 (emergency light)
 sprite  9719 notmd                 // tile1990 (tile1975 tank)
 sprite  9691 notmd                 // tile4601 (tile4600 (banner1))
 sprite 10587 nomdanim              // tile2410 (tile2408 (scrap4))
-sprite  1858 nomdanim              // tile2410 (tile2408 (scrap4))
+sprite  9688 nomdanim              // tile2410 (tile2408 (scrap4))
+sprite 10060 angoff    -512        // tile4586 (pipe)
+sprite  9745 angoff     512        // tile4586 (pipe)
 sprite  9734 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  9737 nomdanim              // tile1056 (tile1055 (film reel))
 sprite  9656 nomdanim              // tile1056 (tile1055 (film reel))
+sprite 10052 angoff     128        // tile0046 crystalammo
 sprite 10617 notmd                 // tile1051 (hand dryer)
-sprite 10060 angoff    -512        // tile4586 (pipe)
-sprite  9745 angoff     512        // tile4586 (pipe)
 sprite  4363 nomdanim              // tile2409 (tile2408 (scrap4))
 sprite  4366 nomdanim              // tile2409 (tile2408 (scrap4))
 sprite  4369 nomdanim              // tile2409 (tile2408 (scrap4))
@@ -269,9 +300,13 @@ sprite   333 notmd                 // tile1033 (tile1031 glasspieces)
 sprite   334 nomdanim              // tile1033 (tile1031 glasspieces)
 sprite   335 notmd                 // tile1033 (tile1031 glasspieces)
 sprite   340 nomdanim              // tile1032 (tile1031 glasspieces)
+sprite 10610 angoff     1024       // tile0407 fansprite
+sprite 10604 angoff     1024       // tile1230 (1227 nukebarrel)
+sprite 10604 mdzoff     500000     // tile1230 (1227 nukebarrel)
+sprite 10604 pitch     -1          // tile1230 (1227 nukebarrel)
 sprite 10605 notmd                 // tile1030 (tile1026 horseonside)
 sprite 10606 notmd                 // tile1030 (tile1026 horseonside)
-sprite 13457 angoff     256        // tile0052 sixpack
+sprite 13457 angoff    -768        // tile0052 sixpack
 sprite  4289 mdzoff     500000     // tile0049 shotgunammo
 sprite  4289 roll       1          // tile0049 shotgunammo
 sprite  8525 notmd                 // tile4386 (power line)
@@ -300,9 +335,11 @@ sprite  7957 angoff    -640        // tile0054 shield
 sprite  7899 mdzoff     500000     // tile0053 firstaid
 sprite  7899 pitch      1          // tile0053 firstaid
 sprite  2109 angoff    -256        // tile0916 fireext
+sprite 11014 angoff     1024       // tile0053 firstaid
+sprite 13553 angoff     768        // tile1232 canwithsomething
 sprite 12412 angoff     1024       // tile0042 devistatorammo
 sprite 12471 angoff     1024       // tile0060 accesscard blue
-sprite 12472 angoff     512        // tile0060 accesscard blue
+sprite 12472 angoff     0          // tile0060 accesscard blue
 sprite 12514 angoff    -256        // tile0052 sixpack
 sprite 12515 notmd                 // tile1264 (tile1261 teleporter splash)
 sprite 12516 nomdanim              // tile1264 (tile1261 teleporter splash)
