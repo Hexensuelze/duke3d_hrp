@@ -1,0 +1,113 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Level    : xmas2k1.map - "Christmas 2001" by Kevin 'Kef_Nukem' Cools
+// Map Date : 2001-12-23
+// mapmd4   : a16c592c39dd6402a3fd8d626dca5fc0
+// Curr. HRP: r5.3.576
+
+//         <-> xmas2k1-attrition.mhk
+
+// 0-2143 / 2223-2997
+sprite  1282 mdzoff     500000     // tile0022 chaingunsprite
+sprite  1282 pitch      1          // tile0022 chaingunsprite
+sprite  1281 mdzoff     500000     // tile0041 batteryammo
+sprite  1281 pitch     -1          // tile0041 batteryammo
+sprite  1209 mdzoff     900000     // tile1227 nukebarrel
+sprite  1209 pitch      1          // tile1227 nukebarrel
+sprite  1210 angoff    -896        // tile1229 nukebarrelleaked
+sprite  1211 angoff     768        // tile1227 nukebarrel
+sprite  1212 mdzoff     300000     // tile1229 nukebarrelleaked
+sprite  1212 pitch     -2          // tile1229 nukebarrelleaked
+sprite  1212 roll       1          // tile1229 nukebarrelleaked
+sprite  2991 angoff     384        // tile0041 batteryammo
+sprite    68 angoff     1024       // tile0051 cola
+sprite  1245 mdzoff     300000     // tile0916 fireext
+sprite  1245 pitch      1          // tile0916 fireext
+sprite  2223 angoff     0          // tile0060 accesscard blue
+sprite     0 angoff    -512        // tile0041 batteryammo
+sprite     0 mdzoff     500000     // tile0041 batteryammo
+sprite     0 roll      -1          // tile0041 batteryammo
+sprite    47 angoff     1024       // tile0041 batteryammo
+sprite    48 angoff     320        // tile0052 sixpack
+sprite  1868 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  1868 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  1749 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  1749 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  1863 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  1863 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  1867 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  1867 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  1866 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  1866 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2142 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2142 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2141 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2141 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2140 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2140 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2139 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2139 pitch     -1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2138 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2138 pitch      1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2137 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2137 pitch      1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2136 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2136 pitch      1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  2143 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  2143 pitch      1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  1869 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
+sprite  1869 pitch      1          // tile4429 (tile0913 maskwall2 (fence))
+sprite  1350 angoff     768        // tile2212 (tile2209 lizmanleg1)
+sprite  1350 nomdanim              // tile2212 (tile2209 lizmanleg1)
+sprite  1351 nomdanim              // tile2211 (tile2209 lizmanleg1)
+sprite  1112 angoff     1024       // tile1885 (tile1880 drone)
+sprite  1112 mdzoff    -2000       // tile1885 (tile1880 drone)
+sprite  1112 mdxoff    -80         // tile1885 (tile1880 drone)
+sprite  1112 pitch      512        // tile1885 (tile1880 drone)
+sprite  1873 notmd                 // tile1048 (pipes)
+sprite  1871 notmd                 // tile1048 (pipes)
+sprite  1872 notmd                 // tile1048 (pipes)
+sprite  1876 notmd                 // tile1048 (pipes)
+sprite    67 angoff     384        // tile0049 shotgunammo
+sprite   705 angoff     256        // tile0022 chaingunsprite
+sprite   705 mdzoff     400000     // tile0022 chaingunsprite
+sprite   705 pitch      1          // tile0022 chaingunsprite
+sprite   705 roll      -1          // tile0022 chaingunsprite
+sprite  2515 angoff    -512        // tile1227 nukebarrel
+sprite  2514 angoff     512        // tile1227 nukebarrel
+sprite  2512 angoff     512        // tile0051 cola
+sprite  2511 angoff    -512        // tile0060 accesscard blue
+sprite    58 angoff     1024       // tile0052 sixpack
+sprite    66 angoff     768        // tile0049 shotgunammo
+sprite  2540 angoff     0          // tile0060 accesscard red
+sprite   614 angoff     1024       // tile0054 shield
+sprite   613 angoff     1024       // tile0047 hbombammo
+sprite   612 angoff     1024       // tile0049 shotgunammo
+sprite   611 angoff    -896        // tile0052 sixpack
+sprite  2997 angoff    -256        // tile0052 sixpack
+sprite   696 angoff     768        // tile0051 cola
+sprite   697 angoff     256        // tile0027 tripbombsprite
+sprite   698 angoff     256        // tile0027 tripbombsprite
+sprite   699 angoff     256        // tile0027 tripbombsprite
+sprite   703 mdzoff     100000     // tile4581 canwithsomething3
+sprite   703 pitch      1          // tile4581 canwithsomething3
+sprite   695 angoff    -256        // tile0049 shotgunammo
+sprite   695 mdzoff     500000     // tile0049 shotgunammo
+sprite   695 pitch      1          // tile0049 shotgunammo
+sprite    65 angoff     768        // tile0051 cola
+sprite    61 angoff    -512        // tile0049 shotgunammo
+sprite    60 angoff    -256        // tile0049 shotgunammo
+sprite   486 angoff     256        // tile0669 vacuum
+sprite  2657 angoff     128        // tile0026 heavyhbomb
+sprite   489 angoff     768        // tile4581 canwithsomething3
+sprite   489 mdzoff     500000     // tile4581 canwithsomething3
+sprite   489 pitch     -1          // tile4581 canwithsomething3
+sprite   489 roll      -1          // tile4581 canwithsomething3
+sprite  2777 angoff    -512        // tile0051 cola
+sprite  2775 nomdanim              // tile2400 (scrap2)
+sprite  2774 nomdanim              // tile2405 (tile2404 scrap3)
+sprite  2772 nomdanim              // tile2406 (tile2404 (scrap3))
+sprite  2773 nomdanim              // tile2404 scrap3
+sprite  2771 nomdanim              // tile2407 (tile2404 (scrap3))
+sprite    53 angoff     256        // tile0049 shotgunammo
+sprite   402 angoff     1024       // tile0060 accesscard yellow

@@ -3,10 +3,17 @@
 // Level    : T2.MAP - "Transport 2" by Devastator
 // Map Date : 2003-05-13
 // mapmd4   : 239ec3e2aaa6d8ee0cd6f18603cb6fe9
-// Curr. HRP: r5.2.493
+// Curr. HRP: r5.3.576
 
 
 sprite   155 angoff    -256        // tile0021 firstgunsprite
+sprite   154 angoff    -320        // tile2060 pigcopdeadsprite
+sprite   154 mdzoff     500000     // tile2060 pigcopdeadsprite
+sprite   154 pitch     -4          // tile2060 pigcopdeadsprite
+sprite   154 roll      -3          // tile2060 pigcopdeadsprite
+sprite   153 angoff     1024       // tile0028 shotgunsprite
+sprite   153 mdzoff     500000     // tile0028 shotgunsprite
+sprite   153 pitch     -1          // tile0028 shotgunsprite
 sprite  1267 notmd                 // tile2266 (tile2265 jibs5)
 sprite  1305 angoff    -512        // tile1523 (tile1520 (duke torso))
 sprite  1305 nomdanim              // tile1523 (tile1520 (duke torso))
@@ -14,9 +21,13 @@ sprite  1303 angoff     512        // tile1521 (tile1520 (duke torso))
 sprite  1303 nomdanim              // tile1521 (tile1520 (duke torso))
 sprite  1306 mdzoff     1200000    // tile1733 (tile1680 liztroop)
 sprite  1306 pitch     -1          // tile1733 (tile1680 liztroop)
-//sprite  1071 nomdanim              // tile2249 (tile2240 jibs1)
+//sprite  1070 nomdanim              // tile2264 (tile2260 jibs4)
+sprite  1070 roll      -32         // tile2264 (tile2260 jibs4)
+//sprite  1071 nomdanim              // tile2249 (tile2245 jibs1)
 //sprite  1072 nomdanim              // tile2269 (tile2265 jibs5)
+sprite  1074 nomdanim              // tile2263 (tile2260 jibs4)
 sprite  1087 notmd                 // tile2258 (tile2255 jibs3)
+sprite   152 angoff     1024       // tile0052 sixpack
 sprite  1313 notmd                 // tile1069 plug
 sprite  1063 angoff     1024       // tile0059 heatsensor
 sprite  1271 nomdanim              // tile1031 glasspieces
@@ -45,11 +56,23 @@ sprite  1299 nomdanim              // tile1521 (tile1520 (duke torso))
 sprite  1300 mdxoff     20000      // tile1537 (leg)
 sprite  1300 pitch     -1          // tile1537 (leg)
 sprite  1300 nomdanim              // tile1537 (leg)
-sprite  1035 notmd                // tile3211 (tile3210 respawnmarkergreen)
+sprite  1035 notmd                 // tile3211 (tile3210 respawnmarkergreen)
+sprite  1326 angoff    -768        // tile0557 chair2
+sprite  1320 angoff    -384        // tile0557 chair2
+sprite  1323 angoff     128        // tile0557 chair2
+sprite  1322 angoff    -128        // tile0557 chair2
+sprite  1321 angoff     640        // tile0557 chair2
 sprite  1995 angoff     512        // tile0052 sixpack
-sprite  1996 angoff     512        // tile0052 sixpack
+sprite  1996 angoff     1996       // tile0052 sixpack
 sprite  2276 angoff     512        // tile0047 hbombammo
+sprite  1998 angoff     1024       // tile0053 firstaid
+sprite  1997 angoff     1024       // tile0053 firstaid
+sprite  1997 mdzoff     300000     // tile0053 firstaid
+sprite  1997 pitch     -1          // tile0053 firstaid
 sprite  1318 angoff     1024       // tile0054 shield
+sprite  1825 angoff    -768        // tile0061 boots
+sprite   999 angoff    -384        // tile0046 crystalammo
+sprite  1000 angoff    -640        // tile0046 crystalammo
 sprite   197 angoff     1024       // tile1294 podfem1
 sprite  1945 angoff    -768        // tile1294 podfem1
 sprite  1946 angoff     512        // tile1323 fem5 polebabe
@@ -57,19 +80,25 @@ sprite   351 angoff    -256        // tile0606 (dead astronaut)
 sprite   352 angoff     1024       // tile0606 (dead astronaut)
 //sprite   350 pitch      512        // tile4877
 sprite   353 angoff     512        // tile0606 (dead astronaut)
+sprite  2010 angoff     128        // tile0044 rpgammo
+sprite  2011 angoff     512        // tile0042 devistatorammo
 sprite   573 angoff     1024       // tile1294 podfem1
 sprite   432 angoff     1024       // tile0060 accesscard red
 sprite   433 angoff     1024       // tile1353 spacemarine
 sprite   464 nomdanim              // tile2258 (tile2255 jibs3)
+sprite   195 angoff     1024       // tile0025 shrinkersprite
 sprite  2007 angoff     512        // tile0047 hbombammo
 sprite  2003 mdzoff     500000     // tile0054 shield
 sprite  2003 pitch      1          // tile0054 shield
 sprite  2008 angoff    -512        // tile0024 freezesprite
 sprite   888 angoff    -512        // tile4651 (tile4610 newbeast)
 sprite   888 nomdanim              // tile4651 (tile4610 newbeast)
+sprite   837 notmd                 // tile0558 (tile0675 egg)
 sprite   874 notmd                 // tile0164 dipswitch2
 sprite  1897 notmd                 // tile0164 dipswitch2
 sprite  1533 nomdanim              // tile1842 (tile1820 octabrain)
+sprite  2006 angoff    -256        // tile0029 devistatorsprite
+sprite   649 angoff    -256        // tile1354 (luke)
 sprite  2005 angoff     256        // tile0044 rpgammo
 sprite  2004 angoff     1024       // tile0044 rpgammo
 sprite   665 nomdanim              // tile1032 (tile1031 glasspieces)
