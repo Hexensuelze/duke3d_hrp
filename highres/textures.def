@@ -192,8 +192,10 @@ texture 195 {
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 196 {
-   pal 0 { file "highres/textures/0196.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
+   pal 0 { file "highres/textures/0196_d.png" xscale 2 yscale 2 }
+   normal { file "highres/textures/0196_n.png" parallaxbias 0.03 parallaxscale 0.05 }
+   specular { file "highres/textures/0196_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.6 }
 }
 texture 197 {
    pal 0 { file "highres/textures/0197.png" }
