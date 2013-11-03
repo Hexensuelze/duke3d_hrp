@@ -3970,14 +3970,18 @@ texture 4285 {
 //   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 4286 {
-   pal 0 { file "highres/textures/4286.png" }
-   pal 17 { file "highres/textures/4286_17.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+   pal 0 { file "highres/textures/4286_d.png" }
+   normal { file "highres/textures/4286_n.png" parallaxbias 0 parallaxscale 0 }
+   specular { file "highres/textures/4286_s.png" }
+//   pal 17 { file "highres/textures/4286_17.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 4287 {
-   pal 0 { file "highres/textures/4287.png" }
-   pal 17 { file "highres/textures/4287_17.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+   pal 0 { file "highres/textures/4287_d.png" }
+   normal { file "highres/textures/4287_n.png" parallaxbias 0.04 parallaxscale 0.1 }
+   specular { file "highres/textures/4287_s.png" }
+//   pal 17 { file "highres/textures/4287_17.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 
 texture 4288 {
