@@ -1944,9 +1944,11 @@ texture 790 {
    detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
 }
 texture 791 {
-   pal 0 { file "highres/textures/0791.png" }
-   pal 8 { file "highres/textures/0791_8.jpg" }
-   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.3 }
+   pal 0 { file "highres/textures/0791_d.png" xscale 4 }
+   normal { file "highres/textures/0791_n.png"  parallaxbias 0.04 parallaxscale 0.1  }
+   specular { file "highres/textures/0791_s.png" }
+//   pal 8 { file "highres/textures/0791_8.jpg" }
+//   detail { file "highres/detail/metal_worn.png" xscale 0.6 yscale 0.3 }
 }
 texture 793 {
    pal 0 { file "highres/textures/0793_d.png" xscale 8 }
