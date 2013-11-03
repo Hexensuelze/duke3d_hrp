@@ -1,35 +1,53 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : routine.map - "Routine" by Perro Seco
+// Level    : routine.map - "Routine"
+// Author   : Perro Seco
 // Map Date : 2012-01-14
 // mapmd4   : f73b4334538d655e10cabc9c2da2b218
-// Curr. HRP: r5.2.415
+// Curr. HRP: r5.3.583
+
 
 sprite  1265 notmd                 // tile0162 dipswitch
-sprite  2976 angoff    -512        // tile0028 shotgunsprite
-sprite  1302 angoff    -768        // tile1316 (tile1312 fem1 stripper)
-sprite  1302 mdzoff    -1000000    // tile1316 (tile1312 fem1 stripper)
-sprite  1302 pitch      1          // tile1316 (tile1312 fem1 stripper)
-sprite  1302 roll       1          // tile1316 (tile1312 fem1 stripper)
-sprite  1378 mdxoff    -50000      // tile0979 hanglight
-sprite  1378 pitch      1          // tile0979 hanglight
-sprite  1379 mdxoff    -50000      // tile0979 hanglight
-sprite  1379 pitch      1          // tile0979 hanglight
-sprite  1388 angoff    -512        // tile0563 waterfountain
+sprite  2976 angoff     512        // tile0028 shotgunsprite
+sprite  1355 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1355 pitch      1          // tile0574 (tile0670 (faucet))
+sprite  1354 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1354 pitch      1          // tile0574 (tile0670 (faucet))
+sprite  1366 angoff     1024       // tile0979 hanglight
+sprite  1366 mdxoff     15000      // tile0979 hanglight
+sprite  1366 pitch     -1          // tile0979 hanglight
+sprite  1367 angoff     1024       // tile0979 hanglight
+sprite  1367 mdxoff     15000      // tile0979 hanglight
+sprite  1367 pitch     -1          // tile0979 hanglight
 sprite  1385 notmd                 // tile1275 (newspaper)
+sprite  1372 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1372 pitch      1          // tile0574 (tile0670 (faucet))
+sprite  1373 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1353 pitch      1          // tile0574 (tile0670 (faucet))
+sprite  1379 mdxoff     15000      // tile0979 hanglight
+sprite  1379 pitch     -1          // tile0979 hanglight
+sprite  1378 mdxoff     15000      // tile0979 hanglight
+sprite  1378 pitch     -1          // tile0979 hanglight
+sprite  1302 angoff    -768        // tile1316 (tile1312 fem1 stripper)
+sprite  1302 mdzoff     1000000    // tile1316 (tile1312 fem1 stripper)
+sprite  1302 pitch     -1          // tile1316 (tile1312 fem1 stripper)
+sprite  1302 roll      -1          // tile1316 (tile1312 fem1 stripper)
 sprite  1490 angoff     1024       // tile4496 broom
 sprite  1490 mdzoff    -900000     // tile4496 broom
 sprite  1490 pitch      1          // tile4496 broom
 sprite  1491 angoff     256        // tile1352 monk
+sprite  1425 angoff     1024       // tile0026 heavyhbomb
+sprite  2977 angoff     1024       // tile0026 heavyhbomb
+sprite  2980 angoff     1024       // tile0026 heavyhbomb
 sprite  2990 angoff    -768        // tile0049 shotgunammo
 sprite   287 notmd                 // tile1275 (newspaper)
 sprite  2111 angoff    -768        // tile0981 hydrent
 sprite   282 angoff    -512        // tile1321 fem3 hooker
+sprite  1117 angoff     896        // tile1232 canwithsomething
 sprite  2113 angoff     1024       // tile0981 hydrent
-sprite   390 angoff     768        // tile0981 hydrent
-sprite  2112 angoff     768        // tile0981 hydrent
-sprite  2772 notmd                 // tile1275 (newspaper)
+sprite  1749 angoff    -512        // tile0052 sixpack
+sprite  1043 mdzoff     200000     // tile0026 heavyhbomb
+sprite  1043 roll       1          // tile0026 heavyhbomb
 sprite    26 angoff     1024       // tile0061 boots
 sprite   125 angoff     1024       // tile0061 boots
 sprite   126 angoff     1024       // tile0061 boots
@@ -67,43 +85,105 @@ sprite  1699 angoff    -512        // tile0061 boots
 sprite  1700 angoff    -512        // tile0061 boots
 sprite  1701 angoff    -512        // tile0061 boots
 sprite  1953 angoff    -512        // tile0916 fireext
-sprite  1975 angoff     512        // tile4876 (tile4874 woman)
+sprite  1953 mdzoff     100000     // tile0916 fireext
+sprite  1953 pitch      1          // tile0916 fireext
 sprite  1975 nomdanim              // tile4876 (tile4874 woman)
-sprite  1976 angoff     256        // tile1331 (tile1312 fem1 stripper)
+sprite  1975 angoff     512        // tile4876 (tile4874 woman)
 sprite  1976 nomdanim              // tile1331 (tile1312 fem1 stripper)
+sprite  1976 angoff    -256        // tile1331 (tile1312 fem1 stripper)
 sprite  1974 nomdanim              // tile1398 (tile1395 fem7 dancer)
-sprite   722 angoff     256        // tile0753 statue (geisha)
-sprite   721 angoff     768        // tile0753 statue (geisha)
+sprite  1991 angoff     128        // tile1321 fem3 hooker
 sprite   707 mdzoff     600000     // tile0680 chair3
 sprite   707 pitch      1          // tile0680 chair3
+sprite   722 angoff     256        // tile0753 statue (geisha)
+sprite   721 angoff     768        // tile0753 statue (geisha)
+sprite  1999 nomdanim              // tile1269 (tile1267 rat)
+sprite   703 nomdanim              // tile1232 canwithsomething
+sprite   703 angoff     384        // tile1232 canwithsomething
 sprite   597 angoff     512        // tile0916 fireext
+sprite   597 mdzoff     50000      // tile0916 fireext
+sprite   597 pitch      1          // tile0916 fireext
 sprite   675 angoff    -512        // tile0044 rpgammo
 sprite   595 angoff     1024       // tile0916 fireext
+sprite   595 mdzoff     100000     // tile0916 fireext
+sprite   595 pitch      1          // tile0916 fireext
 sprite  2119 notmd                 // tile1275 (newspaper)
+sprite   593 mdzoff     50000      // tile0916 fireext
+sprite   593 pitch      1          // tile0916 fireext
 sprite  2055 angoff    -768        // tile0916 fireext
-sprite  2079 mdxoff    -50000      // tile0979 hanglight
-sprite  2079 pitch      1          // tile0979 hanglight
+sprite  2079 mdxoff     50000      // tile0979 hanglight
+sprite  2079 pitch     -1          // tile0979 hanglight
 sprite  2991 angoff     256        // tile0023 rpgsprite
-sprite  2994 angoff     1024       // tile0054 shield
+sprite  2086 angoff     0          // tile0060 accesscard red
 sprite   275 notmd                 // tile0134 lightswitch
-sprite  1749 angoff     512        // tile0052 sixpack
-sprite  1484 angoff     1024       // tile0563 waterfountain
+sprite   277 angoff     1024       // tile0052 sixpack
+sprite  2996 angoff     512        // tile0045 growammo
+sprite  2994 angoff     1024       // tile0054 shield
+sprite  2120 angoff    -768        // tile1238 explodingbarrel
+sprite  1119 notmd                 // tile1275 (newspaper)
+sprite  1120 angoff     128        // tile1232 canwithsomething
+sprite  2112 angoff     768        // tile0981 hydrent
+sprite  2772 notmd                 // tile1275 (newspaper)
+sprite  1137 angoff    -768        // tile1232 canwithsomething
+sprite  1192 angoff     0          // tile0060 accesscard yellow
+sprite  1484 angoff    -512        // tile0563 waterfountain
+sprite  1238 angoff     896        // tile4419 (openbomb)
+sprite  1217 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1217 pitch      1          // tile0574 (tile0670 (faucet))
+sprite  1220 mdxoff     15000      // tile0979 hanglight
+sprite  1220 pitch     -1          // tile0979 hanglight
 sprite  1508 angoff     512        // tile0916 fireext
+sprite  1508 mdzoff     50000      // tile0916 fireext
+sprite  1508 pitch      1          // tile0916 fireext
+sprite    24 angoff     128        // tile1321 fem3 hooker
+sprite  1519 angoff     768        // tile1160 bottle13 (Jack Daniels)
 sprite  1512 notmd                 // tile0134 lightswitch
+sprite  1520 mdzoff     50000      // tile0916 fireext
+sprite  1520 pitch      1          // tile0916 fireext
 sprite  1145 angoff     512        // tile0916 fireext
-sprite  1573 angoff     512        // tile0028 shotgunsprite
+sprite  1145 mdzoff     50000      // tile0916 fireext
+sprite  1145 pitch      1          // tile0916 fireext
 sprite  1566 notmd                 // tile1275 (newspaper)
+sprite  1562 angoff     768        // tile1160 bottle13 (Jack Daniels)
+sprite  1573 angoff     512        // tile0028 shotgunsprite
+sprite  1038 angoff     1024       // tile1957 (tile1920 commander) (dead)
+sprite  1620 nomdanim              // tile1345 (tile1337 (helicopter))
+sprite  1620 angoff     256        // tile1345 (tile1337 (helicopter))
+sprite  1620 mdxoff     150000     // tile1345 (tile1337 (helicopter))
+sprite  1620 mdzoff     4000000    // tile1345 (tile1337 (helicopter))
+sprite  1620 pitch      1          // tile1345 (tile1337 (helicopter))
+sprite    18 angoff     512        // tile0024 freezesprite
+sprite  1709 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1709 pitch      1          // tile0574 (tile0670 (faucet))
+sprite  1715 mdxoff     15000      // tile0979 hanglight
+sprite  1715 pitch     -1          // tile0979 hanglight
 sprite  1717 angoff     512        // tile0762 mike
+sprite  1820 mdzoff     500000     // tile4367 hatrack
+sprite  1820 pitch      1          // tile4367 hatrack
+sprite  1017 mdzoff     500000     // tile4367 hatrack
+sprite  1017 pitch      1          // tile4367 hatrack
+sprite  1786 angoff     1024       // tile4370 desklamp
+sprite  1024 angoff     1024       // tile1165 bottle18
+sprite  1777 angoff    -512        // tile0026 heavyhbomb
+sprite  1777 mdzoff     500000     // tile0026 heavyhbomb
+sprite  1777 roll      -1          // tile0026 heavyhbomb
+sprite  1826 mdzoff     500000     // tile4367 hatrack
+sprite  1826 pitch      1          // tile4367 hatrack
+sprite  1812 angoff     1024       // tile4370 desklamp
 sprite     2 angoff     512        // tile0049 shotgunammo
 sprite     2 mdzoff     500000     // tile0049 shotgunammo
 sprite     2 roll       1          // tile0049 shotgunammo
-sprite  1777 angoff     512        // tile0026 heavyhbomb
-sprite  1777 mdzoff     500000     // tile0026 heavyhbomb
-sprite  1777 roll       1          // tile0026 heavyhbomb
 sprite  1794 notmd                 // tile1275 (newspaper)
 sprite  1880 angoff    -256        // tile0058 (spacesuit)
+sprite  1018 mdzoff     500000     // tile4367 hatrack
+sprite  1018 pitch      1          // tile4367 hatrack
+sprite  1020 angoff     0          // tile0060 accesscard blue
 sprite   875 angoff     256        // tile0058 (spacesuit)
 sprite  1899 angoff     768        // tile0058 (spacesuit)
 sprite  1879 mdxoff     60000      // tile0489 satellite
 sprite  1879 pitch      1          // tile0489 satellite
 sprite  1934 angoff     1024       // tile0045 growammo
+sprite   845 angoff     1024       // tile0584 (sensor)
+sprite   846 angoff     0          // tile0060 accesscard red
+//?
+sprite   390 angoff     768        // tile0981 hydrent

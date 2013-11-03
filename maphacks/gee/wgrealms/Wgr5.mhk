@@ -1,10 +1,12 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : Wgr5.map - "Temple Cress" by William Gee
+// Level    : Wgr5.map - "Temple Cress"
+// Author   : William Gee
 // Map Date : 2004-07-30
 // mapmd4   : b1ed954acf7ba688dd5184648be1d2a5
-// Curr. HRP: r5.2.498
+// Curr. HRP: r5.3.583
 
+//         <-> Wgr5-dnwmd.mhk
 
 sprite   682 angoff     768        // tile0022 chaingunsprite
 sprite   681 angoff     256        // tile0028 shotgunsprite
@@ -13,32 +15,55 @@ sprite   704 angoff     512        // tile0049 shotgunammo
 sprite   703 angoff     512        // tile0049 shotgunammo
 sprite     3 angoff     512        // tile0052 sixpack
 sprite   684 angoff     1024       // tile0024 freezesprite
-sprite   685 angoff     512        // tile0037 freezeammo
+sprite   685 angoff    -512        // tile0037 freezeammo
 sprite   686 angoff     512        // tile0037 freezeammo
-sprite     0 angoff     256        // tile0051 cola
-sprite     2 angoff    -128        // tile0051 cola
+sprite     0 angoff    -768        // tile0051 cola
+sprite     1 angoff     1024       // tile0051 cola
+sprite     2 angoff     896        // tile0051 cola
 sprite   643 angoff    -512        // tile0023 rpgsprite
 sprite   644 angoff    -384        // tile0044 rpgammo
 sprite   645 angoff    -640        // tile0044 rpgammo
 sprite   642 angoff    -512        // tile0023 rpgsprite
 sprite   646 angoff    -640        // tile0044 rpgammo
 sprite   647 angoff    -384        // tile0044 rpgammo
+
+
+
 sprite   702 angoff     512        // tile0049 shotgunammo
 sprite   690 angoff     1024       // tile0042 devistatorammo
 sprite   690 pitch     -256        // tile0042 devistatorammo
 sprite   691 angoff     1024       // tile0042 devistatorammo
 sprite   691 pitch     -256        // tile0042 devistatorammo
 sprite   692 angoff     1024       // tile0042 devistatorammo
+
+
+
+
 sprite   693 angoff     1024       // tile0042 devistatorammo
+
+
+
+
 sprite   689 angoff    -768        // tile0042 devistatorammo
 sprite   688 angoff     768        // tile0042 devistatorammo
 sprite   699 angoff     256        // tile0049 shotgunammo
-sprite     6 angoff    -256        // tile0051 cola
-sprite     7 angoff     256        // tile0051 cola
+
+
+
+
+
+
+
+
+
+
 sprite     9 angoff     128        // tile0051 cola
 sprite     8 angoff    -128        // tile0051 cola
-sprite     4 angoff     256        // tile0051 cola
-sprite     5 angoff    -256        // tile0051 cola
+sprite     6 angoff     768        // tile0051 cola
+sprite     7 angoff    -768        // tile0051 cola
+sprite    10 angoff     1024       // tile0025 shrinkersprite
+sprite     5 angoff     768        // tile0051 cola
+sprite     4 angoff    -768        // tile0051 cola
 sprite   740 notmd                 // tile0166 techswitch
 sprite   680 notmd                 // tile0166 techswitch
 sprite   679 notmd                 // tile0166 techswitch
@@ -46,7 +71,7 @@ sprite   739 notmd                 // tile0166 techswitch
 sprite    67 notmd                 // tile0164 dipswitch2
 sprite   133 notmd                 // tile1111 handswitch
 sprite   776 angoff    -256        // tile0044 rpgammo
-sprite   777 mdzoff     700000     // tile0044 rpgammo
+sprite   777 mdzoff     1200000    // tile0044 rpgammo
 sprite   777 roll       1          // tile0044 rpgammo
 sprite   778 mdzoff     700000     // tile0044 rpgammo
 sprite   778 roll      -1          // tile0044 rpgammo
@@ -54,7 +79,7 @@ sprite   775 angoff     256        // tile0044 rpgammo
 sprite   756 mdzoff     500000     // tile0042 devistatorammo
 sprite   756 pitch     -1          // tile0042 devistatorammo
 sprite   755 mdzoff     500000     // tile0042 devistatorammo
-sprite   755 pitch     -1          // tile0042 devistatorammo
+sprite   755 pitch      1          // tile0042 devistatorammo
 sprite   757 mdzoff     500000     // tile0042 devistatorammo
 sprite   757 pitch     -1          // tile0042 devistatorammo
 sprite   318 angoff     1024       // tile0057 jetpack

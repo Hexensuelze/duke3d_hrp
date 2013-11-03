@@ -1,9 +1,10 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : Wgr3.map - "Open Season" by William Gee
+// Level    : Wgr3.map - "Open Season"
+// Author   : William Gee
 // Map Date : 2004-07-30
 // mapmd4   : 601a3e69f32425a0b53c00df0ece87e0
-// Curr. HRP: r5.2.498
+// Curr. HRP: r5.3.583
 
 
 sprite    78 angoff    -512        // tile0028 shotgunsprite
@@ -12,6 +13,8 @@ sprite    81 angoff     512        // tile0053 firstaid
 sprite    79 angoff    -512        // tile0024 freezesprite
 sprite  1180 angoff    -128        // tile0051 cola
 sprite   123 angoff     256        // tile0051 cola
+sprite  1061 mdzoff    -20000      // tile0049 shotgunammo
+sprite  1061 roll       32         // tile0049 shotgunammo
 sprite  1179 angoff     768        // tile0025 shrinkersprite
 sprite  1231 angoff    -384        // tile0023 rpgsprite
 sprite  1231 pitch      192        // tile0023 rpgsprite
@@ -27,13 +30,15 @@ sprite  1057 angoff    -768        // tile0049 shotgunammo
 sprite  1057 roll      -160        // tile0049 shotgunammo
 sprite  1170 angoff     512        // tile0029 devistatorsprite
 sprite  1505 roll       160        // tile0037 freezeammo
-sprite  1181 angoff     384        // tile0051 cola
-sprite  1182 angoff    -128        // tile0051 cola
+sprite  1181 angoff    -640        // tile0051 cola
+sprite  1182 angoff     896        // tile0051 cola
 sprite  1059 angoff    -832        // tile0049 shotgunammo
 sprite  1059 roll      -192        // tile0049 shotgunammo
-sprite    98 angoff    -512        // tile0028 shotgunsprite
+sprite   100 angoff     1024       // tile0052 sixpack
+sprite    98 angoff    -768        // tile0049 shotgunammo
+sprite  1534 angoff     1024       // tile0053 firstaid
 sprite   142 angoff    -256        // tile0052 sixpack
-sprite   137 angoff     768        // tile0028 shotgunsprite
+sprite   137 angoff     768        // tile0049 shotgunammo
 sprite  1227 angoff     896        // tile0041 batteryammo
 sprite  1226 angoff     128        // tile0042 devistatorammo
 sprite  1240 angoff     1024       // tile0049 shotgunammo
@@ -45,16 +50,19 @@ sprite  1507 roll      -160        // tile0037 freezeammo
 sprite  1241 angoff    -896        // tile0049 shotgunammo
 sprite    86 notmd                 // tile0164 dipswitch2
 sprite    84 angoff     512        // tile0060 accesscard red
+sprite   104 angoff    -512        // tile0563 waterfountain
 sprite   195 nomdanim              // tile1527 (tile1520 (duke torso))
 sprite   195 angoff     256        // tile1521 (tile1520 (duke torso))
 sprite   310 angoff     896        // tile0060 accesscard blue
 sprite   115 angoff    -460        // tile0044 rpgammo
 sprite   115 pitch     -160        // tile0044 rpgammo
+sprite   115 roll      -32         // tile0044 rpgammo
 sprite   116 angoff     492        // tile0044 rpgammo
 sprite   116 pitch     -128        // tile0044 rpgammo
+sprite   116 roll      -32         // tile0044 rpgammo
 sprite   111 angoff     512        // tile0042 devistatorammo
 sprite   111 pitch     -160        // tile0042 devistatorammo
-sprite  1250 angoff     512        // tile0053 firstaid
+sprite  1250 angoff    -512        // tile0053 firstaid
 sprite   113 angoff    -512        // tile0042 devistatorammo
 sprite   114 angoff    -512        // tile0042 devistatorammo
 sprite  1243 angoff    -256        // tile0049 shotgunammo
@@ -63,5 +71,6 @@ sprite  1244 angoff     1024       // tile0049 shotgunammo
 sprite  1244 roll      -128        // tile0049 shotgunammo
 sprite  1254 angoff     256        // tile0044 rpgammo
 sprite  1254 pitch     -224        // tile0044 rpgammo
+sprite    64 angoff     256        // tile0052 sixpack
 sprite  1520 nomdanim              // tile1527 (tile1520 (duke torso))
 sprite  1520 angoff    -256        // tile1521 (tile1520 (duke torso))

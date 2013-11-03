@@ -1,42 +1,87 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : crashandburn1.0.map - "Crash and Burn" by colonelconsequences
+// Level    : crashandburn1.0.map - "Crash and Burn"
+// Author   : colonelconsequences
 // Map Date : 2012-02-24
 // mapmd4   : f795b96016591241bd6b0e5aa83d62c2
-// Curr. HRP: r5.2.415
+// Curr. HRP: r5.3.583
+
 
 sprite   129 angoff     1024       // tile1165 bottle18
 sprite   130 angoff    -768        // tile1165 bottle18
 sprite    24 angoff     512        // tile0981 hydrent
-sprite    31 angoff     1024       // tile0981 hydrent
-sprite   138 angoff     512        // tile0556 chair1
-sprite   426 angoff     256        // tile0052 sixpack
-sprite   351 angoff     512        // tile0049 shotgunammo
-sprite   350 angoff     1024       // tile0041 batteryammo
-sprite   350 mdzoff     100000     // tile0041 batteryammo
-sprite   350 pitch      1          // tile0041 batteryammo
-sprite   352 angoff    -256        // tile0051 cola
-sprite   200 angoff     512        // tile1045 donuts
-sprite   198 angoff    -256        // tile0055 steroids
-sprite   372 angoff    -256        // tile0052 sixpack
-sprite   373 angoff     512        // tile0052 sixpack
+sprite   338 angoff     1024       // tile0028 shotgunsprite
+sprite   155 angoff     512        // tile1165 bottle18
+sprite   151 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite   342 angoff     512        // tile0040 ammo
+sprite   341 angoff     1024       // tile0022 chaingunsprite
+sprite   341 mdzoff     200000     // tile0022 chaingunsprite
+sprite   341 roll      -1          // tile0022 chaingunsprite
+sprite    19 angoff    -512        // tile0927 (traffic signal)
+sprite    19 mdxoff     50000      // tile0927 (traffic signal)
+sprite    19 pitch      1          // tile0927 (traffic signal)
+sprite   437 angoff    -512        // tile0927 (traffic signal)
+sprite   437 mdxoff     50000      // tile0927 (traffic signal)
+sprite   437 pitch      1          // tile0927 (traffic signal)
+sprite   436 angoff     512        // tile0927 (traffic signal)
+sprite   436 mdxoff     50000      // tile0927 (traffic signal)
+sprite   436 pitch      1          // tile0927 (traffic signal)
+sprite   370 angoff    -256        // tile0049 shotgunammo
 sprite   374 angoff     256        // tile0052 sixpack
-sprite   455 angoff    -256        // tile0053 firstaid
+sprite   455 angoff     768        // tile0053 firstaid
+sprite   346 angoff    -256        // tile0049 shotgunammo
+sprite    70 angoff    -512        // tile1247 seenine
+sprite   336 angoff     0          // tile0060 accesscard red
+sprite   164 nomdanim              // tile1232 canwithsomething
+sprite   493 angoff    -768        // tile0556 chair1
+sprite   494 angoff    -256        // tile0556 chair1
 sprite   343 angoff     512        // tile0052 sixpack
 sprite   170 mdzoff     500000     // tile4496 broom
 sprite   170 pitch      1          // tile4496 broom
-sprite   493 angoff    -768        // tile0556 chair1
-sprite   293 angoff     512        // tile0053 firstaid
+sprite    31 angoff     1024       // tile0981 hydrent
+sprite   200 angoff     512        // tile1045 donuts
+sprite   198 angoff     768        // tile0055 steroids
+sprite   427 angoff    -768        // tile0052 sixpack
+sprite   140 angoff     512        // tile4370 desklamp
+sprite   138 angoff     768        // tile0556 chair1
+sprite   425 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite   425 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   426 angoff     256        // tile0052 sixpack
+sprite   314 angoff    -256        // tile0049 shotgunammo
 sprite   313 angoff     512        // tile0052 sixpack
-sprite   314 angoff    -512        // tile0049 shotgunammo
+sprite   332 mdzoff    -4864       // tile0407 fansprite
+sprite   332 pitch      1024       // tile0407 fansprite
 sprite   337 angoff     256        // tile0060 accesscard yellow
+sprite   352 angoff     768        // tile0051 cola
+sprite   128 angoff    -384        // tile1045 donuts
+sprite   350 angoff     1024       // tile0041 batteryammo
+sprite   350 mdzoff     100000     // tile0041 batteryammo
+sprite   350 pitch      1          // tile0041 batteryammo
+sprite   351 angoff     384        // tile0049 shotgunammo
+sprite   351 mdzoff     500000     // tile0049 shotgunammo
+sprite   351 pitch     -1          // tile0049 shotgunammo
+sprite   301 mdzoff    -4096       // tile0407 fansprite
+sprite   301 pitch      1024       // tile0407 fansprite
+sprite   372 angoff     768        // tile0052 sixpack
+sprite   373 angoff     512        // tile0052 sixpack
+sprite   293 angoff     512        // tile0053 firstaid
+sprite   294 angoff     896        // tile4548 foodobject19
+sprite   284 angoff    -896        // tile4548 foodobject19
 sprite   218 angoff     512        // tile0044 rpgammo
 sprite   217 angoff     1024       // tile0023 rpgsprite
 sprite   219 angoff     768        // tile0060 accesscard blue
-sprite   489 angoff     1024       // tile4496 broom
 sprite   448 angoff    -512        // tile0556 chair1
+sprite   489 angoff     1024       // tile4496 broom
+sprite   312 angoff     1024       // tile0052 sixpack
 sprite    73 angoff     512        // tile0052 sixpack
+sprite   470 angoff     1024       // tile0574 (tile0670 (faucet))
+sprite   470 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   470 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   471 angoff     1024       // tile0574 (tile0670 (faucet))
 sprite   485 angoff    -512        // tile0041 batteryammo
+sprite   475 angoff     1024       // tile0574 (tile0670 (faucet))
+sprite   475 mdzoff     50000      // tile0574 (tile0670 (faucet))
+sprite   475 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   474 angoff     1024       // tile0574 (tile0670 (faucet))
 sprite   480 angoff     1024       // tile0569 toilet
 sprite   481 angoff     256        // tile1321 fem3 hooker
