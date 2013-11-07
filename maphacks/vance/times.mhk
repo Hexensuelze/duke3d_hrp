@@ -1,25 +1,52 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : times.map - "Crimes Square" by Todd Vance
+// Level    : times.map - "Crimes Square"
+// Author   : Todd Vance
 // Map Date : 2012-11-12
 // mapmd4   : 5b92657c11d38fa2f580aa7894f5eb44
-// Curr. HRP: r5.2.445
+// Curr. HRP: r5.3.590
 
 
+sprite  1527 mdzoff     500000     // tile0052 sixpack
+sprite  1527 pitch      1          // tile0052 sixpack
+sprite   171 mdzoff     500000     // tile1232 canwithsomething
+sprite   171 pitch     -1          // tile1232 canwithsomething
+sprite   172 angoff    -512        // tile1232 canwithsomething
+sprite   173 mdzoff     200000     // tile1232 canwithsomething
+sprite   173 pitch     -1          // tile1232 canwithsomething
+sprite   174 angoff    -384        // tile1232 canwithsomething
+sprite   175 angoff     256        // tile1232 canwithsomething
+sprite   175 mdzoff     500000     // tile1232 canwithsomething
+sprite   175 pitch      1          // tile1232 canwithsomething
+sprite   176 angoff     1024       // tile1232 canwithsomething
+sprite   176 mdzoff     500000     // tile1232 canwithsomething
+sprite   176 pitch      1          // tile1232 canwithsomething
 sprite  1406 angoff     1024       // tile0041 batteryammo
+sprite   161 angoff     1024       // tile1227 nukebarrel
 sprite  1498 angoff     1024       // tile0023 rpgsprite
 sprite   550 angoff    -512        // tile0023 rpgsprite
 sprite   550 mdzoff     500000     // tile0023 rpgsprite
 sprite   550 roll      -1          // tile0023 rpgsprite
+sprite   549 mdzoff     500000     // tile0100 atomichealth
+sprite   549 roll       1          // tile0100 atomichealth
+sprite  1528 mdzoff     1024       // tile0052 sixpack
 sprite  1528 mdzoff     500000     // tile0052 sixpack
 sprite  1528 pitch      1          // tile0052 sixpack
+sprite   486 angoff     1024       // tile0049 shotgunammo
+sprite   687 angoff    -512        // tile1227 nukebarrel
+sprite   687 mdzoff     500000     // tile1227 nukebarrel
+sprite   687 pitch     -1          // tile1227 nukebarrel
 sprite   689 angoff     256        // tile0022 chaingunsprite
-sprite   688 angoff     512        // tile0053 firstaid
+sprite   688 angoff     384        // tile0053 firstaid
+sprite   417 angoff     512        // tile1227 nukebarrel
 sprite  1383 angoff     512        // tile0049 shotgunammo
 sprite   604 angoff     512        // tile0049 shotgunammo
+sprite  1473 angoff     1024       // tile0026 heavyhbomb
+sprite   605 angoff     512        // tile0049 shotgunammo
 sprite   553 angoff    -512        // tile0049 shotgunammo
 sprite   555 angoff    -512        // tile0049 shotgunammo
 sprite   557 angoff    -512        // tile0049 shotgunammo
+sprite   560 angoff     1024       // tile0029 devistatorsprite
 sprite   606 angoff     1024       // tile0049 shotgunammo
 sprite   745 angoff     768        // tile0022 chaingunsprite
 sprite   769 angoff     1024       // tile0044 rpgammo
@@ -32,6 +59,8 @@ sprite   855 roll       1          // tile0044 rpgammo
 sprite   854 angoff     1024       // tile0044 rpgammo
 sprite   854 mdzoff     200000     // tile0044 rpgammo
 sprite   854 roll      -1          // tile0044 rpgammo
+sprite  1414 angoff     1024       // tile0026 heavyhbomb
+sprite  1415 angoff     1024       // tile0026 heavyhbomb
 sprite   607 angoff     1024       // tile0022 chaingunsprite
 sprite   773 angoff     1024       // tile0042 devistatorammo
 sprite   752 angoff     512        // tile0023 rpgsprite
@@ -39,10 +68,14 @@ sprite   756 angoff    -768        // tile0044 rpgammo
 sprite   753 angoff     1024       // tile0044 rpgammo
 sprite   862 angoff     1024       // tile0044 rpgammo
 sprite   860 angoff     256        // tile0023 rpgsprite
+sprite   866 angoff     0          // tile0060 accesscard red (yellow)
 sprite   861 angoff    -512        // tile0023 rpgsprite
+sprite   861 mdzoff    -800        // tile0023 rpgsprite
+sprite   861 pitch     -304        // tile0023 rpgsprite
 sprite  1402 angoff    -640        // tile0041 batteryammo
 sprite  1523 angoff     1024       // tile0044 rpgammo
 sprite   868 angoff     512        // tile0023 rpgsprite
+sprite   868 mdzoff     200000     // tile0023 rpgsprite
 sprite   868 mdxoff     8000       // tile0023 rpgsprite
 sprite   868 pitch     -1          // tile0023 rpgsprite
 sprite  1441 angoff     1024       // tile0044 rpgammo
@@ -54,7 +87,11 @@ sprite   774 mdzoff     500000     // tile0042 devistatorammo
 sprite   774 roll      -1          // tile0042 devistatorammo
 sprite  1360 angoff     512        // tile0049 shotgunammo
 sprite  1287 angoff    -512        // tile0023 rpgsprite
-sprite  1080 angoff    -256        // tile0046 crystalammo
+sprite  1353 mdzoff     300000     // tile0047 hbombammo
+sprite  1353 roll      -1          // tile0047 hbombammo
+sprite  1388 angoff     512        // tile0029 devistatorsprite
+sprite  1389 angoff     512        // tile0053 firstaid
+sprite  1080 angoff     768        // tile0046 crystalammo
 sprite  1035 mdzoff     200000     // tile1045 donuts
 sprite  1035 pitch      1          // tile1045 donuts
 sprite  1133 angoff     512        // tile0037 freezeammo
@@ -66,9 +103,11 @@ sprite  1131 pitch     -1          // tile0037 freezeammo
 sprite  1132 angoff     512        // tile0037 freezeammo
 sprite  1132 mdzoff     8000       // tile0037 freezeammo
 sprite  1132 pitch     -1          // tile0037 freezeammo
+sprite  1280 angoff     0          // tile0060 accesscard yellow (red)
 sprite  1098 angoff    -512        // tile0025 shrinkersprite
 sprite  1278 angoff     1024       // tile0044 rpgammo
 sprite  1279 angoff     512        // tile0042 devistatorammo
-sprite  1389 angoff     512        // tile0053 firstaid
-sprite  1388 angoff     512        // tile0029 devistatorsprite
+sprite  1359 angoff     512        // tile0049 shotgunammo
+sprite  1359 mdzoff     100000     // tile0049 shotgunammo
+sprite  1359 roll       1          // tile0049 shotgunammo
 sprite  1454 angoff     512        // tile0023 rpgsprite

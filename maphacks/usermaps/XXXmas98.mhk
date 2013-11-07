@@ -1,10 +1,12 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : XXXmas98.map - "XXXmas98" by Dukebert
+// Level    : XXXmas98.map - "XXXmas98"
+// Author   : Dukebert
 // Map Date : 1998-12-01
 // mapmd4   : d29cb871619b80d110d8a4e76fb15e32
-// Curr. HRP: r5.2.556
+// Curr. HRP: r5.3.590
 
+//         <-> XXXmas98_DNA.mhk
 
 sprite   445 mdzoff     4000000    // tile1337 (helicopter)
 sprite   445 pitch      1          // tile1337 (helicopter)
@@ -12,15 +14,28 @@ sprite   445 roll      -1          // tile1337 (helicopter)
 sprite   124 angoff     512        // tile0054 shield
 sprite   447 angoff    -384        // tile0028 shotgunsprite
 sprite   260 angoff     768        // tile0049 shotgunammo
+
+
+sprite    56 angoff    -384        // tile0027 tripbombsprite (multiplayer)
+sprite    54 angoff    -384        // tile0027 tripbombsprite (multiplayer)
+sprite    55 angoff    -384        // tile0027 tripbombsprite (multiplayer)
+sprite    53 angoff    -384        // tile0027 tripbombsprite (multiplayer)
+sprite    57 angoff    -384        // tile0027 tripbombsprite (multiplayer)
 sprite   538 angoff    -768        // tile0052 sixpack
-sprite   539 angoff     128        // tile0049 shotgunammo
-sprite   540 angoff     128        // tile0049 shotgunammo
 sprite    79 angoff    -512        // tile0044 rpgammo (multiplayer)
 sprite    80 angoff     512        // tile0044 rpgammo (multiplayer)
+sprite   539 angoff     128        // tile0049 shotgunammo
+sprite   540 angoff     128        // tile0049 shotgunammo
 sprite    52 angoff     256        // tile0054 shield (multiplayer)
 sprite    10 angoff     256        // tile0059 heatsensor
 sprite   512 angoff    -640        // tile0053 firstaid
 sprite   186 angoff     512        // tile0052 sixpack
+sprite   184 angoff     512        // tile0040 ammo
+sprite   185 angoff     512        // tile0040 ammo
+
+
+
+
 sprite    13 angoff     128        // tile0052 sixpack
 sprite   366 angoff    -768        // tile0047 hbombammo
 sprite   541 angoff     384        // tile0027 tripbombsprite
@@ -40,11 +55,14 @@ sprite   200 angoff     768        // tile0060 accesscard yellow
 sprite   562 angoff     512        // tile0024 freezesprite
 sprite   563 roll      -128        // tile0037 freezeammo
 sprite   565 angoff     512        // tile0037 freezeammo
-sprite   563 pitch      128        // tile0037 freezeammo
+sprite   565 pitch      128        // tile0037 freezeammo
 sprite   564 angoff     1024       // tile0037 freezeammo
 sprite   564 roll       128        // tile0037 freezeammo
+sprite    48 angoff     1024       // tile0040 ammo
+sprite    49 angoff     1024       // tile0040 ammo
+sprite    50 angoff     1024       // tile0040 ammo
 sprite    39 angoff    -896        // tile0054 shield (multiplayer)
-sprite    32 angoff     1024       // tile0042 devistatorammo
+sprite    32 angoff     1024       // tile0042 devistatorammo (multiplayer)
 sprite    12 angoff     512        // tile0052 sixpack
 sprite   508 angoff     512        // tile0025 shrinkersprite
 sprite    35 angoff     512        // tile0046 crystalammo (multiplayer)
@@ -55,10 +73,10 @@ sprite    71 angoff     384        // tile0024 freezesprite (multiplayer)
 sprite    69 angoff    -128        // tile0037 freezeammo (multiplayer)
 sprite    70 angoff    -128        // tile0037 freezeammo (multiplayer)
 sprite   123 angoff     768        // tile0053 firstaid
-sprite    99 angoff     1024       // tile1348 holoduke
 sprite   223 angoff     768        // tile0022 chaingunsprite
 sprite   222 angoff    -256        // tile0041 batteryammo
 sprite   221 angoff    -256        // tile0041 batteryammo
+sprite    99 angoff     1024       // tile1348 holoduke
 sprite   574 angoff     1024       // tile0060 accesscard red
 sprite    76 angoff     1024       // tile0057 jetpack
 sprite   119 angoff     1024       // tile0042 devistatorammo
@@ -66,10 +84,12 @@ sprite     5 pitch     -64         // tile0037 freezeammo (multiplayer)
 sprite     6 pitch     -64         // tile0037 freezeammo (multiplayer)
 sprite     7 pitch     -64         // tile0037 freezeammo (multiplayer)
 sprite     8 pitch     -64         // tile0037 freezeammo (multiplayer)
-sprite     4 angoff    -512        // tile0057 jetpack
+sprite     4 angoff    -512        // tile0057 jetpack (multiplayer)
 sprite    83 angoff     1024       // tile0051 cola
+sprite    82 angoff     1024       // tile0051 cola
 sprite   507 angoff     1024       // tile0044 rpgammo
 sprite   505 angoff     512        // tile0023 rpgsprite
+
 sprite   636 angoff     1024       // tile1325 fem4 cavedancer
 sprite   425 angoff     256        // tile2813 spinningnukeicon
 sprite   425 mdzoff     1100000    // tile2813 spinningnukeicon
