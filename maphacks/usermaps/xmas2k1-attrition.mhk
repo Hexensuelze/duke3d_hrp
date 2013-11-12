@@ -1,11 +1,14 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : xmas2k1.map - "Christmas 2001" by Kevin 'Kef_Nukem' Cools
+// Level    : xmas2k1.map - "Christmas 2001"
+// Author   : Kevin 'Kef_Nukem' Cools
 // Map Date : 2011-10-27 (Attrition)
 // mapmd4   : fd52f0009ac1313de70cae9a8e541c29
-// Curr. HRP: r5.3.576
 
 //         <-> xmas2k1.mhk
+//         <-> xmas2k1-dnwmd.mhk
+
+// Curr. HRP: r5.3.591
 
 // 0-2143 / 2222-2996
 sprite  1282 mdzoff     500000     // tile0022 chaingunsprite
@@ -14,7 +17,7 @@ sprite  1281 mdzoff     500000     // tile0041 batteryammo
 sprite  1281 pitch     -1          // tile0041 batteryammo
 sprite  1209 mdzoff     900000     // tile1227 nukebarrel
 sprite  1209 pitch      1          // tile1227 nukebarrel
-sprite  1210 angoff    -896        // tile1229 nukebarrelleaked
+sprite  1210 angoff    -896        // tile1228 nukebarreldented
 sprite  1211 angoff     768        // tile1227 nukebarrel
 sprite  1212 mdzoff     300000     // tile1229 nukebarrelleaked
 sprite  1212 pitch     -2          // tile1229 nukebarrelleaked
@@ -57,6 +60,7 @@ sprite  2143 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
 sprite  2143 pitch      1          // tile4429 (tile0913 maskwall2 (fence))
 sprite  1869 mdzoff     200000     // tile4429 (tile0913 maskwall2 (fence))
 sprite  1869 pitch      1          // tile4429 (tile0913 maskwall2 (fence))
+// mhk diff sync 1
 sprite  1350 angoff     768        // tile2212 (tile2209 lizmanleg1)
 sprite  1350 nomdanim              // tile2212 (tile2209 lizmanleg1)
 sprite  1351 nomdanim              // tile2211 (tile2209 lizmanleg1)
@@ -80,6 +84,7 @@ sprite  2510 angoff    -512        // tile0060 accesscard blue
 sprite    58 angoff     1024       // tile0052 sixpack
 sprite    66 angoff     768        // tile0049 shotgunammo
 sprite  2539 angoff     0          // tile0060 accesscard red
+
 sprite   614 angoff     1024       // tile0054 shield
 sprite   613 angoff     1024       // tile0047 hbombammo
 sprite   612 angoff     1024       // tile0049 shotgunammo

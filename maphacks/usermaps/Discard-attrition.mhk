@@ -1,10 +1,14 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : Discard.map - "Discarded Stronghold"
-//            by Quakis, William Gee and Mikko Sandt
+// Author   : Quakis, William Gee and Mikko Sandt
+// Map Date : 2007-08-19 (Duke Nukem: Weapon of Mass Destruction R)
+// mapmd4   : 6c8bbe9b0e0992f5b731334b5f13fadb
+// Map Date : 2007-10-21 (Duke Nukem: Weapon of Mass Destruction A)
+// mapmd4   : dc0c5e45c82c5c1bdccec3949bca4c8b
 // Map Date : 2010-03-15 (Attrition)
 // mapmd4   : 116a66369512009b7e0a023ebbc384b7
-// Curr. HRP: r5.2.511
+// Curr. HRP: r5.3.591
 
 //         <-> Discard.mhk
 
@@ -13,25 +17,25 @@ sprite   544 mdzoff     900000     // tile1521 (tile1520 (duke torso))
 sprite   544 roll      -1          // tile1521 (tile1520 (duke torso))
 sprite   544 nomdanim              // tile1521 (tile1520 (duke torso))
 sprite   611 angoff     1024       // tile0021 firstgunsprite
+sprite   778 angoff     1024       // tile0052 sixpack
 sprite   775 angoff     512        // tile0022 chaingunsprite
-sprite   779 angoff     512        // tile0051 cola
+sprite   776 angoff     1024       // tile0041 batteryammo
+sprite   779 angoff    -512        // tile0051 cola
+sprite   699 angoff     0          // tile0060 accesscard blue
 sprite   620 angoff    -512        // tile0028 shotgunsprite
 sprite   780 angoff     1024       // tile0049 shotgunammo
-sprite   782 angoff     256        // tile0052 sixpack
-sprite   781 angoff     256        // tile0052 sixpack
+sprite   782 angoff    -768        // tile0052 sixpack
+sprite   781 angoff    -768        // tile0052 sixpack
 sprite   623 angoff    -256        // tile0049 shotgunammo
-sprite   663 angoff     256        // tile0051 cola
-sprite    74 angoff     256        // tile0052 sixpack
 sprite   141 angoff     1024       // tile0041 batteryammo
-sprite   128 angoff    -768        // tile0054 shield
+sprite   152 angoff    -256        // tile0052 sixpack
+sprite   157 angoff     1024       // tile0049 shotgunammo
+sprite   157 mdzoff     500000     // tile0049 shotgunammo
+sprite   157 roll      -1          // tile0049 shotgunammo
 sprite   154 angoff     1024       // tile0023 rpgsprite
 sprite   156 mdzoff     900000     // tile0041 batteryammo
 sprite   156 roll       1          // tile0041 batteryammo
 sprite   213 angoff     768        // tile0060 accesscard red
-sprite   157 angoff     1024       // tile0049 shotgunammo
-sprite   157 mdzoff     500000     // tile0049 shotgunammo
-sprite   157 roll      -1          // tile0049 shotgunammo
-sprite   152 angoff    -256        // tile0052 sixpack
 sprite   155 angoff     512        // tile0053 firstaid
 sprite   155 mdzoff     900000     // tile0053 firstaid
 sprite   155 pitch     -1          // tile0053 firstaid
@@ -43,10 +47,50 @@ sprite   237 angoff    -512        // tile0049 shotgunammo
 sprite   139 angoff     256        // tile0041 batteryammo
 sprite   139 mdzoff     900000     // tile0041 batteryammo
 sprite   139 pitch     -1          // tile0041 batteryammo
-sprite   819 angoff     1024       // tile0023 rpgsprite
+sprite    70 angoff     1024       // tile0052 sixpack
 sprite   137 angoff    -512        // tile0049 shotgunammo
 sprite   137 mdzoff     500000     // tile0049 shotgunammo
 sprite   137 roll       1          // tile0049 shotgunammo
+sprite   819 angoff     1024       // tile0044 rpgammo
 sprite   136 angoff     512        // tile0041 batteryammo
 sprite   240 angoff     1024       // tile0060 accesscard blue
+sprite   285 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   285 pitch      1          // tile0914 maskwall3 (fence)
+sprite   286 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   286 pitch      1          // tile0914 maskwall3 (fence)
+sprite   287 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   287 pitch      1          // tile0914 maskwall3 (fence)
+sprite   288 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   288 pitch      1          // tile0914 maskwall3 (fence)
+sprite   289 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   289 pitch      1          // tile0914 maskwall3 (fence)
+sprite   290 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   290 pitch      1          // tile0914 maskwall3 (fence)
+sprite   291 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   291 pitch      1          // tile0914 maskwall3 (fence)
+sprite   292 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   292 pitch      1          // tile0914 maskwall3 (fence)
+sprite   293 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   293 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   294 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   294 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   295 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   295 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   296 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   296 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   297 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   297 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   298 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   298 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   299 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   299 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   300 mdzoff     150000     // tile0914 maskwall3 (fence)
+sprite   300 pitch     -1          // tile0914 maskwall3 (fence)
+sprite   663 angoff    -512        // tile0051 cola
+sprite    74 angoff     256        // tile0052 sixpack
+sprite   140 angoff    -512        // tile0049 shotgunammo
+sprite   141 angoff    -512        // tile0041 batteryammo
+sprite   142 angoff     512        // tile0052 sixpack
+sprite   224 angoff     0          // tile0060 accesscard yellow
+sprite   128 angoff    -768        // tile0054 shield
 sprite     7 angoff     256        // tile0052 sixpack

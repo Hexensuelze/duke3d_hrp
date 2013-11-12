@@ -4,19 +4,21 @@
 // Author   : Fernando Márquez
 // Map Date : 1997-02-01 (2007-08-02), 2009-03-12
 // mapmd4   : f0a11500983dd163a061d3ae81e284be
-// Curr. HRP: r5.2.562
+// Curr. HRP: r5.3.591
 
+//         <-> demount-dnwmd.mhk
 
+// 4-1525
 sprite   945 angoff     512        // tile0023 rpgsprite
 sprite   764 angoff    -256        // tile0026 heavyhbomb
 sprite  1552 angoff    -256        // tile0026 heavyhbomb
+sprite   873 angoff    -768        // tile0052 sixpack
 sprite  1023 angoff     512        // tile0046 crystalammo
 sprite  1024 angoff     512        // tile0046 crystalammo
 sprite   774 angoff     1024       // tile0027 tripbombsprite
 sprite  1022 angoff     1024       // tile0027 tripbombsprite
 sprite  1021 angoff     1024       // tile0054 shield
 sprite  1553 angoff    -512        // tile0021 firstgunsprite
-sprite   873 angoff    -768        // tile0052 sixpack
 sprite  1558 angoff    -576        // tile0051 cola
 sprite  1559 angoff    -512        // tile0051 cola
 sprite  1557 angoff     768        // tile0044 rpgammo
@@ -24,6 +26,7 @@ sprite   492 angoff     512        // tile0040 ammo
 sprite   492 mdzoff     200000     // tile0040 ammo
 sprite   492 pitch     -1          // tile0040 ammo
 sprite   486 angoff     512        // tile0052 sixpack
+// mhk diff sync 1
 sprite   485 angoff     512        // tile0027 tripbombsprite
 sprite   487 angoff    -512        // tile0052 sixpack
 sprite   491 angoff    -512        // tile0040 ammo
@@ -41,12 +44,12 @@ sprite  1560 angoff     512        // tile0047 hbombammo
 sprite  1560 mdzoff     500000     // tile0047 hbombammo
 sprite  1560 pitch      1          // tile0047 hbombammo
 sprite   488 angoff     512        // tile0059 heatsensor
-sprite  1234 mdzoff     50000      // tile0574 (tile0670 (faucet))
-sprite  1234 pitch     -8          // tile0574 (tile0670 (faucet))
-sprite  1234 roll       3          // tile0574 (tile0670 (faucet))
-sprite  1235 mdzoff     50000      // tile0574 (tile0670 (faucet))
-sprite  1235 pitch     -8          // tile0574 (tile0670 (faucet))
-sprite  1235 roll       4          // tile0574 (tile0670 (faucet))
+sprite  1234 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1234 pitch     -5          // tile0574 (tile0670 (faucet))
+sprite  1234 roll       2          // tile0574 (tile0670 (faucet))
+sprite  1235 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1235 pitch     -5          // tile0574 (tile0670 (faucet))
+sprite  1235 roll       2          // tile0574 (tile0670 (faucet))
 sprite   600 angoff     256        // tile0556 chair1
 sprite   601 angoff     896        // tile0557 chair2
 sprite   601 mdzoff     500000     // tile0556 chair1
@@ -117,7 +120,7 @@ sprite     3 angoff    -512        // tile0047 hbombammo
 sprite   146 angoff     576        // tile2060 pigcopdeadsprite
 sprite   146 mdzoff     400000     // tile2060 pigcopdeadsprite
 sprite   146 pitch      1          // tile2060 pigcopdeadsprite
-sprite   146 roll       2          // tile2060 pigcopdeadsprite
+sprite   146 roll       3          // tile2060 pigcopdeadsprite
 sprite  1438 angoff    -256        // tile0027 tripbombsprite
 sprite  1439 angoff    -256        // tile0027 tripbombsprite
 sprite  1437 angoff    -256        // tile0027 tripbombsprite
@@ -128,12 +131,12 @@ sprite     2 angoff     768        // tile0042 devistatorammo
 sprite   168 angoff     768        // tile0042 devistatorammo
 sprite  1408 angoff     768        // tile0052 sixpack
 sprite  1444 angoff    -256        // tile0041 batteryammo
-/sprite    17 mdxoff     30000      // tile2360 rotategun
+//sprite    17 mdxoff     30000      // tile2360 rotategun
 //sprite    17 pitch     -1          // tile2360 rotategun
 //sprite    18 mdxoff     30000      // tile2360 rotategun
 //sprite    18 pitch     -1          // tile2360 rotategun
 sprite  1422 angoff    -256        // tile0028 shotgunsprite
-sprite   120 angoff    -128        // tile0037 freezeammo
-sprite   121 angoff     256        // tile0037 freezeammo
 sprite     0 angoff    -896        // tile0046 crystalammo
 sprite     1 angoff     768        // tile0046 crystalammo
+sprite   120 angoff    -128        // tile0037 freezeammo
+sprite   121 angoff     256        // tile0037 freezeammo
