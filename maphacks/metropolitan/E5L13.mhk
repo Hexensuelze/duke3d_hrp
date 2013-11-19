@@ -1,31 +1,93 @@
-
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : E5L13.map - Metropolitan Mayhem: "Stadium Despair" by MRCK
+// Author   : Aymeric 'MRCK' Nocus / 'ck3D'
 // Map Date : 2012-03-02
 // mapmd4   : 15653e87773122b7c6c93497f8abee90
-// Curr. HRP: r5.2.415
+// Curr. HRP: r5.3.592
 
+
+sprite   925 angoff    -768        // tile0047 hbombammo
+sprite   537 notmd                 // tile4386 (power line)
+sprite   922 angoff    -256        // tile0021 firstgunsprite
+sprite   920 angoff     768        // tile0040 ammo
+sprite   923 angoff     768        // tile0040 ammo
+sprite   921 angoff     768        // tile0040 ammo
+sprite   927 angoff    -800        // tile0028 shotgunsprite
+sprite   927 mdzoff     500000     // tile0028 shotgunsprite
+sprite   927 pitch      1          // tile0028 shotgunsprite
+sprite   928 angoff    -512        // tile2060 pigcopdeadsprite
+sprite   928 mdzoff     300000     // tile2060 pigcopdeadsprite
+sprite   928 pitch     -6          // tile2060 pigcopdeadsprite
+//sprite   928 roll      -5          // tile2060 pigcopdeadsprite
 sprite   101 angoff     512        // tile0916 fireext
-sprite   936 angoff     512        // tile0051 cola
+sprite   936 angoff    -512        // tile0051 cola
 sprite   934 angoff     1024       // tile0054 shield
 sprite   935 angoff     1024       // tile0049 shotgunammo
 sprite   937 angoff     512        // tile0055 steroids
-sprite   944 angoff     512        // tile0051 cola
-sprite   106 angoff    -512        // tile0563 waterfountain
-sprite   106 mdzoff    -300000     // tile0563 waterfountain
-sprite   106 roll       1          // tile0563 waterfountain
+sprite   937 mdzoff     300000     // tile0055 steroids
+sprite   937 pitch     -1          // tile0055 steroids
+sprite   937 roll       1          // tile0055 steroids
+sprite    81 mdzoff     500000     // tile4367 hatrack
+sprite    81 pitch     -1          // tile4367 hatrack
+sprite    83 mdzoff     500000     // tile4367 hatrack
+sprite    83 pitch     -1          // tile4367 hatrack
+sprite   944 angoff    -512        // tile0051 cola
+sprite    72 pitch      512        // tile0574 (tile0670 (faucet))
+sprite    71 pitch      512        // tile0574 (tile0670 (faucet))
+sprite    70 pitch      512        // tile0574 (tile0670 (faucet))
+sprite    87 notmd                 // tile0976 (ventshaft)
+sprite    88 notmd                 // tile0976 (ventshaft)
+sprite    75 pitch      512        // tile0574 (tile0670 (faucet))
+sprite    74 pitch      512        // tile0574 (tile0670 (faucet))
+sprite    73 pitch      512        // tile0574 (tile0670 (faucet))
+sprite   106 mdzoff     300000     // tile0563 waterfountain
+sprite   106 pitch      1          // tile0563 waterfountain
 sprite   948 angoff     256        // tile0022 chaingunsprite
-sprite   949 angoff     256        // tile0052 sixpack
+sprite   949 angoff    -768        // tile0052 sixpack
+sprite   951 angoff     512        // tile0041 batteryammo
 sprite    89 angoff     1024       // tile0569 toilet
 sprite   914 angoff     1024       // tile0060 accesscard blue
 sprite   914 mdzoff     900000     // tile0060 accesscard blue
 sprite   914 pitch      1          // tile0060 accesscard blue
+sprite    26 angoff    -256        // tile4367 hatrack
+sprite   958 angoff     1024       // tile0047 hbombammo
+sprite   959 angoff     1024       // tile0037 freezeammo
+sprite   957 angoff     1024       // tile0024 freezesprite
 sprite   913 angoff     256        // tile0060 accesscard red
 sprite   961 angoff     512        // tile0023 rpgsprite
-sprite   962 angoff     512        // tile0053 firstaid
-sprite   995 angoff     512        // tile0025 shrinkersprite
-sprite   996 angoff     256        // tile0052 sixpack
-sprite   193 notmd                 // tile4386 (power line)
-sprite   987 angoff     1024       // tile0054 shield
+sprite   962 angoff    -512        // tile0053 firstaid
+sprite   991 angoff    -256        // tile0041 batteryammo
 sprite   993 angoff    -512        // tile0023 rpgsprite
+sprite  1006 angoff    -384        // tile0027 tripbombsprite
+sprite  1007 angoff    -512        // tile0027 tripbombsprite
+sprite   984 angoff    -512        // tile0042 devistatorammo
+sprite   992 angoff    -768        // tile0049 shotgunammo
+sprite  1003 angoff    -576        // tile0037 freezeammo
+sprite  1008 angoff    -512        // tile0027 tripbombsprite
+sprite  1009 angoff    -768        // tile0052 sixpack
+sprite  1002 angoff     1024       // tile0059 heatsensor
+sprite  1001 angoff     1024       // tile0045 growammo
+sprite  1000 angoff     1024       // tile0045 growammo
+sprite   987 angoff     1024       // tile0054 shield
+sprite   986 angoff     1024       // tile0042 devistatorammo
+sprite   985 angoff     1024       // tile0029 devistatorsprite
+sprite   997 angoff     1024       // tile0046 crystalammo
+sprite   193 notmd                 // tile4386 (power line)
+sprite   202 angoff    -512        // tile0479 (satellite dish)
+sprite   202 mdzoff     500000     // tile0479 (satellite dish)
+sprite   202 roll      -1          // tile0479 (satellite dish)
+sprite   996 angoff     256        // tile0052 sixpack
+sprite  1044 angoff    -768        // tile0042 devistatorammo
+sprite  1042 angoff    -256        // tile0042 devistatorammo
+sprite   999 mdzoff     500000     // tile0041 batteryammo
+sprite   999 roll      -1          // tile0041 batteryammo
+sprite   998 mdzoff     500000     // tile0041 batteryammo
+sprite   998 roll      -1          // tile0041 batteryammo
+sprite  1016 angoff     512        // tile0047 hbombammo
+sprite   988 angoff     768        // tile0052 sixpack
+sprite  1015 angoff     512        // tile0051 cola
+sprite   995 angoff     512        // tile0025 shrinkersprite
+sprite  1014 angoff     512        // tile0044 rpgammo
+sprite  1013 angoff     256        // tile0051 cola
+sprite   989 angoff     256        // tile0049 shotgunammo
