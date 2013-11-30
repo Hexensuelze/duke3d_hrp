@@ -1,26 +1,54 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : smnd.map - "Space Map Number DUNNO" by Cedric 'Sang' Haegeman
+// Level    : smnd.map - "Space Map Number DUNNO"
+// Author   : Cedric 'Sang' Haegeman
 // Map Date : 2006-07-30
 // mapmd4   : ca0fdd95a42f8dfc636cf13af114c554
-// Curr. HRP: r5.2.496
+// Curr. HRP: r5.3.594
 
 
+sprite   197 angoff     896        // tile0021 firstgunsprite
 sprite   196 nomdanim              // tile1527 (tile1520 (duke torso))
 sprite   196 angoff     512        // tile1527 (tile1520 (duke torso))
 sprite   190 angoff     512        // tile0053 firstaid
+sprite   181 angoff     512        // tile0040 ammo
 sprite   182 nomdanim              // tile1521 (tile1520 (duke torso))
 sprite   173 angoff     256        // tile0060 accesscard blue
 sprite   201 angoff    -512        // tile0563 waterfountain
-sprite   159 angoff     256        // tile0051 cola
-sprite   211 angoff     512        // tile0049 shotgunammo
+sprite   171 angoff     1024       // tile0040 ammo
+sprite   172 angoff     1024       // tile0040 ammo
+sprite   162 angoff    -256        // tile0040 ammo
+sprite   161 angoff     256        // tile0040 ammo
+sprite   160 angoff     512        // tile0040 ammo
+sprite   207 angoff     256        // tile0049 shotgunammo
+sprite   206 angoff    -512        // tile0040 ammo (multiplayer)
+sprite   159 angoff    -768        // tile0051 cola
 sprite   212 angoff     512        // tile0049 shotgunammo
+sprite   211 mdzoff     900000     // tile0049 shotgunammo
+sprite   211 pitch     -1          // tile0049 shotgunammo
+sprite   213 angoff     1024       // tile0028 shotgunsprite
+sprite   150 mdzoff     300000     // tile2035 (tile2000 pigcop)
+sprite   150 pitch     -1          // tile2035 (tile2000 pigcop)
+sprite   153 angoff     128        // tile1353 spacemarine
+sprite   153 mdzoff     300000     // tile1353 spacemarine
+sprite   153 mdxoff     100000     // tile1353 spacemarine
+sprite   153 pitch     -1          // tile1353 spacemarine
+sprite   101 angoff     1024       // tile0028 shotgunsprite
+sprite    83 angoff     512        // tile0028 shotgunsprite
 sprite   154 angoff    -512        // tile0023 rpgsprite
+sprite   155 angoff     1024       // tile0040 ammo
+sprite   156 angoff     1024       // tile0040 ammo
+sprite   157 angoff     1024       // tile0040 ammo
 sprite    57 angoff     1024       // tile0026 heavyhbomb
 sprite    59 nomdanim              // tile1527 (tile1520 (duke torso))
 sprite    58 angoff    -256        // tile0047 hbombammo
 sprite    50 angoff     512        // tile0053 firstaid
+sprite   253 angoff     256        // tile2364 (tile2360 rotategun)
+sprite   253 mdyoff     50000      // tile2364 (tile2360 rotategun)
+sprite   253 pitch     -512        // tile2364 (tile2360 rotategun)
+sprite   253 roll      -1          // tile2364 (tile2360 rotategun)
+sprite    51 angoff     128        // tile1957 (tile1920 commander) (dead)
+sprite    51 roll       128        // tile1957 (tile1920 commander) (dead)
 sprite   282 nomdanim              // tile1527 (tile1520 (duke torso))
-sprite   282 angoff     128        // tile1527 (tile1520 (duke torso))
-sprite   153 mdxoff     100000     // tile1353 spacemarine
-sprite   153 pitch     -1          // tile1353 spacemarine
+sprite   282 angoff     192        // tile1527 (tile1520 (duke torso))
+sprite   278 angoff    -512        // tile0022 chaingunsprite

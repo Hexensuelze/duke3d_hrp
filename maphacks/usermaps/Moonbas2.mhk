@@ -1,12 +1,15 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : Moonbas2.map - "Moonbase 2" by Nathan Orr
+// Level    : Moonbas2.map - "Moonbase 2"
+// Author   : Nathan Orr
 // Map Date : 1996-08-05
 // mapmd4   : 87207afdcb0de2df630bb8098b96e8de
-// Curr. HRP: r5.2.437
+// Curr. HRP: r5.3.594
 
 
 sprite   230 angoff    -128        // tile0028 shotgunsprite
+sprite   150 angoff     768        // tile1354 (luke)
+sprite   214 angoff     128        // tile0026 heavyhbomb
 sprite   224 angoff    -512        // tile0022 chaingunsprite
 sprite   224 mdxoff     8000       // tile0022 chaingunsprite
 sprite   224 pitch     -1          // tile0022 chaingunsprite
@@ -14,47 +17,65 @@ sprite   223 angoff     512        // tile0023 rpgsprite
 sprite   223 mdxoff     8000       // tile0023 rpgsprite
 sprite   223 pitch     -1          // tile0023 rpgsprite
 sprite   190 angoff     512        // tile0021 firstgunsprite
+sprite   205 angoff     256        // tile0049 shotgunammo
+sprite   204 angoff     960        // tile0053 firstaid
+sprite   204 roll      -16         // tile0053 firstaid
+sprite   158 angoff     1024       // tile0052 sixpack
+sprite   266 angoff     896        // tile0028 shotgunsprite
+sprite   166 angoff    -512        // tile0051 cola
 sprite   167 angoff    -512        // tile0049 shotgunammo
-sprite   166 angoff     512        // tile0051 cola
-sprite   278 angoff     512        // tile0051 cola
-sprite   149 angoff     512        // tile0051 cola
+sprite   278 angoff    -512        // tile0051 cola
+sprite   149 angoff     256        // tile0051 cola
+sprite   155 angoff     256        // tile0049 shotgunammo
+sprite   300 angoff    -512        // tile0051 cola
+sprite   103 angoff     768        // tile0051 cola
+sprite   104 angoff     256        // tile0049 shotgunammo
+sprite   100 angoff    -512        // tile0060 accesscard yellow
+sprite   109 angoff     256        // tile0052 sixpack
+sprite   110 angoff     1024       // tile0049 shotgunammo
+sprite   117 angoff     256        // tile0052 sixpack
+sprite   116 angoff    -512        // tile0029 devistatorsprite
+sprite   322 angoff     512        // tile0023 rpgsprite
+sprite   319 angoff    -512        // tile0054 shield
+sprite    79 angoff     1024       // tile0026 heavyhbomb
+sprite    79 mdzoff     800000     // tile0026 heavyhbomb
+sprite    79 pitch     -1          // tile0026 heavyhbomb
+sprite    60 angoff    -256        // tile0051 cola
+sprite   325 angoff     1024       // tile0052 sixpack
+sprite    56 angoff    -768        // tile0051 cola
+sprite   333 angoff     384        // tile0044 rpgammo
+sprite   334 angoff     192        // tile0052 sixpack
+sprite   337 angoff     1024       // tile0040 ammo
+sprite   341 mdzoff     1500000    // tile0059 heatsensor
+sprite   341 pitch      1          // tile0059 heatsensor
+sprite    43 angoff    -512        // tile1247 seenine
+sprite    42 angoff     1024       // tile0060 accesscard blue
 sprite   145 angoff    -512        // tile0061 boots
-sprite   144 angoff     512        // tile0051 cola
+sprite   144 angoff    -512        // tile0051 cola
 sprite   143 angoff    -512        // tile0021 firstgunsprite
 sprite   140 angoff     512        // tile0054 shield
 sprite   141 angoff     512        // tile0051 cola
 sprite   142 angoff     512        // tile0055 steroids
-sprite   300 angoff     512        // tile0051 cola
-sprite   100 angoff    -512        // tile0060 accesscard yellow
-sprite   103 angoff    -256        // tile0051 cola
-sprite   104 angoff     256        // tile0049 shotgunammo
-sprite   109 angoff     256        // tile0052 sixpack
-sprite   110 angoff     1024       // tile0049 shotgunammo
-sprite   117 angoff     256        // tile0052 sixpack
-sprite   322 angoff     512        // tile0023 rpgsprite
-sprite   319 angoff    -512        // tile0054 shield
-sprite    60 angoff    -256        // tile0051 cola
-sprite    56 angoff     256        // tile0051 cola
-sprite   333 angoff     256        // tile0044 rpgammo
-sprite    42 angoff     1024       // tile0060 accesscard blue
-sprite    35 angoff     512        // tile0051 cola
+sprite    34 angoff     256        // tile0040 ammo
+sprite    35 angoff     640        // tile0051 cola
 sprite    29 mdzoff     500000     // tile0955 bottle2
 sprite    29 pitch     -1          // tile0955 bottle2
 sprite    29 roll      -1          // tile0955 bottle2
-sprite    36 angoff     512        // tile0021 firstgunsprite
+sprite    36 angoff    -512        // tile0021 firstgunsprite
 sprite    37 angoff     512        // tile0556 chair1
+sprite   349 angoff     256        // tile0052 sixpack
 sprite    33 angoff     1024       // tile0054 shield
 sprite   350 angoff    -256        // tile0049 shotgunammo
-sprite   349 angoff     256        // tile0052 sixpack
 sprite     8 angoff     512        // tile1045 donuts
 sprite     7 angoff    -512        // tile1045 donuts
 sprite    10 angoff     1024       // tile0557 chair2
-sprite    14 angoff     512        // tile0557 chair2
+sprite    14 angoff    -256        // tile0557 chair2
 sprite    11 angoff     512        // tile0557 chair2
 sprite    12 angoff     512        // tile0557 chair2
 sprite    13 angoff     512        // tile0557 chair2
 sprite    16 angoff    -512        // tile0557 chair2
 sprite    17 angoff    -512        // tile0557 chair2
-sprite    15 angoff    -512        // tile0557 chair2
+sprite    15 angoff     384        // tile0557 chair2
 sprite    18 angoff    -512        // tile0557 chair2
-sprite     4 angoff    -384        // tile0955 bottle2
+sprite     6 angoff     640        // tile0955 bottle2
+sprite     4 angoff    -640        // tile0955 bottle2
