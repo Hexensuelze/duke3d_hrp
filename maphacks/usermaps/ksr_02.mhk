@@ -1,26 +1,30 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : ksr_02.map - "KaiseR Land 02 : It's an Endless World !" by KaiseR
+// Level    : ksr_02.map - "KaiseR Land 02 : It's an Endless World !"
+// Author   : KaiseR
 // Map Date : 2005-05-01
 // mapmd4   : 2667c0c0f9d8349f104bd3a357242003
-// Curr. HRP: r5.2.496
+// Curr. HRP: r5.3.596
 
 
+sprite   927 angoff    -256        // tile0028 shotgunsprite
+sprite   926 angoff     768        // tile0049 shotgunammo
 sprite  2150 angoff     512        // tile0053 firstaid
 sprite  2362 angoff     512        // tile0049 shotgunammo
 sprite  2163 angoff     1024       // tile0041 batteryammo
 sprite  2164 angoff     1024       // tile0041 batteryammo
 sprite  2165 angoff     1024       // tile0041 batteryammo
+sprite  2162 roll       96         // tile0022 chaingunsprite
+sprite  2171 angoff     1024       // tile0047 hbombammo
+sprite  2186 angoff     512        // tile0049 shotgunammo
+sprite  2184 angoff     512        // tile0052 sixpack
 sprite   830 angoff    -256        // tile0049 shotgunammo
 sprite   830 mdzoff     200000     // tile0049 shotgunammo
 sprite   830 pitch     -1          // tile0049 shotgunammo
-sprite  2186 angoff     512        // tile0049 shotgunammo
-sprite  2171 angoff     1024       // tile0047 hbombammo
-sprite  2184 angoff     256        // tile0052 sixpack
-sprite  3259 angoff    -64         // tile0049 shotgunammo
-sprite  3259 mdzoff     100000     // tile0049 shotgunammo
-sprite  3259 pitch      1          // tile0049 shotgunammo
-sprite  3259 roll      -5          // tile0049 shotgunammo
+sprite  4167 angoff    -512        // tile4438 coffeemug
+sprite  3259 angoff    -960        // tile0028 shotgunsprite
+sprite  3259 mdzoff     30000      // tile0028 shotgunsprite
+sprite  3259 roll       1          // tile0028 shotgunsprite
 sprite  2189 angoff     768        // tile0049 shotgunammo
 sprite  1888 angoff    -640        // tile0023 rpgsprite
 sprite   478 angoff     1024       // tile0044 rpgammo
@@ -28,9 +32,15 @@ sprite   821 angoff     1024       // tile0044 rpgammo
 sprite   823 angoff     1024       // tile0044 rpgammo
 sprite   819 mdzoff     900000     // tile0029 devistatorsprite
 sprite   819 roll       1          // tile0029 devistatorsprite
+sprite   822 angoff     192        // tile0042 devistatorammo
+sprite   817 angoff     192        // tile0042 devistatorammo
+sprite   818 angoff     192        // tile0042 devistatorammo
 sprite   813 angoff     256        // tile0024 freezesprite
 sprite   813 mdzoff     900000     // tile0024 freezesprite
 sprite   813 pitch      1          // tile0024 freezesprite
+sprite   815 angoff     768        // tile0037 freezeammo
+sprite   814 angoff     768        // tile0037 freezeammo
+sprite   816 angoff     768        // tile0037 freezeammo
 sprite  3588 angoff    -512        // tile0023 rpgsprite (multiplayer)
 sprite   825 angoff     512        // tile0060 accesscard blue
 sprite  2364 angoff     512        // tile0049 shotgunammo
@@ -40,8 +50,13 @@ sprite   789 angoff     512        // tile0049 shotgunammo
 sprite   789 mdzoff     500000     // tile0049 shotgunammo
 sprite   789 roll      -1          // tile0049 shotgunammo
 sprite   788 angoff     256        // tile0054 shield
+sprite  1557 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1557 roll       1          // tile0574 (tile0670 (faucet))
+sprite  1558 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite  1558 roll       1          // tile0574 (tile0670 (faucet))
 sprite   785 angoff     512        // tile0052 sixpack
 sprite   786 angoff     512        // tile0052 sixpack
+sprite  3415 angoff     256        // tile4438 coffeemug
 sprite  3417 angoff     1024       // tile0041 batteryammo
 sprite  3417 roll      -96         // tile0041 batteryammo
 sprite  3416 roll       96         // tile0041 batteryammo
@@ -55,8 +70,9 @@ sprite  3422 angoff     256        // tile0037 freezeammo
 sprite  3423 angoff     256        // tile0037 freezeammo
 sprite  2330 angoff     256        // tile0049 shotgunammo
 sprite  2329 angoff    -256        // tile0044 rpgammo
-sprite  2332 angoff     256        // tile0051 cola
-sprite  2331 angoff    -256        // tile0051 cola
+sprite  2332 angoff    -768        // tile0051 cola
+sprite  2331 angoff     768        // tile0051 cola
+sprite  2334 angoff     1024       // tile0041 batteryammo
 sprite  2337 angoff     1024       // tile0042 devistatorammo
 sprite  2338 angoff     1024       // tile0042 devistatorammo
 sprite  2339 angoff     1024       // tile0042 devistatorammo
@@ -75,6 +91,21 @@ sprite   184 angoff     256        // tile0023 rpgsprite (multiplayer)
 sprite   183 angoff     256        // tile0044 rpgammo (multiplayer)
 sprite   185 angoff     256        // tile0044 rpgammo (multiplayer)
 sprite   504 angoff     512        // tile0049 shotgunammo
+sprite  3190 angoff     384        // tile1354 (luke)
+//
+sprite  3552 angoff     512        // tile0029 devistatorsprite (multiplayer)
+sprite  3547 angoff     1024       // tile0042 devistatorammo
+sprite  3548 angoff     1024       // tile0042 devistatorammo
+sprite  3549 angoff     1024       // tile0042 devistatorammo
+sprite   245 angoff     512        // tile0049 shotgunammo
+sprite   247 angoff     1024       // tile0041 batteryammo
+sprite  2462 angoff    -512        // tile0023 rpgsprite
+sprite  2463 angoff     1024       // tile0044 rpgammo
+sprite  2464 angoff     1024       // tile0044 rpgammo
+sprite  3116 angoff     1024       // tile0026 heavyhbomb
+sprite  3123 angoff     512        // tile0053 firstaid
+sprite   730 angoff    -512        // tile0023 rpgsprite
+//
 sprite  3356 angoff     896        // tile0042 devistatorammo
 sprite  3355 angoff     896        // tile0042 devistatorammo
 sprite  3353 angoff     1024       // tile0044 rpgammo
@@ -82,6 +113,21 @@ sprite  3354 angoff     1024       // tile0044 rpgammo
 sprite  3357 angoff    -896        // tile0042 devistatorammo
 sprite  3358 angoff    -896        // tile0042 devistatorammo
 sprite  3391 angoff     1024       // tile0023 rpgsprite
+sprite  1053 notmd                 // tile0909 (treetrunk)
+sprite   956 notmd                 // tile0909 (treetrunk)
+sprite  1054 notmd                 // tile0909 (treetrunk)
+sprite   948 notmd                 // tile0909 (treetrunk)
+sprite   949 notmd                 // tile0909 (treetrunk)
+sprite   945 notmd                 // tile0909 (treetrunk)
+sprite   950 notmd                 // tile0909 (treetrunk)
+sprite   946 notmd                 // tile0909 (treetrunk)
+sprite   951 notmd                 // tile0909 (treetrunk)
+sprite   947 notmd                 // tile0909 (treetrunk)
+sprite   953 notmd                 // tile0909 (treetrunk)
+sprite   952 notmd                 // tile0909 (treetrunk)
+sprite   954 notmd                 // tile0909 (treetrunk)
+sprite   955 notmd                 // tile0909 (treetrunk)
+sprite   221 angoff     1024       // tile0044 rpgammo
 sprite   201 angoff     640        // tile0023 rpgsprite (multiplayer)
 sprite   200 angoff     640        // tile0044 rpgammo (multiplayer)
 sprite   202 angoff     640        // tile0044 rpgammo (multiplayer)
@@ -93,20 +139,9 @@ sprite   144 angoff     512        // tile0023 rpgsprite
 sprite   198 angoff    -256        // tile0025 shrinkersprite (multiplayer)
 sprite   198 mdzoff     900000     // tile0025 shrinkersprite (multiplayer)
 sprite   198 roll      -1          // tile0025 shrinkersprite (multiplayer)
-sprite   193 angoff     256        // tile0046 crystalammo (multiplayer)
-sprite   194 angoff     256        // tile0046 crystalammo (multiplayer)
-sprite   195 angoff     256        // tile0046 crystalammo (multiplayer)
-sprite   196 angoff     256        // tile0046 crystalammo (multiplayer)
-sprite   197 angoff     256        // tile0046 crystalammo (multiplayer)
-sprite   199 angoff     256        // tile0046 crystalammo (multiplayer)
-sprite  3552 angoff     512        // tile0029 devistatorsprite (multiplayer)
-sprite  3547 angoff     1024       // tile0042 devistatorammo
-sprite  3548 angoff     1024       // tile0042 devistatorammo
-sprite  3549 angoff     1024       // tile0042 devistatorammo
-sprite   245 angoff     512        // tile0049 shotgunammo
-sprite  2462 angoff    -512        // tile0023 rpgsprite
-sprite  2463 angoff     1024       // tile0044 rpgammo
-sprite  2464 angoff     1024       // tile0044 rpgammo
-sprite  3116 angoff     1024       // tile0026 heavyhbomb
-sprite  3123 angoff     512        // tile0053 firstaid
-sprite   730 angoff    -512        // tile0023 rpgsprite
+sprite   193 angoff    -256        // tile0046 crystalammo (multiplayer)
+sprite   194 angoff    -256        // tile0046 crystalammo (multiplayer)
+sprite   195 angoff    -256        // tile0046 crystalammo (multiplayer)
+sprite   196 angoff     768        // tile0046 crystalammo (multiplayer)
+sprite   197 angoff     768        // tile0046 crystalammo (multiplayer)
+sprite   199 angoff     768        // tile0046 crystalammo (multiplayer)

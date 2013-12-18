@@ -1,9 +1,10 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : ksr_01.map - "KaiseR Land 01" by KaiseR
+// Level    : ksr_01.map - "KaiseR Land 01"
+// Author   : KaiseR
 // Map Date : 2005-03-24
 // mapmd4   : 130b97dc0844dfaf7c98317f0fdefdc9
-// Curr. HRP: r5.2.496
+// Curr. HRP: r5.3.596
 
 
 sprite   345 angoff    -640        // tile0049 shotgunammo
@@ -13,9 +14,11 @@ sprite   346 angoff    -384        // tile0049 shotgunammo
 sprite   346 mdzoff     900000     // tile0049 shotgunammo
 sprite   346 pitch     -1          // tile0049 shotgunammo
 sprite   351 angoff     512        // tile0053 firstaid
+sprite   365 angoff     1024       // tile0051 cola
+sprite   367 angoff     1024       // tile0051 cola
 sprite    93 angoff     384        // tile0022 chaingunsprite
 sprite    91 angoff    -128        // tile0041 batteryammo
-sprite    87 angoff     1024       // tile0009 respawn (accesscard blue)
+sprite    87 angoff     1024       // tile0009 respawn [accesscard blue]
 sprite    80 angoff     512        // tile0052 sixpack
 sprite    77 angoff     128        // tile0044 rpgammo
 sprite    78 angoff     896        // tile0044 rpgammo
@@ -25,9 +28,9 @@ sprite    69 angoff    -512        // tile0024 freezesprite
 sprite    70 angoff    -256        // tile0049 shotgunammo
 sprite   673 angoff    -256        // tile0028 shotgunsprite
 sprite   672 angoff    -128        // tile0049 shotgunammo
-sprite   407 angoff     512        // tile0037 freezeammo
-sprite   408 angoff     512        // tile0037 freezeammo
-sprite   409 angoff     512        // tile0037 freezeammo
+sprite   407 angoff    -768        // tile0037 freezeammo
+sprite   408 angoff    -768        // tile0037 freezeammo
+sprite   409 angoff    -768        // tile0037 freezeammo
 sprite   685 angoff     512        // tile0022 chaingunsprite (multiplayer)
 sprite   686 angoff    -512        // tile0041 batteryammo (multiplayer)
 sprite   686 mdzoff     500000     // tile0041 batteryammo (multiplayer)
@@ -40,33 +43,41 @@ sprite   423 angoff    -512        // tile0059 heatsensor
 sprite   422 angoff     512        // tile0053 firstaid
 sprite   424 angoff     512        // tile0029 devistatorsprite
 sprite   677 angoff     256        // tile0028 shotgunsprite
+sprite   611 angoff     1024       // tile0047 hbombammo
+sprite   493 angoff     1024       // tile0041 batteryammo
+sprite   494 angoff     1024       // tile0041 batteryammo
+sprite   498 angoff    -256        // tile0052 sixpack
 sprite    62 angoff     1024       // tile0041 batteryammo
 sprite    64 angoff    -768        // tile0049 shotgunammo
-sprite   113 mdzoff     500000     // tile0913 maskwall2 (fence)
-sprite   113 pitch     -1          // tile0913 maskwall2 (fence)
-sprite   114 mdzoff     500000     // tile0913 maskwall2 (fence)
-sprite   114 pitch     -1          // tile0913 maskwall2 (fence)
 sprite   115 mdzoff     500000     // tile0913 maskwall2 (fence)
 sprite   115 pitch     -1          // tile0913 maskwall2 (fence)
-sprite    63 angoff    -256        // tile0051 cola
-sprite   510 angoff     512        // tile0051 cola
+sprite   114 mdzoff     500000     // tile0913 maskwall2 (fence)
+sprite   114 pitch     -1          // tile0913 maskwall2 (fence)
+sprite   113 angoff     32         // tile0913 maskwall2 (fence)
+sprite   113 mdzoff     200000     // tile0913 maskwall2 (fence)
+sprite   113 pitch     -1          // tile0913 maskwall2 (fence)
+sprite    63 angoff     768        // tile0051 cola
+sprite   510 angoff    -512        // tile0051 cola
 sprite   509 angoff    -256        // tile0051 cola
 sprite   513 angoff    -256        // tile0051 cola
-sprite   514 angoff     256        // tile0051 cola
+sprite   514 angoff    -768        // tile0051 cola
 sprite   516 angoff    -512        // tile0041 batteryammo
 sprite   515 angoff     1024       // tile0041 batteryammo
 sprite   518 angoff     512        // tile0041 batteryammo
 sprite   525 angoff    -512        // tile0044 rpgammo
 sprite   528 angoff    -512        // tile0059 heatsensor
+sprite   542 angoff     512        // tile0053 firstaid
+sprite   542 mdzoff     900000     // tile0053 firstaid
+sprite   542 pitch     -1          // tile0053 firstaid
 sprite   535 angoff     512        // tile0049 shotgunammo
 sprite   535 mdzoff     100000     // tile0049 shotgunammo
 sprite   535 pitch     -2          // tile0049 shotgunammo
 sprite   535 roll       5          // tile0049 shotgunammo
 sprite   536 mdzoff     500000     // tile0049 shotgunammo
 sprite   536 roll      -1          // tile0049 shotgunammo
-sprite   549 angoff     512        // tile0037 freezeammo
-sprite   550 angoff     512        // tile0037 freezeammo
-sprite   551 angoff     512        // tile0037 freezeammo
+sprite   549 angoff     768        // tile0037 freezeammo
+sprite   550 angoff     768        // tile0037 freezeammo
+sprite   551 angoff     768        // tile0037 freezeammo
 sprite   544 angoff     1024       // tile0042 devistatorammo
 sprite   545 angoff     1024       // tile0042 devistatorammo
 sprite   406 angoff     512        // tile0060 accesscard red
@@ -82,6 +93,7 @@ sprite    33 angoff     1024       // tile0041 batteryammo
 sprite   679 angoff     768        // tile0029 devistatorsprite (multiplayer)
 sprite   681 angoff     768        // tile0042 devistatorammo (multiplayer)
 sprite   682 angoff     768        // tile0042 devistatorammo (multiplayer)
+sprite   503 angoff     1024       // tile0052 sixpack
 sprite    29 angoff     512        // tile0053 firstaid
 sprite    24 angoff    -768        // tile0042 devistatorammo
 sprite    25 angoff    -896        // tile0042 devistatorammo
