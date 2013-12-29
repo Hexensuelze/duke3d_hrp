@@ -1659,12 +1659,17 @@ texture 704 {
    detail { file "highres/detail/metal_fine.png" xscale 0.15 yscale 0.6 }
 }
 texture 705 {
-   pal 0 { file "highres/textures/0705.png" }
-   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+   pal 0 { file "highres/textures/0705_d.png" }
+   normal { file "highres/textures/0705_n.png" parallaxbias 0.035 parallaxscale 0.1 }
+   specular { file "highres/textures/0705_s.png" }
+   glow { file "highres/textures/0705_g.png" }
+//   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
 }
 texture 706 {
-   pal 0 { file "highres/textures/0706.png" }
-   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
+   pal 0 { file "highres/textures/0706_d.png" }
+   normal { file "highres/textures/0706_n.png" parallaxbias 0.035 parallaxscale 0.1 }
+   specular { file "highres/textures/0706_s.png" }
+//   detail { file "highres/detail/metal_fine.png" xscale 0.6 yscale 0.15 }
 }
 texture 707 {
    pal 0 { file "highres/textures/0707_d.png" }
