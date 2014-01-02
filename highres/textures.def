@@ -56,9 +56,10 @@ texture 127 { pal 0 { file "highres/textures/0127.png" } }
 texture 128 { pal 0 { file "highres/textures/0128.png" } }
 
 texture 150 { 
-   pal 0 { file "highres/textures/0150_d.png" }
+   pal 0 { file "highres/textures/0150_d.png" specfactor 1.3 specpower 10 }
    normal { file "highres/textures/0150_n.png" parallaxbias 0.05 parallaxscale 0.075 }
    specular { file "highres/textures/0150_s.png" }
+   glow { file "highres/textures/0150_g.png" }
 //   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 151 { 
