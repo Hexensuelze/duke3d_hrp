@@ -368,7 +368,7 @@ model "highres/sprites/props/0620_reactor.md3" {
 // Camera 1 (621)
 model "highres/sprites/props/0621_camera1.md3" {
    scale 1.13 shade 0
-   skin { pal 0 file "highres/sprites/props/0621_camera1.png" }
+   skin { pal 0 file "highres/sprites/props/0621_camera1.png" specfactor 10 specpower 25 }
    frame { name "idle" tile0 621 tile1 625 }
 }
 
