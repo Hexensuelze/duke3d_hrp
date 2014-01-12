@@ -839,7 +839,9 @@ model "highres/sprites/props/0975_oceansprite5.md3" {
 model "highres/sprites/props/0976_ventshaft.md3" { 
    scale 0.9 shade 15 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0976_ventshaft.png" } 
+   skin { pal 0 file "highres/sprites/props/0976_ventshaft.png" }
+   normal { pal 0 file "highres/sprites/props/0976_ventshaft_n.png" }
+   specular { pal 0 file "highres/sprites/props/0976_ventshaft_s.png" } 
    frame { name "Frame0" tile 976 }
 }
 
