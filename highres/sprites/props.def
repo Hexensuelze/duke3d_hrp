@@ -253,10 +253,11 @@ model "highres/sprites/props/0573_stallbroke.md3" {
 // Sensor (584)
 model "highres/sprites/props/0584_sensor.md3" { 
    scale 0.9 shade 0 
-   skin { pal 0 surface 0 file "highres/sprites/props/0584_sensor_body.png" } 
-   skin { pal 0 surface 1 file "highres/sprites/props/bottles/0954_bottle1.png" }
-   anim { frame0 "frame1" frame1 "frame2" fps 1 flags 0 }
-   frame { frame "frame1" tile0 584  tile1 584 }
+   skin { pal 0 surface 0 file "highres/sprites/props/0584_sensor.png" }
+   normal { pal 0 surface 0 file "highres/sprites/props/0584_sensor_n.png" }
+   specular { pal 0 surface 0 file "highres/sprites/props/0584_sensor_s.png" }
+//   anim { frame0 "frame1" frame1 "frame2" fps 1 flags 0 }
+   frame { frame "frame1" tile 584 }
 }
 
 // Display (585)
