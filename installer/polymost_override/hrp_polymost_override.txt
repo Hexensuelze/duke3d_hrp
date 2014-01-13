@@ -2,7 +2,7 @@
                    | Polymost HRP Override Pack for EDuke32 |
                    |                by LeoD                 |
                    ==========================================
-                   |     Repository Snapshot >= 5.2.415     |
+                   |     Repository Snapshot >= 5.3.566     |
                    ==========================================
 
 
@@ -12,12 +12,12 @@ This file contains updated data for the Duke3D High-Resolution Pack (HRP).
 It features an updated Polymost HRP for use with the EDuke32 Polymost renderer
 on top of the default Polymer HRP.
 
-Basically, this means: First get the full HRP 5.2 (r5.2.413), the latest update
+Basically, this means: First get the full HRP 5.3 (r5.3.565), the latest update
 pack (if available), then this file.
 
 It is possible to run the Polymost HRP without this pack, using the EDuke32
 command line option -hduke3d_hrp_polymost.def. But this won't work correctly in
-conjunction with Mods like DukePlus or Attrition, as well as addons like
+conjunction with mods like DukePlus or Attrition, as well as addons like
 DukeDC, NWinter, and Vacation.
 
 
@@ -54,7 +54,13 @@ Delete "textures" and "textures.cache" after changes in the autoload folder.
 
 IMPORTANT:
 ----------
-This override pack is meant for the HRP v5.2 (=r5.2.413)!
+This override pack is meant for the HRP v5.3 (=r5.3.565)!
+
+
+Duke in D.C. HRP:
+-----------------
+To avoid a messed up level stat screen, simply rename this pack from
+duke3d_polymost* to dukedc_polymost* so that it gets loaded after the DC HRP.
 
 
 WHERE TO GET IT:

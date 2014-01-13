@@ -4,8 +4,9 @@
 // Author   : Paul 'High Treason' Monteray
 // Map Date : 2013-05-08
 // mapmd4   : f35ca6a6f67cd1ee558060ff8aa42e67
-// Curr. HRP: r5.3.576
+// Curr. HRP: r5.3.610
 
+//         <-> quantum-megaton.mhk
 
 sprite  4997 angoff     768        // tile0028 shotgunsprite
 sprite  4998 angoff     512        // tile0049 shotgunammo
@@ -31,6 +32,8 @@ sprite  5011 angoff     768        // tile0054 shield
 sprite  5012 angoff    -768        // tile0051 cola
 sprite   145 angoff     512        // tile4438 coffeemug
 sprite   146 angoff    -768        // tile4454 deskphone
+sprite   547 mdzoff     25000      // tile1062 rubbercan
+sprite   547 pitch     -1          // tile1062 rubbercan
 sprite  5034 angoff     768        // tile0052 sixpack
 sprite   678 mdzoff     150000     // tile0574 (tile0670 (faucet))
 sprite   678 pitch     -1          // tile0574 (tile0670 (faucet))
@@ -60,19 +63,115 @@ sprite  5048 angoff     768        // tile0052 sixpack
 sprite   862 angoff     576        // tile0556 chair1
 sprite  5028 angoff    -768        // tile0049 shotgunammo
 sprite  5030 angoff     1024       // tile0041 batteryammo
-sprite  5030 mdzoff     200000     // tile0041 batteryammo
-sprite  5030 pitch      1          // tile0041 batteryammo
-sprite  5030 roll       1          // tile0041 batteryammo
+sprite  5030 mdzoff     100000     // tile0041 batteryammo
+sprite  5030 pitch      3          // tile0041 batteryammo
+sprite  5030 roll       2          // tile0041 batteryammo
 sprite  5031 angoff    -768        // tile0052 sixpack
 sprite  5032 angoff     384        // tile0049 shotgunammo
 sprite   559 angoff    -128        // tile4864 fem10 sitting babes
+sprite  5033 angoff    -256        // tile0051 cola
 sprite   614 mdzoff     200000     // tile0574 (tile0670 (faucet))
 sprite   614 pitch     -1          // tile0574 (tile0670 (faucet))
-sprite  5033 angoff    -256        // tile0051 cola
 sprite  5029 angoff     512        // tile0053 firstaid
 sprite   558 mdzoff     500000     // tile1312 fem1 stripper
 sprite   558 pitch     -1          // tile1312 fem1 stripper
 sprite  1128 angoff     0          // tile0060 accesscard blue
+sprite  1006 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1006 pitch     -1          // tile0914 maskwall3 (fence)
+sprite  1007 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1007 pitch     -1          // tile0914 maskwall3 (fence)
+sprite  1711 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1711 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1711 roll      -1          // tile0914 maskwall3 (fence)
+sprite  1712 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1712 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1709 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1709 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1710 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1710 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1715 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1715 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1716 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1716 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1713 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1713 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1714 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1714 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1719 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1719 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1720 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1720 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1717 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1717 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1718 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1718 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1723 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1723 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1724 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1724 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1721 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1721 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1722 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1722 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1707 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1707 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1708 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1708 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1725 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1725 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1726 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1726 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1685 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1685 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1688 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1688 pitch      1          // tile0914 maskwall3 (fence)
+sprite   940 notmd                 // tile0913 maskwall2 (fence)
+sprite   942 notmd                 // tile0913 maskwall2 (fence)
+sprite   941 notmd                 // tile0913 maskwall2 (fence)
+sprite   943 notmd                 // tile0913 maskwall2 (fence)
+sprite   939 notmd                 // tile0913 maskwall2 (fence)
+sprite   938 notmd                 // tile0913 maskwall2 (fence)
+sprite  1688 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1688 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1688 roll       1          // tile0914 maskwall3 (fence)
+sprite  1727 mdzoff     50000      // tile0914 maskwall3 (fence)
+sprite  1727 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1690 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1690 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1689 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1689 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1692 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1692 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1691 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1691 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1698 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1698 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1697 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1697 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1696 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1696 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1695 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1695 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1702 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1702 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1701 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1701 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1700 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1700 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1699 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1699 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1694 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1694 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1693 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1693 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1704 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1704 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1703 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1703 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1706 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1706 pitch      1          // tile0914 maskwall3 (fence)
+sprite  1705 mdzoff     100000     // tile0914 maskwall3 (fence)
+sprite  1705 pitch      1          // tile0914 maskwall3 (fence)
 sprite  2249 nomdanim              // tile2010 (tile2000 pigcop)
 sprite  5081 angoff     512        // tile0956 bottle3
 sprite  5050 angoff     768        // tile0052 sixpack
@@ -107,12 +206,19 @@ sprite  4981 angoff     512        // tile0044 rpgammo
 sprite  4981 mdzoff     500000     // tile0044 rpgammo
 sprite  4981 pitch     -1          // tile0044 rpgammo
 sprite  3316 angoff     0          // tile0060 accesscard yellow
+sprite  4990 angoff     512        // tile0049 shotgunammo
+sprite  4991 angoff     512        // tile0052 sixpack
 sprite  4992 angoff     256        // tile0023 rpgsprite
-sprite  4993 angoff    -768        // tile0051 cola
-sprite  4970 angoff     768        // tile0049 shotgunammo
-sprite  4622 angoff     512        // tile0047 hbombammo
-sprite  4972 angoff    -512        // tile0041 batteryammo
-sprite  4971 angoff     256        // tile0052 sixpack
+sprite  4993 angoff     256        // tile0051 cola
+sprite  3808 roll       1024       // tile2364 (tile2360 rotategun)
+sprite  3814 roll       1024       // tile2364 (tile2360 rotategun)
+sprite  4984 angoff    -512        // tile0052 sixpack
+sprite  4983 angoff     512        // tile0051 cola
+sprite  4985 angoff    -256        // tile0049 shotgunammo
+sprite  4987 angoff    -512        // tile0049 shotgunammo
+sprite  4986 angoff    -512        // tile0054 shield
+sprite  4988 angoff    -384        // tile0022 chaingunsprite
+sprite  4989 angoff    -256        // tile0052 sixpack
 sprite  4963 angoff     512        // tile0041 batteryammo
 sprite  4963 mdzoff     500000     // tile0041 batteryammo
 sprite  4963 roll      -1          // tile0041 batteryammo
@@ -124,14 +230,10 @@ sprite  4966 angoff     512        // tile0049 shotgunammo
 sprite  4966 mdzoff     700000     // tile0049 shotgunammo
 sprite  4966 pitch     -1          // tile0049 shotgunammo
 sprite  4969 angoff     1024       // tile0041 batteryammo
-sprite  4985 angoff    -256        // tile0049 shotgunammo
-sprite  4987 angoff    -512        // tile0049 shotgunammo
-sprite  4986 angoff    -512        // tile0054 shield
-sprite  4988 angoff    -384        // tile0022 chaingunsprite
-sprite  4989 angoff    -256        // tile0052 sixpack
-sprite  4990 angoff     512        // tile0049 shotgunammo
-sprite  4992 angoff     256        // tile0023 rpgsprite
-sprite  4993 angoff     256        // tile0051 cola
+sprite  4970 angoff     768        // tile0049 shotgunammo
+sprite  4622 angoff     512        // tile0047 hbombammo
+sprite  4972 angoff    -512        // tile0041 batteryammo
+sprite  4971 angoff     256        // tile0052 sixpack
 sprite  4216 angoff     256        // tile1079 oozfilter
 sprite  4217 angoff     768        // tile1079 oozfilter
 sprite  4218 angoff    -768        // tile1079 oozfilter
