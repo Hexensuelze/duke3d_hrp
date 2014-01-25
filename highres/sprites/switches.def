@@ -47,16 +47,20 @@ model "highres/sprites/switches/0130_accessswitch.md3" {
 // Slot Door (132/133)
 model "highres/sprites/switches/0132_slotdoor.md3" {
    scale 1.5 shade 0
-   skin { pal 0 file "highres/sprites/switches/0132_slotdoor.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
+   skin { pal 0 file "highres/sprites/switches/0132_slotdoor_d.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
+   normal { file "highres/sprites/switches/0132_slotdoor_n.png" }
+   specular { file "highres/sprites/switches/0132_slotdoor_s.png" }
    glow { file "highres/sprites/switches/0132_slotdoor_g.png" }
    frame { name "red" tile 132 }
 }
 
 model "highres/sprites/switches/0133_slotdoor.md3" { 
    scale 1.5 shade 0
-   skin { pal 0 file "highres/sprites/switches/0133_slotdoor.png" }
-   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
+   skin { pal 0 file "highres/sprites/switches/0133_slotdoor_d.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
+   normal { file "highres/sprites/switches/0132_slotdoor_n.png" }
+   specular { file "highres/sprites/switches/0132_slotdoor_s.png" }
    glow { file "highres/sprites/switches/0133_slotdoor_g.png" }
    frame { name "green" tile 133 }
 }
@@ -65,13 +69,17 @@ model "highres/sprites/switches/0133_slotdoor.md3" {
 // Light Switch (134/135)
 model "highres/sprites/switches/0134_lightswitch.md3" {
    scale 5 shade 0
-   skin { pal 0 file "highres/sprites/switches/0134_lightswitch_red.png" }
-   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.6 }
-   glow { file "highres/sprites/switches/0134_lightswitch_red_g.png" }
+   skin { pal 0 file "highres/sprites/switches/0134_lightswitch_d.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.6 }
+   glow { file "highres/sprites/switches/0134_lightswitch_g.png" }
+   normal { file "highres/sprites/switches/0134_lightswitch_n.png" }
+   specular { file "highres/sprites/switches/0134_lightswitch_s.png" }
    frame { name "red" tile 134 }
-   skin { pal 0 file "highres/sprites/switches/0134_lightswitch_green.png" }
-   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.6 }
-   glow { file "highres/sprites/switches/0134_lightswitch_green_g.png" }
+   skin { pal 0 file "highres/sprites/switches/0135_lightswitch_d.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.6 }
+   glow { file "highres/sprites/switches/0135_lightswitch_g.png" }
+   normal { file "highres/sprites/switches/0134_lightswitch_n.png" }
+   specular { file "highres/sprites/switches/0134_lightswitch_s.png" }
    frame { name "green" tile 135 }
 }
 
