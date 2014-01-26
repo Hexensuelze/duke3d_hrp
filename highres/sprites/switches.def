@@ -47,20 +47,16 @@ model "highres/sprites/switches/0130_accessswitch.md3" {
 // Slot Door (132/133)
 model "highres/sprites/switches/0132_slotdoor.md3" {
    scale 1.5 shade 0
-   skin { pal 0 file "highres/sprites/switches/0132_slotdoor_d.png" }
-//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
-   normal { file "highres/sprites/switches/0132_slotdoor_n.png" }
-   specular { file "highres/sprites/switches/0132_slotdoor_s.png" }
+   skin { pal 0 file "highres/sprites/switches/0132_slotdoor.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
    glow { file "highres/sprites/switches/0132_slotdoor_g.png" }
    frame { name "red" tile 132 }
 }
 
 model "highres/sprites/switches/0133_slotdoor.md3" { 
    scale 1.5 shade 0
-   skin { pal 0 file "highres/sprites/switches/0133_slotdoor_d.png" }
-//   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
-   normal { file "highres/sprites/switches/0132_slotdoor_n.png" }
-   specular { file "highres/sprites/switches/0132_slotdoor_s.png" }
+   skin { pal 0 file "highres/sprites/switches/0133_slotdoor.png" }
+   detail { file "highres/detail/metal.png" xscale 0.6 yscale 1.2 }
    glow { file "highres/sprites/switches/0133_slotdoor_g.png" }
    frame { name "green" tile 133 }
 }
