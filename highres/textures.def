@@ -2746,12 +2746,16 @@ texture 1173 {
    detail { file "highres/detail/metal.png" scale 0.25 }
 }
 texture 1174 {
-   pal 0 { file "highres/textures/1174.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+   pal 0 { file "highres/textures/1174_d.png" }
+   normal { file "highres/textures/1174_n.png" parallaxbias 0.0 parallaxscale 0.01 }
+   specular { file "highres/textures/1174_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 1175 {
-   pal 0 { file "highres/textures/1175.png" }
-   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
+   pal 0 { file "highres/textures/1175_d.png" }
+   normal { file "highres/textures/1175_n.png" parallaxbias 0.0 parallaxscale 0.01 }
+   specular { file "highres/textures/1175_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.3 }
 }
 texture 1178 {
    pal 0 { file "highres/textures/1178_d.png" }
