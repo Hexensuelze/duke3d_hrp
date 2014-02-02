@@ -4,15 +4,19 @@
 // Author   : ozelot47
 // Map Date : 2013-09-15
 // mapmd4   : 0f188dcdcae0ae5ee2ab624d56434de5
-// Curr. HRP: r5.2.560
+// Curr. HRP: r5.3.619
 
+//         <-> ministryoffear-2013-12-29.mhk
 
+// 98-558
 sprite   102 angoff    -256        // tile0022 chaingunsprite
 sprite   102 mdzoff     500000     // tile0022 chaingunsprite
 sprite   102 pitch      1          // tile0022 chaingunsprite
 sprite   101 angoff     256        // tile0052 sixpack
 sprite   531 angoff     768        // tile0044 rpgammo
 sprite   103 angoff     256        // tile0028 shotgunsprite
+
+
 sprite   110 angoff    -768        // tile0022 chaingunsprite
 sprite   110 mdzoff     700000     // tile0022 chaingunsprite
 sprite   110 pitch      1          // tile0022 chaingunsprite
@@ -23,11 +27,14 @@ sprite   112 nomdanim              // tile1232 canwithsomething
 sprite   112 angoff     1024       // tile1232 canwithsomething
 sprite   113 nomdanim              // tile1232 canwithsomething
 sprite   113 angoff    -384        // tile1232 canwithsomething
-sprite   148 angoff     1024       // tile0054 shield
-sprite   148 mdzoff     300000     // tile0054 shield
-sprite   148 pitch      1          // tile0054 shield
-sprite   135 nomdanim              // tile0491 (tile0490 (cycloid head))
-//sprite   135 notmd                 // tile0491 (tile0490 (cycloid head))
+
+
+sprite   148 angoff     1024       // tile0052 sixpack
+sprite   148 mdzoff     300000     // tile0052 sixpack
+sprite   148 pitch      1          // tile0052 sixpack
+
+//sprite   135 nomdanim              // tile0491 (tile0490 (cycloid head))
+sprite   135 notmd                 // tile0491 (tile0490 (cycloid head))
 sprite   141 angoff     1024       // tile0041 batteryammo
 sprite   142 angoff     256        // tile0052 sixpack
 sprite   146 angoff     512        // tile0054 shield
@@ -35,6 +42,7 @@ sprite   233 angoff     512        // tile0041 batteryammo
 sprite    99 angoff     0          // tile0060 accesscard red
 sprite   205 angoff    -512        // tile0762 mike
 sprite   206 angoff    -256        // tile0762 mike
+sprite   221 angoff    -512        // tile1162 bottle15
 sprite   223 angoff     640        // tile1160 bottle13 (Jack Daniels)
 sprite   219 angoff     1024       // tile0041 batteryammo
 sprite   218 angoff     1024       // tile0047 hbombammo
@@ -51,31 +59,59 @@ sprite   547 angoff    -512        // tile0057 jetpack
 sprite   546 angoff    -512        // tile0052 sixpack
 sprite   350 mdzoff     500000     // tile0044 rpgammo
 sprite   350 pitch      1          // tile0044 rpgammo
-sprite   349 angoff    -768        // tile0029 devistatorsprite
-sprite   349 mdzoff     500000     // tile0029 devistatorsprite
-sprite   349 pitch      1          // tile0029 devistatorsprite
-sprite   430 angoff    -256        // tile0044 rpgammo
 sprite   161 angoff    -512        // tile0762 mike
 sprite   157 angoff     512        // tile0029 devistatorsprite
 sprite   316 angoff    -768        // tile0052 sixpack
 sprite    98 angoff     768        // tile0060 accesscard yellow
-sprite   558 angoff    -512        // tile0054 shield
-sprite   558 mdzoff     130000     // tile0054 shield
-sprite   558 pitch     -1          // tile0054 shield
+sprite   558 angoff    -768        // tile0054 shield
+
 sprite   557 angoff     1024       // tile0047 hbombammo
-sprite   163 angoff     640        // tile0762 mike
-sprite   164 angoff     512        // tile0762 mike
+
+
 sprite   165 angoff     384        // tile0762 mike
+
+sprite   164 angoff     512        // tile0762 mike
+sprite   163 angoff     640        // tile0762 mike
+
 sprite   174 angoff     1024       // tile0023 rpgsprite
+sprite   174 mdzoff     500000     // tile0023 rpgsprite
+sprite   174 pitch     -1          // tile0023 rpgsprite
+
+
+
+
+
+
+
+
+
+
+
+sprite   349 angoff    -768        // tile0029 devistatorsprite
+sprite   349 mdzoff     500000     // tile0029 devistatorsprite
+sprite   349 pitch      1          // tile0029 devistatorsprite
+
+
+
+
+sprite   430 angoff    -256        // tile0044 rpgammo
+
+
+
 sprite   378 angoff    -768        // tile0051 cola
 sprite   376 angoff    -640        // tile0047 hbombammo
+
 sprite   377 angoff     640        // tile0049 shotgunammo
+
+
+
 sprite   374 angoff    -512        // tile0041 batteryammo
 sprite   375 angoff     256        // tile0052 sixpack
+
+
+
+
 sprite   476 angoff    -256        // tile0023 rpgsprite
-sprite   479 angoff     1024       // tile0051 cola
-sprite   478 angoff     1024       // tile0051 cola
-sprite   477 angoff    -768        // tile0054 shield
 sprite   484 angoff     512        // tile0047 hbombammo
 sprite   484 mdzoff     800000     // tile0047 hbombammo
 sprite   484 roll      -1          // tile0047 hbombammo
@@ -85,3 +121,6 @@ sprite   482 roll      -1          // tile0057 jetpack
 sprite   480 angoff     512        // tile0047 hbombammo
 sprite   480 mdzoff     300000     // tile0047 hbombammo
 sprite   480 roll      -1          // tile0047 hbombammo
+sprite   477 angoff    -768        // tile0054 shield
+sprite   478 angoff     1024       // tile0051 cola
+sprite   479 angoff     1024       // tile0051 cola
