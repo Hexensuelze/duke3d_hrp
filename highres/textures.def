@@ -1308,7 +1308,9 @@ texture 439 {
 }
 
 texture 441 {
-   pal 0 { file "highres/textures/0441.png" }
+   pal 0 { file "highres/textures/0441_d.png" xscale 2 }
+   normal { file "highres/textures/0441_n.png" parallaxbias 0.01 parallaxscale 0.1 }
+   specular { file "highres/textures/0441_s.png" }
    detail { file "highres/detail/metal.png" xscale 0.6 yscale 0.3 }
 }
 texture 442 {
