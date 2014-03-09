@@ -1,24 +1,25 @@
-                                        
-                                         ===== DUKE3D HRP TO-DO LIST =====
+
+                        ===== DUKE3D HRP TO-DO LIST =====
+
+                                 by NightFright
+
+                         *** LAST UPDATE: 2014-03-06 ***
 
 
-                                                   by NightFright
-
-                                      *** LAST UPDATE: February 20, 2014 ***
-
-
-This is the to-do list for any future HRP release. Everything you see here should be recreated at some point. 
-All remade textures should be 4x the size of the original tiles (unless specified otherwise) but may be higher 
-in rare cases (if looking too pixelated ingame or in case they contain small pieces of text which have to be legible).
+This is the to-do list for any future HRP release. Everything you see here 
+should be recreated at some point. 
+All remade textures should be 4x the size of the original tiles (unless 
+specified otherwise) but may be higher in rare cases (if looking too pixelated 
+ingame or in case they contain small pieces of text which have to be legible).
 
 
 Target release: HRP v5.4/6.0
 
 
 
-======================================================================================================================
+================================================================================
 EPISODE 1: "L.A. MELTDOWN"
-======================================================================================================================
+================================================================================
 
 
 Optional Textures (16 remaining)
@@ -40,9 +41,9 @@ logo.anm - intro cutscene (nuke symbol with explosion)
 
 
 
-======================================================================================================================
+================================================================================
 EPISODE 2: "LUNAR APOCALYPSE"
-======================================================================================================================
+================================================================================
 
 
 Textures (6 remaining)
@@ -59,9 +60,9 @@ cineov2.anm
 
 
 
-======================================================================================================================
+================================================================================
 EPISODE 3: "SHRAPNEL CITY"
-======================================================================================================================
+================================================================================
 
 
 Models: Characters (1 remaining)
@@ -80,7 +81,7 @@ Textures (7 remaining)
 737
 738
 741 (marble floor)
-840 (should match it's presumable neighbour 750)
+840 (should match its presumable neighbour 750)
 870
 1153
 
@@ -98,9 +99,9 @@ radlogo.anm
 
 
 
-======================================================================================================================
+================================================================================
 EPISODE 4: "THE BIRTH"
-======================================================================================================================
+================================================================================
 
 
 Models: Characters (6 remaining)
@@ -156,9 +157,9 @@ duketeam.anm
 
 
 
-======================================================================================================================
+================================================================================
 Optional ART frequently used in user maps (list incomplete)
-======================================================================================================================
+================================================================================
 
 Models
 ------------------------------
@@ -184,9 +185,9 @@ Textures
 
 
 
-======================================================================================================================
+================================================================================
 Important: Concerning misaligned models
-======================================================================================================================
+================================================================================
 
 Several long-standing HRP models have an origin offset or a wrong rotation, 
 which has been taken care of in maphacks or HRP-aware user maps. If you redo
@@ -194,10 +195,12 @@ them, please consider reproducing those attributes or contact LeoD before
 uploading a 'correct' version. (List not complete yet)
 
 Offset:
-  0574, 670, 671 (faucet)
+  0574, 0670, 0671 (faucet)
   0768 sushiplate1 (floating)
+  1255 ceilingsteam, size/diameter ?
 
 180 degrees:
+  0603 naked1 (hangbabe)
   0678 scale
   1227-1230 nukebarrel [label]
   1228 exploding barrel [label]
@@ -210,6 +213,7 @@ Offset:
   0716 waittobeseated
   0753 statue (geisha)
   0869 statueflash (geisha)
+  0927 (traffic signal), also has height offset
   1079 oozfilter [label]
   1294 podfem1, probably other slime babes as well
   1323 fem5 (polebabe)
@@ -223,6 +227,7 @@ Offset:
   4887 pleasewait
 
  Too short
+  0607 antenna
   1221 cranepole
 
  Too long
