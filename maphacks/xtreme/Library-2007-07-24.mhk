@@ -1,24 +1,34 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Level    : Library.map - "Library"
-// Author   : ?
+// Author   : Sunstorm Interactive
 // Map Date : 2007-07-24
 // mapmd4   : 7bed9555b35e5326a50dbdfbb7eca1bf
-// Curr. HRP: r5.3.614
+// Curr. HRP: r5.3.635
 
+//         <-> LIBRARY-1997-02-03.mhk
 
 sprite   208 angoff    -512        // tile0028 shotgunsprite
+
 sprite   215 angoff    -512        // tile0049 shotgunammo
+
 sprite   178 angoff     512        // tile0556 chair1
 sprite   209 angoff     1024       // tile0023 rpgsprite
 sprite     2 angoff    -512        // tile0044 rpgammo
+sprite   196 angoff    -512        // tile0100 atomichealth
 sprite   249 angoff     512        // tile0047 hbombammo
+
+
+
+sprite   250 angoff     0          // tile0029 devistatorsprite
 sprite   195 angoff     512        // tile0023 rpgsprite
+sprite   207 angoff     0          // tile0041 batteryammo
 sprite   206 angoff    -256        // tile0028 shotgunsprite
 sprite   191 angoff    -256        // tile0047 hbombammo
 sprite   190 angoff     256        // tile0053 firstaid
 sprite   222 angoff    -256        // tile0023 rpgsprite
 sprite   223 angoff    -512        // tile0027 tripbombsprite
+
 sprite     3 angoff    -512        // tile0041 batteryammo
 sprite     5 angoff     256        // tile0052 sixpack
 sprite   201 angoff     768        // tile0054 shield
@@ -39,6 +49,9 @@ sprite   149 angoff     512        // tile1557 (tile1550 shark)
 sprite   150 nomdanim              // tile2775 (tile2760 boss3 (overlord))
 sprite   150 angoff     1024       // tile2775 (tile2760 boss3 (overlord))
 sprite   147 angoff    -512        // tile1348 holoduke
+sprite   203 angoff    -512        // tile0100 atomichealth
+sprite   203 mdzoff     200000     // tile0100 atomichealth
+sprite   203 pitch     -1          // tile0100 atomichealth
 sprite   202 angoff     1024       // tile0049 shotgunammo
 sprite   211 angoff     768        // tile0023 rpgsprite
 sprite   232 angoff     768        // tile0029 devistatorsprite
@@ -52,10 +65,14 @@ sprite   236 angoff     512        // tile0041 batteryammo
 sprite   236 mdzoff     300000     // tile0041 batteryammo
 sprite   236 roll       1          // tile0041 batteryammo
 sprite   225 angoff     256        // tile0041 batteryammo
+sprite   237 angoff    -768        // tile0100 atomichealth
 sprite   239 angoff    -512        // tile0024 freezesprite
+sprite   214 angoff     0          // tile0024 freezesprite
 sprite   238 angoff     1024       // tile0037 freezeammo
 sprite    12 angoff     256        // tile0037 freezeammo
 sprite   260 angoff    -512        // tile1348 holoduke
+
+
 sprite   231 angoff    -768        // tile0054 shield
 sprite   217 angoff    -256        // tile0027 tripbombsprite
 sprite   218 angoff    -256        // tile0027 tripbombsprite
@@ -65,6 +82,7 @@ sprite   241 angoff     1024       // tile0047 hbombammo
 sprite   243 angoff     768        // tile0029 devistatorsprite
 sprite   197 angoff     256        // tile0028 shotgunsprite
 sprite   226 angoff    -768        // tile0049 shotgunammo
+sprite   193 angoff     0          // tile0042 devistatorammo
 sprite     6 angoff     1024       // tile0042 devistatorammo
 sprite   227 angoff    -512        // tile0023 rpgsprite
 sprite   244 angoff    -512        // tile0044 rpgammo

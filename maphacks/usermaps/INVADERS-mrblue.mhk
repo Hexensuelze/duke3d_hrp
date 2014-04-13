@@ -1,0 +1,222 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Level    : INVADERS.MAP - "Invaders"
+// Author   : Leon 'MrBlue'
+// Map Date : 2000-08-30
+// mapmd4   : bacc5b1436c6aa5e8e3c7008877a4f9b
+// Curr. HRP: r5.3.635
+
+
+sprite   439 angoff     1024       // tile0040 ammo
+sprite   388 angoff     768        // tile0051 cola
+sprite   798 angoff     1024       // tile0026 heavyhbomb
+sprite   358 angoff     896        // tile0026 heavyhbomb
+sprite   373 mdzoff     100000     // tile0574 (tile0670 (faucet))
+sprite   373 pitch      1          // tile0574 (tile0670 (faucet))
+sprite   238 angoff    -512        // tile0024 freezesprite
+sprite   238 mdyoff    -100        // tile0024 freezesprite
+sprite   238 mdzoff    -2500       // tile0024 freezesprite
+sprite   238 roll      -512        // tile0024 freezesprite
+sprite   442 angoff     256        // tile0049 shotgunammo
+sprite   443 angoff     512        // tile0040 ammo
+sprite   424 angoff     0          // tile0060 accesscard yellow
+sprite   440 angoff    -512        // tile0022 chaingunsprite
+sprite   440 pitch      192        // tile0022 chaingunsprite
+sprite   229 angoff     1024       // tile0028 shotgunsprite
+sprite   268 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   268 angoff     576        // tile1685 (tile1680 liztroop)
+sprite   263 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   263 angoff     640        // tile1685 (tile1680 liztroop)
+sprite   266 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   266 angoff     640        // tile1685 (tile1680 liztroop)
+sprite   267 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   267 angoff     640        // tile1685 (tile1680 liztroop)
+sprite   264 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   264 angoff     704        // tile1685 (tile1680 liztroop)
+sprite   265 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   265 angoff     704        // tile1685 (tile1680 liztroop)
+sprite   279 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   279 angoff     704        // tile1685 (tile1680 liztroop)
+sprite   261 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   261 angoff     768        // tile1685 (tile1680 liztroop)
+sprite   278 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   278 angoff     768        // tile1685 (tile1680 liztroop)
+sprite   262 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   262 angoff     768        // tile1685 (tile1680 liztroop)
+sprite   246 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   246 angoff     768        // tile1685 (tile1680 liztroop)
+sprite   244 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   244 angoff     768        // tile1685 (tile1680 liztroop)
+sprite   247 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   247 angoff     832        // tile1685 (tile1680 liztroop)
+sprite   277 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   277 angoff     832        // tile1685 (tile1680 liztroop)
+sprite   245 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   245 angoff     896        // tile1685 (tile1680 liztroop)
+sprite   248 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   248 angoff     896        // tile1685 (tile1680 liztroop)
+sprite   258 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   258 angoff     896        // tile1685 (tile1680 liztroop)
+sprite   259 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   259 angoff     960        // tile1685 (tile1680 liztroop)
+sprite   276 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   276 angoff     960        // tile1685 (tile1680 liztroop)
+sprite   260 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   260 angoff     1024       // tile1685 (tile1680 liztroop)
+sprite   249 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   249 angoff     1024       // tile1685 (tile1680 liztroop)
+sprite   275 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   275 angoff     1024       // tile1685 (tile1680 liztroop)
+sprite   272 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   272 angoff    -960        // tile1685 (tile1680 liztroop)
+sprite   256 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   256 angoff    -960        // tile1685 (tile1680 liztroop)
+sprite   274 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   274 angoff    -960        // tile1685 (tile1680 liztroop)
+sprite   250 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   250 angoff    -896        // tile1685 (tile1680 liztroop)
+sprite   257 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   257 angoff    -896        // tile1685 (tile1680 liztroop)
+sprite   255 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   255 angoff    -896        // tile1685 (tile1680 liztroop)
+sprite   255 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   255 angoff    -832        // tile1685 (tile1680 liztroop)
+sprite   273 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   273 angoff    -832        // tile1685 (tile1680 liztroop)
+sprite   251 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   251 angoff    -832        // tile1685 (tile1680 liztroop)
+sprite   252 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   252 angoff    -768        // tile1685 (tile1680 liztroop)
+sprite   270 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   270 angoff    -768        // tile1685 (tile1680 liztroop)
+sprite   271 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   271 angoff    -768        // tile1685 (tile1680 liztroop)
+sprite   253 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   253 angoff    -704        // tile1685 (tile1680 liztroop)
+sprite   254 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   254 angoff    -704        // tile1685 (tile1680 liztroop)
+sprite   269 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   269 angoff    -704        // tile1685 (tile1680 liztroop)
+sprite   287 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   287 angoff     448        // tile1685 (tile1680 liztroop)
+sprite   288 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   288 angoff     384        // tile1685 (tile1680 liztroop)
+sprite   286 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   286 angoff     384        // tile1685 (tile1680 liztroop)
+sprite   285 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   285 angoff     320        // tile1685 (tile1680 liztroop)
+sprite   289 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   289 angoff     320        // tile1685 (tile1680 liztroop)
+sprite   284 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   284 angoff     256        // tile1685 (tile1680 liztroop)
+sprite   283 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   283 angoff     256        // tile1685 (tile1680 liztroop)
+sprite   290 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   290 angoff     256        // tile1685 (tile1680 liztroop)
+sprite   281 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   281 angoff     192        // tile1685 (tile1680 liztroop)
+sprite   282 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   282 angoff     192        // tile1685 (tile1680 liztroop)
+sprite   280 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   280 angoff     192        // tile1685 (tile1680 liztroop)
+sprite   291 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   291 angoff     128        // tile1685 (tile1680 liztroop)
+sprite   292 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   292 angoff     128        // tile1685 (tile1680 liztroop)
+sprite   293 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   293 angoff     128        // tile1685 (tile1680 liztroop)
+sprite   294 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   294 angoff     64         // tile1685 (tile1680 liztroop)
+sprite   295 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   295 angoff     64         // tile1685 (tile1680 liztroop)
+sprite   298 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   298 angoff     0          // tile1685 (tile1680 liztroop)
+sprite   296 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   296 angoff     0          // tile1685 (tile1680 liztroop)
+sprite   297 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   297 angoff     0          // tile1685 (tile1680 liztroop)
+sprite   299 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   299 angoff     0          // tile1685 (tile1680 liztroop)
+sprite   301 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   301 angoff    -64         // tile1685 (tile1680 liztroop)
+sprite   300 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   300 angoff    -64         // tile1685 (tile1680 liztroop)
+sprite   303 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   303 angoff    -64         // tile1685 (tile1680 liztroop)
+sprite   304 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   304 angoff    -128        // tile1685 (tile1680 liztroop)
+sprite   306 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   306 angoff    -128        // tile1685 (tile1680 liztroop)
+sprite   310 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   310 angoff    -128        // tile1685 (tile1680 liztroop)
+sprite   302 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   302 angoff    -128        // tile1685 (tile1680 liztroop)
+sprite   311 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   311 angoff    -192        // tile1685 (tile1680 liztroop)
+sprite   309 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   309 angoff    -192        // tile1685 (tile1680 liztroop)
+sprite   305 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   305 angoff    -192        // tile1685 (tile1680 liztroop)
+sprite   308 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   308 angoff    -256        // tile1685 (tile1680 liztroop)
+sprite   487 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   487 angoff    -256        // tile1685 (tile1680 liztroop)
+sprite   307 nomdanim              // tile1685 (tile1680 liztroop)
+sprite   307 angoff    -320        // tile1685 (tile1680 liztroop)
+sprite   142 angoff    -768        // tile0051 cola
+sprite   549 angoff     512        // tile0027 tripbombsprite
+sprite   549 mdzoff     200000     // tile0027 tripbombsprite
+sprite   549 pitch      1          // tile0027 tripbombsprite
+sprite   566 angoff    -768        // tile0049 shotgunammo
+sprite   567 angoff     512        // tile1080 (tile1079 oozfilter)
+sprite   570 angoff     768        // tile1080 (tile1079 oozfilter)
+sprite   571 angoff     1024       // tile1080 (tile1079 oozfilter)
+sprite   127 angoff    -256        // tile0052 sixpack
+sprite    46 angoff     512        // tile0040 ammo
+sprite   555 angoff     0          // tile0060 accesscard blue
+sprite   580 angoff     928        // tile0041 batteryammo
+sprite   708 angoff    -928        // tile0051 cola
+sprite   658 angoff     512        // tile0023 rpgsprite
+sprite   658 pitch      96         // tile0023 rpgsprite
+sprite   642 angoff    -128        // tile0049 shotgunammo
+sprite   653 angoff     512        // tile0040 ammo
+sprite   652 angoff     512        // tile0040 ammo
+sprite   656 angoff     512        // tile0049 shotgunammo
+sprite   654 angoff    -512        // tile0041 batteryammo
+sprite   121 pitch     -512        // tile0060 accesscard red
+sprite    70 angoff    -512        // tile0051 cola
+sprite    80 angoff     768        // tile0049 shotgunammo
+sprite    83 angoff     1024       // tile0052 sixpack
+sprite    93 angoff    -256        // tile1734 liztroopdsprite
+sprite    93 mdzoff     400000     // tile1734 liztroopdsprite
+sprite    93 pitch     -3          // tile1734 liztroopdsprite
+sprite    93 roll       1          // tile1734 liztroopdsprite
+sprite    81 angoff     1024       // tile0041 batteryammo
+sprite    90 angoff    -768        // tile1734 liztroopdsprite
+sprite    90 mdzoff     200000     // tile1734 liztroopdsprite
+sprite    90 pitch     -9          // tile1734 liztroopdsprite
+sprite    90 roll      -4          // tile1734 liztroopdsprite
+sprite    41 angoff     512        // tile0049 shotgunammo
+sprite    41 roll      -80         // tile0049 shotgunammo
+sprite    40 angoff    -512        // tile0049 shotgunammo
+sprite    40 roll      -80         // tile0049 shotgunammo
+sprite    53 angoff    -512        // tile0052 sixpack
+sprite    49 angoff    -256        // tile0051 cola
+sprite    50 angoff    -768        // tile0051 cola
+sprite   803 angoff     512        // tile0053 firstaid
+sprite    28 angoff    -256        // tile0051 cola
+sprite    29 angoff    -768        // tile0051 cola
+sprite    32 angoff     512        // tile0023 rpgsprite
+sprite     3 angoff    -512        // tile1294 podfem1
+sprite     2 mdzoff     400000     // tile0025 shrinkersprite
+sprite     2 pitch      1          // tile0025 shrinkersprite
+sprite     2 roll       3          // tile0025 shrinkersprite
+sprite    20 angoff     256        // tile0044 rpgammo
+sprite    21 angoff     384        // tile0026 heavyhbomb
+sprite    30 angoff     1024       // tile0052 sixpack
+sprite    22 angoff     768        // tile0044 rpgammo
+sprite    23 angoff     640        // tile0026 heavyhbomb
+sprite    27 angoff     512        // tile0054 shield
+sprite    26 angoff     512        // tile0029 devistatorsprite
+sprite    24 angoff     256        // tile0040 ammo
+sprite    25 angoff    -256        // tile0040 ammo
