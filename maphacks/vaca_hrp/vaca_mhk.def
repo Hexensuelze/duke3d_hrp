@@ -5,218 +5,302 @@
 // Hacks are actually loaded from VACA HRP for the time being.
 
 
-// Unpatched maps as a reference ...
-/*
 mapinfo {
    maptitle "Caribbean Catastrophe"
    //author ""
    mapfile  "VACA1.MAP"
    mapmd4   a8b81139d75dc91c251dcf1383874260 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACA1-1997.mhk"
+   //mhkfile  "maphacks/vaca_hrp/VACA1-1997.mhk"
 }
+mapinfo {
+   maptitle "Caribbean Catastrophe"
+   //author ""
+   mapfile  "VACA1.MAP"
+   mapmd4   e5263d5bab92b06f04e3087212bde9c9 // 2014-02-26 (Megaton)
+   mapmd4   c661258481922a527f3642ca40fd0abe // 2014-04-18 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACA1-2014.mhk"
+}
+mapinfo {
+   maptitle "Caribbean Catastrophe"
+   //author ""
+   mapfile  "vaca1.map"
+   mapmd4   a6805f825896293627a880e3caf2b8e5 // 2011-03-25 (Vaca Plus r25)
+   //mhkfile  "maphacks/vaca_hrp/vaca1-r25.mhk"
+}
+
 mapinfo {
    maptitle "Market Melee"
    //author ""
    mapfile  "VACA2.MAP"
    mapmd4   2628677a314b562cc6e8672bf46b10bc // 1997
-   mhkfile  "maphacks/vaca_hrp/VACA2-1997.mhk"
+   //mhkfile  "maphacks/vaca_hrp/VACA2-1997.mhk"
 }
 mapinfo {
-   maptitle "Mr. Splashy's"
+   maptitle "Market Melee"
    //author ""
-   mapfile  "VACA3.MAP"
-   mapmd4   c8e6f825861c119b3c6f503929ba7ddb // 1997
-   mhkfile  "maphacks/vaca_hrp/VACA3-1997.mhk"
-}
-mapinfo {
-   maptitle "The Wavemistress"
-   //author ""
-   mapfile  "VACA4.MAP"
-   mapmd4   3e9db20275a25468ceaa86a688067e96 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACA4-1997.mhk"
-}
-mapinfo {
-   maptitle "Lost Lagoon"
-   //author ""
-   mapfile  "VACA5.MAP"
-   mapmd4   1e5b4cf5b8c223da53906d7b1eaa97c3 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACA5-1997.mhk"
-}
-mapinfo {
-   maptitle "Voodoo Caves"
-   //author ""
-   mapfile  "VACA6.MAP"
-   mapmd4   fc816c69a75a6d17c6d0cbc8c4d01434 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACA6-1997.mhk"
-}
-mapinfo {
-   maptitle "The Alien Remains"
-   //author ""
-   mapfile  "VACA7.MAP"
-   mapmd4   370972005c63574bc470f77a321fa507 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACA7-1997.mhk"
-}
-mapinfo {
-   maptitle "Island Hopping"
-   //author ""
-   mapfile  "VACADM1.MAP"
-   mapmd4   e2da2cde63ff1751a8197c50f2c6e5c3 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACADM1-1997.mhk"
-}
-mapinfo {
-   maptitle "Hidden Grotto"
-   //author ""
-   mapfile  "VACADM2.MAP"
-   mapmd4   5026ee4d71b1abe1b72635f0973daa51 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACADM2-1997.mhk"
-}
-mapinfo {
-   maptitle "Cruise Ship"
-   //author ""
-   mapfile  "VACADM3.MAP"
-   mapmd4   848f27003a08a2b453582671fe972438 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACADM3-1997.mhk"
-}
-mapinfo {
-   maptitle "The Docks"
-   //author ""
-   mapfile  "VACADM4.MAP"
-   mapmd4   8e5686967e4839d2dad5775977273503 // 1997
-   mhkfile  "maphacks/vaca_hrp/VACADM4-1997.mhk"
-}
-mapinfo {
-   maptitle "A Full House"
-   //author ""
-   mapfile  "VACASL.MAP"
-   mapmd4   dc564272565f41f7182167aea90eac4a // 1997
-   mhkfile  "maphacks/vaca_hrp/VACASL-1997.mhk"
-}
-
-mapinfo {
-   maptitle "Shark's Cove"
-   //author ""
-   mapfile  ".map"
-   mapmd4   82fd7fe13c1663d5d904d3430e3870ab // 2007-07-16
-   mhkfile  "maphacks/vaca_hrp/.mhk"
-}
-
-mapinfo {
-   maptitle "Market's Row"
-   //author ""
-   mapfile  ".map"
-   mapmd4   4d803f9eec2c06723c01b722f41f6bb7 // 2007-06-14
-   mhkfile  "maphacks/vaca_hrp/.mhk"
-}
-*/
-
-
-// NW Plus patched maps
-/*
-mapinfo {
-   maptitle "Caribbean Catastrophe"
-   //author ""
-   mapfile  "vaca1.map"
-   mapmd4   a6805f825896293627a880e3caf2b8e5 // 1997
-   mhkfile  "maphacks/vaca_hrp/vaca1-r25.mhk"
+   mapfile  "VACA2.MAP"
+   mapmd4   3f80c3d7c2ec34417960e952be900733 // 2014-02-26 (Megaton)
+   mapmd4   cbdace50403572066dff9e71a72cb83d // 2014-04-18 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACA2-2014.mhk"
 }
 mapinfo {
    maptitle "Market Melee"
    //author ""
    mapfile  "vaca2.map"
-   mapmd4   c6600e6986465742024ced369f19c3de // 1997
-   mhkfile  "maphacks/vaca_hrp/vaca2-r24.mhk"
+   mapmd4   c6600e6986465742024ced369f19c3de // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vaca2-r24.mhk"
+}
+
+mapinfo {
+   maptitle "Mr. Splashy's"
+   //author ""
+   mapfile  "VACA3.MAP"
+   mapmd4   c8e6f825861c119b3c6f503929ba7ddb // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACA3-1997.mhk"
+}
+mapinfo {
+   maptitle "Mr. Splashy's"
+   //author ""
+   mapfile  "VACA3.MAP"
+   mapmd4   add31e844da9ac98fabed47ef2636e4f // 2014-02-26 (Megaton)
+   mapmd4   1ea9154b134b7b46ee02252fa6b47f41 // 2014-04-18 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACA3-2014.mhk"
 }
 mapinfo {
    maptitle "Mr. Splashy's"
    //author ""
    mapfile  "vaca3.map"
-   mapmd4   5c2648a1178b01243ac6f763f6e74e0b // 1997
-   mhkfile  "maphacks/vaca_hrp/vaca3-r24.mhk"
+   mapmd4   5c2648a1178b01243ac6f763f6e74e0b // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vaca3-r24.mhk"
+}
+
+mapinfo {
+   maptitle "The Wavemistress"
+   //author ""
+   mapfile  "VACA4.MAP"
+   mapmd4   3e9db20275a25468ceaa86a688067e96 // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACA4-1997.mhk"
+}
+mapinfo {
+   maptitle "The Wavemistress"
+   //author ""
+   mapfile  "VACA4.MAP"
+   mapmd4   f038913af162385eea2196238ea1b228 // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACA4-2014.mhk"
 }
 mapinfo {
    maptitle "The Wavemistress"
    //author ""
    mapfile  "vaca4.map"
-   mapmd4   72b4f56c3cf7de22dfbb3ee5863f00b4 // 1997
-   mhkfile  "maphacks/vaca_hrp/vaca4-r24.mhk"
+   mapmd4   72b4f56c3cf7de22dfbb3ee5863f00b4 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vaca4-r24.mhk"
+}
+
+mapinfo {
+   maptitle "Lost Lagoon"
+   //author ""
+   mapfile  "VACA5.MAP"
+   mapmd4   1e5b4cf5b8c223da53906d7b1eaa97c3 // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACA5-1997.mhk"
+}
+mapinfo {
+   maptitle "Lost Lagoon"
+   //author ""
+   mapfile  "VACA5.MAP"
+   mapmd4   7c816822d822495692ec7025c0e70620 // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACA5-2014.mhk"
 }
 mapinfo {
    maptitle "Lost Lagoon"
    //author ""
    mapfile  "vaca5.map"
-   mapmd4   6a22c0a5792139d0be781da832eff81b // 1997
-   mhkfile  "maphacks/vaca_hrp/vaca5-r24.mhk"
+   mapmd4   6a22c0a5792139d0be781da832eff81b // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vaca5-r24.mhk"
+}
+
+mapinfo {
+   maptitle "Voodoo Caves"
+   //author ""
+   mapfile  "VACA6.MAP"
+   mapmd4   fc816c69a75a6d17c6d0cbc8c4d01434 // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACA6-1997.mhk"
+}
+mapinfo {
+   maptitle "Voodoo Caves"
+   //author ""
+   mapfile  "VACA6.MAP"
+   mapmd4   d31c81d53ec0f718db3e9a4de56bbd2b // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACA6-2014.mhk"
 }
 mapinfo {
    maptitle "Voodoo Caves"
    //author ""
    mapfile  "vaca6.map"
-   mapmd4   4371e45261543af1454a10bffa057956 // 1997
-   mhkfile  "maphacks/vaca_hrp/vaca6-r24.mhk"
+   mapmd4   4371e45261543af1454a10bffa057956 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vaca6-r24.mhk"
+}
+
+mapinfo {
+   maptitle "The Alien Remains"
+   //author ""
+   mapfile  "VACA7.MAP"
+   mapmd4   370972005c63574bc470f77a321fa507 // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACA7-1997.mhk"
+}
+mapinfo {
+   maptitle "The Alien Remains"
+   //author ""
+   mapfile  "VACA7.MAP"
+   mapmd4   6475fe0d95464a3d72ef6220feb8f420 // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACA7-2014.mhk"
 }
 mapinfo {
    maptitle "The Alien Remains"
    //author ""
    mapfile  "vaca7.map"
-   mapmd4   425a40e12bf44ad0fd1a91a0d959baa8 // 1997
-   mhkfile  "maphacks/vaca_hrp/vaca7-r24.mhk"
+   mapmd4   425a40e12bf44ad0fd1a91a0d959baa8 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vaca7-r24.mhk"
+}
+
+mapinfo {
+   maptitle "Island Hopping"
+   //author ""
+   mapfile  "VACADM1.MAP"
+   mapmd4   e2da2cde63ff1751a8197c50f2c6e5c3 // 1997
+   //       e2da2cde63ff1751a8197c50f2c6e5c3 // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACADM1-1997.mhk"
 }
 mapinfo {
    maptitle "Island Hopping"
    //author ""
    mapfile  "vacaDM1.map"
-   mapmd4   eae6f6c35c770ba3a5d2dc1026928af7 // 1997
-   mhkfile  "maphacks/vaca_hrp/vacaDM1-r24.mhk"
+   mapmd4   eae6f6c35c770ba3a5d2dc1026928af7 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vacaDM1-r24.mhk"
+}
+
+mapinfo {
+   maptitle "Hidden Grotto"
+   //author ""
+   mapfile  "VACADM2.MAP"
+   mapmd4   5026ee4d71b1abe1b72635f0973daa51 // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACADM2-1997.mhk"
+}
+mapinfo {
+   maptitle "Hidden Grotto"
+   //author ""
+   mapfile  "VACADM2.MAP"
+   mapmd4   0c4d32436e5390c524d8c4ab0722a874 // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACADM2-2014.mhk"
 }
 mapinfo {
    maptitle "Hidden Grotto"
    //author ""
    mapfile  "vacaDM2.map"
-   mapmd4   5d0698b9fae4dea547fff2f3c2a6340e // 1997
-   mhkfile  "maphacks/vaca_hrp/vacaDM2-r24.mhk"
+   mapmd4   5d0698b9fae4dea547fff2f3c2a6340e // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vacaDM2-r24.mhk"
+}
+
+mapinfo {
+   maptitle "Cruise Ship"
+   //author ""
+   mapfile  "VACADM3.MAP"
+   mapmd4   848f27003a08a2b453582671fe972438 // 1997
+   //       848f27003a08a2b453582671fe972438 // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACADM3-1997.mhk"
 }
 mapinfo {
    maptitle "Cruise Ship"
    //author ""
    mapfile  "vacaDM3.map"
-   mapmd4   787a354547bee5d29473845d2ff7f211 // 1997
-   mhkfile  "maphacks/vaca_hrp/vacaDM3-r24.mhk"
+   mapmd4   787a354547bee5d29473845d2ff7f211 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vacaDM3-r24.mhk"
+}
+
+mapinfo {
+   maptitle "The Docks"
+   //author ""
+   mapfile  "VACADM4.MAP"
+   mapmd4   8e5686967e4839d2dad5775977273503 // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACADM4-1997.mhk"
+}
+mapinfo {
+   maptitle "The Docks"
+   //author ""
+   mapfile  "VACADM4.MAP"
+   mapmd4   659e04dc204b6131dbf7895b647c0287 // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACADM4-2014.mhk"
 }
 mapinfo {
    maptitle "The Docks"
    //author ""
    mapfile  "vacaDM4.map"
-   mapmd4   9fcc905950937e7b08226070e1ba5b61 // 1997
-   mhkfile  "maphacks/vaca_hrp/vacaDM4-r24.mhk"
+   mapmd4   9fcc905950937e7b08226070e1ba5b61 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vacaDM4-r24.mhk"
+}
+
+mapinfo {
+   maptitle "A Full House"
+   //author ""
+   mapfile  "VACASL.MAP"
+   mapmd4   dc564272565f41f7182167aea90eac4a // 1997
+   //mhkfile  "maphacks/vaca_hrp/VACASL-1997.mhk"
+}
+mapinfo {
+   maptitle "A Full House"
+   //author ""
+   mapfile  "VACASL.MAP"
+   mapmd4   e7d9b40d2b85e8f5729865217bea54fa // 2014-02-26 (Megaton)
+   //mhkfile  "maphacks/vaca_hrp/VACASL-2014.mhk"
 }
 mapinfo {
    maptitle "A Full House"
    //author ""
    mapfile  "vacaSL.map"
-   mapmd4   af21dc0505427da99c4f29ce4cb1c0e2 // 1997
-   mhkfile  "maphacks/vaca_hrp/vacaSL-r24.mhk"
+   mapmd4   af21dc0505427da99c4f29ce4cb1c0e2 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/vacaSL-r24.mhk"
 }
 
 mapinfo {
    maptitle "Shark's Cove"
-   //author ""
+   //author "N.E. 'HangNail' Voigt"
+   mapfile  "dcava0.map"
+   mapmd4   e1a7b4b044cb80f944dfc9cb4c97bdd5 // 2007-05-22
+   //mhkfile  "maphacks/vaca_hrp/dcava0.mhk"
+}
+mapinfo {
+   maptitle "Shark's Cove"
+   //author "N.E. 'HangNail' Voigt"
    mapfile  "dcava0r.map"
-   mapmd4   265ac674a40485fa92411cbcb888ba18 // r22 - 2011-03-22
-   mhkfile  "maphacks/vaca_hrp/dcava0r-r22.mhk"
+   mapmd4   82fd7fe13c1663d5d904d3430e3870ab // 2007-07-16
+   //mhkfile  "maphacks/vaca_hrp/dcava0r.mhk"
+}
+mapinfo {
+   maptitle "Shark's Cove"
+   //author "N.E. 'HangNail' Voigt"
+   mapfile  "dcava0r.map"
+   mapmd4   265ac674a40485fa92411cbcb888ba18 // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/dcava0r-r22.mhk"
 }
 
 mapinfo {
    maptitle "Market's Row"
-   //author ""
+   //author "N.E. 'HangNail' Voigt"
    mapfile  "dcava1.map"
-   mapmd4   ae741feb16935407e0fdd45df2e6efcd // r22 - 2011-03-22
-   mhkfile  "maphacks/vaca_hrp/dcava1-r22.mhk"
+   mapmd4   4d803f9eec2c06723c01b722f41f6bb7 // 2007-06-14
+   //mhkfile  "maphacks/vaca_hrp/dcava1.mhk"
 }
-*/
+mapinfo {
+   maptitle "Market's Row"
+   //author "N.E. 'HangNail' Voigt"
+   mapfile  "dcava1.map"
+   mapmd4   ae741feb16935407e0fdd45df2e6efcd // 2011-03-22 (Vaca Plus r22)
+   //mhkfile  "maphacks/vaca_hrp/dcava1-r22.mhk"
+}
+
 mapinfo {
    maptitle "Caribbean Zoo"
    //author "Allen H. Blum III & Hendricks266"
    mapfile  "_vacazoo.map"
-   mapmd4   2e7218fa3aa14f521318ae8d4b0d61b4 // r19 - 2011-03-19
+   mapmd4   2e7218fa3aa14f521318ae8d4b0d61b4 // 2011-03-19 (Vaca Plus r19)
    mhkfile  "maphacks/vaca_hrp/_vacazoo-r19.mhk"
 }

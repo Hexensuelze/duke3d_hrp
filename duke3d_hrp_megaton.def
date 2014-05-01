@@ -1,0 +1,31 @@
+// Extra additions to the game - Polymost [Megaton] HRP
+
+//echo "Polymost High Resolution Pack [Megaton] (version 5.3.565)"
+//echo "Polymost High Resolution Pack [Megaton] - Repository Snapshot >= 5.3.566"
+
+// You have to copy/rename duke3d_hrp_megaton.def to duke3d_hrp.def
+// in order to activate the Polymost [Megaton] HRP.
+// Alternatively you can start EDuke32 with -hduke3d_hrp_megaton.def,
+// but this may not work in conjunction with mods like DukePlus.
+// If you are using the Megaton Override Pack, you should be fine already.
+
+include highres/music.def
+
+include highres/screen_polymost.def
+//include highres/skyboxes.def
+//include highres/sounds.def
+include highres/sprites_megaton.def
+include highres/textures_polymost.def
+
+tint { pal 1 red 100 green 120 blue 148 flags 1 }
+tint { pal 2 red 255 green  48 blue   0 flags 0 }
+tint { pal 4 red   0 green   0 blue   0 flags 0 }
+tint { pal 6 red 224 green 255 blue 112 flags 3 }
+tint { pal 7 red 172 green 157 blue 140 flags 0 }
+tint { pal 8 red 199 green 226 blue 113 flags 1 }
+
+
+
+//include maphacks/maphacks_polymost.def
+
+//include duke3d-megaton.def
