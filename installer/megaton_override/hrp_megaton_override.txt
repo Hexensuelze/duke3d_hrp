@@ -1,0 +1,85 @@
+                   ==========================================
+                   | Polymost HRP Override Pack for Megaton |
+                   |                by LeoD                 |
+                   ==========================================
+                   |     Repository Snapshot >= 5.3.566     |
+                   ==========================================
+
+
+WHAT THIS IS ABOUT:
+-------------------
+This file contains updated data for the Duke3D High-Resolution Pack (HRP). 
+It features a modified Polymost HRP for use with the Megaton Polymost renderer
+on top of the default Polymer HRP.
+
+Basically, this means: First get the full HRP 5.3 (r5.3.565), the latest update
+pack (if available), then this file.
+
+It is possible to run the Megaton HRP without this pack, using the Megaton
+command line option -hduke3d_hrp_megaton.def. But this won't work correctly in
+conjunction with certain mods, as well as addons like
+DukeDC, NWinter, and Vacation.
+
+
+HOW TO USE IT:
+--------------
+
+[ For single player games I highly recommend using the EDuke32 executable and 
+  the normal HRP instead of Megaton. ]
+
+Drop the HRP Override Pack into the gameroot folder within your Megaton
+installation like the HRP zipfile itself.
+Add
+  -gduke3d_hrp.zip -gduke3d_megaton_hrp_override-5.3.565.zip
+to your command line or use the included batch file to play with the HRP
+
+
+KNOWN PROBLEMS:
+---------------
+The Megaton executable (1.3.2 stable) is based on a rather old JFDuke version 
+and therefore doesn't support all Polymost HRP features correctly:
+
+ - "animtilerange", "setuptilerange" and "tilefromtexture" are unsupported
+ - the maphack system is unsupported  and has  been disabled in this pack
+ - frozen models don't work correctly and have been disabled in this pack
+ - skyboxes      don't work correctly and have been disabled in this pack
+ - pickup models and first person weapon models may (partiallly) disappear at 
+   certain viewing angles or sector boundaries.
+
+There is nothing that can be done about these issues other than updating the 
+Megaton executable's Polymost renderer code.
+
+
+IMPORTANT:
+----------
+This override pack is meant for the HRP v5.3 (=r5.3.565)!
+
+
+Duke in D.C. HRP (v1.61):
+-------------------------
+To avoid a messed up level stat screen, make sure that this override pack gets 
+loaded after the DC HRP pack or use the included DC-HRP batch file.
+
+
+WHERE TO GET IT:
+----------------
+- You can check the Duke3D mod thread over at the Duke4.net forums:
+  http://forums.duke4.net/index.php?showtopic=3513
+
+
+RELATED LINKS:
+--------------
+- Duke4.net ................................... http://www.duke4.net
+- Duke Nukem 3D High-Resolution Pack .......... http://hrp.duke4.net
+- EDuke32 port (by TerminX) ................... http://eduke32.com
+
+
+CONTACT:
+--------
+  http://forums.duke4.net/user/1299-leod/
+
+
+SPECIAL CREDITS:
+--------
+  Tea Monster - model conversion
+  Roma Loom   - backporting Polymer textures
