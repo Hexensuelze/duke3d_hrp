@@ -6,6 +6,14 @@
 // mapmd4   : f49abc32e1296704c9b67878b4244ebd
 // Curr. HRP: r5.2.554
 
+/*
+Lighthouse (aka Biglight) was designed prior to the HRP. It's tiles002.art has 
+a few textures conflicting with HRP contents. 
+To prevent the HRP from overridng these textures,
+get the User ART Compatibility Pack from here:
+  http://forums.duke4.net/index.php?showtopic=3513
+Copy the duke3d.def I have prepared for biglight into your EDuke32 folder.
+*/
 
 sprite  3772 roll      -32         // tile1734 liztroopdsprite
 sprite   661 angoff     256        // tile1734 liztroopdsprite

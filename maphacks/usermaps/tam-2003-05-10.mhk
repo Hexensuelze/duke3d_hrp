@@ -8,6 +8,16 @@
 
 //         <-> TAM-2006-07-23.mhk
 
+/*
+The 2003 version of TAM (Tropical Alien Massacre) was designed 
+prior to the HRP. It's tiles000.art and tiles004.art have a few textures 
+conflicting with HRP contents. 
+To prevent the HRP from overridng these textures,
+get the User ART Compatibility Pack from here:
+  http://forums.duke4.net/index.php?showtopic=3513
+Copy the duke3d.def I have prepared for am into your EDuke32 folder.
+*/
+
 //  / 58-802
 sprite   480 angoff     320        // tile0054 shield
 sprite   480 mdzoff     500000     // tile0054 shield
