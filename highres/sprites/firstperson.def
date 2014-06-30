@@ -44,6 +44,7 @@ model "highres/sprites/firstperson/2510_devastator.md3" {
 //   normal { file "highres/sprites/firstperson/2510_devastator_n.png" parallaxbias 0.0 parallaxscale 0.0 }
    specular { file "highres/sprites/firstperson/2510_devastator_s.png" }
    frame { name "Frame0" tile 2510 }
+
    glow { file "highres/sprites/firstperson/2510_devastator_g.png" }
    frame { name "Frame1" tile 2511 }
    hud { tile0 2510 tile1 2511 xadd -0.38 yadd -0.70 zadd 1.42 angadd -512 flipped } //left devastator
@@ -61,6 +62,13 @@ model "highres/sprites/firstperson/2521_mightyboot.md3" {
    hud { tile 2521 xadd -0.6 yadd 1.8 zadd 2.5 angadd 650 flipped }  // Quick Kick
 }
 
+
+
+
+
+
+
+
 // Mighty Boot (2522)
 model "highres/sprites/firstperson/2522_mightyboot.md3" {
    scale 9
@@ -71,6 +79,13 @@ model "highres/sprites/firstperson/2522_mightyboot.md3" {
    hud { tile 2522 xadd  0.09 yadd 2.5 zadd 2.5 angadd 550 }
    hud { tile 2522 xadd -0.5 yadd 1.4 zadd 2.5 angadd 500 flipped }  // Quick Kick
 }
+
+
+
+
+
+
+
 
 // Pistol (2524)
 model "highres/sprites/firstperson/2524_pistol.md3" {
@@ -243,6 +258,7 @@ model "highres/sprites/firstperson/2566_tripbomb.md3" {
    scale 6.5
    skin { pal 0 file "highres/sprites/firstperson/2566_tripbomb.png" }
    glow { file "highres/sprites/firstperson/2566_tripbomb_g.png" }
+
    frame { name "frame00" tile 2566 }
    hud { tile 2566 yadd 0.14 zadd 1.46 angadd 1024 }
 }
@@ -258,6 +274,28 @@ model "highres/sprites/firstperson/2568_keycardhand.md3" {
   // hud { tile 2568 xadd -0.25 yadd 0.24 zadd -0.1 angadd 0 }
    hud { tile 2568 xadd 0.25 yadd 0.24 zadd -0.1 angadd 512 flipped }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Trigger Hand (2570)
 model "highres/sprites/firstperson/2570_triggerhand.md3" {

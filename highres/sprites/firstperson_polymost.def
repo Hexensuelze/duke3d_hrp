@@ -6,6 +6,8 @@
 model "highres/sprites/firstperson_polymost/1640_fist.md3" {
    scale 1.9
    skin { pal 0  file "highres/sprites/firstperson_polymost/1640_fist.png" }
+
+
    frame { name "fist" tile 1640 }
    hud { tile 1640 xadd -0.2 yadd 1.50 zadd -0.4 }
    hud { tile 1640 xadd 0.3 yadd 0.1 zadd -0.4 flipped }
@@ -39,6 +41,8 @@ model "highres/sprites/firstperson/2375_slimecrunch.md3" {
 model "highres/sprites/firstperson_polymost/2510_devastator.md3" {
    scale 1.5
    skin { pal 0 file "highres/sprites/firstperson_polymost/2510_devastator.jpg" }
+
+
    frame { name "Frame 00" tile 2510 }
    skin { pal 0 file "highres/sprites/firstperson_polymost/2510_devastator_f.jpg" }
    glow { file "highres/sprites/firstperson_polymost/2510_devastator_g.png" }
@@ -88,6 +92,17 @@ model "highres/sprites/firstperson_polymost/2524_pistol.md3" {
    scale 1.9
    skin { pal 0 file "highres/sprites/firstperson_polymost/2524_pistol.png" }
    glow { file "highres/sprites/firstperson_polymost/2524_pistol_g.png" }
+
+
+
+
+
+
+
+
+
+
+
    frame { name "Frame0" tile 2524 }
    anim { frame0 "Frame1" frame1 "Frame5" fps 60 flags 0 }
    frame { name "Frame1" tile0 2525 tile1 2526 }
@@ -107,6 +122,8 @@ model "highres/sprites/firstperson_polymost/2530_clip.md3" {
 model "highres/sprites/firstperson_polymost/2532_cliphand.md3" {
    scale 1.9
    skin { pal 0 file "highres/sprites/firstperson_polymost/2532_cliphand.png" }
+
+
    frame { name "idle" tile 2532 }
    hud { tile 2532 xadd 0.35 yadd 1.36 zadd -0.48 angadd -37 }
 }
@@ -124,6 +141,12 @@ model "highres/sprites/firstperson_polymost/2536_chaingun.md3" {
    hud { tile 2536 hide }
 }
 
+
+
+
+
+
+
 // Chaingun muzzleflash (2541-2543)
 texture 2541 { pal 0 { file "highres/sprites/firstperson/2541.png" } }
 texture 2542 { pal 0 { file "highres/sprites/firstperson/2542.png" } }
@@ -140,6 +163,12 @@ model "highres/sprites/firstperson_polymost/2544_rpg.md3" {
 // RPG muzzleflash (2544-2546)
 texture 2545 { pal 0 { file "highres/sprites/firstperson_polymost/2545_muzzle_flash.png" } }
 texture 2546 { pal 0 { file "highres/sprites/firstperson_polymost/2545_muzzle_flash.png" } }
+
+
+
+
+
+
 
 // Freezer (2548)
 model "highres/sprites/firstperson/2548_freezer.md3" {
@@ -327,6 +356,19 @@ model "highres/sprites/firstperson/2581_scuba.md3" {
 model "highres/sprites/firstperson_polymost/2613_shotgun.md3" {
    scale 1.7
    skin { pal 0 file "highres/sprites/firstperson_polymost/2613_shotgun.png" }
+
+
+
+
+
+
+
+
+
+
+
+
+
    frame { name "2613" tile 2613 }
    frame { name "2613" tile 2614 }
    frame { name "2613" tile 2615 }
