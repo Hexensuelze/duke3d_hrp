@@ -2,114 +2,64 @@
 // User Maps by William Gee
 //
 
-include maphacks/gee/wgrealms/wgrealms_mhk.def // WGRealms
+include maphacks/gee/wgdm/wgdm_mhk.def         // DukeMatch Maps
+include maphacks/gee/wgrealms/wgrealms_mhk.def // WGRealms Episode
+include maphacks/gee/wgspace/wgspace_mhk.def   // WGSpace  Episode
+
 
 mapinfo {
-   maptitle "Lavrenth2"
+   maptitle "Alien X"
+   mapfile  "Alienx.map"
    //author "William Gee"
-   mapfile  "LABRENT2.MAP"
-   mapmd4   d820120deaa658971be0ffb7d6de89e4 // 2002-07-21
-   mhkfile  "maphacks/gee/LABRENT2.mhk"
+   mapmd4   9c4ad57eb53443103f0bd99cd1f1b024 // 2002-08-28
+   mhkfile  "maphacks/gee/Alienx.mhk"
 }
+
 mapinfo {
-   //maptitle "Lavrenth2"
-   maptitle "Labyrinth 2" // (DNA)
+   maptitle "Future Matrix"
+   mapfile  "Future.map"
    //author "William Gee"
-   mapfile  "LABRENT2_DNA.MAP"
-   mapmd4   5cecf1294fcbcfc63d43cf926a54e015 // 2007-01-09 (DNA)
-   mhkfile  "maphacks/gee/LABRENT2_DNA.mhk"
+   mapmd4   d934f28342290e368b72fd6ef16d56e1 // 2002-07-19
+   mhkfile  "maphacks/gee/Future.mhk"
 }
 
 mapinfo {
    maptitle "WGAlien"
-   //author "William Gee"
    mapfile  "WGAlien.map"
+   //author "William Gee"
    mapmd4   1adceb729debcdcd1ec197c848713a5e // 2003-11-01
    mhkfile  "maphacks/gee/WGAlien.mhk"
 }
 
 mapinfo {
    maptitle "WGCity"
-   //author "William Gee"
    mapfile  "WGCity.map"
+   //author "William Gee"
    mapmd4   adb6817aac49abd91f96fdb78f26d5fe // 2005-05-31
    mhkfile  "maphacks/gee/WGCity.mhk"
 }
-
+/*
 mapinfo {
-   maptitle "WGCityDM"
+   maptitle "WGDoom1"
+   mapfile  "WGDOOM1.MAP"
    //author "William Gee"
-   mapfile  "WgCITYDM.map"
-   mapmd4   13c1dad41f0ccdd5a9f4a629a8484861 // 2006-08-22
-   mhkfile  "maphacks/gee/WgCITYDM.mhk"
-}
-mapinfo {
-   //maptitle "WGCityDM"
-   maptitle "WG City" // (DNA)
-   //author "William Gee"
-   mapfile  "WgCITY_DNA.map"
-   mapmd4   f75089dcd4f42da038099b096a958176 // 2007-01-06 (DNA)
-   mhkfile  "maphacks/gee/WgCITY_DNA.mhk"
-}
-mapinfo {
-   //maptitle "WGCityDM"
-   maptitle "WgCity" // (DNWMD)
-   //author "William Gee"
-   mapfile  "WgCITYDM.map"
-   mapmd4   a82ad9c52ca80269a85677a7b3030775 // 2007-10-15 (DNWMD)
-   mhkfile  "maphacks/gee/WgCITYDM-dnwmd.mhk"
+   mapmd4   e2518afbe90d709a51588f5a4951ac6c // 2002-07-11
+   mhkfile  "maphacks/gee/WGDOOM1.mhk"
 }
 
 mapinfo {
-   maptitle "WGCityDM2"
+   maptitle "WG-0ld1"
+   mapfile  "WG-old1.map"
    //author "William Gee"
-   mapfile  "Wgcitdm2.map"
-   mapmd4   f759a6ff5ac03ac2fe58cf6914c33306 // 2007-08-30
-   mhkfile  "maphacks/gee/Wgcitdm2.mhk"
-}
-mapinfo {
-   maptitle "WGCityDM2"
-   //author "William Gee"
-   mapfile  "Wgcitdm2_ATT.map"
-   mapmd4   b5ead5ab6fefdcfb5b77ce59c03ff247 // 2010-11-01 (Attrition)
-   mapmd4   a62d83304df37a06d50d5b03400c54f5 // 2014-03-18 (Attrition)
-   mhkfile  "maphacks/gee/Wgcitdm2_ATT.mhk"
+   mapmd4   c3729097e381264e822fce9e707f0c54 // 2005-07-24
+   mhkfile  "maphacks/gee/WG-old1.mhk"
 }
 
 mapinfo {
-   maptitle "WGDM2"
+   maptitle "WG-0ld2"
+   mapfile  "WG-Old2.map"
    //author "William Gee"
-   mapfile  "WGDM2.map"
-   mapmd4   fa9a26912899286ab11f2fca947b6f7c // 2003-04-15
-   mhkfile  "maphacks/gee/WGDM2.mhk"
+   mapmd4   478339ca691679f51a334fada3ab5a00 // 2005-07-26
+   mhkfile  "maphacks/gee/WG-Old2.mhk"
 }
-mapinfo {
-   maptitle "WGDM2"
-   //author "William Gee"
-   mapfile  "WGDM2_DNA.map"
-   mapmd4   732f1aac637724d75d8c300de87789b4 // 2007-01-06 (DNA)
-   mhkfile  "maphacks/gee/WGDM2_DNA.mhk"
-}
-
-mapinfo {
-   maptitle "WGdm4v2"
-   //author "William Gee"
-   mapfile  "wgdm4v2.map"
-   mapmd4   a8cdaf792850014a69e7e0942b00c245 // 2008-05-15
-   mhkfile  "maphacks/gee/wgdm4v2.mhk"
-}
-mapinfo {
-   maptitle "WgDM4" //  (DNA)
-   //author "William Gee"
-   mapfile  "wgdm4_DNA.map"
-   mapmd4   7fad425376873f80ab9e61ecd0a2f789 // 2007-01-08 (DNA)
-   mhkfile  "maphacks/gee/wgdm4_DNA.mhk"
-}
-
-mapinfo {
-   maptitle "WGSecretV5"
-   //author "William Gee"
-   mapfile  "WGSecrv5.map"
-   mapmd4   4887ce8e2f8c5d92cc765fef4a2f736b // 2008-05-11
-   mhkfile  "maphacks/gee/WGSecrv5.mhk"
-}
+*/

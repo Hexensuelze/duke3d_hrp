@@ -1,12 +1,16 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : Turok.map - "Turok"
+// Title    : Turok
+// Filename : Turok.map
 // Author   : Duke64 aka Kamikaze Nukem
-// Map Date : 2014-07-08
-// mapmd4   : fa89a5857a954d6c37c0d0d6897e1a0a
-// Curr. HRP: r5.3.642
+// mapmd4   : fa89a5857a954d6c37c0d0d6897e1a0a // 2014-07-08 (Megaton Workshop)
 
+//         <-> TurokEduke.mhk
+//         <-> TurokDM.mhk
 
+// Curr. HRP: r5.3.643
+
+// 0-115 / / 476-497 / 499-508
 sprite   797 angoff     512        // tile0956 bottle3
 sprite   797 mdyoff     5000       // tile0956 bottle3
 sprite   797 mdzoff     150000     // tile0956 bottle3
@@ -17,6 +21,7 @@ sprite   505 angoff    -256        // tile0024 freezesprite
 sprite   504 angoff     256        // tile1325 fem4 cavedancer
 sprite   500 angoff     512        // tile0040 ammo
 sprite   502 angoff     1024       // tile0021 firstgunsprite
+sprite   501 angoff     1024       // tile0040 ammo
 sprite   532 angoff    -768        // tile0049 shotgunammo
 sprite   881 angoff    -640        // tile0051 cola
 sprite  1727 mdxoff    -15000      // tile4363 (combat knife)
@@ -27,6 +32,11 @@ sprite  1726 mdzoff     200000     // tile4363 (combat knife)
 sprite  1726 pitch     -1          // tile4363 (combat knife)
 sprite  1815 angoff     512        // tile0028 shotgunsprite
 sprite   498 angoff    -512        // tile0049 shotgunammo
+
+sprite   534 angoff    -512        // tile0762 mike
+
+
+
 sprite    86 nomdanim              // tile0974 oceansprite4
 sprite    85 nomdanim              // tile0974 oceansprite4
 sprite  1735 angoff    -640        // tile1238 explodingbarrel
@@ -103,6 +113,9 @@ sprite  1732 angoff     768        // tile1238 explodingbarrel
 sprite  1731 angoff     1024       // tile1238 explodingbarrel
 sprite  1730 angoff    -768        // tile1238 explodingbarrel
 sprite  1828 angoff     1024       // tile0049 shotgunammo
+sprite  1828 mdzoff     200000     // tile0049 shotgunammo
+sprite  1828 pitch     -2          // tile0049 shotgunammo
+sprite  1828 roll      -1          // tile0049 shotgunammo
 sprite  1486 angoff    -640        // tile0049 shotgunammo
 sprite   484 nomdanim              // tile0974 oceansprite4
 sprite   483 nomdanim              // tile0974 oceansprite4
@@ -124,6 +137,7 @@ sprite   479 pitch      1024       // tile0974 oceansprite4
 sprite   488 nomdanim              // tile0974 oceansprite4
 sprite   487 nomdanim              // tile0974 oceansprite4
 sprite  1810 angoff     1024       // tile0052 sixpack
+// mhk diff sync 1
 sprite   324 angoff    -768        // tile0060 accesscard blue
 sprite   745 angoff     256        // tile4515 pirate6a
 sprite   760 angoff     1024       // tile0051 cola
@@ -238,6 +252,7 @@ sprite  1082 mdxoff     120000     // tile0909 (treetrunk)
 sprite  1082 pitch     -1          // tile0909 (treetrunk)
 sprite  1084 mdxoff     120000     // tile0909 (treetrunk)
 sprite  1084 pitch     -1          // tile0909 (treetrunk)
+
 sprite  1646 angoff    -512        // tile0049 shotgunammo
 sprite   551 angoff     1024       // tile0040 ammo
 sprite   552 angoff     1024       // tile0040 ammo
@@ -266,6 +281,7 @@ sprite  1123 nomdanim              // tile0974 oceansprite4
 sprite  1121 nomdanim              // tile0974 oceansprite4
 sprite  1125 nomdanim              // tile0974 oceansprite4
 sprite  1127 nomdanim              // tile0974 oceansprite4
+// mhk diff sync 2
 sprite   724 angoff    -256        // tile0052 sixpack
 sprite  1129 nomdanim              // tile0974 oceansprite4
 sprite   711 angoff    -128        // tile0044 rpgammo
@@ -324,6 +340,8 @@ sprite  1566 angoff     768        // tile0052 sixpack
 sprite  1922 angoff    -256        // tile0051 cola
 sprite  1682 angoff     1024       // tile1356 (terminator)
 sprite  1783 nomdanim              // tile2206 (tile2205 lizmanarm1)
+sprite  1783 mdxoff     12000      // tile2206 (tile2205 lizmanarm1)
+sprite  1783 pitch      1          // tile2206 (tile2205 lizmanarm1)
 sprite   935 angoff    -512        // tile0049 shotgunammo
 sprite   934 angoff    -512        // tile0051 cola
 sprite  1004 angoff     1024       // tile0060 accesscard red

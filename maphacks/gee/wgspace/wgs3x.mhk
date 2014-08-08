@@ -1,0 +1,340 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : Ice Moon
+// Filename : wgs3x.map
+// Author   : William Gee
+// mapmd4   : 7bbc98c27f7b64db4b2e0c4f3815aaf0 // 2008-08-06
+
+//         <-> wgs3.mhk
+//         <-> WGDPDM.mhk
+
+// Curr. HRP: r5.3.643
+
+sprite   351 angoff     1024       // tile0028 shotgunsprite
+
+
+sprite  1995 angoff     768        // tile0047 hbombammo (multiplayer)
+sprite  2020 angoff     1024       // tile0024 freezesprite (multiplayer)
+sprite  2019 angoff    -768        // tile0022 chaingunsprite (multiplayer)
+sprite   349 angoff    -320        // tile0055 steroids
+sprite   348 angoff    -640        // tile0054 shield
+sprite  1653 angoff    -128        // tile0052 sixpack
+sprite  2107 angoff     512        // tile0028 shotgunsprite (multiplayer)
+sprite  2107 mdzoff     700000     // tile0028 shotgunsprite (multiplayer)
+sprite  2107 pitch     -1          // tile0028 shotgunsprite (multiplayer)
+sprite  2102 angoff    -512        // tile0047 hbombammo (multiplayer)
+sprite  2102 mdzoff     900000     // tile0047 hbombammo (multiplayer)
+sprite  2102 pitch     -1          // tile0047 hbombammo (multiplayer)
+sprite  2105 angoff    -512        // tile0024 freezesprite (multiplayer)
+sprite  2105 mdzoff     300000     // tile0024 freezesprite (multiplayer)
+sprite  2105 pitch      1          // tile0024 freezesprite (multiplayer)
+sprite  2108 angoff    -512        // tile0022 chaingunsprite (multiplayer)
+sprite  2108 mdzoff     700000     // tile0022 chaingunsprite (multiplayer)
+sprite  2108 pitch     -1          // tile0022 chaingunsprite (multiplayer)
+sprite  1065 angoff     256        // tile0027 tripbombsprite
+sprite  1062 angoff     128        // tile0027 tripbombsprite
+sprite  1061 angoff     512        // tile0027 tripbombsprite
+sprite  1063 angoff     896        // tile0027 tripbombsprite
+sprite  1064 angoff     768        // tile0027 tripbombsprite
+
+sprite  1719 angoff    -768        // tile0056 airtank
+sprite  1626 angoff    -256        // tile0051 cola
+sprite  1772 angoff     384        // tile0049 shotgunammo
+sprite  1658 angoff     384        // tile0053 firstaid
+sprite  1622 angoff     512        // tile0022 chaingunsprite
+sprite  1622 pitch      144        // tile0022 chaingunsprite
+sprite  1622 roll       48         // tile0022 chaingunsprite
+sprite  1624 roll      -144        // tile0041 batteryammo
+sprite  1624 pitch      48         // tile0041 batteryammo
+sprite  1623 roll      -144        // tile0041 batteryammo
+sprite  1623 pitch      48         // tile0041 batteryammo
+sprite  1110 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1111 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1112 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1113 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1114 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1115 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1116 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1117 nomdanim              // tile1056 (tile1055 (film reel))
+sprite  1720 angoff     512        // tile0052 sixpack
+sprite   227 angoff    -768        // tile0049 shotgunammo
+sprite   224 angoff    -256        // tile0052 sixpack
+sprite  1273 angoff     512        // tile0023 rpgsprite
+sprite   219 angoff    -256        // tile0044 rpgammo
+sprite  2070 angoff     896        // tile0028 shotgunsprite
+sprite   277 angoff     384        // tile0052 sixpack
+sprite   889 notmd                 // tile0909 (treetrunk)
+sprite   890 notmd                 // tile0909 (treetrunk)
+sprite   891 notmd                 // tile0909 (treetrunk)
+sprite   892 notmd                 // tile0909 (treetrunk)
+sprite   895 notmd                 // tile0909 (treetrunk)
+sprite   896 notmd                 // tile0909 (treetrunk)
+sprite  1204 notmd                 // tile0909 (treetrunk)
+sprite  1205 notmd                 // tile0909 (treetrunk)
+sprite   893 notmd                 // tile0909 (treetrunk)
+sprite   894 notmd                 // tile0909 (treetrunk)
+sprite   885 notmd                 // tile0909 (treetrunk)
+sprite   886 notmd                 // tile0909 (treetrunk)
+sprite   887 notmd                 // tile0909 (treetrunk)
+sprite   888 notmd                 // tile0909 (treetrunk)
+sprite   883 notmd                 // tile0909 (treetrunk)
+sprite   884 notmd                 // tile0909 (treetrunk)
+sprite   879 notmd                 // tile0909 (treetrunk)
+sprite   880 notmd                 // tile0909 (treetrunk)
+sprite  1357 notmd                 // tile0909 (treetrunk)
+sprite  1358 notmd                 // tile0909 (treetrunk)
+sprite   637 notmd                 // tile0909 (treetrunk)
+sprite   638 notmd                 // tile0909 (treetrunk)
+sprite   630 notmd                 // tile0909 (treetrunk)
+sprite   631 notmd                 // tile0909 (treetrunk)
+sprite   628 notmd                 // tile0909 (treetrunk)
+sprite   629 notmd                 // tile0909 (treetrunk)
+sprite   499 angoff     768        // tile0037 freezeammo
+sprite  1629 angoff     512        // tile0051 cola
+sprite  1628 angoff     512        // tile0051 cola
+sprite   531 angoff    -512        // tile0049 shotgunammo
+sprite   529 angoff    -512        // tile0052 sixpack
+
+sprite   530 angoff     1024       // tile0041 batteryammo
+sprite  1613 angoff    -768        // tile0037 freezeammo
+sprite  1613 roll       96         // tile0037 freezeammo
+sprite  1612 angoff     640        // tile0037 freezeammo
+sprite  1978 angoff     704        // tile0041 batteryammo
+sprite  1978 pitch     -48         // tile0041 batteryammo
+sprite  1978 roll      -144        // tile0041 batteryammo
+sprite  1611 angoff     256        // tile0037 freezeammo
+sprite  1611 roll       256        // tile0037 freezeammo
+sprite  1976 angoff    -384        // tile0052 sixpack
+sprite  1979 pitch     -32         // tile0047 hbombammo
+sprite  1979 roll      -64         // tile0047 hbombammo
+sprite  1975 angoff     512        // tile0052 sixpack
+sprite  1615 angoff    -640        // tile0024 freezesprite
+sprite  1614 roll       64         // tile0037 freezeammo
+sprite  1614 pitch      32         // tile0037 freezeammo
+sprite  1977 roll       64         // tile0049 shotgunammo
+sprite  1977 pitch      32         // tile0049 shotgunammo
+sprite  1721 angoff    -256        // tile0049 shotgunammo
+sprite  1721 roll      -160        // tile0049 shotgunammo
+sprite  2076 angoff    -512        // tile0028 shotgunsprite
+sprite  2121 angoff    -768        // tile0049 shotgunammo
+sprite  2069 angoff     128        // tile0028 shotgunsprite
+sprite   231 angoff    -512        // tile0049 shotgunammo
+sprite   231 roll       16         // tile0049 shotgunammo
+sprite   395 angoff     384        // tile0052 sixpack
+sprite   394 angoff     1024       // tile0052 sixpack
+sprite   393 angoff     1024       // tile0053 firstaid
+sprite  1766 angoff    -256        // tile0052 sixpack
+sprite   380 angoff    -512        // tile0037 freezeammo
+sprite   392 angoff     512        // tile0037 freezeammo
+sprite  2066 angoff    -512        // tile0057 jetpack (multiplayer)
+sprite  2066 mdzoff     150000     // tile0057 jetpack (multiplayer)
+sprite  2066 pitch     -1          // tile0057 jetpack (multiplayer)
+sprite   391 angoff    -512        // tile0049 shotgunammo
+sprite   391 mdzoff     1500000    // tile0049 shotgunammo
+sprite   391 pitch     -1          // tile0049 shotgunammo
+sprite  1767 angoff    -256        // tile0052 sixpack
+
+
+
+sprite   390 angoff     1024       // tile0041 batteryammo
+sprite   390 roll      -112        // tile0041 batteryammo
+sprite   487 angoff    -128        // tile0052 sixpack
+sprite   389 angoff     512        // tile0044 rpgammo
+sprite   389 pitch     -208        // tile0044 rpgammo
+sprite  2080 roll       208        // tile0041 batteryammo (multiplayer)
+sprite  2079 angoff     512        // tile0044 rpgammo (multiplayer)
+sprite  2079 pitch     -208        // tile0044 rpgammo (multiplayer)
+sprite  2078 roll       208        // tile0037 freezeammo (multiplayer)
+sprite  1749 angoff     768        // tile0052 sixpack
+sprite  1755 angoff     512        // tile0049 shotgunammo
+sprite  1755 roll      -96         // tile0049 shotgunammo
+sprite  1724 angoff     768        // tile0044 rpgammo
+sprite  1758 angoff    -512        // tile0052 sixpack
+sprite  2086 angoff     1024       // tile0045 growammo
+sprite  1732 angoff    -512        // tile0041 batteryammo
+sprite  1733 angoff    -384        // tile0051 cola
+sprite  1757 angoff    -512        // tile0044 rpgammo
+
+
+
+
+
+
+sprite  1731 angoff     0          // tile0049 shotgunammo
+
+
+
+sprite   347 angoff     1024       // tile0052 sixpack
+
+sprite  1725 angoff     512        // tile0037 freezeammo
+sprite  1725 roll      -256        // tile0037 freezeammo
+sprite  2068 angoff    -256        // tile0028 shotgunsprite
+sprite   340 angoff    -512        // tile0037 freezeammo
+sprite   340 roll      -208        // tile0037 freezeammo
+sprite   341 angoff     512        // tile0041 batteryammo
+sprite   341 roll       208        // tile0041 batteryammo
+sprite   159 angoff     1024       // tile0047 hbombammo
+sprite   159 pitch     -208        // tile0047 hbombammo
+
+
+
+sprite   186 angoff     768        // tile0049 shotgunammo
+
+
+sprite  1734 angoff     896        // tile0044 rpgammo
+sprite  1735 angoff    -512        // tile0037 freezeammo
+sprite   327 angoff     1024       // tile0052 sixpack
+sprite  1712 angoff    -896        // tile0060 accesscard red
+
+
+sprite   144 angoff     896        // tile0047 hbombammo
+sprite  1632 angoff     768        // tile0041 batteryammo
+sprite  1633 angoff     1024       // tile0037 freezeammo
+sprite  1633 pitch      80         // tile0037 freezeammo
+sprite  1634 angoff    -512        // tile0040 ammo
+sprite  1635 angoff     864        // tile0053 firstaid
+sprite  1635 mdzoff    -600        // tile0053 firstaid
+sprite  1635 pitch     -384        // tile0053 firstaid
+sprite  1631 angoff     896        // tile0049 shotgunammo
+sprite  1631 pitch      32         // tile0049 shotgunammo
+sprite  1631 roll      -112        // tile0049 shotgunammo
+sprite   143 angoff     512        // tile0047 hbombammo
+sprite  1207 angoff     768        // tile0049 shotgunammo
+sprite  1208 angoff    -640        // tile0044 rpgammo
+sprite  2073 angoff    -256        // tile0028 shotgunsprite
+sprite   372 angoff     896        // tile0047 hbombammo
+sprite   371 angoff     512        // tile0037 freezeammo
+sprite  1210 angoff    -896        // tile0047 hbombammo
+sprite  1210 mdzoff     200000     // tile0047 hbombammo
+sprite  1210 pitch      1          // tile0047 hbombammo
+sprite   188 angoff     768        // tile0049 shotgunammo
+sprite   188 mdzoff     200000     // tile0049 shotgunammo
+sprite   188 pitch     -5          // tile0049 shotgunammo
+sprite   188 roll       1          // tile0049 shotgunammo
+sprite   189 angoff     512        // tile0052 sixpack
+sprite  1730 angoff     768        // tile0044 rpgammo
+sprite  1737 mdzoff     400000     // tile0042 devistatorammo
+sprite  1737 pitch     -1          // tile0042 devistatorammo
+sprite  1737 roll       1          // tile0042 devistatorammo
+sprite   211 mdzoff     500000     // tile0100 atomichealth
+sprite   211 pitch      1          // tile0100 atomichealth
+sprite   211 roll      -2          // tile0100 atomichealth
+sprite  1736 mdzoff     600000     // tile0042 devistatorammo
+sprite  1736 roll      -1          // tile0042 devistatorammo
+sprite  1729 angoff     512        // tile0029 devistatorsprite
+sprite  1729 mdzoff     500000     // tile0029 devistatorsprite
+sprite  1729 pitch      1          // tile0029 devistatorsprite
+sprite  1729 roll       1          // tile0029 devistatorsprite
+sprite   212 mdzoff     500000     // tile0100 atomichealth
+sprite   212 roll      -1          // tile0100 atomichealth
+sprite   369 angoff     1024       // tile0049 shotgunammo
+sprite   369 mdzoff     900000     // tile0049 shotgunammo
+sprite   369 pitch     -1          // tile0049 shotgunammo
+sprite   187 angoff    -512        // tile0053 firstaid
+sprite   187 mdzoff    -800        // tile0053 firstaid
+sprite   187 pitch     -512        // tile0053 firstaid
+sprite   502 angoff     512        // tile0060 accesscard blue
+sprite   502 mdzoff     500000     // tile0060 accesscard blue
+sprite   502 pitch      1          // tile0060 accesscard blue
+sprite   502 roll       1          // tile0060 accesscard blue
+sprite   182 angoff     512        // tile0047 hbombammo
+sprite   182 mdzoff     900000     // tile0047 hbombammo
+sprite   182 pitch     -1          // tile0047 hbombammo
+sprite  2075 angoff    -512        // tile0028 shotgunsprite
+sprite   181 mdzoff     100000     // tile0037 freezeammo
+sprite   181 pitch      1          // tile0037 freezeammo
+sprite   181 roll      -1          // tile0037 freezeammo
+sprite   177 mdzoff     300000     // tile0049 shotgunammo
+sprite   177 roll       1          // tile0049 shotgunammo
+sprite   178 angoff     512        // tile0041 batteryammo
+sprite   178 mdxoff     1000000    // tile0041 batteryammo
+sprite   178 pitch     -1          // tile0041 batteryammo
+sprite   180 angoff     512        // tile0042 devistatorammo
+sprite   180 mdzoff     800000     // tile0042 devistatorammo
+sprite   180 roll       1          // tile0042 devistatorammo
+sprite   179 angoff     512        // tile0044 rpgammo
+sprite   179 mdzoff     100000     // tile0044 rpgammo
+sprite   179 pitch      1          // tile0044 rpgammo
+sprite   179 roll       1          // tile0044 rpgammo
+sprite   164 angoff    -768        // tile1734 liztroopdsprite
+sprite   162 angoff     512        // tile1777 (tile1776 legjib1)
+sprite   161 angoff     768        // tile1773 (tile1772 armjib1)
+sprite   161 mdzoff     700000     // tile1773 (tile1772 armjib1)
+sprite   161 pitch     -1          // tile1773 (tile1772 armjib1)
+sprite   161 roll      -2          // tile1773 (tile1772 armjib1)
+sprite   148 mdzoff     1500000    // tile0044 rpgammo
+sprite   148 pitch     -1          // tile0044 rpgammo
+sprite   147 angoff    -768        // tile0037 freezeammo
+sprite  2089 angoff     1024       // tile0045 growammo
+sprite  2088 angoff     1024       // tile0045 growammo
+sprite  1781 angoff     1024       // tile0046 crystalammo
+sprite  1780 angoff     1024       // tile0025 shrinkersprite
+sprite   867 angoff     1024       // tile0052 sixpack
+sprite   867 mdzoff     900000     // tile0052 sixpack
+sprite   867 pitch     -1          // tile0052 sixpack
+sprite  2074 angoff     896        // tile0028 shotgunsprite
+sprite   877 angoff    -896        // tile0026 heavyhbomb
+sprite    87 angoff    -512        // tile0049 shotgunammo
+sprite  1833 angoff    -256        // tile0052 sixpack
+sprite    10 angoff     512        // tile1238 explodingbarrel
+sprite    11 angoff     512        // tile1238 explodingbarrel
+sprite    12 angoff     512        // tile1238 explodingbarrel
+sprite    92 angoff    -768        // tile0051 cola
+sprite    86 angoff     1024       // tile0044 rpgammo
+sprite    88 angoff     1024       // tile0037 freezeammo
+sprite    91 angoff     256        // tile0051 cola
+sprite    13 angoff     1024       // tile1238 explodingbarrel
+sprite    15 angoff     1024       // tile1238 explodingbarrel
+sprite    14 angoff    -768        // tile1238 explodingbarrel
+sprite    16 angoff    -768        // tile1238 explodingbarrel
+sprite    17 angoff    -256        // tile1238 explodingbarrel
+sprite    18 angoff    -512        // tile1238 explodingbarrel
+sprite    19 angoff     512        // tile1238 explodingbarrel
+sprite    96 angoff    -512        // tile0051 cola
+sprite     9 angoff     512        // tile1238 explodingbarrel
+sprite    90 angoff     1024       // tile0051 cola
+sprite    84 angoff    -512        // tile0046 crystalammo
+sprite  1834 angoff    -256        // tile0052 sixpack
+sprite    82 angoff    -512        // tile0052 sixpack
+sprite    75 angoff    -448        // tile0042 devistatorammo
+sprite    74 angoff    -576        // tile0042 devistatorammo
+sprite   115 angoff     512        // tile0042 devistatorammo
+sprite   109 angoff     512        // tile0044 rpgammo
+sprite   139 angoff    -512        // tile1238 explodingbarrel
+sprite   107 angoff     512        // tile0037 freezeammo
+sprite   140 angoff    -512        // tile1238 explodingbarrel
+sprite   110 angoff     512        // tile0044 rpgammo
+sprite   111 angoff     512        // tile0042 devistatorammo
+sprite   117 angoff     1024       // tile0053 firstaid
+sprite   113 angoff    -512        // tile0042 devistatorammo
+sprite   138 angoff     256        // tile1238 explodingbarrel
+sprite   136 angoff     512        // tile1238 explodingbarrel
+sprite   108 angoff     1024       // tile0037 freezeammo
+sprite   114 angoff     1024       // tile0042 devistatorammo
+sprite   112 angoff    -768        // tile0042 devistatorammo
+sprite  1738 angoff    -512        // tile0060 accesscard yellow
+sprite  1496 notmd                 // tile0909 (treetrunk)
+sprite  1500 notmd                 // tile0909 (treetrunk)
+sprite  1499 notmd                 // tile0909 (treetrunk)
+sprite  1495 notmd                 // tile0909 (treetrunk)
+sprite  1494 notmd                 // tile0909 (treetrunk)
+sprite   599 notmd                 // tile0909 (treetrunk)
+sprite   598 notmd                 // tile0909 (treetrunk)
+sprite  1491 notmd                 // tile0909 (treetrunk)
+sprite  1490 notmd                 // tile0909 (treetrunk)
+sprite  1489 notmd                 // tile0909 (treetrunk)
+sprite   596 notmd                 // tile0909 (treetrunk)
+sprite   597 notmd                 // tile0909 (treetrunk)
+sprite  1486 notmd                 // tile0909 (treetrunk)
+sprite  1485 notmd                 // tile0909 (treetrunk)
+sprite  1484 notmd                 // tile0909 (treetrunk)
+sprite   594 notmd                 // tile0909 (treetrunk)
+sprite   595 notmd                 // tile0909 (treetrunk)
+sprite  1481 notmd                 // tile0909 (treetrunk)
+sprite  1480 notmd                 // tile0909 (treetrunk)
+sprite  1479 notmd                 // tile0909 (treetrunk)
+sprite  1501 notmd                 // tile0909 (treetrunk)
+sprite  1502 notmd                 // tile0909 (treetrunk)
+sprite  1838 angoff    -512        // tile0042 devistatorammo
+sprite  1837 angoff    -512        // tile0044 rpgammo
+sprite  1832 angoff    -512        // tile0053 firstaid

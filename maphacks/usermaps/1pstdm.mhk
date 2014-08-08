@@ -1,16 +1,17 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
-// Level    : 1pstdm.map - "Power Stadium" by Robert Carter
-// Map Date : 1996-09-09
-// mapmd4   : 4f77d756ca52bed876c91fdfdfb7c87c
-// Curr. HRP: r5.2.438
+// Title    : Power Stadium
+// Filename : 1pstdm.map
+// Author   : Robert Carter
+// mapmd4   : 4f77d756ca52bed876c91fdfdfb7c87c // 1996-09-09
 
+// Curr. HRP: r5.3.643
 
-sprite   130 angoff     768        // tile0028 shotgunsprite
+sprite   130 angoff     704        // tile0028 shotgunsprite
 sprite   132 angoff     768        // tile0049 shotgunammo
 sprite   133 angoff     768        // tile0049 shotgunammo
-sprite   134 angoff    -256        // tile0052 sixpack
-sprite   135 angoff    -256        // tile0052 sixpack
+sprite   134 angoff     768        // tile0052 sixpack
+sprite   135 angoff     768        // tile0052 sixpack
 sprite   136 angoff     768        // tile0044 rpgammo (multiplayer)
 sprite   103 angoff     768        // tile0057 jetpack (multiplayer)
 sprite   104 angoff     384        // tile0053 firstaid
@@ -26,6 +27,8 @@ sprite   100 notmd                 // tile0134 lightswitch
 sprite   193 angoff    -256        // tile0049 shotgunammo
 sprite   194 angoff    -256        // tile0052 sixpack
 sprite   195 angoff    -256        // tile0052 sixpack
+sprite   200 angoff     512        // tile0044 rpgammo (multiplayer)
+sprite   186 angoff     512        // tile0044 rpgammo (multiplayer)
 sprite    97 angoff     256        // tile0683 (tile0680 chair3)
 sprite    98 angoff     256        // tile0683 (tile0680 chair3)
 sprite    99 angoff     256        // tile0683 (tile0680 chair3)
@@ -76,9 +79,9 @@ sprite   150 angoff    -352        // tile0569 toilet
 sprite   150 mdzoff     1100000    // tile0569 toilet
 sprite   150 pitch     -1          // tile0569 toilet
 //sprite   157 angoff    -256        // tile0024 freezesprite
-sprite   258 angoff    -256        // tile0052 sixpack
-sprite   257 angoff    -256        // tile0052 sixpack
-sprite   259 angoff     256        // tile0052 sixpack
+sprite   258 angoff     768        // tile0052 sixpack
+sprite   257 angoff     768        // tile0052 sixpack
+sprite   259 angoff     768        // tile0052 sixpack
 sprite   263 angoff     512        // tile0049 shotgunammo
 sprite   181 angoff     512        // tile0049 shotgunammo
 sprite    95 angoff    -768        // tile0683 (tile0680 chair3)
@@ -86,8 +89,8 @@ sprite    96 angoff    -768        // tile0683 (tile0680 chair3)
 sprite    94 angoff    -768        // tile0683 (tile0680 chair3)
 sprite   301 angoff    -512        // tile0052 sixpack
 sprite   302 angoff    -512        // tile0052 sixpack
-sprite   295 angoff     256        // tile0052 sixpack
-sprite   294 angoff     256        // tile0052 sixpack
+sprite   295 angoff    -768        // tile0052 sixpack
+sprite   294 angoff    -768        // tile0052 sixpack
 sprite   201 angoff     64         // tile0044 rpgammo
 sprite   201 roll      -128        // tile0044 rpgammo
 sprite   207 angoff     64         // tile0049 shotgunammo
@@ -124,6 +127,7 @@ sprite   299 roll      -96         // tile0049 shotgunammo
 sprite   241 angoff    -512        // tile0052 sixpack
 sprite   116 angoff    -512        // tile0023 rpgsprite
 sprite   116 pitch      256        // tile0023 rpgsprite
+sprite   116 roll      -64         // tile0023 rpgsprite
 sprite   242 angoff     512        // tile0052 sixpack
 sprite   247 angoff     768        // tile0054 shield
 sprite   245 angoff     1024       // tile0044 rpgammo (multiplayer)
@@ -131,7 +135,7 @@ sprite   246 angoff    -256        // tile0044 rpgammo (multiplayer)
 sprite   243 angoff    -768        // tile0044 rpgammo
 sprite   244 angoff     1024       // tile0044 rpgammo (multiplayer)
 sprite    38 angoff     1024       // tile0556 chair1
-sprite    40 angoff     1024       // tile0556 chair1
+sprite    39 angoff     1024       // tile0556 chair1
 sprite    40 angoff     1024       // tile0556 chair1
 sprite   425 angoff     512        // tile0052 sixpack
 sprite   427 angoff     1024       // tile0023 rpgsprite (multiplayer)
@@ -139,7 +143,7 @@ sprite   427 pitch      128        // tile0023 rpgsprite (multiplayer)
 sprite   442 angoff    -512        // tile0023 rpgsprite
 sprite   443 angoff    -768        // tile0044 rpgammo
 sprite   444 angoff    -256        // tile0044 rpgammo
-sprite   445 angoff     1024        // tile0044 rpgammo
+sprite   445 angoff     1024       // tile0044 rpgammo
 sprite   446 angoff     1024       // tile0044 rpgammo
 sprite   447 angoff     1024       // tile0044 rpgammo
 sprite   448 angoff     1024       // tile0044 rpgammo

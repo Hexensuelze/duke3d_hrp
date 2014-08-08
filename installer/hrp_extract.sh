@@ -106,7 +106,9 @@ copy_known_files()
   if [ "${SET_VERSION}" = "YES" ] ; then
     copy_set_version hrp_readme.txt "${EXTRACTDIR}/hrp_readme.txt"
   else
-    cp -pv hrp_readme.txt           "${EXTRACTDIR}"
+    if [ -f  hrp_readme.txt ] ; then
+      cp -pv hrp_readme.txt         "${EXTRACTDIR}"
+    fi
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
@@ -584,8 +586,8 @@ delete_empty_folders()
       cat ${DIRLIST} | while read DIR ; do
         if [ "0" = "`echo \"${DIR}\" | grep -owE \"0\"`" ] ; then
           EMPTYDIR="`echo \"${DIR}\" | sed -r --posix s/0//`"
-          if [ -d ${EMPTYDIR} ] ; then
-            rmdir --parents --ignore-fail-on-non-empty ${EMPTYDIR}
+          if [ -d "${EMPTYDIR}" ] ; then
+            rmdir --parents --ignore-fail-on-non-empty "${EMPTYDIR}"
           fi
         fi
       done
@@ -619,7 +621,7 @@ main()
   echo "### Copying 'known' files ... ###"
   copy_known_files
 
-  if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] \
+  if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
     [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "megaton_override" ] ; then
     echo "### Creating Polymost maphacks ... ###"
     create_polymost_mhk
