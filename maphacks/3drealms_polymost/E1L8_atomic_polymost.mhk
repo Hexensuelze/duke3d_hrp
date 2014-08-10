@@ -1,66 +1,41 @@
-// Maphacks for Duke3D HRP
-// Level:  E1L8.MAP - "Duke Match" (Original Atomic Edition version)
-// Author: Allen H. Blum III
-// mapmd4: 5b26628905ce60f93d9f0be7ebd72ee1
-// Reviewed by LeoD (February 2013)
+// Maphacks for the Duke Nukem 3D High Resolution Pack (HRP)
 
+// Title    : User Map
+// Filename : E1L8.MAP
+// Author   : Allen H. Blum III
+// mapmd4   : 5b26628905ce60f93d9f0be7ebd72ee1 // 1996-12-11 (Atomic GRP)
 
+//         <-> E1L8_13d.mhk
 
-// ITEMS/POWERUPS
+// Curr. HRP: r5.3.644
 
-// Armor
 sprite    15 angoff     640        // tile0054 shield
-
-// Health +30
-sprite    18 angoff    -128        // tile0052 sixpack
-
-// HoloDuke
-sprite    19 angoff    -384        // tile1348 holoduke
-
-// Jetpack
+sprite    14 angoff     896        // tile0055 steroids
 sprite    13 angoff    -896        // tile0057 jetpack
-
-// MedKit
+sprite    12 angoff    -640        // tile0059 heatsensor
+sprite    19 angoff    -384        // tile1348 holoduke
+sprite    18 angoff    -128        // tile0052 sixpack
 sprite    17 angoff     128        // tile0053 firstaid
-
-// Nightvision
-sprite    12 angoff    -768        // tile0059 heatsensor
-
-
-
-// WEAPONS/AMMO
-
-// Pistol & ammo
-sprite    26 angoff     512        // tile0021 firstgunsprite
-sprite     6 angoff     512        // tile0040 ammo
-
-// Shotgun & ammo
-sprite    27 angoff    -256        // tile0028 shotgunsprite
-sprite     5 angoff    -256        // tile0049 shotgunammo
-
-// RPG & ammo
-sprite    24 angoff     256        // tile0023 rpgsprite
-sprite    10 angoff     256        // tile0044 rpgammo
-
-// Pipebombs
+sprite    16 angoff     384        // tile0100 atomichealth
 sprite    21 angoff     512        // tile0026 heavyhbomb
-sprite    11 angoff     512        // tile0047 hbombammo
-
-// Shrinker & ammo
-sprite    22 angoff    -256        // tile0025 shrinkersprite
+sprite    11 angoff    -512        // tile0047 hbombammo
+sprite    22 angoff     768        // tile0025 shrinkersprite
+sprite     1 angoff    -768        // tile0045 growammo
+sprite     0 angoff     256        // tile0045 growammo
 sprite     9 angoff    -256        // tile0046 crystalammo
-
-// Laser Tripbomb
-sprite    28 angoff     256        // tile0027 tripbombsprite
-sprite     7 angoff     256        // tile0027 tripbombsprite
-
-// Devastator & ammo
 sprite    23 angoff     1024       // tile0029 devistatorsprite
-sprite     8 angoff     1024       // tile0042 devistatorammo
-
-// Freezethrower
+sprite     8 angoff     0          // tile0042 devistatorammo
+sprite    28 angoff    -768        // tile0027 tripbombsprite
+sprite     7 angoff     256        // tile0027 tripbombsprite
+sprite    26 angoff    -512        // tile0021 firstgunsprite
+sprite     6 angoff     512        // tile0040 ammo
+sprite    27 angoff     768        // tile0028 shotgunsprite
+sprite     5 angoff     768        // tile0049 shotgunammo
+sprite    25 angoff     0          // tile0022 chaingunsprite
+sprite     4 angoff     512        // tile0041 batteryammo
+sprite    24 angoff     256        // tile0023 rpgsprite
+sprite    10 angoff    -768        // tile0044 rpgammo
 sprite    20 angoff     512        // tile0024 freezesprite
-
 
 
 // LIGHTS
