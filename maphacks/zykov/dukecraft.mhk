@@ -1,0 +1,109 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : Duke Craft
+// Filename : dukecraft.map
+// Author   : Zykov Eddy
+// mapmd4   : b9a11521ba8ea8dc62cc60f2b9cdd20c // 2014-08-08 (Megaton Workshop)
+// mapmd4   : b9fd19d5aee868616d7bec24e5806821 // 2014-08-20 (Megaton Workshop)
+
+//         <-> DUKECRFT.mhk
+
+// Curr. HRP: r5.3.644
+
+/*
+  I don't answer questions why I made this ...
+*/
+
+// 14-1932 / / 1945 / / 2105-2739
+sprite  1080 angoff    -512        // tile0021 firstgunsprite
+sprite  1753 notmd                 // tile0132 slotdoor
+sprite  2693 angoff     512        // tile0040 ammo
+sprite  2694 angoff     512        // tile0051 cola
+sprite  2658 angoff    -512        // tile0028 shotgunsprite
+sprite  2670 angoff    -512        // tile0022 chaingunsprite
+sprite  2670 mdzoff     900000     // tile0022 chaingunsprite
+sprite  2670 pitch     -1          // tile0022 chaingunsprite
+sprite   767 notmd                 // tile0132 slotdoor
+sprite  2692 angoff     1024       // tile0049 shotgunammo
+sprite  2691 angoff     1024       // tile0051 cola
+sprite  2684 angoff     1024       // tile0049 shotgunammo
+sprite  2690 angoff     1024       // tile0051 cola
+sprite   739 notmd                 // tile0132 slotdoor
+sprite  2687 angoff     1024       // tile0040 ammo
+sprite  2686 angoff     1024       // tile0052 sixpack
+sprite   896 notmd                 // tile0132 slotdoor
+sprite  2688 angoff     1024       // tile0040 ammo
+sprite  2689 angoff     1024       // tile0052 sixpack
+sprite   772 notmd                 // tile0132 slotdoor
+sprite  2710 angoff     1024       // tile0051 cola
+sprite   720 notmd                 // tile1111 handswitch
+sprite   778 notmd                 // tile1111 handswitch
+sprite   796 notmd                 // tile1122 pullswitch
+sprite  2711 angoff     512        // tile0051 cola
+sprite   831 notmd                 // tile1122 pullswitch
+sprite  2668 angoff     1024       // tile0049 shotgunammo
+sprite  2669 angoff     1024       // tile0040 ammo
+sprite   815 notmd                 // tile1111 handswitch
+sprite  2713 angoff    -512        // tile0049 shotgunammo
+sprite  2714 angoff     1024       // tile0026 heavyhbomb
+sprite  2659 angoff     1024       // tile0022 chaingunsprite
+sprite  2715 angoff    -768        // tile0055 steroids
+sprite  2722 angoff     1024       // tile0051 cola
+sprite  2718 angoff     512        // tile0040 ammo
+sprite  2719 angoff     1024       // tile0051 cola
+sprite  2660 angoff     512        // tile0028 shotgunsprite
+sprite  2678 angoff     1024       // tile0054 shield
+sprite  2666 angoff     1024       // tile0025 shrinkersprite
+sprite  2666 mdzoff     700000     // tile0025 shrinkersprite
+sprite  2666 roll       1          // tile0025 shrinkersprite
+sprite  2721 mdzoff     300000     // tile0041 batteryammo
+sprite  2721 roll       1          // tile0041 batteryammo
+sprite    14 angoff     512        // tile0060 accesscard blue
+sprite  1127 notmd                 // tile0130 accessswitch blue
+sprite  1083 notmd                 // tile0132 slotdoor
+sprite  1813 notmd                 // tile0132 slotdoor
+sprite  2723 angoff    -512        // tile0051 cola
+sprite  2724 angoff     1024       // tile0049 shotgunammo
+sprite  1826 notmd                 // tile0132 slotdoor
+sprite  2725 angoff     512        // tile0054 shield
+sprite  1923 notmd                 // tile0132 slotdoor
+sprite  2661 angoff     1024       // tile0047 hbombammo
+sprite  1932 notmd                 // tile0132 slotdoor
+sprite  1945 notmd                 // tile0132 slotdoor
+sprite  2735 angoff    -512        // tile0051 cola
+sprite  2726 angoff     512        // tile0051 cola
+sprite  2736 angoff     512        // tile0041 batteryammo
+sprite  2662 angoff    -512        // tile0023 rpgsprite
+sprite  1744 notmd                 // tile0132 slotdoor
+sprite  2676 angoff    -512        // tile0037 freezeammo
+sprite  2677 angoff     1024       // tile0037 freezeammo
+sprite  2677 mdzoff     900000     // tile0037 freezeammo
+sprite  2677 pitch     -1          // tile0037 freezeammo
+sprite  2665 angoff     1024       // tile0024 freezesprite
+sprite  2665 mdzoff     150000     // tile0024 freezesprite
+sprite  2665 roll       1          // tile0024 freezesprite
+sprite  2727 angoff    -512        // tile0053 firstaid
+sprite  1750 notmd                 // tile0132 slotdoor
+sprite   738 notmd                 // tile0132 slotdoor
+sprite  1798 angoff     1024       // tile0009 respawn [accesscard blue]
+sprite  2105 notmd                 // tile0130 accessswitch blue
+sprite  2733 angoff     512        // tile0051 cola
+sprite  2732 angoff     1024       // tile0051 cola
+sprite  2664 angoff    -512        // tile0047 hbombammo
+sprite  2731 angoff    -512        // tile0026 heavyhbomb
+sprite  2672 angoff    -512        // tile0045 growammo
+sprite  2671 angoff     1024       // tile0045 growammo
+sprite  2729 angoff    -512        // tile0041 batteryammo
+sprite  2728 angoff     512        // tile0052 sixpack
+sprite  2673 angoff     1024       // tile0025 shrinkersprite
+sprite  2523 angoff    -768        // tile2254 (tile2250 jibs2 (eye))
+sprite  2178 angoff     1024       // tile0060 accesscard red
+sprite  1131 notmd                 // tile0130 accessswitch red
+sprite  2738 angoff    -512        // tile0051 cola
+sprite  2703 angoff     512        // tile0051 cola
+sprite  2705 angoff     1024       // tile0047 hbombammo
+sprite  2702 angoff    -512        // tile0051 cola
+sprite  2701 angoff    -512        // tile0051 cola
+sprite  2700 angoff     512        // tile0051 cola
+sprite  2739 angoff     1024       // tile0041 batteryammo
+sprite  2502 notmd                 // tile0142 nukebutton

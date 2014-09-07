@@ -1,13 +1,15 @@
 // Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
 
 // Title    : Ulysses
+// Filename : V1l10.map
 // Filename : E4l10.map
 // Author   : Frode 'Puritan' Waksvik
 // mapmd4   : 99ac414ee7d0e229ccca1a950a4ca7df // 2005-09-02 (Vermin Clearance)
 
-//         <-> ULYSSES.mhk
+//         <-> ULYSSES-2004-05-27.mhk
+//         <-> ULYSSES-2014-08-12.mhk
 
-// Curr. HRP: r5.3.641
+// Curr. HRP: r5.3.645
 
 // Note: This  map version  can't be finished using recent EDuke32 executables.
 
@@ -16,6 +18,11 @@ sprite  1106 angoff    -512        // tile0047 hbombammo
 sprite  1729 angoff     512        // tile0994 pipe5
 sprite   332 angoff    -512        // tile0955 bottle2
 sprite  1143 angoff     512        // tile0049 shotgunammo
+
+
+
+
+
 sprite   336 angoff     640        // tile0955 bottle2
 sprite  1147 angoff     512        // tile1232 canwithsomething
 sprite  1145 angoff     896        // tile1232 canwithsomething
@@ -44,14 +51,18 @@ sprite  1621 mdzoff     500000     // tile0951 box
 sprite  1621 pitch     -1          // tile0951 box
 sprite  1593 angoff    -512        // tile0049 shotgunammo
 sprite  1116 notmd                 // tile1069 plug
+
+
+
+
 sprite  1152 angoff     768        // tile1232 canwithsomething
 sprite  1153 angoff    -768        // tile1232 canwithsomething
-sprite   962 angoff     320        // tile0044 rpgammo
-sprite   961 angoff     640        // tile0023 rpgsprite
 sprite  1709 angoff    -576        // tile0049 shotgunammo
 sprite  1708 angoff    -768        // tile0049 shotgunammo
 sprite  1708 mdzoff     300000     // tile0049 shotgunammo
 sprite  1708 roll      -1          // tile0049 shotgunammo
+sprite   962 angoff     320        // tile0044 rpgammo
+sprite   961 angoff     640        // tile0023 rpgsprite
 sprite   574 angoff     960        // tile0060 accesscard blue
 sprite   993 nomdanim              // tile1232 canwithsomething
 sprite   992 nomdanim              // tile1232 canwithsomething
@@ -226,6 +237,11 @@ sprite   188 angoff    -384        // tile1160 bottle13 (Jack Daniels)
 sprite   478 angoff     256        // tile4367 hatrack
 sprite   476 angoff     256        // tile4367 hatrack
 sprite   475 angoff     256        // tile4367 hatrack
+
+
+
+
+
 sprite  1394 angoff    -512        // tile0569 toilet
 sprite  1401 angoff     512        // tile0044 rpgammo
 sprite  1393 angoff    -512        // tile0569 toilet
@@ -254,7 +270,7 @@ sprite  1418 pitch     -1          // tile0574 (tile0670 (faucet))
 sprite  1419 mdzoff     600000     // tile0574 (tile0670 (faucet))
 sprite  1419 pitch     -1          // tile0574 (tile0670 (faucet))
 sprite   287 angoff     512        // tile0955 bottle2
-sprite  1450 angoff    -512        // tile0955 bottle2
+sprite  1450 angoff    -512        // tile0956 bottle3
 sprite  1671 angoff     1024       // tile0052 sixpack
 sprite  1471 angoff    -512        // tile1165 bottle18
 sprite  1463 angoff     512        // tile1160 bottle13 (Jack Daniels)
@@ -295,6 +311,7 @@ sprite   333 angoff    -128        // tile0955 bottle2
 sprite   390 angoff    -768        // tile0049 shotgunammo
 sprite   330 angoff     1024       // tile0955 bottle2
 sprite   329 angoff     512        // tile0955 bottle2
+
 sprite     5 angoff    -512        // tile0044 rpgammo
 sprite     4 angoff    -512        // tile0044 rpgammo
 sprite   394 angoff     1024       // tile0044 rpgammo
@@ -305,6 +322,8 @@ sprite   199 angoff    -640        // tile1232 canwithsomething
 sprite   227 angoff     1024       // tile0042 devistatorammo
 sprite   226 angoff     768        // tile0029 devistatorsprite
 sprite   325 angoff    -512        // tile0955 bottle2
+
+
 sprite   328 angoff     512        // tile0955 bottle2
 sprite  1374 angoff     1024       // tile0044 rpgammo
 sprite  1375 angoff     1024       // tile0044 rpgammo
@@ -329,6 +348,7 @@ sprite  1318 mdzoff     600000     // tile1232 canwithsomething
 sprite  1318 roll       1          // tile1232 canwithsomething
 sprite  1317 angoff     256        // tile1232 canwithsomething
 sprite  1316 angoff    -896        // tile1232 canwithsomething
+
 sprite   320 angoff    -512        // tile0955 bottle2
 sprite  1277 angoff     512        // tile1232 canwithsomething
 sprite  1278 angoff    -768        // tile1232 canwithsomething
@@ -368,6 +388,8 @@ sprite  1564 angoff    -384        // tile0044 rpgammo
 sprite  1565 angoff    -256        // tile0044 rpgammo
 sprite  1566 angoff    -128        // tile0044 rpgammo
 sprite   291 angoff     640        // tile0955 bottle2
+
+
 sprite  1280 angoff    -640        // tile1232 canwithsomething
 sprite   485 angoff     1024       // tile0044 rpgammo
 sprite   486 angoff     512        // tile0044 rpgammo
@@ -412,10 +434,12 @@ sprite   255 angoff     512        // tile0044 rpgammo
 sprite   254 angoff     512        // tile0044 rpgammo
 sprite   252 angoff     1024       // tile0052 sixpack
 sprite   253 angoff     1024       // tile0053 firstaid
+
+
 sprite   303 angoff     512        // tile0955 bottle2
 sprite   309 angoff    -640        // tile0955 bottle2
 sprite   310 angoff     640        // tile0955 bottle2
-sprite   308 angoff     512        // tile0955 bottle2
+sprite   308 angoff     448        // tile0955 bottle2
 sprite   306 mdxoff     60         // tile0955 bottle2
 sprite   306 pitch     -384        // tile0955 bottle2
 sprite  1246 angoff     512        // tile0981 hydrent

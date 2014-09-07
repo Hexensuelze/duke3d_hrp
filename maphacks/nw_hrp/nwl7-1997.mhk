@@ -5,23 +5,42 @@
 // Author   : Simply Silly Software - 'Combatant'
 // mapmd4   : d3d62fe977db1a05db2d435849feb211 // 1997-12-15 (GRP)
 
+//         <-> nwl7-2014-02-26.mhk
 //         <-> nwl7-r24.mhk
 
 // Curr. HRP: r5.3.573
 
+// 0-79 / 98-102 / / 137 / 173-439
 sprite   419 angoff     384        // tile0028 shotgunsprite
 sprite   439 angoff     896        // tile0047 hbombammo
+
 sprite    19 angoff    -384        // tile0044 rpgammo
 sprite    20 angoff    -320        // tile0052 sixpack
 sprite   102 angoff     1024       // tile0049 shotgunammo
+sprite   420 angoff    -512        // tile0049 shotgunammo
+sprite   420 mdzoff     700000     // tile0049 shotgunammo
+sprite   420 pitch     -1          // tile0049 shotgunammo
+sprite   420 roll       1          // tile0049 shotgunammo
+
+
 sprite    21 angoff     896        // tile0052 sixpack
 sprite   421 angoff    -332        // tile0053 firstaid
 sprite   422 angoff    -768        // tile0023 rpgsprite
 sprite   423 angoff     832        // tile0049 shotgunammo
+
+
+
 sprite   424 angoff    -448        // tile0049 shotgunammo
 sprite   425 angoff     384        // tile0052 sixpack
 sprite    99 angoff     1024       // tile0054 shield
 sprite    17 angoff    -512        // tile0047 hbombammo
+
+
+
+
+
+
+
 sprite   434 angoff     512        // tile0051 cola
 sprite   434 mdzoff     900000     // tile0051 cola
 sprite   434 pitch     -1          // tile0051 cola
@@ -35,9 +54,14 @@ sprite    62 angoff     512        // tile0052 sixpack
 sprite    62 mdzoff     200000     // tile0052 sixpack
 sprite    62 pitch      1          // tile0052 sixpack
 sprite    63 angoff    -512        // tile0041 batteryammo
+
+sprite   432 mdzoff     700000     // tile0022 chaingunsprite
+sprite   432 pitch     -1          // tile0022 chaingunsprite
 sprite   428 angoff    -512        // tile0055 steroids
 sprite   430 angoff     512        // tile0059 heatsensor
 sprite   429 angoff     256        // tile0051 cola
+sprite   429 mdzoff     500000     // tile0051 cola
+sprite   429 roll      -1          // tile0051 cola
 sprite    14 angoff     1024       // tile0049 shotgunammo
 sprite    14 mdzoff     500000     // tile0049 shotgunammo
 sprite    14 pitch      1          // tile0049 shotgunammo
@@ -118,7 +142,10 @@ sprite   214 angoff    -768        // tile0060 accesscard red
 sprite    60 angoff    -512        // tile0049 shotgunammo
 sprite    60 mdzoff     500000     // tile0049 shotgunammo
 sprite    60 pitch     -1          // tile0049 shotgunammo
-sprite    13 angoff    -512        // tile0053 firstaid
+sprite    13 angoff    -256        // tile0053 firstaid
+sprite    13 mdzoff     800000     // tile0053 firstaid
+sprite    13 pitch      1          // tile0053 firstaid
+sprite    13 roll       1          // tile0053 firstaid
 sprite   373 mdzoff     300000     // tile3786 (nwinter present)
 sprite   373 pitch     -3          // tile3786 (nwinter present)
 sprite   373 roll      -1          // tile3786 (nwinter present)
@@ -135,6 +162,7 @@ sprite    59 roll       1          // tile4540 foodobject11 (burger)
 sprite    49 angoff    -512        // tile4548 foodobject19
 sprite    46 angoff    -768        // tile4548 foodobject19
 sprite    48 angoff     1024       // tile4548 foodobject19
+
 sprite    35 mdzoff     200000     // tile4540 foodobject11 (burger)
 sprite    35 pitch     -1          // tile4540 foodobject11 (burger)
 sprite    35 roll      -1          // tile4540 foodobject11 (burger)
@@ -149,6 +177,12 @@ sprite    23 angoff     1024       // tile1045 donuts
 sprite    22 angoff     768        // tile1045 donuts
 sprite    22 mdzoff     500000     // tile1045 donuts
 sprite    22 roll       1          // tile1045 donuts
+sprite   388 mdxoff     8000       // tile0595 grate1
+sprite   388 pitch      1          // tile0595 grate1
+
+
+
+
 sprite   137 angoff    -768        // tile0060 accesscard blue
 sprite   173 angoff    -128        // tile0556 chair1
 sprite   174 angoff    -512        // tile0556 chair1

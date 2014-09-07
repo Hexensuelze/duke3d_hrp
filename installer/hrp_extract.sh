@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.5.3  2014-05-16
+# Duke Nukem 3D High Resolution Pack Extractor  v0.5.4  2014-09-07
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -586,8 +586,8 @@ delete_empty_folders()
       cat ${DIRLIST} | while read DIR ; do
         if [ "0" = "`echo \"${DIR}\" | grep -owE \"0\"`" ] ; then
           EMPTYDIR="`echo \"${DIR}\" | sed -r --posix s/0//`"
-          if [ -d "${EMPTYDIR}" ] ; then
-            rmdir --parents --ignore-fail-on-non-empty "${EMPTYDIR}"
+          if [ -d ${EMPTYDIR} ] ; then
+            rmdir --parents --ignore-fail-on-non-empty ${EMPTYDIR}
           fi
         fi
       done
@@ -639,13 +639,13 @@ main()
   else
     echo "  # Extract commented textures and models: NO"
   fi
+  if [ "${HRPTYPE}" = "megaton" ]  || [ "${HRPTYPE}" = "full" ] ; then
+    parse_defs duke3d_hrp_megaton.def
+  fi
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "full" ] ; then
     parse_defs duke3d_hrp_polymost.def
   fi
-  if [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "full" ] ; then
-    parse_defs duke3d_hrp_megaton.def
-  fi
-  if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
+  if [ "${HRPTYPE}" = "polymer" ]  || [ "${HRPTYPE}" = "full" ] ; then
     parse_defs duke3d_hrp.def
   fi
   if [ "${HRPTYPE}" = "voxel" ] ; then

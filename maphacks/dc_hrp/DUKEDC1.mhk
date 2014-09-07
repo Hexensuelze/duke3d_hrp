@@ -5,15 +5,26 @@
 // Author   : Robert Travis
 // mapmd4   : 0cc6a03fe1dab97f6c845cf5bb273981 // 1997-02-21 (SSI)
 
-// Curr. HRP: r5.2.508
+//         <-> DUKEDC1-2014-02-26.mhk
+//         <-> DCDEMO.mhk
 
+// Curr. HRP: r5.3.645
+
+// / 1-10 / 12-411
 sprite   363 angoff    -512        // tile0028 shotgunsprite
 sprite   362 angoff     768        // tile0052 sixpack
 sprite   364 angoff     1024       // tile0049 shotgunammo
 sprite   365 angoff     512        // tile0049 shotgunammo
 sprite   366 angoff     1024       // tile0049 shotgunammo
+
+sprite   408 angoff     768        // tile0040 ammo
+sprite   407 angoff     512        // tile0040 ammo
+sprite   409 angoff     256        // tile0040 ammo
+// mhk diff sync 1
+
 sprite   367 angoff     1024       // tile0049 shotgunammo
 sprite   368 angoff     1024       // tile0049 shotgunammo
+
 sprite   185 angoff     256        // tile3656 (dukedc conifer)
 sprite   187 angoff    -128        // tile3656 (dukedc conifer)
 sprite   188 angoff     256        // tile3656 (dukedc conifer)
@@ -38,10 +49,14 @@ sprite   161 angoff    -256        // tile0685 cameralight
 sprite   379 angoff     1024       // tile0053 firstaid
 sprite   163 angoff     640        // tile0686 moviecamera
 sprite   162 angoff     512        // tile0686 moviecamera
+
 sprite   164 angoff     448        // tile0686 moviecamera
 sprite   380 angoff     512        // tile0047 hbombammo
-sprite    25 angoff     1024       // tile3664 (dukedc us flag)
-sprite    24 angoff     1024       // tile3665 (dukedc potus flag)
+sprite    41 angoff     1024       // tile0027 tripbombsprite (multiplayer)
+sprite    39 angoff     1024       // tile0027 tripbombsprite (multiplayer)
+//sprite    25 angoff     1024       // tile3664 (dukedc us flag)
+//sprite    24 angoff     1024       // tile3665 (dukedc potus flag)
+// mhk diff sync 2
 sprite    47 angoff     512        // tile0025 shrinkersprite (multiplayer)
 sprite   394 angoff     512        // tile0041 batteryammo
 sprite   169 angoff     512        // tile0557 chair2
@@ -88,13 +103,18 @@ sprite   100 angoff    -128        // tile1247 seenine
 sprite   101 angoff     384        // tile1247 seenine
 sprite   102 angoff    -256        // tile1247 seenine
 sprite   103 angoff     128        // tile1247 seenine
+sprite   392 angoff     256        // tile0052 sixpack
 sprite    50 angoff    -512        // tile0029 devistatorsprite (multiplayer)
 sprite   399 angoff    -512        // tile0052 sixpack
+sprite   396 angoff     1024       // tile0052 sixpack
 sprite   398 angoff     1024       // tile0059 heatsensor
+sprite   397 angoff     512        // tile0041 batteryammo
+
 sprite   115 angoff     1024       // tile0060 accesscard blue
-sprite    33 angoff     1024       // tile3665 (dukedc potus flag)
+
 sprite    48 angoff     512        // tile0042 devistatorammo (multiplayer)
 sprite    49 angoff     512        // tile0042 devistatorammo (multiplayer)
+sprite    33 angoff     1024       // tile3665 (dukedc potus flag)
 sprite    52 angoff    -512        // tile0023 rpgsprite (multiplayer)
 sprite   400 angoff     1024       // tile0052 sixpack
 sprite   403 angoff     1024       // tile0049 shotgunammo
@@ -102,6 +122,7 @@ sprite   402 angoff     1024       // tile0041 batteryammo
 sprite    83 angoff     1024       // tile0060 accesscard red
 sprite    42 angoff    -512        // tile0037 freezeammo
 sprite    43 angoff    -512        // tile0037 freezeammo
+
 sprite   406 angoff     512        // tile0052 sixpack
 
 
