@@ -3,6 +3,7 @@
 //
 
 include maphacks/cbp/90mincbp/90mincbp_mhk.def       // 1.5 hour mapping project
+include maphacks/cbp/duke_is_ten/duke_is_ten_mhk.def // Duke Is Ten episode
 include maphacks/cbp/dukehard/dukehard_mhk.def       // Duke Hard episode
 include maphacks/cbp/metropolitan/metropolitan_mhk.def // Metropolitan Mayhem
 include maphacks/cbp/nbcbp/nbcbp_mhk.def             // Newcomers Build Project
@@ -24,11 +25,75 @@ mapinfo {
 }
 
 mapinfo {
+   maptitle "2-Hour CBP"
+   mapfile  "2hcbp01.map"
+   //author "Aymeric 'MRCK' Nocus & MetHy (MetHunter) & Maarten van Oostrum & Merlijn van Oostrum & Mikko Sandt & William Gee & Taivo Maripuu & Fulsam & Fernando Márquez & James Stanfield & The Commander"
+   mapmd4   e05029472bc548340f5597d00986c503 // 2009-03-17
+   mhkfile  "maphacks/cbp/2hcbp01.mhk"
+}
+
+mapinfo {
    maptitle "Beach Community Build Project"
    mapfile  "BCBP.map"
    //author "Robert 'underTaker' Wypiór & Michael 'Micky C' Crisp & Captain Awesome & Cody 'Supertanker' Jackson & Robert 'underTaker' Wypiór"
    mapmd4   fdae637e858ee41d04f602d009a11e46 // 2014-02-26 (version 1.0)
    mhkfile  "maphacks/cbp/BCBP.mhk"
+}
+
+mapinfo {
+   maptitle "Beach Community Build Project"
+   mapfile  "BCBP.map"
+   //author "Robert 'underTaker' Wypiór & Michael 'Micky C' Crisp & Captain Awesome & Cody 'Supertanker' Jackson & Robert 'underTaker' Wypiór"
+   mapmd4   fdae637e858ee41d04f602d009a11e46 // 2014-02-26 (version 1.0)
+   mhkfile  "maphacks/cbp/BCBP.mhk"
+}
+
+mapinfo {
+   maptitle "Blackjack's Build Museum"
+   mapfile  "BJShrine.map"
+   //author "Blackjack & Maarten Pinxten & Dukebert & Magnar 'C3PO' Jenssen & Cyborg & Lanna 'GirlOnline' Deones & Bob Averill & Chris Allcock & Pascal Rouaud & Juha 'Turpuli' Laaksonen & Mikko Sandt & J. Sipos (& Billy Boy, Nutwrench, Greg Hoyer, Stranger, Bliss)"
+   mapmd4   a46193a0e8babbf6af94846e4d42d871 // 2001-04-18
+   mhkfile  "maphacks/cbp/BJShrine.mhk"
+}
+
+mapinfo {
+   maptitle "Community Build Project 2"
+   mapfile  "cbp2.map"
+   //author "Kevin 'Kef_Nukem' Cools & William Gee & Antonio Rodriguez & Geoffrey 'Fakir' van Dijk & Bullis1 & James Stanfield & Mikko Sandt & Najtwish & 4as & Bob Averill & Yoshiyount & Maarten van Oostrum & Merlijn van Oostrum & Alejandro Glavic"
+   mapmd4   f1cf18e64e3fdb1152025e84373477a5 // 2002-12-23
+   mhkfile  "maphacks/cbp/cbp2.mhk"
+}
+
+mapinfo {
+   maptitle "Community Build Project 3"
+   mapfile  "Cbp3.map"
+   //author "William Gee & James Stanfield & Zilla & Stephano Lessa & Cedric 'Sang' Haegeman & Ryan 'Quakis' Rouse & Chris 'CRCGamer' Coleman & Alex 'ShrinkDuke' Pistol & Mikko Sandt & Antonio 'Grijan' Rodríguez"
+   mapmd4   33f4c5d250915f81abaebb3939d04da1 // 2003-05-08
+   mhkfile  "maphacks/cbp/Cbp3.mhk"
+}
+
+mapinfo {
+   maptitle "Community Build Project 4"
+   mapfile  "CBP4.map"
+   //author "Ryan 'Quakis' Rouse & Stephano Lessa & Alex 'ShrinkDuke' Pistol & James Stanfield & Amund Lauritzen & Cedric 'Sang' Haegeman & Maarten van Oostrum & Merlijn van Oostrum & Chris 'CRCGamer' Coleman & William Gee"
+   mapmd4   c644bda13eda1276f9729abc3bc18a99 // 2003-07-27
+   mhkfile  "maphacks/cbp/CBP4.mhk"
+}
+
+mapinfo {
+   maptitle "Community Build Project 5"
+   mapfile  "CBP5.map"
+   //author "William Gee & Maarten van Oostrum & Merlijn van Oostrum & Mikko Sandt & Alejandro Glavic & Sebastian 'Rusty Nails' Fritzon & Zilla & James Stanfield & Mblackwell"
+   mapmd4   32c4f0af6e43754bba62bd3bee083464 // 2004-03-17
+   mhkfile  "maphacks/cbp/CBP5.mhk"
+}
+
+mapinfo {
+   maptitle "Community Build Project 6"
+   mapfile  "!CBP_6!.map"
+   //author "Aymeric 'MRCK' Nocus & Cedric 'Sang' Haegeman & MetHy (MetHunter) & Devastator & Fernando Márquez & Kim 'Repository Bloke' Robinson & Mikko Sandt & Alex 'ShrinkDuke' Pistol"
+   mapmd4   a62f9807243e150df2ecfd96f03a97e6 // 2004-12-31
+   mhkfile  "maphacks/cbp/!CBP_6!.mhk"
 }
 
 mapinfo {
@@ -51,6 +116,13 @@ mapinfo {
    mapfile  "EL_PASO.map"
    //author "Mike Norvak & Duke64Nukem aka Kamikaze Nukem & Fernando Márquez & Noldor Ranzou & Vandclash"
    mapmd4   e199d79fc5786a21f5b72850677589e5 // 2014-09-17
+   mhkfile  "maphacks/cbp/EL_PASO-2014-09-17.mhk"
+}
+mapinfo {
+   maptitle "Duke Match Steam Community Build Project 'El Paso'"
+   mapfile  "EL_PASO.map"
+   //author "Mike Norvak & Duke64Nukem aka Kamikaze Nukem & Fernando Márquez & Noldor Ranzou & Vandclash"
+   mapmd4   f913b6b68c1de0fbe669647e67690bee // 2014-09-21
    mhkfile  "maphacks/cbp/EL_PASO.mhk"
 }
 
