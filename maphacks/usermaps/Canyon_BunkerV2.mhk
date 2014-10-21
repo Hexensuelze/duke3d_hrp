@@ -3,29 +3,57 @@
 // Title    : Canyon Bunker
 // Filename : Canyon_BunkerV2.map
 // Author   : MetHy (MetHunter)
-// mapmd4   : dcb078d039c2bbf164d33c7fc1ede597 // 2008-08-19
+// mapmd4   : dcb078d039c2bbf164d33c7fc1ede597 // 2008-08-19 (v2.0)
 
-// Curr. HRP: r5.2.546
+//         <-> canyonbunker.mhk
+
+// Curr. HRP: r5.3.648
 
 sprite   196 angoff    -512        // tile0023 rpgsprite
-sprite    21 angoff    -512        // tile0024 freezesprite
-sprite    20 angoff    -512        // tile0037 freezeammo
+sprite   245 angoff    -256        // tile0027 tripbombsprite
+sprite   199 angoff    -512        // tile0027 tripbombsprite
+sprite   242 angoff    -256        // tile0027 tripbombsprite
+sprite    21 mdzoff     900000     // tile0024 freezesprite
+sprite    21 pitch     -1          // tile0024 freezesprite
+sprite   254 angoff     640        // tile0051 cola
+sprite   254 mdzoff     900000     // tile0051 cola
+sprite   254 pitch     -1          // tile0051 cola
+sprite    20 angoff     512        // tile0037 freezeammo
+sprite    20 mdzoff     900000     // tile0037 freezeammo
+sprite    20 pitch     -1          // tile0037 freezeammo
+sprite   253 angoff    -768        // tile0051 cola
+sprite   253 mdzoff     900000     // tile0051 cola
+sprite   253 pitch     -1          // tile0051 cola
 sprite    19 angoff    -512        // tile0037 freezeammo
-sprite   211 angoff     512        // tile0029 devistatorsprite
+sprite    19 mdzoff     900000     // tile0037 freezeammo
+sprite    19 pitch     -1          // tile0037 freezeammo
+sprite   149 angoff     1024       // tile0051 cola
+sprite   146 angoff     1024       // tile0051 cola
+sprite   210 angoff     1024       // tile0051 cola
+sprite   212 angoff     512        // tile0042 devistatorammo
+sprite   211 angoff     256        // tile0029 devistatorsprite
 sprite   240 angoff    -128        // tile0041 batteryammo
 sprite   239 angoff    -896        // tile0041 batteryammo
+sprite   258 angoff    -384        // tile0041 batteryammo
+sprite   258 roll      -80         // tile0041 batteryammo
+sprite   248 angoff    -384        // tile0037 freezeammo
+sprite   248 roll      -80         // tile0037 freezeammo
+sprite   250 angoff    -448        // tile0027 tripbombsprite
+sprite   250 pitch      32         // tile0027 tripbombsprite
+sprite   250 roll      -64         // tile0027 tripbombsprite
+sprite   247 angoff    -448        // tile0027 tripbombsprite
+sprite   247 pitch      32         // tile0027 tripbombsprite
+sprite   247 roll      -64         // tile0027 tripbombsprite
+sprite   251 angoff     1024       // tile0046 crystalammo
+sprite   251 roll      -256        // tile0046 crystalammo
+sprite    16 angoff     896        // tile0049 shotgunammo
+sprite    16 roll      -256        // tile0049 shotgunammo
+sprite    15 angoff    -384        // tile0046 crystalammo
+sprite    15 roll       256        // tile0046 crystalammo
+sprite   252 angoff     1024       // tile0051 cola
+sprite   260 angoff     512        // tile0054 shield
+sprite   260 mdzoff     1500000    // tile0054 shield
+sprite   260 pitch     -1          // tile0054 shield
 sprite    17 angoff     1024       // tile0054 shield
 sprite    52 angoff    -256        // tile0052 sixpack
 sprite   188 angoff    -768        // tile0049 shotgunammo
-sprite   258 angoff    -384        // tile0041 batteryammo
-sprite   258 roll      -96         // tile0041 batteryammo
-sprite   248 angoff    -384        // tile0037 freezeammo
-sprite   248 roll      -96         // tile0037 freezeammo
-sprite   250 angoff    -448        // tile0027 tripbombsprite
-sprite   250 roll      -64         // tile0027 tripbombsprite
-sprite   247 angoff    -448        // tile0027 tripbombsprite
-sprite   247 roll      -64         // tile0027 tripbombsprite
-sprite   251 angoff     1024       // tile0046 crystalammo
-sprite    16 angoff     896        // tile0049 shotgunammo
-sprite    16 roll      -256        // tile0049 shotgunammo
-sprite    15 angoff     640        // tile0046 crystalammo

@@ -2,6 +2,9 @@
 // User Maps by Mikko Sandt
 //
 
+include maphacks/sandt/bnw/bnw_mhk.def     // The Brave New World Episode
+include maphacks/sandt/mssp/mssp_mhk.def   // MSSP Episode v3.0
+
 mapinfo {
    maptitle "A Winterland Memory"
    mapfile  "WLand.map"
@@ -31,15 +34,7 @@ mapinfo {
 }
 
 mapinfo {
-   maptitle "Mikko Sandt Single Player 8 - MSSP8"
-   mapfile  "MSSP8.map"
-   //author "Mikko Sandt"
-   mapmd4   9ff6b2ed707eb8b94d1a7321047f13f8 // 2004-11-15
-   mhkfile  "maphacks/sandt/MSSP8.mhk"
-}
-
-mapinfo {
-   maptitle "Mikko Sandt Single Player 8 - MSSP8"
+   maptitle "Mikko Sandt Single Player 8 - MSSP8" // not part of MSSP v3.0
    mapfile  "MSSP8.map"
    //author "Mikko Sandt"
    mapmd4   9ff6b2ed707eb8b94d1a7321047f13f8 // 2004-11-15
@@ -55,9 +50,28 @@ mapinfo {
 }
 
 
-// "Speedcity" --> cbp/90mincbp folder
-
-
-//
-// The Brave New World by Mikko Sandt
-//
+// "1-Hour Build Time CBP"           / SCBP.mhk          --> cbp          folder
+// "2-Hour CBP"                      / 2hcbp01.mhk       --> cbp          folder
+// "Blackjack's Build Museum" (CBP1) / BJShrine.mhk      --> cbp          folder
+// "Community Build Project 2"       / cbp2.mhk          --> cbp          folder
+// "Community Build Project 3"       / Cbp3.mhk          --> cbp          folder
+// "Community Build Project 5"       / CBP5.mhk          --> cbp          folder
+// "Community Build Project 6"       / !CBP6!.mhk        --> cbp          folder
+// "Community Build Project 7"       / CBP7*.mhk         --> cbp          folder
+// "Jonof's Port CBP 1"              / JFCBP.mhk         --> cbp          folder
+// "Jonof's Port CBP 2"              / JFCBP2.mhk        --> cbp          folder
+// "Suburban Hive"                   / Suburban Hive.mhk --> cbp          folder
+// "Suburban Hive II : Crimson Moon" / CrimsonMoon.mhk   --> cbp          folder
+// "Speedcity"                       / Speedcty.mhk      --> cbp/90mincbp folder
+// "Office Onslaught"                / E5L3.mhk      --> cbp/metropolitan folder
+// "LAPD"                            / E5L6.mhk      --> cbp/metropolitan folder
+// "Submerged Zone"                  / E5L7*.mhk     --> cbp/metropolitan folder
+// "The Bitch"                       / E5L11.mhk     --> cbp/metropolitan folder
+// "High-Altitude Face-Off"          / E5L12.mhk     --> cbp/metropolitan folder
+// "Discarded Stronghold"            / Discard*.mhk      --> collab       folder
+// "Done & Dusted"                   / donedust*.mhk     --> collab       folder
+// "Galbadia"                        / glb.mhk           --> collab       folder
+// "Hidden Zone"                     / HidZone.mhk       --> collab       folder
+// "Sin Center"                      / sincenter.mhk     --> collab       folder
+// "Duke Plus Community Build Prj."  / dpcbp*.mhk        --> dukeplus     folder
+// "Dukecide"                        / Dukecide.mhk      --> dukeplus     folder
