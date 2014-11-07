@@ -1777,6 +1777,7 @@ texture 729 {
 
 texture 734 {
    pal 0 { file "highres/textures/0734.png" }
+   specular { file "highres/textures/0734_s.png" }
    detail { file "highres/detail/metal_worn.png" xscale 0.3 yscale 0.15 }
 }
 texture 735 {
@@ -2301,7 +2302,9 @@ texture 875 {
    detail { file "highres/detail/metal_fine.png" xscale 0.3 yscale 0.3 }
 }
 texture 876 {
-   pal 0 { file "highres/textures/0876.png" }
+   pal 0 { file "highres/textures/0876_d.png" xscale 2 yscale 2 }
+   normal { file "highres/textures/0876_n.png" parallaxbias 0.01 parallaxscale 0.05 }
+   specular { file "highres/textures/0876_s.png" }
    detail { file "highres/detail/rock.png" xscale 0.3 yscale 0.3 }
 }
 texture 877 {
@@ -3095,10 +3098,14 @@ texture 3385 {
 }
 texture 3386 { 
    pal 0 { file "highres/textures/3386.png" }
+   normal { file "highres/textures/3386_n.png" parallaxbias 0.05 parallaxscale 0.05 }
+   specular { file "highres/textures/3386_s.png" }
    detail { file "highres/detail/marble.png" xscale 0.15 yscale 0.15 } 
 }
 texture 3387 { 
    pal 0 { file "highres/textures/3387.png" }
+   normal { file "highres/textures/3386_n.png" parallaxbias 0.05 parallaxscale 0.05 }
+   specular { file "highres/textures/3386_s.png" }
    detail { file "highres/detail/marble.png" xscale 0.15 yscale 0.15 } 
 }
 
@@ -3553,7 +3560,9 @@ texture 4201 {
 //   detail { file "highres/detail/metal_worn.png" xscale 0.15 yscale 0.15 }
 }
 texture 4202 { 
-   pal 0 { file "highres/textures/4202.png" } 
+   pal 0 { file "highres/textures/4202_d.png" } 
+   normal { file "highres/textures/4202_n.png" parallaxbias 0.0 parallaxscale 0.0 }
+   specular { file "highres/textures/4202_s.png" }
    detail { file "highres/detail/metal.png" xscale 0.15 yscale 0.15 }
 }
 texture 4203 { 
