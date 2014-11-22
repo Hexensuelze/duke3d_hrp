@@ -3,13 +3,22 @@
 // Title    : Terran Moonshaft
 // Filename : TERRAN.MAP
 // Author   : Fernando Márquez
-// mapmd4   : 16173eca4fb3ae73659815b80ac9cf8f // 1997-04-02 (2008-05-11)
+// mapmd4   : 16173eca4fb3ae73659815b80ac9cf8f // 1997-04-02 15:54 (2008-05-11)
 
 //         <-> FM2X07.mhk
+//         <-> TERRAN-megaton.mhk
 
 // Curr. HRP: r5.3.636
 
+// 0-997
 sprite   446 angoff     1024       // tile0047 hbombammo
+
+
+
+
+sprite    69 angoff     384        // tile0997 pipe4b
+sprite    69 mdxoff     10000      // tile0997 pipe4b
+sprite    69 pitch     -1          // tile0997 pipe4b
 sprite   353 angoff     512        // tile0051 cola
 sprite   352 angoff     512        // tile0051 cola
 sprite   799 angoff     768        // tile0041 batteryammo
@@ -17,6 +26,7 @@ sprite   799 mdzoff     300000     // tile0041 batteryammo
 sprite   799 roll       1          // tile0041 batteryammo
 sprite   801 angoff    -512        // tile0052 sixpack
 sprite   797 angoff     1024       // tile0028 shotgunsprite
+sprite    68 angoff    -256        // tile1005 pipe5b
 sprite   800 angoff     512        // tile0042 devistatorammo
 sprite   516 angoff     512        // tile0479 (satellite dish)
 sprite   991 angoff    -384        // tile0052 sixpack
@@ -50,9 +60,9 @@ sprite   815 angoff    -704        // tile0049 shotgunammo
 sprite   815 mdzoff     900000     // tile0049 shotgunammo
 sprite   815 pitch     -1          // tile0049 shotgunammo
 sprite   808 angoff     896        // tile0049 shotgunammo
-sprite   175 angoff    -512        // tile0060 accesscard yéllow
-sprite   175 mdzoff     500000     // tile0060 accesscard yéllow
-sprite   175 pitch      1          // tile0060 accesscard yéllow
+sprite   175 angoff    -512        // tile0060 accesscard yellow
+sprite   175 mdzoff     500000     // tile0060 accesscard yellow
+sprite   175 pitch      1          // tile0060 accesscard yellow
 sprite   807 angoff    -768        // tile0040 ammo
 sprite   809 angoff    -768        // tile0040 ammo
 sprite   806 angoff     768        // tile0053 firstaid

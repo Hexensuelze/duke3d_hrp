@@ -3,17 +3,19 @@
 // Title    : Viewport
 // Filename : VIEWPORT.MAP
 // Author   : Fernando Márquez
-// mapmd4   : 21cfb9e3b17c27ca0c034992549cd35d // 1997-03-16 (DNWMD)
+// mapmd4   : 21cfb9e3b17c27ca0c034992549cd35d // 1997-03-16 08:16 (DNWMD)
 
 
 
 //         <-> VIEWPORT.mhk
+//         <-> VIEWPORT-megaton.mhk
 
 // Curr. HRP: r5.3.591
 
+// 
 // 0-27 / 33-256 / 394-772
 sprite   772 angoff    -512        // tile0054 shield
-sprite   419 mdzoff     2500000    // tile0487 spaceshuttle
+sprite   419 mdzoff     15000000   // tile0487 spaceshuttle
 sprite   419 roll      -1          // tile0487 spaceshuttle
 sprite   752 angoff    -256        // tile0047 hbombammo
 sprite   752 mdzoff     900000     // tile0047 hbombammo
@@ -27,7 +29,7 @@ sprite   721 angoff    -512        // tile0022 chaingunsprite
 sprite    55 angoff     768        // tile0052 sixpack
 sprite    39 angoff    -512        // tile0042 devistatorammo
 sprite   759 angoff     640        // tile0049 shotgunammo
-sprite   762 angoff     512        // tile0021 firstgunsprite
+sprite   762 angoff    -512        // tile0021 firstgunsprite
 sprite   763 angoff    -640        // tile0051 cola
 sprite   764 angoff    -384        // tile0051 cola
 sprite   766 angoff     512        // tile1348 holoduke
@@ -35,6 +37,10 @@ sprite    49 angoff     640        // tile0052 sixpack
 sprite   726 angoff     768        // tile0047 hbombammo
 sprite    22 angoff     896        // tile0054 shield
 
+
+
+
+sprite   756 angoff    -512        // tile0041 batteryammo
 sprite   749 angoff    -256        // tile0026 heavyhbomb
 sprite   750 angoff    -256        // tile0026 heavyhbomb
 sprite   748 angoff    -768        // tile0044 rpgammo
@@ -44,8 +50,16 @@ sprite    38 angoff    -512        // tile0037 freezeammo
 sprite   722 angoff     256        // tile0029 devistatorsprite
 sprite    58 angoff    -384        // tile0055 steroids
 sprite    50 angoff     128        // tile0052 sixpack
-sprite   676 angoff     768        // tile1294 podfem1
+sprite   676 angoff     512        // tile1294 podfem1
 sprite   723 angoff    -768        // tile0024 freezesprite
+sprite   472 angoff     1024       // tile1079 oozfilter
+sprite   469 angoff     1024       // tile1079 oozfilter
+sprite   470 angoff     1024       // tile1079 oozfilter
+sprite   468 angoff     1024       // tile1079 oozfilter
+sprite   474 angoff     1024       // tile1079 oozfilter
+sprite   473 angoff     1024       // tile1079 oozfilter
+sprite   770 angoff     1024       // tile1079 oozfilter
+sprite   769 angoff     1024       // tile1079 oozfilter
 sprite    51 angoff     256        // tile0052 sixpack
 sprite    41 angoff    -768        // tile0051 cola
 sprite    65 angoff     1024       // tile1323 fem5 polebabe
@@ -78,6 +92,7 @@ sprite   753 angoff    -256        // tile0054 shield
 sprite    53 angoff     768        // tile0052 sixpack
 sprite   751 angoff    -512        // tile0047 hbombammo
 sprite   747 angoff    -512        // tile0049 shotgunammo
+sprite   746 angoff     1024       // tile0040 ammo
 sprite   256 angoff     1024       // tile0044 rpgammo
 sprite   255 angoff     1024       // tile0044 rpgammo
 sprite    60 angoff     512        // tile0023 rpgsprite

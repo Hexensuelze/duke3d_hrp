@@ -7,11 +7,13 @@
 
 
 //         <-> CROSSRD.mhk
+//         <-> CROSSRD-megaton.mhk
 
 // Curr. HRP: r5.3.636
 
-// 369-457 / 487-1431 / 1432-1558 / 1653-1709 / 1710-1983
+// 0-457 / 487-1431 / 1432-1558 / 1653-1709 / 1710-1983
 sprite  1082 angoff    -768        // tile0051 cola
+sprite   832 angoff     768        // tile0480 (observatory)
 sprite  1081 angoff    -256        // tile0051 cola
 sprite  1079 angoff    -512        // tile0059 heatsensor
 sprite   487 angoff    -128        // tile0042 devistatorammo
@@ -28,8 +30,10 @@ sprite  1215 mdzoff     300000     // tile0557 chair2
 sprite  1215 roll       1          // tile0557 chair2
 sprite   934 angoff     256        // tile0052 sixpack
 sprite  1071 angoff    -768        // tile0556 chair1
-sprite   369 angoff     704        // tile0049 shotgunammo
-sprite   933 angoff     320        // tile0028 shotgunsprite
+sprite   369 angoff     672        // tile0049 shotgunammo
+sprite   933 angoff     352        // tile0028 shotgunsprite
+
+
 sprite   932 angoff     512        // tile0052 sixpack
 sprite  1305 angoff     768        // tile0057 jetpack (multiplayer)
 sprite  1000 angoff    -512        // tile0047 hbombammo
@@ -52,7 +56,7 @@ sprite  1001 pitch      1024       // tile0407 fansprite
 sprite   911 angoff     768        // tile2254 (tile2250 jibs2 (eye))
 sprite   914 angoff     192        // tile2185 lizmandeadsprite
 sprite   914 mdzoff     500000     // tile2185 lizmandeadsprite
-sprite   914 pitch      4          // tile2185 lizmandeadsprite
+sprite   914 pitch      5          // tile2185 lizmandeadsprite
 sprite   914 roll      -2          // tile2185 lizmandeadsprite
 sprite   926 angoff     640        // tile0052 sixpack
 sprite   927 angoff     384        // tile0052 sixpack
@@ -61,13 +65,14 @@ sprite  1410 angoff     1024       // tile0041 batteryammo
 sprite   868 angoff     320        // tile0027 tripbombsprite
 sprite   867 angoff    -320        // tile0027 tripbombsprite
 sprite   488 angoff     512        // tile0029 devistatorsprite
-sprite   904 angoff    -200        // tile0053 firstaid
+sprite   904 mdzoff    -800        // tile0053 firstaid
 sprite   904 pitch     -512        // tile0053 firstaid
 sprite  1709 angoff     1024       // tile0049 shotgunammo
 sprite   454 angoff     1024       // tile0054 shield
 sprite   456 angoff     1024       // tile0046 crystalammo
 sprite   457 angoff     1024       // tile1348 holoduke
 sprite   455 angoff     1024       // tile0046 crystalammo
+
 sprite   186 angoff     512        // tile0563 waterfountain
 sprite   186 mdzoff     130000     // tile0563 waterfountain
 sprite   186 pitch     -1          // tile0563 waterfountain
@@ -75,6 +80,7 @@ sprite   410 angoff     256        // tile0042 devistatorammo
 sprite   441 angoff    -512        // tile0024 freezesprite
 sprite   442 angoff    -512        // tile0052 sixpack
 sprite   396 angoff    -512        // tile0054 shield
+sprite   806 angoff    -256        // tile0480 (observatory)
 sprite   395 angoff     896        // tile0046 crystalammo
 sprite  1486 angoff     512        // tile0679 (battlelord holo)
 sprite   435 angoff    -256        // tile0022 chaingunsprite
@@ -82,6 +88,8 @@ sprite   430 angoff     896        // tile0041 batteryammo
 sprite   807 angoff     576        // tile0479 (satellite dish)
 sprite   807 mdzoff     2000000    // tile0479 (satellite dish)
 sprite   807 pitch     -1          // tile0479 (satellite dish)
+
+
 sprite   421 angoff    -768        // tile1294 podfem1
 sprite   422 angoff     1024       // tile1294 podfem1
 sprite   405 angoff     128        // tile0041 batteryammo
@@ -170,6 +178,7 @@ sprite    31 angoff    -768        // tile0052 sixpack
 sprite  1978 angoff     1024       // tile0041 batteryammo
 sprite  1977 angoff     512        // tile0028 shotgunsprite
 sprite    30 angoff    -512        // tile0054 shield
+sprite  1835 angoff     896        // tile0040 ammo
 sprite   400 angoff    -640        // tile0557 chair2
 sprite   400 mdzoff     300000     // tile0557 chair2
 sprite   400 pitch     -1          // tile0557 chair2
