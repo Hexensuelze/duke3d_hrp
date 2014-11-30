@@ -3113,9 +3113,21 @@ texture 3392 {
    pal 0 { file "highres/textures/3392_d.png" specpower 2 specfactor 1 }
    normal { file "highres/textures/0803_n.png" parallaxbias 0.002 parallaxscale 0.002 }
 }
-texture 3394 { pal 0 { file "highres/textures/3394.png" } }
-texture 3395 { pal 0 { file "highres/textures/3395.png" } }
-texture 3396 { pal 0 { file "highres/textures/3396.png" } }
+texture 3394 {
+   pal 0 { file "highres/textures/3394_d.png" }
+   normal { file "highres/textures/3394_n.png" parallaxbias 0.01 parallaxscale 0.05 }
+   specular { file "highres/textures/3394_s.png" }
+}
+texture 3395 {
+   pal 0 { file "highres/textures/3395_d.png" }
+   normal { file "highres/textures/3395_n.png" parallaxbias 0.01 parallaxscale 0.05 }
+   specular { file "highres/textures/3395_s.png" }
+}
+texture 3396 {
+   pal 0 { file "highres/textures/3396_d.png" }
+   normal { file "highres/textures/3396_n.png" parallaxbias 0.01 parallaxscale 0.05 }
+   specular { file "highres/textures/3396_s.png" }
+}
 texture 3397 {
    pal 0 { file "highres/textures/3397_d.png" }
    normal { file "highres/textures/3397_n.png" parallaxbias 0.03 parallaxscale 0.05 }
