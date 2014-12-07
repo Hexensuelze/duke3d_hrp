@@ -39,15 +39,19 @@ KNOWN PROBLEMS:
 The Megaton executable (1.3.2 stable) is based on a rather old JFDuke version 
 and therefore doesn't support all Polymost HRP features correctly:
 
- - "animtilerange", "setuptilerange" and "tilefromtexture" are unsupported
+ - "animtilerange" and "setuptilerange" are unsupported
  - the maphack system is unsupported  and has  been disabled in this pack
  - frozen models don't work correctly and have been disabled in this pack
  - skyboxes      don't work correctly and have been disabled in this pack
- - pickup models and first person weapon models may (partiallly) disappear at 
-   certain viewing angles or sector boundaries.
+ - pickup models and first person weapon models may (partiallly) disappear 
+   at certain viewing angles or sector boundaries.
 
 There is nothing that can be done about these issues other than updating the 
 Megaton executable's Polymost renderer code.
+
+Except: The DN3DF version of this pack replaces the first person weapon models 
+        with 2D sprites from "Duke Nukem 3D: Forever" made by Wesker500 aka 
+        xMobilemux. (Golden skin for pistol pickup by Daniel262b.)
 
 
 IMPORTANT:
@@ -55,7 +59,7 @@ IMPORTANT:
 This override pack is meant for the HRP v5.3 (=r5.3.565)!
 
 
-Duke in D.C. HRP (v1.61):
+Duke in D.C. HRP (v1.62):
 -------------------------
 To avoid a messed up level stat screen, make sure that this override pack gets 
 loaded after the DC HRP pack or use the included DC-HRP batch file.
@@ -71,15 +75,21 @@ RELATED LINKS:
 --------------
 - Duke4.net ................................... http://www.duke4.net
 - Duke Nukem 3D High-Resolution Pack .......... http://hrp.duke4.net
-- EDuke32 port (by TerminX) ................... http://eduke32.com
+- EDuke32 port ................................ http://eduke32.com
+- Duke Nukem 3D: Forever thread ............... http://forums.duke4.net/index.php?showtopic=5534
 
 
 CONTACT:
 --------
-  http://forums.duke4.net/user/1299-leod/
+  http://forums.duke4.net/index.php?showuser=1299
 
 
 SPECIAL CREDITS:
 --------
   Tea Monster - model conversion
   Roma Loom   - backporting Polymer textures
+
+
+Advertisement:
+--------------
+  Other stuff by LeoD ........ http://forums.duke4.net/index.php?showtopic=3513

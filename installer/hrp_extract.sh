@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.5.4  2014-09-07
+# Duke Nukem 3D High Resolution Pack Extractor  v0.7  2014-12-05
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -84,6 +84,7 @@ copy_set_version()
       ;;
     duke3d_hrp_polymost.def | \
     installer/polymost_override/duke3d_hrp_polymost_override.def | \
+    duke3d_hrp_megaton.def | \
     installer/megaton_override/duke3d_hrp_megaton_override.def )
       cat "${VER_FILE}" | sed -r --posix \
         s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
@@ -123,6 +124,8 @@ copy_known_files()
     else
       cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
     fi
+    cp -pv duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp_polymost.def"
+    cp -rpv installer/polymost_override/dukedc "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "megaton" ] ; then
@@ -131,6 +134,11 @@ copy_known_files()
     else
       cp -pv           duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp.def"
     fi
+    cp -pv duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp_megaton.def"
+    cp -pv highres/screen/menu/2492_ver_megaton.png \
+      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
+    cp -rpv installer/megaton_override/dukedc* "${EXTRACTDIR}"
+    cp -rpv installer/megaton_override/highres "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "polymost_override" ] ; then
@@ -138,10 +146,16 @@ copy_known_files()
       copy_set_version \
         installer/polymost_override/duke3d_hrp_polymost_override.def \
         "${EXTRACTDIR}/duke3d_hrp.def"
+      copy_set_version \
+        installer/polymost_override/duke3d_hrp_polymost_override.def \
+        "${EXTRACTDIR}/duke3d_hrp_polymost.def"
     else
       cp -pv installer/polymost_override/duke3d_hrp_polymost_override.def \
         "${EXTRACTDIR}/duke3d_hrp.def"
+       cp -pv installer/polymost_override/duke3d_hrp_polymost_override.def \
+        "${EXTRACTDIR}/duke3d_hrp_polymost.def"
     fi
+    cp -rpv installer/polymost_override/dukedc "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "megaton_override" ] ; then
@@ -149,10 +163,18 @@ copy_known_files()
       copy_set_version \
         installer/megaton_override/duke3d_hrp_megaton_override.def \
         "${EXTRACTDIR}/duke3d_hrp.def"
+      copy_set_version \
+        installer/megaton_override/duke3d_hrp_megaton_override.def \
+        "${EXTRACTDIR}/duke3d_hrp_megaton.def"
     else
       cp -pv installer/megaton_override/duke3d_hrp_megaton_override.def \
         "${EXTRACTDIR}/duke3d_hrp.def"
+      cp -pv installer/megaton_override/duke3d_hrp_megaton_override.def \
+        "${EXTRACTDIR}/duke3d_hrp_megaton.def"
     fi
+    cp -pv  installer/megaton_override/*.bat   "${EXTRACTDIR}"
+    cp -rpv installer/megaton_override/dukedc* "${EXTRACTDIR}"
+    cp -rpv installer/megaton_override/highres "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "megaton" ] ; then
@@ -189,7 +211,7 @@ copy_known_files()
     cp -pv installer/megaton_override/hrp_megaton_override.txt \
       "${EXTRACTDIR}"
     cp -pv installer/megaton_override/2492_ver_megaton_override.png \
-      "${EXTRACTDIR}/highres/screen/menu/2492_ver_megaton.png"
+      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
   fi
 
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
@@ -257,94 +279,18 @@ copy_known_files()
 } # copy_known_files()
 
 
-polymost_mhk_patch()
+copy_polymost_mhk()
 {
-  MHKFILE="$1"
-  MHK_LINE="$2"
-
-  case "${MHKFILE}" in
-    "E3L1.mhk")
-      echo "${MHK_LINE}" >> "${EXTRACTDIR}/${MHKFILE}"
-      MHK_INSERT=`echo "${MHK_LINE}" | grep -oE "Fixes\ for\ badly\ aligned\ sprites"`
-      if [ ! "${MHK_INSERT}" = "" ] ; then
-        echo "sprite   591 mdxoff     425000     // tile0603 naked1 hangbabe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite   591 pitch      1          // tile0603 naked1 hangbabe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite   592 mdxoff     425000     // tile0603 naked1 hangbabe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite   592 pitch      1          // tile0603 naked1 hangbabe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite   593 mdxoff     425000     // tile0603 naked1 hangbabe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-        echo "sprite   593 pitch      1          // tile0603 naked1 hangbabe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-      fi
-      ;;
-    "E3L3.mhk")
-      MHK_REPLACE=`echo "${MHK_LINE}" | grep -oE "sprite\ 105\ angoff -128"`
-      if [ ! "${MHK_REPLACE}" = "" ] ; then
-        echo "sprite 105 angoff 768 // (Polymost HRP)\r" >> "${EXTRACTDIR}/${MHKFILE}"
-      else
-        echo "${MHK_LINE}" >> "${EXTRACTDIR}/${MHKFILE}"
-        MHK_INSERT=`echo "${MHK_LINE}" | grep -oE "sprite\ 96\ pitch\ 1"`
-        if [ ! "${MHK_INSERT}" = "" ] ; then
-          echo "sprite 105 mdxoff 450000 // underwater slime babe (Polymost HRP)\r" \
-                                      >> "${EXTRACTDIR}/${MHKFILE}"
-          echo "sprite 105 pitch 1\r" >> "${EXTRACTDIR}/${MHKFILE}"
-          echo "sprite 447 mdxoff 462000 // underwater slime babe (Polymost HRP)\r" \
-                                      >> "${EXTRACTDIR}/${MHKFILE}"
-          echo "sprite 447 pitch 1\r" >> "${EXTRACTDIR}/${MHKFILE}"
-        fi
-      fi
-      ;;
-    "E3L6.mhk")
-      MHK_REPLACE1=`echo "${MHK_LINE}" | grep -oE "sprite\ 307\ angoff -210"`
-      MHK_REPLACE2=`echo "${MHK_LINE}" | grep -oE "sprite\ 307\ mdxoff -125000 \\/\\/\ flipped hanging babe"`
-      MHK_REPLACE3=`echo "${MHK_LINE}" | grep -oE "sprite\ 307\ mdzoff -11000"`
-      if   [ ! "${MHK_REPLACE1}" = "" ] ; then
-        echo "sprite 307 angoff 200 // (Polymost HRP)\r" >> "${EXTRACTDIR}/${MHKFILE}"
-      elif [ ! "${MHK_REPLACE2}" = "" ] ; then
-        echo "sprite 307 mdxoff 750000 // flipped hanging babe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-      elif [ ! "${MHK_REPLACE3}" = "" ] ; then
-        echo "sprite 307 mdzoff 625000 // flipped hanging babe (Polymost HRP)\r" \
-             >> "${EXTRACTDIR}/${MHKFILE}"
-      else
-        echo "${MHK_LINE}" >> "${EXTRACTDIR}/${MHKFILE}"
-      fi
-      ;;
-    *)
-      echo "${MHK_LINE}" >> "${EXTRACTDIR}/${MHKFILE}"
-      ;;
-  esac
-} # polymost_mhk_patch()
-
-
-create_polymost_mhk()
-{
-  for MHKFILE in *.mhk ; do
-    MHKSTOP="0"
-    cat   ${MHKFILE} | while read MHK_LINE; do
-      if [ "${MHKSTOP}" = "0" ] ; then
-
-        if [ "${MHKFILE}" = "E3L1.mhk" ] || [ "${MHKFILE}" = "E3L3.mhk" ] || \
-           [ "${MHKFILE}" = "E3L6.mhk" ] ; then
-          polymost_mhk_patch ${MHKFILE} "${MHK_LINE}"
-        else
-          echo "${MHK_LINE}" >> "${EXTRACTDIR}/${MHKFILE}"
-        fi
-
-        MHK_TERM=`echo "${MHK_LINE}" | grep -owE "\\/\\/\\ LIGHTS"`
-        if [ "${MHK_TERM}" = "// LIGHTS" ] ; then
-          MHKSTOP="1"
-        fi
-      fi
-    done
-  done
-  # Some people prefer unusual setups ... polymost_mhk_patch not applied automatically
-  zip -rq9 ${EXTRACTDIR}/polymost_hrp_polymer_maphacks.zip *.mhk
-} # create_polymost_mhk()
+  cp -p maphacks/3drealms_polymost/E?L*.mhk "${EXTRACTDIR}"
+  rm -f "${EXTRACTDIR}"/*_13d_*.mhk
+  # bashism:
+  for i in "${EXTRACTDIR}"/*.mhk ; do mv "$i" "${i/_polymost.mhk}".mhk ; done
+  for i in "${EXTRACTDIR}"/*_atomic.mhk ; do mv "$i" "${i/_atomic}" ; done
+  # Some people prefer unusual setups ... 
+  if [ "${HRPTYPE}" = "polymost" ]||[ "${HRPTYPE}" = "polymost_override" ];then
+    zip -rq9 ${EXTRACTDIR}/polymost_hrp_polymer_maphacks.zip *.mhk
+  fi
+} # copy_polymost_mhk()
 
 
 # I really don't know yet if this will become necessary, or if it does make
@@ -618,13 +564,10 @@ main()
   echo "### Copying directory tree ... ###"
   copy_folders
 
-  echo "### Copying 'known' files ... ###"
-  copy_known_files
-
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
     [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "megaton_override" ] ; then
     echo "### Creating Polymost maphacks ... ###"
-    create_polymost_mhk
+    copy_polymost_mhk
 
     echo "### DukePlus<>Polymost HRP compatibility patch ... ###"
     dukeplus_polymost_hrp_compatibility $DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH
@@ -660,6 +603,9 @@ main()
   if [ "${HRPTYPE}" = "default" ] ; then
     parse_defs "${DEF_TOP}"
   fi
+
+  echo "### Copying 'known' files ... ###"
+  copy_known_files
 
   echo "### Deleting empty directories in ${EXTRACTDIR} ... ###"
   delete_empty_folders
