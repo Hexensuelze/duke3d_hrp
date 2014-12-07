@@ -813,19 +813,19 @@ texture 335 {
    detail { file "highres/detail/metal.png" xscale 0.3 yscale 0.15 }
 }
 texture 336 {
-   pal 0 { file "highres/textures/0336.png" specpower 20 specfactor 2.5 }
+   pal 0 { file "highres/textures/0336.png" specpower 20 specfactor 2.5 xscale 4 yscale 4 }
    pal 2 { file "highres/textures/0336_2.png" }
    pal 21 { file "highres/textures/0336_2.png" }
    normal { file "highres/textures/0336_n.png" parallaxbias 0.3 parallaxscale 0.1 }
 }
 texture 337 {
-   pal 0 { file "highres/textures/0337.png" specpower 20 specfactor 2.5 }
+   pal 0 { file "highres/textures/0337.png" specpower 20 specfactor 2.5 xscale 4 yscale 4 }
    pal 2 { file "highres/textures/0337_2.png" }
    pal 21 { file "highres/textures/0337_2.png" }
    normal { file "highres/textures/0337_n.png" parallaxbias 0.3 parallaxscale 0.1 }
 }
 texture 338 {
-   pal 0 { file "highres/textures/0338.png"  specpower 20 specfactor 2.5 }
+   pal 0 { file "highres/textures/0338.png"  specpower 20 specfactor 2.5 xscale 4 yscale 4 }
    pal 2 { file "highres/textures/0338_2.png" }
    pal 21 { file "highres/textures/0338_2.png" }
    normal { file "highres/textures/0338_n.png" parallaxbias 0.3 parallaxscale 0.1 }
@@ -2040,7 +2040,9 @@ texture 801 {
    detail { file "highres/detail/dirt2.png" xscale 0.3 yscale 0.3 }
 }
 texture 802 {
-   pal 0 { file "highres/textures/0802.png" }
+   pal 0 { file "highres/textures/0802_d.png" }
+   normal { file "highres/textures/0802_n.png"  parallaxbias 0.05 parallaxscale 0.09  }
+   specular { file "highres/textures/0802_s.png" }
    detail { file "highres/detail/concrete.png" xscale 0.3 yscale 0.3 }
 }
 texture 803 {
