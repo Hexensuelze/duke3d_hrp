@@ -56,46 +56,51 @@ copy_set_version()
 {
   VER_FILE="$1"
   TARGET_FILE="$2"
-  V_DATE=`date +%F`
-  if [ "${VERSION}" = "" ] ; then
-    if [ -f VERSION ] ; then
-      VERSION=`grep -owE "[0-9\\.]*" VERSION`
+  if [ ! "${SET_VERSION}" = "YES" ] ; then
+    cp -pv "${VER_FILE}" "${TARGET_FILE}"
+  else
+
+    V_DATE=`date +%F`
+    if [ "${VERSION}" = "" ] ; then
+      if [ -f VERSION ] ; then
+        VERSION=`grep -owE "[0-9\\.]*" VERSION`
+      fi
     fi
-  fi
 
-  echo "copy_set_version ${VER_FILE} -> ${TARGET_FILE}"
+    echo "copy_set_version ${VER_FILE} -> ${TARGET_FILE}"
 
-  case "${VER_FILE}" in
-    hrp_readme.txt)
-      cat "${VER_FILE}" | sed -r --posix \
-        s/\(Version\ *\)\([0-9\.]*\)\(.*\)\(\\\)\)\(.*\)/\\1${VERSION}\ \(${V_DATE}\)\ \ \\5/ \
-        >> "${TARGET_FILE}"
-      ;;
-    duke3d_hrp.def)
-      if [ "${HRPTYPE}" = "polymer" ] ; then
+    case "${VER_FILE}" in
+      hrp_readme.txt)
         cat "${VER_FILE}" | sed -r --posix \
-          s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\ Polymer\\3/ \
+          s/\(Version\ *\)\([0-9\.]*\)\(.*\)\(\\\)\)\(.*\)/\\1${VERSION}\ \(${V_DATE}\)\ \ \\5/ \
           >> "${TARGET_FILE}"
-      else
+        ;;
+      duke3d_hrp.def)
+        if [ "${HRPTYPE}" = "polymer" ] ; then
+          cat "${VER_FILE}" | sed -r --posix \
+            s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\ Polymer\\3/ \
+            >> "${TARGET_FILE}"
+        else
+          cat "${VER_FILE}" | sed -r --posix \
+            s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
+            >> "${TARGET_FILE}"
+        fi
+        ;;
+      duke3d_hrp_polymost.def | \
+      installer/polymost_override/duke3d_hrp_polymost_override.def | \
+      duke3d_hrp_megaton.def | \
+      installer/megaton_override/duke3d_hrp_megaton_override.def )
         cat "${VER_FILE}" | sed -r --posix \
           s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
           >> "${TARGET_FILE}"
-      fi
-      ;;
-    duke3d_hrp_polymost.def | \
-    installer/polymost_override/duke3d_hrp_polymost_override.def | \
-    duke3d_hrp_megaton.def | \
-    installer/megaton_override/duke3d_hrp_megaton_override.def )
-      cat "${VER_FILE}" | sed -r --posix \
-        s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
-        >> "${TARGET_FILE}"
-      ;;
-    *)
-      echo "###ERROR: copy_set_version() - BAD FILE: ${VER_FILE}"
-      exit 1
-      ;;
-  esac
-}
+        ;;
+      *)
+        echo "###ERROR: copy_set_version() - BAD FILE: ${VER_FILE}"
+        exit 1
+        ;;
+    esac
+  fi
+} # copy_set_version()
 
 tar_copy_dir()
 {
@@ -104,12 +109,8 @@ tar_copy_dir()
 
 copy_known_files()
 {
-  if [ "${SET_VERSION}" = "YES" ] ; then
+  if [ -f  hrp_readme.txt ] ; then
     copy_set_version hrp_readme.txt "${EXTRACTDIR}/hrp_readme.txt"
-  else
-    if [ -f  hrp_readme.txt ] ; then
-      cp -pv hrp_readme.txt         "${EXTRACTDIR}"
-    fi
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
@@ -119,80 +120,56 @@ copy_known_files()
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] ; then
-    if [ "${SET_VERSION}" = "YES" ] ; then
-      copy_set_version duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
-    else
-      cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
-    fi
-    cp -pv duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp_polymost.def"
-    cp -rpv installer/polymost_override/dukedc "${EXTRACTDIR}"
+    cp -pv  duke3d_hrp_polymost.def            "${EXTRACTDIR}"
+    copy_set_version duke3d_hrp_polymost.def   "${EXTRACTDIR}/duke3d_hrp.def"
+    cp -pvr installer/polymost_override/dukedc "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "megaton" ] ; then
-    if [ "${SET_VERSION}" = "YES" ] ; then
-      copy_set_version duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp.def"
-    else
-      cp -pv           duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp.def"
-    fi
-    cp -pv duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp_megaton.def"
+    cp -pv duke3d_hrp_megaton.def           "${EXTRACTDIR}"
+    copy_set_version duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp.def"
     cp -pv highres/screen/menu/2492_ver_megaton.png \
       "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
-    cp -rpv installer/megaton_override/dukedc* "${EXTRACTDIR}"
-    cp -rpv installer/megaton_override/highres "${EXTRACTDIR}"
+    cp -pvr installer/megaton_override/dukedc* "${EXTRACTDIR}"
+    cp -pvr installer/megaton_override/highres "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "polymost_override" ] ; then
-    if [ "${SET_VERSION}" = "YES" ] ; then
-      copy_set_version \
-        installer/polymost_override/duke3d_hrp_polymost_override.def \
-        "${EXTRACTDIR}/duke3d_hrp.def"
-      copy_set_version \
-        installer/polymost_override/duke3d_hrp_polymost_override.def \
-        "${EXTRACTDIR}/duke3d_hrp_polymost.def"
-    else
-      cp -pv installer/polymost_override/duke3d_hrp_polymost_override.def \
-        "${EXTRACTDIR}/duke3d_hrp.def"
-       cp -pv installer/polymost_override/duke3d_hrp_polymost_override.def \
-        "${EXTRACTDIR}/duke3d_hrp_polymost.def"
-    fi
-    cp -rpv installer/polymost_override/dukedc "${EXTRACTDIR}"
+    copy_set_version \
+      installer/polymost_override/duke3d_hrp_polymost_override.def \
+      "${EXTRACTDIR}/duke3d_hrp.def"
+    copy_set_version \
+      installer/polymost_override/duke3d_hrp_polymost_override.def \
+      "${EXTRACTDIR}/duke3d_hrp_polymost.def"
+    cp -pvr installer/polymost_override/dukedc "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "megaton_override" ] ; then
-    if [ "${SET_VERSION}" = "YES" ] ; then
-      copy_set_version \
-        installer/megaton_override/duke3d_hrp_megaton_override.def \
-        "${EXTRACTDIR}/duke3d_hrp.def"
-      copy_set_version \
-        installer/megaton_override/duke3d_hrp_megaton_override.def \
-        "${EXTRACTDIR}/duke3d_hrp_megaton.def"
-    else
-      cp -pv installer/megaton_override/duke3d_hrp_megaton_override.def \
-        "${EXTRACTDIR}/duke3d_hrp.def"
-      cp -pv installer/megaton_override/duke3d_hrp_megaton_override.def \
-        "${EXTRACTDIR}/duke3d_hrp_megaton.def"
-    fi
+    copy_set_version \
+      installer/megaton_override/duke3d_hrp_megaton_override.def \
+      "${EXTRACTDIR}/duke3d_hrp.def"
+    copy_set_version \
+      installer/megaton_override/duke3d_hrp_megaton_override.def \
+      "${EXTRACTDIR}/duke3d_hrp_megaton.def"
     cp -pv  installer/megaton_override/*.bat   "${EXTRACTDIR}"
-    cp -rpv installer/megaton_override/dukedc* "${EXTRACTDIR}"
-    cp -rpv installer/megaton_override/highres "${EXTRACTDIR}"
+    cp -pvr installer/megaton_override/dukedc* "${EXTRACTDIR}"
+    cp -pvr installer/megaton_override/highres "${EXTRACTDIR}"
+    # Let Megaton Override work on top of Polymost HRP:
+    cp -pv highres/sprites_megaton.def         "${EXTRACTDIR}/highres"
+    cp -pv highres/sprites/effects_megaton.def "${EXTRACTDIR}/highres/sprites"
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "megaton" ] ; then
     cp -pv duke3d.def "${EXTRACTDIR}"
-    #cp -pv duke3d_hrp_polymost.def               "${EXTRACTDIR}"
-    #cp -pv highres/screen/menu/2492_polymost.png "${EXTRACTDIR}/highres/screen/menu"
+    cp -pv highres/screen/menu/2492_polymost.png \\
+      "${EXTRACTDIR}/highres/screen/menu"
   fi
 
   if [ "${HRPTYPE}" = "full" ] ; then
-    if [ "${SET_VERSION}" = "YES" ] ; then
-      copy_set_version duke3d_hrp_polymost.def \
-        "${EXTRACTDIR}/duke3d_hrp_polymost.def"
-      copy_set_version duke3d_hrp_megaton.def \
-        "${EXTRACTDIR}/duke3d_hrp_megaton.def"
-    else
-      cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}"
-      cp -pv           duke3d_hrp_megaton.def "${EXTRACTDIR}"
-    fi
+    copy_set_version duke3d_hrp_polymost.def \
+      "${EXTRACTDIR}/duke3d_hrp_polymost.def"
+    copy_set_version duke3d_hrp_megaton.def \
+      "${EXTRACTDIR}/duke3d_hrp_megaton.def"
   fi
 
   if [ "${HRPTYPE}" = "full" ] ; then
@@ -216,11 +193,7 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
     cp -pv duke3d.def                   "${EXTRACTDIR}"
-    if [ "${SET_VERSION}" = "YES" ] ; then
-      copy_set_version duke3d_hrp.def "${EXTRACTDIR}/duke3d_hrp.def"
-    else
-      cp -pv           duke3d_hrp.def "${EXTRACTDIR}"
-    fi
+    copy_set_version duke3d_hrp.def "${EXTRACTDIR}/duke3d_hrp.def"
     echo                  "\`*.mhk' -> \`${EXTRACTDIR}/*.mhk'"
     cp -p  *.mhk                        "${EXTRACTDIR}"
     #cp -pv highres/screen/menu/2492.png "${EXTRACTDIR}/highres/screen/menu"
@@ -285,7 +258,6 @@ copy_polymost_mhk()
   rm -f "${EXTRACTDIR}"/*_13d_*.mhk
   # bashism:
   for i in "${EXTRACTDIR}"/*.mhk ; do mv "$i" "${i/_polymost.mhk}".mhk ; done
-  for i in "${EXTRACTDIR}"/*_atomic.mhk ; do mv "$i" "${i/_atomic}" ; done
   # Some people prefer unusual setups ... 
   if [ "${HRPTYPE}" = "polymost" ]||[ "${HRPTYPE}" = "polymost_override" ];then
     zip -rq9 ${EXTRACTDIR}/polymost_hrp_polymer_maphacks.zip *.mhk
@@ -566,7 +538,7 @@ main()
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
     [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "megaton_override" ] ; then
-    echo "### Creating Polymost maphacks ... ###"
+    echo "### Copying Polymost maphacks ... ###"
     copy_polymost_mhk
 
     echo "### DukePlus<>Polymost HRP compatibility patch ... ###"
