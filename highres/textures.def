@@ -439,7 +439,9 @@ texture 241 {
    detail { file "highres/detail/sand.png" xscale 0.3 yscale 0.3 }
 }
 texture 242 {
-   pal 0 { file "highres/textures/0242.png" }
+   pal 0 { file "highres/textures/0242_d.png" }
+   normal { file "highres/textures/0242_n.png" parallaxbias 0.04 parallaxscale 0.05 }
+   specular { file "highres/textures/0242_s.png" }
    detail { file "highres/detail/metal.png" xscale 0.2 yscale 0.2 }
 }
 texture 243 {
