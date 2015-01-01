@@ -5,6 +5,8 @@
 // Author   : Pascal Rouaud
 // mapmd4   : 776d175cb91a88badffb954f002a8c6c // 2002-06-21
 
+//         <->  ROCH7-addonpack.mhk
+
 // Curr. HRP: r5.3.592
 
 sprite  3005 angoff     512        // tile0040 ammo
@@ -81,6 +83,8 @@ sprite  3055 mdzoff     500000     // tile0026 heavyhbomb
 sprite  3055 pitch      1          // tile0026 heavyhbomb
 sprite  3056 mdzoff     100000     // tile0026 heavyhbomb
 sprite  3056 pitch      1          // tile0026 heavyhbomb
+sprite   579 angoff     512        // tile4582 canwithsomething4
+sprite   580 angoff     896        // tile4582 canwithsomething4
 sprite  3089 angoff    -768        // tile0052 sixpack
 sprite  3090 mdzoff     500000     // tile0044 rpgammo
 sprite  3090 roll      -1          // tile0044 rpgammo
@@ -96,10 +100,11 @@ sprite   573 mdzoff     500000     // tile4377 policelightpole
 sprite   573 roll      -1          // tile4377 policelightpole
 sprite   575 mdzoff     500000     // tile4377 policelightpole
 sprite   575 roll      -1          // tile4377 policelightpole
-sprite   572 angoff     512        // tile4887 pleasewait
+sprite   572 angoff     512        // tile0716 waittobeseated
 sprite   360 angoff     256        // tile0049 shotgunammo
 sprite   360 mdzoff     500000     // tile0049 shotgunammo
 sprite   360 pitch      1          // tile0049 shotgunammo
+sprite  3672 nomdanim              // tile4408 (tile4407 robotmouse)
 sprite  3672 angoff     512        // tile4408 (tile4407 robotmouse)
 sprite  3415 angoff     1024       // tile0054 shield
 sprite   122 angoff     768        // tile4576 shoppingcart
@@ -123,18 +128,22 @@ sprite  3334 mdyoff     25000      // tile0028 shotgunsprite
 sprite  3334 mdzoff     900000     // tile0028 shotgunsprite
 sprite  3334 roll      -1          // tile0028 shotgunsprite
 sprite   325 angoff     1024       // tile0049 shotgunammo (multiplayer)
+sprite   325 mdzoff     1200000    // tile0049 shotgunammo (multiplayer)
+sprite   325 pitch     -1          // tile0049 shotgunammo (multiplayer)
 sprite   427 notmd                 // tile0909 (treetrunk)
+sprite   418 notmd                 // tile4398 (broken speaker)
 sprite   425 notmd                 // tile0909 (treetrunk)
 sprite   398 notmd                 // tile0909 (treetrunk)
+sprite   389 notmd                 // tile4398 (broken speaker)
 sprite   396 notmd                 // tile0909 (treetrunk)
 sprite   434 angoff     1024       // tile0060 accesscard blue
 sprite   574 angoff     512        // tile4377 policelightpole
 sprite  2712 angoff     256        // tile1061 (streetlight)
+sprite  1416 notmd                 // tile1037 (table)
+sprite  1417 notmd                 // tile1037 (table)
 sprite    26 angoff     512        // tile1061 (streetlight)
 sprite  1767 notmd                 // tile1266 (tile1261 teleporter splash)
 sprite  1228 notmd                 // tile1266 (tile1261 teleporter splash)
-sprite  1416 notmd                 // tile1037 (table)
-sprite  1417 notmd                 // tile1037 (table)
 sprite   293 angoff     512        // tile0044 rpgammo (multiplayer)
 sprite   293 mdxoff     20000      // tile0044 rpgammo (multiplayer)
 sprite   293 mdzoff     400000     // tile0044 rpgammo (multiplayer)
@@ -150,12 +159,12 @@ sprite   297 angoff     256        // tile0045 growammo (multiplayer)
 sprite   298 angoff     256        // tile0045 growammo (multiplayer)
 sprite   299 angoff     256        // tile0045 growammo (multiplayer)
 sprite   300 angoff     256        // tile0045 growammo (multiplayer)
-sprite   294 angoff    -512        // tile0042 devistatorammo (multiplayer)
-sprite   294 mdzoff     500000     // tile0042 devistatorammo (multiplayer)
-sprite   294 pitch      1          // tile0042 devistatorammo (multiplayer)
-sprite   296 angoff     512        // tile0042 devistatorammo (multiplayer)
+sprite   296 angoff    -512        // tile0042 devistatorammo (multiplayer)
 sprite   296 mdzoff     500000     // tile0042 devistatorammo (multiplayer)
-sprite   296 pitch      1          // tile0042 devistatorammo (multiplayer)
+sprite   296 pitch     -1          // tile0042 devistatorammo (multiplayer)
+sprite   294 angoff     512        // tile0042 devistatorammo (multiplayer)
+sprite   294 mdzoff     500000     // tile0042 devistatorammo (multiplayer)
+sprite   294 pitch     -1          // tile0042 devistatorammo (multiplayer)
 sprite  2714 angoff     512        // tile1061 (streetlight)
 sprite  2710 angoff     1024       // tile1061 (streetlight)
 sprite  2748 angoff     1024       // tile1061 (streetlight)
@@ -267,5 +276,6 @@ sprite   473 mdzoff     1000000    // tile0028 shotgunsprite
 sprite   473 roll       1          // tile0028 shotgunsprite
 sprite  3050 angoff    -768        // tile0052 sixpack
 sprite   411 notmd                 // tile0909 (treetrunk)
+sprite   404 notmd                 // tile4398 (broken speaker)
 sprite   413 notmd                 // tile0909 (treetrunk)
 sprite   265 angoff     0          // tile0060 accesscard yellow

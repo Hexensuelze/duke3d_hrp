@@ -161,7 +161,7 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "megaton" ] ; then
     cp -pv duke3d.def "${EXTRACTDIR}"
-    cp -pv highres/screen/menu/2492_polymost.png \\
+    cp -pv highres/screen/menu/2492_polymost.png \
       "${EXTRACTDIR}/highres/screen/menu"
   fi
 
