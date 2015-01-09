@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.7  2014-12-05
+# Duke Nukem 3D High Resolution Pack Extractor  v0.7.1  2015-01-09
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -194,8 +194,6 @@ copy_known_files()
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
     cp -pv duke3d.def                   "${EXTRACTDIR}"
     copy_set_version duke3d_hrp.def "${EXTRACTDIR}/duke3d_hrp.def"
-    echo                  "\`*.mhk' -> \`${EXTRACTDIR}/*.mhk'"
-    cp -p  *.mhk                        "${EXTRACTDIR}"
     #cp -pv highres/screen/menu/2492.png "${EXTRACTDIR}/highres/screen/menu"
 
     #cp -pv highres/common/black.png                          "${EXTRACTDIR}/highres/common"
@@ -214,8 +212,6 @@ copy_known_files()
     cp -pv voxelp_art_license.txt "${EXTRACTDIR}"
     cp -pv duke3d.def             "${EXTRACTDIR}"
     cp -pv duke3d_voxel.def       "${EXTRACTDIR}"
-    echo            "\`*.mhk' -> \`${EXTRACTDIR}/*.mhk'"
-    cp -p  *.mhk                  "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "sw_highres" ] ; then
@@ -243,8 +239,6 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "default" ] ; then
     cp -pv  "${DEF_TOP}"          "${EXTRACTDIR}/${DEF_TOP}"
-    echo            "\`*.mhk' -> \`${EXTRACTDIR}/*.mhk'"
-    cp -p  *.mhk                  "${EXTRACTDIR}"
     echo            "\`*.txt' -> \`${EXTRACTDIR}/*.txt'"
     cp -p  *.txt                  "${EXTRACTDIR}"
   fi
@@ -538,8 +532,6 @@ main()
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
     [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "megaton_override" ] ; then
-    echo "### Copying Polymost maphacks ... ###"
-    copy_polymost_mhk
 
     echo "### DukePlus<>Polymost HRP compatibility patch ... ###"
     dukeplus_polymost_hrp_compatibility $DUKEPLUS_POLYMOST_COMPATIBILTY_APPROACH
@@ -547,6 +539,13 @@ main()
     echo "### Attrition<>Polymost HRP compatibility patch ... ###"
     attrition_polymost_hrp_compatibility $ATTRITION_POLYMOST_COMPATIBILTY_APPROACH
   fi
+
+
+  if [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "megaton_override" ]; then
+    echo "### Copying Polymost maphacks ... ###"
+    copy_polymost_mhk
+  fi
+
 
   echo "### Parsing DEF file hierarchy ... ###"
   if [ "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
@@ -585,7 +584,7 @@ main()
   date +%F" "%H:%M:%S
 
   echo "Command line example for creating a ZIP package:"
-  echo "sh -c \"cd ${EXTRACTDIR} ; zip -rqn .zip:.jpg:.png ${EXTRACTDIR}.zip *\""
+  echo "sh -c \"cd ${EXTRACTDIR}; zip -rqn .zip:.jpg:.png ${EXTRACTDIR}.zip *\""
 } # main()
 
 
