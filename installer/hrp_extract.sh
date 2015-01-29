@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.7.1  2015-01-09
+# Duke Nukem 3D High Resolution Pack Extractor  v0.7.2  2015-01-24
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -38,7 +38,7 @@ copy_folders()
   for HRPDIR in . ; do
     if [ -d "${HRPDIR}" ] ; then
       DIRLIST=./HRP_DIRECTORIES.lst
-      find "${HRPDIR}" -type d > ${DIRLIST}
+      find "${HRPDIR}" -type d | grep -v ".\svn" > ${DIRLIST}
       cat ${DIRLIST} | while read DIR; do
         if [ ! -d "${EXTRACTDIR}/${DIR}" ] ; then
           mkdir "${EXTRACTDIR}/${DIR}"
@@ -120,13 +120,13 @@ copy_known_files()
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] ; then
-    cp -pv  duke3d_hrp_polymost.def            "${EXTRACTDIR}"
+    cp -pv           duke3d_hrp_polymost.def   "${EXTRACTDIR}"
     copy_set_version duke3d_hrp_polymost.def   "${EXTRACTDIR}/duke3d_hrp.def"
     cp -pvr installer/polymost_override/dukedc "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "megaton" ] ; then
-    cp -pv duke3d_hrp_megaton.def           "${EXTRACTDIR}"
+    cp -pv           duke3d_hrp_megaton.def "${EXTRACTDIR}"
     copy_set_version duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp.def"
     cp -pv highres/screen/menu/2492_ver_megaton.png \
       "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
@@ -141,6 +141,10 @@ copy_known_files()
     copy_set_version \
       installer/polymost_override/duke3d_hrp_polymost_override.def \
       "${EXTRACTDIR}/duke3d_hrp_polymost.def"
+    cp -pv installer/polymost_override/hrp_polymost_override.txt \
+      "${EXTRACTDIR}"
+    cp -pv installer/polymost_override/2492_ver_polymost_override.png \
+      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
     cp -pvr installer/polymost_override/dukedc "${EXTRACTDIR}"
   fi
 
@@ -151,6 +155,10 @@ copy_known_files()
     copy_set_version \
       installer/megaton_override/duke3d_hrp_megaton_override.def \
       "${EXTRACTDIR}/duke3d_hrp_megaton.def"
+    cp -pv installer/megaton_override/hrp_megaton_override.txt \
+      "${EXTRACTDIR}"
+    cp -pv installer/megaton_override/2492_ver_megaton_override.png \
+      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
     cp -pv  installer/megaton_override/*.bat   "${EXTRACTDIR}"
     cp -pvr installer/megaton_override/dukedc* "${EXTRACTDIR}"
     cp -pvr installer/megaton_override/highres "${EXTRACTDIR}"
@@ -175,20 +183,6 @@ copy_known_files()
   if [ "${HRPTYPE}" = "full" ] ; then
     cp -pv highres/screen/menu/2492_ver_polymost.png \
       "${EXTRACTDIR}/highres/screen/menu"
-  fi
-
-  if [ "${HRPTYPE}" = "polymost_override" ] ; then
-    cp -pv installer/polymost_override/hrp_polymost_override.txt \
-      "${EXTRACTDIR}"
-    cp -pv installer/polymost_override/2492_ver_polymost_override.png \
-      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
-  fi
-
-  if [ "${HRPTYPE}" = "megaton_override" ] ; then
-    cp -pv installer/megaton_override/hrp_megaton_override.txt \
-      "${EXTRACTDIR}"
-    cp -pv installer/megaton_override/2492_ver_megaton_override.png \
-      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
   fi
 
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
@@ -249,13 +243,11 @@ copy_known_files()
 copy_polymost_mhk()
 {
   cp -p maphacks/3drealms_polymost/E?L*.mhk "${EXTRACTDIR}"
+  cp -p maphacks/dc_hrp/DUKEDC*-megaton.mhk "${EXTRACTDIR}"
   rm -f "${EXTRACTDIR}"/*_13d_*.mhk
   # bashism:
-  for i in "${EXTRACTDIR}"/*.mhk ; do mv "$i" "${i/_polymost.mhk}".mhk ; done
-  # Some people prefer unusual setups ... 
-  if [ "${HRPTYPE}" = "polymost" ]||[ "${HRPTYPE}" = "polymost_override" ];then
-    zip -rq9 ${EXTRACTDIR}/polymost_hrp_polymer_maphacks.zip *.mhk
-  fi
+  for i in "${EXTRACTDIR}"/*.mhk ; do mv "$i" "${i/_polymost}" ; done
+  for i in "${EXTRACTDIR}"/*.mhk ; do mv "$i" "${i/\-megaton}" ; done
 } # copy_polymost_mhk()
 
 
@@ -541,11 +533,16 @@ main()
   fi
 
 
-  if [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "megaton_override" ]; then
-    echo "### Copying Polymost maphacks ... ###"
-    copy_polymost_mhk
+  if [ "${HRPTYPE}" = "polymost" ]||[ "${HRPTYPE}" = "polymost_override" ]; then
+    # Some people prefer unusual setups ... 
+    zip -rq9 ${EXTRACTDIR}/polymost_hrp_polymer_maphacks.zip \
+    maphacks/3drealms/*.mhk
   fi
 
+  if [ "${HRPTYPE}" = "megaton" ] || [ "${HRPTYPE}" = "megaton_override" ]; then
+    echo "### Copying maphacks for Megaton ... ###"
+    copy_polymost_mhk
+  fi
 
   echo "### Parsing DEF file hierarchy ... ###"
   if [ "$EXTRACT_COMMENTED_FILES" = "YES" ] ; then
