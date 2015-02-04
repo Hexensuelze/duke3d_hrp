@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.7.2  2015-01-24
+# Duke Nukem 3D High Resolution Pack Extractor  v0.7.3  2015-02-03
 #
 # Author: LeoD
 # License: ISC license : http://opensource.org/licenses/isc-license.txt
@@ -246,8 +246,8 @@ copy_polymost_mhk()
   cp -p maphacks/dc_hrp/DUKEDC*-megaton.mhk "${EXTRACTDIR}"
   rm -f "${EXTRACTDIR}"/*_13d_*.mhk
   # bashism:
-  for i in "${EXTRACTDIR}"/*.mhk ; do mv "$i" "${i/_polymost}" ; done
-  for i in "${EXTRACTDIR}"/*.mhk ; do mv "$i" "${i/\-megaton}" ; done
+  for i in "${EXTRACTDIR}"/*_polymost.mhk ; do mv "$i" "${i/_polymost}" ; done
+  for i in "${EXTRACTDIR}"/*-megaton.mhk  ; do mv "$i" "${i/-megaton}"  ; done
 } # copy_polymost_mhk()
 
 
