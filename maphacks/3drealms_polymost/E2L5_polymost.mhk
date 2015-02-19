@@ -1,115 +1,86 @@
-// Maphacks for Duke3D HRP
-// Level:  E2L5.MAP - "Occupied Territory" (Original Atomic Edition version)
-// Author: Allen H. Blum III
-// mapmd4: 1b43f9dac3533089f15defaa76147909
-// Reviewed by NightFright (February 2012)
+// Maphacks for the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : Occupied Territory
+// Filename : E2L5.MAP
+// Author   : Allen H. Blum III
+// mapmd4   : 1b43f9dac3533089f15defaa76147909 // 1996-12-11 (1.3D + Atomic GRP)
+
+// Curr. HRP: r5.3.665
+
+sprite   372 angoff     640        // tile0028 shotgunsprite
+sprite   372 mdzoff     400000     // tile0028 shotgunsprite
+sprite   372 pitch     -1          // tile0028 shotgunsprite
+sprite   303 angoff    -640        // tile0049 shotgunammo
+sprite   133 angoff     384        // tile1323 fem5 polebabe
+sprite    89 angoff     256        // tile0052 sixpack
+sprite   387 angoff     512        // tile0040 ammo
+sprite   365 angoff    -512        // tile0022 chaingunsprite
+sprite   366 angoff     1024       // tile0053 firstaid
+sprite   366 mdzoff     300000     // tile0053 firstaid
+sprite   366 pitch     -1          // tile0053 firstaid
+sprite   366 roll      -2          // tile0053 firstaid
+sprite   429 angoff     768        // tile0054 shield
+sprite   317 mdzoff     500000     // tile0100 atomichealth
+sprite   317 roll      -1          // tile0100 atomichealth
+sprite   388 angoff    -768        // tile0052 sixpack
+sprite   385 angoff    -512        // tile0044 rpgammo
+sprite   389 angoff    -512        // tile0041 batteryammo
+sprite    71 angoff    -256        // tile0023 rpgsprite
+sprite   397 angoff     512        // tile0044 rpgammo
+sprite    24 angoff     512        // tile0052 sixpack
+sprite    25 angoff     512        // tile0052 sixpack
+sprite    26 angoff     832        // tile0049 shotgunammo
+sprite    26 mdzoff     100000     // tile0049 shotgunammo
+sprite    26 roll       7          // tile0049 shotgunammo
+sprite    27 angoff     832        // tile0049 shotgunammo
+sprite    27 mdzoff     100000     // tile0049 shotgunammo
+sprite    27 roll       6          // tile0049 shotgunammo
+sprite   390 angoff     512        // tile0041 batteryammo
+sprite   376 angoff     512        // tile0057 jetpack (multiplayer)
+sprite   430 angoff     1024       // tile0052 sixpack
+sprite    91 angoff    -768        // tile0037 freezeammo (multiplayer)
+sprite   373 angoff    -768        // tile0055 steroids
+sprite   392 angoff    -256        // tile0040 ammo
+sprite   391 angoff     1024       // tile0049 shotgunammo
+sprite    79 angoff    -384        // tile0052 sixpack
+sprite   426 angoff     512        // tile0059 heatsensor
+sprite   374 angoff     1024       // tile0046 crystalammo
+sprite   374 mdzoff     500000     // tile0046 crystalammo
+sprite   374 roll      -1          // tile0046 crystalammo
+sprite   329 angoff     896        // tile1294 podfem1
+sprite   375 angoff    -512        // tile0046 crystalammo
+sprite   375 mdzoff    -8000       // tile0046 crystalammo
+sprite   375 roll      -128        // tile0046 crystalammo
+sprite   395 angoff    -896        // tile0052 sixpack
+sprite    94 angoff     864        // tile0047 hbombammo
+sprite   377 angoff     512        // tile0047 hbombammo
+sprite   377 mdzoff     800000     // tile0047 hbombammo
+sprite   377 roll      -1          // tile0047 hbombammo
+sprite   346 mdzoff     400000     // tile0029 devistatorsprite
+sprite   346 pitch      1          // tile0029 devistatorsprite
+sprite   351 angoff     256        // tile1247 seenine
+sprite   350 angoff    -384        // tile1247 seenine
+sprite   349 angoff     192        // tile1247 seenine
+sprite   427 angoff     1024       // tile0059 heatsensor
+sprite   299 angoff     1024       // tile0060 accesscard red
+sprite    78 angoff     1024       // tile0042 devistatorammo
+sprite    78 roll       176        // tile0042 devistatorammo
+sprite   400 roll      -176        // tile0042 devistatorammo
+sprite   369 angoff     512        // tile0025 shrinkersprite (multiplayer)
+sprite    96 angoff     1024       // tile0027 tripbombsprite
+sprite   110 angoff     512        // tile0060 accesscard blue
+sprite   393 angoff    -512        // tile0040 ammo
+sprite    90 angoff    -256        // tile0024 freezesprite (multiplayer)
+sprite   370 angoff    -128        // tile0053 firstaid
+sprite    67 angoff    -448        // tile0044 rpgammo
+sprite   394 angoff     256        // tile0052 sixpack
+sprite    69 angoff    -512        // tile0052 sixpack
+sprite    68 angoff     768        // tile0042 devistatorammo
+sprite   254 notmd                 // tile0133 slotdoor
+sprite    92 angoff     768        // tile0037 freezeammo (multiplayer)
+sprite    97 angoff     1024       // tile0047 hbombammo (multiplayer)
+sprite   371 angoff     1024       // tile0052 sixpack
+sprite    66 angoff     512        // tile0052 sixpack
 
 
-
-// CHARACTERS
-
-// Slime babes
-sprite 133 angoff 384
-sprite 329 angoff 896
-
-
-
-// PROPS
-
-// C-9 cannisters
-sprite 349 angoff 196
-sprite 350 angoff -384
-sprite 351 angoff 256
-
-
-
-// ITEMS/POWERUPS
-
-// Armor
-sprite 429 angoff 768
-
-// Health +30
-sprite 24 angoff 512
-sprite 25 angoff 512
-sprite 66 angoff 512
-sprite 69 angoff -512
-sprite 79 angoff -384
-sprite 89 angoff 256
-sprite 371 angoff 1024
-sprite 388 angoff -512
-sprite 394 angoff 256
-sprite 395 angoff -896
-sprite 430 angoff 1024
-
-// Jetpack
-sprite 376 angoff 512 // Dukematch only
-
-// Keycards (B/R)
-sprite 110 angoff 512
-sprite 299 angoff 1024
-
-// Medkit
-sprite 366 angoff 256
-sprite 370 angoff -256
-
-// Nightvision
-sprite 426 angoff 512
-sprite 427 angoff 1024
-
-// Steroids 
-sprite 373 angoff -768
-
-
-
-// WEAPONS/AMMO
-
-// Pistol & ammo
-sprite 387 angoff 512
-sprite 392 angoff -512
-sprite 393 angoff -512
-
-// Shotgun & ammo
-sprite 26 angoff 1024
-sprite 27 angoff 1024
-sprite 303 angoff -512
-sprite 372 angoff -384
-sprite 391 angoff 1024
-
-// Chaingun & ammo
-sprite 365 angoff -512
-sprite 389 angoff -512
-
-// RPG & ammo
-sprite 67 angoff -512
-sprite 385 angoff -512
-sprite 397 angoff 512
-
-// Pipebombs
-sprite 94 angoff 768
-sprite 97 angoff 1024 // Dukematch only
-sprite 377 angoff 768
-
-// Shrinker & ammo
-sprite 369 angoff 512 // Dukematch only
-sprite 374 angoff -768
-sprite 375 angoff -768
-
-// Devastator & ammo
-sprite 68 angoff 768
-sprite 78 angoff 512
-sprite 400 angoff 512
-
-// Freezethrower & ammo
-sprite 90 angoff 256 // Dukematch only
-sprite 92 angoff 768 // Dukematch only
-
-
-
-// OVERRIDE
-
-// Switches to be hidden
-sprite 254 notmd
-
-
-
-// LIGHTS 
+// LIGHTS
