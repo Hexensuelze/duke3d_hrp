@@ -1,0 +1,133 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : JMW-DM3
+// Filename : JMW-DM3.map
+// Author   : JMW
+// mapmd4   : f5f1cc526291cd78fa754a3fe886c707 // 2014-12-15
+
+//         <-> JMW-SP2.mhk
+
+
+// Curr. HRP: r5.3.667
+
+// mhk diff sync 1
+sprite     7 angoff    -256        // tile1353 spacemarine
+sprite     7 mdxoff    -10000      // tile1353 spacemarine
+sprite     7 mdzoff     1000000    // tile1353 spacemarine
+sprite     7 pitch     -5          // tile1353 spacemarine
+sprite     7 roll       1          // tile1353 spacemarine
+sprite     8 notmd                 // tile1226 bloodpool
+sprite     9 angoff    -512        // tile1336 fem8 (impaled babe)
+sprite   188 angoff     512        // tile0041 batteryammo
+sprite   187 angoff     1024       // tile0022 chaingunsprite
+sprite   186 angoff     512        // tile0041 batteryammo
+sprite    68 angoff     1024       // tile0044 rpgammo
+sprite   191 angoff    -256        // tile0049 shotgunammo
+sprite   192 angoff     640        // tile0028 shotgunsprite
+sprite    12 nomdanim              // tile1326 (tile1325 fem4 cavedancer)
+sprite   189 angoff     256        // tile0049 shotgunammo
+sprite   189 pitch     -32         // tile0049 shotgunammo
+sprite   189 roll       16         // tile0049 shotgunammo
+sprite    34 angoff    -512        // tile0029 devistatorsprite
+sprite    36 angoff     256        // tile0049 shotgunammo
+sprite    31 angoff     128        // tile0042 devistatorammo
+sprite    33 angoff    -128        // tile0042 devistatorammo
+sprite    35 angoff    -256        // tile0053 firstaid
+sprite    71 nomdanim              // tile4876 (tile4874 woman)
+sprite    72 nomdanim              // tile1330 (tile1325 fem4 cavedancer)
+sprite    72 angoff     1024       // tile1330 (tile1325 fem4 cavedancer)
+sprite    26 angoff     1024       // tile4560 robotdog2
+sprite    26 mdzoff     1500000    // tile4560 robotdog2
+sprite    26 pitch     -1          // tile4560 robotdog2
+sprite    10 mdzoff     500000     // tile1323 fem5 polebabe
+sprite    10 roll      -1          // tile1323 fem5 polebabe
+sprite    11 mdxoff     30000      // tile1334 fem6 padbabe
+sprite    11 pitch     -1          // tile1334 fem6 padbabe
+sprite    14 angoff     512        // tile1323 fem5 polebabe
+sprite   126 mdzoff     650000     // tile1323 fem5 polebabe
+sprite   126 roll       1          // tile1323 fem5 polebabe
+sprite   132 angoff     0          // tile0603 naked1 hangbabe // Polymer HRP
+//sprite   132 angoff     512        // tile0603 naked1 hangbabe // Polymost HRP
+sprite   128 mdzoff     650000     // tile1323 fem5 polebabe
+sprite   128 roll       1          // tile1323 fem5 polebabe
+sprite   127 angoff     0          // tile0603 naked1 hangbabe // Polymer HRP
+//sprite   127 angoff     512        // tile0603 naked1 hangbabe // Polymost HRP
+sprite   139 angoff     512        // tile1347 fetusjib
+sprite   140 angoff     896        // tile1357 (terminator arm)
+sprite   140 mdyoff    -40         // tile1357 (terminator arm)
+sprite   140 mdzoff    -2400       // tile1357 (terminator arm)
+sprite   140 roll      -336        // tile1357 (terminator arm)
+sprite   141 angoff     896        // tile1358 fetus
+sprite   195 angoff     768        // tile0054 shield
+sprite   130 angoff    -512        // tile0051 cola
+sprite   131 angoff    -512        // tile0026 heavyhbomb
+sprite   145 angoff     512        // tile0049 shotgunammo
+sprite   144 angoff    -512        // tile0051 cola
+sprite   133 angoff     1024       // tile1323 fem5 polebabe
+sprite   134 angoff     768        // tile1323 fem5 polebabe
+sprite   129 angoff     512        // tile1323 fem5 polebabe
+sprite   207 angoff     1024       // tile0024 freezesprite
+sprite    24 angoff     1024       // tile0603 naked1 hangbabe // Polymer HRP
+//sprite    24 angoff    -512        // tile0603 naked1 hangbabe // Polymost HRP
+sprite    25 angoff    -512        // tile0603 naked1 hangbabe // Polymer HRP
+//sprite    25 angoff     0          // tile0603 naked1 hangbabe // Polymost HRP
+sprite    23 angoff     1024       // tile1294 podfem1
+sprite   208 angoff     512        // tile0037 freezeammo
+sprite    22 angoff    -512        // tile1294 podfem1
+sprite    21 angoff    -512        // tile0603 naked1 hangbabe // Polymer HRP
+//sprite    21 angoff     0          // tile0603 naked1 hangbabe // Polymost HRP
+sprite    20 angoff     0          // tile0603 naked1 hangbabe // Polymer HRP
+//sprite    20 angoff     512        // tile0603 naked1 hangbabe // Polymost HRP
+sprite   211 angoff    -512        // tile1348 holoduke
+sprite   148 angoff    -384        // tile2453 badguyicon
+sprite   147 angoff    -640        // tile2453 badguyicon
+sprite    70 nomdanim              // tile4876 (tile4874 woman)
+sprite    69 nomdanim              // tile1330 (tile1325 fem4 cavedancer)
+sprite    69 angoff     1024       // tile1330 (tile1325 fem4 cavedancer)
+sprite    79 angoff     256        // tile0487 spaceshuttle
+sprite   204 angoff    -336        // tile0026 heavyhbomb
+sprite   204 mdzoff     900000     // tile0026 heavyhbomb
+sprite   204 pitch     -1          // tile0026 heavyhbomb
+sprite   205 angoff    -512        // tile0027 tripbombsprite
+sprite   228 angoff     256        // tile0028 shotgunsprite
+sprite   229 angoff     768        // tile0049 shotgunammo
+sprite    50 angoff     1024       // tile1347 fetusjib
+sprite    46 angoff     1024       // tile2453 badguyicon
+sprite    49 angoff     1024       // tile2453 badguyicon
+sprite    48 angoff     1024       // tile2453 badguyicon
+sprite    47 angoff     1024       // tile2453 badguyicon
+sprite    56 mdxoff     15000      // tile0679 (battlelord holo)
+sprite    56 pitch     -1          // tile0679 (battlelord holo)
+sprite    55 angoff     1024       // tile2452 dukeicon
+sprite    51 angoff     1024       // tile2453 badguyicon
+sprite    54 angoff     1024       // tile2453 badguyicon
+sprite    53 angoff     1024       // tile2453 badguyicon
+sprite    52 angoff     1024       // tile2453 badguyicon
+sprite   227 angoff     512        // tile0041 batteryammo
+sprite   226 angoff     840        // tile0022 chaingunsprite
+sprite   226 mdzoff     900000     // tile0022 chaingunsprite
+sprite   226 roll       1          // tile0022 chaingunsprite
+sprite   201 angoff     336        // tile0026 heavyhbomb
+sprite   201 mdzoff     900000     // tile0026 heavyhbomb
+sprite   201 pitch     -1          // tile0026 heavyhbomb
+sprite   200 angoff     512        // tile0027 tripbombsprite
+sprite   212 angoff    -512        // tile0023 rpgsprite
+sprite   213 angoff    -512        // tile0044 rpgammo
+sprite   110 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+
+
+
+sprite   214 angoff     384        // tile0027 tripbombsprite
+sprite   215 angoff     512        // tile0027 tripbombsprite
+
+
+
+sprite   112 angoff    -704        // tile0685 cameralight
+sprite   114 angoff     512        // tile0686 moviecamera
+sprite   113 angoff    -576        // tile0685 cameralight
+sprite   223 angoff     512        // tile1395 fem7 dancer
+sprite   100 angoff     1024       // tile0956 bottle3
+sprite   224 angoff     1024       // tile1395 fem7 dancer
+sprite    95 angoff    -960        // tile4864 fem10 sitting babes
+sprite   120 angoff    -512        // tile1162 bottle15
+sprite   225 angoff     640        // tile1312 fem1 stripper
