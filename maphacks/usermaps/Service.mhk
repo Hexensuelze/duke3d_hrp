@@ -5,19 +5,22 @@
 // Author   : Reginukem
 // mapmd4   : 42697676172277ee2518bad324a05ed5 // 2003-10-17
 // mapmd4   : 03f92873ebb0aebe4cfd660ccf85ed68 // 2010-03-21 (Attrition)
+// mapmd4   : b9d57372d6928663e76ee1038a0d9205 // 2009-10-11 (AMC TC)
 
-// Curr. HRP: r5.3.592
+// Curr. HRP: r5.3.669
 
 sprite   468 angoff    -128        // tile0028 shotgunsprite
 sprite   469 angoff    -256        // tile0049 shotgunammo
 sprite   470 angoff    -512        // tile0054 shield
 sprite   470 mdzoff     500000     // tile0054 shield
 sprite   470 pitch     -1          // tile0054 shield
+sprite   246 away1                 // tile0612 (restricted area sign)
 sprite   541 angoff     1024       // tile0040 ammo
 sprite   542 angoff     1024       // tile0040 ammo
 sprite   543 angoff     1024       // tile0040 ammo
 sprite   544 angoff     1024       // tile0040 ammo
 sprite   255 angoff     1024       // tile0053 firstaid
+sprite   173 away1                 // tile0612 (restricted area sign)
 sprite   555 angoff    -256        // tile0047 hbombammo
 sprite   476 angoff     256        // tile0052 sixpack (multiplayer)
 sprite   473 angoff    -512        // tile0052 sixpack
@@ -38,23 +41,42 @@ sprite   160 angoff     1024       // tile0569 toilet
 sprite   526 angoff     512        // tile0049 shotgunammo (multiplayer)
 sprite   483 angoff     512        // tile0059 heatsensor
 sprite   362 angoff     512        // tile0053 firstaid
+sprite    97 away1                 // tile0612 (restricted area sign)
 sprite   521 angoff    -512        // tile0049 shotgunammo
 sprite   484 angoff     256        // tile0041 batteryammo (multiplayer)
 sprite   485 angoff     512        // tile0022 chaingunsprite (multiplayer)
 sprite   485 mdzoff     700000     // tile0022 chaingunsprite (multiplayer)
 sprite   485 roll       1          // tile0022 chaingunsprite (multiplayer)
+sprite   345 mdxoff     15000      // tile0621 camera1
+sprite   345 mdzoff     200000     // tile0621 camera1
+sprite   345 pitch      1          // tile0621 camera1
 sprite   486 angoff     512        // tile0054 shield
 sprite   552 angoff     512        // tile0021 firstgunsprite
 sprite   481 angoff     1024       // tile0040 ammo
 sprite   482 angoff     1024       // tile0040 ammo
 sprite    36 angoff     768        // tile0051 cola
 sprite   491 angoff     512        // tile0024 freezesprite (multiplayer)
+sprite   522 mdxoff     10000      // tile0621 camera1
+sprite   522 mdzoff     200000     // tile0621 camera1
+sprite   522 pitch      1          // tile0621 camera1
+sprite   462 mdxoff     15000      // tile0621 camera1
+sprite   462 mdzoff     200000     // tile0621 camera1
+sprite   462 pitch      1          // tile0621 camera1
+sprite    62 mdxoff     5000       // tile0621 camera1
+sprite    62 pitch      1          // tile0621 camera1
 sprite   489 angoff    -512        // tile0051 cola
 sprite   454 angoff    -512        // tile0058 (spacesuit)
 sprite   456 angoff    -512        // tile0058 (spacesuit)
 sprite   530 angoff     512        // tile0047 hbombammo (multiplayer)
 sprite    15 angoff     256        // tile0054 shield
-sprite    32 angoff    -512        // tile0044 rpgammo
+sprite    32 angoff    -256        // tile0044 rpgammo
+sprite     7 angoff     768        // tile0027 tripbombsprite
+sprite     6 angoff     768        // tile0027 tripbombsprite
+sprite     5 angoff     256        // tile0027 tripbombsprite
+sprite     4 angoff     256        // tile0027 tripbombsprite
+sprite   487 angoff     1024       // tile0023 rpgsprite
+sprite   487 mdzoff     900000     // tile0023 rpgsprite
+sprite   487 pitch     -1          // tile0023 rpgsprite
 sprite   494 angoff     768        // tile0037 freezeammo
 sprite   495 angoff     768        // tile0037 freezeammo
 sprite   496 angoff    -768        // tile0051 cola

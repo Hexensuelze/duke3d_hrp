@@ -4,12 +4,15 @@
 // Filename : U-BOAT.MAP
 // Author   : James Duncan
 // mapmd4   : 3d4cb270af572c55d67dba8b1f2d6605 // 1998-03-29
+// mapmd4   : 1e2b2f3bf846b64b15831de2658fe232 // 2009-10-11 (AMC TC)
 
 // Curr. HRP: r5.3.635
 
 sprite   957 angoff     1024       // tile0028 shotgunsprite
 sprite   958 angoff     1024       // tile0049 shotgunammo
 sprite  1018 angoff    -512        // tile0057 jetpack (multiplayer)
+sprite   394 mdxoff     10000      // tile0621 camera1
+sprite   394 pitch      1          // tile0621 camera1
 sprite    92 angoff    -256        // tile0056 airtank
 sprite    91 angoff     896        // tile0028 shotgunsprite
 sprite    90 angoff    -768        // tile0049 shotgunammo
@@ -18,6 +21,7 @@ sprite   956 angoff     640        // tile0049 shotgunammo
 sprite   358 angoff     768        // tile0916 fireext
 sprite   358 mdzoff     150000     // tile0916 fireext
 sprite   358 pitch      1          // tile0916 fireext
+sprite   325 away1                 // tile0599 (radioactive materials sign)
 sprite   969 angoff    -512        // tile0052 sixpack
 sprite   970 angoff     768        // tile0052 sixpack
 sprite   972 mdzoff     500000     // tile0041 batteryammo
@@ -96,6 +100,7 @@ sprite    25 mdzoff    -4000       // tile0041 batteryammo
 sprite    25 roll      -80         // tile0041 batteryammo
 sprite   985 angoff     512        // tile0023 rpgsprite
 sprite     0 angoff     1024       // tile0047 hbombammo
+sprite     1 away1                 // tile1057 (danger explosives)
 sprite     2 angoff     512        // tile0052 sixpack
 sprite     6 mdzoff     100000     // tile0056 airtank
 sprite     6 pitch      1          // tile0056 airtank
@@ -170,6 +175,7 @@ sprite   994 angoff     256        // tile0052 sixpack
 sprite   998 angoff     768        // tile0052 sixpack
 sprite   999 mdzoff     200000     // tile0059 heatsensor
 sprite   999 roll      -1          // tile0059 heatsensor
+sprite   326 away1                 // tile0599 (radioactive materials sign)
 sprite   840 angoff     0          // tile0060 accesscard red
 sprite     5 angoff     640        // tile0056 airtank
 sprite  1001 angoff     768        // tile0049 shotgunammo

@@ -5,8 +5,12 @@
 // Author   : Cedric 'Zaxtor Znort' Lutes
 // mapmd4   : d76b452b0668a2175a1a49537ad6d6a9 // 2003-11-22
 
+
+//         <-> UNDER_FT-amctc.mhk
+
 // Curr. HRP: r5.3.635
 
+// 0-280 / / 469-2028 / 2055-3474 / 3476-3777
 sprite  2223 angoff    -512        // tile0021 firstgunsprite
 sprite  2223 mdzoff     900000     // tile0021 firstgunsprite
 sprite  2223 pitch      1          // tile0021 firstgunsprite
@@ -18,8 +22,25 @@ sprite  2220 angoff    -512        // tile0049 shotgunammo
 sprite  2221 angoff    -512        // tile0049 shotgunammo
 sprite  2222 angoff    -512        // tile0049 shotgunammo
 sprite   584 angoff    -512        // tile0040 ammo
+sprite   605 mdzoff     450000     // tile0619 pipe1
+sprite   605 pitch      2          // tile0619 pipe1
+sprite   606 angoff     1024       // tile0619 pipe1
+sprite   606 mdzoff     300000     // tile0619 pipe1
+sprite   606 pitch     -3          // tile0619 pipe1
+sprite   607 mdzoff     900000     // tile0619 pipe1
+sprite   607 pitch      1          // tile0619 pipe1
+sprite   607 roll      -1          // tile0619 pipe1
+sprite   604 mdzoff     450000     // tile0619 pipe1
+sprite   604 pitch     -2          // tile0619 pipe1
+sprite   603 angoff     1024       // tile0619 pipe1
+sprite   603 mdzoff     900000     // tile0619 pipe1
+sprite   603 pitch      1          // tile0619 pipe1
+sprite   608 mdzoff     900000     // tile0619 pipe1
+sprite   608 pitch     -1          // tile0619 pipe1
+sprite   608 roll      -1          // tile0619 pipe1
 sprite  2995 notmd                 // tile0168 dipswitch3
 sprite  2874 angoff     1024       // tile1238 explodingbarrel
+sprite  2864 angoff     512        // tile0996 pipe4
 sprite  2872 angoff    -768        // tile1238 explodingbarrel
 sprite  2873 angoff     768        // tile1238 explodingbarrel
 sprite   555 angoff     512        // tile0041 batteryammo
@@ -69,6 +90,44 @@ sprite   219 angoff     1024       // tile1227 nukebarrel
 sprite   221 angoff     768        // tile1227 nukebarrel
 sprite   216 angoff    -384        // tile1227 nukebarrel
 sprite   215 angoff     1024       // tile1227 nukebarrel
+sprite  1546 mdzoff     350000     // tile0977 genericpole
+sprite  1546 roll       1          // tile0977 genericpole
+sprite  1547 mdzoff     350000     // tile0977 genericpole
+sprite  1547 roll       1          // tile0977 genericpole
+sprite  1542 mdzoff     350000     // tile0977 genericpole
+sprite  1542 roll      -1          // tile0977 genericpole
+sprite  1543 mdzoff     350000     // tile0977 genericpole
+sprite  1543 roll      -1          // tile0977 genericpole
+sprite  1548 mdzoff     350000     // tile0977 genericpole
+sprite  1548 pitch      1          // tile0977 genericpole
+sprite  1548 roll       1          // tile0977 genericpole
+sprite  1549 mdzoff     350000     // tile0977 genericpole
+sprite  1549 pitch      1          // tile0977 genericpole
+sprite  1549 roll       1          // tile0977 genericpole
+sprite  1540 mdzoff     350000     // tile0977 genericpole
+sprite  1540 pitch      1          // tile0977 genericpole
+sprite  1541 mdzoff     350000     // tile0977 genericpole
+sprite  1541 pitch      1          // tile0977 genericpole
+sprite  1544 mdzoff     350000     // tile0977 genericpole
+sprite  1544 pitch     -1          // tile0977 genericpole
+sprite  1545 mdzoff     350000     // tile0977 genericpole
+sprite  1545 pitch     -1          // tile0977 genericpole
+sprite  1552 mdzoff     350000     // tile0977 genericpole
+sprite  1552 pitch      1          // tile0977 genericpole
+sprite  1553 mdzoff     350000     // tile0977 genericpole
+sprite  1553 pitch      1          // tile0977 genericpole
+sprite  1550 mdzoff     350000     // tile0977 genericpole
+sprite  1550 pitch     -1          // tile0977 genericpole
+sprite  1551 mdzoff     350000     // tile0977 genericpole
+sprite  1551 pitch     -1          // tile0977 genericpole
+sprite  1556 mdzoff     350000     // tile0977 genericpole
+sprite  1556 pitch      1          // tile0977 genericpole
+sprite  1557 mdzoff     350000     // tile0977 genericpole
+sprite  1557 pitch      1          // tile0977 genericpole
+sprite  1554 mdzoff     350000     // tile0977 genericpole
+sprite  1554 pitch     -1          // tile0977 genericpole
+sprite  1555 mdzoff     350000     // tile0977 genericpole
+sprite  1555 pitch     -1          // tile0977 genericpole
 sprite  3056 notmd                 // tile0168 dipswitch3
 sprite  3364 angoff     512        // tile1229 nukebarrelleaked
 sprite  3359 angoff     1024       // tile1238 explodingbarrel
@@ -114,6 +173,7 @@ sprite  2791 angoff     256        // tile0041 batteryammo
 sprite  2791 mdzoff     100000     // tile0041 batteryammo
 sprite  2791 pitch     -1          // tile0041 batteryammo
 sprite  2791 roll       3          // tile0041 batteryammo
+// mhk diff sync 1
 sprite  2792 angoff     256        // tile0041 batteryammo
 sprite  2792 mdzoff     200000     // tile0041 batteryammo
 sprite  2792 roll       1          // tile0041 batteryammo
@@ -134,7 +194,7 @@ sprite  2785 angoff    -512        // tile0027 tripbombsprite
 sprite  2786 angoff    -768        // tile0027 tripbombsprite
 sprite  2784 angoff     1024       // tile0027 tripbombsprite
 sprite  2770 angoff    -512        // tile0047 hbombammo
-sprite  2770 mdzoff     700000     // tile0047 hbombammo
+sprite  2770 mdzoff     300000     // tile0047 hbombammo
 sprite  2770 pitch     -1          // tile0047 hbombammo
 sprite  2761 notmd                 // tile0168 dipswitch3
 sprite   752 angoff     640        // tile0052 sixpack
@@ -148,7 +208,7 @@ sprite  1119 nomdanim              // tile0553 (tile0551 domelite)
 sprite  1125 nomdanim              // tile0553 (tile0551 domelite)
 sprite   158 angoff     0          // tile0060 accesscard blue
 sprite  3777 angoff    -320        // tile0055 steroids
-sprite  3652 angoff     896        // tile0060 accesscard blue
+sprite  3652 angoff     896        // tile0060 accesscard blue  
 sprite  1184 angoff    -512        // tile0049 shotgunammo
 sprite  2940 angoff     512        // tile1321 fem3 hooker
 sprite  2940 mdzoff     1500000    // tile1321 fem3 hooker

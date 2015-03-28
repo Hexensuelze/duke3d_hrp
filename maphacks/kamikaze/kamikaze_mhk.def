@@ -1,13 +1,16 @@
 //
 // User Maps by Duke64 aka Kamikaze Nukem
 //
-/*
+
 mapinfo {
    maptitle "Duke64Holiday"
    mapfile  "Duke64Holiday.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   6fc044e5df36d349812cdb2a3e37e600 // 2014-12-24
-   mhkfile  "maphacks/kamikaze/Duke64Holiday.mhk"
+   mapfile  "Duke64Holiday-nw_plus.map"
+   mapmd4   c3fc615c15c2ac2945999877702b4038 // 2015-03-18 (NW Plus version)
+   //mhkfile  "maphacks/kamikaze/Duke64Holiday.mhk"
+   mhkfile  "maphacks/nw_hrp/Duke64Holiday.mhk" // NW_HRP recommended
 }
 
 mapinfo {
@@ -15,7 +18,8 @@ mapinfo {
    mapfile  "Duke64HolidayDM.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   c2927f31972f636df4d1b23f7f12ac01 // 2014-12-25
-   mhkfile  "maphacks/kamikaze/Duke64HolidayDM.mhk"
+   //mhkfile  "maphacks/kamikaze/Duke64HolidayDM.mhk"
+   mhkfile  "maphacks/nw_hrp/Duke64HolidayDM.mhk" // NW_HRP recommended
 }
 
 mapinfo {
@@ -24,18 +28,17 @@ mapinfo {
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   b571e6711cc618fc64bb8c8557ca07a6 // 2015-01-10 03:37 (Megaton W.)
    mapmd4   f23364f25527c42009815b41a0a15dac // 2015-01-10 13:05
-
    mapmd4   a24f4c7a732dce9139a9bda78c4756ee // 2015-01-11
-   mhkfile  "maphacks/kamikaze/DukensteinRevisit.mhk"
+   mhkfile  "maphacks/kamikaze/DukensteinRevisit-2015-01-10.mhk"
 }
 mapinfo {
    maptitle "Dukenstein Revisited"
    mapfile  "E1L1.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   7678e8de9669d72a35b798e0ceba2ab1 // 2015-01-25
-   mhkfile  "maphacks/kamikaze/DukensteinRevisit.mhk"
+   mhkfile  "maphacks/kamikaze/DukensteinRevisit-2015-01-25.mhk"
 }
-*/
+
 mapinfo {
    maptitle "Forever Doom"
    mapfile  "ForeverDoom.map"
@@ -60,24 +63,23 @@ mapinfo {
    mapmd4   63aee99f503341fbdd07d5850ceaba80 // 2014-04-04
    mhkfile  "maphacks/kamikaze/MeanStreets.mhk"
 }
-/*
+
 mapinfo {
    maptitle "Noctis Labyrinthus Revisited"
    mapfile  "RevisitNoctis.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   d127967a8ba6d393040d2e5e878ad213 // 2015-01-16
-
    mapmd4   53df224117e4da4f9a7b75e0c11a66a7 // 2015-01-17
-   mhkfile  "maphacks/kamikaze/RevisitNoctis.mhk"
+   mhkfile  "maphacks/kamikaze/RevisitNoctis-2015-01-16.mhk"
 }
 mapinfo {
    maptitle "Noctis Labyrinthus Revisited"
    mapfile  "E1L2.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   b0838f6620b64e479954f5d68ae5e339 // 2015-01-25
-   mhkfile  "maphacks/kamikaze/RevisitNoctis.mhk"
+   mhkfile  "maphacks/kamikaze/RevisitNoctis-2015-01-25.mhk"
 }
-*/
+
 mapinfo {
    maptitle "Painkiller"
    mapfile  "64Painkiller.map"
@@ -99,22 +101,17 @@ mapinfo {
    mapmd4   91286415da3d7ed8a6361362e821efed // 2014-10-31
    mhkfile  "maphacks/kamikaze/64PainkillerMegaton.mhk"
 }
-/*
+
 mapinfo {
    maptitle "Shaft:Revisited"
    mapfile  "ShaftRevisited.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   44d2d1da7fcf58c1dead1a385dce7f88 // 2015-01-23
-   mhkfile  "maphacks/kamikaze/ShaftRevisited.mhk"
-}
-mapinfo {
-   maptitle "Shaft:Revisited"
    mapfile  "E1L3.map"
-   //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   eb8d3faa5279681e86c706c823b3f089 // 2015-01-25
    mhkfile  "maphacks/kamikaze/ShaftRevisited.mhk"
 }
-*/
+
 mapinfo {
    maptitle "Turok"
    mapfile  "Turok.map"
@@ -136,19 +133,25 @@ mapinfo {
    mapmd4   fc4fe1da1475410cae8bef07b0b0a113 // 2014-07-08
    mhkfile  "maphacks/kamikaze/TurokDM.mhk"
 }
-/*
+
 mapinfo {
    maptitle "Turok 2"
    mapfile  "Turok2.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   56ad54db0ddb349d7d3b8432e158b287 // 2014-11-28 03:35
-   mhkfile  "maphacks/kamikaze/Turok2-2014-11-28.mhk"
+   mhkfile  "maphacks/kamikaze/Turok2-2014-11-28-a.mhk"
 }
 mapinfo {
    maptitle "Turok 2"
    mapfile  "Turok2.map"
    //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   6c20d06789eb6227a4249aa7ed5ff451 // 2014-11-28 11:59
+   mhkfile  "maphacks/kamikaze/Turok2-2014-11-28-b.mhk"
+}
+mapinfo {
+   maptitle "Turok 2"
+   mapfile  "Turok2.map"
+   //author "Duke64Nukem aka Kamikaze Nukem"
    mapmd4   cc713822337497a3fb8303d3462bd3f0 // 2014-11-29
    mhkfile  "maphacks/kamikaze/Turok2-2014-11-29.mhk"
 }
@@ -159,7 +162,7 @@ mapinfo {
    mapmd4   15cb2cb57389aa81563e4c533998c690 // 2014-11-28
    mhkfile  "maphacks/kamikaze/Turok2dm.mhk"
 }
-*/
+
 mapinfo {
    maptitle "Wang Nukem"
    mapfile  "WangNukem.map"
