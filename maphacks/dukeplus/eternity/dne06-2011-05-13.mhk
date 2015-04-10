@@ -1,0 +1,155 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : Welcome Party
+// Filename : dne06.map
+// Author   : Dan 'DanM' Mason
+// mapmd4   : 52b825b5a7a1af83e0a504c7feee2c73 // 2011-05-13 (v1.3D / 1.03)
+
+//         <-> dne06-2014-04-18.mhk
+
+// Curr. HRP: r5.3.565
+
+//sprite    46 nomdanim              // tile0408 (tile0407 fansprite)
+sprite    46 mdzoff     300000     // tile0408 (tile0407 fansprite)
+sprite    46 pitch      1          // tile0408 (tile0407 fansprite)
+sprite   335 angoff     1024       // tile0022 chaingunsprite
+sprite  1687 angoff    -960        // tile0041 batteryammo
+sprite    17 angoff     768        // tile1238 explodingbarrel
+//sprite    57 nomdanim              // tile0408 (tile0407 fansprite)
+sprite   515 angoff     1024       // tile0052 sixpack
+sprite   240 angoff    -768        // tile1238 explodingbarrel
+sprite  1716 angoff     256        // tile0052 sixpack
+sprite   215 nomdanim              // tile0974 oceansprite4
+//sprite    25 nomdanim              // tile0408 (tile0407 fansprite)
+sprite  1620 angoff    -512        // tile1238 explodingbarrel
+sprite  1620 mdxoff     37000      // tile1238 explodingbarrel
+sprite  1620 pitch      1          // tile1238 explodingbarrel
+sprite    12 mdxoff     37000      // tile1238 explodingbarrel
+sprite    12 pitch      1          // tile1238 explodingbarrel
+sprite  1677 angoff    -256        // tile1294 podfem1
+sprite  1677 mdxoff     100000     // tile1294 podfem1
+sprite  1677 mdzoff     900000     // tile1294 podfem1
+sprite  1677 pitch     -1          // tile1294 podfem1
+//sprite    27 nomdanim              // tile0408 (tile0407 fansprite)
+sprite    27 mdxoff     5000       // tile0408 (tile0407 fansprite)
+sprite    27 mdzoff     500000     // tile0408 (tile0407 fansprite)
+sprite    27 pitch     -1          // tile0408 (tile0407 fansprite)
+sprite    14 angoff     1024       // tile1238 explodingbarrel
+sprite    16 angoff     512        // tile1238 explodingbarrel
+sprite    20 angoff    -384        // tile0995 pipe6
+sprite    22 angoff     256        // tile0994 pipe5
+sprite    21 angoff    -768        // tile0994 pipe5
+//sprite   535 angoff     512        // tile0049 shotgunammo
+//sprite   535 mdzoff     500000     // tile0049 shotgunammo
+//sprite   535 roll       1          // tile0049 shotgunammo
+sprite   327 angoff    -256        // tile0052 sixpack
+sprite    19 angoff     256        // tile1238 explodingbarrel
+sprite   163 nomdanim              // tile0974 oceansprite4
+sprite   242 angoff    -512        // tile1238 explodingbarrel
+sprite  1685 angoff     768        // tile0046 crystalammo
+sprite     5 angoff    -640        // tile1238 explodingbarrel
+sprite     4 angoff     1024       // tile1238 explodingbarrel
+sprite    11 angoff    -256        // tile1247 seenine
+sprite     6 angoff     384        // tile1238 explodingbarrel
+sprite   268 angoff     1024       // tile1238 explodingbarrel
+//sprite   108 nomdanim              // tile0408 (tile0407 fansprite)
+sprite   108 angoff     1024       // tile0408 (tile0407 fansprite)
+sprite   108 mdxoff    -80000      // tile0408 (tile0407 fansprite)
+sprite   108 mdzoff     350000     // tile0408 (tile0407 fansprite)
+sprite   108 pitch      1          // tile0408 (tile0407 fansprite)
+sprite   538 mdzoff     300000     // tile5339 (dukeplus lumber1)
+sprite   538 pitch      1          // tile5339 (dukeplus lumber1)
+sprite   538 roll       1          // tile5339 (dukeplus lumber1)
+sprite  1608 angoff     1024       // tile0052 sixpack
+sprite   239 angoff    -512        // tile1238 explodingbarrel
+sprite   198 angoff     1024       // tile1238 explodingbarrel
+sprite  1815 angoff     128        // tile1238 explodingbarrel
+sprite  1673 mdxoff     50000      // tile1334 fem6 padbabe
+sprite  1673 pitch     -1          // tile1334 fem6 padbabe
+sprite   196 mdzoff     200000     // tile5339 (dukeplus lumber1)
+sprite   196 pitch     -1          // tile5339 (dukeplus lumber1)
+sprite   196 roll       1          // tile5339 (dukeplus lumber1)
+sprite  1758 angoff     1024       // tile0052 sixpack
+sprite  1600 angoff     1024       // tile0047 hbombammo
+sprite    29 angoff    -640        // tile1238 explodingbarrel
+sprite   333 angoff    -256        // tile1238 explodingbarrel
+sprite    30 angoff    -512        // tile1238 explodingbarrel
+sprite   233 angoff     768        // tile1238 explodingbarrel
+sprite    33 mdzoff     200000     // tile5336 (dukeplus toolbox)
+sprite    33 pitch     -1          // tile5336 (dukeplus toolbox)
+sprite   230 angoff     1024       // tile0051 cola
+sprite  1771 mdzoff     100000     // tile5309 (dukeplus box1)
+sprite  1771 pitch      1          // tile5309 (dukeplus box1)
+sprite  1771 roll       1          // tile5309 (dukeplus box1)
+sprite   750 mdzoff     1000000    // tile5339 (dukeplus lumber1)
+sprite   750 roll      -1          // tile5339 (dukeplus lumber1)
+sprite  1763 mdzoff     700000     // tile5339 (dukeplus lumber1)
+sprite  1763 roll      -1          // tile5339 (dukeplus lumber1)
+sprite   549 mdzoff     200000     // tile5356 (dukeplus crate3)
+sprite   549 pitch      1          // tile5356 (dukeplus crate3)
+sprite   549 roll      -1          // tile5356 (dukeplus crate3)
+sprite   749 angoff     1024       // tile0049 shotgunammo
+sprite   736 angoff     768        // tile0052 sixpack
+sprite  1781 angoff     768        // tile1238 explodingbarrel
+sprite  1781 mdzoff     200000     // tile1238 explodingbarrel
+sprite  1781 pitch     -1          // tile1238 explodingbarrel
+sprite   252 angoff     896        // tile1238 explodingbarrel
+sprite   253 angoff    -768        // tile1238 explodingbarrel
+sprite   739 angoff     1024       // tile0051 cola
+sprite   733 mdzoff     1200000    // tile5339 (dukeplus lumber1)
+sprite   733 roll       1          // tile5339 (dukeplus lumber1)
+sprite   256 angoff     1024       // tile1238 explodingbarrel
+sprite   256 mdzoff     200000     // tile1238 explodingbarrel
+sprite   256 pitch     -1          // tile1238 explodingbarrel
+sprite   255 angoff    -512        // tile1238 explodingbarrel
+sprite   255 mdzoff     100000     // tile1238 explodingbarrel
+sprite   255 pitch     -1          // tile1238 explodingbarrel
+sprite   732 mdzoff     900000     // tile5341 (dukeplus lumber4)
+sprite   732 pitch     -1          // tile5341 (dukeplus lumber4)
+sprite   732 roll       1          // tile5341 (dukeplus lumber4)
+
+sprite   517 angoff     1024       // tile0051 cola
+sprite   247 angoff     1024       // tile0994 pipe5
+sprite   247 mdzoff     500000     // tile0994 pipe5
+sprite   247 pitch     -1          // tile0994 pipe5
+sprite  1778 angoff     256        // tile0994 pipe5
+sprite  1778 mdzoff     250000     // tile0994 pipe5
+sprite  1778 pitch      1          // tile0994 pipe5
+sprite  1778 roll      -1          // tile0994 pipe5
+sprite   277 angoff    -256        // tile0994 pipe5
+sprite   701 mdzoff     800000     // tile5339 (dukeplus lumber1)
+sprite   701 pitch     -2          // tile5339 (dukeplus lumber1)
+sprite   701 roll      -1          // tile5339 (dukeplus lumber1)
+sprite   702 mdyoff     2000       // tile5358 (dukeplus crate5)
+sprite   702 mdzoff     600000     // tile5358 (dukeplus crate5)
+sprite   702 pitch     -1          // tile5358 (dukeplus crate5)
+sprite   702 roll       2          // tile5358 (dukeplus crate5)
+sprite   743 angoff     512        // tile0049 shotgunammo
+sprite   453 mdxoff     5000       // tile5356 (dukeplus crate3)
+sprite   453 pitch      1          // tile5356 (dukeplus crate3)
+sprite   737 angoff     512        // tile6207 (dukeplus minigunsprite)
+sprite   737 mdzoff     500000     // tile6207 (dukeplus minigunsprite)
+sprite   737 pitch      1          // tile6207 (dukeplus minigunsprite)
+sprite   737 roll      -1          // tile6207 (dukeplus minigunsprite)
+sprite   747 angoff     1024       // tile0044 rpgammo
+sprite   469 angoff    -768        // tile0052 sixpack
+sprite   759 angoff    -640        // tile0052 sixpack
+sprite   238 angoff     896        // tile0051 cola
+sprite   761 angoff     640        // tile0049 shotgunammo
+sprite   762 angoff    -896        // tile0052 sixpack
+sprite   763 angoff     1024       // tile0044 rpgammo
+sprite   755 mdxoff     17000      // tile5356 (dukeplus crate3)
+sprite   755 pitch      1          // tile5356 (dukeplus crate3)
+sprite  1424 angoff     768        // tile0052 sixpack
+sprite  1424 mdxoff     45000      // tile0052 sixpack
+sprite  1424 pitch      1          // tile0052 sixpack
+sprite  1425 angoff     1024       // tile0044 rpgammo
+sprite   557 nomdanim              // tile2737 (tile2710 boss2 (cycloid))
+sprite  1590 angoff     960        // tile0047 hbombammo
+sprite  1589 angoff     512        // tile0049 shotgunammo
+sprite   767 mdzoff     350000     // tile0042 devistatorammo
+sprite   767 pitch     -1          // tile0042 devistatorammo
+sprite   767 roll      -1          // tile0042 devistatorammo
+sprite   765 angoff     128        // tile0029 devistatorsprite
+sprite   765 mdzoff     600000     // tile0029 devistatorsprite
+sprite   765 roll       1          // tile0029 devistatorsprite
