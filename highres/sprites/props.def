@@ -68,7 +68,7 @@ model "highres/sprites/props/0487_shuttle.md3" {
 model "highres/sprites/props/0489_satellite.md3" {
    scale 0.5 shade 4
    skin { pal 0 file "highres/sprites/props/0489_satellite.png" }
-   glow { pal 0 file "highres/sprites/props/0489_satellite_g.png" }   
+   glow { file "highres/sprites/props/0489_satellite_g.png" }   
    frame { name "Frame0" tile 489 }
 }
 
@@ -141,7 +141,7 @@ model "highres/sprites/props/0544_ironbar.md3" {
 model "highres/sprites/props/0551_domelight.md3" {
    scale 8.0 shade 3
    skin { pal 0 file "highres/sprites/props/0551_domelight.png" }
-   glow { pal 0 file "highres/sprites/props/0551_domelight.png" }
+   glow { file "highres/sprites/props/0551_domelight.png" }
    anim { frame0 "FRAME4" frame1 "FRAME11" fps 15 flags 0 }
    frame { name "FRAME4" tile0 0551 tile1 0554 }
 }
@@ -158,8 +158,8 @@ model "highres/sprites/props/0556_chair1.md3" {
    scale 2 shade 2
 //   detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props/0556_chair1_d.png" }
-   normal { pal 0 file "highres/sprites/props/0556_chair1_n.png" }
-   specular { pal 0 file "highres/sprites/props/0556_chair1_s.png" }
+   normal { file "highres/sprites/props/0556_chair1_n.png" }
+   specular { file "highres/sprites/props/0556_chair1_s.png" }
    frame { name "frame00" tile0 556 tile1 557 }
 }
 
@@ -168,8 +168,8 @@ model "highres/sprites/props/0559_brokenchair.md3" {
    scale 2 shade 2
 //   detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props/0556_chair1_d.png" }
-   normal { pal 0 file "highres/sprites/props/0556_chair1_n.png" }
-   specular { pal 0 file "highres/sprites/props/0556_chair1_s.png" }
+   normal { file "highres/sprites/props/0556_chair1_n.png" }
+   specular { file "highres/sprites/props/0556_chair1_s.png" }
    frame { name "frame00" tile 559 }
 }
 
@@ -254,8 +254,8 @@ model "highres/sprites/props/0573_stallbroke.md3" {
 model "highres/sprites/props/0584_sensor.md3" { 
    scale 1.5 shade 0 
    skin { pal 0 surface 0 file "highres/sprites/props/0584_sensor_d.png" }
-   normal { pal 0 surface 0 file "highres/sprites/props/0584_sensor_n.png" }
-   specular { pal 0 surface 0 file "highres/sprites/props/0584_sensor_s.png" }
+   normal { surface 0 file "highres/sprites/props/0584_sensor_n.png" }
+   specular { surface 0 file "highres/sprites/props/0584_sensor_s.png" }
 //   anim { frame0 "frame1" frame1 "frame2" fps 1 flags 0 }
    frame { frame "frame1" tile 584 }
 }
@@ -842,8 +842,8 @@ model "highres/sprites/props/0976_ventshaft.md3" {
    scale 0.9 shade 15 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0976_ventshaft_d.png" }
-   normal { pal 0 file "highres/sprites/props/0976_ventshaft_n.png" }
-   specular { pal 0 file "highres/sprites/props/0976_ventshaft_s.png" } 
+   normal { file "highres/sprites/props/0976_ventshaft_n.png" }
+   specular { file "highres/sprites/props/0976_ventshaft_s.png" } 
    frame { name "Frame0" tile 976 }
 }
 
@@ -867,7 +867,7 @@ model "highres/sprites/props/0979_hanglight.md3" {
    scale 5 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0979_hanglight.png" }
-   glow { pal 0 file "highres/sprites/props/0979_hanglight_g.png" }
+   glow { file "highres/sprites/props/0979_hanglight_g.png" }
    frame { name "Frame0" tile 979 }
 }
 
@@ -1130,8 +1130,8 @@ model "highres/sprites/props/1079_oozfilter.md3" {
    skin { pal 0 surface 0 file "highres/sprites/props/1079_oozfilter.jpg" }
    skin { pal 0 surface 1 file "highres/sprites/props/1079_oozfilter.png" }
    skin { pal 0 surface 2 file "highres/sprites/props/1079_oozfilter.png" }   
-   glow { pal 0 surface 1 file "highres/sprites/props/1079_oozfilter.png" }
-   glow { pal 0 surface 2 file "highres/sprites/props/1079_oozfilter.png" }   
+   glow { surface 1 file "highres/sprites/props/1079_oozfilter.png" }
+   glow { surface 2 file "highres/sprites/props/1079_oozfilter.png" }   
    anim { frame0 "1" frame1 "21" fps 1 flags 0 }
    frame { name "1" tile0 1079 tile1 1081 }
 }
@@ -1244,7 +1244,7 @@ model "highres/sprites/props/1221_pole.md3" {
    scale 0.55 shade 4
 //   detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/1222_crane_d.png" }
-   specular { pal 0 file "highres/sprites/props/1222_crane_s.png" }
+   specular { file "highres/sprites/props/1222_crane_s.png" }
    frame { name "Frame0" tile 1221 }
 }
 
@@ -1253,7 +1253,7 @@ model "highres/sprites/props/1222_crane.md3" {
    scale 0.55 shade 4
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/1222_crane_d.png" }
-   specular { pal 0 file "highres/sprites/props/1222_crane_s.png" }
+   specular { file "highres/sprites/props/1222_crane_s.png" }
    anim { frame0 "Grab_1" frame1 "Grab_3" fps 3 flags 1 }
    frame { name "Grab_0" tile 1222 }
    frame { name "Grab_2" tile 1223 }
@@ -1275,8 +1275,8 @@ model "highres/sprites/props/1227_nukebarrel.md3" {
       // NukeBarrel (1227)
       detail { file "highres/detail/rust.png" detailscale 0.5 }
       skin { pal 0 file "highres/sprites/props/1227_nukebarrel_d.png" }
-      normal { pal 0 file "highres/sprites/props/1227_nukebarrel_n.png" }
-	  specular { pal 0 file "highres/sprites/props/1227_nukebarrel_s.png" }
+      normal { file "highres/sprites/props/1227_nukebarrel_n.png" }
+	  specular { file "highres/sprites/props/1227_nukebarrel_s.png" }
       frame { name "frame00" tile 1227 }
       frame { name "frame01" tile 1228 }
       frame { name "frame02" tile 1229 }
@@ -1309,8 +1309,8 @@ model "highres/sprites/props/1230_nukebarrel.md3" {
       // NukeBarrel explosion frames
       detail { file "highres/detail/rust.png" detailscale 0.5 }
       skin { pal 0 file "highres/sprites/props/1227_nukebarrel_d.png" }
-      normal { pal 0 file "highres/sprites/props/1227_nukebarrel_n.png" }
-	  specular { pal 0 file "highres/sprites/props/1227_nukebarrel_s.png" }
+      normal { file "highres/sprites/props/1227_nukebarrel_n.png" }
+	  specular { file "highres/sprites/props/1227_nukebarrel_s.png" }
       frame { name "frame03" tile 1230 }
       frame { name "frame04" tile 1231 }
 }
@@ -2072,17 +2072,17 @@ model "highres/sprites/props/4569_jollymeal.md3" {
 model "highres/sprites/props/4570_dukeburger2013.md3" {
    scale 1.5 shade 0 zadd 15
    skin { pal 0 surface 4 file "highres/sprites/characters/1405_jetpack_d.png" }
-   normal { pal 0 surface 4 file "highres/sprites/characters/1405_jetpack_n.png" }
-   specular { pal 0 surface 4 file "highres/sprites/characters/1405_jetpack_s.png" }  
+   normal { surface 4 file "highres/sprites/characters/1405_jetpack_n.png" }
+   specular { surface 4 file "highres/sprites/characters/1405_jetpack_s.png" }  
    skin { pal 0 surface 3 file "highres/sprites/characters/1405_bandolier_d.png" }
-   normal { pal 0 surface 3 file "highres/sprites/characters/1405_bandolier_n.png" }
-   specular { pal 0 surface 3 file "highres/sprites/characters/1405_bandolier_s.png" }
+   normal { surface 3 file "highres/sprites/characters/1405_bandolier_n.png" }
+   specular { surface 3 file "highres/sprites/characters/1405_bandolier_s.png" }
    skin { pal 0 surface 2 file "highres/sprites/characters/1405_duke2013_d.png" }
-   normal { pal 0 surface 2 file "highres/sprites/characters/1405_duke2013_n.png" }
-   specular { pal 0 surface 2 file "highres/sprites/characters/1405_duke2013_s.png" }
+   normal { surface 2 file "highres/sprites/characters/1405_duke2013_n.png" }
+   specular { surface 2 file "highres/sprites/characters/1405_duke2013_s.png" }
    skin { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_d.png" }
-   normal { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_n.png" }
-   specular { pal 0 surface 1 file "highres/sprites/pickups/0028_shotgun_s.png" }
+   normal { surface 1 file "highres/sprites/pickups/0028_shotgun_n.png" }
+   specular { surface 1 file "highres/sprites/pickups/0028_shotgun_s.png" }
    skin { pal 0 surface 0 file "highres/sprites/props/4570_dukeburger2013.png" }
    frame { name "frame1" tile0 4570 tile1 4574 }
 }
@@ -2107,8 +2107,8 @@ model "highres/sprites/props/4583_pipe.md3" {
    scale 0.778 shade 0 
 //   detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 surface 0 file "highres/sprites/props/4583_d.png" }
-   normal { pal 0 surface 0 file "highres/sprites/props/4583_n.png" }
-   specular { pal 0 surface 0 file "highres/sprites/props/4583_s.png" }
+   normal { surface 0 file "highres/sprites/props/4583_n.png" }
+   specular { surface 0 file "highres/sprites/props/4583_s.png" }
 //   detail { file "highres/detail/metal.png" detailscale 0.3 }
 //   skin { pal 0 surface 1 file "highres/sprites/props/0994_pipe.jpg" }
    frame { name "Frame0" tile 4583 }

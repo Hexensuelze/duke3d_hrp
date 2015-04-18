@@ -39,10 +39,10 @@ model "highres/sprites/pickups/0025_shrinker.md3" {
    scale 3.0 shade 0
    skin { pal 0 surface 0 file "highres/sprites/pickups/0025_shrinker.png" }
    skin { pal 0 surface 2 file "highres/sprites/pickups/0025_shrinker.png" }
-   glow { pal 0 surface 0 file "highres/sprites/pickups/0025_shrinker_g.png" }
-   glow { pal 0 surface 2 file "highres/sprites/pickups/0025_shrinker_g.png" }
+   glow { surface 0 file "highres/sprites/pickups/0025_shrinker_g.png" }
+   glow { surface 2 file "highres/sprites/pickups/0025_shrinker_g.png" }
    skin { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
-   glow { pal 0 surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
+   glow { surface 1 file "highres/sprites/firstperson/2558_crystal.png" }
 
    frame { name "none00" tile 25 }
 }
@@ -60,7 +60,7 @@ model "highres/sprites/pickups/0027_tripbomb.md3" {
    scale 1.4 shade 0
    skin { pal 0 file "highres/sprites/firstperson/2566_tripbomb.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   glow { pal 0 file "highres/sprites/firstperson/2566_tripbomb_g.png" }
+   glow { file "highres/sprites/firstperson/2566_tripbomb_g.png" }
    frame { name "frame00" tile 27 }
 }
 
@@ -86,13 +86,13 @@ model "highres/sprites/pickups/0032_expander.md3" {
    scale 3.0 shade 0
    skin { pal 0 surface 1 file "highres/sprites/pickups/0025_shrinker.png" }
    skin { pal 0 surface 3 file "highres/sprites/pickups/0025_shrinker.png" }
-   glow { pal 0 surface 1 file "highres/sprites/pickups/0025_shrinker_g.png" }
-   glow { pal 0 surface 3 file "highres/sprites/pickups/0025_shrinker_g.png" }
+   glow { surface 1 file "highres/sprites/pickups/0025_shrinker_g.png" }
+   glow { surface 3 file "highres/sprites/pickups/0025_shrinker_g.png" }
    skin { pal 0 surface 2 file "highres/sprites/pickups/0032_crystal.png" }
-   glow { pal 0 surface 2 file "highres/sprites/pickups/0032_crystal.png" }
+   glow { surface 2 file "highres/sprites/pickups/0032_crystal.png" }
 
    skin { pal 0 surface 0 file "highres/sprites/pickups/0032_expander.png" }
-   glow { pal 0 surface 0 file "highres/sprites/pickups/0032_expander_g.png" }
+   glow { surface 0 file "highres/sprites/pickups/0032_expander_g.png" }
    frame { name "none00" tile 32 }
 }
 
@@ -152,7 +152,7 @@ model "highres/sprites/pickups/0045_expander_ammo.md3" {
    scale 3.0
    skin { pal 0 file "highres/sprites/pickups/0032_expander.png" }
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   glow { pal 0 file "highres/sprites/pickups/0032_expander_g.png" }
+   glow { file "highres/sprites/pickups/0032_expander_g.png" }
    frame { name "none00" tile 45 }
 }
 

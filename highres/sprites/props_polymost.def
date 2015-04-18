@@ -66,7 +66,7 @@ model "highres/sprites/props/0487_shuttle.md3" {
 model "highres/sprites/props/0489_satellite.md3" {
    scale 0.5 shade 4
    skin { pal 0 file "highres/sprites/props/0489_satellite.png" }
-   glow { pal 0 file "highres/sprites/props/0489_satellite_g.png" }   
+   glow { file "highres/sprites/props/0489_satellite_g.png" }   
    frame { name "Frame0" tile 489 }
 }
 
@@ -139,7 +139,7 @@ model "highres/sprites/props/0544_ironbar.md3" {
 model "highres/sprites/props/0551_domelight.md3" {
    scale 8.0 shade 3
    skin { pal 0 file "highres/sprites/props/0551_domelight.png" }
-   glow { pal 0 file "highres/sprites/props/0551_domelight.png" }
+   glow { file "highres/sprites/props/0551_domelight.png" }
    anim { frame0 "FRAME4" frame1 "FRAME11" fps 15 flags 0 }
    frame { name "FRAME4" tile0 0551 tile1 0554 }
 }
@@ -853,7 +853,7 @@ model "highres/sprites/props/0979_hanglight.md3" {
    scale 5 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0979_hanglight.png" }
-   glow { pal 0 file "highres/sprites/props/0979_hanglight_g.png" }
+   glow { file "highres/sprites/props/0979_hanglight_g.png" }
    frame { name "Frame0" tile 979 }
 }
 
@@ -1113,8 +1113,8 @@ model "highres/sprites/props/1079_oozfilter.md3" {
    skin { pal 0 surface 0 file "highres/sprites/props/1079_oozfilter.jpg" }
    skin { pal 0 surface 1 file "highres/sprites/props/1079_oozfilter.png" }
    skin { pal 0 surface 2 file "highres/sprites/props/1079_oozfilter.png" }   
-   glow { pal 0 surface 1 file "highres/sprites/props/1079_oozfilter.png" }
-   glow { pal 0 surface 2 file "highres/sprites/props/1079_oozfilter.png" }   
+   glow { surface 1 file "highres/sprites/props/1079_oozfilter.png" }
+   glow { surface 2 file "highres/sprites/props/1079_oozfilter.png" }   
    anim { frame0 "1" frame1 "21" fps 1 flags 0 }
    frame { name "1" tile0 1079 tile1 1081 }
 }
