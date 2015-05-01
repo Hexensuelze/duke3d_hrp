@@ -107,26 +107,12 @@ Section "High resolution content" SEC02
 
   File "hrp_content\hrp_readme.txt"
   File "hrp_content\hrp_art_license.txt"
-  SetOutPath "$INSTDIR\autoload\duke3d.grp"
+  SetOutPath "$INSTDIR\autoload"
   File "hrp_content\duke3d_hrp.zip"
 SectionEnd
 
-Section "Atomic map hacks" SEC03
-  SetOutPath "$INSTDIR\autoload\duke3d.grp"
-  SetOverwrite ifnewer
-
-  File "maphacks_atomic\maphacks.zip"
-SectionEnd
-
-Section /o "1.3d map hacks" SEC04
-  SetOutPath "$INSTDIR\autoload\duke3d.grp"
-  SetOverwrite ifnewer
-
-  File "maphacks_13d\maphacks.zip"
-SectionEnd
-
 Section "High Quality Muisc" SEC05
-  SetOutPath "$instdir\autoload\duke3d.grp"
+  SetOutPath "$instdir\autoload"
   SetOverwrite ifnewer
 
   File "music\eduke32_mus.zip"
@@ -260,11 +246,10 @@ Section Uninstall
 ;hrp content
   Delete "$INSTDIR\hrp_readme.txt"
   Delete "$INSTDIR\hrp_art_license.txt"
-  Delete "$INSTDIR\autoload\duke3d.grp\duke3d_hrp.zip"
-  Delete "$INSTDIR\autoload\duke3d.grp\maphacks.zip"
+  Delete "$INSTDIR\autoload\duke3d_hrp.zip"
 
 ;music content
-  Delete "$INSTDIR\autoload\duke3d.grp\eduke32_mus.zip"
+  Delete "$INSTDIR\autoload\eduke32_mus.zip"
 
 ;duke plus
    Delete "$INSTDIR\DPEFFECTS.html"
@@ -333,7 +318,7 @@ Section Uninstall
 ;folders
   SetOutPath $TEMP
   RMDir "$SMPROGRAMS\$ICONS_GROUP"
-  RMDir "$INSTDIR\autoload\duke3d.grp"
+  RMDir "$INSTDIR\autoload"
   RMDir "$INSTDIR\autoload"
   RMDir "$INSTDIR\texcache"
   RMDir "$INSTDIR\DukePlus\dpcons"
