@@ -135,22 +135,17 @@ todo-list: http://hrp.duke4.net/wiki/doku.php?id=other:next_hrp_release
 -------------------------------
 3.2) Highlights of this Release
 -------------------------------
-Compared to previous release (HRP v5.2), you can expect the following changes:
+Compared to previous release (HRP v5.3), you can expect the following changes:
 
-[FEATURE] New maphacks system: Hacks for 500+ custom maps included!
-[UPDATE] Polymer versions of 15 existing textures added; about 10 new textures
-         (some for Ep.4)
-[UPDATE] Remakes of existing props models: 
-         Airlock sign, microphone, exit sign, hand dryer, Terminator+arm, 
-         Cycloid Emperor hologram, Dukeburger statue
-[UPDATE] Remakes of character models for Cycloid Emperor (by Tea Monster) and
-         Duke (by Mark Skelton, Tea Monster and Spiker)
-[UPDATE] Remakes of pickup models: Jetpack, health bottles, First Aid kit
-[UPDATE] Improvements for Mighty Boot, HUD pistol hands and chaingun muzzleflash
-[UPDATE] New level stats screen (based on new Duke model)
-[FIX] Screen alignment fix for HUD scubagear
-[FIX] Small corrections for pistol and shotgun pickup models (size, rotation,
-      center)
+[FEATURE] New Luke Skywalker model, #0323, some user-map-only textures
+[FEATURE] DEF files for basic Megaton Edition 'support'
+[UPDATE]  Maphacks for 800+ custom maps (1700 MAP files recognized by checksum)
+[UPDATE]  Polymer versions of existing textures added:
+
+[UPDATE]  Remakes of existing props models: 
+          Hydrant
+[UPDATE]  Improvements for Mighty Boot
+[FIX]     A few small scale/alignment fixes
 
 
 IMPORTANT!
@@ -175,10 +170,6 @@ some of them could not be removed in this release. Here are those we know of:
      > The startup screens are not optimized for widescreen resolutions and
        might show black stripes on both sides and possibly some distortions,
        depending on your display.
-     > EDuke32 (current version is r4565) does not make use of the HRP's 
-       maphack file hierarchy yet. Therefore, the UserMapHacks pack needs to 
-       be downloaded to make use of the already existing user map maphacks.
-
 
 - Rarely you will still find props, pickup weapons or the like that are 
   clipping into walls, often preventing you from seeing them completely. 
