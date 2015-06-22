@@ -581,7 +581,8 @@ main()
   date +%F" "%H:%M:%S
 
   echo "Command line example for creating a ZIP package:"
-  echo "sh -c \"cd ${EXTRACTDIR}; zip -rqn .zip:.jpg:.png ${EXTRACTDIR}.zip *\""
+  echo "sh -c \"cd ${EXTRACTDIR}; zip -9rqn .jpg:.png:.zip ${EXTRACTDIR}.zip\
+  highpal highres maphacks *.def *.txt\""
 } # main()
 
 

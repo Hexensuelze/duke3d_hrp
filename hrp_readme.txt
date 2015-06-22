@@ -1,13 +1,12 @@
        ==================================================================
+       |                                                                |
        |            DUKE NUKEM 3D HIGH RESOLUTION PACK (HRP)            |
        |                                                                |
        |                   A Duke3D Community Project                   |
        |                                                                |
-       |                    Compiled by NightFright                     |
        ==================================================================
-       |           Repository Snapshot >= 5.3.566 (2013-10-01)          |
+       |           Repository Snapshot >= 5.4.675 (2015-06-22)          |
        ==================================================================
-
 
 
 =======================
@@ -99,14 +98,29 @@ Otherwise, HRP content will not work (properly)!
 POLYMOST COMPATIBILITY OPTION:
 For players who are unable to use the advanced Polymer renderer (e.g. because 
 they experience graphics issues or their graphics card simply can't handle it), 
-please deactivate (= untick) the "Polymer" checkbox in the EDuke32 launcher and 
-run the game with this parameter: -hduke3d_hrp_polymost.def
-> Example: E:\Duke3D\eduke32.exe -hduke3d_hrp_polymost.def
-Alternatively, and if you want to run mods like DukePlus, using the
-Polymost Override Pack (put into the autoload folder) is the recommended way of
-running the Polymost HRP mode. A matching version of this pack should be
-available soon after any HRP release at: 
-http://forums.duke4.net/index.php?showtopic=3513
+please do the following:
+
+   Step 1A (preferred method):
+   Get the Polymost HRP Override Pack by LeoD and place it into the same 
+   directory as the HRP zipfile (usually \autoload within your EDuke32 folder).
+   LeoD's Polymost HRP thread: http://forums.duke4.net/index.php?showtopic=3513
+
+   Step 1B (alternate method):
+   Create a shortcut to eduke32.exe (if you have not done so already). 
+   To do it, right-click on eduke32.exe in your Duke3D directory, choose 
+   "Send to" and "Desktop (Create shortcut)".
+   Edit the shortcut by right-clicking it on the desktop; choose "Properties". 
+   The "Shortcut" tab will be opened directly.
+   Add the parameter -hduke3d_hrp_polymost.def to the "Target" command line. 
+   Click "Apply" to confirm your changes.
+
+   Step 2:
+   When launching EDuke32 via the shortcut, a launcher will pop up. There, be 
+   sure to deactivate (i.e. untick) the Polymer renderer option. You should now 
+   be ready to enjoy the HRP with Polymost!
+
+If you want to see some screenshots illustrating this procedure, check out the
+FAQ section of the HRP website: http://hrp.duke4.net/faq.php
 
 
 
@@ -135,17 +149,24 @@ todo-list: http://hrp.duke4.net/wiki/doku.php?id=other:next_hrp_release
 -------------------------------
 3.2) Highlights of this Release
 -------------------------------
-Compared to previous release (HRP v5.3), you can expect the following changes:
+Compared to its previous release, HRP v5.4 features changes as follows:
 
-[FEATURE] New Luke Skywalker model, #0323, some user-map-only textures
-[FEATURE] DEF files for basic Megaton Edition 'support'
-[UPDATE]  Maphacks for 800+ custom maps (1700 MAP files recognized by checksum)
-[UPDATE]  Polymer versions of existing textures added:
-
-[UPDATE]  Remakes of existing props models: 
-          Hydrant
-[UPDATE]  Improvements for Mighty Boot
-[FIX]     A few small scale/alignment fixes
+[FEATURE] Luke Skywalker model (1354) and 3 new highres textures(280, 323, 2452)
+[FEATURE] DEF files for basic Megaton Edition "support"
+[UPDATE]  Maphacks for 800+ custom maps (1700 map files recognized by checksum)
+[UPDATE]  Tweak for some textures: 395, 966, 5099-5104
+[UPDATE]  Polymer versions of 44 existing textures/sprites/models added
+          or revised:                         134, 150, 196, 197, 242, 294-296, 
+          310, 348, 389, 441, 446, 451-453, 584, 609, 660, 705, 706, 718, 791, 
+          795, 802, 876, 915, 976, 1174, 1175, 1186, 1191, 3386, 3394-3396, 
+          4201, 4202, 4282, 4283, 4285-4287, 4308
+[UPDATE]  12 models updated: 
+          Shotgun pickup (28), Camera (621), hydrant (950/981), switch (1155), 
+          pole (1221), crane (1222), nuke barrel (1227), newspaper (1275), 
+          cable (4386), robotdog2 (4560), pipe (4583)
+[UPDATE]  Mighty Boot model improved
+[UPDATE]  Polymost optimizations for some textures and models
+[FIX]     Minor adjustments for glowmaps and texture/model scales
 
 
 IMPORTANT!
@@ -201,9 +222,19 @@ original art work used with permission.
 The EDuke32 port is an enhanced version of JonoF's initial JFDuke3D port and
 features enhanced mod support together with tons of newly-added code. It is 
 released and maintained by TerminX.
-We are using EDuke32 for running HRP now because the port gets updated
-frequently, and it offers advanced features for which HRP contents has been
-optimized.
+
+We are using EDuke32 for running the HRP due to frequent updates of this port.
+It also offers advanced features for which HRP content has been optimized.
+
+Two releases are provided with the full SFX release:
+   > eduke32_win32_<version>.zip - 32-bit version (32-bit, default)
+   > eduke32_win64_<version>.zip - 64-bit version (64-bit)
+
+If you are working with a 64-bit system, it is recommended that you extract
+eduke32.exe from the win64 archive and overwrite the default executable.
+
+You will also find the latest release of the (optional) Mapster32 editor 
+in those zipfiles, also available as 32-bit and 64-bit versions.
 
 
 
