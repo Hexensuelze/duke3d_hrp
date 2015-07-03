@@ -11,24 +11,31 @@
 
 
 //         <-> SEWCONF.mhk
+//         <-> SEWCONF-FM1X04.mhk
 
 // Curr. HRP: r5.2.560
 
-// 0-48 / 49-725 / / 737-824
+// 0-48 | 49-725 / / 737-824
+// / 9-210 / / 261-676 / 694-823
 sprite   370 angoff     640        // tile0052 sixpack
+sprite   373 angoff     384        // tile0059 heatsensor
 sprite   384 pitch      96         // tile0027 tripbombsprite
 sprite   383 pitch      96         // tile0027 tripbombsprite
 //sprite   409 angoff     1024       // tile0057 jetpack (multiplayer)
 sprite   375 angoff     256        // tile1247 seenine
 sprite   377 angoff    -256        // tile1247 seenine
 sprite   381 angoff    -768        // tile0026 heavyhbomb
+sprite   349 roll      -32         // tile0042 devistatorammo
+sprite   822 roll      -32         // tile0042 devistatorammo
 sprite   392 angoff     1024       // tile0041 batteryammo
 sprite   287 angoff     1024       // tile0041 batteryammo (multiplayer)
 //sprite   336 angoff     1024       // tile0029 devistatorsprite
 sprite   261 angoff     512        // tile0054 shield
-sprite   288 pitch     -96         // tile0044 rpgammo
+sprite   320 angoff    -512        // tile0040 ammo
+sprite   319 angoff    -512        // tile0040 ammo
 sprite   823 angoff     1024       // tile0022 chaingunsprite
 sprite   823 pitch      96         // tile0022 chaingunsprite
+sprite   288 pitch     -96         // tile0044 rpgammo
 sprite   229 pitch     -96         // tile0037 freezeammo
 sprite   228 angoff     1024       // tile0049 shotgunammo
 sprite   228 pitch      96         // tile0049 shotgunammo
@@ -51,12 +58,15 @@ sprite   401 angoff    -128        // tile0052 sixpack
 sprite   393 angoff     0          // tile0060 accesscard blue
 sprite   142 angoff    -384        // tile0047 hbombammo
 sprite   143 angoff     768        // tile0028 shotgunsprite
-sprite   660 angoff    -256        // tile0556 chair1
-sprite   656 angoff     256        // tile0557 chair2
-sprite   655 angoff     768        // tile0556 chair1
-sprite   659 angoff     256        // tile0556 chair1
-sprite   658 angoff    -256        // tile0557 chair2
-sprite   657 angoff    -512        // tile0556 chair1
+sprite   660 angoff    -256        // tile0557 chair2
+sprite   656 angoff     256        // tile0556 chair1
+sprite   655 angoff     768        // tile0557 chair2
+sprite   659 angoff     256        // tile0557 chair2
+sprite   658 angoff    -256        // tile0556 chair1
+sprite   657 angoff    -512        // tile0557 chair2
+sprite   132 angoff     512        // tile0040 ammo
+sprite   133 angoff     512        // tile0040 ammo
+sprite   134 angoff     512        // tile0040 ammo
 sprite   676 angoff     768        // tile0556 chair1
 sprite   675 angoff    -768        // tile0557 chair2
 sprite   674 angoff    -256        // tile0556 chair1
@@ -95,9 +105,9 @@ sprite   737 angoff    -512        // tile0027 tripbombsprite
 sprite   739 angoff    -512        // tile0027 tripbombsprite
 sprite   725 angoff     384        // tile0054 shield
 sprite    48 angoff    -128        // tile0047 hbombammo
-sprite    48 pitch     -96         // tile0047 hbombammo
+sprite    48 pitch     -112        // tile0047 hbombammo
+sprite    48 roll       48         // tile0047 hbombammo
 sprite   743 angoff     256        // tile0052 sixpack
-sprite    36 angoff    -512        // tile0556 chair1
 sprite    38 angoff    -128        // tile0556 chair1
 sprite    37 angoff     256        // tile0556 chair1
 sprite    39 angoff     896        // tile0556 chair1

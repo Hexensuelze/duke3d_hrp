@@ -10,11 +10,13 @@
 
 //         <-> demount-dnwmd.mhk
 //         <-> DEMOUNT-megaton.mhk
+//         <-> DEMOUNT-FM2X04.mhk
 
 // Curr. HRP: r5.3.591
 
 // 4-1525
 // 0-305 / / 408-530 / 572-1568
+
 sprite   945 angoff     512        // tile0023 rpgsprite
 sprite   764 angoff    -256        // tile0026 heavyhbomb
 sprite  1552 angoff    -256        // tile0026 heavyhbomb
@@ -28,13 +30,16 @@ sprite  1553 angoff    -512        // tile0021 firstgunsprite
 sprite  1558 angoff    -576        // tile0051 cola
 sprite  1559 angoff    -512        // tile0051 cola
 sprite  1557 angoff     768        // tile0044 rpgammo
+sprite   526 away1                 // tile0586 (spreadsheet)
 sprite   492 angoff     512        // tile0040 ammo
 sprite   492 mdzoff     200000     // tile0040 ammo
 sprite   492 pitch     -1          // tile0040 ammo
+
 sprite   486 angoff     512        // tile0052 sixpack
 // mhk diff sync 1
 sprite   485 angoff     512        // tile0027 tripbombsprite
 sprite   487 angoff    -512        // tile0052 sixpack
+
 sprite   491 angoff    -512        // tile0040 ammo
 sprite   490 angoff     512        // tile0052 sixpack
 sprite   490 mdzoff     200000     // tile0052 sixpack
@@ -58,8 +63,8 @@ sprite  1235 pitch     -5          // tile0574 (tile0670 (faucet))
 sprite  1235 roll       2          // tile0574 (tile0670 (faucet))
 sprite   600 angoff     256        // tile0556 chair1
 sprite   601 angoff     896        // tile0557 chair2
-sprite   601 mdzoff     500000     // tile0556 chair1
-sprite   601 pitch     -1          // tile0556 chair1
+sprite   601 mdzoff     500000     // tile0557 chair2
+sprite   601 pitch     -1          // tile0557 chair2
 sprite   603 angoff     640        // tile0556 chair1
 sprite   604 angoff    -512        // tile0556 chair1
 sprite   605 angoff    -896        // tile0557 chair2
@@ -116,6 +121,8 @@ sprite   303 angoff    -896        // tile0044 rpgammo
 sprite   304 angoff     768        // tile0044 rpgammo
 sprite   253 angoff     1024       // tile0052 sixpack
 sprite   277 angoff    -512        // tile0047 hbombammo
+sprite  1374 mdzoff     10000      // tile0585 (display)
+sprite  1374 pitch      1          // tile0585 (display)
 sprite   255 angoff     512        // tile0025 shrinkersprite
 sprite   261 angoff     1024       // tile0057 jetpack
 sprite   116 angoff     512        // tile0052 sixpack
