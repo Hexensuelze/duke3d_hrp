@@ -5,11 +5,15 @@
 // Author   : ozelot47
 // mapmd4   : 66f775dd9ca88e43261a7ce084dc57ea // 2015-02-28
 
-// Curr. HRP: r5.3.667
+//         <-> eerie_estate-2015-03-08.mhk
 
+// Curr. HRP: r5.4.680
+
+// 0-920 / / 998-1312 / / 1482-1665
 sprite  3625 angoff     512        // tile0040 ammo
 sprite  3626 angoff     512        // tile0040 ammo
 sprite  3714 angoff     512        // tile0040 ammo
+
 sprite   561 mdxoff     17000      // tile0977 genericpole
 sprite   561 pitch     -1          // tile0977 genericpole
 sprite    33 angoff     1024       // tile0956 bottle3
@@ -54,6 +58,7 @@ sprite   162 angoff     256        // tile3429 (root)
 sprite   163 angoff     768        // tile3429 (root)
 sprite   165 angoff    -384        // tile3429 (root)
 sprite   557 away1                 // tile0062 (red ball)
+sprite   556 notmd                 // tile0198 (glass pane)
 sprite   558 away1                 // tile0062 (red ball)
 sprite  1526 notmd                 // tile3429 (root)
 sprite  1584 notmd                 // tile1385
@@ -81,6 +86,7 @@ sprite  1520 notmd                 // tile3429 (root)
 sprite  1575 notmd                 // tile1385
 sprite  1518 notmd                 // tile3429 (root)
 sprite  1574 notmd                 // tile1385
+// mhk diff sync 1
 sprite  1519 notmd                 // tile3429 (root)
 sprite  1569 notmd                 // tile1385
 sprite  1528 notmd                 // tile3429 (root)
@@ -131,6 +137,7 @@ sprite  1512 notmd                 // tile3429 (root)
 sprite  1550 notmd                 // tile1385
 sprite  1513 notmd                 // tile3429 (root)
 sprite  1551 notmd                 // tile1385
+// mhk diff sync 2
 sprite  3835 notmd                 // tile0353 (slide rail)
 sprite  3843 notmd                 // tile0125 walllightbust4
 sprite  3829 notmd                 // tile0353 (slide rail)
@@ -274,6 +281,7 @@ sprite   688 away1                 // tile0613 (authorized personnel sign)
 sprite   704 away1                 // tile4488 (map)
 sprite  2354 away1                 // tile0613 (authorized personnel sign)
 sprite   801 away1                 // tile0062 (red ball)
+sprite   800 notmd                 // tile0198 (glass pane)
 sprite   802 away1                 // tile0062 (red ball)
 sprite  2355 away1                 // tile2858 (bluefont E)
 sprite  2356 away1                 // tile2834 (bluefont -)
@@ -304,9 +312,6 @@ sprite   787 pitch      1          // tile0556 chair1
 sprite   788 angoff    -512        // tile0556 chair1
 sprite   790 angoff     1024       // tile0556 chair1
 sprite   791 angoff     384        // tile0559 brokenchair
-sprite  2944 away1                 // tile2858 (bluefont E)
-sprite  2945 away1                 // tile2871 (bluefont R)
-sprite  2946 away1                 // tile2951 (redfont L)
 sprite   901 notmd                 // tile0126 (walllight)
 sprite  2324 away1                 // tile2858 (bluefont E)
 sprite  2323 away1                 // tile2834 (bluefont -)
@@ -320,9 +325,6 @@ sprite   855 away1                 // tile1075 (painting)
 sprite   856 away1                 // tile1076 (painting)
 sprite   854 away1                 // tile0586 (spreadsheet)
 sprite   840 angoff    -512        // tile4370 desklamp
-sprite  2326 away1                 // tile2858 (bluefont E)
-sprite  2327 away1                 // tile2834 (bluefont -)
-sprite  2328 away1                 // tile2839 (bluefont 2)
 sprite   902 notmd                 // tile0126 (walllight)
 sprite  1618 away1                 // tile2951 (redfont L)
 sprite  1619 away1                 // tile2940 bigalphanum (redfont A)
@@ -335,8 +337,10 @@ sprite  2293 away1                 // tile2858 (bluefont E)
 sprite  2329 away1                 // tile2834 (bluefont -)
 sprite  2330 away1                 // tile2840 (bluefont 3)
 sprite   898 notmd                 // tile0126 (walllight)
+sprite  2294 away1                 // tile4395 (list)
 sprite   900 away1                 // tile4102 (panel)
 sprite   897 notmd                 // tile0126 (walllight)
+sprite  2295 away1                 // tile4395 (list)
 sprite   899 away1                 // tile4102 (panel)
 sprite  3545 angoff     1024       // tile0049 shotgunammo
 sprite  3545 mdzoff     300000     // tile0049 shotgunammo
@@ -355,9 +359,14 @@ sprite   874 pitch     -1          // tile2264 (tile2260 jibs4)
 sprite   896 notmd                 // tile0126 (walllight)
 sprite  3594 mdzoff     80000      // tile0052 sixpack
 sprite  3594 pitch      1          // tile0052 sixpack
-sprite  2356 away1                 // tile2838 (bluefont 1)
-sprite  2357 away1                 // tile2834 (bluefont -)
-sprite  2358 away1                 // tile2838 (bluefont 1)
+sprite  2326 away1                 // tile2858 (bluefont E)
+sprite  2327 away1                 // tile2834 (bluefont -)
+sprite  2328 away1                 // tile2839 (bluefont 2)
+
+
+
+
+
 sprite  3544 angoff    -512        // tile0049 shotgunammo
 sprite   999 away1                 // tile1076 (painting)
 sprite  1005 away1                 // tile2294 (handprint right)
@@ -366,7 +375,7 @@ sprite  1004 away1                 // tile2302 wallblood2
 sprite  1006 angoff     1024       // tile2254 (tile2250 jibs2 (eye))
 sprite  1000 notmd                 // tile0126 (walllight)
 sprite   998 away1                 // tile1075 (painting)
-sprite  2259 angoff     768        // tile2259 (tile2255 jibs3)
+sprite  1008 angoff     768        // tile2259 (tile2255 jibs3)
 sprite  2358 away1                 // tile2838 (bluefont 1)
 sprite  2359 away1                 // tile2834 (bluefont -)
 sprite  2360 away1                 // tile2838 (bluefont 1)
@@ -404,8 +413,8 @@ sprite   905 notmd                 // tile0126 (walllight)
 sprite  2299 away1                 // tile4096 (mail)
 sprite  1614 away1                 // tile0658
 sprite  2331 away1                 // tile2858 (bluefont E)
-sprite  2301 away1                 // tile2834 (bluefont -)
-sprite  2371 away1                 // tile2841 (bluefont 4)
+sprite  2332 away1                 // tile2834 (bluefont -)
+sprite  2301 away1                 // tile2841 (bluefont 4)
 sprite  1224 away1                 // tile1076 (painting)
 sprite  1225 away1                 // tile1075 (painting)
 sprite  1226 away1                 // tile1075 (painting)
@@ -445,12 +454,15 @@ sprite  1268 pitch      1          // tile0551 domelite
 sprite  1300 nomdanim              // tile0409 (tile0407 fansprite)
 sprite  1300 mdzoff    -4096       // tile0409 (tile0407 fansprite)
 sprite  1300 pitch      1024       // tile0409 (tile0407 fansprite)
+// mhk diff sync 3
 sprite  1311 away1                 // tile4492 (newbeast chart)
 sprite  1297 nomdanim              // tile0409 (tile0407 fansprite)
 sprite  1297 mdzoff    -4096       // tile0409 (tile0407 fansprite)
 sprite  1297 pitch      1024       // tile0409 (tile0407 fansprite)
 sprite  1310 away1                 // tile4491 (slimer chart)
 sprite  1371 notmd                 // tile1407 (tile1405 duke)
+sprite  1371 away1                 // tile1407 (tile1405 duke)
+// mhk diff sync 4
 sprite  1298 nomdanim              // tile0409 (tile0407 fansprite)
 sprite  1298 mdzoff    -4096       // tile0409 (tile0407 fansprite)
 sprite  1298 pitch      1024       // tile0409 (tile0407 fansprite)
@@ -513,6 +525,7 @@ sprite  1109 roll      -1          // tile0994 pipe5
 sprite  1064 angoff    -256        // tile0695 pot2
 sprite  1066 angoff     384        // tile0694 pot1
 sprite  1101 notmd                 // tile0126 (walllight)
+// mhk diff sync 5
 sprite  1100 notmd                 // tile0126 (walllight)
 sprite  1086 angoff     512        // tile1163 bottle16
 sprite  1087 angoff     768        // tile1165 bottle18
@@ -618,6 +631,7 @@ sprite  1169 mdxoff     65000      // tile1050 (fusebox)
 sprite  1169 pitch      1          // tile1050 (fusebox)
 sprite  1170 mdxoff     4000       // tile1048 (pipes)
 sprite  1170 pitch      1          // tile1048 (pipes)
+// mhk diff sync 6
 sprite  3591 angoff     1024       // tile0051 cola
 sprite  3591 mdzoff     500000     // tile0051 cola
 sprite  3591 roll      -1          // tile0051 cola
@@ -694,6 +708,7 @@ sprite  3039 angoff     512        // tile0995 pipe6
 sprite  3039 mdzoff     450000     // tile0995 pipe6
 sprite  3039 roll       1          // tile0995 pipe6
 sprite  1873 away1                 // tile0062 (red ball)
+sprite  1871 notmd                 // tile0198 (glass pane)
 sprite  1872 away1                 // tile0062 (red ball)
 sprite  2524 away1                 // tile2864 (bluefont K)
 sprite  2525 away1                 // tile2834 (bluefont -)
@@ -722,16 +737,29 @@ sprite  1895 mdxoff     40000      // tile1353 spacemarine
 sprite  1895 pitch      1          // tile1353 spacemarine
 sprite  1894 angoff     512        // tile1353 spacemarine
 sprite  1894 pitch      528        // tile1353 spacemarine
+sprite  3615 mdzoff     1000000    // tile0056 airtank
+sprite  3615 pitch      1          // tile0056 airtank
+sprite  3364 away1                 // tile1058 (up sign)
+sprite  3365 away1                 // tile2855 (bluefont B)
+sprite  3366 away1                 // tile2868 (bluefont O)
+sprite  3367 away1                 // tile2872 (bluefont S)
+sprite  3368 away1                 // tile2872 (bluefont S)
+sprite  3372 away1                 // tile2861 (bluefont H)
+sprite  3371 away1                 // tile2869 (bluefont P)
+sprite  3370 away1                 // tile3007 bigcolin (redfont :)
+sprite  3369 away1                 // tile2840 (bluefont 3)
+sprite  3373 away1                 // tile2837 (bluefont 0)
+sprite  3374 away1                 // tile2837 (bluefont 0)
+sprite  3375 away1                 // tile1058 (up sign)
 sprite  3850 mdzoff     500000     // tile0054 shield
 sprite  3850 pitch      1          // tile0054 shield
 sprite  3850 roll      -2          // tile0054 shield
 sprite  3609 mdzoff     500000     // tile0054 shield
 sprite  3609 pitch      1          // tile0054 shield
 sprite  3609 roll      -1          // tile0054 shield
-sprite  3615 mdzoff     1000000    // tile0056 airtank
-sprite  3615 pitch      1          // tile0056 airtank
 sprite  3576 angoff     512        // tile0022 chaingunsprite
 sprite  3576 mdzoff     400000     // tile0022 chaingunsprite
+
 sprite  3576 roll      -1          // tile0022 chaingunsprite
 sprite  3577 angoff    -512        // tile0041 batteryammo
 sprite  3577 mdzoff     400000     // tile0041 batteryammo
@@ -749,6 +777,8 @@ sprite  3629 angoff    -512        // tile0041 batteryammo
 sprite  3629 mdzoff     400000     // tile0041 batteryammo
 sprite  3629 pitch     -2          // tile0041 batteryammo
 sprite  3629 roll       1          // tile0041 batteryammo
+
+
 sprite  3729 angoff    -512        // tile0053 firstaid
 sprite  3729 mdzoff     700000     // tile0053 firstaid
 sprite  3729 pitch      1          // tile0053 firstaid
@@ -756,18 +786,15 @@ sprite  3614 angoff    -512        // tile0053 firstaid
 sprite  3614 mdzoff     200000     // tile0053 firstaid
 sprite  3614 pitch     -1          // tile0053 firstaid
 sprite  3614 roll      -3          // tile0053 firstaid
-sprite  3364 away1                 // tile1058 (up sign)
-sprite  3365 away1                 // tile2855 (bluefont B)
-sprite  3366 away1                 // tile2868 (bluefont O)
-sprite  3367 away1                 // tile2872 (bluefont S)
-sprite  3368 away1                 // tile2872 (bluefont S)
-sprite  3372 away1                 // tile2861 (bluefont H)
-sprite  3371 away1                 // tile2869 (bluefont P)
-sprite  3370 away1                 // tile3007 bigcolin (redfont :)
-sprite  3369 away1                 // tile2840 (bluefont 3)
-sprite  3373 away1                 // tile2837 (bluefont 0)
-sprite  3374 away1                 // tile2837 (bluefont 0)
-sprite  3364 away1                 // tile1058 (up sign)
+sprite  3613 angoff     0          // tile0100 atomichealth
+
+sprite  3612 angoff     0          // tile0100 atomichealth
+
+sprite  3611 angoff     0          // tile0100 atomichealth
+
+
+sprite  3610 angoff     0          // tile0100 atomichealth
+
 sprite  3219 mdxoff     5000       // tile0162 dipswitch
 sprite  3219 pitch      1          // tile0162 dipswitch
 sprite  2542 away1                 // tile2864 (bluefont K)
@@ -904,8 +931,9 @@ sprite  3207 roll       1          // tile0920 (chain)
 
 sprite  3584 angoff     1024       // tile0049 shotgunammo
 sprite  3585 angoff     1024       // tile0049 shotgunammo
-sprite  1790 nomdanim              // tile2201 lizmanhead1
 sprite  1791 nomdanim              // tile2212 (tile2209 lizmanleg1)
+sprite  1790 nomdanim              // tile2201 lizmanhead1
+sprite  1789 nomdanim              // tile2212 (tile2209 lizmanleg1)
 sprite  3175 angoff    -512        // tile1515 (tile1405 duke)
 sprite  3175 mdxoff     30000      // tile1515 (tile1405 duke)
 sprite  3175 pitch     -1          // tile1515 (tile1405 duke)
@@ -971,29 +999,36 @@ sprite  2469 angoff     1024       // tile1515 (tile1405 duke)
 sprite  2469 mdxoff     40000      // tile1515 (tile1405 duke)
 sprite  2469 mdzoff     2000000    // tile1515 (tile1405 duke)
 sprite  2469 pitch     -1          // tile1515 (tile1405 duke)
+
 sprite  2467 angoff    -768        // tile1515 (tile1405 duke)
 sprite  2467 mdxoff     30000      // tile1515 (tile1405 duke)
 sprite  2467 mdzoff     400000     // tile1515 (tile1405 duke)
 sprite  2467 pitch     -1          // tile1515 (tile1405 duke)
 sprite  2467 roll      -2          // tile1515 (tile1405 duke)
+
+sprite  2468 angoff     0          // tile1515 (tile1405 duke)
 sprite  2468 mdxoff    -100        // tile1515 (tile1405 duke)
 sprite  2468 mdzoff    -1000       // tile1515 (tile1405 duke)
 sprite  2468 pitch     -512        // tile1515 (tile1405 duke)
+
+sprite  2470 angoff     0          // tile1515 (tile1405 duke)
 sprite  2470 mdxoff    -150        // tile1515 (tile1405 duke)
 sprite  2470 mdzoff     200        // tile1515 (tile1405 duke)
 sprite  2470 pitch     -512        // tile1515 (tile1405 duke)
+
 sprite  2471 angoff     512        // tile1515 (tile1405 duke)
 sprite  2471 mdxoff     30000      // tile1515 (tile1405 duke)
 sprite  2471 pitch     -1          // tile1515 (tile1405 duke)
+
+sprite  2472 angoff     0          // tile1515 (tile1405 duke)
 sprite  2472 mdxoff     1000000    // tile1515 (tile1405 duke)
 sprite  2472 pitch     -1          // tile1515 (tile1405 duke)
 sprite  3154 notmd                 // tile2301 wallblood1
 sprite  3151 notmd                 // tile2301 wallblood1
 sprite  2486 away1                 // tile2302 wallblood2
-sprite  2486 away1                 // tile2302 wallblood2
 sprite  2489 away1                 // tile2302 wallblood2
-sprite  2488 away1                 // tile2302 wallblood2
 sprite  2487 away1                 // tile2302 wallblood2
+sprite  2488 away1                 // tile2302 wallblood2
 sprite  2491 away1                 // tile2302 wallblood2
 sprite  2490 away1                 // tile2302 wallblood2
 sprite  2492 away1                 // tile2302 wallblood2
@@ -1002,7 +1037,7 @@ sprite  2466 nomdanim              // tile2264 (tile2260 jibs4)
 sprite  2464 nomdanim              // tile2264 (tile2260 jibs4)
 sprite  2464 angoff     512        // tile2264 (tile2260 jibs4)
 sprite  2465 angoff     896        // tile2254 (tile2250 jibs2 (eye))
-sprite  2269 angoff    -896        // tile2269 (tile2265 jibs5)
+sprite  2460 angoff    -896        // tile2269 (tile2265 jibs5)
 sprite  2484 away1                 // tile2302 wallblood2
 sprite  2483 notmd                 // tile2302 wallblood2
 sprite  2482 away1                 // tile2302 wallblood2
