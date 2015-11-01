@@ -6,19 +6,21 @@
 // mapmd4   : ece5f2b517a2a0b88fcf33dd48fce987 // 2005-02-14
 
 //         <-> RED5-addonpack.mhk
+//         <-> RED5-amctc2.mhk
 
 // Curr. HRP: r5.3.633
 
 // 0-545 / 701-726 / 925-3942
+// 0-85 / 108-267 / / 320-1302 / 1419-3700 / 3755-3756 / 3860-3909
 sprite  3698 angoff     1024       // tile0054 shield
 sprite  3654 angoff     256        // tile0023 rpgsprite (multiplayer)
 sprite  3656 angoff     768        // tile0044 rpgammo (multiplayer)
 sprite  3655 angoff    -768        // tile0044 rpgammo (multiplayer)
 sprite  3645 angoff    -256        // tile0057 jetpack (multiplayer)
-sprite  3647 mdxoff     50000      // tile0021 firstgunsprite
-sprite  3647 pitch      1          // tile0021 firstgunsprite
-sprite  3685 mdxoff     50000      // tile0028 shotgunsprite
-sprite  3685 pitch      1          // tile0028 shotgunsprite
+sprite  3647 mdxoff     50000      // tile0021 firstgunsprite (multiplayer)
+sprite  3647 pitch      1          // tile0021 firstgunsprite (multiplayer)
+sprite  3685 mdxoff     50000      // tile0028 shotgunsprite (multiplayer)
+sprite  3685 pitch      1          // tile0028 shotgunsprite (multiplayer)
 sprite  3565 notmd                 // tile0974 oceansprite4
 sprite  3050 nomdanim              // tile0974 oceansprite4
 sprite  3051 nomdanim              // tile0974 oceansprite4
@@ -28,9 +30,9 @@ sprite  3660 angoff    -512        // tile0053 firstaid (multiplayer)
 sprite  3057 angoff    -768        // tile0040 ammo
 sprite  3049 angoff     1024       // tile0052 sixpack
 sprite  3056 mdzoff     300000     // tile1005 pipe5b
-sprite  3056 pitch     -1          // tile1005 pipe5b
+sprite  3056 pitch      1          // tile1005 pipe5b
 sprite  3055 mdzoff     400000     // tile0997 pipe4b
-sprite  3055 pitch     -1          // tile0997 pipe4b
+sprite  3055 pitch      1          // tile0997 pipe4b
 sprite  3684 angoff    -512        // tile0052 sixpack (multiplayer)
 sprite  1959 nomdanim              // tile0974 oceansprite4
 sprite  1960 nomdanim              // tile0974 oceansprite4
@@ -63,6 +65,7 @@ sprite  1584 nomdanim              // tile0974 oceansprite4
 sprite  1585 nomdanim              // tile0974 oceansprite4
 sprite  1586 nomdanim              // tile0974 oceansprite4
 sprite  1587 nomdanim              // tile0974 oceansprite4
+// mhk diff sync 1
 sprite  3683 angoff     768        // tile0047 hbombammo (multiplayer)
 sprite  3683 pitch      32         // tile0047 hbombammo (multiplayer)
 sprite  3683 roll       32         // tile0047 hbombammo (multiplayer)
@@ -98,6 +101,7 @@ sprite  3686 mdzoff     900000     // tile0044 rpgammo (multiplayer)
 sprite  3686 pitch     -1          // tile0044 rpgammo (multiplayer)
 sprite  3687 mdzoff     900000     // tile0044 rpgammo (multiplayer)
 sprite  3687 pitch     -1          // tile0044 rpgammo (multiplayer)
+sprite  1812 nomdanim              // tile0974 oceansprite4
 sprite  1811 nomdanim              // tile0974 oceansprite4
 sprite  1810 nomdanim              // tile0974 oceansprite4
 sprite  1809 nomdanim              // tile0974 oceansprite4
@@ -106,6 +110,7 @@ sprite  1807 nomdanim              // tile0974 oceansprite4
 sprite  1806 nomdanim              // tile0974 oceansprite4
 sprite  1805 nomdanim              // tile0974 oceansprite4
 sprite  1804 nomdanim              // tile0974 oceansprite4
+sprite  1803 nomdanim              // tile0974 oceansprite4
 sprite  1802 nomdanim              // tile0974 oceansprite4
 sprite  2626 angoff     1024       // tile0052 sixpack
 sprite  2627 angoff     1024       // tile0049 shotgunammo
@@ -169,9 +174,10 @@ sprite  2862 roll       4          // tile0022 chaingunsprite
 sprite  1302 angoff     1024       // tile0049 shotgunammo
 sprite  1302 mdzoff     1150000    // tile0049 shotgunammo
 sprite  1302 roll       1          // tile0049 shotgunammo
+sprite  2860 angoff     1024       // tile1347 fetusjib
 sprite  1423 angoff     768        // tile1769 (tile1768 headjib1)
 sprite  1440 mdzoff     80000      // tile1048 (pipes)
-sprite  1440 pitch      1          // tile1048 (pipes)
+sprite  1440 pitch     -1          // tile1048 (pipes)
 sprite  1419 nomdanim              // tile2267 (tile2265 jibs5)
 sprite  1419 mdxoff     90000      // tile2267 (tile2265 jibs5)
 sprite  1419 pitch      1          // tile2267 (tile2265 jibs5)
@@ -202,6 +208,11 @@ sprite  1263 mdzoff     500000     // tile0054 shield
 sprite  1263 roll       1          // tile0054 shield
 sprite  1264 angoff    -384        // tile0040 ammo
 sprite     1 angoff     1024       // tile0052 sixpack
+sprite    61 away1                 // tile0140 frankenstineswitch
+sprite    62 away1                 // tile0140 frankenstineswitch
+sprite    57 away1                 // tile0140 frankenstineswitch
+sprite    66 away1                 // tile0140 frankenstineswitch
+sprite    67 away1                 // tile0140 frankenstineswitch
 sprite  3119 nomdanim              // tile2257 (tile2255 jibs3)
 sprite  3861 nomdanim              // tile2253 (tile2250 jibs2 (eye))
 sprite  3861 mdxoff     25000      // tile2253 (tile2250 jibs2 (eye))
@@ -235,7 +246,7 @@ sprite  3371 pitch      512        // tile2204 (tile2201 lizmanhead1)
 sprite  3373 nomdanim              // tile2203 (tile2201 lizmanhead1)
 sprite  3373 mdxoff     30000      // tile2203 (tile2201 lizmanhead1)
 sprite  3373 pitch      1          // tile2203 (tile2201 lizmanhead1)
-// mhk diff sync 1
+// mhk diff sync 2
 sprite  3147 angoff     128        // tile0023 rpgsprite
 sprite  3148 angoff    -256        // tile0044 rpgammo
 sprite  3148 mdzoff     500000     // tile0044 rpgammo
@@ -264,16 +275,18 @@ sprite  1004 nomdanim              // tile2256 (tile2255 jibs3)
 sprite  1010 nomdanim              // tile2251 (tile2250 jibs2 (eye))
 sprite  1011 nomdanim              // tile2251 (tile2250 jibs2 (eye))
 sprite   999 nomdanim              // tile2203 (tile2201 lizmanhead1)
+// mhk diff sync 3
 sprite  1000 nomdanim              // tile2267 (tile2265 jibs5)
 sprite  1000 pitch      1024       // tile2267 (tile2265 jibs5)
 sprite  1009 nomdanim              // tile2251 (tile2250 jibs2 (eye))
 sprite  1006 nomdanim              // tile2203 (tile2201 lizmanhead1)
 sprite  1006 pitch     -512        // tile2203 (tile2201 lizmanhead1)
+// mhk diff sync 4
 sprite  1007 nomdanim              // tile2256 (tile2255 jibs3)
 sprite   997 nomdanim              // tile2248 (tile2245 jibs1)
 sprite  1016 nomdanim              // tile2251 (tile2250 jibs2 (eye))
 sprite  1016 roll      -512        // tile2251 (tile2250 jibs2 (eye))
-// mhk diff sync 2
+// mhk diff sync 5
 sprite  1015 nomdanim              // tile2252 (tile2250 jibs2 (eye))
 sprite  1015 pitch      512        // tile2252 (tile2250 jibs2 (eye))
 sprite   996 nomdanim              // tile2250 jibs2 (eye)
@@ -341,6 +354,8 @@ sprite  2361 nomdanim              // tile1525 (tile1520 (duke torso))
 sprite  2364 nomdanim              // tile2268 (tile2265 jibs5)
 sprite  3860 angoff     768        // tile0049 shotgunammo
 sprite  3580 nomdanim              // tile2407 (tile2404 scrap2)
+sprite  3579 mdxoff     1000       // tile0585 (display)
+sprite  3579 pitch      1          // tile0585 (display)
 sprite  3581 nomdanim              // tile2411 (tile2408 scrap3)
 sprite  3582 nomdanim              // tile2405 (tile2404 scrap2)
 sprite   473 angoff     768        // tile2060 pigcopdeadsprite
@@ -357,7 +372,7 @@ sprite  1514 nomdanim              // tile2353 (tile2360 (gunturret))
 sprite  1514 angoff    -512        // tile2353 (tile2360 (gunturret))
 sprite  1513 nomdanim              // tile2353 (tile2360 (gunturret))
 sprite  1513 angoff    -768        // tile2353 (tile2360 (gunturret))
-// mhk diff sync 3
+// mhk diff sync 6
 sprite  2747 nomdanim              // tile2353 (tile2360 (gunturret))
 sprite  2747 angoff    -256        // tile2353 (tile2360 (gunturret))
 sprite  2746 nomdanim              // tile2353 (tile2360 (gunturret))
@@ -366,8 +381,12 @@ sprite  1489 angoff     0          // tile0060 accesscard red
 sprite   539 nomdanim              // tile2357 (tile2360 (gunturret))
 sprite   539 angoff    -512        // tile2357 (tile2360 (gunturret))
 sprite   545 angoff     256        // tile2665 (tile2660 boss1shoot)
+sprite  3868 notmd                 // tile0146 multiswitch
+sprite  3868 away1                 // tile0146 multiswitch
 sprite  3736 nomdanim              // tile2356 (tile2360 (gunturret))
 sprite  3736 angoff     512        // tile2356 (tile2360 (gunturret))
+sprite   117 mdxoff     15000      // tile0621 camera1
+sprite   117 pitch      1          // tile0621 camera1
 sprite   116 nomdanim              // tile2648 (tile2630 boss1 (battlelord))
 sprite   116 angoff     1024       // tile2648 (tile2630 boss1 (battlelord))
 sprite  3907 nomdanim              // tile2019 (tile2000 pigcop)

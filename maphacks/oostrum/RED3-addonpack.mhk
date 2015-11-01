@@ -6,18 +6,22 @@
 // mapmd4   : 95610158722c62725e1c50491efdda35 // 2014-11-23 (Addon Pack)
 
 //         <-> Red3.mhk
+//         <-> RED3-amctc2.mhk
 
 // Curr. HRP: r5.3.633
 
 // 0-1224 / / 1381-4025
+// 
 sprite   242 angoff    -256        // tile0028 shotgunsprite (multiplayer)
 sprite   241 angoff     768        // tile0049 shotgunammo (multiplayer)
-sprite   245 angoff     1024       // tile0026 heavyhbomb (multiplayer)
-sprite   240 angoff     1024       // tile0026 heavyhbomb (multiplayer)
+sprite   245 angoff     1024       // tile0047 hbombammo (multiplayer)
+sprite   240 angoff     1024       // tile0047 hbombammo (multiplayer)
 sprite   244 angoff    -768        // tile0021 firstgunsprite (multiplayer)
 sprite   243 angoff    -768        // tile0021 firstgunsprite (multiplayer)
 sprite  1830 angoff     512        // tile0026 heavyhbomb
 sprite  1829 angoff     768        // tile4419 (openbomb)
+sprite  2118 mdzoff     150000     // tile1048 (pipes)
+sprite  2118 pitch     -1          // tile1048 (pipes)
 sprite   340 angoff     1024       // tile0051 cola
 sprite  3678 angoff     768        // tile0021 firstgunsprite
 sprite  4018 angoff     512        // tile0059 heatsensor
@@ -28,6 +32,7 @@ sprite  3701 nomdanim              // tile1822 (tile1820 octabrain)
 sprite  3701 angoff    -768        // tile1822 (tile1820 octabrain)
 sprite  3699 nomdanim              // tile1822 (tile1820 octabrain)
 sprite  3699 angoff    -256        // tile1822 (tile1820 octabrain)
+// mhk diff sync 1
 sprite  3700 nomdanim              // tile1822 (tile1820 octabrain)
 sprite  3700 angoff     1024       // tile1822 (tile1820 octabrain)
 sprite  3799 angoff    -768        // tile0040 ammo
@@ -60,21 +65,34 @@ sprite  3667 pitch      1          // tile0049 shotgunammo
 sprite   531 angoff    -256        // tile0052 sixpack
 sprite  3716 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  3714 notmd                 // tile0907 (tile0904 woodenhorse)
+sprite  3714 away1                 // tile0907 (tile0904 woodenhorse)
 sprite  3715 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  3713 notmd                 // tile0907 (tile0904 woodenhorse)
+sprite  3713 away1                 // tile0907 (tile0904 woodenhorse)
 sprite  3720 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  3717 notmd                 // tile0907 (tile0904 woodenhorse)
+sprite  3717 away1                 // tile0907 (tile0904 woodenhorse)
 sprite  3718 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  3719 notmd                 // tile0907 (tile0904 woodenhorse)
+sprite  3719 away1                 // tile0907 (tile0904 woodenhorse)
 sprite  3731 notmd                 // tile0907 (tile0904 woodenhorse)
 sprite  3732 notmd                 // tile0907 (tile0904 woodenhorse)
+sprite  3732 away1                 // tile0907 (tile0904 woodenhorse)
+sprite  3655 away1                 // tile4102 (panel)
 sprite  3645 notmd                 // tile1031 glasspieces
 sprite  3643 notmd                 // tile1031 glasspieces
 sprite  3644 notmd                 // tile1031 glasspieces
+sprite  3767 away1                 // tile0430
+sprite  3768 away1                 // tile0430
+sprite  3765 away1                 // tile0430
+sprite  3766 away1                 // tile0430
 sprite  2643 notmd                 // tile0164 dipswitch2
 sprite   363 angoff    -256        // tile0051 cola
+sprite   351 away1                 // tile0430
 sprite   274 angoff    -768        // tile0028 shotgunsprite (multiplayer)
 sprite   273 angoff     768        // tile0049 shotgunammo (multiplayer)
+sprite   273 mdzoff     300000     // tile0049 shotgunammo (multiplayer)
+sprite   273 roll       1          // tile0049 shotgunammo (multiplayer)
 sprite   272 angoff     512        // tile0049 shotgunammo (multiplayer)
 sprite   255 angoff     1024       // tile0041 batteryammo (multiplayer)
 sprite   416 angoff     1024       // tile0047 hbombammo
@@ -96,8 +114,8 @@ sprite   566 angoff     1024       // tile0051 cola
 sprite   503 angoff    -512        // tile0022 chaingunsprite
 sprite   501 angoff     1024       // tile0041 batteryammo
 sprite   500 angoff     1024       // tile0054 shield
-sprite  3653 notmd                 // tile0134 lightswitch
 sprite    12 angoff     512        // tile0059 heatsensor (multiplayer)
+sprite  3663 notmd                 // tile0134 lightswitch
 sprite   502 angoff     512        // tile0041 batteryammo
 sprite   570 angoff     256        // tile0051 cola
 sprite   571 angoff     256        // tile0051 cola
@@ -109,7 +127,7 @@ sprite   248 mdzoff     900000     // tile0037 freezeammo(multiplayer)
 sprite   248 pitch     -1          // tile0037 freezeammo(multiplayer)
 sprite   251 angoff     256        // tile0052 sixpack (multiplayer)
 sprite  3793 angoff     512        // tile0053 firstaid
-sprite  3793 mdzoff     400000     // tile0053 firstaid
+sprite  3793 mdzoff     600000     // tile0053 firstaid
 sprite  3793 roll      -1          // tile0053 firstaid
 sprite   281 angoff     896        // tile0025 shrinkersprite (multiplayer)
 sprite   278 mdxoff     1000000    // tile0045 growammo (multiplayer)
@@ -149,3 +167,18 @@ sprite  4023 pitch     -1          // tile0044 rpgammo
 sprite  4025 angoff    -256        // tile0049 shotgunammo
 sprite  4025 mdzoff     150000     // tile0049 shotgunammo
 sprite  4025 roll       1          // tile0049 shotgunammo
+sprite  3982 mdzoff     100000     // tile0544 (iron bar)
+sprite  3982 pitch     -1          // tile0544 (iron bar)
+sprite  3983 mdzoff     100000     // tile0544 (iron bar)
+sprite  3983 pitch     -1          // tile0544 (iron bar)
+sprite  3984 mdzoff     100000     // tile0544 (iron bar)
+sprite  3984 pitch     -1          // tile0544 (iron bar)
+sprite  3985 mdzoff     100000     // tile0544 (iron bar)
+sprite  3985 pitch     -1          // tile0544 (iron bar)
+sprite  3980 mdzoff     100000     // tile0544 (iron bar)
+sprite  3980 pitch     -1          // tile0544 (iron bar)
+sprite  3981 mdzoff     100000     // tile0544 (iron bar)
+sprite  3981 pitch     -1          // tile0544 (iron bar)
+sprite  3989 mdzoff     12500      // tile1048 (pipes)
+sprite  3989 pitch     -3          // tile1048 (pipes)
+sprite  3989 roll       1          // tile1048 (pipes)
