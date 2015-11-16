@@ -3,12 +3,15 @@
 // Title    : Project Zero
 // Filename : project-zero.map
 // Author   : Spiker
+// mapmd4   : 7c0e5488f2de5d58dac010470b90635e // 2009-04-22
 // mapmd4   : 10030b04da13873e44c96afa39271dcc // 2010-01-05
 
 // Curr. HRP: r5.2.509
 
 sprite  3348 mdzoff     145000     // tile0407 fansprite
 sprite  3348 pitch     -1          // tile0407 fansprite
+sprite   426 away1                 // tile4476 (briefing room sign)
+sprite  2004 away1                 // tile4493 (imf sign)
 sprite   403 angoff     512        // tile0049 shotgunammo
 sprite   404 angoff     512        // tile0049 shotgunammo
 sprite   404 mdzoff     300000     // tile0049 shotgunammo
@@ -19,6 +22,8 @@ sprite   405 roll      -1          // tile0049 shotgunammo
 sprite  2968 angoff     1024       // tile0407 fansprite
 sprite  2968 mdzoff     145000     // tile0407 fansprite
 sprite  2968 pitch     -1          // tile0407 fansprite
+sprite  2018 away1                 // tile0498 (edf sign)
+sprite  2019 away1                 // tile4493 (imf sign)
 sprite   176 mdzoff     500000     // tile0556 chair1
 sprite   176 pitch     -1          // tile0556 chair1
 sprite   617 mdzoff     500000     // tile0557 chair2
@@ -39,7 +44,9 @@ sprite   171 pitch     -1          // tile0556 chair1
 sprite   680 angoff     1024       // tile0407 fansprite
 sprite   680 mdzoff     145000     // tile0407 fansprite
 sprite   680 pitch     -1          // tile0407 fansprite
-sprite  1787 roll       1024       // tile0407 fansprite
+//sprite  1787 mdzoff     3072       // tile0407 fansprite // Polymost HRP
+sprite  1787 mdzoff    -3072       // tile0407 fansprite // Polymer HRP
+sprite  1787 pitch      1024       // tile0407 fansprite
 sprite   725 mdzoff     200000     // tile0574 (tile0670 (faucet))
 sprite   725 roll       1          // tile0574 (tile0670 (faucet))
 sprite  1908 mdzoff     200000     // tile0574 (tile0670 (faucet))
