@@ -361,8 +361,10 @@ texture 225 {
    pal 21 { file "highres/textures/0225_21.png" }
 }
 texture 226 {
-   pal 0 { file "highres/textures/0226.png" }
-   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.15 }
+   pal 0 { file "highres/textures/0226_d.png" }
+   normal { file "highres/textures/0226_n.png" parallaxbias 0.1 parallaxscale 0.1 }
+   specular { file "highres/textures/0226_s.png" }
+//   detail { file "highres/detail/metal.png" xscale 0.5 yscale 0.15 }
 }
 texture 227 {
    pal 0 { file "highres/textures/0227_d.png" }
