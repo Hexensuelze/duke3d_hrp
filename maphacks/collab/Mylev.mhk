@@ -5,8 +5,11 @@
 // Author   : Rob 'HighWire' Wijkstra & Geoffrey 'Fakir' van Dijk
 // mapmd4   : ff61f3ff36a069b053aefcef54b49d78 // 2003-05-08
 
-// Curr. HRP: r5.3.634
+//         <-> Mylev-nsd.mhk
 
+// Curr. HRP: r5.4.686
+
+// / 0-92 | 93-573 / 576-598
 sprite    64 angoff     256        // tile0049 shotgunammo
 sprite    63 angoff    -768        // tile0028 shotgunsprite
 sprite    65 angoff     256        // tile0049 shotgunammo
@@ -19,9 +22,9 @@ sprite   546 angoff    -512        // tile0046 crystalammo (multiplayer)
 sprite   230 angoff    -256        // tile0051 cola
 sprite    45 angoff     384        // tile0054 shield
 sprite    47 angoff     512        // tile0023 rpgsprite
-sprite    44 angoff    -768        // tile0042 devistatorammo
-sprite    43 angoff    -768        // tile0042 devistatorammo
-sprite    42 angoff    -768        // tile0042 devistatorammo
+sprite    44 angoff    -768        // tile0042 devistatorammo (multiplayer)
+sprite    43 angoff    -768        // tile0042 devistatorammo (multiplayer)
+sprite    42 angoff    -768        // tile0042 devistatorammo (multiplayer)
 sprite   229 angoff    -768        // tile0981 hydrent
 sprite   211 angoff    -768        // tile0021 firstgunsprite
 sprite   210 angoff    -768        // tile0040 ammo
@@ -45,11 +48,14 @@ sprite   199 mdzoff     200000     // tile0044 rpgammo
 sprite   199 pitch      1          // tile0044 rpgammo
 sprite   199 roll       4          // tile0044 rpgammo
 sprite   197 angoff    -512        // tile0044 rpgammo
-sprite   197 mdzoff     200000     // tile0044 rpgammo
-sprite   197 pitch      1          // tile0044 rpgammo
-sprite   197 roll      -4          // tile0044 rpgammo
+sprite   197 mdzoff     100000     // tile0044 rpgammo
+sprite   197 pitch      2          // tile0044 rpgammo
+sprite   197 roll      -8          // tile0044 rpgammo
 sprite   433 angoff    -896        // tile0052 sixpack
 sprite   459 angoff     768        // tile0028 shotgunsprite (multiplayer)
+sprite   459 mdzoff     200000     // tile0028 shotgunsprite (multiplayer)
+sprite   459 pitch     -1          // tile0028 shotgunsprite (multiplayer)
+sprite   459 roll       1          // tile0028 shotgunsprite (multiplayer)
 sprite   460 angoff    -256        // tile0049 shotgunammo (multiplayer)
 sprite   461 angoff    -256        // tile0049 shotgunammo (multiplayer)
 sprite   246 angoff     768        // tile0060 accesscard blue
@@ -102,14 +108,19 @@ sprite   149 angoff     256        // tile1227 nukebarrel
 sprite   150 angoff    -512        // tile1247 seenine
 sprite   151 angoff    -768        // tile1247 seenine
 sprite   467 angoff     256        // tile0049 shotgunammo (multiplayer)
-sprite   466 angoff     1024       // tile0028 shotgunsprite (multiplayer)
 sprite   466 mdzoff     700000     // tile0028 shotgunsprite (multiplayer)
-sprite   466 roll       1          // tile0028 shotgunsprite (multiplayer)
+sprite   466 roll      -1          // tile0028 shotgunsprite (multiplayer)
 sprite   465 angoff     768        // tile0049 shotgunammo (multiplayer)
 sprite   576 angoff    -768        // tile0021 firstgunsprite
 sprite   577 angoff     1024       // tile0040 ammo
 sprite   578 angoff     1024       // tile0040 ammo
-sprite   321 angoff     640        // tile0995 pipe6
+sprite    37 mdzoff     500000     // tile0995 pipe6
+sprite    37 roll      -1          // tile0995 pipe6
+sprite   324 angoff     256        // tile0994 pipe5
+sprite   321 angoff    -896        // tile0995 pipe6
+sprite   321 mdzoff     200000     // tile0995 pipe6
+sprite   321 pitch     -1          // tile0995 pipe6
+sprite   321 roll       2          // tile0995 pipe6
 sprite   320 angoff     128        // tile0994 pipe5
 sprite   325 angoff     384        // tile0051 cola
 sprite   595 angoff     128        // tile0051 cola
@@ -129,6 +140,9 @@ sprite    90 roll       1          // tile1348 holoduke (multiplayer)
 sprite    89 angoff     1024       // tile0057 jetpack (multiplayer)
 sprite    88 angoff     256        // tile0055 steroids
 sprite   114 angoff    -768        // tile0044 rpgammo
+sprite   569 mdxoff     70000      // tile0621 camera1
+sprite   569 pitch      1          // tile0621 camera1
+sprite   319 angoff     1024       // tile0994 pipe5
 sprite   135 angoff     768        // tile1232 canwithsomething
 sprite   135 mdzoff     700000     // tile1232 canwithsomething
 sprite   135 pitch      1          // tile1232 canwithsomething
@@ -164,6 +178,8 @@ sprite   262 angoff     640        // tile0026 heavyhbomb
 sprite   262 mdzoff     500000     // tile0026 heavyhbomb
 sprite   262 roll      -1          // tile0026 heavyhbomb
 sprite   261 angoff     768        // tile0047 hbombammo
+sprite   323 angoff     256        // tile0994 pipe5
+sprite    35 angoff     256        // tile0994 pipe5
 sprite     0 angoff     256        // tile0026 heavyhbomb (multiplayer)
 sprite     1 angoff     256        // tile0026 heavyhbomb (multiplayer)
 sprite     2 angoff     256        // tile0026 heavyhbomb (multiplayer)
@@ -202,3 +218,12 @@ sprite   573 angoff    -640        // tile0026 heavyhbomb
 sprite   573 mdzoff     500000     // tile0026 heavyhbomb
 sprite   573 roll      -1          // tile0026 heavyhbomb
 sprite   572 angoff    -256        // tile0047 hbombammo
+sprite     6 angoff    -256        // tile0042 devistatorammo (multiplayer)
+sprite     6 mdzoff     500000     // tile0042 devistatorammo (multiplayer)
+sprite     6 pitch      1          // tile0042 devistatorammo (multiplayer)
+sprite     7 angoff    -256        // tile0042 devistatorammo (multiplayer)
+sprite     7 mdzoff     500000     // tile0042 devistatorammo (multiplayer)
+sprite     7 pitch      1          // tile0042 devistatorammo (multiplayer)
+sprite     8 mdzoff     300000     // tile0029 devistatorsprite (multiplayer)
+sprite     8 pitch      1          // tile0029 devistatorsprite (multiplayer)
+sprite     8 roll       1          // tile0029 devistatorsprite (multiplayer)

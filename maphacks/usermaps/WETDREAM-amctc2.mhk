@@ -6,11 +6,13 @@
 // mapmd4   : d8e6528091be7d623c2ed19ebc0d9eba // 2015-03-12 (AMC TC2)
 
 //         <-> WETDREAM.mhk
+//         <-> WETDREAM-nsd.mhk
 //         <-> WETDREAM-amctc.mhk
 
-// Curr. HRP: r5.3.594
+// Curr. HRP: r5.4.686
 
 // 0-50 / 107-200 / / 213-875
+// 
 sprite   132 angoff     1024       // tile0040 ammo
 sprite   133 angoff     1024       // tile0040 ammo
 sprite   134 angoff    -768        // tile1232 canwithsomething
@@ -36,10 +38,15 @@ sprite   863 roll       1          // tile0049 shotgunammo
 sprite   862 mdzoff     300000     // tile0028 shotgunsprite
 sprite   862 roll       1          // tile0028 shotgunsprite
 sprite   213 angoff     512        // tile0557 chair2
+sprite   213 mdzoff     300000     // tile0557 chair2
+sprite   213 pitch     -1          // tile0557 chair2
 sprite   214 angoff    -384        // tile0556 chair1
 sprite   874 angoff     512        // tile0051 cola
 sprite   871 angoff     512        // tile0040 ammo
 sprite   215 angoff    -896        // tile0556 chair1
+sprite   215 mdzoff     100000     // tile0556 chair1
+sprite   215 pitch     -3          // tile0556 chair1
+sprite   215 roll      -1          // tile0556 chair1
 sprite   128 mdzoff     1200000    // tile0044 rpgammo
 sprite   128 pitch      1          // tile0044 rpgammo
 sprite   129 mdzoff     900000     // tile0044 rpgammo
@@ -136,7 +143,7 @@ sprite     2 roll       1          // tile0053 firstaid (multiplayer)
 sprite    42 mdzoff     150000     // tile0574 (tile0670 (faucet))
 sprite    42 pitch      1          // tile0574 (tile0670 (faucet))
 sprite    42 roll       1          // tile0574 (tile0670 (faucet))
-sprite   912 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite   925 angoff     1024       // tile1160 bottle13 (Jack Daniels)
 sprite    13 angoff    -768        // tile0027 tripbombsprite
 sprite    14 angoff    -768        // tile0027 tripbombsprite
 sprite    55 angoff     256        // tile0753 statue (geisha)

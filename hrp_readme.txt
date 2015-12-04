@@ -142,8 +142,8 @@ Please also be aware of the fact that we are still missing models and textures
 because these have not been remade yet by the community. They will probably 
 be featured in upcoming releases of the HRP (or updates).
 
-For a full summary of what's left to do, you may have a look at the HRP Wiki 
-todo-list: http://hrp.duke4.net/wiki/doku.php?id=other:next_hrp_release
+For a full summary of what's left to do, you may have a look at the 
+hrp_todo.txt file.
 
 
 -------------------------------

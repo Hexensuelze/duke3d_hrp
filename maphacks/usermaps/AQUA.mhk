@@ -5,26 +5,39 @@
 // Author   : Ben Roffelsen
 // mapmd4   : e862ae26e492deec3d4fc1cf74aeb846 // 1995-07-11
 
-// Curr. HRP: r5.3.634
+//         <-> AQUA-nsd.mhk
 
-sprite   234 mdzoff     400000     // tile0994 pipe5
+// Curr. HRP: r5.4.686
+
+sprite   234 angoff     256        // tile0994 pipe5
+sprite   234 mdzoff     350000     // tile0994 pipe5
 sprite   234 pitch      1          // tile0994 pipe5
+sprite   234 roll      -1          // tile0994 pipe5
 sprite   291 mdzoff     200000     // tile0916 fireext
 sprite   291 pitch      1          // tile0916 fireext
-sprite   235 angoff     1024       // tile0994 pipe5
+sprite   235 angoff    -768        // tile0994 pipe5
 sprite   235 mdzoff     400000     // tile0994 pipe5
 sprite   235 pitch     -1          // tile0994 pipe5
+sprite   235 roll       1          // tile0994 pipe5
 sprite   444 angoff    -384        // tile1353 spacemarine
-sprite   444 mdzoff     900000     // tile1353 spacemarine
-sprite   444 pitch     -1          // tile1353 spacemarine
+//sprite   444 mdzoff     900000     // tile1353 spacemarine
+//sprite   444 pitch     -1          // tile1353 spacemarine
+sprite   444 mdxoff    -100        // tile1353 spacemarine
+sprite   444 mdzoff    -1600       // tile1353 spacemarine
+sprite   444 pitch      528        // tile1353 spacemarine
+sprite   442 mdxoff     40000      // tile1353 spacemarine
+sprite   442 mdzoff     1500000    // tile1353 spacemarine
+sprite   442 pitch      1          // tile1353 spacemarine
 sprite   509 angoff     1024       // tile0049 shotgunammo
 sprite   509 roll      -192        // tile0049 shotgunammo
 sprite   510 angoff     1024       // tile0049 shotgunammo
 sprite   510 roll      -192        // tile0049 shotgunammo
+sprite   287 away1                 // tile0502 viewscreen
 sprite   250 angoff     1024       // tile0056 airtank
 sprite    62 angoff     1024       // tile0049 shotgunammo
 sprite    62 mdzoff     900000     // tile0049 shotgunammo
 sprite    62 pitch     -1          // tile0049 shotgunammo
+sprite   489 angoff     0          // tile0022 chaingunsprite
 sprite   266 angoff     256        // tile0023 rpgsprite (multiplayer)
 sprite   511 angoff     1024       // tile0052 sixpack
 sprite   279 angoff    -768        // tile0028 shotgunsprite
@@ -49,6 +62,13 @@ sprite   296 mdzoff     100000     // tile0574 (tile0670 (faucet))
 sprite   296 pitch     -1          // tile0574 (tile0670 (faucet))
 sprite   217 mdzoff     500000     // tile1062 rubbercan
 sprite   217 pitch      1          // tile1062 rubbercan
+sprite   315 away1                 // tile2984 (greyfont S)
+sprite   316 away1                 // tile2973 (greyfont H)
+sprite   317 away1                 // tile2980 (greyfont O)
+sprite   318 away1                 // tile2988 (greyfont W)
+sprite   319 away1                 // tile2970 (greyfont E)
+sprite   320 away1                 // tile2983 (greyfont R)
+sprite   321 away1                 // tile2984 (greyfont S)
 sprite   314 angoff    -256        // tile0561 (soap)
 sprite   313 angoff     128        // tile0561 (soap)
 sprite    32 angoff    -256        // tile0026 heavyhbomb
@@ -71,6 +91,8 @@ sprite   383 mdzoff     250000     // tile0916 fireext
 sprite   383 pitch      1          // tile0916 fireext
 sprite    12 angoff     384        // tile0026 heavyhbomb (multiplayer)
 sprite   152 angoff    -256        // tile0028 shotgunsprite (multiplayer)
+sprite   196 pitch     -80         // tile0551 domelite
+sprite   195 pitch     -80         // tile0551 domelite
 sprite    25 angoff    -512        // tile0052 sixpack
 sprite    57 angoff     768        // tile0026 heavyhbomb
 sprite     6 angoff     1024       // tile0026 heavyhbomb
@@ -93,6 +115,13 @@ sprite   159 angoff     512        // tile0028 shotgunsprite (multiplayer)
 sprite   386 mdzoff     500000     // tile0563 waterfountain
 sprite   386 pitch      1          // tile0563 waterfountain
 sprite    13 angoff     1024       // tile0028 shotgunsprite (multiplayer)
+sprite   475 mdzoff     250000     // tile0140 frankenstineswitch
+sprite   475 roll      -1          // tile0140 frankenstineswitch
+
+
+
+
+
 sprite   508 angoff    -512        // tile0060 accesscard red
 sprite   508 mdzoff     900000     // tile0060 accesscard red
 sprite   508 pitch     -1          // tile0060 accesscard red

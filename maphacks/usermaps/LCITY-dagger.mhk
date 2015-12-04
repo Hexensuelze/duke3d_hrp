@@ -5,8 +5,11 @@
 // Author   : Scott 'Dagger' Haslam
 // mapmd4   : ca1afaebfded055054b7e3983ec2566c // 1996-11-17
 
-// Curr. HRP: r5.3.588
+//         <-> LCITY-dagger-nsd.mhk
 
+// Curr. HRP: r5.4.686
+
+// / 2-9  / / 18-33 / 38 # # 43-47 / 98-236 / / 645-659
 sprite    33 angoff     768        // tile0049 shotgunammo
 sprite    33 roll      -128        // tile0049 shotgunammo
 sprite   648 angoff    -256        // tile0040 ammo
@@ -37,6 +40,8 @@ sprite   235 mdzoff     900000     // tile1247 seenine
 sprite   235 roll       1          // tile1247 seenine
 sprite   653 angoff     1024       // tile0052 sixpack
 sprite   691 angoff    -256        // tile0023 rpgsprite
+sprite   259 away1                 // tile0657 (danger sign)
+
 sprite    32 angoff    -768        // tile0052 sixpack
 sprite   654 angoff    -896        // tile0022 chaingunsprite
 sprite   655 angoff    -384        // tile0024 freezesprite
@@ -54,6 +59,9 @@ sprite   662 angoff    -512        // tile0054 shield
 sprite   661 angoff    -256        // tile0042 devistatorammo
 sprite   659 angoff    -512        // tile0047 hbombammo
 sprite   670 angoff     640        // tile0044 rpgammo
+
+
+
 sprite   668 angoff     768        // tile0055 steroids
 sprite   663 angoff    -768        // tile0053 firstaid
 sprite   663 mdzoff     500000     // tile0053 firstaid
@@ -67,14 +75,20 @@ sprite    11 angoff    -512        // tile0044 rpgammo
 sprite    10 angoff     512        // tile0051 cola
 sprite     9 angoff     256        // tile0021 firstgunsprite
 sprite   687 angoff     512        // tile0054 shield
-sprite   676 angoff     128        // tile0028 shotgunsprite
+sprite   676 angoff     192        // tile0028 shotgunsprite
 sprite   677 angoff    -256        // tile0026 heavyhbomb
+sprite   685 angoff    -128        // tile0049 shotgunammo
 sprite    18 angoff     512        // tile0051 cola
 sprite   679 angoff     1024       // tile0044 rpgammo
 sprite   678 angoff     512        // tile0037 freezeammo
 sprite    42 angoff    -512        // tile0044 rpgammo
 sprite    41 angoff     1024       // tile0054 shield
 sprite    16 angoff     512        // tile0044 rpgammo
+sprite   680 angoff     0          // tile0059 heatsensor
+
+
+
+sprite    13 angoff     0          // tile0046 crystalammo
 sprite    14 angoff    -128        // tile0041 batteryammo
 sprite    12 angoff    -256        // tile0057 jetpack (multiplayer)
 sprite   688 angoff    -384        // tile0049 shotgunammo
@@ -84,5 +98,5 @@ sprite   690 angoff     512        // tile0044 rpgammo
 sprite   690 mdzoff     500000     // tile0044 rpgammo
 sprite   690 pitch      1          // tile0044 rpgammo
 sprite    38 angoff    -512        // tile0041 batteryammo
-sprite   700 angoff     640        // tile0023 rpgsprite
 sprite   699 angoff     896        // tile0053 firstaid
+sprite   700 angoff     640        // tile0023 rpgsprite

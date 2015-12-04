@@ -5,14 +5,19 @@
 // Author   : Maarten Pinxten
 // mapmd4   : 60249e6ce170d56d29dd2284fab424da // 2000-01-11
 
-// Curr. HRP: r5.3.634
+//         <-> mpweapon-nsd.mhk
 
+// Curr. HRP: r5.4.686
+
+// / 74-449
 sprite    96 angoff     512        // tile0054 shield
 sprite    94 angoff     512        // tile0049 shotgunammo
 sprite    97 angoff     640        // tile0052 sixpack
 sprite   107 angoff     128        // tile0023 rpgsprite
 sprite   108 angoff     704        // tile0049 shotgunammo
 sprite   109 angoff     896        // tile0053 firstaid
+sprite    92 angoff    -256        // tile0695 pot2
+sprite    91 angoff     256        // tile0694 pot1
 sprite   386 angoff    -512        // tile0041 batteryammo
 sprite   387 angoff     512        // tile0052 sixpack
 sprite    75 angoff     1024       // tile0022 chaingunsprite
@@ -42,6 +47,7 @@ sprite   283 angoff    -512        // tile0049 shotgunammo
 sprite   283 mdzoff     100000     // tile0049 shotgunammo
 sprite   283 pitch     -2          // tile0049 shotgunammo
 sprite   283 roll       3          // tile0049 shotgunammo
+
 sprite   112 angoff    -256        // tile0061 boots
 sprite   113 angoff     128        // tile0051 cola
 sprite   428 angoff     896        // tile0023 rpgsprite
@@ -50,10 +56,10 @@ sprite   111 angoff    -512        // tile0047 hbombammo
 sprite   141 angoff     1024       // tile0055 steroids
 sprite   140 angoff    -768        // tile0049 shotgunammo
 sprite   135 angoff     1024       // tile0022 chaingunsprite
-sprite   135 mdzoff     550000     // tile0022 chaingunsprite
+sprite   135 mdzoff     600000     // tile0022 chaingunsprite
 sprite   135 roll      -1          // tile0022 chaingunsprite
 sprite   134 angoff     512        // tile0041 batteryammo
-sprite   134 mdzoff     150000     // tile0041 batteryammo
+sprite   134 mdzoff     200000     // tile0041 batteryammo
 sprite   134 pitch     -1          // tile0041 batteryammo
 sprite   128 angoff     1024       // tile0051 cola
 sprite   129 angoff     768        // tile0023 rpgsprite

@@ -5,12 +5,14 @@
 // Author   : Rob 'HighWire' Wijkstra
 // mapmd4   : 374f3eeba58d8920493cfd4bf1946dae // 2006-07-23
 
+//         <-> WETDREAM-nsd.mhk
 //         <-> WETDREAM-amctc.mhk
 //         <-> WETDREAM-amctc2.mhk
 
-// Curr. HRP: r5.3.594
+// Curr. HRP: r5.4.686
 
 //
+// 
 sprite   819 angoff     1024       // tile0040 ammo
 sprite   820 angoff     1024       // tile0040 ammo
 sprite   818 angoff    -768        // tile1232 canwithsomething
@@ -36,10 +38,15 @@ sprite    86 roll       1          // tile0049 shotgunammo
 sprite    87 mdzoff     300000     // tile0028 shotgunsprite
 sprite    87 roll       1          // tile0028 shotgunsprite
 sprite   737 angoff     512        // tile0557 chair2
+sprite   737 mdzoff     300000     // tile0557 chair2
+sprite   737 pitch     -1          // tile0557 chair2
 sprite   736 angoff    -384        // tile0556 chair1
 sprite    75 angoff     512        // tile0051 cola
 sprite    78 angoff     512        // tile0040 ammo
 sprite   735 angoff    -896        // tile0556 chair1
+sprite   735 mdzoff     100000     // tile0556 chair1
+sprite   735 pitch     -3          // tile0556 chair1
+sprite   735 roll      -1          // tile0556 chair1
 sprite   824 mdzoff     1200000    // tile0044 rpgammo
 sprite   824 pitch      1          // tile0044 rpgammo
 sprite   823 mdzoff     900000     // tile0044 rpgammo
@@ -137,6 +144,7 @@ sprite   913 mdzoff     150000     // tile0574 (tile0670 (faucet))
 sprite   913 pitch      1          // tile0574 (tile0670 (faucet))
 sprite   913 roll       1          // tile0574 (tile0670 (faucet))
 sprite    37 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite    24 nomdanim              // tile0974 oceansprite4
 sprite   943 angoff    -768        // tile0027 tripbombsprite
 sprite   942 angoff    -768        // tile0027 tripbombsprite
 sprite   900 angoff     256        // tile0753 statue (geisha)

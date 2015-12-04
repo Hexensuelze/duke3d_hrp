@@ -5,11 +5,14 @@
 // Author   : Alias Conrad Coldwood
 // mapmd4   : 205522a01f945cd26be6deeb17e7b61e // 2006-01-22
 
-// Curr. HRP: r5.3.634
+//         <-> _balley-nsd.mhk
+
+// Curr. HRP: r5.4.686
 
 sprite   340 angoff     512        // tile0040 ammo
 sprite   341 angoff     512        // tile0040 ammo
 sprite   131 angoff     512        // tile0047 hbombammo
+
 sprite   345 angoff     1024       // tile0051 cola
 sprite   332 angoff     384        // tile1232 canwithsomething
 sprite   328 angoff    -256        // tile1232 canwithsomething
@@ -21,9 +24,10 @@ sprite   183 angoff     128        // tile1247 seenine
 sprite   184 angoff     512        // tile1247 seenine
 sprite   185 angoff    -256        // tile1247 seenine
 sprite   494 angoff    -512        // tile0026 heavyhbomb (multiplayer)
+sprite   492 angoff     448        // tile0049 shotgunammo (multiplayer)
 sprite   148 mdxoff     10000      // tile1012 bottle5 (wine glass)
 sprite   148 pitch      1          // tile1012 bottle5 (wine glass)
-sprite   492 angoff     448        // tile0049 shotgunammo (multiplayer)
+sprite   315 angoff    -256        // tile0916 fireext
 sprite   141 angoff     448        // tile0055 steroids
 sprite   140 angoff     512        // tile0051 cola
 sprite   140 mdzoff     700000     // tile0051 cola
@@ -51,8 +55,8 @@ sprite   490 mdzoff     100000     // tile0022 chaingunsprite (multiplayer)
 sprite   490 pitch     -1          // tile0022 chaingunsprite (multiplayer)
 sprite   490 roll      -1          // tile0022 chaingunsprite (multiplayer)
 sprite   255 angoff    -512        // tile0981 hydrent
-sprite   514 angoff    -768        // tile0027 tripbombsprite
-sprite   515 angoff    -768        // tile0027 tripbombsprite
+sprite   514 angoff    -768        // tile0027 tripbombsprite (multiplayer)
+sprite   515 angoff    -768        // tile0027 tripbombsprite (multiplayer)
 sprite   211 angoff    -768        // tile1232 canwithsomething
 sprite   210 angoff    -960        // tile1045 donuts
 sprite   210 mdzoff     500000     // tile1045 donuts
@@ -82,8 +86,9 @@ sprite   439 mdzoff     300000     // tile1227 nukebarrel
 sprite   439 roll      -1          // tile1227 nukebarrel
 sprite   431 angoff    -384        // tile0044 rpgammo
 sprite   372 angoff    -512        // tile0049 shotgunammo
-sprite   372 mdzoff     500000     // tile0049 shotgunammo
-sprite   372 roll      -1          // tile0049 shotgunammo
+sprite   372 mdzoff     200000     // tile0049 shotgunammo
+sprite   372 pitch     -1          // tile0049 shotgunammo
+sprite   372 roll      -3          // tile0049 shotgunammo
 sprite   362 angoff    -512        // tile0026 heavyhbomb
 sprite   361 angoff     384        // tile0026 heavyhbomb
 sprite   360 angoff     768        // tile0047 hbombammo
@@ -91,9 +96,9 @@ sprite   360 mdzoff     800000     // tile0047 hbombammo
 sprite   360 pitch     -1          // tile0047 hbombammo
 sprite   513 angoff     896        // tile0053 firstaid (multiplayer)
 sprite   468 angoff    -256        // tile0057 jetpack (multiplayer)
-sprite   397 mdzoff     900000     // tile0049 shotgunammo
+sprite   397 mdzoff     830000     // tile0049 shotgunammo
 sprite   397 roll       1          // tile0049 shotgunammo
-sprite   398 mdzoff     500000     // tile0049 shotgunammo
+sprite   398 mdzoff     830000     // tile0049 shotgunammo
 sprite   398 roll      -1          // tile0049 shotgunammo
 sprite   465 angoff    -192        // tile0052 sixpack (multiplayer)
 sprite    58 angoff     1024       // tile0051 cola
@@ -107,6 +112,7 @@ sprite   466 angoff    -512        // tile0042 devistatorammo (multiplayer)
 sprite    73 angoff    -896        // tile0981 hydrent
 sprite   378 mdzoff     200000     // tile0049 shotgunammo
 sprite   378 pitch      1          // tile0049 shotgunammo
+sprite   378 roll       1          // tile0049 shotgunammo
 sprite   368 angoff    -512        // tile0998 (parkometer)
 sprite   367 angoff    -512        // tile0998 (parkometer)
 sprite   366 angoff    -512        // tile0998 (parkometer)
@@ -115,6 +121,7 @@ sprite    40 angoff    -512        // tile0044 rpgammo
 sprite   460 angoff     768        // tile0037 freezeammo (multiplayer)
 sprite   458 angoff     768        // tile0037 freezeammo (multiplayer)
 sprite   459 angoff     768        // tile0037 freezeammo (multiplayer)
+sprite    99 away1                 // tile1275 (newspaper)
 sprite    32 angoff     512        // tile0060 accesscard yellow
 sprite    13 angoff    -768        // tile1227 nukebarrel
 sprite    13 mdzoff     500000     // tile1227 nukebarrel

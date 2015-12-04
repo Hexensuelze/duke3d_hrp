@@ -5,10 +5,14 @@
 // Author   : Bobby 'The Evil Elf' Portis
 // mapmd4   : f5fa3691a2668904733ab598a6d5cd30 // 1997-02-25
 
-// Curr. HRP: r5.3.590
+//         <-> Doomgate-nsd.mhk
 
+// Curr. HRP: r5.4.686
+
+//  7-15 / / 435-676
 sprite    12 angoff     256        // tile0040 ammo
 sprite    13 angoff     384        // tile0040 ammo
+// mhk diff sync 1
 sprite    11 angoff     768        // tile0026 heavyhbomb
 sprite    10 angoff    -256        // tile0026 heavyhbomb
 sprite    15 angoff     128        // tile0028 shotgunsprite
@@ -17,31 +21,38 @@ sprite     8 angoff    -384        // tile0040 ammo
 sprite     7 angoff    -768        // tile0054 shield
 sprite   513 angoff     1024       // tile0040 ammo
 sprite   514 angoff     1024       // tile0040 ammo
-sprite   510 angoff     512        // tile0041 batteryammo
+sprite   510 angoff     1024       // tile0041 batteryammo
 sprite   512 angoff    -512        // tile0052 sixpack
+// mhk diff sync 2
 sprite   511 angoff    -512        // tile0022 chaingunsprite
 sprite   520 angoff    -512        // tile0052 sixpack
 sprite   521 angoff    -512        // tile0049 shotgunammo
+
 sprite   449 angoff     1024       // tile0025 shrinkersprite (multiplayer)
 sprite   448 angoff     1024       // tile0046 crystalammo (multiplayer)
 sprite   447 angoff     1024       // tile0046 crystalammo (multiplayer)
-sprite   530 angoff     1024       // tile0051 cola
+sprite   530 angoff     896        // tile0051 cola
 sprite   440 angoff    -256        // tile0044 rpgammo (multiplayer)
 sprite   438 angoff     256        // tile0023 rpgsprite (multiplayer)
 sprite   439 angoff     768        // tile0044 rpgammo (multiplayer)
 sprite   442 angoff     512        // tile0042 devistatorammo (multiplayer)
-sprite   441 angoff     768        // tile0029 devistatorsprite (multiplayer)
+sprite   441 angoff     640        // tile0029 devistatorsprite (multiplayer)
 sprite   443 angoff     1024       // tile0042 devistatorammo (multiplayer)
-sprite   445 angoff     768        // tile0049 shotgunammo (multiplayer)
-sprite   445 roll      -256        // tile0049 shotgunammo (multiplayer)
-sprite   446 angoff     768        // tile0049 shotgunammo (multiplayer)
-sprite   446 roll      -256        // tile0049 shotgunammo (multiplayer)
+sprite   445 angoff     960        // tile0049 shotgunammo (multiplayer)
+sprite   445 pitch      32         // tile0049 shotgunammo (multiplayer)
+sprite   445 roll      -160        // tile0049 shotgunammo (multiplayer)
+sprite   446 angoff     960        // tile0049 shotgunammo (multiplayer)
+sprite   446 pitch      32         // tile0049 shotgunammo (multiplayer)
+sprite   446 roll      -160        // tile0049 shotgunammo (multiplayer)
 sprite   444 angoff     384        // tile0053 firstaid (multiplayer)
 sprite   527 angoff     1024       // tile0041 batteryammo
-sprite   527 roll      -160        // tile0041 batteryammo
+sprite   527 roll      -176        // tile0041 batteryammo
+
 sprite   535 angoff     1024       // tile0027 tripbombsprite
 sprite   537 angoff     512        // tile0027 tripbombsprite
+sprite   547 pitch     -32         // tile0049 shotgunammo
 sprite   547 roll      -96         // tile0049 shotgunammo
+sprite   531 angoff     128        // tile0059 heatsensor
 sprite   435 angoff     768        // tile0053 firstaid
 sprite   435 mdzoff     900000     // tile0053 firstaid
 sprite   435 pitch     -1          // tile0053 firstaid

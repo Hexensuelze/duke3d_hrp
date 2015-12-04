@@ -5,10 +5,18 @@
 // Author   : Olivier 'Qcdn3d' Boucher
 // mapmd4   : 2526f89bb98f2f9b4d8a44d35223783f // 2000-02-03
 
-// Curr. HRP: r5.3.634
+//         <-> Trafic-nsd.mhk
+
+// Curr. HRP: r5.4.686
 
 sprite    86 angoff     512        // tile0028 shotgunsprite
+
+
 sprite   203 roll      -176        // tile0049 shotgunammo
+sprite   615 angoff     512        // tile0998 (parkometer)
+sprite   614 angoff     512        // tile0998 (parkometer)
+sprite   616 angoff     512        // tile0998 (parkometer)
+sprite   617 angoff     512        // tile0998 (parkometer)
 sprite    84 angoff     1024       // tile0051 cola
 sprite   202 angoff    -512        // tile0052 sixpack
 sprite   292 angoff     512        // tile0981 hydrent
@@ -20,6 +28,7 @@ sprite   201 roll      -160        // tile0059 heatsensor
 sprite    32 angoff     1024       // tile0051 cola
 sprite    33 angoff     1024       // tile0051 cola
 sprite    37 angoff     512        // tile0049 shotgunammo
+
 sprite   510 angoff     512        // tile0563 waterfountain
 sprite   510 mdzoff     100000     // tile0563 waterfountain
 sprite   510 pitch     -1          // tile0563 waterfountain
@@ -41,12 +50,12 @@ sprite   529 mdzoff     200000     // tile0916 fireext
 sprite   529 pitch     -1          // tile0916 fireext
 sprite   891 angoff    -512        // tile0052 sixpack
 sprite   181 angoff     512        // tile0042 devistatorammo
-sprite   182 mdxoff     1000000    // tile0042 devistatorammo
-sprite   182 pitch     -1          // tile0042 devistatorammo
 sprite   183 angoff     512        // tile0029 devistatorsprite
 sprite   183 mdzoff     200000     // tile0029 devistatorsprite
 sprite   183 pitch      1          // tile0029 devistatorsprite
 sprite   183 roll       1          // tile0029 devistatorsprite
+sprite   182 mdxoff     1000000    // tile0042 devistatorammo
+sprite   182 pitch     -1          // tile0042 devistatorammo
 sprite   648 angoff     1024       // tile0060 accesscard blue
 sprite   941 angoff    -960        // tile0052 sixpack
 sprite    22 angoff    -512        // tile0051 cola
@@ -77,11 +86,11 @@ sprite   172 pitch     -1          // tile0049 shotgunammo
 sprite   172 roll       1          // tile0049 shotgunammo
 sprite   175 angoff     1024       // tile0052 sixpack
 sprite   175 mdzoff     200000     // tile0052 sixpack
-sprite   175 pitch      2          // tile0052 sixpack
+sprite   175 pitch     -2          // tile0052 sixpack
 sprite   175 roll       3          // tile0052 sixpack
 sprite   174 angoff     1024       // tile0051 cola
-sprite   174 mdzoff     500000     // tile0051 cola
-sprite   174 pitch     -1          // tile0051 cola
+sprite   174 mdzoff     400000     // tile0051 cola
+sprite   174 pitch      1          // tile0051 cola
 sprite   173 angoff     1024       // tile0055 steroids
 sprite   173 mdzoff     200000     // tile0055 steroids
 sprite   173 roll       1          // tile0055 steroids
@@ -92,6 +101,8 @@ sprite   167 angoff     512        // tile0051 cola
 sprite   398 angoff     1024       // tile0990 tire
 sprite   168 angoff     512        // tile0051 cola
 sprite   166 angoff     1024       // tile0044 rpgammo
+sprite   165 angoff     0          // tile0042 devistatorammo
+sprite   164 angoff     0          // tile0029 devistatorsprite
 sprite   162 angoff    -512        // tile0052 sixpack
 sprite   446 mdzoff     200000     // tile0914 maskwall3 (fence)
 sprite   446 pitch     -1          // tile0914 maskwall3 (fence)
@@ -118,6 +129,8 @@ sprite   159 roll      -64         // tile0044 rpgammo
 sprite    59 angoff     1024       // tile0052 sixpack
 sprite    60 angoff     1024       // tile0052 sixpack
 sprite   970 angoff    -512        // tile0042 devistatorammo
+sprite   814 notmd                 // tile0132 slotdoor
+sprite   813 notmd                 // tile0132 slotdoor
 sprite   586 angoff    -512        // tile0563 waterfountain
 sprite   586 mdzoff     100000     // tile0563 waterfountain
 sprite   586 pitch     -1          // tile0563 waterfountain
@@ -136,5 +149,6 @@ sprite   560 angoff     64         // tile0955 bottle2
 sprite    57 angoff    -256        // tile0026 heavyhbomb
 sprite    56 angoff    -640        // tile0026 heavyhbomb
 sprite    58 angoff    -512        // tile0047 hbombammo
+sprite   556 away1                 // tile0935 (graffiti)
 sprite   461 angoff    -768        // tile0994 pipe5
 sprite    12 angoff     1024       // tile0997 pipe4b

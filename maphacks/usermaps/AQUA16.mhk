@@ -5,10 +5,20 @@
 // Author   : Eric Boltjes
 // mapmd4   : 999e3a4a47796c170a5999aa85cb5987 // 2002-02-25
 
-// Curr. HRP: r5.3.634
+//         <-> AQUA16-nsd.mhk
 
+// Curr. HRP: r5.4.686
+
+// /  0-705
+sprite   426 angoff    -256        // tile0056 airtank
+sprite   110 mdxoff     20000      // tile0621 camera1
+sprite   110 pitch      1          // tile0621 camera1
 sprite   407 angoff     960        // tile0556 chair1
+sprite   407 mdzoff     200000     // tile0556 chair1
+sprite   407 pitch     -1          // tile0556 chair1
 sprite   408 angoff     128        // tile0556 chair1
+sprite   408 mdzoff     400000     // tile0556 chair1
+sprite   408 pitch      1          // tile0556 chair1
 sprite   671 angoff    -256        // tile0049 shotgunammo
 sprite   671 pitch      64         // tile0049 shotgunammo
 sprite    13 angoff     1024       // tile0052 sixpack
@@ -29,16 +39,54 @@ sprite   675 angoff     896        // tile0022 chaingunsprite
 sprite   575 angoff    -512        // tile0956 bottle3
 sprite   576 angoff    -256        // tile0955 bottle2
 sprite   678 angoff    -768        // tile0051 cola
+sprite    41 mdzoff     150000     // tile0544 (iron bar)
+sprite    41 pitch     -1          // tile0544 (iron bar)
+sprite    54 mdzoff     150000     // tile0544 (iron bar)
+sprite    54 pitch     -1          // tile0544 (iron bar)
+sprite    39 mdzoff     150000     // tile0544 (iron bar)
+sprite    39 pitch     -1          // tile0544 (iron bar)
+sprite    59 mdzoff     150000     // tile0544 (iron bar)
+sprite    59 pitch      1          // tile0544 (iron bar)
+sprite    36 mdzoff     150000     // tile0544 (iron bar)
+sprite    36 pitch     -1          // tile0544 (iron bar)
+sprite    68 mdzoff     150000     // tile0544 (iron bar)
+sprite    68 pitch     -1          // tile0544 (iron bar)
+sprite    35 mdzoff     150000     // tile0544 (iron bar)
+sprite    35 pitch     -1          // tile0544 (iron bar)
+sprite    77 mdzoff     150000     // tile0544 (iron bar)
+sprite    77 pitch     -1          // tile0544 (iron bar)
 sprite    33 notmd                 // tile0164 dipswitch2
 sprite   679 angoff    -64         // tile0047 hbombammo
 sprite   681 angoff     896        // tile0049 shotgunammo
 sprite   682 angoff    -640        // tile0049 shotgunammo
 sprite   114 angoff    -768        // tile0556 chair1
+sprite   114 mdzoff     300000     // tile0556 chair1
+sprite   114 pitch      1          // tile0556 chair1
+sprite   114 roll       1          // tile0556 chair1
 sprite   115 angoff    -64         // tile0557 chair2
+sprite   115 mdzoff     200000     // tile0557 chair2
+sprite   115 pitch     -1          // tile0557 chair2
+sprite   115 roll       1          // tile0557 chair2
+
 sprite   683 angoff     768        // tile0052 sixpack
+sprite   279 away1                 // tile0353 (slide rail)
+sprite   296 away1                 // tile0652 (warning stripes)
+sprite   280 away1                 // tile0652 (warning stripes)
+//sprite   299 away1                 // tile0652 (warning stripes)
+sprite   295 away1                 // tile0652 (warning stripes)
+sprite   298 away1                 // tile0652 (warning stripes)
+sprite   294 away1                 // tile0652 (warning stripes)
+sprite   297 away1                 // tile0652 (warning stripes)
+sprite   292 away1                 // tile0652 (warning stripes)
+//sprite   291 away1                 // tile0652 (warning stripes)
+//sprite   290 away1                 // tile0652 (warning stripes)
+sprite   293 away1                 // tile0353 (slide rail)
 sprite    15 angoff    -512        // tile0051 cola
 sprite     0 angoff    -896        // tile0055 steroids (multiplayer)
 sprite   121 angoff    -256        // tile0557 chair2
+sprite   121 mdzoff     300000     // tile0557 chair2
+sprite   121 pitch      1          // tile0557 chair2
+sprite   121 roll       1          // tile0557 chair2
 sprite    17 angoff    -512        // tile0052 sixpack
 sprite   684 angoff     512        // tile0040 ammo
 sprite    16 angoff     1024       // tile0051 cola
@@ -61,17 +109,38 @@ sprite   704 nomdanim              // tile1056 (tile1055 (film reel))
 sprite   680 angoff     128        // tile0052 sixpack
 sprite   169 angoff     128        // tile0556 chair1
 sprite   170 angoff     384        // tile0556 chair1
+sprite   170 mdzoff     100000     // tile0556 chair1
+sprite   170 pitch      1          // tile0556 chair1
 sprite   171 angoff    -512        // tile0557 chair2
+sprite   171 mdzoff     300000     // tile0557 chair2
+sprite   171 pitch     -1          // tile0557 chair2
 sprite   172 angoff     256        // tile0556 chair1
+sprite   172 mdzoff     100000     // tile0556 chair1
+sprite   172 pitch      1          // tile0556 chair1
 sprite   173 angoff    -384        // tile0557 chair2
+sprite   173 mdzoff     100000     // tile0557 chair2
+sprite   173 pitch     -1          // tile0557 chair2
+sprite   173 roll      -3          // tile0557 chair2
 sprite   174 angoff     384        // tile0556 chair1
+sprite   174 mdzoff     500000     // tile0556 chair1
+sprite   174 roll       1          // tile0556 chair1
 sprite   688 angoff    -384        // tile0042 devistatorammo
 sprite   189 angoff    -384        // tile0557 chair2
+sprite   189 mdzoff     300000     // tile0557 chair2
+sprite   189 pitch     -1          // tile0557 chair2
 sprite   188 angoff    -576        // tile0556 chair1
+sprite   188 mdzoff     400000     // tile0556 chair1
+sprite   188 pitch     -1          // tile0556 chair1
 sprite   187 angoff     256        // tile0556 chair1
+sprite   187 mdzoff     200000     // tile0556 chair1
+sprite   187 pitch      1          // tile0556 chair1
+sprite   187 roll      -1          // tile0556 chair1
 sprite   689 angoff     1024       // tile0052 sixpack
 sprite   690 angoff    -512        // tile0049 shotgunammo
 sprite   168 angoff    -128        // tile0557 chair2
+sprite   168 mdzoff     200000     // tile0557 chair2
+sprite   168 pitch     -1          // tile0557 chair2
+sprite   527 notmd                 // tile0961 (exit sign)
 sprite   663 angoff    -960        // tile0052 sixpack
 sprite    10 angoff     576        // tile0041 batteryammo
 sprite    10 roll      -160        // tile0041 batteryammo
@@ -91,6 +160,10 @@ sprite   665 angoff    -768        // tile0052 sixpack
 sprite   670 angoff    -512        // tile0054 shield
 sprite   667 angoff     256        // tile0044 rpgammo
 sprite   667 roll      -32         // tile0044 rpgammo
-sprite   666 angoff     512        // tile0052 sixpack
+sprite   666 angoff    -384        // tile0052 sixpack
+sprite   666 mdzoff     150000     // tile0052 sixpack
+sprite   666 pitch     -1          // tile0052 sixpack
+sprite   666 roll       2          // tile0052 sixpack
 sprite   668 angoff    -128        // tile0044 rpgammo
 sprite   668 roll      -32         // tile0044 rpgammo
+sprite   669 angoff     640        // tile0052 sixpack

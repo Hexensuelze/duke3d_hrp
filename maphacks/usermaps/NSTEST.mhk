@@ -1,0 +1,117 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : Nuclear Showdown - Test
+// Filename : NSTEST.MAP
+// Author   : James 'Jblade' Stanfield
+// mapmd4   : b298ea61d30a91fa87517a7064ca6f7a // 2008-10-24 (NSD)
+
+// Curr. HRP: r5.3.684
+
+sprite   164 away1                 // tile5260 (nsd nukebutton)
+sprite   149 notmd                 // tile5890 (tile5888 (nsd pigcop sp.forces))
+sprite   149 away1                 // tile5890 (tile5888 (nsd pigcop sp.forces))
+sprite   148 notmd                 // tile5530 (tile5528 (nsd pigcopvacation))
+sprite   148 away1                 // tile5530 (tile5528 (nsd pigcopvacation))
+sprite   154 notmd                 // tile5438 (tile5436 (nsd lizmanflame))
+sprite   154 away1                 // tile5438 (tile5436 (nsd lizmanflame))
+sprite   158 notmd                 // tile5982 (nsd drone)
+sprite   158 away1                 // tile5982 (nsd drone)
+sprite   179 angoff     512        // tile5620 (nsd toolboxsprite)
+sprite    21 angoff     1024       // tile5620 (nsd toolboxsprite)
+sprite   160 notmd                 // tile1687 (tile1680 liztroop)
+sprite   160 away1                 // tile1687 (tile1680 liztroop)
+sprite   161 notmd                 // tile1687 (tile1680 liztroop)
+sprite   161 away1                 // tile1687 (tile1680 liztroop)
+sprite   163 notmd                 // tile1687 (tile1680 liztroop)
+sprite   163 away1                 // tile1687 (tile1680 liztroop)
+sprite   162 notmd                 // tile1687 (tile1680 liztroop)
+sprite   162 away1                 // tile1687 (tile1680 liztroop)
+sprite    51 notmd                 // tile5968 (nsd flying newbeast)
+sprite    51 away1                 // tile5968 (nsd flying newbeast)
+sprite    39 angoff    -640        // tile1294 podfem1
+sprite    37 angoff    -512        // tile1334 fem6 padbabe
+sprite    38 angoff    -640        // tile1323 fem5 polebabe
+sprite    53 notmd                 // tile5380 (tile5378 (nsd oldoctabrain))
+sprite    53 away1                 // tile5380 (tile5378 (nsd oldoctabrain))
+sprite    80 away1                 // tile5783 (nsd slotdoor)
+sprite    69 mdzoff     50000      // tile0916 fireext
+sprite    69 pitch     -1          // tile0916 fireext
+sprite   118 angoff    -512        // tile0054 shield
+sprite   117 angoff     512        // tile5137 (nsd leadgunsprite)
+sprite   117 mdzoff     500000     // tile5137 (nsd leadgunsprite)
+sprite   117 pitch      1          // tile5137 (nsd leadgunsprite)
+sprite    31 angoff     1024       // tile0040 ammo
+sprite   167 angoff     1024       // tile5193 (nsd deagleammo)
+sprite    87 angoff     1024       // tile0117 (nsd thermonuclearhealth)
+sprite    32 angoff     1024       // tile5194 (nsd deaglesprite)
+sprite    86 angoff     1024       // tile5135 (nsd mp5ksprite)
+sprite    85 angoff     1024       // tile5136 (nsd m60sprite)
+sprite    84 angoff     1024       // tile5138 (nsd dynamitesprite)
+sprite   184 angoff     0          // tile5369 (nsd plasmagunammo)
+sprite   183 angoff     1024       // tile5372 (nsd plasmagunsprite)
+sprite    34 angoff     0          // tile5133 (nsd accesscard) green
+sprite    83 angoff     1024       // tile5133 (nsd accesscard) grey
+sprite    33 angoff     1024       // tile5133 (nsd accesscard) brown
+sprite   197 angoff     1024       // tile5146 (nsd backpacksprite)
+sprite    36 angoff     0          // tile5134 (nsd vistakeycard)
+sprite    82 angoff     1024       // tile5134 (nsd vistakeycard)
+sprite    35 angoff     1024       // tile5134 (nsd vistakeycard)
+sprite   196 angoff     1024       // tile1348 holoduke
+sprite    63 angoff    -512        // tile5233 (nsd jumpboots)
+sprite    26 away1                 // tile5785 (nsd switch)
+sprite    28 angoff     1024       // tile0058 (spacesuit)
+sprite    27 away1                 // tile5785 (nsd switch)
+sprite    25 away1                 // tile5785 (nsd switch)
+/*
+sprite     ? notmd                 // tile0117 (nsd thermonuclearhealth)
+sprite     ? angoff     0          // tile5133 (nsd accesscard)
+sprite     ? angoff     ?          // tile5134 (nsd vistakeycard)
+sprite     ? angoff     ?          // tile5135 (nsd mp5ksprite)
+sprite     ? angoff     ?          // tile5136 (nsd m60sprite)
+sprite     ? angoff     ?          // tile5137 (nsd leadgunsprite)
+sprite     ? angoff     ?          // tile5138 (nsd dynamitesprite)
+sprite   ` ? angoff     ?          // tile5146 (nsd backpacksprite)
+sprite     ? angoff     ?          // tile5193 (nsd deagleammo)
+sprite     ? angoff     ?          // tile5194 (nsd deaglesprite)
+sprite     ? angoff     ?          // tile5233 (nsd jumpboots)
+sprite     ? away1                 // tile5260 (nsd nukebutton)
+sprite     ? angoff     ?          // tile5369 (nsd plasmagunammo)
+sprite     ? angoff     ?          // tile5372 (nsd plasmagunsprite)
+sprite     ? notmd                 // tile5378 (nsd oldoctabrain)
+sprite     ? notmd                 // tile5380 (tile5378 (nsd oldoctabrain))
+sprite     ? notmd                 // tile5436 (nsd lizmanflame)
+sprite     ? notmd                 // tile5438 (tile5436 (nsd lizmanflame))
+sprite     ? notmd                 // tile5528 (nsd pigcopvacation)
+sprite     ? notmd                 // tile5530 (tile5528 (nsd pigcopvacation))
+sprite     ? angoff     ?          // tile5620 (nsd toolboxsprite)
+sprite     ? away1                 // tile5783 (nsd slotdoor)
+sprite     ? away1                 // tile5785 (nsd switch)
+sprite     ? notmd                 // tile5888 (nsd pigcopspecialforces)
+sprite     ? notmd                 // tile5890 (tile5888 (nsd pigcop sp.forces))
+sprite     ? notmd                 // tile5968 (nsd flying newbeast)
+sprite     ? notmd                 // tile5982 (nsd drone)
+
+#define H 141
+#define WATERFOUNTAINBROKFEMMAG1 567
+#define SCREENBREAK20 638
+#define SOMETHING 1232
+#define OOZ2 2309
+#define INGAMEDUKETHREEDETENSCREEN 2499
+#define OW 3201
+#define N 3211
+#define N 3371
+#define MIMON 4120
+#define GUMBALLMACHINEBROPAPER 4459
+#define SOMETHING2 4580
+#define SOMETHING3 4581
+#define SOMETHING4 4582
+#define LIZBALLGOAL 5148
+#define RANDOMSOUND 5298
+#define TOOLBOXSPRITE 5620 
+#define BROKENSWITCH1 5622 
+#define FIXINGSPRITE 5625
+#define BROKENSWITCH2 5626
+#define SCREENBREAK21 5852
+#define SCREENBREAK22 5853
+#define SCREENBREAK23 5854
+*/
