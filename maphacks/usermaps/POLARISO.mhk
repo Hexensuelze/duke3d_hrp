@@ -5,6 +5,8 @@
 // Author   : Alan Nanut
 // mapmd4   : 5b510767a14c96b3cd0dfa8b88b0d601 // 1996-12-06
 
+//         <-> POLARISO-addonpack.mhk
+
 // Curr. HRP: r5.3.588
 
 sprite   483 angoff     768        // tile0054 shield
@@ -25,11 +27,11 @@ sprite   635 angoff     512        // tile0027 tripbombsprite
 sprite   635 mdzoff     300000     // tile0027 tripbombsprite
 sprite   635 roll       1          // tile0027 tripbombsprite
 sprite   636 angoff     1024       // tile0027 tripbombsprite (multiplayer)
-sprite   636 mdzoff     300000     // tile0027 tripbombsprite
-sprite   636 pitch      1          // tile0027 tripbombsprite
+sprite   636 mdzoff     300000     // tile0027 tripbombsprite (multiplayer)
+sprite   636 pitch      1          // tile0027 tripbombsprite (multiplayer)
 sprite   571 angoff     1024       // tile0049 shotgunammo
 sprite   781 angoff    -768        // tile0052 sixpack
-sprite    36 angoff     512        // tile0055 steroids
+sprite    36 angoff     512        // tile0055 steroids (multiplayer)
 sprite   173 angoff     1024       // tile0047 hbombammo
 sprite   377 angoff     1024       // tile0057 jetpack
 sprite   439 roll       48         // tile0042 devistatorammo
@@ -45,7 +47,7 @@ sprite   170 angoff    -512        // tile0059 heatsensor
 sprite   838 angoff    -512        // tile0051 cola
 sprite   195 angoff     512        // tile0024 freezesprite
 sprite   824 angoff     512        // tile0049 shotgunammo (multiplayer)
-sprite   772 angoff    -512        // tile0060 accesscard blue
+sprite   772 angoff     512        // tile0060 accesscard blue
 sprite   184 angoff    -768        // tile0051 cola
 sprite   183 angoff    -256        // tile0049 shotgunammo
 sprite   150 angoff     512        // tile0052 sixpack
@@ -60,7 +62,8 @@ sprite   182 angoff    -256        // tile0047 hbombammo
 sprite   169 angoff     448        // tile0042 devistatorammo
 sprite   123 angoff    -896        // tile1348 holoduke
 sprite   186 angoff     1024       // tile0052 sixpack
-sprite   780 angoff     1024       // tile0060 accesscard yellow
+sprite   188 angoff    -512        // tile0044 rpgammo (multiplayer)
+sprite   780 angoff    -512        // tile0060 accesscard yellow
 sprite   151 angoff     1024       // tile0052 sixpack
 sprite     3 angoff     512        // tile0057 jetpack (multiplayer)
 sprite   347 angoff     1024       // tile0047 hbombammo
@@ -77,3 +80,5 @@ sprite   712 angoff     384        // tile0041 batteryammo
 sprite   127 angoff    -512        // tile0051 cola
 sprite   878 angoff     512        // tile0037 freezeammo
 sprite    17 angoff     1024       // tile0044 rpgammo (multiplayer)
+sprite   881 mdxoff     4500       // tile0142 nukebutton
+sprite   881 pitch     -1          // tile0142 nukebutton

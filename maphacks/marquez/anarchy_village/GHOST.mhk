@@ -6,9 +6,13 @@
 // mapmd4   : 8317a0da8183fb18bf4958633b97ee6d // 1998-05-05 (Megaton Workshop)
 // Filename : FM3X06.MAP
 // mapmd4   : 8317a0da8183fb18bf4958633b97ee6d // 2015-05-25 (GRP)
+// mapmd4   : 61051e40b805fdfc686ef28fd5fa55a0 // 2015-11-18 (GRP)
+
+//         <-> GhostHouseDM.mhk
 
 // Curr. HRP: r5.4.687
 
+// 0-64 / / 139-234
 sprite   869 angoff     256        // tile0040 ammo
 sprite   631 mdzoff     300000     // tile0910 tree2
 sprite   631 pitch      1          // tile0910 tree2
@@ -33,6 +37,8 @@ sprite   641 pitch     -2          // tile0910 tree2
 sprite   641 roll       1          // tile0910 tree2
 sprite   778 angoff     256        // tile0052 sixpack
 sprite   776 angoff     1024       // tile0054 shield
+
+
 sprite   139 nomdanim              // tile1521 (tile1520 (duke torso))
 sprite   139 angoff    -512        // tile1521 (tile1520 (duke torso))
 sprite   139 mdyoff    -40000      // tile1521 (tile1520 (duke torso))
@@ -52,13 +58,21 @@ sprite   234 pitch     -1          // tile1048 (pipes)
 sprite   293 angoff     768        // tile0669 vacuum
 sprite   293 mdzoff     300000     // tile0669 vacuum
 sprite   293 pitch      1          // tile0669 vacuum
+
+
 sprite   208 angoff     1024       // tile2060 pigcopdeadsprite
 sprite   208 mdxoff     175        // tile2060 pigcopdeadsprite
 sprite   208 mdzoff     3500       // tile2060 pigcopdeadsprite
 sprite   208 pitch     -512        // tile2060 pigcopdeadsprite
+
 sprite   848 angoff    -512        // tile0046 crystalammo
-sprite   185 angoff     768        // tile1352 monk
+
+
+sprite   797 angoff     0          // tile0028 shotgunsprite
+
+
 sprite   233 angoff    -768        // tile2254 (tile2250 jibs2 (eye))
+sprite   185 angoff     768        // tile1352 monk
 sprite   236 mdzoff     200000     // tile1048 (pipes)
 sprite   236 pitch     -1          // tile1048 (pipes)
 sprite   215 angoff    -512        // tile2185 lizmandeadsprite
@@ -74,23 +88,44 @@ sprite    64 pitch      1          // tile1053 (toilet roll holder)
 sprite     1 angoff     512        // tile0569 toilet
 sprite     1 mdzoff     900000     // tile0569 toilet
 sprite     1 pitch     -1          // tile0569 toilet
+
+
 sprite     0 mdzoff     100000     // tile0574 (tile0670 (faucet))
 sprite     0 pitch     -1          // tile0574 (tile0670 (faucet))
+
+
 sprite   409 mdzoff     200000     // tile1048 (pipes)
 sprite   409 pitch     -1          // tile1048 (pipes)
 sprite   524 angoff     384        // tile0695 pot2
 sprite   363 mdzoff     200000     // tile1048 (pipes)
 sprite   363 pitch     -1          // tile1048 (pipes)
+
+
+
+
+
+
 sprite   170 angoff    -512        // tile0769 sushiplate2 (hand)
 sprite   171 angoff     1024       // tile0774 sushiplate3 (foot)
+sprite   842 angoff     0          // tile0044 rpgammo
 sprite   780 angoff     1024       // tile0052 sixpack
-sprite   518 angoff    -768        // tile1232 canwithsomething
-sprite   517 angoff     384        // tile1232 canwithsomething
-sprite   516 angoff    -256        // tile1232 canwithsomething
+sprite   772 angoff     1024       // tile0100 atomichealth
+
+
 sprite   821 angoff     768        // tile0049 shotgunammo
 sprite   658 mdzoff     300000     // tile0910 tree2
 sprite   658 pitch     -1          // tile0910 tree2
 sprite   843 angoff    -384        // tile0046 crystalammo
+sprite   516 angoff    -256        // tile1232 canwithsomething
+sprite   517 angoff     384        // tile1232 canwithsomething
+sprite   518 angoff    -768        // tile1232 canwithsomething
+
+
+
+
+sprite   525 mdzoff     200000     // tile0697 pot3
+sprite   525 pitch     -1          // tile0697 pot3
+sprite   525 roll      -1          // tile0697 pot3
 sprite   781 angoff     0          // tile0052 sixpack
 sprite   844 angoff    -256        // tile0047 hbombammo
 sprite   844 pitch     -48         // tile0047 hbombammo

@@ -1,0 +1,191 @@
+                   ==========================================
+                   |              Duke Nukem 3D             |
+                   |        Maphacks for the EDuke32        |
+                   |       High Resolution Pack (HRP)       |
+                   |                   or                   |
+                   |               Voxel Pack               |
+                   |                                        |
+                   ==========================================
+
+
+
+
+=======================
+CONTENTS OF THIS README
+=======================
+
+1) About
+2) Installation
+3) Notes
+4) Support for NightFright's Addon Pack
+5) License
+6) Contact/Links
+7) Credits
+8) Changelog
+
+
+1) ABOUT
+========
+Maphacks are used to edit the positioning of objects and other parts of a level
+in cases where the maps cannot be redistributed. These maphacks' goal is to
+improve the compatibility of user created maps with the HRP or the Voxel Pack.
+Since there is no central site for map downloads, patching the maps directly
+would lead to quite some confusion among players about their respective
+versions. By distributing separated maphacks the original map download archives
+can be kept unchanged.
+
+
+2) INSTALLATION
+===============
+Technically this is like an HRP update pack with maphack additions and 
+updates only - therefore, if your current HRP's (or regular HRP update pack's) 
+version number is greater than ours, don't use this pack.
+
+Drop this pack into the autoload folder alongside your HRP (5.4 or later) and 
+you should be done.
+
+You need a recent EDuke32 executable which has the UserMapHacks functions 
+implemented - at least r4886 (source r4884). (HRP 5.4 comes with r5267.)
+
+Currently users are reporting various issues with recent EDuke32 builds. If you 
+should encounter problems as well, try the r4495 version with backported 
+UserMapHack functions from the "Other Stuff" link below.
+
+Your eduke32.log should contain one or more lines similar to this after playing:
+   Loaded map hack file "maphacks/usermaps/foobar.mhk"
+
+
+3) NOTES
+========
+The main goal is to get rid of the most annoying HRP-related problems of popular
+(highly rated by reviewers) and recently released user maps. 
+Since the Introduction of the Poymer renderer in 2009 and the big HRP model 
+rotation in early 2012 (r5.1.295), even maps which were designed with the HRP 
+in mind need some adjustments. 
+Do not expect a maphack quality comparable to what has been done for the 
+original game's levels, though. No Polymer lighting for example.
+
+A few older maps make use of tricks which can't be reproduced (yet?) using the 
+modern OpenGL renderers. Some recent maps' README files explicitly state that 
+the respective map is meant to be played without fancy renderers or the HRP.
+Remember that these maphacks do not claim to make those maps look as intended 
+if you are using the HRP anyway, but try to fix the obvious glitches as far as 
+it is technically possible. Do not complain to mappers, do not ask them to 
+'fix' their map if it looks bad when HRPlaying it.
+
+A number of maps and episodes come with custom textures. Tiles014.art, 
+tiles15.art, tiles20.art and up, will technically never interfere with the HRP, 
+whereas extensive use of custom textures may look off when combined with 
+the HRP. In case of conflicting ART I may have added a README and/or a ZIP file 
+to explain or improve compatibility. But even if a maphack and further 
+compatibility improvements exist, it's still your decision to HRPlay or not.
+
+This Pack is suitable for the Voxel Pack as well, although only the 'angoff'
+directive (model rotation) works currently on voxels (EDuke32 r5730). 
+But that's the most commonly used correction anyway.
+
+
+You can help:
+
+ - If you find anything you consider worthy correcting in an already maphacked
+level, don't hesitate to report it (DNCOORDS!), and which renderer/HRP version
+you are using. Some models (like the 0603 hangbabe) might need different
+maphacks and some floor/ceiling aligned sprites may show up different
+(or not at all) in either Polymost or Polymer renderer/HRP.
+
+ - You can contribute your own maphacks. Basic information is available at:
+     http://wiki.eduke32.com/wiki/Maphack_Language
+
+ - If you have a newer version of an already maphacked level, please let LeoD
+   know. (But compare the checksums first.)
+
+
+4) Support for NightFright's Addon Pack
+=======================================
+A full set of maphacks is included for each of the following GRPs (208):
+  adg.grp       (5)
+  aqua_grp      (3)
+  bf3.grp       (3)
+  bobsp.grp     (5)
+  cbp.grp       (8)
+  chronic.grp   (5) - Check out HRP-TheChronic-compatibility.zip
+  conflict.grp  (3)
+  daikarin.grp  (7) - Check out HRP-DaikariN-compatibility.zip
+  deadrive.grp  (5)
+  dn64rev.grp   (3)
+  duke10.grp    (3)
+  dukehard.grp (17) - Check out HrpDukePlus-DukeHard-compatibility.zip
+  glavic.grp   (10) 
+  kaiser.grp    (3)
+  losthway.grp  (7)
+  math_pak.grp  (5)
+  metromay.grp (15)
+  milltown.grp  (2)
+  mssp3.grp     (8)
+  opblitz.grp   (5)
+  plugpray.grp  (7)
+  red.grp       (7)
+  roch.grp      (9)
+  showdown.grp (21) - Check out HRP-NuclearShowdown-compatibility.zip ???
+  spcmissn.grp  (2)
+  taivo.grp    (10)
+  tbnw.grp      (5) - Check out HRP-BNW-compatibility.zip
+  undertkr.grp  (5)
+  vermin.grp   (12)
+  wgspace.grp   (8)
+
+Maphacks for the following GRPs are not yet completed (121/194):
+  c3po.grp     :  2/4
+  escape.grp   :  2/5
+  fm3x.grp     : 34/42 - FM1X-FM3X
+  forklift.grp :  4/12 - PRETIME Episode
+  kucera.grp   :  4/11
+  quakis.grp   :  6/8
+  space.grp    : 19/33
+  urban.grp    : 50/79
+
+Some GRPs' high resloution contents have been left out from the Addon Pack:
+  inftime.grp  : 39/39 : Check out IITTC-HRP-compatibility.zip
+  moonbase.grp :  9/9
+  wgrealms.grp :  6/6
+They will probably get recompiled for HRP with the Addon's maps included (54).
+They'll become available at the "Other Stuff" link below.
+
+Most other GRPs included in the Addon Pack are probably not compatible with the
+HRP, but they need to be actually checked out, though.
+
+
+5) LICENSE
+==========
+Maphacks for the original game's maps and official addon maps (Nuclear Winter, 
+Duke in D.C., Caribbean/Vacation) are covered by the HRP Art License.
+You are free to copy, alter, reproduce, and redistribute all other maphack files
+as long as their original author[s] are credited in each *.mhk respectively.
+
+
+6) CONTACT/LINKS
+================
+  You can check the related EDuke32 forum thread over at Duke4.net:
+  https://forums.duke4.net/index.php?showtopic=6070
+
+Contact:
+--------
+  https://forums.duke4.net/index.php?showuser=1299
+
+Related Links:
+--------------
+  Duke4.net ................................... http://www.duke4.net
+  Duke Nukem 3D High-Resolution Pack .......... http://hrp.duke4.net
+  NightFright's Addon Pack .................... http://hrp.duke4.net
+  EDuke32 port ................................ http://eduke32.com
+  RHash checksum generator .................... http://rhash.anz.ru
+  Maphacks in the HRP repository ... http://svn.eduke32.com/polymer_hrp/maphacks
+
+Advertisement:
+--------------
+  Other Stuff by LeoD ........ https://forums.duke4.net/index.php?showtopic=3513
+
+
+7) CREDITS
+==========
+  Anyone who has contributed to EDuke32, the HRP, or the user maps listed herein
