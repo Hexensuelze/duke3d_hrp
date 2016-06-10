@@ -5,10 +5,13 @@
 // Author   : Mister Sinister
 // mapmd4   : 1fa74490eb533337f555a9abd6aa0ed1 // 2014-06-22
 
+//         <-> dh15-2016-06-08.mhk
+
 // Curr. HRP: r5.3.642
 
 // *** Polymost HRP recommended ***
 
+// 0-52
 sprite    29 notmd                 // tile0544 (iron bar)
 sprite    28 notmd                 // tile0544 (iron bar)
 sprite    27 notmd                 // tile0544 (iron bar)
@@ -21,7 +24,6 @@ sprite    33 notmd                 // tile0544 (iron bar)
 sprite    20 notmd                 // tile0544 (iron bar)
 //
 //
-sprite    83 angoff     1024       // tile0040 ammo
 sprite    83 angoff    -512        // tile0040 ammo
 sprite    52 angoff    -512        // tile0059 heatsensor
 sprite    82 angoff    -512        // tile0052 sixpack
@@ -32,11 +34,14 @@ sprite   178 mdzoff     200000     // tile1062 rubbercan
 sprite   178 roll       1          // tile1062 rubbercan
 sprite   209 angoff    -768        // tile0052 sixpack
 sprite   126 angoff     512        // tile4441 (J.McClain)
+sprite   126 roll       128        // tile4441 (J.McClain)
 sprite  1200 angoff    -512        // tile0051 cola
 sprite   481 angoff     128        // tile0557 chair2
 sprite   481 mdzoff     600000     // tile0557 chair2
 sprite   481 pitch     -1          // tile0557 chair2
 sprite   481 roll       1          // tile0557 chair2
+sprite   482 mdzoff     300000     // tile0557 chair2
+sprite   482 pitch     -1          // tile0557 chair2
 sprite   480 angoff     512        // tile4441 (J.McClain)
 sprite   575 angoff    -256        // tile0052 sixpack
 sprite   575 mdzoff     300000     // tile0052 sixpack
@@ -55,7 +60,9 @@ sprite   257 roll       1          // tile4413 mailbag
 sprite   179 angoff     1024       // tile0022 chaingunsprite
 sprite   254 angoff    -256        // tile0869 statueflash (geisha)
 sprite   489 angoff     512        // tile4473 (J.Dredd)
+sprite   489 roll       128        // tile4473 (J.Dredd)
 sprite   127 angoff     512        // tile4442 (H.Callahan)
+sprite   127 roll       128        // tile4442 (H.Callahan)
 sprite   215 angoff     256        // tile0681 (tile0680 chair3)
 sprite   216 angoff     256        // tile0681 (tile0680 chair3)
 sprite   217 angoff     256        // tile0681 (tile0680 chair3)
@@ -118,10 +125,18 @@ sprite   156 mdzoff     500000     // tile4367 hatrack
 sprite   156 pitch      1          // tile4367 hatrack
 sprite   157 angoff     256        // tile4866 toughgal
 sprite   977 angoff    -512        // tile0028 shotgunsprite
+
+
+
 sprite   158 angoff     512        // tile0052 sixpack
+
+
+
 sprite   162 angoff    -512        // tile1165 bottle18
 sprite   154 mdzoff     500000     // tile4444 tripodcamera
 sprite   154 pitch      1          // tile4444 tripodcamera
+
+
 sprite   648 angoff     512        // tile0040 ammo
 sprite   649 angoff     512        // tile0040 ammo
 sprite   650 angoff     512        // tile0040 ammo
@@ -137,6 +152,9 @@ sprite   190 angoff    -512        // tile0051 cola
 sprite   114 angoff     512        // tile1014 bottle8
 sprite    69 angoff     512        // tile0028 shotgunsprite
 sprite   620 angoff    -512        // tile0049 shotgunammo
+
+
+
 sprite   105 angoff     1024       // tile0040 ammo
 sprite   112 angoff     128        // tile0051 cola
 sprite   112 mdzoff     300000     // tile0051 cola
@@ -144,6 +162,7 @@ sprite   112 pitch     -1          // tile0051 cola
 sprite   111 angoff    -128        // tile0051 cola
 sprite   111 mdzoff     300000     // tile0051 cola
 sprite   111 pitch     -1          // tile0051 cola
+sprite    98 away1                 // tile4399 (mugshot)
 sprite   116 mdzoff     300000     // tile4887 pleasewait
 sprite   116 pitch      1          // tile4887 pleasewait
 sprite   332 angoff     1024       // tile4438 coffeemug
@@ -151,6 +170,8 @@ sprite   337 angoff    -768        // tile4454 deskphone
 sprite   614 angoff     512        // tile0052 sixpack
 sprite   329 mdzoff     300000     // tile0557 chair2
 sprite   329 pitch     -1          // tile0557 chair2
+sprite   328 mdzoff     200000     // tile0556 chair1
+sprite   328 pitch     -1          // tile0556 chair1
 sprite   330 mdzoff     300000     // tile0557 chair2
 sprite   330 pitch     -1          // tile0557 chair2
 sprite   613 angoff     512        // tile0021 firstgunsprite
@@ -159,14 +180,21 @@ sprite   610 angoff     1024       // tile0051 cola
 sprite   611 angoff     1024       // tile0051 cola
 sprite   612 angoff     1024       // tile0051 cola
 sprite   589 angoff     1024       // tile0569 toilet
+sprite   589 mdzoff     500000     // tile0569 toilet
+sprite   589 pitch     -1          // tile0569 toilet
 sprite   590 angoff     1024       // tile0569 toilet
+sprite   590 mdzoff     500000     // tile0569 toilet
+sprite   590 pitch     -1          // tile0569 toilet
 sprite   591 angoff     1024       // tile0569 toilet
+sprite   591 mdzoff     500000     // tile0569 toilet
+sprite   591 pitch     -1          // tile0569 toilet
 sprite  1348 angoff     1024       // tile0059 heatsensor
 sprite   718 angoff     1024       // tile0060 accesscard red
 sprite   398 angoff     512        // tile0024 freezesprite
 sprite  1347 angoff     1024       // tile0051 cola
 sprite  1346 angoff     1024       // tile0051 cola
-//sprite   964 angoff    -512        // tile0041 batteryammo
+sprite   964 angoff    -512        // tile0041 batteryammo
+
 sprite   767 angoff    -768        // tile0869 statueflash (geisha)
 sprite   965 angoff     768        // tile0049 shotgunammo
 sprite  1168 angoff    -512        // tile0037 freezeammo
@@ -176,6 +204,7 @@ sprite  1133 angoff     896        // tile0556 chair1
 sprite  1133 mdzoff     300000     // tile0556 chair1
 sprite  1133 pitch     -1          // tile0556 chair1
 sprite  1146 angoff     896        // tile4454 deskphone
+
 sprite  1169 angoff     512        // tile0041 batteryammo
 sprite  1350 angoff    -256        // tile0054 shield
 sprite  1350 mdzoff     600000     // tile0054 shield
@@ -204,10 +233,12 @@ sprite   917 angoff     256        // tile4438 coffeemug
 sprite   994 angoff     1024       // tile0041 batteryammo
 sprite   814 angoff    -128        // tile0556 chair1
 sprite   916 angoff     768        // tile4438 coffeemug
+
 sprite  1189 angoff     1024       // tile0040 ammo
 sprite  1188 angoff     1024       // tile0040 ammo
 sprite  1187 angoff     1024       // tile0040 ammo
 sprite  1186 angoff     1024       // tile0040 ammo
+sprite  1060 angoff    -512        // tile0100 atomichealth
 sprite   813 angoff     1024       // tile0556 chair1
 sprite   915 angoff     512        // tile4438 coffeemug
 sprite   812 angoff    -640        // tile0556 chair1
@@ -246,6 +277,7 @@ sprite   310 angoff    -256        // tile0051 cola
 sprite   213 angoff     768        // tile0049 shotgunammo
 sprite   213 mdzoff     900000     // tile0049 shotgunammo
 sprite   213 roll       1          // tile0049 shotgunammo
+sprite  1257 away2                 // tile0881
 sprite  1386 angoff     768        // tile0059 heatsensor
 sprite   212 angoff     768        // tile0037 freezeammo
 // number of locks: 7

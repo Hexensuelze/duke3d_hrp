@@ -60,6 +60,8 @@ sprite   293 mdzoff     300000     // tile0669 vacuum
 sprite   293 pitch      1          // tile0669 vacuum
 
 
+
+
 sprite   208 angoff     1024       // tile2060 pigcopdeadsprite
 sprite   208 mdxoff     175        // tile2060 pigcopdeadsprite
 sprite   208 mdzoff     3500       // tile2060 pigcopdeadsprite
@@ -99,8 +101,6 @@ sprite   409 pitch     -1          // tile1048 (pipes)
 sprite   524 angoff     384        // tile0695 pot2
 sprite   363 mdzoff     200000     // tile1048 (pipes)
 sprite   363 pitch     -1          // tile1048 (pipes)
-
-
 
 
 
@@ -148,11 +148,18 @@ sprite   152 mdzoff     150000     // tile1855 octadeadsprite
 sprite   152 pitch      3          // tile1855 octadeadsprite
 sprite   152 roll      -1          // tile1855 octadeadsprite
 sprite   845 angoff     1024       // tile0046 crystalammo
+sprite   833 mdzoff     300000     // tile0041 batteryammo
+sprite   833 roll       1          // tile0041 batteryammo
+
 sprite   361 mdzoff     200000     // tile1048 (pipes)
 sprite   361 pitch     -1          // tile1048 (pipes)
 sprite   368 mdzoff     200000     // tile1048 (pipes)
 sprite   368 pitch     -1          // tile1048 (pipes)
 sprite   534 angoff    -256        // tile0916 fireext
+
+sprite   290 mdzoff     200000     // tile1158 bottle11
+sprite   290 roll       1          // tile1158 bottle11
+
 sprite   267 angoff     512        // tile0769 sushiplate2 (hand)
 sprite   263 angoff     768        // tile1957 (tile1920 commander) (dead)
 sprite   263 mdxoff     15000      // tile1957 (tile1920 commander) (dead)
@@ -167,9 +174,12 @@ sprite   807 roll       1          // tile0027 tripbombsprite
 sprite   535 angoff     1024       // tile0916 fireext
 sprite   433 notmd                 // tile0679 (battlelord holo)
 sprite   444 notmd                 // tile0164 dipswitch2
+sprite   446 angoff     512        // tile0100 atomichealth
+
 sprite   378 angoff     512        // tile1734 liztroopdsprite
 sprite   378 mdzoff    -800000     // tile1734 liztroopdsprite
 sprite   378 pitch      2          // tile1734 liztroopdsprite
+
 sprite   839 angoff     1024       // tile0041 batteryammo
 sprite    56 angoff     1024       // tile0618 pipe3
 sprite    56 mdzoff     100000     // tile0618 pipe3
@@ -205,6 +215,7 @@ sprite   790 angoff     256        // tile0051 cola
 sprite    57 angoff     1024       // tile0616 pipe2
 sprite    57 mdzoff     600000     // tile0616 pipe2
 sprite    57 pitch      1          // tile0616 pipe2
+
 sprite   794 angoff     1024       // tile0059 heatsensor
 sprite   794 roll      -160        // tile0059 heatsensor
 sprite   820 angoff     896        // tile0037 freezeammo
@@ -217,13 +228,18 @@ sprite   855 angoff    -448        // tile1334 fem6 padbabe
 sprite   855 mdyoff    -5000       // tile1334 fem6 padbabe
 sprite   855 mdzoff     120000     // tile1334 fem6 padbabe
 sprite   855 roll       1          // tile1334 fem6 padbabe
+sprite   802 angoff     512        // tile0047 hbombammo
 sprite   414 mdzoff     200000     // tile1048 (pipes)
 sprite   414 pitch     -1          // tile1048 (pipes)
-sprite   802 angoff     512        // tile0047 hbombammo
 sprite   798 angoff     448        // tile0028 shotgunsprite
 sprite   837 angoff    -128        // tile0041 batteryammo
 sprite   402 mdzoff     200000     // tile1048 (pipes)
 sprite   402 pitch     -1          // tile1048 (pipes)
+sprite   372 mdxoff     10000000   // tile2645 (tile2630 boss1 (battlelord))
+sprite   372 pitch     -1          // tile2645 (tile2630 boss1 (battlelord))
+sprite   373 nomdanim              // tile2645 (tile2630 boss1 (battlelord))
+sprite   373 mdxoff     35000      // tile2645 (tile2630 boss1 (battlelord))
+sprite   373 pitch      1          // tile2645 (tile2630 boss1 (battlelord))
 sprite   854 angoff     1024       // tile0037 freezeammo
 sprite   784 angoff    -512        // tile0052 sixpack
 sprite   511 notmd                 // tile0577 femmag2
@@ -231,24 +247,29 @@ sprite   511 away1                 // tile0577 femmag2
 sprite   840 angoff     512        // tile0044 rpgammo
 sprite   785 angoff     512        // tile0052 sixpack
 sprite   824 angoff    -832        // tile0049 shotgunammo
-sprite   418 mdzoff     200000     // tile1048 (pipes)
-sprite   418 pitch     -1          // tile1048 (pipes)
 sprite   856 angoff     984        // tile1334 fem6 padbabe
 sprite   856 mdyoff    -5000       // tile1334 fem6 padbabe
 sprite   856 mdzoff     120000     // tile1334 fem6 padbabe
 sprite   856 roll       1          // tile1334 fem6 padbabe
+sprite   418 mdzoff     200000     // tile1048 (pipes)
+sprite   418 pitch     -1          // tile1048 (pipes)
 sprite   800 angoff    -192        // tile0022 chaingunsprite
 sprite   800 pitch      224        // tile0022 chaingunsprite
 sprite   788 angoff    -512        // tile0052 sixpack
 sprite   510 notmd                 // tile0577 femmag2
 sprite   510 away1                 // tile0577 femmag2
-sprite   416 mdzoff     200000     // tile1048 (pipes)
-sprite   416 pitch     -1          // tile1048 (pipes)
+
+
+sprite   770 angoff     1024       // tile0053 firstaid
+
+
+
+sprite   850 angoff     1024       // tile0046 crystalammo
 sprite   476 mdzoff    -600000     // tile1734 liztroopdsprite
 sprite   476 pitch      2          // tile1734 liztroopdsprite
 sprite   476 roll      -1          // tile1734 liztroopdsprite
-sprite   850 angoff     1024       // tile0046 crystalammo
-sprite   770 angoff     1024       // tile0053 firstaid
+sprite   416 mdzoff     200000     // tile1048 (pipes)
+sprite   416 pitch     -1          // tile1048 (pipes)
 sprite   296 angoff     512        // tile0669 vacuum
 sprite   296 mdzoff     600000     // tile0669 vacuum
 sprite   296 roll      -1          // tile0669 vacuum
