@@ -17,7 +17,7 @@ CONTENTS OF THIS README
 1) About
 2) Installation
 3) Notes
-4) Support for NightFright's Addon Pack
+4) Support for NightFright's Addon Compilation
 5) License
 6) Contact/Links
 7) Credits
@@ -32,7 +32,8 @@ improve the compatibility of user created maps with the HRP or the Voxel Pack.
 Since there is no central site for map downloads, patching the maps directly
 would lead to quite some confusion among players about their respective
 versions. By distributing separated maphacks the original map download archives
-can be kept unchanged.
+can be kept unchanged. The maphacks are now part of the HRP, but this pack is
+updated more frequently.
 
 
 2) INSTALLATION
@@ -43,7 +44,7 @@ version number is greater than ours, don't use this pack.
 
 Drop this pack into the autoload folder alongside your HRP (5.4 or later) and 
 you should be done.
-
+(Standalone invocation: eduke32 -g UserMapHacks.zip -mh maphacks/maphacks.def)
 
 You need a recent EDuke32 executable which has the UserMapHacks functions 
 implemented - at least r4886 (source r4884). (HRP 5.4 comes with r5267.)
@@ -82,7 +83,7 @@ to explain or improve compatibility. But even if a maphack and further
 compatibility improvements exist, it's still your decision to HRPlay or not.
 
 This Pack is suitable for the Voxel Pack as well, although only the 'angoff'
-directive (model rotation) works currently on voxels (EDuke32 r5771). 
+directive (model rotation) works currently on voxels (EDuke32 r5811). 
 But that's the most commonly used correction anyway.
 
 
@@ -101,54 +102,65 @@ maphacks and some floor/ceiling aligned sprites may show up different
    know. (But compare the checksums first.)
 
 
-4) Support for NightFright's Addon Pack 2.0
-===========================================
-A full set of maphacks is available for each of the following GRPs (208):
-  adg.grp       (5)
-  aqua_grp      (3)
-  bf3.grp       (3)
-  bobsp.grp     (5)
-  cbp.grp       (8)
-  chronic.grp   (5) - Check out HRP-TheChronic-compatibility.zip
-  conflict.grp  (3)
-  daikarin.grp  (7) - Check out HRP-DaikariN-compatibility.zip
-  deadrive.grp  (5)
-  dn64rev.grp   (3)
-  duke10.grp    (3)
-  dukehard.grp (17) - Check out HrpDukePlus-DukeHard-compatibility.zip
-  glavic.grp   (10) 
-  kaiser.grp    (3)
-  losthway.grp  (7)
-  math_pak.grp  (5)
-  metromay.grp (15)
-  milltown.grp  (2)
-  mssp3.grp     (8)
-  opblitz.grp   (5)
-  plugpray.grp  (7)
-  red.grp       (7)
-  roch.grp      (9)
-  showdown.grp (21) - Check out HRP-NuclearShowdown-compatibility.zip ???
-  spcmissn.grp  (2)
-  taivo.grp    (10)
-  tbnw.grp      (5) - Check out HRP-BNW-compatibility.zip
-  undertkr.grp  (5)
-  vermin.grp   (12)
-  wgspace.grp   (8)
+4) Support for NightFright's Addon Compilation 3.0
+==================================================
+A full set of maphacks is available for each of the following GRPs (234):
+  adg.grp             (5)
+  aqua.grp            (3)
+  battlefield3.grp    (3)
+  bobsp.grp           (5)
+  bravenworld.grp     (5) - Check out HRP-BNW-compatibility.zip
+  castlequest.grp     (7)
+  chronic.grp         (5) - Check out HRP-TheChronic-compatibility.zip
+  commbuild.grp       (8)
+  crucialconflict.grp (3)
+  daikarin.grp        (7) - Check out HRP-DaikariN-compatibility.zip
+  darkplace.grp       (5)
+  deathdrive.grp      (5)
+  dn64revisited.grp   (3)
+  dreamtrilogy_grp    (3)
+  dukehard.grp       (17) - Check out HrpDukePlus-DukeHard-compatibility.zip
+  duketen.grp         (3)
+  fbsp.grp            (3)
+  glavic.grp         (10) 
+  kaiserland.grp      (3)
+  lorch.grp           (3)
+  losthighway.grp     (7)
+  mathpak.grp         (5)
+  metromayhem.grp    (15)
+  milltown.grp        (2)
+  mssp.grp            (8)
+  opblitzkrieg.grp    (5)
+  plugpray.grp        (7)
+  prequel2time.grp    (4)
+  red.grp             (7)
+  redrum.grp          (1)
+  roch.grp            (9)
+  showdown.grp       (21) - Check out HRP-NuclearShowdown-compatibility.zip ???
+  spcmissn.grp        (2)
+  spiegul.grp         (3)
+  sunburn.grp         (2)
+  taivo.grp           (5)
+  undertaker.grp      (5)
+  verminclear.grp    (12)
+  wgspace.grp         (8)
 
-Maphacks for the following GRPs are not yet completed (121/194):
-  c3po.grp     :  2/4
-  escape.grp   :  2/5
-  fm3x.grp     : 34/42 - FM1X-FM3X
-  forklift.grp :  4/12 - PRETIME Episode
-  kucera.grp   :  4/11
-  quakis.grp   :  6/8
-  space.grp    : 19/33
-  urban.grp    : 50/79
+Maphacks for the following GRPs are not yet completed (124/198):
+  c3po.grp       :  2/4
+  escape.grp     :  2/5
+  fm3x.grp       : 34/42 - FM1X-FM3X done
+  jungletour.grp :  1/3
+  kucera.grp     :  4/11
+  pinxten.grp    ;  5/9
+  pipeline.grp   ;  2/7
+  quakis.grp     :  6/8
+  space.grp      : 18/30
+  urban.grp      : 50/79
 
 Some GRPs' high resolution contents have been left out from the Addon Pack:
-  inftime.grp  : 39/39 : Check out IITTC-HRP-compatibility.zip
-  moonbase.grp :  9/9
-  wgrealms.grp :  6/6
+  infestation.grp : 39/39 : Check out IITTC-HRP-compatibility.zip
+  moonbase.grp    :  9/9
+  wgrealms.grp    :  6/6
 They will probably get recompiled for HRP with the Addon's maps included (54).
 They'll become available at the "Other Stuff" link below.
 
