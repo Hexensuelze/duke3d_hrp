@@ -61,7 +61,7 @@ Your eduke32.log should contain one or more lines similar to this after playing:
 ========
  The main goal is to get rid of the most annoying HRP-related problems of 
 popular (highly rated by reviewers) and recently released user maps. 
-Since the Introduction of the Poymer renderer in 2009 and the big HRP model 
+Since the introduction of the Poymer renderer in 2009 and the big HRP model 
 rotation in early 2012 (r5.1.295), even maps which were designed with the HRP 
 in mind need some adjustments. 
 Do not expect a maphack quality comparable to what has been done for the 
@@ -69,7 +69,7 @@ original game's levels, though. No Polymer lighting for example.
 
 A few older maps make use of tricks which can't be reproduced (yet?) using the 
 modern OpenGL renderers. Some recent maps' README files explicitly state that 
-the respective map is meant to be played without fancy renderers or the HRP.
+the respective map is meant to be played without fancy renderers, or the HRP.
 Remember that these maphacks do not claim to make those maps look as intended 
 if you are using the HRP anyway, but try to fix the obvious glitches as far as 
 it is technically possible. Do not complain to mappers, do not ask them to 
@@ -83,7 +83,7 @@ to explain or improve compatibility. But even if a maphack and further
 compatibility improvements exist, it's still your decision to HRPlay or not.
 
 This Pack is suitable for the Voxel Pack as well, although only the 'angoff'
-directive (model rotation) works currently on voxels (EDuke32 r5811). 
+directive (model rotation) works currently on voxels (EDuke32 r5880). 
 But that's the most commonly used correction anyway.
 
 
@@ -102,9 +102,9 @@ maphacks and some floor/ceiling aligned sprites may show up different
    know. (But compare the checksums first.)
 
 
-4) Support for NightFright's Addon Compilation 3.0
+4) Support for NightFright's Addon Compilation 3.1
 ==================================================
-A full set of maphacks is available for each of the following GRPs (234):
+A full set of maphacks is available for each of the following GRPs (244):
   adg.grp             (5)
   aqua.grp            (3)
   battlefield3.grp    (3)
@@ -139,23 +139,25 @@ A full set of maphacks is available for each of the following GRPs (234):
   showdown.grp       (21) - Check out HRP-NuclearShowdown-compatibility.zip ???
   spcmissn.grp        (2)
   spiegul.grp         (3)
+  stranger.grp        (6)
   sunburn.grp         (2)
   taivo.grp           (5)
   undertaker.grp      (5)
+  v_series.grp        (4)
   verminclear.grp    (12)
   wgspace.grp         (8)
 
-Maphacks for the following GRPs are not yet completed (124/198):
+Maphacks for the following GRPs are not yet completed (128/209):
   c3po.grp       :  2/4
   escape.grp     :  2/5
   fm3x.grp       : 34/42 - FM1X-FM3X done
   jungletour.grp :  1/3
-  kucera.grp     :  4/11
+  kucera.grp     :  4/15
   pinxten.grp    ;  5/9
   pipeline.grp   ;  2/7
   quakis.grp     :  6/8
-  space.grp      : 18/30
-  urban.grp      : 50/79
+  space.grp      : 23/38
+  urban.grp      : 49/78
 
 Some GRPs' high resolution contents have been left out from the Addon Pack:
   infestation.grp : 39/39 : Check out IITTC-HRP-compatibility.zip

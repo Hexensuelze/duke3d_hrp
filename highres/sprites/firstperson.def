@@ -91,16 +91,16 @@ model "highres/sprites/firstperson/2522_mightyboot.md3" {
 model "highres/sprites/firstperson/2524_pistol.md3" {
    scale 2
    skin { pal 0 surface 4 file "highres/sprites/firstperson/2524.png" }
-   skin { pal 0 surface 3 file "highres/sprites/firstperson/duke_hand_d.png" }
+   skin { pal 0 surface 3 file "highres/sprites/firstperson/duke_hand_d.png" specpower 1 specfactor 0.2 }
    specular { surface 3 file "highres/sprites/firstperson/duke_hand_s.png" }
    normal { surface 3 file "highres/sprites/firstperson/duke_hand_n.png" }
-   skin { pal 0 surface 2 file "highres/sprites/pickups/0021_pistol_d.png" specpower 8 specfactor 1.5 }
+   skin { pal 0 surface 2 file "highres/sprites/pickups/0021_pistol_d.png" specpower 1 specfactor 0.5 }
    normal { surface 2 file "highres/sprites/pickups/0021_pistol_n.png" }
    specular { surface 2 file "highres/sprites/pickups/0021_pistol_s.png" }
-   skin { pal 0 surface 1 file "highres/sprites/pickups/0021_pistol_d.png" specpower 8 specfactor 1.5 }
+   skin { pal 0 surface 1 file "highres/sprites/pickups/0021_pistol_d.png" specpower 1 specfactor 0.5 }
    normal { surface 1 file "highres/sprites/pickups/0021_pistol_n.png" }
    specular { surface 1 file "highres/sprites/pickups/0021_pistol_s.png" }
-   skin { pal 0 surface 0 file "highres/sprites/pickups/0021_pistol_d.png" specpower 8 specfactor 1.5 }
+   skin { pal 0 surface 0 file "highres/sprites/pickups/0021_pistol_d.png" specpower 1 specfactor 0.5 }
    normal { surface 0 file "highres/sprites/pickups/0021_pistol_n.png" }
    specular { surface 0 file "highres/sprites/pickups/0021_pistol_s.png" }
    frame { name "frame1" tile 2524 }
@@ -114,14 +114,14 @@ model "highres/sprites/firstperson/2524_pistol.md3" {
 
 model "highres/sprites/firstperson/2530_clip.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/pickups/0040_pistolammo.jpg" }
+   skin { pal 0 file "highres/sprites/pickups/0040_pistolammo.jpg" specpower 0.5 specfactor 0.5 }
    frame { name "Frame0" tile0 2530 tile1 2531 }
    hud { tile 2530 xadd 0.38 yadd 0.9 zadd -0.28 angadd -37 fov 330 }
 }
 
 model "highres/sprites/firstperson/2532_cliphand.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" }
+   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" specpower 1 specfactor 0.2 }
    specular { file "highres/sprites/firstperson/duke_hand_s.png" }
    normal { file "highres/sprites/firstperson/duke_hand_n.png" }
    frame { name "frame_1" tile 2532 }
