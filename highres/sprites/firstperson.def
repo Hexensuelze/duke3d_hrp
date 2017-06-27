@@ -5,7 +5,7 @@
 // Fist (1640)
 model "highres/sprites/firstperson/1640_fist.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" }
+   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" specpower 1 specfactor 0.2 }
    normal { file "highres/sprites/firstperson/duke_hand_n.png" }
    specular { file "highres/sprites/firstperson/duke_hand_s.png" }
    frame { name "frame_1" tile 1640 }
@@ -16,7 +16,7 @@ model "highres/sprites/firstperson/1640_fist.md3" {
 // Crack knuckles (2324)
 model "highres/sprites/firstperson/2324_crackknuckles.md3" {
    scale 1.75
-   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" }
+   skin { pal 0 file "highres/sprites/firstperson/duke_hand_d.png" specpower 1 specfactor 0.2 }
    normal { file "highres/sprites/firstperson/duke_hand_n.png" }
    specular { file "highres/sprites/firstperson/duke_hand_s.png" }
    anim { frame0 "frame_1" frame1 "frame_28" fps 30 flags 0 }
@@ -40,7 +40,7 @@ model "highres/sprites/firstperson/2375_slimecrunch.md3" {
 // Devastator (2510)
 model "highres/sprites/firstperson/2510_devastator.md3" {
    scale 1.5
-   skin { pal 0 file "highres/sprites/firstperson/2510_devastator_d.png" specfactor 1 specpower 15 }
+   skin { pal 0 file "highres/sprites/firstperson/2510_devastator_d.png" specfactor 1 specpower 1 }
 //   normal { file "highres/sprites/firstperson/2510_devastator_n.png" parallaxbias 0.0 parallaxscale 0.0 }
    specular { file "highres/sprites/firstperson/2510_devastator_s.png" }
    frame { name "Frame0" tile 2510 }
@@ -135,7 +135,7 @@ model "highres/sprites/firstperson/2536_chaingun.md3" {
    normal { surface 0 file "highres/sprites/firstperson/2536_chaingun_n.png" }
    specular { surface 0 file "highres/sprites/firstperson/2536_chaingun_s.png" }
    glow { surface 0 file "highres/sprites/firstperson/2536_chaingun_g.png" }
-   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" specpower 1 specfactor 0.2 }
    normal { surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }
    specular { surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
    frame { name "frame00" tile 2537 }
@@ -245,7 +245,7 @@ model "highres/sprites/firstperson/2558_crystal.md3" {
 // Tripbomb hand (2563)
 model "highres/sprites/firstperson/2563_tripbombhand.md3" {
    scale 1.9
-   skin { pal 0 file "highres/sprites/firstperson/2563_tripbombhand.png" }
+   skin { pal 0 file "highres/sprites/firstperson/2563_tripbombhand.png" specpower 1 specfactor 0.2 }
    frame { name "trip" tile 2563 }
    anim { frame0 "release1" frame1 "release2" fps 15 flags 0 }
    frame { name "release1" tile0 2564 tile1 2565 }
@@ -266,8 +266,8 @@ model "highres/sprites/firstperson/2566_tripbomb.md3" {
 // Keycard Hand (2568)
 model "highres/sprites/firstperson/2568_keycardhand.md3" {
    scale 1.9 shade 0
-   skin { pal 0 surface 0 file "highres/sprites/firstperson/2568_keycardhand.png" }
-   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" }
+   skin { pal 0 surface 0 file "highres/sprites/firstperson/2568_keycardhand.png" specpower 1 specfactor 0.2 }
+   skin { pal 0 surface 1 file "highres/sprites/firstperson/duke_hand_d.png" specpower 1 specfactor 0.2 }
    normal { surface 1 file "highres/sprites/firstperson/duke_hand_n.png" }
    specular { surface 1 file "highres/sprites/firstperson/duke_hand_s.png" }
    frame { name "Frame0" tile 2568 }
@@ -366,7 +366,7 @@ model "highres/sprites/firstperson/2613_shotgun.md3" {
    specular { surface 1 file "highres/sprites/pickups/0028_shotgun_s.png" }
    skin { pal 0 surface 3 file "highres/sprites/firstperson/2615.png" }
    glow { surface 3 file "highres/sprites/firstperson/2615.png" } 
-   skin { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_d.png" }
+   skin { pal 0 surface 4 file "highres/sprites/firstperson/duke_hand_d.png" specpower 1 specfactor 0.2 }
    specular { surface 4 file "highres/sprites/firstperson/duke_hand_s.png" }
    normal { surface 4 file "highres/sprites/firstperson/duke_hand_n.png" } 
    frame { name "frame1" tile 2613 }
