@@ -5,8 +5,10 @@
 // Author   : Richard Bailey Gray (The Levelord) & 0.66% Randall S Pitchford II
 // mapmd4   : d8053c19bc718865727fb4164e625920 // 1996-12-11 (1.3D + Atomic GRP)
 
-// Curr. HRP: r5.3.664
 
+// Curr. HRP: r5.4.700
+
+// 0-38 / 50-358 / 363-396 / 420-478 / 486-854
 sprite   118 angoff    -256        // tile0049 shotgunammo
 sprite   618 angoff     1024       // tile0022 chaingunsprite
 sprite    90 angoff    -640        // tile0024 freezesprite
@@ -99,10 +101,14 @@ sprite   769 angoff    -512        // tile0044 rpgammo
 sprite   852 angoff    -512        // tile0052 sixpack
 sprite    61 angoff    -256        // tile0047 hbombammo
 sprite   211 angoff    -512        // tile0057 jetpack
+sprite   482 angoff     1024       // tile4369 (emergency light)
+sprite   466 angoff     1024       // tile4369 (emergency light)
 sprite   465 angoff     256        // tile0762 mike
 sprite   255 angoff     768        // tile4446 (ball and chain)
 sprite   844 notmd                 // tile4877 (glove)
 //sprite   462 notmd                 // tile0693 (knife)
+sprite   462 mdxoff     1000       // tile0693 (knife)
+sprite   462 pitch      1          // tile0693 (knife)
 sprite   191 notmd                 // tile4448 (handcuffs)
 //sprite   772 notmd                 // tile4455 (catonine)
 sprite   464 angoff    -896        // tile4444 tripodcamera
@@ -141,6 +147,7 @@ sprite   739 notmd                 // tile1154 (pawprint)
 sprite   738 notmd                 // tile1154 (pawprint)
 sprite   737 notmd                 // tile1154 (pawprint)
 sprite   154 notmd                 // tile1154 (pawprint)
+// mhk diff sync 1
 sprite   469 angoff     256        // tile4370 desklamp
 sprite   244 notmd                 // tile4503 (letter)
 sprite    71 notmd                 // tile4503 (letter)
@@ -207,6 +214,7 @@ sprite   345 angoff     0          // tile4943 (juryguy)
 sprite   174 angoff     960        // tile0556 chair1
 sprite   184 angoff    -512        // tile4438 coffeemug
 sprite   179 notmd                 // tile4439 (pen & paper)
+// mhk diff sync 2
 sprite   337 angoff     1024       // tile4943 (juryguy)
 sprite   168 angoff     1024       // tile0557 chair2
 sprite   343 angoff    -768        // tile4943 (juryguy)

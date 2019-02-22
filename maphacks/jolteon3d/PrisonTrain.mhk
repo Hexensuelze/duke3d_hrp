@@ -1,0 +1,347 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : Prison Train
+// Filename : PrisonTrain.map
+// Author   : Jolteon 3D
+// mapmd4   : c9c1bc6673e3054a863d1e1c5a400af9 // 2016-09-16
+
+// Curr. HRP: r5.4.700
+
+sprite    67 angoff     512        // tile0569 toilet
+sprite     8 mdzoff     100000     // tile0544 (iron bar)
+sprite     8 pitch     -1          // tile0544 (iron bar)
+sprite     7 mdzoff     100000     // tile0544 (iron bar)
+sprite     7 pitch      1          // tile0544 (iron bar)
+sprite   329 away1                 // tile1394 (//)
+sprite    68 angoff     512        // tile0569 toilet
+sprite    14 mdzoff     100000     // tile0544 (iron bar)
+sprite    14 pitch     -1          // tile0544 (iron bar)
+sprite    15 mdzoff     100000     // tile0544 (iron bar)
+sprite    15 pitch      1          // tile0544 (iron bar)
+sprite   282 angoff    -768        // tile0052 sixpack
+sprite    70 angoff    -512        // tile0569 toilet
+sprite    56 mdzoff     100000     // tile0544 (iron bar)
+sprite    56 pitch     -1          // tile0544 (iron bar)
+sprite    57 mdzoff     100000     // tile0544 (iron bar)
+sprite    57 pitch      1          // tile0544 (iron bar)
+sprite    72 angoff    -512        // tile0569 toilet
+sprite    34 mdzoff     100000     // tile0544 (iron bar)
+sprite    34 pitch     -1          // tile0544 (iron bar)
+sprite    35 mdzoff     100000     // tile0544 (iron bar)
+sprite    35 pitch      1          // tile0544 (iron bar)
+sprite   283 angoff    -512        // tile0052 sixpack
+sprite    74 angoff    -512        // tile0569 toilet
+sprite    51 mdzoff     100000     // tile0544 (iron bar)
+sprite    51 pitch     -1          // tile0544 (iron bar)
+sprite    50 mdzoff     100000     // tile0544 (iron bar)
+sprite    50 pitch      1          // tile0544 (iron bar)
+sprite    69 angoff     512        // tile0569 toilet
+sprite    28 mdzoff     100000     // tile0544 (iron bar)
+sprite    28 pitch     -1          // tile0544 (iron bar)
+sprite    27 mdzoff     100000     // tile0544 (iron bar)
+sprite    27 pitch      1          // tile0544 (iron bar)
+sprite   264 angoff     512        // tile0040 ammo
+sprite   266 angoff     1024       // tile0040 ammo
+sprite   265 angoff    -512        // tile0040 ammo
+sprite   398 away1                 // tile1047 (cell block sign)
+sprite   397 away1                 // tile2966 (greyfont A)
+sprite   393 away1                 // tile1047 (cell block sign)
+sprite   394 away1                 // tile2967 (greyfont B)
+sprite   236 angoff    -512        // tile0569 toilet
+sprite   229 mdzoff     100000     // tile0544 (iron bar)
+sprite   229 pitch     -1          // tile0544 (iron bar)
+sprite   230 mdzoff     100000     // tile0544 (iron bar)
+sprite   230 pitch      1          // tile0544 (iron bar)
+sprite   312 angoff     1024       // tile0026 heavyhbomb
+sprite   188 angoff     512        // tile0569 toilet
+sprite   181 mdzoff     100000     // tile0544 (iron bar)
+sprite   181 pitch     -1          // tile0544 (iron bar)
+sprite   182 mdzoff     100000     // tile0544 (iron bar)
+sprite   182 pitch      1          // tile0544 (iron bar)
+sprite   290 away1                 // tile0966 (duke nukem ii cover)
+sprite   293 angoff     1024       // tile0040 ammo
+sprite   292 angoff     1024       // tile0040 ammo
+sprite   212 angoff    -512        // tile0569 toilet
+sprite   205 mdzoff     100000     // tile0544 (iron bar)
+sprite   205 pitch     -1          // tile0544 (iron bar)
+sprite   206 mdzoff     100000     // tile0544 (iron bar)
+sprite   206 pitch      1          // tile0544 (iron bar)
+sprite   322 away1                 // tile2881 (bluefont \)
+sprite   298 angoff     512        // tile0040 ammo
+sprite   299 angoff     0          // tile0040 ammo
+sprite   300 angoff    -512        // tile0040 ammo
+sprite   170 angoff     512        // tile0569 toilet
+sprite   169 mdzoff     100000     // tile0544 (iron bar)
+sprite   169 pitch     -1          // tile0544 (iron bar)
+sprite   168 mdzoff     100000     // tile0544 (iron bar)
+sprite   168 pitch      1          // tile0544 (iron bar)
+sprite   224 angoff    -512        // tile0569 toilet
+sprite   223 mdzoff     100000     // tile0544 (iron bar)
+sprite   223 pitch     -1          // tile0544 (iron bar)
+sprite   222 mdzoff     100000     // tile0544 (iron bar)
+sprite   222 pitch      1          // tile0544 (iron bar)
+sprite   295 away1                 // tile0970 (byte nite sign)
+sprite   294 angoff     1024       // tile0052 sixpack
+sprite   200 angoff     512        // tile0569 toilet
+sprite   199 mdzoff     100000     // tile0544 (iron bar)
+sprite   199 pitch     -1          // tile0544 (iron bar)
+sprite   198 mdzoff     100000     // tile0544 (iron bar)
+sprite   198 pitch      1          // tile0544 (iron bar)
+sprite   311 angoff    -768        // tile0051 cola
+sprite   391 away1                 // tile1047 (cell block sign)
+sprite   392 away1                 // tile2966 (greyfont A)
+sprite   346 angoff    -512        // tile0051 cola
+sprite   347 angoff    -512        // tile0022 chaingunsprite
+sprite   345 angoff    -512        // tile0041 batteryammo
+sprite   360 angoff     1024       // tile0026 heavyhbomb
+sprite   358 angoff     512        // tile0047 hbombammo
+sprite   341 angoff     512        // tile0051 cola
+sprite   340 angoff    -512        // tile0028 shotgunsprite
+sprite   342 angoff     512        // tile0049 shotgunammo
+sprite   445 away1                 // tile0600 (danger flammable sign)
+sprite   364 angoff    -768        // tile0556 chair1
+sprite   364 mdzoff     200000     // tile0556 chair1
+sprite   364 pitch      3          // tile0556 chair1
+sprite   364 roll       1          // tile0556 chair1
+sprite   374 angoff    -512        // tile0052 sixpack
+sprite   375 angoff     1024       // tile0041 batteryammo
+sprite   378 roll      -6          // tile0977 genericpole
+sprite   379 roll      -6          // tile0977 genericpole
+sprite   419 pitch     -6          // tile0977 genericpole
+sprite   414 pitch     -6          // tile0977 genericpole
+sprite   418 pitch     -6          // tile0977 genericpole
+sprite   415 pitch     -6          // tile0977 genericpole
+sprite   420 pitch     -6          // tile0977 genericpole
+sprite   416 pitch     -6          // tile0977 genericpole
+sprite   421 pitch     -6          // tile0977 genericpole
+sprite   417 pitch     -6          // tile0977 genericpole
+sprite   422 pitch     -6          // tile0977 genericpole
+sprite   425 roll       6          // tile0977 genericpole
+sprite   426 roll       6          // tile0977 genericpole
+sprite   427 roll       6          // tile0977 genericpole
+sprite   372 angoff     640        // tile0060 accesscard blue
+sprite   395 away1                 // tile1047 (cell block sign)
+sprite   396 away1                 // tile2968 (greyfont C)
+sprite   400 away1                 // tile1047 (cell block sign)
+sprite   399 away1                 // tile2967 (greyfont B)
+sprite   110 angoff     512        // tile0569 toilet
+sprite   111 mdzoff     100000     // tile0544 (iron bar)
+sprite   111 pitch     -1          // tile0544 (iron bar)
+sprite   112 mdzoff     100000     // tile0544 (iron bar)
+sprite   112 pitch      1          // tile0544 (iron bar)
+sprite   318 away1                 // tile2881 (bluefont \)
+sprite   319 away1                 // tile1394 (//)
+sprite   134 angoff    -512        // tile0569 toilet
+sprite   135 mdzoff     100000     // tile0544 (iron bar)
+sprite   135 pitch     -1          // tile0544 (iron bar)
+sprite   136 mdzoff     100000     // tile0544 (iron bar)
+sprite   136 pitch      1          // tile0544 (iron bar)
+sprite   310 angoff     512        // tile0040 ammo
+sprite   309 angoff     0          // tile0040 ammo
+sprite   308 angoff    -512        // tile0040 ammo
+sprite    80 angoff     512        // tile0569 toilet
+sprite    81 mdzoff     100000     // tile0544 (iron bar)
+sprite    81 pitch     -1          // tile0544 (iron bar)
+sprite    82 mdzoff     100000     // tile0544 (iron bar)
+sprite    82 pitch      1          // tile0544 (iron bar)
+sprite   328 away1                 // tile2881 (bluefont \)
+sprite   325 away1                 // tile2881 (bluefont \)
+sprite   302 away1                 // tile0964 fempic6
+sprite   122 angoff    -512        // tile0569 toilet
+sprite   129 mdzoff     100000     // tile0544 (iron bar)
+sprite   129 pitch     -1          // tile0544 (iron bar)
+sprite   128 mdzoff     100000     // tile0544 (iron bar)
+sprite   128 pitch      1          // tile0544 (iron bar)
+sprite    98 angoff     512        // tile0569 toilet
+sprite   105 mdzoff     100000     // tile0544 (iron bar)
+sprite   105 pitch     -1          // tile0544 (iron bar)
+sprite   104 mdzoff     100000     // tile0544 (iron bar)
+sprite   104 pitch      1          // tile0544 (iron bar)
+sprite   146 angoff    -512        // tile0569 toilet
+sprite   153 mdzoff     100000     // tile0544 (iron bar)
+sprite   153 pitch     -1          // tile0544 (iron bar)
+sprite   152 mdzoff     100000     // tile0544 (iron bar)
+sprite   152 pitch      1          // tile0544 (iron bar)
+sprite   289 away1                 // tile5209 (prison train tiles020.art)
+sprite   303 angoff     256        // tile0052 sixpack
+sprite   401 away1                 // tile2984 (greyfont S)
+sprite   403 away1                 // tile2985 (greyfont T)
+sprite   404 away1                 // tile2980 (greyfont O)
+sprite   405 away1                 // tile2983 (greyfont R)
+sprite   406 away1                 // tile2966 (greyfont A)
+sprite   407 away1                 // tile2972 (greyfont G)
+sprite   408 away1                 // tile2970 (greyfont E)
+sprite   431 away1                 // tile1047 (cell block sign)
+sprite   432 away1                 // tile2968 (greyfont C)
+sprite   444 angoff    -256        // tile0052 sixpack
+sprite   443 angoff     256        // tile0049 shotgunammo
+sprite   448 angoff     1024       // tile0041 batteryammo
+sprite   448 mdzoff     300000     // tile0041 batteryammo
+sprite   448 roll       1          // tile0041 batteryammo
+sprite   442 angoff     1024       // tile0023 rpgsprite
+sprite   459 angoff     512        // tile0051 cola
+sprite   456 angoff     512        // tile0047 hbombammo
+sprite   458 angoff    -512        // tile0051 cola
+sprite   465 mdzoff     200000     // tile0025 shrinkersprite
+sprite   465 pitch      1          // tile0025 shrinkersprite
+sprite   465 roll      -6          // tile0025 shrinkersprite
+sprite   464 mdzoff     1200000    // tile0100 atomichealth
+sprite   464 pitch      1          // tile0100 atomichealth
+sprite   525 away1                 // tile2984 (greyfont S)
+sprite   536 away1                 // tile2985 (greyfont T)
+sprite   537 away1                 // tile2980 (greyfont O)
+sprite   538 away1                 // tile2983 (greyfont R)
+sprite   539 away1                 // tile2966 (greyfont A)
+sprite   540 away1                 // tile2972 (greyfont G)
+sprite   541 away1                 // tile2970 (greyfont E)
+sprite   517 angoff    -512        // tile0044 rpgammo
+sprite   526 angoff     512        // tile4548 foodobject19
+sprite   527 angoff     1024       // tile4548 foodobject19
+sprite   501 angoff     1024       // tile0051 cola
+sprite   503 angoff     768        // tile0040 ammo
+sprite   502 angoff     768        // tile0040 ammo
+sprite   504 angoff     768        // tile0040 ammo
+sprite   515 angoff     1024       // tile0049 shotgunammo
+sprite   545 angoff     1024       // tile0052 sixpack
+sprite   569 angoff     512        // tile0049 shotgunammo
+sprite   570 angoff     1024       // tile0041 batteryammo
+sprite  1361 angoff     1024       // tile0557 chair2
+sprite  1172 notmd                 // tile0577 femmag2
+sprite  1172 away1                 // tile0577 femmag2
+sprite  1362 angoff    -256        // tile0556 chair1
+sprite  1362 mdzoff     600000     // tile0556 chair1
+sprite  1362 pitch      1          // tile0556 chair1
+sprite   911 nomdanim              // tile2010 (tile2000 pigcop)
+sprite   913 nomdanim              // tile2025 (tile2000 pigcop)
+sprite   912 nomdanim              // tile5221 (tile5136 (dotp pigcop))
+sprite   921 nomdanim              // tile1692 (tile1680 liztroop)
+sprite   921 angoff    -128        // tile1692 (tile1680 liztroop)
+sprite   925 nomdanim              // tile1690 (tile1680 liztroop)
+sprite   922 nomdanim              // tile1693 (tile1680 liztroop)
+sprite   922 angoff    -128        // tile1693 (tile1680 liztroop)
+//sprite   895 nomdanim              // tile4700 (tile4610 newbeast)
+sprite   895 angoff     1024       // tile4700 (tile4610 newbeast)
+sprite   924 nomdanim              // tile2011 (tile2000 pigcop)
+sprite   923 nomdanim              // tile5214 (tile5136 (dotp pigcop))
+sprite   894 nomdanim              // tile4650 (tile4610 newbeast)
+sprite   920 nomdanim              // tile1690 (tile1680 liztroop)
+sprite   919 nomdanim              // tile1684 (tile1680 liztroop)
+sprite   919 mdzoff     900000     // tile1684 (tile1680 liztroop)
+sprite   919 roll       1          // tile1684 (tile1680 liztroop)
+sprite   918 nomdanim              // tile1425 (tile1405 duke)
+sprite   918 angoff     1024       // tile1425 (tile1405 duke)
+sprite  1408 away1                 // tile0965 fempic7
+sprite  1363 angoff     768        // tile0556 chair1
+sprite  1363 mdzoff     600000     // tile0556 chair1
+sprite  1363 pitch      1          // tile0556 chair1
+sprite   879 angoff     1024       // tile0055 steroids
+sprite   652 angoff     1024       // tile0049 shotgunammo
+sprite   653 angoff     1024       // tile0051 cola
+//sprite   705 nomdanim              // tile2040 (tile2045 pigcopdive)
+sprite   705 notmd                 // tile2040 (tile2045 pigcopdive)
+sprite   654 angoff    -256        // tile4538 foodobject9
+sprite   654 mdzoff     300000     // tile4538 foodobject9
+sprite   654 pitch     -1          // tile4538 foodobject9
+sprite  1198 angoff     1024       // tile0049 shotgunammo
+sprite  1235 angoff    -768        // tile4580 canwithsomething2
+sprite  1236 angoff     512        // tile4580 canwithsomething2
+sprite  1237 angoff     512        // tile4580 canwithsomething2
+sprite  1233 angoff     512        // tile4580 canwithsomething2
+sprite  1234 angoff     896        // tile4580 canwithsomething2
+sprite  1197 angoff     768        // tile0051 cola
+sprite  1204 angoff     512        // tile0041 batteryammo
+sprite  1251 angoff     512        // tile1238 explodingbarrel
+sprite  1252 angoff     256        // tile1227 nukebarrel
+sprite  1392 angoff     512        // tile1227 nukebarrel
+sprite  1391 angoff     1024       // tile1227 nukebarrel
+sprite  1218 angoff    -512        // tile0051 cola
+sprite  1195 angoff    -512        // tile0046 crystalammo
+sprite  1222 angoff    -512        // tile1238 explodingbarrel
+sprite  1222 mdzoff     200000     // tile1238 explodingbarrel
+sprite  1222 pitch     -1          // tile1238 explodingbarrel
+sprite  1220 angoff     256        // tile1238 explodingbarrel
+sprite  1220 mdzoff     200000     // tile1238 explodingbarrel
+sprite  1220 roll       1          // tile1238 explodingbarrel
+sprite  1205 angoff     1024       // tile0051 cola
+sprite  1180 angoff     512        // tile0044 rpgammo
+sprite  1244 angoff     768        // tile4580 canwithsomething2
+sprite  1243 angoff    -640        // tile4582 canwithsomething4
+sprite  1241 angoff    -512        // tile4580 canwithsomething2
+sprite  1242 angoff     1024       // tile4580 canwithsomething2
+sprite  1209 angoff    -512        // tile0049 shotgunammo
+sprite  1238 angoff    -512        // tile4580 canwithsomething2
+sprite  1238 mdzoff     200000     // tile4580 canwithsomething2
+sprite  1238 roll       1          // tile4580 canwithsomething2
+sprite  1184 angoff     1024       // tile0052 sixpack
+sprite  1181 angoff     1024       // tile0060 accesscard yellow
+sprite  1371 mdzoff     400000     // tile0041 batteryammo
+sprite  1371 roll       1          // tile0041 batteryammo
+sprite  1368 angoff    -256        // tile0052 sixpack
+sprite  1369 angoff     256        // tile0060 accesscard red
+sprite  1385 angoff     512        // tile0049 shotgunammo
+sprite  1406 angoff     256        // tile0044 rpgammo
+sprite  1435 angoff     512        // tile1395 fem7 dancer
+sprite  1436 angoff     256        // tile1312 fem1 stripper
+sprite  1400 angoff     1024       // tile0762 mike
+sprite  1443 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite  1469 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite  1461 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite  1457 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite  1450 angoff     1024       // tile1160 bottle13 (Jack Daniels)
+sprite  1415 angoff     1024       // tile0051 cola
+sprite  1486 angoff    -512        // tile0051 cola
+sprite  1485 angoff     512        // tile0049 shotgunammo
+sprite  1499 angoff     512        // tile0051 cola
+sprite  1492 mdzoff     400000     // tile0041 batteryammo
+sprite  1492 roll       1          // tile0041 batteryammo
+sprite  1495 angoff     512        // tile0040 ammo
+sprite  1494 angoff     512        // tile0040 ammo
+sprite  1500 angoff    -512        // tile0026 heavyhbomb
+sprite  1500 mdzoff     200000     // tile0026 heavyhbomb
+sprite  1500 roll      -1          // tile0026 heavyhbomb
+sprite  1471 angoff     1024       // tile0052 sixpack
+sprite  1503 angoff    -512        // tile0051 cola
+sprite  1504 angoff     512        // tile0051 cola
+sprite  1620 angoff     512        // tile0045 growammo
+sprite  1508 angoff     512        // tile0044 rpgammo
+sprite  1501 angoff    -512        // tile0049 shotgunammo
+sprite  1513 angoff    -512        // tile0052 sixpack
+sprite  1660 angoff     1024       // tile4580 canwithsomething2
+sprite  1658 angoff     128        // tile4580 canwithsomething2
+sprite  1649 angoff    -256        // tile1227 nukebarrel
+sprite  1650 angoff     1024       // tile1227 nukebarrel
+sprite  1648 angoff    -512        // tile1227 nukebarrel
+sprite  1646 angoff    -768        // tile1227 nukebarrel
+sprite  1625 angoff     1024       // tile0052 sixpack
+sprite  1636 angoff    -512        // tile1238 explodingbarrel
+sprite  1638 angoff    -896        // tile1227 nukebarrel
+sprite  1637 angoff    -384        // tile1227 nukebarrel
+sprite  1639 angoff    -256        // tile1238 explodingbarrel
+sprite  1663 angoff     256        // tile1238 explodingbarrel
+sprite  1661 angoff    -512        // tile0051 cola
+sprite  1627 angoff     1024       // tile0044 rpgammo
+sprite  1664 angoff     768        // tile1238 explodingbarrel
+sprite  1662 angoff     256        // tile0051 cola
+sprite  1654 angoff     256        // tile0045 growammo
+sprite  1655 angoff    -768        // tile0045 growammo
+sprite  1634 angoff    -256        // tile1238 explodingbarrel
+sprite  1631 angoff    -256        // tile4580 canwithsomething2
+sprite  1632 angoff     1024       // tile4580 canwithsomething2
+sprite  1632 mdzoff     200000     // tile4580 canwithsomething2
+sprite  1632 roll      -1          // tile4580 canwithsomething2
+sprite  1633 angoff     1024       // tile4582 canwithsomething4
+sprite  1850 notmd                 // tile2406 (tile2404 scrap3)
+sprite  1849 notmd                 // tile2397 (tile2390 scrap6)
+sprite  1848 notmd                 // tile2406 (tile2404 scrap3)
+sprite  1847 notmd                 // tile2391 (tile2390 scrap6)
+sprite  1851 notmd                 // tile2401 (tile2400 scrap1)
+sprite  1712 angoff     1024       // tile0049 shotgunammo
+sprite  1992 angoff    -256        // tile0044 rpgammo
+sprite  1983 angoff     256        // tile0049 shotgunammo
+sprite  1982 angoff     512        // tile0051 cola
+sprite  1982 mdzoff     500000     // tile0051 cola
+sprite  1982 pitch     -1          // tile0051 cola
+sprite  1981 angoff    -512        // tile0051 cola
+sprite  1981 mdzoff     500000     // tile0051 cola
+sprite  1981 pitch     -1          // tile0051 cola
+sprite  2003 angoff     768        // tile0041 batteryammo

@@ -386,7 +386,15 @@ mapinfo {
    mapmd4   d414c0963bcedfe74d2ecbfa471af7a7 // 2008-10-24 (NSD)
    mhkfile  "maphacks/usermaps/_balley-nsd.mhk"
 }
-
+/*
+mapinfo {
+   maptitle "Bad Case of Mondays"
+   mapfile  "BadCaseOfMondays.map"
+   //author "Jelle 'Thedutchjelle' Groot"
+   mapmd4   d91e1cba71b8413e91b16bd5ddbb0c6b // 2016-11-06
+   mhkfile  "maphacks/usermaps/BadCaseOfMondays.mhk"
+}
+*/
 mapinfo {
    maptitle "Bak Manufactory DeathMatch"
    mapfile  "bakmanDM.map"
@@ -418,7 +426,7 @@ mapinfo {
    mapmd4   6a8ceeef4340e486a3967994dd35714b // 2004-07-27
    mapmd4   f4991e2b0fa31d46f00c20ab4dbb1534 // 2015-10-07 (Addon Pack)
    //mhkfile  "maphacks/usermaps/Banco.mhk"
-   mhkfile  "maphacks/dc_hrp/Banco.mhk" // DC_HRP recommended (tiles14.art)
+   mhkfile  "maphacks/dukedc/Banco.mhk" // DC_HRP recommended (tiles14.art)
 }
 mapinfo {
    maptitle "Bank"
@@ -426,7 +434,7 @@ mapinfo {
    //author "Danstructor"
    mapmd4   a118e9f9ef7f9ddcdb3cc7985592fbba // 2012-12-18
    //mhkfile  "maphacks/usermaps/BANK.mhk"
-   mhkfile  "maphacks/dc_hrp/BANK.mhk" // DC_HRP recommended (tiles14.art)
+   mhkfile  "maphacks/dukedc/BANK.mhk" // DC_HRP recommended (tiles14.art)
 }
 /*
 mapinfo {
@@ -522,7 +530,15 @@ mapinfo {
    mapmd4   36edd0149f3daab8d45fa28471accd77 // 1998-03-24
    mhkfile  "maphacks/usermaps/Blastm.mhk"
 }
-
+/*
+mapinfo {
+   maptitle "Block Ignite"
+   mapfile  "blockignite.map"
+   //author "oporix"
+   mapmd4   5fa11bcdb250801dafe117e34362c286 // 2016-10-30
+   mhkfile  "maphacks/usermaps/blockignite.mhk"
+}
+*/
 mapinfo {
    maptitle "BobSP1: Foreboding"
    mapfile  "Bobsp1.map"
@@ -799,14 +815,6 @@ mapinfo {
 }
 
 mapinfo {
-   maptitle "Dawn of the Pork"
-   mapfile  "DOTP.map"
-   //author "Jolteon 3D"
-   mapmd4   a0de50bab7a883f0d989471a13d5b17f // 2016-07-21
-   mhkfile  "maphacks/usermaps/DOTP.mhk"
-}
-
-mapinfo {
    maptitle "Death at K-Oger"
    mapfile  "Job1.map"
    //author "Wes Lynes"
@@ -1046,7 +1054,15 @@ mapinfo {
    mapmd4   cbf52f64f3c285e1a43fc5a54336efbb // 1999-04-17
    mhkfile  "maphacks/usermaps/DBLSPACE.mhk"
 }
-
+/*
+mapinfo {
+   maptitle "Dracula's Castle"
+   mapfile  "DRACULA.map"
+   //author "James 'Jblade' Stanfield"
+   mapmd4   b2b6f48b25a14d8794f111a4ace2bf76 // 2016-10-22
+   mhkfile  "maphacks/usermaps/DRACULA.mhk"
+}
+*/
 mapinfo {
    maptitle "Drafted"
    mapfile  "Drafted.map"
@@ -1119,7 +1135,15 @@ mapinfo {
    mapmd4   86651b3fa32467213045ffa35f3b9e1e // 2015-10-04
    mhkfile  "maphacks/usermaps/duketg.mhk"
 }
-
+/*
+mapinfo {
+   maptitle "Dukington International"
+   mapfile  "dukingtoninternational.map"
+   //author "Spaghett"
+   mapmd4   61514ec992c5dcb126587250fbe2d643 // 2016-10-08
+   mhkfile  "maphacks/usermaps/dukingtoninternational.mhk"
+}
+*/
 mapinfo {
    maptitle "Dukemeal Restaurant"
    mapfile  "DUKEMEAL.MAP"
@@ -1173,14 +1197,6 @@ mapinfo {
    //author "Cody 'Supertanker' Jackson"
    mapmd4   70b60a63323ec8fcbf8755bc154e486b // 2005-07-03
    mhkfile  "maphacks/usermaps/edfbase.mhk"
-}
-
-mapinfo {
-   maptitle "EDF Outpost"
-   mapfile  "EDFoutpost.map"
-   //author "Jolteon 3D"
-   mapmd4   b1cd05b28d288471bd8d941f6c0c027d // 2015-11-11
-   mhkfile  "maphacks/usermaps/EDFoutpost.mhk"
 }
 
 mapinfo {
@@ -2107,21 +2123,6 @@ mapinfo {
 }
 
 mapinfo {
-   maptitle "Mars Donalds"
-   mapfile  "marsdonalds.map"
-   //author "Jolteon 3D"
-   mapmd4   af8895a690c09c143d3acbd394e41b77 // 2016-01-27
-   mhkfile  "maphacks/usermaps/marsdonalds.mhk"
-}
-mapinfo {
-   maptitle "Mars Donalds"
-   mapfile  "marsdonaldsM.map"
-   //author "Jolteon 3D"
-   mapmd4   d51743c7f7625278fd64de952c58ae5b // 2016-01-30 (Megaton Workshop)
-   mhkfile  "maphacks/usermaps/marsdonalds-megaton.mhk"
-}
-
-mapinfo {
    maptitle "MatH Pak: Suburbs"
    mapfile  "MatH_01.map"
    //author "Matjaz M. aka MatH"
@@ -2278,14 +2279,30 @@ mapinfo {
    mapfile  "1-Moontang.map"
    //author "Captain (Jack) Massive"
    mapmd4   c9758a0b2f3e6ce456b5b2a1f75c2899 // 2016-08-27
-   mhkfile  "maphacks/usermaps/1-Moontang-2016-08-27.mhk"
+   mhkfile  "maphacks/usermaps/Moontang-2016-08-27.mhk"
 }
 mapinfo {
    maptitle "Moontang Episode 1 - Brig it on."
    mapfile  "1-Moontang.map"
    //author "Captain (Jack) Massive"
    mapmd4   90eaa1ff7e7605fb99ba81ff3ab08e9c // 2016-09-01
-   mhkfile  "maphacks/usermaps/1-Moontang-2016-09-01.mhk"
+   mhkfile  "maphacks/usermaps/Moontang-2016-09-01.mhk"
+}
+
+mapinfo {
+   maptitle "Moontang Episode 1 - Brig it on."
+   mapfile  "_Moontang.map"
+   //author "Captain (Jack) Massive"
+   mapmd4   6e73b2c9ebe9b5488645f58efc2d9ae1 // 2016-10-12
+   mhkfile  "maphacks/usermaps/Moontang-2016-10-12.mhk"
+}
+
+mapinfo {
+   maptitle "Moontang Episode 1 - Brig it on."
+   mapfile  "MoontangWT.map"
+   //author "Captain (Jack) Massive"
+   mapmd4   9e2ff9eea8709f1c4032e183905f9860 // 2016-10-12 (World Tour)
+   mhkfile  "maphacks/usermaps/Moontang-worldtour.mhk"
 }
 
 mapinfo {
@@ -2623,15 +2640,7 @@ mapinfo {
    mapmd4   eff617d4d58d25a767b505b69d836463 // 2014-09-07 (Addon Pack)
    mhkfile  "maphacks/usermaps/pretime4.mhk"
 }
-/*
-mapinfo {
-   maptitle "Prison Train"
-   mapfile  "PrisonTrain.map"
-   //author "Jolteon 3D"
-   mapmd4   c9c1bc6673e3054a863d1e1c5a400af9 // 2016-09-16
-   mhkfile  "maphacks/usermaps/PrisonTrain.mhk"
-}
-*/
+
 mapinfo {
    maptitle "Ragnarok"
    mapfile  "RAGNAROK.MAP"
@@ -2971,7 +2980,15 @@ mapinfo {
    mapmd4   3d37d46aa8faa1ea1353ceaf79b44b2f // 1997-11-09
    mhkfile  "maphacks/usermaps/SPACEPWR.mhk"
 }
-
+/*
+mapinfo {
+   maptitle "Spacetrap"
+   mapfile  "spacetrap.map"
+   //author "neoacix"
+   mapmd4   05b08e11a15a58f25f9fdc27da957971 // 2016-10-30
+   mhkfile  "maphacks/usermaps/spacetrap.mhk"
+}
+*/
 mapinfo {
    maptitle "Start"
    mapfile  "start.map"
