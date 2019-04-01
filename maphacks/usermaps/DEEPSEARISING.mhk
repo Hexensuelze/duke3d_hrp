@@ -5,11 +5,13 @@
 // Author   : Jelle 'Thedutchjelle' Groot
 // mapmd4   : 575a228ef303d09451bd08c37c2b25c4 // 2007-04-10
 
-//         <-> Deepsearisingv1.2.mhk
+//         <-> Deepsearising-v1.2.mhk
+//         <-> Deepsearising-v1.3.mhk
 
-// Curr. HRP: r5.4.682
+// Curr. HRP: r5.4.701
 
 // 0-151 / / 207-289 / / 315-602 / 668-1049 / 1074-1160
+// 
 sprite  1037 angoff     0          // tile0049 shotgunammo
 sprite  1037 mdzoff     100000     // tile0049 shotgunammo
 sprite  1037 pitch      1          // tile0049 shotgunammo
@@ -27,6 +29,7 @@ sprite   324 notmd                 // tile0355 (warning stripes)
 sprite   329 away1                 // tile4936 (pressure maintenance sign)
 sprite   319 notmd                 // tile0355 (warning stripes)
 sprite   320 notmd                 // tile0355 (warning stripes)
+sprite   400 away1                 // tile4935 (Unit 3263827 sign)
 sprite   401 away1                 // tile4953 (prop# 45 sign)
 
 
@@ -77,8 +80,10 @@ sprite   267 angoff    -128        // tile0616 pipe2
 sprite   267 mdzoff     50000      // tile0616 pipe2
 sprite   267 pitch     -1          // tile0616 pipe2
 sprite   267 roll      -4          // tile0616 pipe2
+
 sprite   283 notmd                 // tile0577 femmag2
 sprite   283 away1                 // tile0577 femmag2
+sprite   285 away1                 // tile4498 (fempic)
 sprite  1043 angoff    -256        // tile0052 sixpack
 sprite  1135 angoff     768        // tile0040 ammo
 sprite  1158 angoff     512        // tile0049 shotgunammo
@@ -168,6 +173,7 @@ sprite   143 angoff     256        // tile0994 pipe5
 sprite   143 mdzoff     150000     // tile0994 pipe5
 sprite   143 pitch     -1          // tile0994 pipe5
 sprite   143 roll       1          // tile0994 pipe5
+
 sprite    49 mdzoff     400000     // tile0056 airtank
 sprite    49 roll       1          // tile0056 airtank
 sprite    48 mdzoff     400000     // tile0056 airtank
@@ -206,6 +212,8 @@ sprite   407 angoff     1024       // tile0994 pipe5
 sprite   407 mdzoff     200000     // tile0994 pipe5
 sprite   407 pitch      1          // tile0994 pipe5
 sprite   407 roll      -1          // tile0994 pipe5
+
+
 sprite  1079 angoff     768        // tile0051 cola
 sprite  1078 angoff     1024       // tile0041 batteryammo
 sprite  1078 mdzoff     200000     // tile0041 batteryammo
@@ -219,6 +227,12 @@ sprite  1074 pitch      1          // tile0061 boots
 sprite  1138 away1                 // tile0502 viewscreen
 sprite  1076 angoff    -512        // tile0052 sixpack
 sprite   207 angoff     512        // tile0060 accesscard red
+sprite   197 away1                 // tile2992 (greyfont 0)
+sprite   198 away1                 // tile2993 (greyfont 1)
+sprite   199 away1                 // tile3000 (greyfont 8)
+sprite   202 away1                 // tile2992 (greyfont 0)
+sprite   201 away1                 // tile2993 (greyfont 1)
+sprite   200 away1                 // tile3000 (greyfont 8)
 
 sprite  1137 angoff     512        // tile0040 ammo
 sprite   418 mdzoff     50000      // tile0997 pipe4b
@@ -238,13 +252,26 @@ sprite   575 pitch     -1          // tile0616 pipe2
 sprite   574 angoff     1024       // tile0616 pipe2
 sprite   574 mdzoff     400000     // tile0616 pipe2
 sprite   574 roll      -1          // tile0616 pipe2
+
 sprite  1090 angoff     1024       // tile0047 hbombammo
 sprite  1090 mdzoff     150000     // tile0047 hbombammo
 sprite  1090 pitch      2          // tile0047 hbombammo
 sprite  1090 roll      -1          // tile0047 hbombammo
 sprite   435 angoff     640        // tile1336 fem8 (impaled babe)
+
+
+
+
+
+
 sprite  1091 angoff     512        // tile0040 ammo
+
 sprite   436 angoff     1024       // tile4864 fem10 sitting babes
+sprite   453 away1                 // tile4490 (octabrain chart)
+sprite   452 away1                 // tile4489 (trooper chart)
+sprite   456 away1                 // tile4484 (duke nukem chart)
+sprite   454 away1                 // tile4491 (slimer chart)
+sprite   455 away1                 // tile4492 (newbeast chart)
 sprite  1092 angoff    -256        // tile0054 shield
 sprite  1092 mdzoff     400000     // tile0054 shield
 sprite  1092 pitch     -1          // tile0054 shield
@@ -322,6 +349,9 @@ sprite  1119 mdyoff    -110        // tile0029 devistatorsprite
 sprite  1119 mdzoff    -3000       // tile0029 devistatorsprite
 sprite  1119 roll      -512        // tile0029 devistatorsprite
 sprite   727 away1                 // tile0612 (restricted area sign)
+
+
+
 sprite  1121 angoff    -512        // tile0042 devistatorammo
 sprite  1121 mdzoff     400000     // tile0042 devistatorammo
 sprite  1121 roll       1          // tile0042 devistatorammo

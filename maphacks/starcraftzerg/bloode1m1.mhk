@@ -1,0 +1,181 @@
+// Maphacks by LeoD for use with the Duke Nukem 3D High Resolution Pack (HRP)
+
+// Title    : Blood E1M1: Cradle to Grave
+// Filename : bloode1m1.map
+// Author   : Dennis 'StarCraftZerg' Collins
+// mapmd4   : e34315010291126fd736aa2cf5f288da // 2014-08-02
+
+// Curr. HRP: r5.4.701
+
+sprite     8 angoff     1024       // tile0140 frankenstineswitch
+sprite    18 angoff    -512        // tile0040 ammo
+sprite    17 angoff     512        // tile0040 ammo
+sprite   280 notmd                 // tile0140 frankenstineswitch
+sprite   470 angoff     256        // tile0028 shotgunsprite (multiplayer)
+sprite    16 angoff     768        // tile0047 hbombammo
+sprite    64 angoff     512        // tile1518 dukelyingdead
+sprite    62 away1                 // tile2302 wallblood2
+sprite   472 angoff     1024       // tile0041 batteryammo (multiplayer)
+sprite   471 angoff     512        // tile0042 devistatorammo (multiplayer)
+sprite   468 angoff    -256        // tile0037 freezeammo (multiplayer)
+sprite   469 angoff     256        // tile0049 shotgunammo (multiplayer)
+sprite    26 angoff     128        // tile4377 policelightpole
+sprite   351 mdxoff     50000      // tile0908 tree1
+sprite   351 pitch      1          // tile0908 tree1
+sprite    87 angoff    -768        // tile2453 badguyicon
+sprite   432 angoff     768        // tile0054 shield
+sprite    30 angoff    -768        // tile4377 policelightpole
+sprite   465 angoff     512        // tile0023 rpgsprite (multiplayer)
+sprite   502 angoff     512        // tile0044 rpgammo (multiplayer)
+sprite   466 angoff    -256        // tile0051 cola (multiplayer)
+sprite   467 angoff     384        // tile0051 cola (multiplayer)
+sprite   460 angoff     384        // tile0026 heavyhbomb (multiplayer)
+sprite   183 angoff     1024       // tile0975 oceansprite5
+sprite   183 mdxoff     70000      // tile0975 oceansprite5
+sprite   183 pitch     -1          // tile0975 oceansprite5
+sprite   180 angoff     1024       // tile0975 oceansprite5
+sprite   180 mdxoff     70000      // tile0975 oceansprite5
+sprite   180 pitch     -1          // tile0975 oceansprite5
+sprite   459 angoff    -256        // tile0028 shotgunsprite (multiplayer)
+sprite   375 angoff     1024       // tile0021 firstgunsprite
+sprite   457 angoff    -256        // tile0041 batteryammo (multiplayer)
+sprite   456 angoff    -256        // tile0049 shotgunammo (multiplayer)
+sprite   177 angoff     1024       // tile0975 oceansprite5
+sprite   177 mdxoff     70000      // tile0975 oceansprite5
+sprite   177 pitch     -1          // tile0975 oceansprite5
+sprite   246 angoff     1024       // tile0975 oceansprite5
+sprite   246 mdxoff     70000      // tile0975 oceansprite5
+sprite   246 pitch     -1          // tile0975 oceansprite5
+sprite   448 angoff    -512        // tile0041 batteryammo (multiplayer)
+sprite   452 angoff    -512        // tile0024 freezesprite (multiplayer)
+sprite   453 angoff    -768        // tile0049 shotgunammo (multiplayer)
+sprite   249 angoff     1024       // tile0975 oceansprite5
+sprite   249 mdxoff     70000      // tile0975 oceansprite5
+sprite   249 pitch     -1          // tile0975 oceansprite5
+sprite   386 angoff    -896        // tile0026 heavyhbomb
+sprite   387 angoff    -768        // tile0026 heavyhbomb
+sprite   387 mdzoff     400000     // tile0026 heavyhbomb
+sprite   387 pitch     -1          // tile0026 heavyhbomb
+sprite   210 notmd                 // tile2453 badguyicon
+sprite   210 away1                 // tile2453 badguyicon
+sprite   207 away1                 // tile2983 (greyfont R)
+sprite   208 away1                 // tile2974 (greyfont I)
+sprite   209 away1                 // tile2981 (greyfont P)
+sprite   455 angoff    -512        // tile0022 chaingunsprite (multiplayer)
+sprite   511 angoff    -512        // tile0026 heavyhbomb (multiplayer)
+sprite   454 angoff    -384        // tile0042 devistatorammo (multiplayer)
+sprite   187 away1                 // tile0938 (san andreas fault sign)
+sprite   160 away1                 // tile2983 (greyfont R)
+sprite   185 away1                 // tile2974 (greyfont I)
+sprite   186 away1                 // tile2981 (greyfont P)
+sprite   510 angoff    -128        // tile0044 rpgammo (multiplayer)
+sprite   404 angoff     512        // tile0060 accesscard blue
+sprite   473 angoff     256        // tile0027 tripbombsprite (multiplayer)
+sprite   474 angoff    -256        // tile0026 heavyhbomb (multiplayer)
+sprite   509 angoff     1024       // tile0055 steroids (multiplayer)
+sprite   503 angoff    -256        // tile0051 cola (multiplayer)
+sprite   504 angoff     256        // tile0051 cola (multiplayer)
+sprite   476 angoff     512        // tile0037 freezeammo (multiplayer)
+sprite   475 angoff    -512        // tile0046 crystalammo (multiplayer)
+sprite   507 angoff    -512        // tile0044 rpgammo (multiplayer)
+sprite   508 angoff    -512        // tile0042 devistatorammo (multiplayer)
+sprite   434 angoff     1024       // tile0023 rpgsprite (multiplayer)
+sprite   499 angoff     768        // tile0049 shotgunammo (multiplayer)
+sprite   118 away1                 // tile0498 (edf sign)
+sprite   126 away1                 // tile2983 (greyfont R)
+sprite   127 away1                 // tile2970 (greyfont E)
+sprite   128 away1                 // tile2984 (greyfont S)
+sprite   129 away1                 // tile2985 (greyfont T)
+sprite   130 away1                 // tile2974 (greyfont I)
+sprite   131 away1                 // tile2979 (greyfont N)
+sprite   132 away1                 // tile2981 (greyfont P)
+sprite   133 away1                 // tile2974 (greyfont I)
+sprite   134 away1                 // tile2970 (greyfont E)
+sprite   135 away1                 // tile2968 (greyfont C)
+sprite   136 away1                 // tile2970 (greyfont E)
+sprite   137 away1                 // tile2984 (greyfont S)
+sprite   376 angoff     1024       // tile0049 shotgunammo
+sprite   377 angoff     1024       // tile0040 ammo
+sprite   480 angoff    -512        // tile0041 batteryammo (multiplayer)
+sprite   479 angoff     512        // tile0028 shotgunsprite (multiplayer)
+sprite   482 angoff     1024       // tile0037 freezeammo (multiplayer)
+sprite   279 angoff    -768        // tile4370 desklamp
+sprite   385 angoff    -512        // tile0059 heatsensor
+sprite   481 angoff    -768        // tile0049 shotgunammo (multiplayer)
+sprite   501 angoff     256        // tile0026 heavyhbomb (multiplayer)
+sprite   435 angoff     768        // tile0022 chaingunsprite (multiplayer)
+sprite   506 angoff     512        // tile0027 tripbombsprite (multiplayer)
+sprite   505 angoff    -512        // tile0026 heavyhbomb (multiplayer)
+sprite   388 angoff    -896        // tile0026 heavyhbomb
+sprite   389 angoff    -128        // tile0026 heavyhbomb
+sprite   390 angoff     512        // tile0054 shield
+sprite   441 angoff    -256        // tile0028 shotgunsprite (multiplayer)
+sprite   445 angoff    -256        // tile0027 tripbombsprite (multiplayer)
+sprite   447 angoff     512        // tile0029 devistatorsprite (multiplayer)
+sprite   446 angoff     256        // tile0026 heavyhbomb (multiplayer)
+sprite   485 angoff     256        // tile0044 rpgammo (multiplayer)
+sprite   107 angoff     512        // tile4360 gunpowderbarrel
+sprite   391 angoff     512        // tile0100 atomichealth (multiplayer)
+sprite   488 angoff     1024       // tile0040 ammo (multiplayer)
+sprite   489 angoff     1024       // tile0040 ammo (multiplayer)
+sprite   534 angoff     768        // tile0022 chaingunsprite (multiplayer)
+sprite   490 angoff     1024       // tile0051 cola (multiplayer)
+sprite   440 angoff     768        // tile0025 shrinkersprite (multiplayer)
+sprite   483 angoff     256        // tile0027 tripbombsprite (multiplayer)
+sprite   322 away1                 // tile0693 (knife)
+sprite   322 mdzoff     1000       // tile0693 (knife)
+sprite   322 pitch      1          // tile0693 (knife)
+sprite   381 angoff     1024       // tile0049 shotgunammo
+sprite   382 angoff     1024       // tile0049 shotgunammo
+sprite   383 angoff     1024       // tile0040 ammo
+sprite   384 angoff     1024       // tile0040 ammo
+sprite    97 mdzoff     300000     // tile0574 (tile0670 (faucet))
+sprite    97 pitch     -1          // tile0574 (tile0670 (faucet))
+sprite   356 mdzoff     700000     // tile2060 pigcopdeadsprite
+sprite   356 pitch      2          // tile2060 pigcopdeadsprite
+sprite   356 roll       3          // tile2060 pigcopdeadsprite
+sprite   438 angoff    -768        // tile0045 growammo (multiplayer)
+sprite   379 angoff    -512        // tile0100 atomichealth (multiplayer)
+sprite   437 angoff    -768        // tile0041 batteryammo (multiplayer)
+sprite   484 angoff    -256        // tile0040 ammo (multiplayer)
+sprite   315 nomdanim              // tile0554 camerapole (tile0551 domelite)
+sprite   315 mdzoff    -4000       // tile0554 camerapole (tile0551 domelite)
+sprite   315 pitch     -512        // tile0554 camerapole (tile0551 domelite)
+sprite   310 mdzoff     200000     // tile1227 nukebarrel
+sprite   310 pitch     -1          // tile1227 nukebarrel
+sprite   310 roll       1          // tile1227 nukebarrel
+sprite   309 angoff     256        // tile1227 nukebarrel
+sprite   309 mdzoff     250000     // tile1227 nukebarrel
+sprite   309 pitch     -1          // tile1227 nukebarrel
+sprite   309 roll       1          // tile1227 nukebarrel
+sprite   308 angoff     512        // tile1227 nukebarrel
+sprite   308 mdzoff     100000     // tile1227 nukebarrel
+sprite   308 roll       1          // tile1227 nukebarrel
+sprite   311 angoff    -256        // tile0053 firstaid
+sprite   311 mdzoff     100000     // tile0053 firstaid
+sprite   311 roll      -1          // tile0053 firstaid
+sprite   306 mdxoff     80         // tile1511 (tile1405 duke)
+sprite   306 pitch     -512        // tile1511 (tile1405 duke)
+sprite   307 angoff    -256        // tile1227 nukebarrel
+sprite   439 angoff     1024       // tile0044 rpgammo (multiplayer)
+sprite   318 angoff     896        // tile0689 ivunit
+sprite   333 angoff     896        // tile1734 liztroopdsprite
+sprite   333 mdxoff     5000       // tile1734 liztroopdsprite
+sprite   333 mdzoff    -1500000    // tile1734 liztroopdsprite
+sprite   333 pitch      1          // tile1734 liztroopdsprite
+sprite   355 angoff     256        // tile0768 sushiplate1 (head)
+sprite   355 mdxoff    -7000       // tile0768 sushiplate1 (head)
+sprite   355 pitch      1          // tile0768 sushiplate1 (head)
+sprite   354 angoff    -768        // tile0779 sushiplate4 (eye)
+sprite   319 angoff     512        // tile0689 ivunit
+sprite   405 angoff     512        // tile0060 accesscard red
+sprite   493 angoff     1024       // tile0024 freezesprite (multiplayer)
+sprite   492 angoff     768        // tile0049 shotgunammo (multiplayer)
+sprite   498 angoff     256        // tile0037 freezeammo (multiplayer)
+sprite   415 angoff    -256        // tile0049 shotgunammo
+sprite   540 angoff    -768        // tile0045 growammo
+sprite   497 angoff    -256        // tile0026 heavyhbomb (multiplayer)
+sprite   495 angoff    -768        // tile0041 batteryammo (multiplayer)
+sprite   414 angoff    -896        // tile0023 rpgsprite (multiplayer)
+sprite   494 angoff    -256        // tile0028 shotgunsprite (multiplayer)
+sprite   496 angoff     256        // tile0027 tripbombsprite (multiplayer)

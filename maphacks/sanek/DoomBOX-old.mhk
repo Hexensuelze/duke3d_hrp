@@ -5,7 +5,7 @@
 // Author   : Sanek
 // mapmd4   : 4983e41c02dc157169aeb5f63bebda7d // 2016-03-06 01:02
 
-// Curr. HRP: r5.4.700
+// Curr. HRP: r5.4.701
 
 // 0-4263 / 4281-4483
 sprite   151 angoff     512        // tile0037 freezeammo
@@ -21,13 +21,13 @@ sprite   116 angoff     1024       // tile0051 cola
 sprite   115 angoff     1024       // tile0051 cola
 sprite    72 away1                 // tile0613 (authorized personnel sign)
 sprite    74 angoff    -128        // tile0556 chair1
-sprite    74 mdzoff     300000     // tile0556 chair1
-sprite    74 pitch     -1          // tile0556 chair1
+sprite    74 mdzoff     900000     // tile0556 chair1
+sprite    74 pitch      1          // tile0556 chair1
 sprite    75 angoff     1024       // tile0557 chair2
-sprite    75 mdzoff     300000     // tile0557 chair2
-sprite    75 pitch      1          // tile0557 chair2
+sprite    75 mdzoff     700000     // tile0557 chair2
+sprite    75 pitch     -1          // tile0557 chair2
 sprite    76 angoff     128        // tile0556 chair1
-sprite    76 mdzoff     800000     // tile0556 chair1
+sprite    76 mdzoff     1100000    // tile0556 chair1
 sprite    76 pitch      1          // tile0556 chair1
 sprite    77 angoff     768        // tile0557 chair2
 sprite    77 mdzoff     600000     // tile0557 chair2
@@ -54,9 +54,10 @@ sprite   956 away1                 // tile4102 (panel)
 sprite   988 away1                 // tile4102 (panel)
 sprite  2939 angoff    -512        // tile0055 steroids
 sprite  2942 angoff     512        // tile0055 steroids
-sprite   137 away1                 // tile2454 foodicon
+sprite   137 away1                 // tile2454 foodicon (red cross)
 sprite  3516 angoff     1024       // tile0040 ammo
 sprite  1515 angoff     512        // tile1348 holoduke
+// switch (1)
 sprite  1541 away1                 // tile4102 (panel)
 sprite  1514 away1                 // tile4102 (panel)
 sprite  1509 away1                 // tile0719 (door)
@@ -68,6 +69,7 @@ sprite  1902 angoff    -256        // tile0052 sixpack
 sprite  4438 angoff     1024       // tile0051 cola
 sprite  4438 mdzoff    -200        // tile0051 cola
 sprite  4438 pitch      512        // tile0051 cola
+sprite  3565 angoff    -768        // tile0100 atomichealth
 sprite  4440 angoff    -512        // tile0037 freezeammo
 sprite  4058 angoff     512        // tile0041 batteryammo
 sprite  2175 angoff    -512        // tile0055 steroids
@@ -93,6 +95,7 @@ sprite   933 mdxoff     35000      // tile1340 (helicopter scrap)
 sprite   933 pitch     -1          // tile1340 (helicopter scrap)
 sprite   959 notmd                 // tile1033 (tile1031 glasspieces)
 sprite   958 notmd                 // tile1033 (tile1031 glasspieces)
+sprite  2009 angoff    -512        // tile0040 ammo
 sprite   932 angoff     896        // tile1340 (helicopter scrap)
 sprite   932 mdxoff     35000      // tile1340 (helicopter scrap)
 sprite   932 pitch     -1          // tile1340 (helicopter scrap)
@@ -159,6 +162,7 @@ sprite   992 away1                 // tile0599 (radioactive materials sign)
 sprite  2030 angoff    -512        // tile0049 shotgunammo
 sprite  1797 away1                 // tile2463 boot_icon
 sprite  2011 angoff     0          // tile0046 crystalammo
+// switch (2)
 sprite  1038 away1                 // tile0719 (door)
 sprite  1039 away1                 // tile4102 (panel)
 sprite  1041 angoff    -512        // tile0479 (satellite dish)
@@ -203,6 +207,7 @@ sprite  1590 angoff     384        // tile1229 nukebarrelleaked
 sprite  1589 angoff     640        // tile1229 nukebarrelleaked
 sprite  1592 angoff     768        // tile1227 nukebarrel
 sprite  2297 angoff    -512        // tile0057 jetpack
+// switch (3)
 sprite  1588 angoff     128        // tile1227 nukebarrel
 sprite  1587 angoff     384        // tile1229 nukebarrelleaked
 sprite  1586 angoff     512        // tile1227 nukebarrel
@@ -239,7 +244,7 @@ sprite   657 mdzoff     400000     // tile0913 maskwall2 (fence)
 sprite   657 pitch     -1          // tile0913 maskwall2 (fence)
 sprite  1876 angoff     1024       // tile0055 steroids
 sprite  2169 angoff    -512        // tile0040 ammo
-sprite  4426 angoff     512        // tile0051 cola
+sprite  4426 angoff    -512        // tile0051 cola
 sprite  1869 angoff    -128        // tile0052 sixpack
 sprite  2943 angoff    -512        // tile0055 steroids
 sprite  2167 angoff     768        // tile0045 growammo
@@ -255,14 +260,17 @@ sprite  1602 away1                 // tile0717 doortile14
 sprite  1603 away1                 // tile0599 (radioactive materials sign)
 sprite  1604 away1                 // tile0856 (nuclear waste disposal sign)
 sprite  2108 angoff     512        // tile0055 steroids
+sprite  1609 away1                 // tile0717 doortile14
 sprite  1610 angoff    -768        // tile1228 nukebarreldented
 sprite  1616 angoff     768        // tile1227 nukebarrel
 sprite  1615 angoff    -512        // tile1228 nukebarreldented
 sprite  4072 angoff    -768        // tile1228 nukebarreldented
 sprite  1614 angoff    -512        // tile1227 nukebarrel
 sprite  1908 angoff    -384        // tile0041 batteryammo
+sprite  1908 pitch     -32         // tile0041 batteryammo
 sprite  1908 roll      -144        // tile0041 batteryammo
 sprite  1907 angoff    -384        // tile0041 batteryammo
+sprite  1907 pitch     -32         // tile0041 batteryammo
 sprite  1907 roll      -176        // tile0041 batteryammo
 sprite  2110 angoff     512        // tile0023 rpgsprite
 sprite  2109 away1                 // tile1375 (tile1360 (octabrain mindblast))
@@ -288,25 +296,28 @@ sprite  2385 mdxoff     30000      // tile0621 camera1
 sprite  2385 pitch     -1          // tile0621 camera1
 sprite  2385 roll       1024       // tile0621 camera1
 sprite  1314 away1                 // tile4379 (mugshot)
+// switch (4)
 sprite  1827 angoff     1024       // tile0037 freezeammo
 sprite  1828 angoff     1024       // tile0037 freezeammo
 sprite  1825 angoff    -768        // tile0045 growammo
 sprite  1826 angoff     256        // tile0045 growammo
 sprite  1906 angoff     768        // tile0052 sixpack
-sprite  1833 angoff    -512        // tile0052 sixpack
+sprite  1833 angoff     512        // tile0052 sixpack
 sprite  1834 angoff     512        // tile0040 ammo
 sprite  1904 away1                 // tile1042 (out of order sign)
 sprite  1467 angoff     1024       // tile0041 batteryammo
 sprite  1465 angoff     512        // tile0023 rpgsprite
 sprite  1466 angoff     1024       // tile0041 batteryammo
 sprite  1289 angoff     1024       // tile0057 jetpack
-sprite  2263 away1                 // tile2467 jetpack_icon
+sprite  2253 away1                 // tile2467 jetpack_icon
 sprite  2254 away1                 // tile2841 (bluefont 4)
 sprite  2255 away1                 // tile2909 (tile2877 (bluefont X))
 sprite  2250 angoff     512        // tile0057 jetpack
 sprite  2251 angoff     512        // tile0057 jetpack
 sprite  2252 angoff     512        // tile0057 jetpack
 sprite  2249 angoff     512        // tile0057 jetpack
+sprite  4067 angoff     512        // tile0040 ammo
+sprite  4066 angoff    -512        // tile0040 ammo
 sprite  4425 angoff    -512        // tile0051 cola
 sprite  1032 away1                 // tile0719 (door)
 sprite  1033 away1                 // tile4102 (panel)
@@ -323,12 +334,14 @@ sprite   736 away1                 // tile0613 (authorized personnel sign)
 sprite   858 angoff     1024       // tile0049 shotgunammo
 sprite   858 mdzoff     500000     // tile0049 shotgunammo
 sprite   858 roll       1          // tile0049 shotgunammo
-sprite   851 mdzoff     200000     // tile0054 shield
-sprite   851 roll      -1          // tile0054 shield
 sprite   854 angoff    -128        // tile0557 chair2
 sprite   854 mdzoff     500000     // tile0557 chair2
 sprite   854 pitch      1          // tile0557 chair2
-sprite  1882 roll      -128        // tile0049 shotgunammo
+sprite   851 mdzoff     200000     // tile0054 shield
+sprite   851 roll      -1          // tile0054 shield
+// switch (5)
+sprite  1882 pitch      32         // tile0049 shotgunammo
+sprite  1882 roll       128        // tile0049 shotgunammo
 sprite   738 angoff    -896        // tile1227 nukebarrel
 sprite   739 angoff     1024       // tile1228 nukebarreldented
 sprite   741 away1                 // tile0613 (authorized personnel sign)
@@ -336,13 +349,14 @@ sprite   737 away2                 // tile0613 (authorized personnel sign)
 sprite   855 away1                 // tile0587
 sprite   743 angoff    -512        // tile0557 chair2
 sprite   742 angoff     640        // tile0557 chair2
-sprite   742 mdzoff     200000     // tile0557 chair2
+sprite   742 mdzoff     300000     // tile0557 chair2
 sprite   742 pitch      1          // tile0557 chair2
 sprite   744 angoff     768        // tile0049 shotgunammo
 sprite  2806 mdzoff     200000     // tile0621 camera1
 sprite  2806 roll      -1          // tile0621 camera1
 sprite  2807 away1                 // tile2471 access_icon blue
 sprite   803 angoff    -512        // tile0041 batteryammo
+sprite   830 angoff    -512        // tile1227 nukebarrel
 sprite   831 angoff     512        // tile1227 nukebarrel
 sprite   832 angoff     512        // tile1227 nukebarrel
 sprite   833 angoff     512        // tile1227 nukebarrel
@@ -410,13 +424,12 @@ sprite  2275 away1                 // tile0719 (door)
 sprite  2276 away1                 // tile3397 (dark glass pane)
 sprite  3287 angoff     512        // tile0054 shield
 sprite  3287 mdzoff     200000     // tile0054 shield
-sprite  3287 roll       1          // tile0054 shield
+sprite  3287 pitch      1          // tile0054 shield
 sprite  2283 away1                 // tile4401 (mugshot unabomber)
 sprite  2282 away1                 // tile4381 (mugshot)
 sprite  2279 away1                 // tile3397 (dark glass pane)
 sprite  2278 away1                 // tile0719 (door)
 sprite  2719 angoff    -768        // tile1061 (streetlight)
-
 sprite  2967 angoff     256        // tile0046 crystalammo
 sprite  2691 angoff    -256        // tile1227 nukebarrel
 sprite  2689 angoff     256        // tile1227 nukebarrel
@@ -426,11 +439,8 @@ sprite  2553 angoff    -640        // tile1228 nukebarreldented
 sprite  2555 angoff     1024       // tile1227 nukebarrel
 sprite  2556 angoff     640        // tile1228 nukebarreldented
 sprite  2735 angoff    -512        // tile1061 (streetlight)
-
 sprite  2733 angoff     256        // tile1061 (streetlight)
-
 sprite  2737 angoff    -768        // tile1061 (streetlight)
-
 sprite  2518 mdxoff     25000      // tile0913 maskwall2 (fence)
 sprite  2518 mdzoff     350000     // tile0913 maskwall2 (fence)
 sprite  2518 pitch     -1          // tile0913 maskwall2 (fence)
@@ -476,12 +486,11 @@ sprite  2886 away1                 // tile0719 (door)
 sprite  2887 away1                 // tile3397 (dark glass pane)
 sprite  2889 away1                 // tile0719 (door)
 sprite  2888 away1                 // tile3397 (dark glass pane)
-sprite  2476 away2                 // tile4102 (panel)
-sprite  2901 away1                 // tile4102 (panel)
+sprite  2476 away1                 // tile4102 (panel)
+sprite  2901 away2                 // tile4102 (panel)
 sprite  2474 away1                 // tile4102 (panel)
 sprite  2473 away1                 // tile0821
 sprite  2475 away1                 // tile4102 (panel)
-
 sprite  2745 angoff    -512        // tile1061 (streetlight)
 sprite  2743 angoff     1024       // tile1061 (streetlight)
 sprite  2729 angoff    -512        // tile1061 (streetlight)
