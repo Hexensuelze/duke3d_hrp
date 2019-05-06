@@ -2,7 +2,7 @@
                    | Polymost HRP Override Pack for EDuke32 |
                    |                by LeoD                 |
                    ==========================================
-                   |     Repository Snapshot >= 5.3.566     |
+                   |     Repository Snapshot >= 5.4.675     |
                    ==========================================
 
 
@@ -12,7 +12,7 @@ This file contains updated data for the Duke3D High-Resolution Pack (HRP).
 It features an updated Polymost HRP for use with the EDuke32 Polymost renderer
 on top of the default Polymer HRP.
 
-Basically, this means: First get the full HRP 5.3 (r5.3.565), the latest update
+Basically, this means: First get the full HRP 5.4 (r5.4.674), the latest update
 pack (if available), then this file.
 
 It is possible to run the Polymost HRP without this pack, using the EDuke32
@@ -47,38 +47,40 @@ HOW TO USE IT:
 --------------
 Drop the HRP Override Pack into the autoload folder within your EDuke32
 installation folder like the HRP zipfile itself.
-It should be loaded automatically, but note that autoload contents is loaded
-alphabetically, so check the file names if something seems wrong.
-Delete "textures" and "textures.cache" after changes in the autoload folder.
+It should be used automatically, but note that autoload contents is recognized
+in alphabetical order (B.zip takes precedence over A.zip), so check the file
+names if something seems wrong.
+Deleting "textures" and "textures.cache" a.k.a. "texturecache" and
+"texturecache.index" after changes in the autoload folder is recommended.
 
 
 IMPORTANT:
 ----------
-This override pack is meant for the HRP v5.3 (=r5.3.565)!
+This override pack is meant for the HRP v5.4 (=r5.4.674)!
 
 
 Duke in D.C. HRP (v1.62):
 -------------------------
 To avoid a messed up level stat screen, simply rename this pack from
-duke3d_polymost* to dukedc_polymost* so that it gets loaded after the DC HRP.
+duke3d_polymost* to dukedc_polymost*, so it gets recognized after the DC HRP.
 
 
 WHERE TO GET IT:
 ----------------
 - You can check the Duke3D mod thread over at the Duke4.net forums:
-  http://forums.duke4.net/index.php?showtopic=3513
+  https://forums.duke4.net/index.php?showtopic=3513
 
 
 RELATED LINKS:
 --------------
-- Duke4.net ................................... http://www.duke4.net
-- Duke Nukem 3D High-Resolution Pack .......... http://hrp.duke4.net
-- EDuke32 port ................................ http://eduke32.com
+- Duke4.net ................................... https://duke4.net
+- Duke Nukem 3D High-Resolution Pack .......... https://hrp.duke4.net
+- EDuke32 port ................................ https://eduke32.com
 
 
 CONTACT:
 --------
-  http://forums.duke4.net/index.php?showuser=1299
+  https://forums.duke4.net/index.php?showuser=1299
 
 
 SPECIAL CREDITS:
@@ -89,4 +91,4 @@ SPECIAL CREDITS:
 
 Advertisement:
 --------------
-  Other stuff by LeoD ........ http://forums.duke4.net/index.php?showtopic=3513
+  Other stuff by LeoD ........ https://forums.duke4.net/index.php?showtopic=3513
