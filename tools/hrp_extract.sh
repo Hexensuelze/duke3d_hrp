@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Duke Nukem 3D High Resolution Pack Extractor  v0.7.3  2015-02-03
+# Duke Nukem 3D High Resolution Pack Extractor  v0.8.0  2019-05-07
 #
 # Author: LeoD
-# License: ISC license : http://opensource.org/licenses/isc-license.txt
+# License: ISC license : https://opensource.org/licenses/isc-license.txt
 #
 # This script extracts a working copy of your local Duke Nukem 3D High
 # Resolution Pack's Subversion repository, ready for zipping and distribution.
@@ -87,9 +87,9 @@ copy_set_version()
         fi
         ;;
       duke3d_hrp_polymost.def | \
-      installer/polymost_override/duke3d_hrp_polymost_override.def | \
+      tools/polymost_override/duke3d_hrp_polymost_override.def | \
       duke3d_hrp_megaton.def | \
-      installer/megaton_override/duke3d_hrp_megaton_override.def )
+      tools/megaton_override/duke3d_hrp_megaton_override.def )
         cat "${VER_FILE}" | sed -r --posix \
           s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
           >> "${TARGET_FILE}"
@@ -115,14 +115,20 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymost_override" ] ||\
      [ "${HRPTYPE}" = "megaton" ]  || [ "${HRPTYPE}" = "megaton_override" ] ||\
+     [ "${HRPTYPE}" = "maphacks" ] ||\
      [ "${HRPTYPE}" = "polymer"  ] || [ "${HRPTYPE}" = "full" ] ; then
     cp -pv hrp_art_license.txt      "${EXTRACTDIR}"
   fi
 
+  if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "polymer" ] ||\
+     [ "${HRPTYPE}" = "maphacks" ] || [ "${HRPTYPE}" = "full" ] ; then
+    cp -pv maphacks/MapHacks.txt    "${EXTRACTDIR}/maphacks/"
+  fi
+
   if [ "${HRPTYPE}" = "polymost" ] ; then
-    cp -pv           duke3d_hrp_polymost.def   "${EXTRACTDIR}"
-    copy_set_version duke3d_hrp_polymost.def   "${EXTRACTDIR}/duke3d_hrp.def"
-    cp -pvr installer/polymost_override/dukedc "${EXTRACTDIR}"
+    cp -pv           duke3d_hrp_polymost.def "${EXTRACTDIR}"
+    copy_set_version duke3d_hrp_polymost.def "${EXTRACTDIR}/duke3d_hrp.def"
+    cp -pvr tools/polymost_override/dukedc   "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "megaton" ] ; then
@@ -130,47 +136,49 @@ copy_known_files()
     copy_set_version duke3d_hrp_megaton.def "${EXTRACTDIR}/duke3d_hrp.def"
     cp -pv highres/screen/menu/2492_ver_megaton.png \
       "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
-    cp -pvr installer/megaton_override/dukedc* "${EXTRACTDIR}"
-    cp -pvr installer/megaton_override/highres "${EXTRACTDIR}"
+    cp -pvr tools/megaton_override/dukedc* "${EXTRACTDIR}"
+    cp -pvr tools/megaton_override/highres "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "polymost_override" ] ; then
     copy_set_version \
-      installer/polymost_override/duke3d_hrp_polymost_override.def \
+      tools/polymost_override/duke3d_hrp_polymost_override.def \
       "${EXTRACTDIR}/duke3d_hrp.def"
     copy_set_version \
-      installer/polymost_override/duke3d_hrp_polymost_override.def \
+      tools/polymost_override/duke3d_hrp_polymost_override.def \
       "${EXTRACTDIR}/duke3d_hrp_polymost.def"
-    cp -pv installer/polymost_override/hrp_polymost_override.txt \
+    cp -pv tools/polymost_override/hrp_polymost_override.txt \
       "${EXTRACTDIR}"
-    cp -pv installer/polymost_override/2492_ver_polymost_override.png \
+    cp -pv tools/polymost_override/2492_ver_polymost_override.png \
       "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
-    cp -pvr installer/polymost_override/dukedc "${EXTRACTDIR}"
+    cp -pvr tools/polymost_override/dukedc "${EXTRACTDIR}"
   fi
 
   if [ "${HRPTYPE}" = "megaton_override" ] ; then
     copy_set_version \
-      installer/megaton_override/duke3d_hrp_megaton_override.def \
+      tools/megaton_override/duke3d_hrp_megaton_override.def \
       "${EXTRACTDIR}/duke3d_hrp.def"
     copy_set_version \
-      installer/megaton_override/duke3d_hrp_megaton_override.def \
+      tools/megaton_override/duke3d_hrp_megaton_override.def \
       "${EXTRACTDIR}/duke3d_hrp_megaton.def"
-    cp -pv installer/megaton_override/hrp_megaton_override.txt \
+    cp -pv tools/megaton_override/hrp_megaton_override.txt \
       "${EXTRACTDIR}"
-    cp -pv installer/megaton_override/2492_ver_megaton_override.png \
-      "${EXTRACTDIR}/highres/screen/menu/2492_ver_polymost.png"
-    cp -pv  installer/megaton_override/*.bat   "${EXTRACTDIR}"
-    cp -pvr installer/megaton_override/dukedc* "${EXTRACTDIR}"
-    cp -pvr installer/megaton_override/highres "${EXTRACTDIR}"
+    cp -pv tools/megaton_override/2492_ver_megaton_override.png \
+      "${EXTRACTDIR}/highres/screen/menu/2492_ver_megaton.png"
+    cp -pv  tools/megaton_override/*.bat   "${EXTRACTDIR}"
+    cp -pvr tools/megaton_override/dukedc* "${EXTRACTDIR}"
+    cp -pvr tools/megaton_override/highres "${EXTRACTDIR}"
     # Let Megaton Override work on top of Polymost HRP:
-    cp -pv highres/sprites_megaton.def         "${EXTRACTDIR}/highres"
-    cp -pv highres/sprites/effects_megaton.def "${EXTRACTDIR}/highres/sprites"
+    cp -pv highres/screen_megaton.def          "${EXTRACTDIR}/highres/"
+    cp -pv highres/screen/menu_megaton.def     "${EXTRACTDIR}/highres/"
+    cp -pv highres/sprites_megaton.def         "${EXTRACTDIR}/highres/"
+    cp -pv highres/sprites/effects_megaton.def "${EXTRACTDIR}/highres/sprites/"
   fi
 
   if [ "${HRPTYPE}" = "polymost" ] || [ "${HRPTYPE}" = "megaton" ] ; then
     cp -pv duke3d.def "${EXTRACTDIR}"
     cp -pv highres/screen/menu/2492_polymost.png \
-      "${EXTRACTDIR}/highres/screen/menu"
+      "${EXTRACTDIR}/highres/screen/menu/"
   fi
 
   if [ "${HRPTYPE}" = "full" ] ; then
@@ -182,35 +190,44 @@ copy_known_files()
 
   if [ "${HRPTYPE}" = "full" ] ; then
     cp -pv highres/screen/menu/2492_ver_polymost.png \
-      "${EXTRACTDIR}/highres/screen/menu"
+      "${EXTRACTDIR}/highres/screen/menu/"
   fi
 
   if [ "${HRPTYPE}" = "polymer" ] || [ "${HRPTYPE}" = "full" ] ; then
-    cp -pv duke3d.def                   "${EXTRACTDIR}"
+    cp -pv           duke3d.def     "${EXTRACTDIR}"
     copy_set_version duke3d_hrp.def "${EXTRACTDIR}/duke3d_hrp.def"
     #cp -pv highres/screen/menu/2492.png "${EXTRACTDIR}/highres/screen/menu"
 
-    #cp -pv highres/common/black.png                          "${EXTRACTDIR}/highres/common"
-    #cp -pv highres/screen/fonts/digital/digital_minus.png    "${EXTRACTDIR}/highres/screen/fonts/digital"
-    #cp -pv highres/screen/menu/widescreen/*_wide.png         "${EXTRACTDIR}/highres/screen/menu"
-    #cp -pv highres/sprites/characters/1357_terminarm.md3     "${EXTRACTDIR}/highres/sprites/characters"
-    #cp -pv highres/sprites/firstperson/2510_devastator_n.png "${EXTRACTDIR}/highres/sprites/firstperson"
-    #cp -pv highres/sprites/monsters/1960_reconcar_s.png      "${EXTRACTDIR}/highres/sprites/monsters"
-    #cp -pv highres/sprites/props/4387.png                    "${EXTRACTDIR}/highres/sprites/props"
-    #cp -pv highres/sprites/signs/4378-79.png                 "${EXTRACTDIR}/highres/sprites/signs"
-    #cp -pv highres/sprites/signs/4381-85.png                 "${EXTRACTDIR}/highres/sprites/signs"
+    #cp -pv highres/common/black.png                          "${EXTRACTDIR}/highres/common/"
+    #cp -pv highres/screen/fonts/digital/digital_minus.png    "${EXTRACTDIR}/highres/screen/fonts/digital/"
+    #cp -pv highres/screen/menu/widescreen/*_wide.png         "${EXTRACTDIR}/highres/screen/menu/"
+    #cp -pv highres/sprites/characters/1357_terminarm.md3     "${EXTRACTDIR}/highres/sprites/characters/"
+    #cp -pv highres/sprites/firstperson/2510_devastator_n.png "${EXTRACTDIR}/highres/sprites/firstperson/"
+    #cp -pv highres/sprites/monsters/1960_reconcar_s.png      "${EXTRACTDIR}/highres/sprites/monsters/"
+    #cp -pv highres/sprites/props/4387.png                    "${EXTRACTDIR}/highres/sprites/props/"
+    #cp -pv highres/sprites/signs/4378-79.png                 "${EXTRACTDIR}/highres/sprites/signs/"
+    #cp -pv highres/sprites/signs/4381-85.png                 "${EXTRACTDIR}/highres/sprites/signs/"
+  fi
+
+  if [ "${HRPTYPE}" = "maphacks" ] ; then
+    cp -pv                 maphacks/mhk-extract.def "${EXTRACTDIR}/maphacks/"
+    cp -pv           duke3d_maphacks_standalone.def "${EXTRACTDIR}"
+    copy_set_version duke3d_maphacks_standalone.def "${EXTRACTDIR}/duke3d.def"
   fi
 
   if [ "${HRPTYPE}" = "voxel" ] ; then
-    cp -pv readme.txt             "${EXTRACTDIR}"
-    cp -pv voxelp_art_license.txt "${EXTRACTDIR}"
-    cp -pv duke3d.def             "${EXTRACTDIR}"
-    cp -pv duke3d_voxel.def       "${EXTRACTDIR}"
+    cp -pv voxelpack_readme.txt      "${EXTRACTDIR}"
+    cp -pv voxelpack_art_license.txt "${EXTRACTDIR}"
+    cp -pv duke3d.def                "${EXTRACTDIR}"
+    cp -pv duke3d_voxels.def         "${EXTRACTDIR}"
+    if [ -f  EDUKE.CON ] ; then
+      cp -pv EDUKE.CON               "${EXTRACTDIR}"
+    fi
   fi
 
   if [ "${HRPTYPE}" = "sw_highres" ] ; then
     cp -pv sw.def                   "${EXTRACTDIR}"
-    cp -pv highres/sw_hrp.def       "${EXTRACTDIR}/highres"
+    cp -pv highres/sw_hrp.def       "${EXTRACTDIR}/highres/"
     cp -pv HRP.bat                  "${EXTRACTDIR}"
     cp -pv HRP_Readme.txt           "${EXTRACTDIR}"
     cp -pv HRP_Changes.txt          "${EXTRACTDIR}"
@@ -222,7 +239,7 @@ copy_known_files()
   if [ "${HRPTYPE}" = "sw_lowres" ] ; then
     echo "Creating sw.def for lowres HRP ..."
     echo "include lowres/sw_lrp.def" > "${EXTRACTDIR}/sw.def"
-    cp -pv lowres/sw_lrp.def           "${EXTRACTDIR}/lowres"
+    cp -pv lowres/sw_lrp.def           "${EXTRACTDIR}/lowres/"
     cp -pv LRP.bat                     "${EXTRACTDIR}"
     cp -pv LRP_Readme.txt              "${EXTRACTDIR}"
     cp -pv LRP_Changes.txt             "${EXTRACTDIR}"
@@ -242,8 +259,8 @@ copy_known_files()
 
 copy_polymost_mhk()
 {
-  cp -p maphacks/3drealms_polymost/E?L*.mhk "${EXTRACTDIR}"
-  cp -p maphacks/dc_hrp/DUKEDC*-megaton.mhk "${EXTRACTDIR}"
+  cp -p maphacks/3drealms/E?L*_polymost.mhk "${EXTRACTDIR}"
+  cp -p maphacks/dukedc/DUKEDC*-megaton.mhk "${EXTRACTDIR}"
   rm -f "${EXTRACTDIR}"/*_13d_*.mhk
   # bashism:
   for i in "${EXTRACTDIR}"/*_polymost.mhk ; do mv "$i" "${i/_polymost}" ; done
@@ -292,37 +309,37 @@ dukeplus_polymost_hrp_compatibility()
   case "$PATCHTYPE" in
     polymer)
       echo "  # (Using \"Polymer approach\")"
-      cp -pi $SPR/firstperson/2510_devastator.md3            "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/2510_devastator.png            "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/2510_devastator_g.png          "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/2524_pistol.md3                "$SPRE/firstperson"
-      cp -pi $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson"
-      cp -pi $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/2530_clip.md3                  "$SPRE/firstperson"
-      cp -pi $SPR/pickups/0040_pistolammo.jpg                "$SPRE/pickups"
-      cp -pi $SPR/firstperson/2532_cliphand.md3              "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/2532_cliphand.png              "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/duke_hand_d.png                "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/duke_hand_n.png                "$SPRE/firstperson"
-      cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson"
+      cp -pi $SPR/firstperson/2510_devastator.md3            "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/2510_devastator.png            "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/2510_devastator_g.png          "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/2524_pistol.md3                "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/2530_clip.md3                  "$SPRE/firstperson/"
+      cp -pi $SPR/pickups/0040_pistolammo.jpg                "$SPRE/pickups/"
+      cp -pi $SPR/firstperson/2532_cliphand.md3              "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/2532_cliphand.png              "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/duke_hand_d.png                "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/duke_hand_n.png                "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson/"
       ;;
     polymost)
       echo "  # (Using \"Polymost approach\")"
-      #cp -pi $SPR/firstperson_polymost/2510_devastator.md3   "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson_polymost/2510_devastator.png   "$SPRE/firstperson"
-      ##cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson_polymost/2510_devastator_g.png "$SPRE/firstperson"
-      cp -pi $SPR/firstperson_polymost/2524_pistol.md3       "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson_polymost/2530_clip.md3         "$SPRE/firstperson"
-      #cp -pi $SPR/pickups/0040_pistolammo.jpg                "$SPRE/pickups"
-      #cp -pi $SPR/firstperson_polymost/2532_cliphand.md3     "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson/2532_cliphand.png              "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson/duke_hand_d.png                "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson/duke_hand_n.png                "$SPRE/firstperson"
-      #cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson"
+      #cp -pi $SPR/firstperson_polymost/2510_devastator.md3   "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson_polymost/2510_devastator.png   "$SPRE/firstperson/"
+      ##cp -pi $SPR/firstperson/2510_devastator_s.png          "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson_polymost/2510_devastator_g.png "$SPRE/firstperson/"
+      cp -pi $SPR/firstperson_polymost/2524_pistol.md3       "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson_polymost/2530_clip.md3         "$SPRE/firstperson/"
+      #cp -pi $SPR/pickups/0040_pistolammo.jpg                "$SPRE/pickups/"
+      #cp -pi $SPR/firstperson_polymost/2532_cliphand.md3     "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson/2532_cliphand.png              "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson/duke_hand_d.png                "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson/duke_hand_n.png                "$SPRE/firstperson/"
+      #cp -pi $SPR/firstperson/duke_hand_s.png                "$SPRE/firstperson/"
       ;;
     mixed)
       echo "  # (Using \"Mixed approach\")"
@@ -358,31 +375,31 @@ attrition_polymost_hrp_compatibility()
       ;;
     polymost)
       echo "  # (Using \"Polymost approach\")"
-      cp -piu $SPR/firstperson_polymost/2524_pistol.md3      "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson_polymost/2524_pistol.png      "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson_polymost/2524_pistol_g.png    "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson/2530_clip.md3                 "$SPRE/firstperson"
-      #cp -pi  $SPR/firstperson/2532_cliphand.md3             "$SPRE/firstperson"
-      ##cp -pi  $SPR/firstperson/2532_cliphand.png             "$SPRE/firstperson"
+      cp -piu $SPR/firstperson_polymost/2524_pistol.md3      "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol.png      "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol_g.png    "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson/2530_clip.md3                 "$SPRE/firstperson/"
+      #cp -pi  $SPR/firstperson/2532_cliphand.md3             "$SPRE/firstperson/"
+      ##cp -pi  $SPR/firstperson/2532_cliphand.png             "$SPRE/firstperson/"
       #cp -pi  $SPR/firstperson/duke_hand_d.png               "$SPRE/firstperson/2532_cliphand.png"
       ;;
     mixed)
       echo "  # (Using \"Mixed approach\")"
-      cp -piu $SPR/firstperson_polymost/2524_pistol.md3       "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson/2530_clip.md3                 "$SPRE/firstperson"
-      #cp -pi  $SPR/firstperson/2532_cliphand.md3             "$SPRE/firstperson"
-      ##cp -pi  $SPR/firstperson/2532_cliphand.png             "$SPRE/firstperson"
+      cp -piu $SPR/firstperson_polymost/2524_pistol.md3       "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol.png       "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson_polymost/2524_pistol_g.png     "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson/2530_clip.md3                 "$SPRE/firstperson/"
+      #cp -pi  $SPR/firstperson/2532_cliphand.md3             "$SPRE/firstperson/"
+      ##cp -pi  $SPR/firstperson/2532_cliphand.png             "$SPRE/firstperson/"
       #cp -pi  $SPR/firstperson/duke_hand_d.png               "$SPRE/firstperson/2532_cliphand.png"
-      cp -pi  $SPR/firstperson/2544_rpg.md3                  "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/2544_rpg.md3                  "$SPRE/firstperson/"
       cp -pi  $SPR/firstperson/2544_rpg_d.png                "$SPRE/firstperson/2544_rpg.png"
-      cp -pi  $SPR/firstperson/2544_rpg_n.png                "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson/2544_rpg_s.png                "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson/duke_hand_d.png               "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson/duke_hand_n.png               "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson/duke_hand_s.png               "$SPRE/firstperson"
-      cp -pi  $SPR/firstperson/muzzle_flash_01.png           "$SPRE/firstperson"
+      cp -pi  $SPR/firstperson/2544_rpg_n.png                "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson/2544_rpg_s.png                "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson/duke_hand_d.png               "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson/duke_hand_n.png               "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson/duke_hand_s.png               "$SPRE/firstperson/"
+      cp -pi  $SPR/firstperson/muzzle_flash_01.png           "$SPRE/firstperson/"
       cp -pi  highres/common/transp.png                      "${EXTRACTDIR}/highres/common"
       ;;
     none)
@@ -568,6 +585,9 @@ main()
   if [ "${HRPTYPE}" = "sw_lowres" ] ; then
     parse_defs lowres/sw_lrp.def
   fi
+  if [ "${HRPTYPE}" = "maphacks" ] ; then
+    parse_defs maphacks/mhk-extract.def
+  fi
   if [ "${HRPTYPE}" = "default" ] ; then
     parse_defs "${DEF_TOP}"
   fi
@@ -602,7 +622,7 @@ echo  "PWD     :  ${WORKDIR}"
 echo  "HRPROOT :  ${HRPROOT}"
 
 case "$HRPTYPE" in
-  polymer|polymost_override|polymost|megaton_override|megaton)
+  polymer|polymost_override|polymost|megaton_override|megaton|maphacks)
     main $HRPTYPE
     ;;
   full)
@@ -611,7 +631,7 @@ case "$HRPTYPE" in
       else exit 0
     fi ; fi
     ${PRGPATH} polymost_override y
-    ${PRGPATH} megaton_override y
+    ${PRGPATH} megaton_override  y
     main $HRPTYPE
     ;;
   both)
@@ -624,16 +644,17 @@ case "$HRPTYPE" in
     ;;
   ovr)
     ${PRGPATH} polymost_override y
-    ${PRGPATH} megaton_override y
+    ${PRGPATH} megaton_override  y
     ;;
   all)
     if [ $FORCE = 0 ] ; then if ask "Extract all packs from the repository?"
       then echo "Extracting ${HRPTYPE} from \"${HRPROOT}\" "
       else exit 0
     fi ; fi
-    ${PRGPATH} both    y
-    ${PRGPATH} megaton y
-    ${PRGPATH} full    y
+    ${PRGPATH} both     y
+    ${PRGPATH} megaton  y
+    ${PRGPATH} maphacks y
+    ${PRGPATH} full     y
     ;;
   voxel)
     SET_VERSION=NO
@@ -669,6 +690,7 @@ case "$HRPTYPE" in
       echo "HRPTYPEs: {full|ovr|all}"
       echo "HRPTYPEs: {polymer|polymost_override|polymost|both}"
       echo "HRPTYPEs: {megaton_override|megaton}"
+      echo "HRPTYPEs: {maphacks}"
       echo "HRPTYPEs: {sw_highres|sw_lowres|sw_both}"
       exit 1
     fi

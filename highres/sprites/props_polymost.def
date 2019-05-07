@@ -22,6 +22,7 @@ model "highres/sprites/props_polymost/0407_fansprite.md3" {
    scale 1.56 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0407_fansprite.png" }
+
    anim { frame0 "spinn00" frame1 "spinn15" fps 35 flags 0 }
    frame { name "spinn00" tile0 407 tile1 410 }
 }
@@ -31,6 +32,7 @@ model "highres/sprites/props_polymost/0411_fanspritebroke.md3" {
    scale 1.56 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0407_fansprite.png" }
+
    frame { name "frame00" tile 411 }
 }
 
@@ -156,6 +158,8 @@ model "highres/sprites/props_polymost/0556_chair1.md3" {
    scale 2 shade 2
    detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props_polymost/0556_chair1.png" }
+
+
    frame { name "frame00" tile0 556 tile1 557 }
 }
 
@@ -164,6 +168,8 @@ model "highres/sprites/props_polymost/0559_brokenchair.md3" {
    scale 2 shade 2
    detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props_polymost/0556_chair1.png" }
+
+
    frame { name "frame00" tile 559 }
 }
 
@@ -249,6 +255,7 @@ model "highres/sprites/props_polymost/0584_sensor.md3" {
    scale 0.9 shade 0 
    skin { pal 0 surface 0 file "highres/sprites/props_polymost/0584_sensor_body.png" } 
    skin { pal 0 surface 1 file "highres/sprites/props/bottles/0954_bottle1.png" }
+
    anim { frame0 "frame1" frame1 "frame2" fps 1 flags 0 }
    frame { frame "frame1" tile0 584  tile1 584 }
 }
@@ -332,14 +339,14 @@ model "highres/sprites/props/0617_pipe1b.md3" {
    frame { name "Frame0" tile 617 }
 }
 
-// Pipe (618, 670)
-model "highres/sprites/props/0995_pipe.md3" {
+// Pipe3, Pipe3B (618, 700)
+model "highres/sprites/props/0995_pipe6.md3" {
    scale 17 shade 0
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0618_pipe.png" }
+   skin { pal 0 file "highres/sprites/props/0618_pipe3.png" }
    frame { name "FRAME1" tile 618 }
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0700_pipe.png" }
+   skin { pal 0 file "highres/sprites/props/0700_pipe3b.png" }
    frame { name "FRAME1" tile 700 }
 }
 
@@ -659,6 +666,8 @@ model "highres/sprites/props/0913_fence.md3" {
    scale 20 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/textures_polymost/0913.png" }
+
+
    frame { name "Frame0" tile 913 }
 }
 
@@ -675,6 +684,7 @@ model "highres/sprites/props_polymost/0916_fireext.md3" {
    scale 1 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0916_fireext.png" }
+
    frame { name "idle" tile 916 }
 }
 
@@ -683,6 +693,7 @@ model "highres/sprites/props_polymost/0917_firealarm.md3" {
    scale 1 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0917_firealarm_d.png" }
+
    frame { name "FRAME1" tile 917 }
 }
 
@@ -740,6 +751,7 @@ model "highres/sprites/props_polymost/0950_brokenhydrant.md3" {
    scale 0.75 shade 0
    detail { file "highres/detail/rust.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0981_hydrant.png" }
+
    frame { name "idle" tile 950 }
 }
 
@@ -830,6 +842,8 @@ model "highres/sprites/props_polymost/0976_ventshaft.md3" {
    scale 0.9 shade 15 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0976_ventshaft.png" } 
+
+
    frame { name "Frame0" tile 976 }
 }
 
@@ -862,6 +876,7 @@ model "highres/sprites/props_polymost/0981_hydrant.md3" {
    scale 0.75 shade 0
    detail { file "highres/detail/rust.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0981_hydrant.png" }
+
    frame { name "idle" tile 981 }
 }
 
@@ -881,35 +896,35 @@ model "highres/sprites/props/0991_shower.md3" {
 }
 
 // Pipe5 (994/1005)
-model "highres/sprites/props/0994_pipe.md3" {
+model "highres/sprites/props/0994_pipe5.md3" {
    scale 17 shade 0
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0994_pipe.jpg" }
+   skin { pal 0 file "highres/sprites/props/0994_pipe5.jpg" }
    frame { name "FRAME1" tile 0994 }
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/1005_pipe.jpg" }
+   skin { pal 0 file "highres/sprites/props/1005_pipe5b.jpg" }
    frame { name "FRAME1" tile 1005 }
 }
 
 // Pipe6 (995/1260)
-model "highres/sprites/props/0995_pipe.md3" {
+model "highres/sprites/props/0995_pipe6.md3" {
    scale 17 shade 0
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0994_pipe.jpg" }
+   skin { pal 0 file "highres/sprites/props/0994_pipe5.jpg" }
    frame { name "FRAME1" tile 995 }
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/1005_pipe.jpg" }
+   skin { pal 0 file "highres/sprites/props/1005_pipe5b.jpg" }
    frame { name "FRAME1" tile 1260 }
 }
 
 // Pipe4 (996-997)
-model "highres/sprites/props/0996_pipe.md3" {
+model "highres/sprites/props/0996_pipe4.md3" {
    scale 17 shade 0
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0996_pipe.jpg" }
+   skin { pal 0 file "highres/sprites/props/0996_pipe4.jpg" }
    frame { name "FRAME1" tile 996 }
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
-   skin { pal 0 file "highres/sprites/props/0997_pipe.jpg" }
+   skin { pal 0 file "highres/sprites/props/0997_pipe4b.jpg" }
    frame { name "FRAME1" tile 997 }
 }
 
@@ -1026,6 +1041,8 @@ model "highres/sprites/props_polymost/1051_handdryer.md3" {
    scale 1.6 shade 4
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/1051_handdryer.png" }
+
+
    frame { name "frame01" tile 1051 }
 }
 
@@ -1227,6 +1244,7 @@ model "highres/sprites/props/1221_pole.md3" {
    scale 0.55 shade 4
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/1222_crane_d.png" }
+
    frame { name "Frame0" tile 1221 }
 }
 
@@ -1235,6 +1253,7 @@ model "highres/sprites/props_polymost/1222_crane.md3" {
    scale 0.55 shade 4
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/1222_crane.jpg" }
+
    anim { frame0 "Grab_1" frame1 "Grab_3" fps 3 flags 1 }
    frame { name "Grab_0" tile 1222 }
    frame { name "Grab_2" tile 1223 }
@@ -1256,6 +1275,8 @@ model "highres/sprites/props_polymost/1227_nukebarrel.md3" {
       // NukeBarrel (1227)
       detail { file "highres/detail/rust.png" detailscale 0.5 }
       skin { pal 0 file "highres/sprites/props_polymost/1227_nukebarrel.png" }
+
+
       frame { name "frame00" tile 1227 }
       frame { name "frame01" tile 1228 }
       frame { name "frame01" tile 1229 }
@@ -1283,6 +1304,17 @@ model "highres/sprites/props_polymost/1227_nukebarrel.md3" {
       skin { pal 0 file "highres/sprites/props/4582_toxicbarrel.jpg" }
       frame { name "frame00" tile 4582 }
 } 
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Can With Something (1232)
@@ -1710,6 +1742,8 @@ model "highres/sprites/props/0913_fence.md3" {
    scale 20 shade 0
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/textures_polymost/0913.png" }
+
+
    frame { name "Frame0" tile 4429 }
 }
 
@@ -2040,7 +2074,18 @@ model "highres/sprites/props/4569_jollymeal.md3" {
 model "highres/sprites/props_polymost/4570_dukeburger.md3" {
    scale 3 shade 0
    skin { pal 0 surface 0 file "highres/sprites/pickups/1348_holoduke.png" }  
+
+
+
+
+
    skin { pal 0 surface 2 file "highres/sprites/props/4540_foodobject11.png" }
+
+
+
+
+
+
    frame { name "frame1" tile0 4570 tile1 4574 }
 }
 
@@ -2065,7 +2110,9 @@ model "highres/sprites/props_polymost/4583_pipe.md3" {
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 surface 0 file "highres/sprites/props/4585.png" } 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
-   skin { pal 0 surface 1 file "highres/sprites/props/0994_pipe.jpg" }
+
+
+   skin { pal 0 surface 1 file "highres/sprites/props/0994_pipe5.jpg" }
    frame { name "Frame0" tile 4583 }
 }
 
@@ -2081,7 +2128,7 @@ model "highres/sprites/props/4586.md3" {
    scale 0.778 shade 0 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 surface 0 file "highres/sprites/props/4585.png" } 
-   skin { pal 0 surface 1 file "highres/sprites/props/0994_pipe.jpg" }
+   skin { pal 0 surface 1 file "highres/sprites/props/0994_pipe5.jpg" }
    frame { name "Frame0" tile 4586 }
 }
 
@@ -2090,7 +2137,7 @@ model "highres/sprites/props/4587_thinpipe.md3" {
    scale 0.778 shade 0 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 surface 0 file "highres/sprites/props/4585.png" } 
-   skin { pal 0 surface 1 file "highres/sprites/props/0994_pipe.jpg" }
+   skin { pal 0 surface 1 file "highres/sprites/props/0994_pipe5.jpg" }
    frame { name "Frame0" tile 4587 }
 }
 
