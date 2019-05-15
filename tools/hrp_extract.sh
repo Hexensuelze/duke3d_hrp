@@ -210,7 +210,9 @@ copy_known_files()
   fi
 
   if [ "${HRPTYPE}" = "maphacks" ] ; then
-    cp -pv                 maphacks/mhk-extract.def "${EXTRACTDIR}/maphacks/"
+    cp -pv           maphacks/MapHacks.txt          "${EXTRACTDIR}"
+    cp -pv           maphacks/mhk-extract.def       "${EXTRACTDIR}/maphacks/"
+    cp -pv           maphacks/maphacks_polymost.def "${EXTRACTDIR}/maphacks/"
     cp -pv           duke3d_maphacks_standalone.def "${EXTRACTDIR}"
     copy_set_version duke3d_maphacks_standalone.def "${EXTRACTDIR}/duke3d.def"
   fi
