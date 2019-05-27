@@ -7,28 +7,17 @@
 
    // Hanging Babe/NAKED1 (603)
    model "highres/sprites/characters/0603_naked1.md3" {
-	
       scale 13.2 yoffset -10
-	
       skin { pal 0 surface 0 file "highres/sprites/characters/0603_naked1_d.png" specfactor 0.3 specpower 2 }
-	
    // normal { surface 0 NOfile!! "highres/sprites/characters/0603_naked1_n.png" parallaxscale 0 parallaxbias 0 }
-	
       glow { surface 0 file "highres/sprites/characters/0603_naked1_g.png" }
       skin { pal 0 surface 1 file "highres/sprites/characters/0603_slime_d.png" specpower 110 specfactor 180 }
-	
       normal { surface 1 file "highres/sprites/characters/0603_slime_n.png" }
-	
       specular { surface 1 file "highres/sprites/characters/0603_slime_s.png" }
-	
       skin { pal 0 surface 2 file "highres/sprites/characters/0603_pants_d.png" specfactor 0 }
-	
       skin { pal 0 surface 3 file "highres/sprites/characters/0603_hair_d.png" specfactor 0 }
-	
       anim { frame0 "FRAME25" frame1 "FRAME50" fps 5 flag 0 }
-	
       frame { name "FRAME25" tile 603 }
-
    }
 
    // Geisha/STATUE (753) 

@@ -111,25 +111,16 @@ model "highres/sprites/monsters/2760_overlord.md3" {
 // CHARACTERS
 
 // Frozen Hanging Babe/NAKED1 (603)
-   model "highres/sprites/characters/0603_naked1.md3" {
-	
-      scale 13.2 yoffset -10
-	
-      skin { pal 0 surface 0 file "highres/sprites/ice/0603_naked1_ice.png" specfactor 0.3 specpower 2 }
-
-      skin { pal 0 surface 1 file "highres/sprites/ice/0603_slime_ice.png" specpower 110 specfactor 180 }
-	
-      normal { surface 1 file "highres/sprites/characters/0603_slime_n.png" }
-	
-      specular { surface 1 file "highres/sprites/characters/0603_slime_s.png" }
-	
-      skin { pal 0 surface 2 file "highres/sprites/ice/0603_pants_ice.png" }
-	
-      skin { pal 0 surface 3 file "highres/sprites/ice/ice.png" }
-	
-      frame { pal 1 name "FRAME25" tile 603 }
-
-   }
+model "highres/sprites/characters/0603_naked1.md3" {
+  scale 13.2 yoffset -10
+  skin { pal 0 surface 0 file "highres/sprites/ice/0603_naked1_ice.png" specfactor 0.3 specpower 2 }
+  skin { pal 0 surface 1 file "highres/sprites/ice/0603_slime_ice.png" specpower 110 specfactor 180 }
+  normal { surface 1 file "highres/sprites/characters/0603_slime_n.png" }
+  specular { surface 1 file "highres/sprites/characters/0603_slime_s.png" }
+  skin { pal 0 surface 2 file "highres/sprites/ice/0603_pants_ice.png" }
+  skin { pal 0 surface 3 file "highres/sprites/ice/ice.png" }
+  frame { pal 1 name "FRAME25" tile 603 }
+}
 
 // Frozen Pod Babe/PODFEM1 (1294)
 model "highres/sprites/characters/1294_podbabe.md3" {
