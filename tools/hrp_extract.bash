@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Duke Nukem 3D CON/DEF/HRP File Extractor  v0.9.0  2019-05-27
+# Duke Nukem 3D CON/DEF/HRP File Extractor  v0.9.1  2019-09-17
 #
 # Author:  LeoD
 # License: ISC License -> https://opensource.org/licenses/isc-license.txt
@@ -236,11 +236,22 @@ copy_known_files() {
     cp -pv voxelpack_art_license.txt "${EXTRACTDIR}"
     cp -pv duke3d.def                "${EXTRACTDIR}"
     cp -pv duke3d_voxels.def         "${EXTRACTDIR}"
+    cp -pv dukegdx.def               "${EXTRACTDIR}"
+    cp -pv voxels/pickups_gdx.def    "${EXTRACTDIR}/voxels/"
+    cp -pv eduke.con                 "${EXTRACTDIR}"
+    if [ -d  scripts/ ] ; then
+      cp -pv scripts/*.con           "${EXTRACTDIR}/scripts/"
+    fi
+    ### LeoD ###
     if [ -f  EDUKE.CON ] ; then
       cp -pv EDUKE.CON               "${EXTRACTDIR}"
-      #cp -pv scripts/animation.con   "${EXTRACTDIR}/scripts/"
-      #cp -pv scripts/rotation.con    "${EXTRACTDIR}/scripts/"
-      cp -pv scripts/*.con           "${EXTRACTDIR}/scripts/"
+    fi
+    if [ -d   voxels/scripts/ ] ; then
+      #cp -pv voxels/scripts/freezeammo.con "${EXTRACTDIR}/voxels/scripts/"
+      #cp -pv voxels/scripts/holoduke.con   "${EXTRACTDIR}/voxels/scripts/"
+      #cp -pv voxels/scripts/pigtank.con    "${EXTRACTDIR}/voxels/scripts/"
+      #cp -pv voxels/scripts/rotation.con   "${EXTRACTDIR}/voxels/scripts/"
+      cp  -pv voxels/scripts/*.con          "${EXTRACTDIR}/voxels/scripts/"
     fi
   fi
 
@@ -665,10 +676,10 @@ parse_cons() {
 
 
 delete_empty_folders() {
-  if [ -d "${EXTRACTDIR}" ] ; then
-    rm -rf ${EXTRACTDIR}/.svn
-    DIRLIST=./EXTRACT_DIRECTORIES.lst
-    du "${EXTRACTDIR}" > ${DIRLIST}
+  if [  -d "${EXTRACTDIR}" ] ; then
+    rm -rf  ${EXTRACTDIR}/.svn
+    DIRLIST=${EXTRACTDIR}/EXTRACT_DIRECTORIES.lst
+    du     "${EXTRACTDIR}" > ${DIRLIST}
     cat ${DIRLIST} | while read DIR ; do
       if [ "0" = "`echo \"${DIR}\" | grep -owE \"0\"`" ] ; then
         EMPTYDIR="`echo \"${DIR}\" | sed -r --posix s/0//`"
