@@ -124,7 +124,8 @@ texture 699 {
 
 // Please Wait To Be Seated (716)
 model "highres/sprites/signs/0716_seatedsign.md3" {
-   scale 30 shade 0
+   //scale 35 shade 0 // matches ART/Voxel
+   scale 30 shade 0 // looks better
    skin { pal 0 file "highres/sprites/signs/0716_seatedsign.png" }
    frame { name "0716" tile 716 }
 }
@@ -193,7 +194,7 @@ texture 949 { pal 0 { file "highres/sprites/signs/0949.png" } }
 // Exit (961)
 texture 961 { pal 0 { file "highres/sprites/signs/0961.png" } } // "notmd"
 model "highres/sprites/signs_polymost/0961_exit.md3" {
-   scale 17 zadd 1 shade 0
+   scale 15 zadd 1 shade 0
    skin { pal 0 file "highres/sprites/signs_polymost/0961_exit.png" }
    skin { pal 14 file "highres/sprites/signs_polymost/0961_exit_14.png" }
    frame { name "exit1" tile 961 }
@@ -271,7 +272,7 @@ model "highres/sprites/signs/1210_guilty.md3" {
    frame { name "frame00" tile 1210 }
    skin { pal 0 file "highres/sprites/signs/1211_innocent.png" }
    frame { name "frame00" tile 1211 }
-   skin { pal 0 file "highres/sprites/signs/4891_crap.jpg" }
+   skin { pal 0 file "highres/sprites/signs/4891_storecrap.jpg" }
    frame { name "frame00" tile 4891 }
 }
 
@@ -472,7 +473,7 @@ texture 4494 {
 
 // Slippery When Wet (4495)
 model "highres/sprites/signs/4495_slipsign.md3" {
-   scale 1.5 shade 0
+   scale 1.25 shade 0
    skin { pal 0 file "highres/sprites/signs/4495_slipsign.png" }
    frame { name "frame00" tile 4495 }
 }

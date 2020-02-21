@@ -143,7 +143,7 @@ model "highres/sprites/props/0551_domelight.md3" {
    skin { pal 0 file "highres/sprites/props/0551_domelight.png" }
    glow { file "highres/sprites/props/0551_domelight_g.png" }
    anim { frame0 "FRAME4" frame1 "FRAME11" fps 15 flags 0 }
-   frame { name "FRAME4" tile0 0551 tile1 0554 }
+   frame { name "FRAME4" tile0 551 tile1 554 }
 }
 
 // Pipe handle (555)
@@ -153,9 +153,9 @@ model "highres/sprites/props/0555.md3" {
    frame { name "frame1" tile 555 }
 }
 
-// Chair 1 (556)
+// Chair 1 (556) = Chair 2 (557)
 model "highres/sprites/props_polymost/0556_chair1.md3" {
-   scale 2 shade 2
+   scale 2.1 shade 2
    detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props_polymost/0556_chair1.png" }
 
@@ -165,7 +165,7 @@ model "highres/sprites/props_polymost/0556_chair1.md3" {
 
 // Broken Chair (559)
 model "highres/sprites/props_polymost/0559_brokenchair.md3" {
-   scale 2 shade 2
+   scale 2.1 shade 2
    detail { file "highres/detail/fabric.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props_polymost/0556_chair1.png" }
 
@@ -250,7 +250,7 @@ model "highres/sprites/props/0573_stallbroke.md3" {
    frame { name "1" tile 573 }
 }
 
-// Sensor (584)
+// Sensor (584) // needs to be moved backwards
 model "highres/sprites/props_polymost/0584_sensor.md3" { 
    scale 0.9 shade 0 
    skin { pal 0 surface 0 file "highres/sprites/props_polymost/0584_sensor_body.png" } 
@@ -446,14 +446,14 @@ model "highres/sprites/props/0680.md3" {
    skin { pal 21 file "highres/sprites/props/0680_21.png" }
    skin { pal 22 file "highres/sprites/props/0680_11_22.png" }
    skin { pal 23 file "highres/sprites/props/0680_23.png" }
-   frame { name "FRAME1" tile0 0680 tile1 0684 }
+   frame { name "FRAME1" tile0 680 tile1 684 }
 }
 
 // Reflektor (685)
 model "highres/sprites/props/0685_reflektor.md3" {
    scale 9 shade 0
    skin { pal 0 file "highres/sprites/props/0685_reflektor.jpg" }
-   frame { name "FRAME1" tile 0685 }
+   frame { name "FRAME1" tile 685 }
 }
 
 // Movie camera (686)
@@ -502,24 +502,24 @@ model "highres/sprites/props/0693_knife.md3" {
    frame { name "FRAME1" tile 693 }
 }
 
-// Souce pan (694)
+// Pot 1 (Souce pan) (694)
 model "highres/sprites/props/0694_saucepan.md3" {
    scale 1 shade 0
    skin { pal 0 file "highres/sprites/props/0694_saucepan.jpg" }
    frame { name "idle" tile0 694 tile1 694 }
 }
 
-// Frying pan (695)
+// Pot 2 (Frying pan) (695)
 model "highres/sprites/props/0695_fryingpan.md3" {
    scale 1 shade 0
    skin { pal 0 file "highres/sprites/props/0694_saucepan.jpg" }
    frame { name "idle" tile0 695 tile1 695 }
 }
 
-// Pot 1 (697)
-model "highres/sprites/props/0697_pot1.md3" {
+// Pot 3 (697)
+model "highres/sprites/props/0697_pot3.md3" {
    scale 1 shade 0
-   skin { pal 0 file "highres/sprites/props/0697_pot1.png" }
+   skin { pal 0 file "highres/sprites/props/0697_pot3.png" }
    frame { name "frame00" tile 697 }
 }
 
@@ -600,7 +600,7 @@ model "highres/sprites/props/poolballs/0901_stripeball.md3" {
    frame { name "frame00" tile 901 }
 }
 
-// Que Ball (902)
+// Queue Ball (902)
 model "highres/sprites/props/poolballs/0901_stripeball.md3" {
    scale 1 shade 8
    skin { pal 0 file "highres/sprites/props/poolballs/0902_queball.png" }
@@ -676,7 +676,7 @@ model "highres/sprites/props/0914_woodfence.md3" {
    scale 1 shade 0
    detail { file "highres/detail/wood_h3.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0914_woodfence.png" }
-   frame { name "FRAME1" tile 0914 }
+   frame { name "FRAME1" tile 914 }
 }
 
 // Fire Ext (916)
@@ -769,17 +769,17 @@ model "highres/sprites/props/bottles/0954_bottle1.md3" {
    frame { name "Frame0" tile 954 }
 }
 
-// Bottle1 fallen (955)
-model "highres/sprites/props/bottles/0955_bottle1.md3" {
+// Bottle2 (955)
+model "highres/sprites/props/bottles/0955_bottle2.md3" {
    scale 2.5 shade 0
-   skin { pal 0 file "highres/sprites/props/bottles/0955_bottle1.png" }
+   skin { pal 0 file "highres/sprites/props/bottles/0955_bottle2.png" }
    frame { name "1" tile 955 }
 }
 
-// Bottle2 (956)
-model "highres/sprites/props/bottles/0956_bottle2.md3" {
+// Bottle3 (956)
+model "highres/sprites/props/bottles/0956_bottle3.md3" {
    scale 2.5 shade 0
-   skin { pal 0 file "highres/sprites/props/bottles/0956_bottle2.png" }
+   skin { pal 0 file "highres/sprites/props/bottles/0956_bottle3.png" }
    frame { name "1" tile 956 }
 }
 
@@ -900,7 +900,7 @@ model "highres/sprites/props/0994_pipe5.md3" {
    scale 17 shade 0
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0994_pipe5.jpg" }
-   frame { name "FRAME1" tile 0994 }
+   frame { name "FRAME1" tile 994 }
    detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/1005_pipe5b.jpg" }
    frame { name "FRAME1" tile 1005 }
@@ -958,10 +958,10 @@ model "highres/sprites/props/bottles/1013_bottle6.md3" {
    frame { name "Frame0" tile 1013 }
 }
 
-// Bottle9 fallen (1014)
-model "highres/sprites/props/bottles/1014_bottle9.md3" {
+// Bottle8 (1014)
+model "highres/sprites/props/bottles/1014_bottle8.md3" {
    scale 2.5 shade 0
-   skin { pal 0 file "highres/sprites/props/bottles/1014_bottle9.png" }
+   skin { pal 0 file "highres/sprites/props/bottles/1014_bottle8.png" }
    frame { name "1" tile 1014 }
 }
 
@@ -992,7 +992,7 @@ model "highres/sprites/props/1034_horselite.md3" {
 
 // Round Table (1037)
 model "highres/sprites/props/1037_rtable.md3" {
-   scale 1.4 shade 2
+   scale 1.47 shade 2
    skin { pal 0 file "highres/sprites/props/1037_rtable.png" }
    frame { name "frame00" tile0 1037 tile1 1037 }
 }
@@ -1056,6 +1056,7 @@ model "highres/sprites/props/1052_toweld.md3" {
 // Toilet paper (1053)
 model "highres/sprites/props/1053_toiletpaper.md3" {
    scale 3 shade 4
+   //scale 4.2 shade 4 zadd 5.5 // *.mhk file patch pending...
    skin { pal 0 file "highres/sprites/props/1053_toiletpaper.png" }
    anim { frame0 "frame00" frame1 "frame13" fps 6 flags 0 }
    frame { name "frame00" tile 1053 }
@@ -1106,8 +1107,7 @@ model "highres/sprites/props/1067_clockbroken.md3" {
 
 // Socket (1069)
 model "highres/sprites/props/1069_socket.md3" {
-   zadd 0
-   scale 15 shade 0
+   scale 13.8 shade 0
    detail { file "highres/detail/metal_fine.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/1069_socket.png" }
    frame { name "FRAME1" tile 1069 }
@@ -1125,7 +1125,8 @@ model "highres/sprites/props/1078_brokenlight.md3" {
 
 // Ooz Filter (1079)
 model "highres/sprites/props/1079_oozfilter.md3" {
-   scale 1 shade 0
+   scale 1 shade 0 // HRP
+   //scale 1.25 shade 0 // fit ART/Voxel width
    detail { file "highres/detail/metal_fine.png" detailscale 0.3 }
    skin { pal 0 surface 0 file "highres/sprites/props/1079_oozfilter.jpg" }
    skin { pal 0 surface 1 file "highres/sprites/props/1079_oozfilter.png" }
@@ -1270,7 +1271,8 @@ model "highres/sprites/props/1225_barbroke.md3" {
 // Barrels 
 
 model "highres/sprites/props_polymost/1227_nukebarrel.md3" {
-   scale 1.8 shade 8
+   scale 1.8 shade 8 // HRP
+   //scale 2.5 shade 8 // fit ART/Voxel width
 
       // NukeBarrel (1227)
       detail { file "highres/detail/rust.png" detailscale 0.5 }
@@ -1293,12 +1295,12 @@ model "highres/sprites/props_polymost/1227_nukebarrel.md3" {
       detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
       skin { pal 0 file "highres/sprites/props/4580_oilbarrel.jpg" }
       frame { name "frame00" tile 4580 }
-      
+
       // WhiteBarrel (4581)  
       detail { file "highres/detail/metal_worn.png" detailscale 0.3 } 
       skin { pal 0 file "highres/sprites/props/4581_whitebarrel.jpg" }
       frame { name "frame00" tile 4581 }
-      
+
       // ToxicBarrel (4582)
       detail { file "highres/detail/metal_worn.png" detailscale 0.3 }
       skin { pal 0 file "highres/sprites/props/4582_toxicbarrel.jpg" }
@@ -1335,7 +1337,8 @@ model "highres/sprites/props/1233_money.md3" {
 
 // FireBarrel (1240)
 model "highres/sprites/props/1240_firebarrel.md3" {
-   scale 1.6 0
+   //scale 1.6 0 // fit ART/Voxel height
+   scale 1.4 0 // fit ART/Voxel width
    detail { file "highres/detail/metal.png" detailscale 0.5 }
    skin { pal 0 file "highres/sprites/props/1240_firebarrel.png" }
    anim { frame0 "Frame 0" frame1 "Frame 5" fps 15 flags 0 }
@@ -1544,7 +1547,7 @@ texture 4359 { pal 0 { file "highres/sprites/props/4359.png" } }
 
 // Gunpowder barrel (4360)
 model "highres/sprites/props/4360_barrel.md3" {
-   scale 2.2 shade 0
+   scale 2.1 shade 0
    detail { file "highres/detail/wood_v3.png" detailscale 0.1 }
    skin { pal 0 file "highres/sprites/props/4360_barrel.jpg" }
    frame { name "idle" tile0 4360 tile1 4360 }

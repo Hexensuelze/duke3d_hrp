@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Duke Nukem 3D CON/DEF/HRP File Extractor  v0.9.1  2019-09-17
+# Duke Nukem 3D CON/DEF/HRP File Extractor  v0.9.2  2020-02-21
 #
 # Author:  LeoD
 # License: ISC License -> https://opensource.org/licenses/isc-license.txt
@@ -238,6 +238,9 @@ copy_known_files() {
     cp -pv duke3d_voxels.def         "${EXTRACTDIR}"
     cp -pv dukegdx.def               "${EXTRACTDIR}"
     cp -pv voxels/pickups_gdx.def    "${EXTRACTDIR}/voxels/"
+    #cp -pv voxels/monsters.def       "${EXTRACTDIR}/voxels/"
+    #cp -pv voxels/monsters/*.kvx     "${EXTRACTDIR}/voxels/monsters/"
+    cp -pv voxels/hrp_undefines.def  "${EXTRACTDIR}/voxels/"
     cp -pv eduke.con                 "${EXTRACTDIR}"
     if [ -d  scripts/ ] ; then
       cp -pv scripts/*.con           "${EXTRACTDIR}/scripts/"
@@ -247,6 +250,7 @@ copy_known_files() {
       cp -pv EDUKE.CON               "${EXTRACTDIR}"
     fi
     if [ -d   voxels/scripts/ ] ; then
+      #cp -pv voxels/scripts/faucet2.con    "${EXTRACTDIR}/voxels/scripts/"
       #cp -pv voxels/scripts/freezeammo.con "${EXTRACTDIR}/voxels/scripts/"
       #cp -pv voxels/scripts/holoduke.con   "${EXTRACTDIR}/voxels/scripts/"
       #cp -pv voxels/scripts/pigtank.con    "${EXTRACTDIR}/voxels/scripts/"
@@ -552,6 +556,7 @@ parse_defs() {
 
     if [ "${HRP_FILE}" ] ; then
       extract_file "${HRP_FILE}"
+      HRP_FILE=""
     fi
 
   done
@@ -844,14 +849,23 @@ main() {
         DEF_TOP="duke3d.def"
         info "Auto mode found ${DEF_TOP}"
         parse_defs "${DEF_TOP}"
+      elif [ -f "dukegdx.def" ] ; then
+        DEF_TOP="dukegdx.def"
+        info "Auto mode found ${DEF_TOP}"
+        parse_defs "${DEF_TOP}"
       fi
     elif [ -f "duke3d.def" ] ; then
       DEF_TOP="duke3d.def"
       info "Auto mode found ${DEF_TOP}"
       parse_defs "${DEF_TOP}"
+    elif [ -f "dukegdx.def" ] ; then
+      DEF_TOP="dukegdx.def"
+      info "Auto mode found ${DEF_TOP}"
+      parse_defs "${DEF_TOP}"
     else
       exit_on_error "Please report to LeoD"
     fi
+
   fi
 
   info "Copying  'known' files ..."
@@ -863,8 +877,8 @@ main() {
   #date +%F" "%H:%M:%S
 
   #echo "Command line example for creating a ZIP package:"
-  #echo "sh -c \"cd ${EXTRACTDIR}; zip -9rqn .jpg:.png:.zip ${EXTRACTDIR}.zip\
-  #highpal highres maphacks *.def *.txt\""
+  #echo "sh -c \"cd ${EXTRACTDIR}; zip -9rqn .jpg:.png:.svn:.zip \
+  #      ${EXTRACTDIR}.zip highpal highres maphacks *.def *.txt\""
 } # main()
 
 
@@ -937,10 +951,10 @@ case "$HRPTYPE" in
   auto)
     SET_VERSION=NO
     EXTRACT_COMMENTED_FILES=NO
-    if [ -f "EDUKE.CON" ] || [ -f "GAME.CON" ] || [ -f "duke3d.def" ] ; then
+    if [ -f "EDUKE.CON" ] || [ -f "GAME.CON" ] || [ -f "duke3d.def" ] || [ -f "dukegdx.def" ] ; then
       main $HRPTYPE
     else
-      exit_on_error "Auto mode found no suitable toplevel file (EDUKE.CON|GAME.CON|duke3d.def)."
+      exit_on_error "Auto mode found no suitable toplevel file (EDUKE.CON|GAME.CON|duke3d.def|dukegdx.def)."
     fi
     ;;
   unused)

@@ -8,7 +8,7 @@ model "highres/sprites/monsters_polymost/0490_cycloidhead.md3" {
    scale 1.0 shade 3
    skin { pal 0 file "highres/sprites/monsters_polymost/0490_cycloidhead.png" }
    anim { frame0 "FRAME6" frame1 "FRAME25" fps 10 flags 0 }
-   frame { name "FRAME6" tile0 0490 tile1 0497 }
+   frame { name "FRAME6" tile0 490 tile1 497 }
 }
 
 
@@ -119,7 +119,8 @@ model "highres/sprites/monsters/1820_octabrain.md3" {
 
 // Drone (1880)
 model "highres/sprites/monsters/1880_drone.md3" {
-   scale 8 shade 1
+   //scale 8 shade 1 // HRP
+   scale 10 shade 1 zadd -4 // fit ART/Voxel
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/monsters/1880_drone.png" }
    glow { file "highres/sprites/monsters/1880_drone_g.png" }
@@ -262,7 +263,7 @@ model "highres/sprites/monsters/2120_enforcer.md3" {
 
 // Gun Turret (2350)
 model "highres/sprites/monsters/2350_gunturret.md3" { 
-   scale 12 shade 4
+   scale 14 shade 4
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/monsters/2350_gunturret.png" }
    skin { pal 17 file "highres/sprites/monsters/2350_gunturret_17_20.png" }
