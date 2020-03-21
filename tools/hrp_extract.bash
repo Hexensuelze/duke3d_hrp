@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Duke Nukem 3D CON/DEF/HRP File Extractor  v0.9.2  2020-02-21
+# Duke Nukem 3D CON/DEF/HRP File Extractor  v0.9.3  2020-03-21
 #
 # Author:  LeoD
 # License: ISC License -> https://opensource.org/licenses/isc-license.txt
@@ -87,17 +87,17 @@ copy_set_version() {
       hrp_readme.txt)
         cat "${VER_FILE}" | sed -r --posix \
           s/\(Version\ *\)\([0-9\.]*\)\(.*\)\(\\\)\)\(.*\)/\\1${VERSION}\ \(${V_DATE}\)\ \ \\5/ \
-          >> "${TARGET_FILE}"
+          > "${TARGET_FILE}"
         ;;
       duke3d_hrp.def)
         if [ "${HRPTYPE}" = "polymer" ] ; then
           cat "${VER_FILE}" | sed -r --posix \
             s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\ Polymer\\3/ \
-            >> "${TARGET_FILE}"
+            > "${TARGET_FILE}"
         else
           cat "${VER_FILE}" | sed -r --posix \
             s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
-            >> "${TARGET_FILE}"
+            > "${TARGET_FILE}"
         fi
         ;;
       duke3d_hrp_polymost.def | \
@@ -107,7 +107,7 @@ copy_set_version() {
       duke3d_maphacks.def )
         cat "${VER_FILE}" | sed -r --posix \
           s/\(Version\ *\)\([0-9\.]*\)\(.*\)/\\1${VERSION}\\3/ \
-          >> "${TARGET_FILE}"
+          > "${TARGET_FILE}"
         ;;
       *)
         exit_on_error "copy_set_version() - UNKNOWN FILE: ${VER_FILE}"
@@ -908,6 +908,7 @@ case "$HRPTYPE" in
     fi ; fi
     ${PRGPATH} polymost_override y
     ${PRGPATH} megaton_override  y
+    FORCE=1
     main $HRPTYPE
     ;;
   both)
