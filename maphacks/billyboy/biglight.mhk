@@ -12,8 +12,8 @@ Lighthouse (aka Biglight) was designed prior to the HRP. Its tiles002.art has
 a few textures conflicting with HRP contents. 
 To prevent the HRP from overridng these textures,
 get the User ART Compatibility Pack from here:
-  http://forums.duke4.net/index.php?showtopic=3513
-Copy the duke3d.def I have prepared for biglight into your EDuke32 folder.
+  https://forums.duke4.net/index.php?showtopic=3513
+Copy the duke3d.def I have prepared for Biglight into your EDuke32 folder.
 */
 
 sprite  3772 roll      -32         // tile1734 liztroopdsprite
@@ -22,6 +22,7 @@ sprite   661 pitch      32         // tile1734 liztroopdsprite
 sprite  1023 angoff     256        // tile0049 shotgunammo
 sprite  2498 angoff    -256        // tile0052 sixpack
 sprite  3721 angoff    -768        // tile0049 shotgunammo
+sprite  1262 angoff     1024       // tile4552 (worms)
 sprite   657 angoff     256        // tile0028 shotgunsprite
 sprite   657 mdzoff     900000     // tile0028 shotgunsprite
 sprite   657 roll      -1          // tile0028 shotgunsprite
@@ -79,6 +80,14 @@ sprite  3519 angoff     256        // tile1247 seenine
 sprite    70 angoff     576        // tile0041 batteryammo
 sprite   642 angoff    -896        // tile0041 batteryammo
 sprite  3515 angoff    -384        // tile0052 sixpack
+sprite  1021 notmd                 // tile0914 maskwall3 (fence)
+sprite  1022 notmd                 // tile0914 maskwall3 (fence)
+sprite  1020 notmd                 // tile0914 maskwall3 (fence)
+sprite  1019 notmd                 // tile0914 maskwall3 (fence)
+sprite  2499 notmd                 // tile0914 maskwall3 (fence)
+sprite  1018 notmd                 // tile0914 maskwall3 (fence)
+sprite  1017 notmd                 // tile0914 maskwall3 (fence)
+sprite  1016 notmd                 // tile0914 maskwall3 (fence)
 sprite  3105 angoff    -512        // tile0023 rpgsprite
 sprite   996 angoff    -256        // tile0052 sixpack
 sprite   767 angoff     768        // tile0041 batteryammo
@@ -87,9 +96,11 @@ sprite  2859 angoff     256        // tile1232 canwithsomething
 sprite  1101 mdzoff     400000     // tile0904 woodenhorse
 sprite  1101 pitch     -1          // tile0904 woodenhorse
 sprite  1101 roll      -2          // tile0904 woodenhorse
+sprite  3279 mdxoff     30000      // tile0571 (stall)
+sprite  3279 pitch     -1          // tile0571 (stall)
 sprite   592 angoff     384        // tile0059 heatsensor
 sprite  3443 angoff     896        // tile0049 shotgunammo
-sprite  3598 angoff    -896        // tile0021 firstgunsprite
+sprite  3592 angoff    -896        // tile0021 firstgunsprite
 sprite   282 angoff     1024       // tile0044 rpgammo
 sprite  3720 angoff     768        // tile0049 shotgunammo
 sprite   404 angoff     512        // tile0021 firstgunsprite
@@ -343,7 +354,6 @@ sprite   122 angoff    -128        // tile0041 batteryammo
 sprite   132 angoff    -320        // tile0041 batteryammo
 sprite  3678 angoff     256        // tile0041 batteryammo
 sprite  3677 angoff     640        // tile0041 batteryammo
-sprite  3677 angoff     640        // tile0041 batteryammo
 sprite   123 angoff     896        // tile0041 batteryammo
 // 5
 sprite  3367 angoff     256        // tile0028 shotgunsprite
@@ -444,5 +454,5 @@ sprite   447 pitch     -1          // tile0053 firstaid
 sprite  3620 nomdanim              // tile1232 canwithsomething
 sprite  3620 angoff     256        // tile1232 canwithsomething
 sprite  3233 angoff    -512        // tile0556 chair1
-sprite  3233 angoff    -768        // tile0556 chair1
+sprite  3234 angoff    -768        // tile0556 chair1
 sprite    88 angoff    -128        // tile0057 jetpack
