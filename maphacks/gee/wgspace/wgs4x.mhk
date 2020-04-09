@@ -8,15 +8,15 @@
 
 //         <-> wgspace4.mhk
 
-// Curr. HRP: r5.3.643
+// Curr. HRP: r5.4.722
 
 // 346 - 1629 / / 
 sprite   865 angoff    -512        // tile0028 shotgunsprite
-sprite   867 mdzoff     200000     // tile0100 atomichealth
 sprite   867 pitch     -1          // tile0100 atomichealth
 sprite   867 roll       1          // tile0100 atomichealth
-sprite   866 mdzoff     100000     // tile0053 firstaid
+sprite   867 mdzoff     200000     // tile0100 atomichealth
 sprite   866 roll       1          // tile0053 firstaid
+sprite   866 mdzoff     100000     // tile0053 firstaid
 sprite  2025 angoff    -341        // tile0022 chaingunsprite (multiplayer)
 sprite  2026 angoff    -682        // tile0024 freezesprite (multiplayer)
 sprite  1998 angoff     512        // tile0047 hbombammo (multiplayer)
@@ -24,19 +24,19 @@ sprite   665 angoff    -512        // tile0049 shotgunammo
 sprite   666 angoff    -512        // tile0047 hbombammo
 sprite  1478 angoff    -256        // tile0052 sixpack
 sprite  1474 angoff    -512        // tile0049 shotgunammo
-sprite  1474 mdzoff     400000     // tile0049 shotgunammo
 sprite  1474 pitch     -2          // tile0049 shotgunammo
 sprite  1474 roll       3          // tile0049 shotgunammo
+sprite  1474 mdzoff     400000     // tile0049 shotgunammo
 sprite  2038 angoff     512        // tile0028 shotgunsprite (multiplayer)
 sprite   346 angoff     512        // tile0052 sixpack
 sprite  1587 nomdanim              // tile0490 (cycloid holo)
 sprite  1587 angoff    -256        // tile0490 (cycloid holo)
+sprite  1587 pitch      1          // tile0490 (cycloid holo)
 sprite  1587 mdxoff     40000      // tile0490 (cycloid holo)
 sprite  1587 mdzoff     1000000    // tile0490 (cycloid holo)
-sprite  1587 pitch      1          // tile0490 (cycloid holo)
 sprite   664 angoff    -512        // tile0022 chaingunsprite
-sprite   664 mdzoff     900000     // tile0022 chaingunsprite
 sprite   664 pitch     -1          // tile0022 chaingunsprite
+sprite   664 mdzoff     900000     // tile0022 chaingunsprite
 sprite  1479 angoff     1024       // tile0049 shotgunammo
 sprite  1476 angoff     512        // tile0023 rpgsprite
 sprite  1477 angoff     512        // tile0044 rpgammo
@@ -45,14 +45,14 @@ sprite    84 angoff     768        // tile0049 shotgunammo
 sprite    33 angoff     512        // tile0051 cola
 sprite    34 angoff    -512        // tile0051 cola
 sprite  1581 angoff    -512        // tile0047 hbombammo
-sprite  1581 mdzoff     900000     // tile0047 hbombammo
 sprite  1581 pitch     -1          // tile0047 hbombammo
+sprite  1581 mdzoff     900000     // tile0047 hbombammo
 sprite  1501 angoff    -512        // tile0049 shotgunammo
-sprite  1501 mdzoff     900000     // tile0049 shotgunammo
 sprite  1501 roll      -1          // tile0049 shotgunammo
+sprite  1501 mdzoff     900000     // tile0049 shotgunammo
 sprite  1507 angoff    -512        // tile0044 rpgammo
-sprite  1507 mdzoff     900000     // tile0044 rpgammo
 sprite  1507 roll       1          // tile0044 rpgammo
+sprite  1507 mdzoff     900000     // tile0044 rpgammo
 sprite  1502 angoff    -512        // tile0044 rpgammo
 sprite  1508 angoff    -512        // tile0049 shotgunammo
 sprite  1504 angoff    -512        // tile0044 rpgammo
@@ -63,12 +63,12 @@ sprite  2031 angoff     640        // tile0023 rpgsprite (multiplayer)
 sprite  2032 angoff    -896        // tile0037 freezeammo (multiplayer)
 sprite  2034 angoff     768        // tile0049 shotgunammo (multiplayer)
 sprite  2035 angoff     896        // tile0044 rpgammo (multiplayer)
-sprite  2035 mdzoff     700000     // tile0044 rpgammo (multiplayer)
 sprite  2035 pitch     -1          // tile0044 rpgammo (multiplayer)
+sprite  2035 mdzoff     700000     // tile0044 rpgammo (multiplayer)
 sprite  1629 notmd                 // tile0491 (tile0490 (cycloid holo))
 sprite  1966 angoff    -512        // tile0052 sixpack
-sprite  1966 mdzoff     1500000    // tile0052 sixpack
 sprite  1966 pitch     -1          // tile0052 sixpack
+sprite  1966 mdzoff     1500000    // tile0052 sixpack
 sprite  2090 angoff    -512        // tile0025 shrinkersprite (multiplayer)
 sprite  2089 angoff    -512        // tile0045 growammo (multiplayer)
 sprite  2088 angoff    -512        // tile0045 growammo (multiplayer)
@@ -78,20 +78,20 @@ sprite  1968 angoff     512        // tile0044 rpgammo
 sprite  1969 angoff     1024       // tile0052 sixpack
 sprite  1751 angoff    -512        // tile2060 pigcopdeadsprite
 sprite  1896 angoff    -768        // tile0047 hbombammo
-sprite  1896 mdzoff     1500000    // tile0047 hbombammo
 sprite  1896 pitch     -1          // tile0047 hbombammo
+sprite  1896 mdzoff     1500000    // tile0047 hbombammo
 sprite  1935 angoff    -512        // tile0051 cola
 sprite  1936 angoff    -768        // tile0051 cola
 sprite  1937 angoff    -256        // tile0051 cola
 sprite  1759 angoff     1024       // tile0029 devistatorsprite
-sprite  1759 mdzoff     700000     // tile0029 devistatorsprite
 sprite  1759 roll      -1          // tile0029 devistatorsprite
-sprite    36 mdzoff     700000     // tile0100 atomichealth
+sprite  1759 mdzoff     700000     // tile0029 devistatorsprite
 sprite    36 roll      -1          // tile0100 atomichealth
+sprite    36 mdzoff     700000     // tile0100 atomichealth
 sprite  1934 angoff     512        // tile0060 accesscard yellow
 sprite  1729 angoff     512        // tile0052 sixpack
-sprite   122 mdzoff     900000     // tile0044 rpgammo
 sprite   122 pitch     -1          // tile0044 rpgammo
+sprite   122 mdzoff     900000     // tile0044 rpgammo
 sprite  1885 angoff    -512        // tile0037 freezeammo
 sprite  1884 angoff     512        // tile0037 freezeammo
 sprite   118 angoff     768        // tile0052 sixpack
@@ -108,8 +108,8 @@ sprite  1972 angoff    -768        // tile0042 devistatorammo
 sprite  1971 angoff    -768        // tile0042 devistatorammo
 sprite  1978 angoff    -512        // tile0047 hbombammo
 sprite  1526 angoff    -512        // tile0042 devistatorammo
-sprite  1526 mdxoff     1000000    // tile0042 devistatorammo
 sprite  1526 pitch     -1          // tile0042 devistatorammo
+sprite  1526 mdxoff     1000000    // tile0042 devistatorammo
 sprite  1540 angoff    -512        // tile0060 accesscard blue
 sprite    90 angoff     512        // tile0037 freezeammo
 sprite    86 angoff     768        // tile0052 sixpack
@@ -124,25 +124,25 @@ sprite   169 nomdanim              // tile1527 (tile1520 (duke torso))
 sprite   169 angoff    -768        // tile1527 (tile1520 (duke torso))
 sprite  1929 angoff    -768        // tile0052 sixpack
 sprite  1950 angoff    -512        // tile0053 firstaid
-sprite  1950 mdzoff     700000     // tile0053 firstaid
 sprite  1950 pitch     -1          // tile0053 firstaid
 sprite  1950 roll      -1          // tile0053 firstaid
+sprite  1950 mdzoff     700000     // tile0053 firstaid
 sprite  2019 angoff     0          // tile0060 accesscard blue
 sprite  1930 angoff    -768        // tile0052 sixpack
 sprite  1933 angoff     256        // tile0052 sixpack
 sprite  1944 angoff     768        // tile0049 shotgunammo
-sprite  1944 mdzoff     900000     // tile0049 shotgunammo
 sprite  1944 pitch     -1          // tile0049 shotgunammo
 sprite  1944 roll      -1          // tile0049 shotgunammo
-sprite  1947 mdzoff     900000     // tile0041 batteryammo
+sprite  1944 mdzoff     900000     // tile0049 shotgunammo
 sprite  1947 roll      -1          // tile0041 batteryammo
+sprite  1947 mdzoff     900000     // tile0041 batteryammo
 sprite    44 angoff     512        // tile0051 cola
 sprite  1979 angoff    -512        // tile0052 sixpack
-sprite  1979 mdzoff     300000     // tile0052 sixpack
 sprite  1979 pitch      1          // tile0052 sixpack
+sprite  1979 mdzoff     300000     // tile0052 sixpack
 sprite    45 angoff     512        // tile0049 shotgunammo
-sprite    45 mdzoff     500000     // tile0049 shotgunammo
 sprite    45 roll      -1          // tile0049 shotgunammo
+sprite    45 mdzoff     500000     // tile0049 shotgunammo
 sprite  1982 angoff     512        // tile0044 rpgammo
 sprite  2021 angoff     0          // tile0060 accesscard yellow
 sprite   258 nomdanim              // tile1522 (tile1520 (duke torso))
@@ -155,11 +155,11 @@ sprite  1981 angoff    -512        // tile0042 devistatorammo
 sprite  2116 angoff    -256        // tile1323 fem5 polebabe
 sprite   113 angoff     768        // tile0044 rpgammo
 sprite   112 angoff     512        // tile0042 devistatorammo
-sprite   112 mdzoff     500000     // tile0042 devistatorammo
 sprite   112 pitch      1          // tile0042 devistatorammo
 sprite   112 roll      -1          // tile0042 devistatorammo
+sprite   112 mdzoff     500000     // tile0042 devistatorammo
 sprite   111 angoff     512        // tile0037 freezeammo
-sprite   111 mdzoff     500000     // tile0037 freezeammo
 sprite   111 pitch     -1          // tile0037 freezeammo
-sprite  2006 mdzoff     50000      // tile1048 (pipes)
+sprite   111 mdzoff     500000     // tile0037 freezeammo
 sprite  2006 pitch     -1          // tile1048 (pipes)
+sprite  2006 mdzoff     50000      // tile1048 (pipes)

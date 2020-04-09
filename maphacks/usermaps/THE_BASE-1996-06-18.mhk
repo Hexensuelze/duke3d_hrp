@@ -9,7 +9,7 @@
 //         <-> THE_BASE-amctc.mhk
 //         <-> THE_BASE-amctc2.mhk
 
-// Curr. HRP: r5.4.691
+// Curr. HRP: r5.4.722
 
 // 17-389 | 401-947 / 1046-1575
 //
@@ -18,25 +18,25 @@ sprite   351 angoff     768        // tile0021 firstgunsprite
 sprite   194 angoff     896        // tile0047 hbombammo
 sprite  1451 angoff     768        // tile0056 airtank
 sprite   349 angoff     256        // tile0049 shotgunammo
-sprite   349 roll      -80         // tile0049 shotgunammo
 sprite   349 pitch     -32         // tile0049 shotgunammo
+sprite   349 roll      -80         // tile0049 shotgunammo
 // mhk diff sync 1
 sprite   348 angoff     576        // tile0028 shotgunsprite
 sprite    32 angoff    -128        // tile0028 shotgunsprite (multiplayer)
 sprite  1463 angoff     896        // tile0049 shotgunammo
-sprite  1463 mdzoff     500000     // tile0049 shotgunammo
 sprite  1463 pitch      1          // tile0049 shotgunammo
-sprite   938 mdzoff     900000     // tile0909 (treetrunk)
+sprite  1463 mdzoff     500000     // tile0049 shotgunammo
 sprite   938 roll       1          // tile0909 (treetrunk)
-sprite   947 mdzoff     900000     // tile0908 tree1
+sprite   938 mdzoff     900000     // tile0909 (treetrunk)
 sprite   947 roll       1          // tile0908 tree1
+sprite   947 mdzoff     900000     // tile0908 tree1
 sprite  1462 angoff    -896        // tile0052 sixpack
 sprite   337 angoff     256        // tile0049 shotgunammo
 sprite   326 angoff    -768        // tile0052 sixpack
 sprite   327 angoff    -768        // tile0053 firstaid
 sprite   321 angoff    -768        // tile0049 shotgunammo
-sprite   321 mdzoff     900000     // tile0049 shotgunammo
 sprite   321 roll      -1          // tile0049 shotgunammo
+sprite   321 mdzoff     900000     // tile0049 shotgunammo
 sprite   320 angoff    -704        // tile0049 shotgunammo
 sprite   317 angoff     896        // tile0054 shield
 sprite   319 angoff     1024       // tile0049 shotgunammo
@@ -45,13 +45,13 @@ sprite   312 angoff     1024       // tile0022 chaingunsprite
 sprite   312 roll       96         // tile0022 chaingunsprite
 sprite   325 angoff    -256        // tile0051 cola
 sprite   294 angoff    -256        // tile0049 shotgunammo
-sprite   293 mdzoff     900000     // tile0049 shotgunammo
 sprite   293 pitch     -1          // tile0049 shotgunammo
+sprite   293 mdzoff     900000     // tile0049 shotgunammo
 sprite    37 angoff    -384        // tile0028 shotgunsprite (multiplayer)
 // mhk diff sync 2
 sprite  1013 angoff     256        // tile0021 firstgunsprite
-sprite    35 mdzoff     900000     // tile0028 shotgunsprite (multiplayer)
 sprite    35 pitch      1          // tile0028 shotgunsprite (multiplayer)
+sprite    35 mdzoff     900000     // tile0028 shotgunsprite (multiplayer)
 sprite   401 angoff     896        // tile1045 donuts
 sprite    36 angoff     384        // tile0028 shotgunsprite (multiplayer)
 //sprite   867 angoff     384        // tile0487 spaceshuttle
@@ -59,55 +59,55 @@ sprite    36 angoff     384        // tile0028 shotgunsprite (multiplayer)
 sprite   865 angoff     1024       // tile1045 donuts
 sprite   862 angoff    -256        // tile0556 chair1
 sprite    38 angoff    -768        // tile0049 shotgunammo
-sprite    38 mdzoff     500000     // tile0049 shotgunammo
 sprite    38 roll       1          // tile0049 shotgunammo
+sprite    38 mdzoff     500000     // tile0049 shotgunammo
 sprite  1575 angoff     512        // tile0051 cola
 sprite  1373 angoff     512        // tile0049 shotgunammo
 sprite   107 angoff     512        // tile0049 shotgunammo
 sprite  1372 angoff     768        // tile0021 firstgunsprite
 sprite  1186 angoff    -384        // tile1045 donuts
 sprite   614 angoff     256        // tile0556 chair1
-sprite   614 mdzoff     500000     // tile0556 chair1
 sprite   614 roll       1          // tile0556 chair1
+sprite   614 mdzoff     500000     // tile0556 chair1
 sprite  1180 angoff     512        // tile0052 sixpack
 sprite  1181 angoff     512        // tile0052 sixpack
 sprite   235 angoff     1024       // tile1165 bottle18
 sprite   106 angoff     768        // tile0049 shotgunammo
-sprite   106 mdzoff     250000     // tile0049 shotgunammo
 sprite   106 pitch     -2          // tile0049 shotgunammo
+sprite   106 mdzoff     250000     // tile0049 shotgunammo
 sprite   105 angoff     256        // tile0049 shotgunammo
-sprite   105 mdzoff     900000     // tile0049 shotgunammo
 sprite   105 pitch     -1          // tile0049 shotgunammo
 sprite   105 roll       1          // tile0049 shotgunammo
+sprite   105 mdzoff     900000     // tile0049 shotgunammo
 sprite  1349 angoff     1024       // tile0021 firstgunsprite
 sprite  1553 angoff     1024       // tile0052 sixpack
-sprite  1553 mdzoff     200000     // tile0052 sixpack
 sprite  1553 pitch      1          // tile0052 sixpack
-sprite  1554 mdzoff     500000     // tile1014 bottle8
+sprite  1553 mdzoff     200000     // tile0052 sixpack
 sprite  1554 roll       1          // tile1014 bottle8
-sprite   202 mdzoff     200000     // tile0670 (faucet)
+sprite  1554 mdzoff     500000     // tile1014 bottle8
 sprite   202 roll       1          // tile0670 (faucet)
+sprite   202 mdzoff     200000     // tile0670 (faucet)
 sprite  1574 angoff     1024       // tile0052 sixpack
-sprite  1574 mdzoff     500000     // tile0052 sixpack
 sprite  1574 roll       1          // tile0052 sixpack
+sprite  1574 mdzoff     500000     // tile0052 sixpack
 sprite  1223 angoff     512        // tile0561 (soap)
-sprite  1223 mdzoff     300000     // tile0561 (soap)
 sprite  1223 pitch      1          // tile0561 (soap)
-sprite  1224 mdzoff     200000     // tile0670 (faucet)
+sprite  1223 mdzoff     300000     // tile0561 (soap)
 sprite  1224 pitch      1          // tile0670 (faucet)
+sprite  1224 mdzoff     200000     // tile0670 (faucet)
 sprite  1379 angoff    -512        // tile0049 shotgunammo
 sprite  1380 angoff    -512        // tile0040 ammo
 sprite  1265 angoff    -512        // tile0060 accesscard red
-sprite  1265 mdzoff     500000     // tile0060 accesscard red
 sprite  1265 roll       1          // tile0060 accesscard red
-sprite  1281 mdxoff     50000      // tile0910 tree2
+sprite  1265 mdzoff     500000     // tile0060 accesscard red
 sprite  1281 pitch      3          // tile0910 tree2
-sprite  1282 mdxoff     150000     // tile0910 tree2
-sprite  1282 mdzoff     500000     // tile0910 tree2
+sprite  1281 mdxoff     50000      // tile0910 tree2
 sprite  1282 pitch      1          // tile0910 tree2
 sprite  1282 roll      -1          // tile0910 tree2
-sprite  1280 mdxoff     30000      // tile0910 tree2
+sprite  1282 mdxoff     150000     // tile0910 tree2
+sprite  1282 mdzoff     500000     // tile0910 tree2
 sprite  1280 pitch      5          // tile0910 tree2
+sprite  1280 mdxoff     30000      // tile0910 tree2
 sprite   419 angoff     1024       // tile0059 heatsensor
 sprite   289 nomdanim              // tile2267 (tile2265 jibs5)
 sprite   414 angoff    -512        // tile0061 boots
@@ -126,17 +126,17 @@ sprite   458 angoff    -768        // tile0022 chaingunsprite
 sprite   459 angoff    -511        // tile0049 shotgunammo
 sprite   460 angoff    -511        // tile0049 shotgunammo
 sprite   461 angoff    -513        // tile0049 shotgunammo
-sprite   461 mdzoff     250000     // tile0049 shotgunammo
 sprite   461 pitch     -2          // tile0049 shotgunammo
+sprite   461 mdzoff     250000     // tile0049 shotgunammo
 sprite   462 angoff    -512        // tile0049 shotgunammo
-sprite   462 mdzoff     500000     // tile0049 shotgunammo
 sprite   462 pitch     -1          // tile0049 shotgunammo
+sprite   462 mdzoff     500000     // tile0049 shotgunammo
 sprite   463 angoff     256        // tile0028 shotgunsprite
-sprite   463 mdzoff     900000     // tile0028 shotgunsprite
 sprite   463 roll       1          // tile0028 shotgunsprite
+sprite   463 mdzoff     900000     // tile0028 shotgunsprite
 sprite   464 angoff     256        // tile0028 shotgunsprite
-sprite   464 mdzoff     900000     // tile0028 shotgunsprite
 sprite   464 roll       1          // tile0028 shotgunsprite
+sprite   464 mdzoff     900000     // tile0028 shotgunsprite
 sprite   465 angoff     768        // tile0040 ammo
 sprite   466 angoff     768        // tile0040 ammo
 sprite   467 angoff     768        // tile0040 ammo
@@ -149,8 +149,8 @@ sprite  1448 angoff     32         // tile0024 freezesprite
 sprite  1466 angoff     128        // tile0049 shotgunammo
 sprite   484 angoff    -640        // tile1238 explodingbarrel
 sprite  1390 angoff     384        // tile0049 shotgunammo
-sprite  1390 mdzoff     500000     // tile0049 shotgunammo
 sprite  1390 roll      -1          // tile0049 shotgunammo
+sprite  1390 mdzoff     500000     // tile0049 shotgunammo
 sprite    25 angoff    -384        // tile0028 shotgunsprite (multiplayer)
 sprite  1393 angoff    -128        // tile0049 shotgunammo
 sprite  1394 angoff    -576        // tile0040 ammo
@@ -185,17 +185,17 @@ sprite    34 angoff     640        // tile0028 shotgunsprite (multiplayer)
 sprite  1285 angoff    -512        // tile0060 accesscard yellow
 sprite    90 angoff     256        // tile0049 shotgunammo
 sprite    70 angoff    -512        // tile0029 devistatorsprite
-sprite    70 mdzoff     900000     // tile0029 devistatorsprite
 sprite    70 roll      -1          // tile0029 devistatorsprite
+sprite    70 mdzoff     900000     // tile0029 devistatorsprite
 sprite   549 angoff    -512        // tile0058 (spacesuit)
-sprite   549 mdxoff     30000      // tile0058 (spacesuit)
 sprite   549 pitch      1          // tile0058 (spacesuit)
+sprite   549 mdxoff     30000      // tile0058 (spacesuit)
 sprite   548 angoff    -512        // tile0058 (spacesuit)
-sprite   548 mdxoff     30000      // tile0058 (spacesuit)
 sprite   548 pitch      1          // tile0058 (spacesuit)
+sprite   548 mdxoff     30000      // tile0058 (spacesuit)
 sprite   547 angoff    -512        // tile0058 (spacesuit)
-sprite   547 mdxoff     30000      // tile0058 (spacesuit)
 sprite   547 pitch      1          // tile0058 (spacesuit)
+sprite   547 mdxoff     30000      // tile0058 (spacesuit)
 sprite   552 angoff    -512        // tile0061 boots
 sprite   550 angoff    -512        // tile0061 boots
 sprite   551 angoff    -512        // tile0061 boots
@@ -206,29 +206,29 @@ sprite   561 angoff     512        // tile0556 chair1
 sprite   389 angoff     256        // tile0060 accesscard blue
 sprite   542 angoff    -512        // tile0616 pipe2
 sprite   518 angoff    -512        // tile1227 nukebarrel
-sprite   518 mdzoff     500000     // tile1227 nukebarrel
 sprite   518 roll       1          // tile1227 nukebarrel
+sprite   518 mdzoff     500000     // tile1227 nukebarrel
 // mhk diff sync 2
-sprite   538 mdzoff     300000     // tile0618 pipe3
 sprite   538 roll       1          // tile0618 pipe3
+sprite   538 mdzoff     300000     // tile0618 pipe3
 sprite   537 angoff     512        // tile0619 pipe1
 sprite   520 angoff     1024       // tile1238 explodingbarrel
 sprite   521 angoff    -512        // tile1238 explodingbarrel
 sprite   536 angoff    -512        // tile0616 pipe2
-sprite   536 mdzoff     700000     // tile0616 pipe2
 sprite   536 pitch      1          // tile0616 pipe2
+sprite   536 mdzoff     700000     // tile0616 pipe2
 sprite   512 angoff    -384        // tile1238 explodingbarrel
 sprite   522 angoff    -640        // tile1227 nukebarrel
 sprite   513 angoff     1024       // tile1238 explodingbarrel
 sprite   541 angoff    -512        // tile0616 pipe2
-sprite   523 mdzoff     200000     // tile1238 explodingbarrel
 sprite   523 pitch     -1          // tile1238 explodingbarrel
+sprite   523 mdzoff     200000     // tile1238 explodingbarrel
 sprite   515 angoff    -512        // tile1238 explodingbarrel
 sprite   514 angoff    -896        // tile1238 explodingbarrel
 sprite   544 angoff     512        // tile0619 pipe1
 sprite   517 angoff    -768        // tile1238 explodingbarrel
-sprite   540 mdzoff     500000     // tile0617 pipe1b
 sprite   540 roll       1          // tile0617 pipe1b
+sprite   540 mdzoff     500000     // tile0617 pipe1b
 sprite   525 angoff     1024       // tile1238 explodingbarrel
 sprite   526 angoff    -640        // tile1238 explodingbarrel
 sprite   509 angoff     512        // tile0061 boots
@@ -241,7 +241,7 @@ sprite   532 angoff    -256        // tile1238 explodingbarrel
 sprite  1500 angoff     512        // tile0023 rpgsprite
 sprite   257 angoff     256        // tile0049 shotgunammo
 sprite   264 angoff     896        // tile0049 shotgunammo
-sprite   264 mdzoff     500000     // tile0049 shotgunammo
 sprite   264 pitch      1          // tile0049 shotgunammo
+sprite   264 mdzoff     500000     // tile0049 shotgunammo
 sprite  1250 angoff     1024       // tile0556 chair1
 sprite  1260 angoff    -512        // tile1014 bottle8

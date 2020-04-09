@@ -8,7 +8,7 @@
 //         <-> tracksidetragedy-2013-09-20.mhk
 //         <-> tracksideblizzard.mhk
 
-// Curr. HRP: r5.3.619
+// Curr. HRP: r5.4.722
 
 // 3-215 / 227-324 / 360-397
 sprite     3 angoff    -896        // tile0028 shotgunsprite
@@ -20,26 +20,26 @@ sprite   209 angoff    -128        // tile0056 airtank
 sprite   606 angoff     512        // tile0051 cola (multiplayer)
 sprite    35 angoff     1024       // tile0051 cola
 sprite    34 angoff     1024       // tile0051 cola
-sprite    30 mdzoff     2000000    // tile1342 (helicopter scrap)
 sprite    30 roll       1          // tile1342 (helicopter scrap)
+sprite    30 mdzoff     2000000    // tile1342 (helicopter scrap)
+sprite    31 pitch     -1          // tile1343 (helicopter scrap)
 sprite    31 mdxoff    -15000      // tile1343 (helicopter scrap)
 sprite    31 mdzoff     700000     // tile1343 (helicopter scrap)
-sprite    31 pitch     -1          // tile1343 (helicopter scrap)
 sprite    39 angoff     512        // tile0916 fireext
-sprite    39 mdzoff     200000     // tile0916 fireext
 sprite    39 pitch     -1          // tile0916 fireext
+sprite    39 mdzoff     200000     // tile0916 fireext
 sprite   605 angoff     512        // tile0025 shrinkersprite (multiplayer)
 sprite   607 angoff     128        // tile0047 hbombammo (multiplayer)
 sprite    20 angoff    -256        // tile0916 fireext
-sprite    20 mdzoff     200000     // tile0916 fireext
 sprite    20 pitch      1          // tile0916 fireext
+sprite    20 mdzoff     200000     // tile0916 fireext
 sprite    77 angoff     256        // tile0051 cola
 sprite   609 angoff     1024       // tile0044 rpgammo (multiplayer)
-sprite   609 mdzoff     300000     // tile0044 rpgammo (multiplayer)
 sprite   609 roll      -1          // tile0044 rpgammo (multiplayer)
+sprite   609 mdzoff     300000     // tile0044 rpgammo (multiplayer)
 sprite    75 angoff     256        // tile1234 (tile1233 money)
-sprite    75 mdxoff     22000      // tile1234 (tile1233 money)
 sprite    75 pitch     -1          // tile1234 (tile1233 money)
+sprite    75 mdxoff     22000      // tile1234 (tile1233 money)
 sprite   610 angoff     512        // tile0029 devistatorsprite (multiplayer)
 sprite    90 angoff     256        // tile0052 sixpack
 sprite    95 angoff     512        // tile0716 waittobeseated
@@ -49,33 +49,33 @@ sprite    99 angoff    -896        // tile1312 fem1 stripper
 sprite   100 angoff    -512        // tile1312 fem1 stripper
 sprite   613 angoff     512        // tile0021 firstgunsprite (multiplayer)
 sprite   614 angoff     512        // tile0054 shield (multiplayer)
-sprite   105 mdxoff     10000      // tile1161 bottle14
 sprite   105 pitch     -1          // tile1161 bottle14
-sprite   104 mdxoff     10000      // tile1159 bottle12
+sprite   105 mdxoff     10000      // tile1161 bottle14
 sprite   104 pitch     -1          // tile1159 bottle12
+sprite   104 mdxoff     10000      // tile1159 bottle12
 sprite   101 angoff     256        // tile1325 fem4 cavedancer
 sprite   102 angoff     512        // tile1325 fem4 cavedancer
 sprite   113 angoff     512        // tile0052 sixpack
 sprite   123 angoff    -512        // tile1161 bottle14
 sprite   615 angoff    -768        // tile0023 rpgsprite (multiplayer)
 sprite   144 angoff    -768        // tile0047 hbombammo
-sprite   144 mdzoff     800000     // tile0047 hbombammo
 sprite   144 pitch      1          // tile0047 hbombammo
+sprite   144 mdzoff     800000     // tile0047 hbombammo
 sprite   145 angoff    -256        // tile0023 rpgsprite
-sprite   145 mdzoff     700000     // tile0023 rpgsprite
 sprite   145 pitch      1          // tile0023 rpgsprite
+sprite   145 mdzoff     700000     // tile0023 rpgsprite
 sprite   140 angoff     256        // tile1353 spacemarine
-sprite   140 mdzoff     900000     // tile1353 spacemarine
 sprite   140 pitch      1          // tile1353 spacemarine
+sprite   140 mdzoff     900000     // tile1353 spacemarine
 sprite   139 angoff     512        // tile0060 accesscard yellow
 sprite    73 angoff     1024       // tile0678 scale
-sprite    73 mdzoff     500000     // tile0678 scale
 sprite    73 pitch     -1          // tile0678 scale
 sprite    73 roll      -1          // tile0678 scale
+sprite    73 mdzoff     500000     // tile0678 scale
 sprite    74 angoff     512        // tile0047 hbombammo
-sprite    74 mdzoff     300000     // tile0047 hbombammo
 sprite    74 pitch      1          // tile0047 hbombammo
 sprite    74 roll      -2          // tile0047 hbombammo
+sprite    74 mdzoff     300000     // tile0047 hbombammo
 sprite   285 angoff    -512        // tile0041 batteryammo
 sprite   551 angoff     512        // tile0059 heatsensor
 sprite   243 angoff    -768        // tile0052 sixpack
@@ -90,8 +90,8 @@ sprite   160 angoff     256        // tile0047 hbombammo
 sprite   617 angoff     1024       // tile0054 shield (multiplayer)
 sprite   557 angoff     1024       // tile0023 rpgsprite
 sprite   558 angoff     1024       // tile0044 rpgammo
-sprite   558 mdzoff     500000     // tile0044 rpgammo
 sprite   558 pitch      1          // tile0044 rpgammo
+sprite   558 mdzoff     500000     // tile0044 rpgammo
 sprite   176 angoff    -768        // tile0052 sixpack
 sprite   171 angoff     896        // tile1238 explodingbarrel
 sprite   169 angoff     384        // tile1238 explodingbarrel
@@ -104,11 +104,11 @@ sprite   447 angoff     1024       // tile0059 heatsensor
 sprite   621 angoff    -768        // tile0023 rpgsprite (multiplayer)
 sprite   623 angoff     896        // tile0047 hbombammo (multiplayer)
 sprite   620 angoff     512        // tile0054 shield (multiplayer)
-sprite   620 mdzoff     900000     // tile0054 shield (multiplayer)
 sprite   620 pitch     -1          // tile0054 shield (multiplayer)
+sprite   620 mdzoff     900000     // tile0054 shield (multiplayer)
 sprite   485 angoff     512        // tile0041 batteryammo
-sprite   485 mdzoff     700000     // tile0041 batteryammo
 sprite   485 roll      -1          // tile0041 batteryammo
+sprite   485 mdzoff     700000     // tile0041 batteryammo
 sprite   552 angoff    -128        // tile0041 batteryammo
 sprite   578 angoff     0          // tile0052 sixpack
 sprite   555 angoff     256        // tile0023 rpgsprite
@@ -126,9 +126,9 @@ sprite   643 angoff     512        // tile0054 shield (multiplayer)
 sprite   644 angoff     512        // tile0053 firstaid (multiplayer)
 sprite   632 angoff     768        // tile0041 batteryammo (multiplayer)
 sprite   215 angoff    -768        // tile0557 chair2
-sprite   215 mdzoff     500000     // tile0557 chair2
 sprite   215 pitch      1          // tile0557 chair2
+sprite   215 mdzoff     500000     // tile0557 chair2
 sprite   564 angoff     768        // tile0053 firstaid
-sprite   564 mdzoff     900000     // tile0053 firstaid
 sprite   564 pitch     -1          // tile0053 firstaid
+sprite   564 mdzoff     900000     // tile0053 firstaid
 sprite   210 angoff     0          // tile0060 accesscard red

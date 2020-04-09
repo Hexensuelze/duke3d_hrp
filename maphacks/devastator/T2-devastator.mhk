@@ -5,23 +5,23 @@
 // Filename : T2.MAP
 // mapmd4   : 239ec3e2aaa6d8ee0cd6f18603cb6fe9 // 2003-05-13
 
-// Curr. HRP: r5.3.576
+// Curr. HRP: r5.4.722
 
 sprite   155 angoff    -256        // tile0021 firstgunsprite
 sprite   154 angoff    -320        // tile2060 pigcopdeadsprite
-sprite   154 mdzoff     500000     // tile2060 pigcopdeadsprite
 sprite   154 pitch     -4          // tile2060 pigcopdeadsprite
 sprite   154 roll      -3          // tile2060 pigcopdeadsprite
+sprite   154 mdzoff     500000     // tile2060 pigcopdeadsprite
 sprite   153 angoff     1024       // tile0028 shotgunsprite
-sprite   153 mdzoff     500000     // tile0028 shotgunsprite
 sprite   153 pitch     -1          // tile0028 shotgunsprite
+sprite   153 mdzoff     500000     // tile0028 shotgunsprite
 sprite  1267 notmd                 // tile2266 (tile2265 jibs5)
-sprite  1305 angoff    -512        // tile1523 (tile1520 (duke torso))
 sprite  1305 nomdanim              // tile1523 (tile1520 (duke torso))
-sprite  1303 angoff     512        // tile1521 (tile1520 (duke torso))
+sprite  1305 angoff    -512        // tile1523 (tile1520 (duke torso))
 sprite  1303 nomdanim              // tile1521 (tile1520 (duke torso))
-sprite  1306 mdzoff     1200000    // tile1733 (tile1680 liztroop dying)
+sprite  1303 angoff     512        // tile1521 (tile1520 (duke torso))
 sprite  1306 pitch     -1          // tile1733 (tile1680 liztroop dying)
+sprite  1306 mdzoff     1200000    // tile1733 (tile1680 liztroop dying)
 //sprite  1070 nomdanim              // tile2264 (tile2260 jibs4)
 sprite  1070 roll      -32         // tile2264 (tile2260 jibs4)
 //sprite  1071 nomdanim              // tile2249 (tile2245 jibs1)
@@ -49,14 +49,14 @@ sprite  1284 nomdanim              // tile1032 (tile1031 glasspieces)
 sprite  1285 nomdanim              // tile1032 (tile1031 glasspieces)
 sprite  1287 nomdanim              // tile1032 (tile1031 glasspieces)
 sprite  1288 nomdanim              // tile1032 (tile1031 glasspieces)
-sprite  1299 angoff    -512        // tile1521 (tile1520 (duke torso))
-sprite  1299 mdzoff     500000     // tile1521 (tile1520 (duke torso))
-sprite  1299 mdyoff     20000      // tile1521 (tile1520 (duke torso))
-sprite  1299 roll      -1          // tile1521 (tile1520 (duke torso))
 sprite  1299 nomdanim              // tile1521 (tile1520 (duke torso))
-sprite  1300 mdxoff     20000      // tile1537 (tile1536 (duke gibs leg))
-sprite  1300 pitch     -1          // tile1537 (tile1536 (duke gibs leg))
+sprite  1299 angoff    -512        // tile1521 (tile1520 (duke torso))
+sprite  1299 roll      -1          // tile1521 (tile1520 (duke torso))
+sprite  1299 mdyoff     20000      // tile1521 (tile1520 (duke torso))
+sprite  1299 mdzoff     500000     // tile1521 (tile1520 (duke torso))
 sprite  1300 nomdanim              // tile1537 (tile1536 (duke gibs leg))
+sprite  1300 pitch     -1          // tile1537 (tile1536 (duke gibs leg))
+sprite  1300 mdxoff     20000      // tile1537 (tile1536 (duke gibs leg))
 sprite  1035 notmd                 // tile3211 (tile3210 respawnmarkergreen)
 sprite  1326 angoff    -768        // tile0557 chair2
 sprite  1320 angoff    -384        // tile0557 chair2
@@ -68,8 +68,8 @@ sprite  1996 angoff     1996       // tile0052 sixpack
 sprite  2276 angoff     512        // tile0047 hbombammo
 sprite  1998 angoff     1024       // tile0053 firstaid
 sprite  1997 angoff     1024       // tile0053 firstaid
-sprite  1997 mdzoff     300000     // tile0053 firstaid
 sprite  1997 pitch     -1          // tile0053 firstaid
+sprite  1997 mdzoff     300000     // tile0053 firstaid
 sprite  1318 angoff     1024       // tile0054 shield
 sprite  1825 angoff    -768        // tile0061 boots
 sprite   999 angoff    -384        // tile0046 crystalammo
@@ -89,11 +89,11 @@ sprite   433 angoff     1024       // tile1353 spacemarine
 sprite   464 nomdanim              // tile2258 (tile2255 jibs3)
 sprite   195 angoff     1024       // tile0025 shrinkersprite
 sprite  2007 angoff     512        // tile0047 hbombammo
-sprite  2003 mdzoff     500000     // tile0054 shield
 sprite  2003 pitch      1          // tile0054 shield
+sprite  2003 mdzoff     500000     // tile0054 shield
 sprite  2008 angoff    -512        // tile0024 freezesprite
-sprite   888 angoff    -512        // tile4651 (tile4610 newbeast)
 sprite   888 nomdanim              // tile4651 (tile4610 newbeast)
+sprite   888 angoff    -512        // tile4651 (tile4610 newbeast)
 sprite   837 notmd                 // tile0558 (tile0675 egg)
 sprite   874 notmd                 // tile0164 dipswitch2
 sprite  1897 notmd                 // tile0164 dipswitch2
@@ -109,20 +109,20 @@ sprite   670 nomdanim              // tile1032 (tile1031 glasspieces)
 sprite   664 nomdanim              // tile1033 (tile1031 glasspieces)
 sprite   667 nomdanim              // tile1033 (tile1031 glasspieces)
 sprite   668 nomdanim              // tile1033 (tile1031 glasspieces)
-sprite  1658 angoff    -512        // tile1926 (tile1920 commander)
 sprite  1658 nomdanim              // tile1926 (tile1920 commander)
+sprite  1658 angoff    -512        // tile1926 (tile1920 commander)
 sprite  1690 angoff    -256        // tile0023 rpgsprite
 sprite  2000 angoff     768        // tile0049 shotgunammo
-sprite  2000 mdzoff     500000     // tile0049 shotgunammo
 sprite  2000 pitch      1          // tile0049 shotgunammo
+sprite  2000 mdzoff     500000     // tile0049 shotgunammo
 sprite  1701 angoff     512        // tile0058 (spacesuit)
 sprite  1706 angoff     512        // tile0058 (spacesuit)
 sprite  1707 angoff     512        // tile0058 (spacesuit)
 sprite  1703 angoff     512        // tile0058 (spacesuit)
 sprite  1704 angoff     512        // tile0058 (spacesuit)
 sprite  1705 angoff     768        // tile0058 (spacesuit)
-sprite  1705 mdzoff     3000000    // tile0058 (spacesuit)
 sprite  1705 pitch     -1          // tile0058 (spacesuit)
+sprite  1705 mdzoff     3000000    // tile0058 (spacesuit)
 sprite  1702 angoff     1024       // tile0058 (spacesuit)
 sprite  1708 angoff     1024       // tile0058 (spacesuit)
 sprite  1709 angoff     1024       // tile0058 (spacesuit)

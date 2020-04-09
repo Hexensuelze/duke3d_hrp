@@ -8,7 +8,7 @@
 
 //         <-> RevisitNoctis-2015-01-02.mhk
 
-// Curr. HRP: r5.3.669
+// Curr. HRP: r5.4.722
 
 // Note: most floor/wall-aligned sprites are invisible when using Polymer :-(
 
@@ -77,12 +77,12 @@ sprite    39 roll      -224        // tile0041 batteryammo
 sprite    43 angoff     320        // tile0051 cola
 sprite    36 angoff     768        // tile0028 shotgunsprite
 sprite    48 angoff    -512        // tile0049 shotgunammo
-sprite    48 mdyoff     170        // tile0049 shotgunammo
 sprite    48 pitch      72         // tile0049 shotgunammo
 sprite    48 roll      -48         // tile0049 shotgunammo
+sprite    48 mdyoff     170        // tile0049 shotgunammo
+sprite   280 roll       64         // tile0026 heavyhbomb
 sprite   280 mdyoff    -130        // tile0026 heavyhbomb
 sprite   280 mdzoff     8000       // tile0026 heavyhbomb
-sprite   280 roll       64         // tile0026 heavyhbomb
 sprite    13 angoff    -832        // tile0051 cola
 sprite    34 angoff    -640        // tile0040 ammo
 sprite     6 angoff    -640        // tile0040 ammo
@@ -133,17 +133,17 @@ sprite   660 angoff     768        // tile0045 growammo
 sprite   661 angoff     768        // tile0045 growammo
 sprite   662 angoff     768        // tile0045 growammo
 sprite   344 angoff     512        // tile0041 batteryammo
-sprite   549 mdzoff     500000     // tile0024 freezesprite
 sprite   549 pitch     -2          // tile0024 freezesprite
 sprite   549 roll      -1          // tile0024 freezesprite
+sprite   549 mdzoff     500000     // tile0024 freezesprite
 sprite    91 angoff    -704        // tile0051 cola
 sprite   787 angoff    -640        // tile0051 cola
 sprite   469 angoff    -576        // tile0051 cola
 sprite    30 angoff     1024       // tile0049 shotgunammo
 sprite   548 angoff     1024       // tile0049 shotgunammo
 sprite    17 angoff     512        // tile0054 shield
-sprite    17 mdzoff     900000     // tile0054 shield
 sprite    17 pitch     -1          // tile0054 shield
+sprite    17 mdzoff     900000     // tile0054 shield
 sprite   704 angoff    -896        // tile0051 cola
 sprite   704 roll      -64         // tile0051 cola
 sprite   547 angoff    -128        // tile0051 cola
@@ -193,21 +193,21 @@ sprite   460 roll       32         // tile0042 devistatorammo
 sprite   459 angoff    -576        // tile0029 devistatorsprite
 sprite   459 pitch      32         // tile0029 devistatorsprite
 sprite   459 roll      -32         // tile0029 devistatorsprite
-sprite   438 mdxoff     50000      // tile0920 (chain)
 sprite   438 pitch     -1          // tile0920 (chain)
+sprite   438 mdxoff     50000      // tile0920 (chain)
 sprite   439 angoff     768        // tile2058 (tile2060 pigcopdeadsprite)
+sprite   439 pitch     -512        // tile2058 (tile2060 pigcopdeadsprite)
 sprite   439 mdxoff     400        // tile2058 (tile2060 pigcopdeadsprite)
 sprite   439 mdzoff     2000       // tile2058 (tile2060 pigcopdeadsprite)
-sprite   439 pitch     -512        // tile2058 (tile2060 pigcopdeadsprite)
 sprite   444 notmd                 // tile2301 wallblood1
 sprite   457 angoff    -256        // tile0054 shield
-sprite   442 mdxoff     200000     // tile0920 (chain)
 sprite   442 pitch     -1          // tile0920 (chain)
+sprite   442 mdxoff     200000     // tile0920 (chain)
 sprite   443 nomdanim              // tile1851 (tile1855 octadeadsprite)
 sprite   443 angoff    -576        // tile1851 (tile1855 octadeadsprite)
-sprite   443 mdxoff     300000     // tile1851 (tile1855 octadeadsprite)
-sprite   443 pitch     -1          // tile1851 (tile1855 octadeadsprite)
 //sprite   443 pitch     -512        // tile1851 (tile1855 octadeadsprite)
+sprite   443 pitch     -1          // tile1851 (tile1855 octadeadsprite)
+sprite   443 mdxoff     300000     // tile1851 (tile1855 octadeadsprite)
 sprite   449 notmd                 // tile2301 wallblood1
 sprite   458 angoff    -640        // tile0049 shotgunammo
 sprite   458 pitch      16         // tile0049 shotgunammo
@@ -259,5 +259,5 @@ sprite   478 angoff    -896        // tile1323 fem5 polebabe
 sprite   480 angoff     640        // tile1323 fem5 polebabe
 sprite   475 angoff     128        // tile1294 podfem1
 sprite   472 angoff     768        // tile1325 fem4 cavedancer
-sprite     5 mdxoff     3000       // tile0142 nukebutton
 sprite     5 pitch     -1          // tile0142 nukebutton
+sprite     5 mdxoff     3000       // tile0142 nukebutton

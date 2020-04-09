@@ -5,7 +5,7 @@
 // Filename : MOONSHOT.MAP
 // mapmd4   : a3d58b2aacd969962be37482e5e8784d // 1996-07-28
 
-// Curr. HRP: r5.4.683
+// Curr. HRP: r5.4.722
 
 sprite   388 angoff     640        // tile0028 shotgunsprite
 sprite   388 roll       80         // tile0028 shotgunsprite
@@ -34,8 +34,8 @@ sprite   431 pitch      80         // tile0049 shotgunammo
 sprite   431 roll      -48         // tile0049 shotgunammo
 sprite   434 angoff     256        // tile0040 ammo
 sprite   433 angoff     256        // tile0040 ammo
-sprite   737 mdzoff     400000     // tile0054 shield
 sprite   737 pitch     -1          // tile0054 shield
+sprite   737 mdzoff     400000     // tile0054 shield
 sprite   518 angoff    -512        // tile0044 rpgammo
 sprite   735 angoff    -512        // tile0026 heavyhbomb
 sprite   736 angoff     512        // tile0026 heavyhbomb
@@ -44,9 +44,9 @@ sprite   618 angoff    -128        // tile0026 heavyhbomb
 sprite    65 angoff    -512        // tile0047 hbombammo
 sprite   742 angoff    -512        // tile0054 shield
 sprite   584 angoff    -512        // tile0053 firstaid
+sprite   584 pitch     -512        // tile0053 firstaid
 sprite   584 mdxoff     60         // tile0053 firstaid
 sprite   584 mdzoff    -1600       // tile0053 firstaid
-sprite   584 pitch     -512        // tile0053 firstaid
 sprite   682 angoff     1024       // tile0022 chaingunsprite
 sprite   510 angoff     1024       // tile0022 chaingunsprite
 sprite   479 angoff     1024       // tile0022 chaingunsprite
@@ -64,9 +64,9 @@ sprite   693 angoff    -768        // tile0051 cola
 sprite    25 angoff     1024       // tile0049 shotgunammo
 sprite    29 angoff     640        // tile0955 bottle2
 sprite    30 angoff    -256        // tile0956 bottle3
-sprite    30 mdzoff     500000     // tile0956 bottle3
 sprite    30 pitch     -1          // tile0956 bottle3
 sprite    30 roll      -1          // tile0956 bottle3
+sprite    30 mdzoff     500000     // tile0956 bottle3
 sprite   691 angoff     512        // tile0041 batteryammo
 sprite   694 angoff    -512        // tile0022 chaingunsprite
 sprite   711 notmd                 // tile0132 slotdoor
@@ -82,11 +82,11 @@ sprite   106 angoff     384        // tile0022 chaingunsprite
 sprite   279 angoff    -128        // tile0053 firstaid
 sprite   280 angoff     128        // tile0049 shotgunammo
 sprite   662 nomdanim              // tile3429 (root)
-sprite   662 mdzoff     500000     // tile3429 (root)
 sprite   662 pitch      1          // tile3429 (root)
+sprite   662 mdzoff     500000     // tile3429 (root)
 sprite   663 nomdanim              // tile3429 (root)
-sprite   663 mdzoff     500000     // tile3429 (root)
 sprite   663 pitch      1          // tile3429 (root)
+sprite   663 mdzoff     500000     // tile3429 (root)
 sprite   615 angoff     256        // tile0041 batteryammo
 sprite   615 pitch     -16         // tile0041 batteryammo
 sprite   615 roll      -80         // tile0041 batteryammo
@@ -106,16 +106,16 @@ sprite   733 roll       24         // tile0051 cola
 sprite   731 angoff     512        // tile0026 heavyhbomb
 sprite   731 roll       48         // tile0026 heavyhbomb
 sprite   656 nomdanim              // tile3429 (root)
-sprite   656 mdzoff     500000     // tile3429 (root)
 sprite   656 pitch      1          // tile3429 (root)
+sprite   656 mdzoff     500000     // tile3429 (root)
 sprite   730 angoff    -768        // tile0059 heatsensor
 sprite   730 pitch      64         // tile0059 heatsensor
 sprite   730 roll       64         // tile0059 heatsensor
 sprite   551 angoff     640        // tile0026 heavyhbomb
 sprite   551 roll       48         // tile0026 heavyhbomb
 sprite   657 nomdanim              // tile3429 (root)
-sprite   657 mdzoff     500000     // tile3429 (root)
 sprite   657 pitch      1          // tile3429 (root)
+sprite   657 mdzoff     500000     // tile3429 (root)
 sprite    22 angoff    -640        // tile0956 bottle3
 sprite   253 angoff    -896        // tile0556 chair1
 sprite   511 angoff     1024       // tile0060 accesscard red
@@ -152,12 +152,12 @@ sprite   185 angoff    -512        // tile0022 chaingunsprite
 sprite   747 angoff    -512        // tile0054 shield
 sprite   745 angoff    -512        // tile0052 sixpack
 sprite   184 angoff    -512        // tile0027 tripbombsprite
-sprite   184 mdzoff     250000     // tile0027 tripbombsprite
 sprite   184 roll      -1          // tile0027 tripbombsprite
+sprite   184 mdzoff     250000     // tile0027 tripbombsprite
 sprite   136 angoff    -512        // tile0027 tripbombsprite
 sprite   746 angoff    -512        // tile0027 tripbombsprite
-sprite   746 mdzoff     250000     // tile0027 tripbombsprite
 sprite   746 roll       1          // tile0027 tripbombsprite
+sprite   746 mdzoff     250000     // tile0027 tripbombsprite
 sprite   598 notmd                 // tile0679 (battlelord holo)
 sprite   187 angoff     896        // tile0619 pipe1
 sprite   748 angoff    -896        // tile0026 heavyhbomb
@@ -172,18 +172,18 @@ sprite   150 angoff     1024       // tile1227 nukebarrel
 sprite   152 angoff     1024       // tile1227 nukebarrel
 sprite   153 angoff     1024       // tile1227 nukebarrel
 sprite   149 angoff     1024       // tile1227 nukebarrel
-sprite   149 mdzoff     200000     // tile1227 nukebarrel
 sprite   149 pitch      1          // tile1227 nukebarrel
+sprite   149 mdzoff     200000     // tile1227 nukebarrel
 sprite   154 angoff     1024       // tile1227 nukebarrel
-sprite   154 mdzoff     500000     // tile1227 nukebarrel
 sprite   154 pitch     -1          // tile1227 nukebarrel
-sprite   117 mdzoff     200000     // tile0055 steroids
+sprite   154 mdzoff     500000     // tile1227 nukebarrel
 sprite   117 roll       1          // tile0055 steroids
+sprite   117 mdzoff     200000     // tile0055 steroids
 sprite   752 angoff     512        // tile0026 heavyhbomb
 sprite   751 angoff     1024       // tile0026 heavyhbomb
-sprite   751 mdzoff     200000     // tile0026 heavyhbomb
 sprite   751 pitch     -1          // tile0026 heavyhbomb
 sprite   751 roll       1          // tile0026 heavyhbomb
+sprite   751 mdzoff     200000     // tile0026 heavyhbomb
 sprite   604 angoff    -256        // tile0994 pipe5
 sprite   146 angoff     1024       // tile0052 sixpack
 sprite   605 angoff    -512        // tile0996 pipe4
@@ -192,5 +192,5 @@ sprite   670 angoff    -512        // tile0046 crystalammo
 sprite   668 angoff    -512        // tile0041 batteryammo
 sprite   667 angoff    -512        // tile0041 batteryammo
 sprite   600 notmd                 // tile0679 (battlelord holo)
-sprite   168 mdxoff     3500       // tile0142 nukebutton
 sprite   168 pitch     -1          // tile0142 nukebutton
+sprite   168 mdxoff     3500       // tile0142 nukebutton
