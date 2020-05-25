@@ -480,7 +480,7 @@ texture 690 {
 
 // Butcher's knife (691)
 model "highres/sprites/props/0691_knife.md3" {
-   scale 16 shade 0
+   scale 16 shade 0 // zadd -0.5 // makes floor-aligned disappear
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props/0691_knife.jpg" }
    frame { name "FRAME1" tile 691 }
@@ -839,7 +839,7 @@ model "highres/sprites/props/0975_oceansprite5.md3" {
 
 // Vent shaft (976)
 model "highres/sprites/props_polymost/0976_ventshaft.md3" { 
-   scale 0.9 shade 15 
+   scale 0.85 shade 15 
    detail { file "highres/detail/metal.png" detailscale 0.3 }
    skin { pal 0 file "highres/sprites/props_polymost/0976_ventshaft.png" } 
 
@@ -1905,7 +1905,7 @@ model "highres/sprites/props/4520_goldchest.md3" {
 
 // Steed's gear (4524)
 model "highres/sprites/props/4524_steedgear.md3" {
-   scale 1.5 shade 0
+   scale 1.3 shade 0 zadd 17
    skin { pal 0 file "highres/sprites/props/4524_steedgear.png" }
    frame { name "FRAME1" tile 4524 }
 }
